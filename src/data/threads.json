@@ -1,0 +1,617 @@
+{
+  "syncedAt": "2026-08-08T23:37:59Z",
+  "source": "buffer",
+  "profileUrl": "https://www.threads.com/@gongpenclaw",
+  "channelService": "threads",
+  "count": 39,
+  "posts": [
+    {
+      "id": "6a76830fe3b00eb77233d9b7",
+      "text": "탈세 제보하고 나서 소식이 없어 답답한 분들께.\n국세청 훈령 원문을 뜯어서 그림 두 장으로 정리했습니다.\n\n제보하면 이렇게 흘러갑니다.\n① 접수 후 7일 안에 접수 안내가 옵니다\n② 제보는 셋 중 하나로 분류됩니다 — 과세활용(조사 착수) / 누적관리(보류) / 처리불가(종결)\n③ 60일 넘게 걸리면 중간회신이 오게 되어 있습니다\n④ 끝나면 처리결과 통지가 옵니다\n\n참고로 현금영수증 미발급 신고는 별도 트랙입니다 — 5년 내 신고, 가산세 20%, 정액 포상금(연 100만 원 한도).",
+      "sentAt": "2026-08-08T01:14:47.000Z",
+      "createdAt": "2026-08-08T01:14:47.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DbwqN8-gVmg",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a76830fe3b00eb77233d9b7_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a76830fe3b00eb77233d9b7_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a74b3f48965885e03044401",
+      "text": "공공데이터포털에 공개됐다고\nAI에게 편한 데이터인 것은 아닙니다.\n\nCSV·엑셀 파일도 AI가 읽을 수는 있습니다.\n하지만 내려받기, 최신 버전 확인, 형식 파싱, 재수집 과정이 필요합니다. \n\n반면 API는 AI가 필요한 항목을\n필요한 순간에 구조화된 형태로 반복 호출하고,\n다른 서비스와 바로 연결할 수 있습니다. \n\n그래서 AI 활용 관점에서는\n파일데이터보다 API가 대체로 접근성이 높습니다.\n\n공공데이터포털의 파일데이터 83,695건을 분석해보니\n우선 검토 후보는 11,442건,\n운영·정합성·구조·수요 기준을 모두 통과한 핵심 후보는 1,345건이었습니다. \n\nAI 시대의 공공데이터 개방 기준도\n이제 “게시되어 있는가”를 넘어\n“기계가 바로 호출해 쓸 수 있는가”까지 봐야 할 수도 있습니다.",
+      "sentAt": "2026-08-06T16:18:52.000Z",
+      "createdAt": "2026-08-06T16:18:52.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DbtH2UrgdHK",
+      "media": [
+        {
+          "type": "video",
+          "mimeType": "video/mp4",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a74b3f48965885e03044401_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a747a99b6e561ae9fa92dad",
+      "text": "리스펙합니다",
+      "sentAt": "2026-08-06T12:14:10.000Z",
+      "createdAt": "2026-08-06T12:14:10.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DbssFmlAa3z",
+      "media": []
+    },
+    {
+      "id": "6a73386f39fb67aafff4b5f0",
+      "text": "세종에서 올라간 보람이 있는 저녁이었습니다.\n\n박태웅 의장님께서 실무자들 이야기를 직접 들어보시겠다고 열어주신 번개에 다녀왔습니다. 온라인으로만 뵙던 공공AX 동료들을 드디어 얼굴 보고 만났습니다.\n\n고기 굽는 연기 사이로 오간 이야기가 어지간한 세미나보다 밀도가 높았습니다.\n\n세탁기 이야기를 말씀드렸습니다. 세탁기는 빨래를 없앤 게 아닙니다. 빨래에 묶여 있던 시간을 돌려줬고, 그 시간이 교육이 되고 사회 진출이 됐습니다. AI도 같은 길을 갈 것입니다. 일을 없애는 게 아니라 잡무에 묶인 시간을 돌려주는 것. 그렇게 돌려받은 시간을 판단과 기획으로 흘려보내는 일이, 지금 공공이 풀어야 할 숙제입니다.\n\n이런 자리가 계속 이어지면 좋겠습니다.",
+      "sentAt": "2026-08-05T13:19:35.000Z",
+      "createdAt": "2026-08-05T13:19:35.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DbqOx74ATmM",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a73386f39fb67aafff4b5f0_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a73386f39fb67aafff4b5f0_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a720c5f6fa73f01bec685fe",
+      "text": "덜 주목받는 지역에도, 읽어야 할 시장이 있습니다.\n\n수도권 부동산은 앱과 정보가 넘칩니다.\n인구감소지역은 특례 고시 하나, 실거래 표 하나로 흩어져 있습니다. 플랫폼은 사람이 모인 곳으로 가고, 관심이 적은 곳은 비어 남습니다.\n\n그래서 만들었습니다. “인구감소지역 부동산 상황판”\n인구감소지역·관심지역 107곳의 지정 특례와 최근 24개월 아파트 거래를 한 화면에 모았습니다.\n어디가 “싸다”가 아니라, 정책적으로 뭐가 다른지·표본은 얼마나 있는지·기준일은 언제인지를 먼저 보게 했습니다.\n\n투자 추천이 아닙니다.\n정부가 해야 할 일 중 하나(자본과 시장이 안 가는 곳을 보이게 하는 일)를, AI로 낮아진 개발 비용으로 실험한 결과입니다.",
+      "sentAt": "2026-08-04T15:59:21.000Z",
+      "createdAt": "2026-08-04T15:59:21.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/Dbn8PbNgca4",
+      "media": [
+        {
+          "type": "video",
+          "mimeType": "video/mp4",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a720c5f6fa73f01bec685fe_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a70f1c78fcce25742a70868",
+      "text": "기존에 하던 일을 AI로 100배 많이 하는 것이 AX일까?\n\n최근 GPT-5.6 루나의 가격 인하를 보면서 든 생각입니다.\nAI 사용 비용이 계속 낮아지면 우리는 보고서도, 홍보물도, 조사자료도 이전보다 수십 배 많이 만들 수 있습니다. 그런데 \"기존에 하던 일을 100배 저렴하게 하는 일, 기존에 하던 일은 100배 많이 하는 일이 과연 혁신일까\"라는 생각이 듭니다.\n\n저는 요즘 정부혁신박람회를 준비하고 있습니다. 과거에는 행사 홈페이지 제작을 대행업체에서 만들어주실 때까지 기다렸는데, 지금은 제가 PoC를 직접 만들어서 부탁드릴 수 있습니다. 과거에는 모든 기업에 비슷한 초청자료를 보냈는데 지금은 수백 개 기업을 에이전트가 조사해 각 기업이 박람회에 참여해야 하는 이유를 찾고, 기업별 맞춤형 브로셔를 만들 수 있게 되었습니다.\n\n중요한 것은 일을 더 빨리 하게 됐다는 점이 아닌 것 같습니다. AI가 없었다면 시간과 비용 때문에 애초에 시도하지 않았을 일을 하게 됐다는 점입니다.",
+      "sentAt": "2026-08-03T19:53:38.000Z",
+      "createdAt": "2026-08-03T19:53:38.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DblySN_E4Hx",
+      "media": []
+    },
+    {
+      "id": "6a6f19d9b22b668a0d3bb5e9",
+      "text": "공무원은 AI 실험할 데이터가 없습니다.\n\n이상하죠. 매일 데이터를 만지는 직업인데요. 문제는 그게 전부 보안 영역이라는 겁니다. 내부 자료는 한 줄도 실험용으로 못 씁니다. 제일 잘 아는 지식일수록 제일 못 쓰는 역설이에요.\n\n그래서 저는 공공데이터포털을 팠습니다. 눈치 안 보고 마음껏 쓸 수 있는 유일한 양질의 데이터 창고라서요. 제 사이드 프로젝트 대부분이 여기서 나왔습니다.\n\n솔직히, 쓰기 어려운 곳이었습니다. 정확한 검색어를 모르면 원하는 데이터를 못 찾아요. 저는 검색을 ai에이전트한테 통째로 맡겨서 버텼는데, 그게 안 되는 분들은 대부분 입구에서 포기했을 겁니다.\n\n내일(8/3)부터 여기에 AI 대화형 검색이 붙습니다. “우리 동네 어린이 보호구역 알려줘” 이렇게 문장으로 물어보면 데이터를 찾아준다고요.\n\n궁금한 공공데이터 있으면 댓글로 남겨주세요. 내일 제가 직접 물어봐드리겠습니다.",
+      "sentAt": "2026-08-02T10:20:02.000Z",
+      "createdAt": "2026-08-02T10:20:02.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DbiLzQ5gfjC",
+      "media": [
+        {
+          "type": "video",
+          "mimeType": "video/mp4",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a6f19d9b22b668a0d3bb5e9_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a6ccb12e2b7685e41b3d47e",
+      "text": "국무회의가 공개되고, 그 취지에 맞춰 간부회의까지 생중계하는 부처가 늘고 있습니다. 좋은 흐름인데, 막상 보려면 부처 유튜브를 하나하나 찾아 들어가야 합니다.\n\n공개는 “올린다”에서 끝나지 않습니다. 국민이 “지금 뭐가 열렸는지”를 한눈에 볼 수 있어야 공개가 완성됩니다.\n\n국회방송 홈페이지에는 상임위 멀티뷰가 있습니다. 여러 회의를 한 화면에 깔아 두고, 지금 열리는 회의만 켜집니다. 부처 버전은 왜 없을까 싶어서 만들었습니다.",
+      "sentAt": "2026-07-31T16:19:20.000Z",
+      "createdAt": "2026-07-31T16:19:20.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DbdrR_PAYpm",
+      "media": [
+        {
+          "type": "video",
+          "mimeType": "video/mp4",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a6ccb12e2b7685e41b3d47e_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a68d0203831d6fc2772a132",
+      "text": "\"AI 써보라\"는 말은 계속 듣습니다. 정작 내 업무 어디에 붙일지는 막막합니다.\n\nAX의 핵심은 기술이 아니라 업무 프로세스 재설계라는 말도 듣습니다. 맞는 말입니다. 그런데 들을 때마다 걸렸습니다. 재설계를 하려면 그 일이 지금 어떻게 흘러가는지부터 알아야 하는데, 제 업무를 그렇게 들여다본 적이 없었으니까요.\n\n절차를 그대로 둔 채 AI만 얹으면 잘못 설계된 일이 빨라질 뿐입니다. 종이를 PDF로 바꾸는 건 전산화지 혁신이 아닙니다.\n\n그래서 이것저것 해봤는데 안 됐습니다. 이유는 단순합니다. 남의 일하는 방식을 논하는 동안, 정작 제 일하는 방식은 그대로였으니까요.\n\n방향을 바꿨습니다. 마침 11월 정부혁신박람회를 준비 중이고, 지금 참여기관 수요조사를 받고 있습니다. 행사 홍보를 AI로 해보기로 했습니다.\n\n내돈내산처럼, 내 업무를 내가 AX하고 내가 홍보합니다. 되든 안 되든 과정을 그대로 올리겠습니다. \n\n(1/3)",
+      "sentAt": "2026-07-28T15:51:47.000Z",
+      "createdAt": "2026-07-28T15:51:47.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DbV5uDxAdw0",
+      "media": [
+        {
+          "type": "video",
+          "mimeType": "video/mp4",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a68d0203831d6fc2772a132_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a685eaad88abb469cf795b7",
+      "text": "내 업무 내가 홍보한다!",
+      "sentAt": "2026-07-28T07:47:50.000Z",
+      "createdAt": "2026-07-28T07:47:50.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DbVCdGhgbcJ",
+      "media": []
+    },
+    {
+      "id": "6a6571ad4485b97580ccfd66",
+      "text": "7월 9일 Korea100을 처음 공개했습니다.\n\n기업에는 비즈니스 모델이 있듯이, 국가에는 제도 모델이 있다고 생각했습니다. 법령·조직·절차·문서·기한으로 흩어진 정보를 한 장의 요약과 업무구조도로 읽을 수 있게 만들고자 했습니다.\n\n대표 제도 100개로 시작한 프로젝트는 제작 요청을 받으며 509개 제도로 늘어났습니다. 제도마다 누가 어떤 단계에서 무엇을 하는지, 어떤 문서와 기한이 필요한지, 어디에서 절차가 되돌아가는지를 구조로 정리했습니다.\n\n만들면서 행정의 난점은 정보가 부족해서만이 아니라는 점을 더 분명히 느꼈습니다. 많은 정보가 줄글로 흩어져 있어, 일반 국민이 전체 흐름을 파악하고 질문하기 어렵습니다.\n\n이번 영상은 Korea100이 무엇을 만드는 프로젝트인지 한눈에 보여주기 위해 만들었습니다. 줄글로 된 행정을 읽을 수 있는 구조로 바꾸는 작업입니다.",
+      "sentAt": "2026-07-26T02:32:07.000Z",
+      "createdAt": "2026-07-26T02:32:07.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DbPUtTDgSqQ",
+      "media": [
+        {
+          "type": "video",
+          "mimeType": "video/mp4",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a6571ad4485b97580ccfd66_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a63e3004485b97580cb74c5",
+      "text": "어제 제1회 AI 정부 실험실 이용자 포럼에 다녀왔습니다. 스무 명 남짓이 각자 만든 걸 들고 모였습니다. 소속도 직급도 하는 일도 다 달랐는데, 발표를 듣다 보니 공통점이 하나 있었습니다. 전부 “내가 이게 불편해서”에서 출발했다는 것. 누가 시켜서 만든 사람이 한 명도 없었습니다.\nDX 시대에 정부가 만든 것들을 생각해봅니다. 전자결재, 나이스, 온나라. 크고, 하나였습니다. 수만 명이 같은 화면을 보게 만드는 게 목표였고, 그건 그 시대에 맞는 답이었습니다. 종이를 없애고 절차를 표준화하는 일에는 규모의 힘이 필요했으니까요. 지금도 그 시스템들 위에서 행정이 돌아갑니다.\n다만 AX는 성격이 다르다고 생각합니다. 방향이 반대예요. DX가 수렴이라면 AX는 발산입니다. 개인화되고, 다양해집니다.\n지금 공무원 한명 한명을 붙잡고 있는 건 과마다 다르고 사람마다 다른 것들입니다.",
+      "sentAt": "2026-07-24T22:11:03.000Z",
+      "createdAt": "2026-07-24T22:11:03.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DbMSD7tE_1z",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a63e3004485b97580cb74c5_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a63e3004485b97580cb74c5_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a6141c8da4d27a5a10922e7",
+      "text": "GitHub 계정이 갑자기 정지됐습니다.\n\n제일 먼저 든 생각은\n“내가 뭘 잘못했지?”가 아니라\n“Korea100이 안 되면 어떡하지?”였습니다.\n\n메일 사전 통지도 없었고, 화면에 뜬 건 ToS 위반 한 줄입니다.\n공공 행정 구조도를 모아온 공간이 한꺼번에 잠기니 정말 아찔했습니다.\n\n원인은 아마..\n새 레포를 만들고 짧은 시간에 커밋·태그·릴리스를 너무 빠르게 밀어 넣은 것으로 보이니다.\nAI로 작업하면 사람 속도가 안 보이거든요.\n플랫폼 눈에는 자동화처럼 보였을 수 있습니다.\n\nSupport에 사실만 정리해 보냈고, 하루 만에 풀렸습니다.\n\n그런데 이번 일로 더 오래 남은 질문은 복구 여부보다 이쪽이었습니다.\n개인이 만드는 공공AX 산출물의 연속성은 어디에 기대고 있는가.\n\n레포 하나, 계정 하나, 플랫폼 정책 하나에\n수개월치 작업이 통째로 흔들릴 수 있다면\n그건 개인의 성실함 문제라기보다\n지속가능성 설계의 문제입니다.\n\n온ai실험실이 풀어갈 수 있는 문제 같습니다.",
+      "sentAt": "2026-07-22T22:18:41.000Z",
+      "createdAt": "2026-07-22T22:18:41.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DbHJWIpkwsw",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a6141c8da4d27a5a10922e7_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a6141c8da4d27a5a10922e7_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a5e93d04f951c8f89218c53",
+      "text": "처음으로 오픈소스를 공개합니다. 솔직히 조금 떨리네요.\n\n대한민국 제도 100(korea100)을 만들며 509개 제도의 '업무구조도'를 세로 흐름도로 그렸습니다. 그런데 막상 만들고 보니, 일반 국민 입장에선 이용도와 접근성이 아직 많이 부족하더라고요. 그래서 계속 붙들고 있습니다.\n\n아래가 그 흐름도의 실제 출력물이에요.",
+      "sentAt": "2026-07-20T21:31:57.000Z",
+      "createdAt": "2026-07-20T21:31:57.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DbB6Zmck3t1",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a5e93d04f951c8f89218c53_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a5e93d04f951c8f89218c53_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a5dd5941cc9c0055cd44d1e",
+      "text": "은행·보험·카드 분쟁이 생기면\n많은 사람이 바로 소송을 떠올립니다.\n\n그런데 금융 쪽에는\n분쟁조정 트랙이 먼저 있는 경우가 많습니다.\n신청 → 사실확인 → 금융회사 의견 → 조정·결정.\n\n제도100: 금융분쟁조정 구조도.",
+      "sentAt": "2026-07-20T08:00:16.000Z",
+      "createdAt": "2026-07-20T08:00:16.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DbAdgXPCY6E",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a5dd5941cc9c0055cd44d1e_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a5dd5941cc9c0055cd44d1e_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a5dc0760254fb673e792753",
+      "text": "코인 이야기의 대부분은 가격입니다.\n그런데 사고가 나면 남는 질문은 이겁니다.\n\n\"그 사업자는 신고된 곳인가.\"\n\"내 자산은 어떻게 보호되나.\"\n\"이상거래는 누가 보나.\"\n\n가상자산이용자보호 체계는\n투자 추천이 아니라 사업자 규율·이용자 보호 지도입니다.\n\n제도100: 가상자산사업자 신고·이용자보호 점검.",
+      "sentAt": "2026-07-20T06:30:11.000Z",
+      "createdAt": "2026-07-20T06:30:11.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DbATMhfCcFc",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a5dc0760254fb673e792753_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a5dc0760254fb673e792753_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a5dab5c0254fb673e7916bf",
+      "text": "처분 통지를 받으면 머릿속이 멈춥니다.\n과태료 이의, 민원, 소송… 뭐가 뭔지 갈립니다.\n\n행정심판은\n\"행정청 처분에 불복해 재결을 받는\" 공식 트랙입니다.\n심판청구 → 답변·심리 → 재결 → 이행 확인.\n\n제도100: 행정심판 청구·심리·재결 구조도.",
+      "sentAt": "2026-07-20T05:00:08.000Z",
+      "createdAt": "2026-07-20T05:00:08.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DbAI5HFCYA2",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a5dab5c0254fb673e7916bf_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a5dab5c0254fb673e7916bf_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a5d96450254fb673e790635",
+      "text": "산재가 \"다친 사람 구제\"라면,\n중대재해는 \"왜 또 같은 위험이 남았는가\"를 묻는 쪽에 가깝습니다.\n\n중대한 산업재해·시민재해가 나면\n안전보건 확보의무를 다하지 않은\n사업주·경영책임자 쪽 책임이 문제될 수 있습니다.\n\n제도100: 중대재해 처벌·예방 구조도.",
+      "sentAt": "2026-07-20T03:30:07.000Z",
+      "createdAt": "2026-07-20T03:30:07.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/Da_-lzRCaxV",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a5d96450254fb673e790635_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a5d96450254fb673e790635_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a5d7a290fefd32fe279cf27",
+      "text": "다친 뒤 제일 먼저 하는 말이 종종 이겁니다.\n\"회사 눈치를 봐야 하나.\"\n\n산재는 회사의 선심이 아니라\n신청·조사·판정·요양·보상 순서를 밟는 제도입니다.\n\n업무상 사고뿐 아니라\n질병 인정 경로도 따로 있습니다.\n제도100: 산업재해 요양·업무상 질병 인정 구조도.",
+      "sentAt": "2026-07-20T01:30:10.000Z",
+      "createdAt": "2026-07-20T01:30:10.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/Da_w3EMnyLS",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a5d7a290fefd32fe279cf27_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a5d7a290fefd32fe279cf27_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a5d65126e91fc1659588ae6",
+      "text": "육아휴직은 \"잠깐 쉬는 일\"이 아닙니다.\n신청, 사업주 확인, 급여, 복직, 불리한 처우 구제가 한 줄로 이어집니다.\n\n가장 많이 막히는 지점은 법 조문이 아니라\n\"회사에 어떻게 말하느냐\"와 \"급여는 어디서 신청하느냐\"가 갈라지는 순간입니다.\n\n제도100에 고용평등·육아휴직 지원·분쟁조정 경로를 구조도로 정리했습니다.",
+      "sentAt": "2026-07-20T00:00:13.000Z",
+      "createdAt": "2026-07-20T00:00:13.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/Da_mkSBH1TM",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a5d65126e91fc1659588ae6_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a5d65126e91fc1659588ae6_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a5cca5fe44b0ac087f06dc4",
+      "text": "강의안을 편집자가 합의 없이\n2시간짜리를 1시간으로 줄여 배포했다면?\n\n많은 사람이 이렇게 생각합니다.\n“분량만 줄인 거 아니야?”\n“교육용이니까 괜찮지 않아?”\n“계약서에 편집 권한이 있잖아.”\n\n그런데 저작권법은 여기서\n‘편집 관행’과 ‘권리 침해’를 구분합니다.\n\n특히 문제되는 것이\n저작인격권 중 하나인\n동일성유지권(제13조)입니다.\n\n제도100에 저작권법 업무구조도 4장을\n새로 올렸습니다. 이어서 풀어볼게요.",
+      "sentAt": "2026-07-19T13:00:11.000Z",
+      "createdAt": "2026-07-19T13:00:11.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/Da-bCJIicYu",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a5cca5fe44b0ac087f06dc4_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a5cca5fe44b0ac087f06dc4_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a5cc8f7f0e179b49ec2c126",
+      "text": "강의안을 편집자가 합의 없이\n2시간짜리를 1시간으로 줄여 배포했다면?\n\n많은 사람이 이렇게 생각합니다.\n“분량만 줄인 거 아니야?”\n“교육용이니까 괜찮지 않아?”\n“계약서에 편집 권한이 있잖아.”\n\n그런데 저작권법은 여기서\n‘편집 관행’과 ‘권리 침해’를 구분합니다.\n\n특히 문제되는 것이\n저작인격권 중 하나인\n동일성유지권(제13조)입니다.\n\n제도100에 저작권법 업무구조도 4장을\n새로 올렸습니다. 이어서 풀어볼게요.",
+      "sentAt": "2026-07-19T12:54:11.000Z",
+      "createdAt": "2026-07-19T12:54:11.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/Da-aWo_CUcV",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a5cc8f7f0e179b49ec2c126_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a5cc8f7f0e179b49ec2c126_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a5ca7732af410b5e676c0e3",
+      "text": "OpenAI가 최근 ‘에이전트 작업을 위한 커맨드 센터’라는 이름의 키패드를 내놨습니다. 230달러. 승인과 거부를 누르는 전용 키, 에이전트 상태를 색으로 보여주는 조명, 추론 수준을 조절하는 다이얼.\n비슷한 LCD 키패드를 개조해서 직접 만들어봤습니다. Claude, Codex, OpenClaw 세 에이전트에 각각 계속 / 예 / 중단.\n만들고 나서 ‘이건 키보드가 아니라 결재판이라는 것’을 알게 되었습니다.",
+      "sentAt": "2026-07-16T02:32:29.000Z",
+      "createdAt": "2026-07-16T02:32:29.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/Da1k05ZgUIC",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a5ca7732af410b5e676c0e3_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a5ca7732af410b5e676c0e3_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a65cd06fbee2a258b174255",
+      "text": "Korea100 104~109번째 구조도는 공공조달 묶음으로 정리했습니다.\n\n공공조달은 하나의 “입찰 절차”처럼 보이지만, 실제로는 혁신제품, 지방계약, 중소기업제품 공공구매, 우수조달물품, 국방조달, 공공 SW 발주처럼 제도별로 전혀 다른 문법을 탑니다.\n\n이번에 올린 구조도는 다음 6개입니다.\n\n104 혁신제품 지정·시범구매 절차\n105 지방계약 입찰·계약 절차\n106 중소기업제품 공공구매·직접생산확인\n107 조달청 우수조달물품 지정·관리\n108 국방조달·방위사업 입찰\n109 공공 SW 발주·제안평가·과업변경\n\n나라장터 공고와 계약 체결만 보는 것이 아니라, 지정·추천·직접생산확인·적격심사·협상평가·시범구매·수의계약·검사·대금지급·부정당업자 제재까지 한 장씩 따라가도록 만들었습니다.\n\n실무적으로 보실 때 빠진 법령, 실제 조달·계약 흐름과 다른 부분, 보완할 기준이나 현장 절차가 있으면 알려주세요.",
+      "sentAt": "2026-07-12T05:19:43.000Z",
+      "createdAt": "2026-07-12T05:19:43.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DarkyO9gSpJ",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a65cd06fbee2a258b174255_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a65cd06fbee2a258b174255_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a3e472e7d077899bf1360e9",
+      "text": "서울기록원 〈제5회 소장자료 정리와 기술 사례발표회〉에서 발표를 맡았습니다.\n\n저는 ‘읽히지 않는 기록은 존재하는가: AI readable 관보 프로젝트’라는 주제로 이야기를 나눴습니다. 그런데 막상 현장에 와보니, 제가 발표한 것보다 다른 분들의 사례에서 더 많이 배워 갔습니다.\n\n기록을 다루는 아키비스트분들이 AI를 어떻게 받아들이고 계신지, 그 ‘AX’의 현장을 제대로 들여다본 자리였습니다. 대통령 웹기록물을 데이터로 엮고, 행정 데이터세트를 어떻게 모아 공개하고 활용할지 고민하는 이야기들이 이어졌습니다.\n\n제가 알던 ‘기록’의 세계가 이렇게 넓고 빠르게 움직이는 줄 몰랐습니다. 새로운 세상을 살짝 엿본 기분이라, 놀랍고 또 오랜만에 즐거웠습니다.",
+      "sentAt": "2026-06-26T09:32:23.000Z",
+      "createdAt": "2026-06-26T09:32:23.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DaC0-2FAfuf",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a3e472e7d077899bf1360e9_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a3e472e7d077899bf1360e9_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a1e0f11f1515dcfe089bde6",
+      "text": "“연예인과 핵폭탄”\n\n이 조합, 무슨 상관일까요?\n핵 경쟁의 본질은 위력이 아니라 비대칭이었어요. 가진 쪽과 못 가진 쪽 사이에 능력으로는 못 메우는 격차가 생기죠.\n\nAI도 비슷합니다. AI를 쓰는 사람 앞에서, AI를 안 쓰는 사람은 실력과 무관하게 밀립니다.\n\n그래서 등장한 게 ‘연예인’입니다. 사람 아닙니다. 연구개발 예산심의 인공지능 → 연·예·인. 과기정통부가 국가 R&D 예산을 배분·조정하는 과정을 돕는 AI죠.",
+      "sentAt": "2026-06-01T23:00:09.000Z",
+      "createdAt": "2026-06-01T23:00:09.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DZD5jPSkWxc",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a1e0f11f1515dcfe089bde6_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a1e0f11f1515dcfe089bde6_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a1d74a938e95d36265dfb7a",
+      "text": "AI가 행정에 접목되면 많은 변화가 생기겠지만.... 소외계층을 더 적극적으로 살필 수 있을 것으로 예상합니다. 공공AI가 지역간 소외, 지역 내에서의 소외 등을 살필 수 있는 수단이 될 수 있도록 만들어야합니다.",
+      "sentAt": "2026-05-31T23:00:29.000Z",
+      "createdAt": "2026-05-31T23:00:29.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DZBUyxbDfc6",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a1d74a938e95d36265dfb7a_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a1d74a938e95d36265dfb7a_thumbnail.jpg"
+        },
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a1d74a938e95d36265dfb7a_1_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a1d74a938e95d36265dfb7a_1_thumbnail.jpg"
+        },
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a1d74a938e95d36265dfb7a_2_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a1d74a938e95d36265dfb7a_2_thumbnail.jpg"
+        },
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a1d74a938e95d36265dfb7a_3_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a1d74a938e95d36265dfb7a_3_thumbnail.jpg"
+        },
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a1d74a938e95d36265dfb7a_4_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a1d74a938e95d36265dfb7a_4_thumbnail.jpg"
+        },
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a1d74a938e95d36265dfb7a_5_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a1d74a938e95d36265dfb7a_5_thumbnail.jpg"
+        },
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a1d74a938e95d36265dfb7a_6_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a1d74a938e95d36265dfb7a_6_thumbnail.jpg"
+        },
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a1d74a938e95d36265dfb7a_7_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a1d74a938e95d36265dfb7a_7_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a1bf79c3ee2c3f752983440",
+      "text": "5월 29일부터 행정안전부 등 일부 부처 행정내부망에 구글 Gemma4, LG EXAONE이 들어왔습니다!",
+      "sentAt": "2026-05-31T04:55:10.000Z",
+      "createdAt": "2026-05-31T04:55:10.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DY_Ylr-AR-y",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a1bf79c3ee2c3f752983440_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a1bf79c3ee2c3f752983440_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a1860116a127301d89537eb",
+      "text": "Buffer MCP 테스트입니다.",
+      "sentAt": "2026-05-29T20:00:41.968Z",
+      "createdAt": "2026-05-28T15:32:33.228Z",
+      "status": "sent",
+      "via": "buffer",
+      "url": "https://www.threads.com/@gongpenclaw/post/DY72nauFQuS",
+      "media": []
+    },
+    {
+      "id": "6a1861da5dc2381737b1448b",
+      "text": "Buffer MCP 인스타그램 카드뉴스 업로드 테스트입니다.\n\n#공픈클로 #카드뉴스 #BufferMCP",
+      "sentAt": "2026-05-29T20:00:00.000Z",
+      "createdAt": "2026-05-28T15:40:10.499Z",
+      "status": "error",
+      "via": "buffer",
+      "url": null,
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/png",
+          "thumbnail": "https://raw.githubusercontent.com/hosungseo/jeonnam-issue-cards/main/cards/2026-05-22/%EC%88%9C%EC%B2%9C%EC%8B%9C.png",
+          "source": "https://raw.githubusercontent.com/hosungseo/jeonnam-issue-cards/main/cards/2026-05-22/%EC%88%9C%EC%B2%9C%EC%8B%9C.png"
+        }
+      ]
+    },
+    {
+      "id": "6a1a0fdbb86df8cab8fa6dab",
+      "text": "https://mobile.newsis.com/view/NISX20260515_0003631882\n\n행안부는 어제부터 엑사원이랑 Gemma4 행정 내부망에서 씁니다!! 공공인공지능혁신과장님 샤라웃 합니다",
+      "sentAt": "2026-05-29T16:42:38.000Z",
+      "createdAt": "2026-05-29T16:42:38.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DY7f9jPAend",
+      "media": []
+    },
+    {
+      "id": "6a185cb9ba48ec7e11eb6161",
+      "text": "영광입니다 SBS\nhttps://youtu.be/o32Acnw34u8?si=UuphV-AXIhRHaqKJ",
+      "sentAt": "2026-05-28T11:33:27.000Z",
+      "createdAt": "2026-05-28T11:33:27.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DY4XyLWAfGf",
+      "media": []
+    },
+    {
+      "id": "6a185cb9ba48ec7e11eb6159",
+      "text": "공직사회 지식관리, 인수인계, 암묵지 양성화는 안드레 카파시가 주장하는 ai를 활용한 ”지식베이스(일종의 위키)“일 수 있습니다.\n행정기관은 업무 인계·인수를 전자적으로 바꾸려 애써왔습니다. 형식을 디지털화하는 것만으로는 맥락이 살아나지 않았습니다. 후임자가 진짜 필요한 것은 목록이 아니라 왜, 어디서, 어떻게의 문맥입니다.\nAI 에이전트와 위키가 결합하면 전임자의 산출물과 암묵지가 부서의 지식층으로 남습니다. 후임자에게는 전임자가 옆자리에 앉아 있는 것 같은 효과, 신입에게는 훨씬 나은 온보딩이 됩니다. \nhttps://gongpenclaw.substack.com/p/ai",
+      "sentAt": "2026-04-12T00:34:41.000Z",
+      "createdAt": "2026-04-12T00:34:41.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DXAv1AygbwN",
+      "media": []
+    },
+    {
+      "id": "6a185cb9ba48ec7e11eb615b",
+      "text": "공공 AX는 아직 도입 단계가 아닙니다. 현장에서는 이미 시작됐습니다. 선언이 늦었을 뿐입니다.\n그래서 핵심 과제는 금지가 아니라 채널화입니다. 누가 어떤 업무에서 AI를 쓰고 있는지, 어디서 검토하고 승인할지, 어떤 로그를 남길지를 구조로 만들어야 합니다.\nAX의 성패는 여기서 갈립니다. 현실을 부정하는 조직보다, 이미 올라온 수요를 승인 가능한 흐름으로 묶는 조직이 먼저 갑니다. https://gongpenclaw.substack.com/p/ax-c02",
+      "sentAt": "2026-04-12T00:32:41.000Z",
+      "createdAt": "2026-04-12T00:32:41.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DXAvmXCgT0Q",
+      "media": []
+    },
+    {
+      "id": "6a185cb9ba48ec7e11eb615d",
+      "text": "공공 AX의 핵심은 코딩 교육 확대보다 능력의 인터페이스화입니다.\n공무원이 직접 코드를 짜지 않아도, 개발자처럼 일하는 구조를 사용할 수 있어야 합니다. 일을 나누고, 요청을 쓰고, 결과를 검토하고, 승인 지점을 보는 구조 말입니다.\nDX가 시스템을 보급했다면, AX는 능력을 인터페이스로 배포합니다. 공공 AI 에이전트의 역할도 바로 여기에 있습니다. https://gongpenclaw.substack.com/p/03f",
+      "sentAt": "2026-04-12T00:31:37.000Z",
+      "createdAt": "2026-04-12T00:31:37.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DXAvefFgUsQ",
+      "media": []
+    },
+    {
+      "id": "6a185cb9ba48ec7e11eb6164",
+      "text": "‘정보공개법’에 따라 정부 정보를 공개해왔습니다. 이제는 AI-readable이 필요합니다.\n정보가 공개돼 있어도 조문 구조, 메타데이터, 링크, 버전 정보, 검색 가능한 텍스트가 없으면 AI는 매번 기초 작업부터 다시 해야 합니다.\n그래서 인간 가독성보다 먼저 AI-readable 기반이 필요합니다. 그 위에서 개인화된 설명과 요약은 얼마든지 만들어질 수 있습니다. https://gongpenclaw.substack.com/p/ai-readable",
+      "sentAt": "2026-04-12T00:29:42.000Z",
+      "createdAt": "2026-04-12T00:29:42.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DXAvQb7gcOE",
+      "media": []
+    },
+    {
+      "id": "6a185cb9ba48ec7e11eb615f",
+      "text": "AX의 출발점은 모델 선택이 아니라 업무 분해입니다.\n일을 쪼개야 무엇을 자동화할지, 무엇을 검토할지, 어디서 사람이 승인해야 할지가 보입니다. packet이 보여야 workflow가 설계됩니다.\n특히 공공 AX에서는 approval boundary가 먼저입니다. 거대한 AI보다, 잘게 나뉜 일의 구조가 현실을 움직입니다. \nhttps://gongpenclaw.substack.com/p/ax",
+      "sentAt": "2026-04-11T22:27:09.000Z",
+      "createdAt": "2026-04-11T22:27:09.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DXAhO4qk32Z",
+      "media": []
+    },
+    {
+      "id": "6a185cb9ba48ec7e11eb616a",
+      "text": "공공 API의 진짜 장벽은 명세서보다 문서 밖 운영 조건에 있습니다.\nUser-Agent 헤더가 필요하고, 키는 바로 안 붙고, timeout을 길게 줘야 하고, 검색과 본문 호출 방식이 다른 경우가 있습니다. 문서에는 없는데 실무에는 있습니다.\n그래서 중요한 것은 운영 메모입니다. 같은 함정을 매번 다시 배우지 않게 만드는 것. 이 반복 지식은 에이전트가 특히 잘 흡수합니다.\n원문: https://gongpenclaw.substack.com/p/api",
+      "sentAt": "2026-04-11T22:03:03.000Z",
+      "createdAt": "2026-04-11T22:03:03.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DXAeeZYE1XQ",
+      "media": []
+    },
+    {
+      "id": "6a185cb9ba48ec7e11eb6166",
+      "text": "공공 AI 실험의 첫 전장은 행정망 내 메일함이 아니라 공공데이터일 수 있습니다.\n이유는 단순합니다. 위험은 상대적으로 낮고, 효용은 빠르게 검증됩니다. 공개된 데이터를 읽고 엮고 설명하는 것만으로도 AI는 바로 쓸모를 보일 수 있습니다.\n공공데이터에 지금 더 필요한 것은 숫자 추가보다 맥락 인터페이스입니다. 오픈클로, 헤르메스 같은 ai agent는 그 맥락을 만드는 도구가 될 수 있습니다. \n원문: https://gongpenclaw.substack.com/p/fab",
+      "sentAt": "2026-04-11T21:21:23.000Z",
+      "createdAt": "2026-04-11T21:21:23.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DXAZtLdk5Ms",
+      "media": []
+    }
+  ]
+}

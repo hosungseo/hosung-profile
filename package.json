@@ -6,11 +6,14 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "sync:threads": "node scripts/sync-threads.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.7.3",
-    "astro": "^5.12.0"
+    "astro": "^5.12.0",
+    "cheerio": "^1.2.0",
+    "turndown": "^7.2.4"
   }
 }

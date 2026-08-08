@@ -466,6 +466,92 @@ time {
   font-size: inherit;
 }
 
+/* Threads archive stream */
+.thread-archive {
+  margin-top: 0.5rem;
+}
+
+.thread-item {
+  border-top: 1px solid var(--line);
+  padding: 1.85rem 0 1.6rem;
+}
+
+.thread-item:first-of-type {
+  border-top: none;
+}
+
+.thread-meta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.thread-badges {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  flex-shrink: 0;
+}
+
+.thread-badge {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.1rem 0.45rem;
+}
+
+.thread-origin {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.03em;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.thread-origin:hover {
+  color: var(--accent);
+}
+
+.thread-body {
+  font-size: 1.02rem;
+  line-height: 1.85;
+}
+
+.thread-text {
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.thread-media {
+  margin: 1rem 0 0;
+}
+
+.thread-media img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.thread-media figcaption {
+  margin-top: 0.45rem;
+  font-size: 0.8rem;
+}
+
+.thread-footer {
+  margin-top: 3rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.88rem;
+}
+
 @media (max-width: 600px) {
   html {
     font-size: 16px;
@@ -482,5 +568,10 @@ time {
 
   .dark-band {
     padding: 3.5rem 0;
+  }
+
+  .thread-meta {
+    flex-direction: column;
+    gap: 0.35rem;
   }
 }

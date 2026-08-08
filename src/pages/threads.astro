@@ -1,0 +1,128 @@
+---
+import Base from '../layouts/Base.astro';
+import { THREADS_URL } from '../consts';
+import { formatDate } from '../utils';
+import archive from '../data/threads.json';
+
+type Media = {
+  type: string;
+  mimeType?: string | null;
+  thumbnail?: string;
+  source?: string;
+};
+
+type ThreadPost = {
+  id: string;
+  text: string;
+  sentAt: string | null;
+  createdAt?: string | null;
+  status: string;
+  via?: string | null;
+  url?: string | null;
+  media: Media[];
+};
+
+const posts = (archive.posts as ThreadPost[])
+  .filter((p) => p.status === 'sent' || p.status === 'error')
+  .slice()
+  .sort((a, b) => String(b.sentAt || '').localeCompare(String(a.sentAt || '')));
+
+const syncedAt = archive.syncedAt ? new Date(archive.syncedAt) : null;
+
+function imageFor(post: ThreadPost): string | null {
+  const images = post.media.filter((m) => m.type === 'image');
+  const first = images[0] || post.media.find((m) => m.thumbnail || m.source);
+  if (!first) return null;
+  return first.source || first.thumbnail || null;
+}
+
+function hasVideo(post: ThreadPost): boolean {
+  return post.media.some((m) => m.type === 'video');
+}
+
+---
+
+<Base
+  title="쓰레드 아카이브"
+  description="Threads(@gongpenclaw)에 올린 단상을 시간순으로 모아 둔 아카이브입니다."
+>
+  <div class="shell">
+    <header class="page-header">
+      <h1>쓰레드 아카이브</h1>
+      <p class="muted">
+        <a href={THREADS_URL}>@gongpenclaw</a>에 올린 글을 시간순으로 보관합니다. 원문은
+        Threads에 있습니다.
+        {
+          syncedAt && (
+            <>
+              {' '}
+              · 동기화 {formatDate(syncedAt)} · {posts.length}개
+            </>
+          )
+        }
+      </p>
+    </header>
+
+    {
+      posts.length === 0 ? (
+        <p class="muted">아직 동기화된 글이 없습니다.</p>
+      ) : (
+        <div class="thread-archive">
+          {posts.map((post) => {
+            const when = post.sentAt ? new Date(post.sentAt) : null;
+            const img = imageFor(post);
+            const video = hasVideo(post);
+            return (
+              <article class="thread-item" id={post.id}>
+                <header class="thread-meta">
+                  {when ? (
+                    <time datetime={when.toISOString()}>{formatDate(when)}</time>
+                  ) : (
+                    <span class="muted">날짜 없음</span>
+                  )}
+                  <span class="thread-badges">
+                    {video && <span class="thread-badge">영상</span>}
+                    {img && !video && <span class="thread-badge">이미지</span>}
+                    {post.url ? (
+                      <a href={post.url} class="thread-origin" target="_blank" rel="noopener noreferrer">
+                        원문
+                      </a>
+                    ) : (
+                      <a href={THREADS_URL} class="thread-origin" target="_blank" rel="noopener noreferrer">
+                        프로필
+                      </a>
+                    )}
+                  </span>
+                </header>
+
+                <div class="thread-body">
+                  {post.text ? <p class="thread-text">{post.text}</p> : <p class="muted">(본문 없음)</p>}
+                </div>
+
+                {
+                  img && (
+                    <figure class="thread-media">
+                      {post.url ? (
+                        <a href={post.url} target="_blank" rel="noopener noreferrer">
+                          <img src={img} alt="" loading="lazy" decoding="async" />
+                        </a>
+                      ) : (
+                        <img src={img} alt="" loading="lazy" decoding="async" />
+                      )}
+                      {video && <figcaption class="muted">영상 포스트 · 재생은 원문에서</figcaption>}
+                    </figure>
+                  )
+                }
+              </article>
+            );
+          })}
+        </div>
+      )
+    }
+
+    <p class="thread-footer muted">
+      전체 타임라인은 <a href={THREADS_URL}>Threads</a>에서 볼 수 있습니다. 이 페이지는 Buffer를
+      통해 동기화한 로컬 아카이브입니다.
+    </p>
+  </div>
+</Base>

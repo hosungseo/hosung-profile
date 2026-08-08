@@ -16,7 +16,10 @@ const renderedNotes = await Promise.all(
   <div class="shell">
     <header class="page-header">
       <h1>단상</h1>
-      <p class="muted">짧은 생각들. 더 짧은 건 쓰레드에 있습니다.</p>
+      <p class="muted">
+        짧은 생각들. Threads에 올린 글 전체는
+        <a href="/threads">쓰레드 아카이브</a>에 모아 둡니다.
+      </p>
     </header>
     {
       renderedNotes.map(({ note, rendered }) => {

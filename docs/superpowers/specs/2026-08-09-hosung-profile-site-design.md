@@ -23,6 +23,7 @@ AI에 대한 생각을 긴 글로 올리는 개인 사이트. 쓰레드(Threads)
 | `/writing` | 긴 글 목록 (날짜순) |
 | `/writing/[slug]` | 글 본문 — 긴 글 읽기 최적화 타이포그래피 |
 | `/notes` | 단상 스트림 — 제목 없이 날짜 + 본문 타임라인 |
+| `/threads` | Threads 아카이브 — Buffer 동기화 JSON을 시간순으로 표시 |
 | `/work` | 포트폴리오 프로젝트 카드 목록 |
 | `/about` | 소개 + SNS 링크 (쓰레드 등) |
 | `/rss.xml` | 긴 글 RSS 피드 |
@@ -34,6 +35,7 @@ Astro Content Collections 사용. 글 하나 = 마크다운 파일 하나.
 - `src/content/writing/*.md` — frontmatter: `title`, `date`, `description`(선택), `draft`(선택)
 - `src/content/notes/*.md` — frontmatter: `date` (제목 없음)
 - `src/content/work/*.md` — frontmatter: `title`, `description`, `url`(선택), `order`
+- `src/data/threads.json` — Threads 아카이브 (Buffer MCP 동기화). `npm run sync:threads`로 갱신
 
 새 글은 파일을 추가하고 git push 하면 Vercel이 자동 배포.
 

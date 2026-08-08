@@ -7,6 +7,7 @@
 
 - [글 목록](https://hosung-profile.vercel.app/writing): AI에 대한 긴 에세이
 - [단상](https://hosung-profile.vercel.app/notes): 짧은 생각 타임라인
+- [쓰레드 아카이브](https://hosung-profile.vercel.app/threads): Threads 글 시간순 보관
 - [작업](https://hosung-profile.vercel.app/work): 프로젝트 목록
 - [소개](https://hosung-profile.vercel.app/about): 저자 소개와 채널 링크
 
