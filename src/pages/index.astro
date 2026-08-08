@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import { THREADS_URL } from '../consts';
 import { formatDate } from '../utils';
 
 const writing = (await getCollection('writing', ({ data }) => !data.draft))
@@ -27,7 +28,7 @@ const topics = [
     <div class="shell-wide">
       <h1>AI가 바꾸는 일과 생각을, 오래 남는 글로 씁니다.</h1>
       <p>
-        스치는 단상은 <a href="https://www.threads.net/@your_handle">쓰레드</a>에.
+        스치는 단상은 <a href={THREADS_URL}>쓰레드</a>에.
         시간을 들인 긴 글은 여기에.
       </p>
     </div>

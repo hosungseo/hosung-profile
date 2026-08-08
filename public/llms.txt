@@ -1,0 +1,22 @@
+# 서호성 (Hosung Seo)
+
+> AI에 대한 생각을 길게 쓰는 개인 사이트. 세종시 거주 행정사무관이 공공데이터와 AI 자동화를
+> 다루며 기록하는 긴 글, 짧은 단상, 프로젝트 목록.
+
+## 주요 페이지
+
+- [글 목록](https://hosung-profile.vercel.app/writing): AI에 대한 긴 에세이
+- [단상](https://hosung-profile.vercel.app/notes): 짧은 생각 타임라인
+- [작업](https://hosung-profile.vercel.app/work): 프로젝트 목록
+- [소개](https://hosung-profile.vercel.app/about): 저자 소개와 채널 링크
+
+## 피드
+
+- [RSS](https://hosung-profile.vercel.app/rss.xml)
+- [Sitemap](https://hosung-profile.vercel.app/sitemap-index.xml)
+
+## 다른 채널
+
+- Threads: https://www.threads.com/@gongpenclaw (짧은 단상)
+- Substack: https://gongpenclaw.substack.com
+- GitHub: https://github.com/hosungseo
