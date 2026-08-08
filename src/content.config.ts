@@ -8,6 +8,11 @@ const writing = defineCollection({
     date: z.coerce.date(),
     description: z.string().optional(),
     draft: z.boolean().default(false),
+    source: z.enum(['brunch', 'substack']).optional(),
+    sourceUrl: z.string().url().optional(),
+    brunchId: z.number().int().positive().optional(),
+    cover: z.string().optional(),
+    tags: z.array(z.string()).optional(),
   }),
 });
 
