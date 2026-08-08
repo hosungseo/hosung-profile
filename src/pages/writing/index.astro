@@ -12,7 +12,7 @@ const posts = (await getCollection('writing', ({ data }) => !data.draft)).sort(
   <div class="shell-wide">
     <header class="page-header">
       <h1>글</h1>
-      <p class="muted">AI에 대한 생각을 길게 씁니다.</p>
+      <p class="muted">새로 쓴 글과 브런치에 남긴 지난 글을 함께 모읍니다.</p>
     </header>
     <ul class="post-list">
       {
@@ -25,6 +25,7 @@ const posts = (await getCollection('writing', ({ data }) => !data.draft)).sort(
               <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
             </div>
             {post.data.description && <p>{post.data.description}</p>}
+            {post.data.source === 'brunch' && <span class="source-label">브런치 아카이브</span>}
           </li>
         ))
       }
