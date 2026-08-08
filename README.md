@@ -33,6 +33,18 @@ npm run sync:brunch
 `public/images/brunch/글번호/`에 저장됩니다. 기존 파일은 최신 공개 원문으로 갱신되며,
 직접 작성한 다른 글은 건드리지 않습니다.
 
+### 서브스택 글 아카이브
+
+공픈클로 서브스택(gongpenclaw.substack.com)의 공개 글을 로컬 콘텐츠로 동기화합니다.
+
+```bash
+npm run sync:substack
+```
+
+가져온 글은 `src/content/writing/substack-슬러그.md`에 저장되며, 목록·글 페이지에
+"서브스택 아카이브" 표시와 원문 링크가 함께 붙습니다. 기존 파일은 최신 공개 원문으로
+갱신되며, 직접 작성한 다른 글은 건드리지 않습니다.
+
 ### 쓰레드 아카이브 — `src/data/threads.json` → `/threads`
 
 Threads(@gongpenclaw) 글을 Buffer를 통해 가져와 사이트에 시간순으로 보관합니다.
