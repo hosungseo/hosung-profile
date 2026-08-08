@@ -1,0 +1,71 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { SITE_DESCRIPTION } from '../consts';
+import { formatDate } from '../utils';
+
+const writing = (await getCollection('writing', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 5);
+
+const notes = (await getCollection('notes'))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 3);
+
+const renderedNotes = await Promise.all(
+  notes.map(async (note) => ({ note, rendered: await render(note) }))
+);
+---
+
+<Base>
+  <section class="section">
+    <p class="muted" style="margin-top: 0;">
+      {SITE_DESCRIPTION} 짧은 단상은 <a href="https://www.threads.net/@your_handle">쓰레드</a>에,
+      긴 글은 여기에 씁니다.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section-heading">최근 글</h2>
+    {
+      writing.length === 0 ? (
+        <p class="muted">아직 올린 글이 없습니다.</p>
+      ) : (
+        <ul class="post-list">
+          {writing.map((post) => (
+            <li>
+              <a href={`/writing/${post.id}`} class="post-title">
+                {post.data.title}
+              </a>
+              <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+              {post.data.description && <p>{post.data.description}</p>}
+            </li>
+          ))}
+        </ul>
+      )
+    }
+    <a href="/writing" class="section-more">모든 글 보기 →</a>
+  </section>
+
+  <section class="section">
+    <h2 class="section-heading">최근 단상</h2>
+    {
+      renderedNotes.length === 0 ? (
+        <p class="muted">아직 단상이 없습니다.</p>
+      ) : (
+        renderedNotes.map(({ note, rendered }) => {
+          const Content = rendered.Content;
+          return (
+            <article class="note">
+              <time datetime={note.data.date.toISOString()}>{formatDate(note.data.date)}</time>
+              <div class="prose">
+                <Content />
+              </div>
+            </article>
+          );
+        })
+      )
+    }
+    <a href="/notes" class="section-more">모든 단상 보기 →</a>
+  </section>
+</Base>

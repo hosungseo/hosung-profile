@@ -1,0 +1,33 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const items = (await getCollection('work')).sort((a, b) => a.data.order - b.data.order);
+
+const renderedItems = await Promise.all(
+  items.map(async (item) => ({ item, rendered: await render(item) }))
+);
+---
+
+<Base title="작업">
+  <h1>작업</h1>
+  <p class="muted">만들었거나 만들고 있는 것들.</p>
+  <ul class="work-list" style="margin-top: 3rem;">
+    {
+      renderedItems.map(({ item, rendered }) => {
+        const Content = rendered.Content;
+        return (
+          <li>
+            <h2>
+              {item.data.url ? <a href={item.data.url}>{item.data.title}</a> : item.data.title}
+            </h2>
+            <p>{item.data.description}</p>
+            <div class="prose">
+              <Content />
+            </div>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Base>

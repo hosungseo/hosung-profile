@@ -1,0 +1,296 @@
+:root {
+  --color-bg: #fdfdfc;
+  --color-text: #1a1a1a;
+  --color-muted: #767470;
+  --color-faint: #e8e6e1;
+  --color-accent: #1a56db;
+  --width-content: 42rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 17px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont,
+    system-ui, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.8;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+.container {
+  max-width: var(--width-content);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* Header */
+.site-header {
+  padding: 2.5rem 0 3rem;
+}
+
+.site-header .container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.site-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--color-text);
+  letter-spacing: -0.01em;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.site-nav a {
+  font-size: 0.95rem;
+  color: var(--color-muted);
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current='page'] {
+  color: var(--color-text);
+}
+
+/* Footer */
+.site-footer {
+  padding: 4rem 0 3rem;
+  font-size: 0.85rem;
+  color: var(--color-muted);
+}
+
+.site-footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  border-top: 1px solid var(--color-faint);
+  padding-top: 1.5rem;
+}
+
+.site-footer a {
+  color: var(--color-muted);
+}
+
+.site-footer a:hover {
+  color: var(--color-text);
+}
+
+main {
+  min-height: 55vh;
+}
+
+/* Typography */
+h1, h2, h3 {
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  word-break: keep-all;
+}
+
+h1 {
+  font-size: 1.7rem;
+  margin: 0 0 0.5rem;
+}
+
+a {
+  color: var(--color-text);
+  text-decoration-color: var(--color-faint);
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  text-decoration-color: var(--color-muted);
+}
+
+.muted {
+  color: var(--color-muted);
+}
+
+time {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Post list */
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-list li {
+  margin-bottom: 2rem;
+}
+
+.post-list .post-title {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.post-list .post-title:hover {
+  color: var(--color-accent);
+}
+
+.post-list p {
+  margin: 0.25rem 0 0;
+  color: var(--color-muted);
+  font-size: 0.95rem;
+}
+
+/* Section headings on home */
+.section {
+  margin-bottom: 4rem;
+}
+
+.section-heading {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-muted);
+  margin: 0 0 1.5rem;
+}
+
+.section-more {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}
+
+/* Notes stream */
+.note {
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--color-faint);
+}
+
+.note:last-child {
+  border-bottom: none;
+}
+
+.note .prose p {
+  margin: 0.5rem 0 0;
+}
+
+/* Work cards */
+.work-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.work-list li {
+  margin-bottom: 2.5rem;
+}
+
+.work-list h2 {
+  font-size: 1.1rem;
+  margin: 0 0 0.25rem;
+}
+
+.work-list p {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 0.95rem;
+}
+
+/* Article (long-form reading) */
+.article-header {
+  margin-bottom: 3rem;
+}
+
+.prose {
+  font-size: 1rem;
+}
+
+.prose p {
+  margin: 1.4em 0;
+}
+
+.prose h2 {
+  font-size: 1.25rem;
+  margin: 2.5em 0 0.8em;
+}
+
+.prose h3 {
+  font-size: 1.05rem;
+  margin: 2em 0 0.6em;
+}
+
+.prose blockquote {
+  margin: 1.5em 0;
+  padding-left: 1.25em;
+  border-left: 2px solid var(--color-faint);
+  color: var(--color-muted);
+}
+
+.prose ul, .prose ol {
+  padding-left: 1.4em;
+}
+
+.prose li {
+  margin: 0.4em 0;
+}
+
+.prose img {
+  max-width: 100%;
+  height: auto;
+}
+
+.prose hr {
+  border: none;
+  border-top: 1px solid var(--color-faint);
+  margin: 3em 0;
+}
+
+.prose code {
+  font-family: ui-monospace, 'SF Mono', Menlo, monospace;
+  font-size: 0.85em;
+  background: #f3f1ed;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+}
+
+.prose pre {
+  padding: 1.25rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  line-height: 1.6;
+  font-size: 0.85rem;
+}
+
+.prose pre code {
+  background: none;
+  padding: 0;
+  font-size: inherit;
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 16px;
+  }
+
+  .site-header {
+    padding: 1.75rem 0 2.25rem;
+  }
+}

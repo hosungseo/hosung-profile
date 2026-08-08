@@ -1,0 +1,33 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { formatDate } from '../utils';
+
+const notes = (await getCollection('notes')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+const renderedNotes = await Promise.all(
+  notes.map(async (note) => ({ note, rendered: await render(note) }))
+);
+---
+
+<Base title="단상">
+  <h1>단상</h1>
+  <p class="muted">짧은 생각들. 더 짧은 건 쓰레드에 있습니다.</p>
+  <div style="margin-top: 3rem;">
+    {
+      renderedNotes.map(({ note, rendered }) => {
+        const Content = rendered.Content;
+        return (
+          <article class="note">
+            <time datetime={note.data.date.toISOString()}>{formatDate(note.data.date)}</time>
+            <div class="prose">
+              <Content />
+            </div>
+          </article>
+        );
+      })
+    }
+  </div>
+</Base>
