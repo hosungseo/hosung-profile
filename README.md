@@ -21,6 +21,32 @@ description: 목록에 보이는 한 줄 요약 (선택)
 파일 이름이 URL이 됩니다: `my-post.md` → `/writing/my-post`.
 `draft: true`를 넣으면 목록·RSS에서 빠집니다.
 
+### 브런치 글 아카이브
+
+공픈클로 브런치의 공개 글과 이미지를 로컬 콘텐츠로 동기화합니다.
+
+```bash
+npm run sync:brunch
+```
+
+가져온 글은 `src/content/writing/brunch-글번호.md`, 이미지는
+`public/images/brunch/글번호/`에 저장됩니다. 기존 파일은 최신 공개 원문으로 갱신되며,
+직접 작성한 다른 글은 건드리지 않습니다.
+
+### 쓰레드 아카이브 — `src/data/threads.json` → `/threads`
+
+Threads(@gongpenclaw) 글을 Buffer를 통해 가져와 사이트에 시간순으로 보관합니다.
+
+```bash
+BUFFER_API_TOKEN=… npm run sync:threads
+```
+
+- 로컬: 위 명령으로 `src/data/threads.json` 갱신 후 push
+- 자동: GitHub Actions가 **매일 07:00 KST**에 동기화 → 변경 있으면 commit/push → Vercel 배포
+- 수동 실행: GitHub → Actions → **Sync Threads archive** → Run workflow
+
+저장소 시크릿 `BUFFER_API_TOKEN`이 필요합니다 (Buffer API 키 또는 MCP 토큰).
+
 ### 단상 — `src/content/notes/2026-08-09-아무이름.md`
 
 ```markdown

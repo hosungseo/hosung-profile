@@ -36,6 +36,7 @@ Astro Content Collections 사용. 글 하나 = 마크다운 파일 하나.
 - `src/content/notes/*.md` — frontmatter: `date` (제목 없음)
 - `src/content/work/*.md` — frontmatter: `title`, `description`, `url`(선택), `order`
 - `src/data/threads.json` — Threads 아카이브 (Buffer MCP 동기화). `npm run sync:threads`로 갱신
+- GitHub Actions `sync-threads.yml` — 매일 07:00 KST 자동 동기화 (시크릿 `BUFFER_API_TOKEN`)
 
 새 글은 파일을 추가하고 git push 하면 Vercel이 자동 배포.
 

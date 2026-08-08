@@ -11,7 +11,7 @@
  *   BUFFER_API_TOKEN=… npm run sync:threads
  */
 
-import { writeFile, mkdir } from 'node:fs/promises';
+import { writeFile, mkdir, readFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -123,6 +123,17 @@ async function main() {
   }
 
   posts.sort((a, b) => String(b.sentAt || '').localeCompare(String(a.sentAt || '')));
+
+  // Skip rewrite when post content is unchanged (ignore syncedAt churn for daily CI).
+  try {
+    const prev = JSON.parse(await readFile(OUT, 'utf8'));
+    if (JSON.stringify(prev.posts) === JSON.stringify(posts)) {
+      console.log(`no post changes (${posts.length}); skip write`);
+      process.exit(0);
+    }
+  } catch {
+    // first run or unreadable file — write below
+  }
 
   const archive = {
     syncedAt: new Date().toISOString().replace(/\.\d{3}Z$/, 'Z'),
