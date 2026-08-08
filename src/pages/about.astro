@@ -4,22 +4,26 @@ import { SOCIAL_LINKS } from '../consts';
 ---
 
 <Base title="소개">
-  <h1>소개</h1>
-  <div class="prose">
-    <p>안녕하세요, 서호성입니다.</p>
-    <p>
-      AI가 일과 삶을 어떻게 바꾸는지에 관심이 많습니다. 짧게 스치는 생각은 쓰레드에 올리고,
-      시간을 들여 정리한 긴 글은 이 사이트에 씁니다.
-    </p>
-    <p>아래 채널에서도 만날 수 있습니다.</p>
-    <ul>
-      {
-        SOCIAL_LINKS.map((link) => (
-          <li>
-            <a href={link.url}>{link.label}</a>
-          </li>
-        ))
-      }
-    </ul>
+  <div class="shell">
+    <header class="page-header">
+      <h1>소개</h1>
+    </header>
+    <div class="prose">
+      <p>안녕하세요, 서호성입니다.</p>
+      <p>
+        AI가 일과 삶을 어떻게 바꾸는지에 관심이 많습니다. 짧게 스치는 생각은 쓰레드에 올리고,
+        시간을 들여 정리한 긴 글은 이 사이트에 씁니다.
+      </p>
+      <p>아래 채널에서도 만날 수 있습니다.</p>
+      <ul>
+        {
+          SOCIAL_LINKS.map((link) => (
+            <li>
+              <a href={link.url}>{link.label}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
   </div>
 </Base>

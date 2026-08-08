@@ -9,19 +9,25 @@ const posts = (await getCollection('writing', ({ data }) => !data.draft)).sort(
 ---
 
 <Base title="글">
-  <h1>글</h1>
-  <p class="muted">AI에 대한 생각을 길게 씁니다.</p>
-  <ul class="post-list" style="margin-top: 3rem;">
-    {
-      posts.map((post) => (
-        <li>
-          <a href={`/writing/${post.id}`} class="post-title">
-            {post.data.title}
-          </a>
-          <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
-          {post.data.description && <p>{post.data.description}</p>}
-        </li>
-      ))
-    }
-  </ul>
+  <div class="shell-wide">
+    <header class="page-header">
+      <h1>글</h1>
+      <p class="muted">AI에 대한 생각을 길게 씁니다.</p>
+    </header>
+    <ul class="post-list">
+      {
+        posts.map((post) => (
+          <li>
+            <div class="post-row">
+              <a href={`/writing/${post.id}`} class="post-title">
+                {post.data.title}
+              </a>
+              <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+            </div>
+            {post.data.description && <p>{post.data.description}</p>}
+          </li>
+        ))
+      }
+    </ul>
+  </div>
 </Base>
