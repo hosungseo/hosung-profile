@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "npm run check:privacy && astro build",
+    "check:privacy": "node scripts/check-private-markers.mjs",
     "preview": "astro preview",
     "sync:threads": "node scripts/sync-threads.mjs",
     "sync:brunch": "node scripts/sync-brunch.mjs",
