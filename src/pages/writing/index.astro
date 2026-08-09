@@ -27,6 +27,7 @@ const posts = (await getCollection('writing', ({ data }) => !data.draft)).sort(
             {post.data.description && <p>{post.data.description}</p>}
             {post.data.source === 'brunch' && <span class="source-label">브런치 아카이브</span>}
             {post.data.source === 'substack' && <span class="source-label">서브스택 아카이브</span>}
+            {post.data.source === 'pgr21' && <span class="source-label">PGR21 아카이브</span>}
           </li>
         ))
       }
