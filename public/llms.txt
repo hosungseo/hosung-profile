@@ -5,16 +5,16 @@
 
 ## 주요 페이지
 
-- [글 목록](https://hosung-profile.vercel.app/writing): AI에 대한 긴 에세이
-- [단상](https://hosung-profile.vercel.app/notes): 짧은 생각 타임라인
-- [쓰레드 아카이브](https://hosung-profile.vercel.app/threads): Threads 글 시간순 보관
-- [작업](https://hosung-profile.vercel.app/work): 프로젝트 목록
-- [소개](https://hosung-profile.vercel.app/about): 저자 소개와 채널 링크
+- [글 목록](https://seohosung.com/writing): AI에 대한 긴 에세이
+- [단상](https://seohosung.com/notes): 짧은 생각 타임라인
+- [쓰레드 아카이브](https://seohosung.com/threads): Threads 글 시간순 보관
+- [작업](https://seohosung.com/work): 프로젝트 목록
+- [소개](https://seohosung.com/about): 저자 소개와 채널 링크
 
 ## 피드
 
-- [RSS](https://hosung-profile.vercel.app/rss.xml)
-- [Sitemap](https://hosung-profile.vercel.app/sitemap-index.xml)
+- [RSS](https://seohosung.com/rss.xml)
+- [Sitemap](https://seohosung.com/sitemap-index.xml)
 
 ## 다른 채널
 

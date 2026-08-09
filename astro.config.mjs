@@ -3,6 +3,6 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://hosung-profile.vercel.app',
+  site: 'https://seohosung.com',
   integrations: [sitemap()],
 });

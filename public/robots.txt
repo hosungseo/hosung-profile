@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hosung-profile.vercel.app/sitemap-index.xml
+Sitemap: https://seohosung.com/sitemap-index.xml
