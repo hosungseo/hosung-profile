@@ -45,6 +45,18 @@ npm run sync:substack
 "서브스택 아카이브" 표시와 원문 링크가 함께 붙습니다. 기존 파일은 최신 공개 원문으로
 갱신되며, 직접 작성한 다른 글은 건드리지 않습니다.
 
+### PGR21 글 아카이브
+
+PGR21 자유게시판에 jarvis 계정으로 쓴 글을 보관합니다. ppt21.com은 안티봇
+챌린지(Anubis) 뒤에 있어 자동 수집이 안 되므로, 실제 브라우저에서 글 JSON을
+추출한 뒤 변환합니다 (`scripts/import-pgr.mjs` 상단 주석 참고).
+
+```bash
+node scripts/import-pgr.mjs 106965 106786 …
+```
+
+가져온 글은 `src/content/writing/pgr-글번호.md`에 저장됩니다.
+
 ### 쓰레드 아카이브 — `src/data/threads.json` → `/threads`
 
 Threads(@gongpenclaw) 글을 Buffer를 통해 가져와 사이트에 시간순으로 보관합니다.

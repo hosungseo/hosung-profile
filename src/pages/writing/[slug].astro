@@ -15,7 +15,10 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await render(post);
 
-const sourceLabel = { brunch: '브런치 원문 ↗', substack: '서브스택 원문 ↗' }[post.data.source ?? ''] ?? '원문 ↗';
+const sourceLabel =
+  { brunch: '브런치 원문 ↗', substack: '서브스택 원문 ↗', pgr21: 'PGR21 원문 ↗' }[
+    post.data.source ?? ''
+  ] ?? '원문 ↗';
 
 const jsonLd = {
   '@context': 'https://schema.org',
