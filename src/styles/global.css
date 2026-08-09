@@ -210,6 +210,23 @@ time {
   max-width: 44ch;
 }
 
+.hero .hero-link {
+  margin-top: 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.03em;
+}
+
+.hero .hero-link a {
+  color: var(--muted);
+  text-decoration-color: var(--line);
+}
+
+.hero .hero-link a:hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
+
 /* Section labels: mono over a strong ink rule */
 .section {
   margin-bottom: 6.5rem;
