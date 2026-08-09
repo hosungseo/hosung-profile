@@ -15,6 +15,8 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await render(post);
 
+const sourceLabel = { brunch: '브런치 원문 ↗', substack: '서브스택 원문 ↗' }[post.data.source ?? ''] ?? '원문 ↗';
+
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
@@ -47,7 +49,7 @@ const jsonLd = {
         {
           post.data.sourceUrl && (
             <a href={post.data.sourceUrl} target="_blank" rel="noreferrer">
-              브런치 원문 ↗
+              {sourceLabel}
             </a>
           )
         }

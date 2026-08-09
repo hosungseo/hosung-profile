@@ -8,7 +8,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "sync:threads": "node scripts/sync-threads.mjs",
-    "sync:brunch": "node scripts/sync-brunch.mjs"
+    "sync:brunch": "node scripts/sync-brunch.mjs",
+    "sync:substack": "node scripts/sync-substack.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.11",
