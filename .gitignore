@@ -7,3 +7,4 @@ dist/
 .env*
 /pgr-*.json
 .playwright-mcp/
+.omc/
