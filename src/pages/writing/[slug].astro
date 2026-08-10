@@ -43,8 +43,9 @@ const jsonLd = {
   publishedTime={post.data.date}
 >
   <script slot="head" type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
-  <article class="shell">
+  <article class="shell article-shell">
     <header class="article-header">
+      <a class="back-link" href="/writing">← 글 목록</a>
       <h1>{post.data.title}</h1>
       {post.data.description && <p class="article-description">{post.data.description}</p>}
       <div class="article-meta">
@@ -59,8 +60,12 @@ const jsonLd = {
       </div>
       {post.data.cover && <img class="article-cover" src={post.data.cover} alt="" />}
     </header>
-    <div class="prose">
+    <div class="prose article-prose">
       <Content />
     </div>
+    <footer class="article-end">
+      <span>END OF ARTICLE</span>
+      <a href="/writing">모든 글 보기 →</a>
+    </footer>
   </article>
 </Base>

@@ -15,11 +15,13 @@ const renderedNotes = await Promise.all(
 <Base title="단상">
   <div class="shell">
     <header class="page-header">
+      <p class="page-kicker"><span>02</span> SHORT NOTES</p>
       <h1>단상</h1>
       <p class="muted">
         짧은 생각들. Threads에 올린 글 전체는
         <a href="/threads">쓰레드 아카이브</a>에 모아 둡니다.
       </p>
+      <p class="page-count">{String(notes.length).padStart(3, '0')} ENTRIES</p>
     </header>
     {
       renderedNotes.map(({ note, rendered }) => {

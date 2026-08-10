@@ -1,44 +1,62 @@
-# DESIGN.md — 서호성 프로필 사이트
+# DESIGN.md — 서호성 개인 인덱스
 
-Guided by [Impeccable](https://impeccable.style): distinctive type, tinted neutrals, no SaaS slop, hierarchy over decoration. (같은 원칙을 쓰는 저장소: gonpunclaw-population-decline-realestate)
+## Visual thesis
 
-## Direction
+**Geist 기반의 개인 인덱스** — 첫 화면은 명함이나 대시보드가 아니라 저자 아카이브의 표지다.
+`SEO HOSUNG` 워드마크와 정밀한 1px 가이드를 하나의 강한 시각 앵커로 쓰고, 이후 콘텐츠는
+카드 없이 번호·제목·날짜가 정렬된 편집 목록으로 보여준다.
 
-**저자 아카이브** — 종이 위의 큰 문장, 절제된 메타데이터, 홈에 한 번만 쓰는 짙은 명암 대비. 긴 한국어 산문 가독성이 항상 우선.
+Vercel의 [Geist 소개](https://vercel.com/geist/introduction),
+[타이포그래피](https://vercel.com/geist/typography),
+[색상](https://vercel.com/geist/colors), [그리드](https://vercel.com/geist/grid)를 참고해
+독립적으로 구현했다. Vercel의 컴포넌트나 화면을 복제한 것은 아니다.
+
+## Content plan
+
+- 홈 첫 화면: `SEO HOSUNG` 워드마크, 한 줄 정체성, 최근 글 진입점
+- 최근 글: 최신 글 1편을 크게, 나머지 4편은 번호가 붙은 행으로 표시
+- 주제: 지금 쓰는 질문 세 가지를 검은 반전 구역에 배치
+- 단상: 날짜와 짧은 본문을 2열 기록 형태로 표시
+- 하위 페이지: `01–05` 인덱스를 공유하되 글·단상·쓰레드·작업·소개 성격은 유지
+- 긴 글: 44rem 읽기 폭, 큰 제목, 상단 2px 읽기 진행 표시
 
 ## Type
 
-| Role | Family | Notes |
-|------|--------|-------|
-| Display / 제목 | **Fraunces** (+Pretendard 한글 폴백) | weight 540–560, tracking -0.02em |
-| Body / UI | **Pretendard** | 본문 1.06rem, 행간 1.9 |
-| Meta / 날짜·라벨 | **IBM Plex Mono** | 0.72rem, letter-spacing 0.04–0.08em |
+| 역할 | 서체 | 규칙 |
+|---|---|---|
+| Latin / 제목·UI | **Geist Sans Variable 1.7.2** | 100–900, 큰 제목은 -0.035~-0.085em |
+| Korean / 본문·제목 | **Pretendard Variable** | 한글 폴백, 본문 1.05rem / 1.92 |
+| 메타데이터 | **Geist Mono Variable 1.7.2** | 0.60–0.72rem, 날짜·번호에만 사용 |
 
-## Color (always tinted — no pure black/gray)
+Geist 폰트는 SIL Open Font License를 따르는 공식 `geist` 패키지의 고정 버전을 사용한다.
 
-| Token | Hex | Use |
-|-------|-----|-----|
-| `--bg` | `#efe8db` | Page field |
-| `--paper` | `#fbf6ec` | Surfaces (필요 시) |
-| `--ink` | `#18231c` | Text (green-black) |
-| `--muted` | `#5a635c` | Secondary text |
-| `--line` | `rgba(24,35,28,.12)` | Hairlines |
-| `--accent` | `#1b5c48` | Links, current nav, forest |
-| `--accent-2` | `#a66b2b` | Blockquote rule, hover, copper |
-| `--dark-bg` | `#18231c` | 홈 다크 밴드 (한 번만) |
-| `--dark-cream` | `#f0e2c4` | 다크 밴드 라벨 |
+## Color
 
-## Layout
+| 토큰 | 값 | 용도 |
+|---|---|---|
+| `--background` | `#ffffff` | 기본 배경 |
+| `--surface` | `#fafafa` | 행 hover와 보조 표면 |
+| `--foreground` | `#1d1d1f` | 본문 |
+| `--foreground-strong` | `#000000` | 큰 제목·반전 구역·주 행동 |
+| `--muted` | `#666666` | 설명과 보조 정보 |
+| `--line` | `#eaeaea` | 1px 구조선 |
+| `--accent` | `#0068d6` | 현재 위치·링크·진행 상태 |
 
-- 본문 40rem 읽기 폭, 홈·목록은 70rem
-- 섹션 라벨: 모노 소문자 + 잉크색 2px 괘선
-- 글 목록: 카드가 아니라 헤어라인 행 (제목 왼쪽 / 날짜 오른쪽)
-- 작업 목록: 잉크 2px 괘선의 ruled columns
+파란색은 상태와 이동 가능성을 알리는 곳에만 쓰며 장식용 색면은 만들지 않는다.
 
-## Anti-patterns (reject)
+## Layout and interaction
 
-- Inter / system-ui as brand face
-- 카드 안 카드, 그림자, 글로우, 글래스모피즘
-- Pure `#000` / `#666` / `#999`
-- 다크 섹션 남발 (홈에 한 번)
-- 본문 폭 확대·본문 글자 축소
+- 긴 글 44rem, 글 제목 영역 54rem, 목록·홈 80rem
+- 홈 표지는 4열 가이드, 섹션은 소개 열 + 콘텐츠 열
+- 페이지 제목은 큰 단어 하나와 우측 하단 엔트리 수로 구성
+- 모든 아카이브는 카드가 아니라 헤어라인 행
+- 모션은 워드마크 등장, 링크 화살표, 긴 글 진행 표시 세 가지로 제한
+- `prefers-reduced-motion`, 키보드 포커스, 320px 최소 폭을 지원
+
+## Reject
+
+- 카드 안 카드, 대시보드형 첫 화면
+- 그림자, 글로우, 유리 효과, 장식적 그라데이션
+- 파란색의 장식적 남용
+- 한국어 본문 폭 확대나 행간 축소
+- 안내 없이 움직이는 반복 애니메이션

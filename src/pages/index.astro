@@ -4,9 +4,11 @@ import Base from '../layouts/Base.astro';
 import { CLOUDFLARE_WALLET_URL, THREADS_URL } from '../consts';
 import { formatDate } from '../utils';
 
-const writing = (await getCollection('writing', ({ data }) => !data.draft))
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0, 5);
+const allWriting = (await getCollection('writing', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+const writing = allWriting.slice(0, 5);
+const [featured, ...recentWriting] = writing;
 
 const notes = (await getCollection('notes'))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
@@ -24,58 +26,99 @@ const topics = [
 ---
 
 <Base>
-  <section class="hero">
-    <div class="shell-wide">
-      <h1>AI가 바꾸는 일과 생각을, 오래 남는 글로 씁니다.</h1>
-      <p>
-        스치는 단상은 <a href={THREADS_URL}>쓰레드</a>에.
-        그 아카이브는 <a href="/threads">여기</a>에.
-        시간을 들인 긴 글은 이 사이트에.
-      </p>
-      <p class="hero-link">
-        <a href={CLOUDFLARE_WALLET_URL}>Cloudflare Wallet · seohosung ↗</a>
-      </p>
+  <section class="home-hero">
+    <div class="shell-wide hero-frame">
+      <div class="hero-rail" aria-hidden="true">
+        <span>PERSONAL INDEX</span>
+        <span>WRITING · NOTES · WORK</span>
+      </div>
+      <h1 class="hero-wordmark" aria-label="서호성">
+        <span>SEO</span>
+        <span>HOSUNG</span>
+      </h1>
+      <div class="hero-summary">
+        <p class="hero-kicker">서호성의 개인 아카이브</p>
+        <p class="hero-statement">AI가 바꾸는 일과 생각을,<br />오래 남는 글로 씁니다.</p>
+        <p class="hero-description">
+          스치는 단상은 <a href={THREADS_URL}>쓰레드</a>에, 시간을 들인 긴 글은 이곳에
+          기록합니다.
+        </p>
+        <div class="hero-actions">
+          {featured && <a class="button-link" href={`/writing/${featured.id}`}>최근 글 읽기 <span>↗</span></a>}
+          <a class="quiet-link" href={CLOUDFLARE_WALLET_URL}>Cloudflare Wallet ↗</a>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="section">
-    <div class="shell-wide">
-      <h2 class="section-heading">최근 글</h2>
+  <section class="home-section" id="latest-writing">
+    <div class="shell-wide section-layout">
+      <header class="section-intro">
+        <span class="section-index">01</span>
+        <h2>최근 글</h2>
+        <p>새로 쓴 글부터 지난 기록까지<br />총 {allWriting.length}편을 모았습니다.</p>
+        <a href="/writing" class="section-more">모든 글 보기 <span>→</span></a>
+      </header>
+      <div class="section-body">
       {
-        writing.length === 0 ? (
+        !featured ? (
           <p class="muted">아직 올린 글이 없습니다.</p>
         ) : (
-          <ul class="post-list">
-            {writing.map((post) => (
+          <>
+            <article class="featured-post">
+              <div class="featured-meta">
+                <span>LATEST</span>
+                <time datetime={featured.data.date.toISOString()}>{formatDate(featured.data.date)}</time>
+              </div>
+              <h3><a href={`/writing/${featured.id}`}>{featured.data.title}</a></h3>
+              {featured.data.description && <p>{featured.data.description}</p>}
+              <a class="read-link" href={`/writing/${featured.id}`}>글 읽기 <span>↗</span></a>
+            </article>
+            <ul class="post-list compact-post-list">
+            {recentWriting.map((post, index) => (
               <li>
-                <div class="post-row">
+                <span class="post-index">{String(index + 2).padStart(2, '0')}</span>
+                <div class="post-copy">
                   <a href={`/writing/${post.id}`} class="post-title">
                     {post.data.title}
                   </a>
-                  <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+                  {post.data.description && <p>{post.data.description}</p>}
                 </div>
-                {post.data.description && <p>{post.data.description}</p>}
+                <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
               </li>
             ))}
-          </ul>
+            </ul>
+          </>
         )
       }
-      <a href="/writing" class="section-more">모든 글 보기 →</a>
+      </div>
     </div>
   </section>
 
-  <section class="dark-band">
-    <div class="shell-wide">
-      <h2 class="section-heading">지금 쓰는 주제</h2>
-      <ul>
-        {topics.map((topic) => <li>{topic}</li>)}
+  <section class="topic-panel">
+    <div class="shell-wide section-layout">
+      <header class="section-intro section-intro-dark">
+        <span class="section-index">02</span>
+        <h2>지금 쓰는 주제</h2>
+        <p>도구보다 사람과 제도에<br />더 오래 남는 질문들.</p>
+      </header>
+      <ul class="topic-list">
+        {topics.map((topic, index) => (
+          <li><span>{String(index + 1).padStart(2, '0')}</span>{topic}</li>
+        ))}
       </ul>
     </div>
   </section>
 
-  <section class="section">
-    <div class="shell-wide">
-      <h2 class="section-heading">최근 단상</h2>
+  <section class="home-section">
+    <div class="shell-wide section-layout">
+      <header class="section-intro">
+        <span class="section-index">03</span>
+        <h2>최근 단상</h2>
+        <p>문장이 되기 전의 생각과<br />짧게 붙잡아 둔 기록.</p>
+        <a href="/notes" class="section-more">모든 단상 보기 <span>→</span></a>
+      </header>
+      <div class="section-body notes-preview">
       {
         renderedNotes.length === 0 ? (
           <p class="muted">아직 단상이 없습니다.</p>
@@ -93,7 +136,7 @@ const topics = [
           })
         )
       }
-      <a href="/notes" class="section-more">모든 단상 보기 →</a>
+      </div>
     </div>
   </section>
 </Base>

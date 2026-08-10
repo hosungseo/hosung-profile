@@ -16,12 +16,14 @@ const canonicalURL = new URL(currentPath, Astro.site);
 const ogImage = new URL('/og.png', Astro.site);
 
 const nav = [
-  { href: '/writing', label: '글' },
-  { href: '/notes', label: '단상' },
-  { href: '/threads', label: '쓰레드' },
-  { href: '/work', label: '작업' },
-  { href: '/about', label: '소개' },
+  { href: '/writing', label: '글', index: '01' },
+  { href: '/notes', label: '단상', index: '02' },
+  { href: '/threads', label: '쓰레드', index: '03' },
+  { href: '/work', label: '작업', index: '04' },
+  { href: '/about', label: '소개', index: '05' },
 ];
+
+const pageKey = currentPath.split('/').filter(Boolean)[0] || 'home';
 ---
 
 <!doctype html>
@@ -53,30 +55,36 @@ const nav = [
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
 
-    <link
-      rel="preload"
-      href="/fonts/fraunces-var-latin.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
     />
     <slot name="head" />
   </head>
-  <body>
+  <body data-page={pageKey}>
+    <a class="skip-link" href="#content">본문으로 건너뛰기</a>
+    {
+      type === 'article' && (
+        <div class="reading-progress" aria-hidden="true" data-reading-progress>
+          <span />
+        </div>
+      )
+    }
     <header class="site-header">
-      <div class="shell-wide">
-        <a href="/" class="site-title">{SITE_TITLE}</a>
-        <nav class="site-nav">
+      <div class="shell-wide header-inner">
+        <a href="/" class="site-title" aria-label={`${SITE_TITLE} 홈`}>
+          <span class="site-title-latin">SEO HOSUNG</span>
+          <span class="site-title-korean">{SITE_TITLE}</span>
+        </a>
+        <nav class="site-nav" aria-label="주요 메뉴">
           {
             nav.map((item) => (
               <a
                 href={item.href}
                 aria-current={currentPath.startsWith(item.href) ? 'page' : undefined}
               >
+                <span aria-hidden="true">{item.index}</span>
                 {item.label}
               </a>
             ))
@@ -84,23 +92,45 @@ const nav = [
         </nav>
       </div>
     </header>
-    <main>
+    <main id="content">
       <slot />
     </main>
     <footer class="site-footer">
-      <div class="shell-wide">
-        <span>© {new Date().getFullYear()} {SITE_TITLE}</span>
-        <span>
-          {SOCIAL_LINKS.map((link, i) => (
-            <>
-              <a href={link.url}>{link.label}</a>
-              {i < SOCIAL_LINKS.length - 1 && ' · '}
-            </>
-          ))}
-          {' · '}
+      <div class="shell-wide footer-grid">
+        <div class="footer-signature">
+          <a href="/" aria-label={`${SITE_TITLE} 홈`}>SEO<br />HOSUNG</a>
+          <p>AI가 바꾸는 일과 생각을<br />오래 남는 글로 씁니다.</p>
+        </div>
+        <nav class="footer-nav" aria-label="하단 메뉴">
+          {nav.map((item) => <a href={item.href}>{item.index} {item.label}</a>)}
+        </nav>
+        <div class="footer-social">
+          <p class="footer-label">ELSEWHERE</p>
+          {SOCIAL_LINKS.map((link) => <a href={link.url}>{link.label}</a>)}
           <a href="/rss.xml">RSS</a>
-        </span>
+        </div>
+        <div class="footer-bottom">
+          <span>© {new Date().getFullYear()} {SITE_TITLE}</span>
+          <span>Seohosung.com · Sejong, Korea</span>
+        </div>
       </div>
     </footer>
+    <script is:inline>
+      (() => {
+        const progress = document.querySelector('[data-reading-progress] span');
+        if (!progress) return;
+
+        const updateProgress = () => {
+          const root = document.documentElement;
+          const distance = root.scrollHeight - root.clientHeight;
+          const ratio = distance > 0 ? Math.min(root.scrollTop / distance, 1) : 0;
+          progress.style.transform = `scaleX(${ratio})`;
+        };
+
+        updateProgress();
+        window.addEventListener('scroll', updateProgress, { passive: true });
+        window.addEventListener('resize', updateProgress);
+      })();
+    </script>
   </body>
 </html>

@@ -11,23 +11,31 @@ const posts = (await getCollection('writing', ({ data }) => !data.draft)).sort(
 <Base title="글">
   <div class="shell-wide">
     <header class="page-header">
+      <p class="page-kicker"><span>01</span> WRITING ARCHIVE</p>
       <h1>글</h1>
       <p class="muted">새로 쓴 글과 브런치에 남긴 지난 글을 함께 모읍니다.</p>
+      <p class="page-count">{String(posts.length).padStart(3, '0')} ENTRIES</p>
     </header>
-    <ul class="post-list">
+    <ul class="archive-list">
       {
-        posts.map((post) => (
+        posts.map((post, index) => (
           <li>
-            <div class="post-row">
+            <span class="archive-index">{String(index + 1).padStart(3, '0')}</span>
+            <div class="archive-copy">
               <a href={`/writing/${post.id}`} class="post-title">
                 {post.data.title}
               </a>
-              <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+              {post.data.description && <p>{post.data.description}</p>}
+              <div class="archive-source">
+                {post.data.source === 'brunch' && <span class="source-label">브런치 아카이브</span>}
+                {post.data.source === 'substack' && <span class="source-label">서브스택 아카이브</span>}
+                {post.data.source === 'pgr21' && <span class="source-label">PGR21 아카이브</span>}
+              </div>
             </div>
-            {post.data.description && <p>{post.data.description}</p>}
-            {post.data.source === 'brunch' && <span class="source-label">브런치 아카이브</span>}
-            {post.data.source === 'substack' && <span class="source-label">서브스택 아카이브</span>}
-            {post.data.source === 'pgr21' && <span class="source-label">PGR21 아카이브</span>}
+            <div class="archive-date">
+              <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+              <span aria-hidden="true">↗</span>
+            </div>
           </li>
         ))
       }

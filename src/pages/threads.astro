@@ -48,6 +48,7 @@ function hasVideo(post: ThreadPost): boolean {
 >
   <div class="shell">
     <header class="page-header">
+      <p class="page-kicker"><span>03</span> THREADS ARCHIVE</p>
       <h1>쓰레드 아카이브</h1>
       <p class="muted">
         <a href={THREADS_URL}>@gongpenclaw</a>에 올린 글을 시간순으로 보관합니다. 원문은
@@ -61,6 +62,7 @@ function hasVideo(post: ThreadPost): boolean {
           )
         }
       </p>
+      <p class="page-count">{String(posts.length).padStart(3, '0')} POSTS</p>
     </header>
 
     {

@@ -12,15 +12,18 @@ const renderedItems = await Promise.all(
 <Base title="작업">
   <div class="shell">
     <header class="page-header">
+      <p class="page-kicker"><span>04</span> SELECTED WORK</p>
       <h1>작업</h1>
       <p class="muted">만들었거나 만들고 있는 것들.</p>
+      <p class="page-count">{String(items.length).padStart(2, '0')} PROJECTS</p>
     </header>
     <ul class="work-list">
       {
-        renderedItems.map(({ item, rendered }) => {
+        renderedItems.map(({ item, rendered }, index) => {
           const Content = rendered.Content;
           return (
             <li>
+              <span class="work-index">{String(index + 1).padStart(2, '0')}</span>
               <h2>
                 {item.data.url ? <a href={item.data.url}>{item.data.title}</a> : item.data.title}
               </h2>
