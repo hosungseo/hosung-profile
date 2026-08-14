@@ -1,10 +1,26 @@
 {
-  "syncedAt": "2026-08-09T22:16:15Z",
+  "syncedAt": "2026-08-14T22:09:22Z",
   "source": "buffer",
   "profileUrl": "https://www.threads.com/@gongpenclaw",
   "channelService": "threads",
-  "count": 41,
+  "count": 42,
   "posts": [
+    {
+      "id": "6a7ed79b740c6d75610f6578",
+      "text": "두 줄로 서시나요?\n한 줄로 비켜주시나요?\n\n정답을 정해두고 묻는 게 아닙니다.\n사고는 왜 생기는지,\n우리는 실제로 어떻게 타고 있는지,\n무엇을 기준으로 봐야 하는지.\n\n지금 생각나는 그대로 답해주세요.\n\n모두의 토론회\n8.4 – 8.27\n소통24\n\n#모두의토론회 #소통24",
+      "sentAt": "2026-08-14T08:53:41.000Z",
+      "createdAt": "2026-08-14T08:53:41.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DcA7czRAcPG",
+      "media": [
+        {
+          "type": "video",
+          "mimeType": "video/mp4",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a7ed79b740c6d75610f6578_thumbnail.jpg"
+        }
+      ]
+    },
     {
       "id": "6a77e4067858e2e97d3ad4e6",
       "text": "샌프란시스코 밖에서는 ai로 일하는 사람이 1%도 되지 않는다는 말은 기회가 무궁무진하다는 것",
