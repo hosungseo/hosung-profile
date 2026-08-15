@@ -1,10 +1,27 @@
 {
-  "syncedAt": "2026-08-14T22:09:22Z",
+  "syncedAt": "2026-08-15T22:07:34Z",
   "source": "buffer",
   "profileUrl": "https://www.threads.com/@gongpenclaw",
   "channelService": "threads",
-  "count": 42,
+  "count": 43,
   "posts": [
+    {
+      "id": "6a80212ece8fd4dc6e5b82e2",
+      "text": "AI를 활용해 조직도 자동생성기를 만들었습니다.\n\nIwatpt 님의 작업물에서 아이디어를 얻어 착수했습니다. 국가법령정보센터 API로 직제와 직제 시행규칙을 함께 긁어와 조직도를 그리고, hwpx로 출력하는 프로그램입니다.\n\n두 가지가 됩니다. 하나는 직제와 시행규칙을 같이 파싱하는 것입니다. 직제에는 실·국까지만 나오고 과 단위는 시행규칙에 있어서, 둘을 붙여야 조직담당자가 실제로 쓰는 형태의 조직도가 나옵니다. 다른 하나는 시행일 기준 스냅샷입니다. 특정 날짜의 조직 상태를 그대로 떠서 개정 전후를 나란히 놓고 볼 수 있습니다. 직제 개정이 워낙 잦다 보니, 이 비교 화면이 실무에서는 조직도 자체보다 더 쓸모 있을지도 모르겠습니다.\n\n쓸 사람은 많지 않습니다. 행안부 조직국과 중앙행정기관 조직담당자를 다 더해도 200명이 되지 않으니까요. 어떤 회사도 200명을 위해 제품을 만들지는 않습니다. 기획하고 개발하고 팔고 유지보수하는 비용을 200명이 나눠 낼 수는 없기 때문입니다.",
+      "sentAt": "2026-08-15T08:19:50.000Z",
+      "createdAt": "2026-08-15T08:19:50.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DcDcbJzAUTL",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a80212ece8fd4dc6e5b82e2_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a80212ece8fd4dc6e5b82e2_thumbnail.jpg"
+        }
+      ]
+    },
     {
       "id": "6a7ed79b740c6d75610f6578",
       "text": "두 줄로 서시나요?\n한 줄로 비켜주시나요?\n\n정답을 정해두고 묻는 게 아닙니다.\n사고는 왜 생기는지,\n우리는 실제로 어떻게 타고 있는지,\n무엇을 기준으로 봐야 하는지.\n\n지금 생각나는 그대로 답해주세요.\n\n모두의 토론회\n8.4 – 8.27\n소통24\n\n#모두의토론회 #소통24",
