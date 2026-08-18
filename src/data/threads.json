@@ -1,10 +1,26 @@
 {
-  "syncedAt": "2026-08-17T22:10:20Z",
+  "syncedAt": "2026-08-18T22:09:01Z",
   "source": "buffer",
   "profileUrl": "https://www.threads.com/@gongpenclaw",
   "channelService": "threads",
-  "count": 44,
+  "count": 45,
   "posts": [
+    {
+      "id": "6a839b9ef3b07eef6e4eb68f",
+      "text": "AI활용 조직도 생성기 업데이트 중입니다. \n1) 대비표 형식으로 비교할 수 있도록 2~4개의 조직도를 한번에 그리기\n2) 소속이 변경된 과를 점선으로 표시",
+      "sentAt": "2026-08-17T23:39:04.000Z",
+      "createdAt": "2026-08-17T23:39:04.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DcKO47agY8P",
+      "media": [
+        {
+          "type": "video",
+          "mimeType": "video/mp4",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a839b9ef3b07eef6e4eb68f_thumbnail.jpg"
+        }
+      ]
+    },
     {
       "id": "6a82936df2a1bf96f86619d9",
       "text": "7월 9일에 ‘대한민국 제도 100’을 공개했습니다.\n그동안 요청을 받아 제도가 577개까지 늘었습니다.\n늘어난 김에, 이걸로 실험을 하나 해봤습니다.\n제도들을 실제 프로젝트 하나에 묶으면 어떻게 보일까?\n전종홍 위원님의 AIDC 입지 시뮬레이터에서 영감을 받았습니다. (링크는 댓글에)\n광주 군공항 부지 반도체 클러스터.\n완공까지 통과해야 하는 법정 절차를 세어보니 1,281개였습니다.\n8개 게이트, 49개 마일스톤, 제도 103개가 걸려 있습니다.\n정확한 숫자는 아닐 겁니다. 관련 없는 절차가 섞였을 수도, 정작 필요한 절차가 빠졌을 수도 있습니다. 보이면 제보해 주세요. 사이트 ‘요청하기’로 받습니다.\n다만 이 작업의 의의는 숫자보다 한눈에 모아본다는 데 있습니다. 각 부처 담당자도 소관 밖 절차는 잘 모릅니다. 지금까지 이 큰 그림은 누구의 화면에도 없었습니다.\n※ 개인 작업이며 정부 공식 입장이 아닙니다.\n#메가프로젝트 #행정절차",
