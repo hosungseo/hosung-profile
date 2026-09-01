@@ -1,10 +1,20 @@
 {
-  "syncedAt": "2026-08-18T22:09:01Z",
+  "syncedAt": "2026-09-01T00:50:26Z",
   "source": "buffer",
   "profileUrl": "https://www.threads.com/@gongpenclaw",
   "channelService": "threads",
-  "count": 45,
+  "count": 46,
   "posts": [
+    {
+      "id": "6a95ed82ed7a0946d9b39b8c",
+      "text": "Openclaw 2.0 ^_^",
+      "sentAt": "2026-08-31T21:09:16.000Z",
+      "createdAt": "2026-08-31T21:09:16.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DcuBMrVk2nZ",
+      "media": []
+    },
     {
       "id": "6a839b9ef3b07eef6e4eb68f",
       "text": "AI활용 조직도 생성기 업데이트 중입니다. \n1) 대비표 형식으로 비교할 수 있도록 2~4개의 조직도를 한번에 그리기\n2) 소속이 변경된 과를 점선으로 표시",
