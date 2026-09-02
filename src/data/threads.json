@@ -1,10 +1,27 @@
 {
-  "syncedAt": "2026-09-01T00:50:26Z",
+  "syncedAt": "2026-09-02T23:37:56Z",
   "source": "buffer",
   "profileUrl": "https://www.threads.com/@gongpenclaw",
   "channelService": "threads",
-  "count": 46,
+  "count": 47,
   "posts": [
+    {
+      "id": "6a98a30a069c94e87fda00c1",
+      "text": "어제 국무총리실에서 마련해주신 AI 행정혁신 우수공직자 간담회에 참석했습니다. 총리님을 실제로 뵙게되어 너무나 긴장되었습니다.\n\n제가 드린 이야기는 행정 리터러시입니다. 행정은 공공 안에서 일하는 공무원에게도 어렵습니다. 비슷한 용어가 다른 효력을 갖고, 개별 단어는 알아도 절차 속에서 조합되면 낯선 언어가 됩니다. 그 복잡성을 지금까지는 국민이 감당해 왔습니다.\n\nAI는 번역에서 출발한 기술입니다. 행정의 언어를 일반국민의 언어로 옮기는 일도 AI가 잘할 수 있고, 그 일은 행정을 아는 사람이 해야 합니다. AI가 행정 리터러시를 제고할 수 있다는 것이 요지였습니다. 행정절차 체계도도 시연했습니다.\n\n총리님은 “관련 지식을 가진 분들이 AI를 활용하는 게 훨씬 더 빠르고 전문적인 결과물이 나올 수 있다”고 하셨고, 동시에 개인의 활용을 넘어 “정부 전체가 일하는 방식을 어떻게 바꿔낼 것인가까지 가야 본격적인 생산성 향상이 일어날 것”이라고 짚어주셨습니다! 존경심이 더 커졌습니다.",
+      "sentAt": "2026-09-02T22:28:19.000Z",
+      "createdAt": "2026-09-02T22:28:19.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DczT1ecgUJP",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a98a30a069c94e87fda00c1_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a98a30a069c94e87fda00c1_thumbnail.jpg"
+        }
+      ]
+    },
     {
       "id": "6a95ed82ed7a0946d9b39b8c",
       "text": "Openclaw 2.0 ^_^",
