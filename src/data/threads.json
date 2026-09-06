@@ -1,10 +1,36 @@
 {
-  "syncedAt": "2026-09-05T23:25:21Z",
+  "syncedAt": "2026-09-06T23:17:52Z",
   "source": "buffer",
   "profileUrl": "https://www.threads.com/@gongpenclaw",
   "channelService": "threads",
-  "count": 48,
+  "count": 50,
   "posts": [
+    {
+      "id": "6a9de0c7a46289e1fa18b8e3",
+      "text": "Astra 테스트로 하나 만들어 봤습니다.\n규제특례는 이미 지역마다 다르게 걸려 있습니다. 강원에서 되는 실증이 부산에서는 안 되고, 그 반대도 마찬가지입니다. 지역의 특성에 맞춰 제도를 다르게 적용하는 것, 그게 지역균형발전이 일하는 방식이니까요.\n그런데 데이터는 여전히 전국이 똑같습니다. 부처별·기관별로 줄 세워 놓은 목록 하나를 전국이 같이 봅니다.\n제도는 지역별로 갈라졌는데, 공공데이터는 아직 안 갈라진 겁니다.\n그래서 축을 바꿔 봤습니다. 기관이 아니라 지역을 가운데 놓고, 그 지역에 걸린 특례에서 출발해 필요한 공공데이터를 붙였습니다. 21개 특례 주제, 51개 공공데이터.\n강원의 ‘분산형 임상시험’에는 임상시험 실시기관·임상시험 정보·병원정보가 붙습니다. 같은 데이터가 다른 지역에서는 의미가 약하고요.\n그 지역에 걸린 규제특례에 따라 데이터의 가치가 달라질 수 있을까요?",
+      "sentAt": "2026-09-06T21:53:04.000Z",
+      "createdAt": "2026-09-06T21:53:04.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/Dc9i0oLE5X1",
+      "media": [
+        {
+          "type": "video",
+          "mimeType": "video/mp4",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6a9de0c7a46289e1fa18b8e3_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6a9cc77aacb5369dad37959e",
+      "text": "Claude opus 4.6\nOpenclaw\nClaude fable 5.0\n\n개인적으로 뭔가 심상치 않은 뭔가를 느낀 순간들입니다. \n\nGPT6 Astra 추가합니다!",
+      "sentAt": "2026-09-06T01:52:53.000Z",
+      "createdAt": "2026-09-06T01:52:53.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/Dc7ZoaHAajm",
+      "media": []
+    },
     {
       "id": "6a9b7361a08956c4a023a8ba",
       "text": "아주 멋진 앱입니다 ㅎㅎ",
