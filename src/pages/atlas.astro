@@ -1,0 +1,39 @@
+---
+import '../atlas/style.css';
+import '../atlas/content.css';
+import '../atlas/support.css';
+import '../atlas/enterprise.css';
+import '../atlas/site-integration.css';
+---
+<!doctype html>
+<html lang="ko"><head><base href="/atlas/"><link rel="canonical" href="https://seohosung.com/atlas/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#030609"><title>지역 기회 아틀라스 · 특례와 데이터 탐색</title><meta name="description" content="지역의 특례, 공공데이터, 중앙정부와 지방정부의 창업지원을 지도 위의 연결망으로 탐색합니다."><link rel="icon" href="data:,"></head>
+<body>
+<main id="atlas" aria-label="지역창업 관계망">
+<div id="stage"><div id="canvas-labels"></div><p id="loading" role="status">지역의 연결을 펼치고 있습니다.</p></div>
+<header><a class="site-back" href="/" aria-label="서호성 사이트로 돌아가기" title="사이트로 돌아가기">←</a><a class="brand" href="./" aria-label="전국 연결망 처음으로"><span class="brand-symbol" aria-hidden="true">✳</span><span>지역 기회 아틀라스 <b>특례 × 공공데이터</b></span></a><div class="header-end"><button id="workspace-button" aria-haspopup="dialog">내 데이터 묶음</button><button id="sources-button">자료와 연결 기준 ↗</button></div></header>
+<div class="intro"><div class="eyebrow"><span class="status-light"></span><span id="view-kicker">지역창업 · 연결의 지도</span></div><h1 id="view-title">지역이 달라지면,<br><em>가능성도 달라집니다.</em></h1><p id="view-desc">특례가 여는 기회에 데이터와 실행 수단을 연결합니다.</p><div class="metrics" id="metrics"></div></div>
+<nav class="navigation" aria-label="지역과 연결 탐색">
+<button id="home-button" aria-label="전국 관계망으로">↖ <span>전국</span></button>
+<div class="nav-field"><label for="region-select">지역</label><select id="region-select" aria-label="지역 선택"><option value="">모든 지역</option></select></div>
+<div class="nav-field topic-field"><label for="topic-select">주제</label><select id="topic-select" aria-label="특례 주제 선택" disabled><option value="">지역을 먼저 선택하세요</option></select></div>
+<div class="search-field"><span aria-hidden="true">⌕</span><label class="sr-only" for="search">지역·특례·데이터·사업 검색</label><input id="search" type="search" placeholder="사업명·기관·데이터 검색" autocomplete="off" aria-controls="search-results"><kbd aria-hidden="true">/</kbd></div>
+<div id="search-results" hidden aria-label="검색 결과"></div></nav>
+<div class="layers" aria-label="큐레이션 목록의 유형별 개수"><span class="layer-heading">수록 목록</span><button data-layer="topic" aria-pressed="true"><i class="key topic"></i>주제 <span id="count-topic"></span></button><button data-layer="data" aria-pressed="true"><i class="key data"></i>자료 <span id="count-data"></span></button><button data-layer="central" aria-pressed="true"><i class="key central"></i>중앙 후보 <span id="count-central"></span></button><button data-layer="local" aria-pressed="true"><i class="key local"></i>지역 후보 <span id="count-local"></span></button></div>
+<div class="view-options"><button id="clear-selection" hidden>선택 해제 ×</button><button id="label-mode" aria-pressed="false" title="참고자료를 포함한 전체 연결. 이름은 화면 공간에 맞게 표시합니다.">전체 연결 보기</button><button id="share-button" aria-pressed="false">한 장 보기 ↗</button></div>
+<p id="scope-note" class="scope-note">지역을 선택하면 특례 주제가 펼쳐집니다.</p>
+<div class="workspace-modes" aria-label="탐색 관점"><button id="data-mode-button" aria-pressed="true">특례·데이터</button><button id="support-mode-button" aria-pressed="false">지원 조합</button><button id="compare-button" aria-haspopup="dialog">지역 비교 ↗</button></div>
+<section id="path-guide" aria-label="핵심 데이터 탐색 경로" hidden></section>
+<section id="story-card" aria-label="특례와 데이터 한 장 요약" hidden></section>
+<div class="scene-meta"><span id="scene-scale">대한민국 / 16개 탐색 지역</span><span id="graph-count"></span></div>
+<aside id="inspector" hidden aria-label="선택한 연결의 근거"><div class="inspector-head"><span id="detail-type" class="eyebrow"></span><button id="expand-detail" aria-expanded="false">크게 읽기</button><button id="close-detail" aria-label="선택 상세 닫기">×</button></div><div id="detail-body"></div></aside>
+<button id="reopen-detail" hidden>선택한 항목 설명 열기</button>
+<div id="tooltip" role="status" hidden></div>
+<section class="insight" aria-label="지역창업 해석"><div class="insight-index">↗<span>연결 해석</span></div><div><span id="insight-kicker">지역의 차이를 실행의 차이로</span><h2 id="insight-title">같은 창업 아이디어도, 지역에 따라 연결할 자원이 달라집니다.</h2><p id="insight-text">지역을 선택해 특례 → 활용 데이터 → 중앙·지역 지원의 관계를 펼쳐보세요.</p></div></section>
+<div class="scene-tools"><button id="options-button" aria-label="표시 설정" aria-expanded="false" title="표시 설정">☷</button><button id="reset-camera" aria-label="시점 초기화" title="시점 초기화">⌖</button><button id="zoom-in" aria-label="확대">＋</button><button id="zoom-out" aria-label="축소">−</button><button id="orbit-button" aria-label="자동 회전" aria-pressed="false" title="자동 회전">⟳</button><button id="motion-button" aria-label="연결 흐름 애니메이션" aria-pressed="true" title="빛 흐름">✧</button><button id="tour-button">▶ <span>둘러보기</span></button></div>
+<button id="exit-story" hidden>← 탐색으로 돌아가기</button>
+<footer><span id="stage-hint">드래그로 회전 · 스크롤로 확대 · 점을 눌러 연결 탐색</span><span>자료 스냅샷 2026.09 · 빛 흐름은 관계 연출</span></footer>
+<div class="sr-only" id="live-status" aria-live="polite"></div>
+</main>
+<dialog id="sources"><button id="close-sources" class="dialog-close" aria-label="자료 설명 닫기">×</button><span class="eyebrow">SOURCES / METHODOLOGY</span><h2>이 연결은 무엇을 뜻하나요?</h2><p>특례·공공데이터·지원사업의 관계를 탐색하는 지도입니다. 실시간 API 수신이나 지원사업의 자동 신청 화면은 아닙니다.</p><dl><dt>실선 · 특례와 지역</dt><dd>보유 고시·법제처 원문·공식 사업개요에 대응한 주제입니다. 적용 구역·참여기업·기간·조건은 선택한 원문에서 확인합니다.</dd><dt>점선 · 데이터와 지원 후보</dt><dd>데이터는 활용 목적에 따른 큐레이션입니다. 사업은 사업명·설명의 분야 단어 또는 분야 공통 창업지원으로 대응합니다. 특례 사업과의 공식 예산 연계나 신청 자격을 뜻하지 않습니다. 연결을 선택하면 대응 이유가 나옵니다.</dd><dt>지원사업 2,198개 자료</dt><dd>중기부 2026 통합공고 연간 안내 508건, 창업정책 대장의 2026 예산사업 1,690건(2026.08.31 스냅샷). 같은 사업의 안내와 예산이 중복될 수 있어 합산하지 않습니다. 예산액은 기업당 지원금이 아닙니다. 중앙·광역·기초는 소관기관 기준입니다.</dd><dt>공공데이터 86개 목록</dt><dd>공공데이터포털 목록과 메타정보를 기반으로 합니다. 개별 API 실호출 및 결합 가능성을 모두 검증한 상태는 아닙니다. 제공 범위·갱신일·제약은 데이터별로 표시합니다.</dd><dt>지도와 위치</dt><dd>통계청 2013 경계 기반 탐색용 배경으로 현행 행정경계나 실제 특구 구역이 아닙니다. 광주·전남은 하나의 탐색 단위입니다. 점은 시·군 대표 위치이며 공식 자료 위치와 명칭 기반 대응을 구별합니다. 위치 미확인을 임의 좌표로 확정하지 않습니다.</dd><dt>표시 범위</dt><dd>관계망은 관련 후보를 추린 부분집합입니다. 전국 검색에서 전체 사업 자료를 찾을 수 있습니다. 큐레이션 미수록은 해당 지역에 기회나 지원이 없다는 뜻이 아닙니다.</dd></dl><p><a href="https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1064197&cbIdx=310&parentSeq=1064197" target="_blank" rel="noopener">중기부 2026 창업지원사업 통합공고 ↗</a><br><a href="https://rfz.go.kr/?menuno=158" target="_blank" rel="noopener">지역별 규제자유특구 사업개요 ↗</a><br><a href="https://github.com/southkorea/southkorea-maps" target="_blank" rel="noopener">지도 원천 ↗</a></p></dialog>
+<dialog id="comparison" aria-labelledby="comparison-title"><div class="comparison-head"><div><span>REGIONAL SUPPORT / 같은 기준으로 비교</span><h2 id="comparison-title">같은 아이디어, 다른 지원 조합</h2></div><button id="close-comparison" aria-label="지역 비교 닫기">×</button></div><div class="comparison-controls"><div class="comparison-inputs"><label>관심 주제<select id="compare-topic"></select></label><label class="comparison-keywords">아이디어 키워드 · 선택<input id="compare-keyword" type="search" maxlength="80" placeholder="예: 식품, 실증 · 원문 단어로 좁히기"></label></div><fieldset id="compare-needs"><legend>필요한 지원 · 복수 선택</legend></fieldset><div class="comparison-region-controls"><label>지역 1<select id="compare-region-1"></select></label><label>지역 2<select id="compare-region-2"></select></label><label>지역 3<select id="compare-region-3"></select></label></div><p id="comparison-status" role="status"></p></div><div id="comparison-body"></div></dialog>
+<noscript>이 탐색기는 JavaScript가 필요합니다.</noscript><script src="../atlas/app.mjs"></script></body></html>

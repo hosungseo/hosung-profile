@@ -1,0 +1,8 @@
+/* The atlas is a full-screen tool; the archive's reading styles stay separate. */
+header{justify-content:flex-start;gap:10px}
+.site-back{display:flex;align-items:center;justify-content:center;width:30px;height:36px;flex-shrink:0;border:1px solid #7a9aaa66;border-radius:6px;color:#c5dbe5;text-decoration:none;font-size:20px}
+.site-back:hover{background:#1d3541}
+.header-end{margin-left:auto}
+.film .site-back,.story-mode .site-back{display:none}
+@media(max-width:650px){header{gap:6px}.site-back{width:24px;height:32px;font-size:17px}.brand-symbol{display:none}.brand{gap:0;font-size:11px}.header-end{gap:6px}}
+@media(max-width:360px){header{gap:5px}.brand{font-size:10px}.site-back{width:22px}.header-end{gap:4px}#workspace-button{padding:4px 5px}#sources-button{font-size:9px}}

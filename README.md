@@ -104,6 +104,17 @@ order: 1
 
 ## 개발
 
+### 아틀라스 메뉴
+
+`/atlas/`는 지역별 규제특례·공공데이터·창업지원 연결을 탐색하는 독립 실행 화면입니다. 상단·하단 메뉴와 `/work`에서 연결합니다. 기존 글·단상·쓰레드 게시판은 유지합니다.
+
+- 화면: `src/pages/atlas.astro`, 기능·스타일: `src/atlas/`.
+- 공개자료: `public/atlas/assets/`의 5개 목록·지도 파일. Three.js와 Pretendard 이용허락은 `public/atlas/licenses/`에 둡니다.
+- 원본 아틀라스를 갱신할 때 `node scripts/import-atlas.mjs /path/to/atlas-project`로 실행 파일만 가져옵니다. 폴더 전체를 공개 디렉터리에 복사하지 않습니다.
+- 기획안·작업 기록·QA 예시·사용자가 작성한 수요는 배포 대상이 아닙니다. `npm run check:atlas`가 파일 허용 목록과 비공개 경로 표식을 검사합니다.
+- ‘내 데이터 묶음’은 방문자의 브라우저에만 저장됩니다. 기관 접수·서버 저장·기기간 동기화는 하지 않습니다.
+- `/atlas`와 `/atlas/` 어느 주소로 들어와도 자원이 같은 경로에서 로드되도록 기준 경로를 지정했습니다. Astro가 앱 스크립트·스타일·글꼴을 빌드하므로 원본 `node_modules`는 공개하지 않습니다.
+
 ```bash
 npm install
 npm run dev      # http://localhost:4321
