@@ -2,7 +2,7 @@ import {readdir,readFile} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 import {join,relative} from 'node:path';
 const root=fileURLToPath(new URL('../',import.meta.url));
-const allowed=new Set(['assets/atlas-data.json','assets/policy-data.json','assets/exemption-evidence.json','assets/korea-explore.geojson','assets/municipalities.geojson','licenses/Three-MIT.txt','licenses/Pretendard-OFL.txt']);
+const allowed=new Set(['assets/atlas-data.json','assets/policy-data.json','assets/exemption-evidence.json','assets/sandbox-index.json','assets/sandbox-detail.json','assets/korea-explore.geojson','assets/municipalities.geojson','licenses/Three-MIT.txt','licenses/Pretendard-OFL.txt']);
 async function files(dir){const result=[];for(const e of await readdir(dir,{withFileTypes:true})){const full=join(dir,e.name);if(e.isSymbolicLink())throw new Error('Symlinks are not allowed in atlas publication');if(e.isDirectory())result.push(...await files(full));else if(e.isFile())result.push(full);}return result;}
 const publicRoot=join(root,'public/atlas'),published=await files(publicRoot);
 for(const file of published){if(!allowed.has(relative(publicRoot,file)))throw new Error('Unexpected atlas public artifact: '+relative(publicRoot,file));}

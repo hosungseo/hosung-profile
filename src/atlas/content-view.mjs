@@ -1,11 +1,13 @@
 import {regulationCards,orderedRecommendations,dataBrief} from './content-guide.mjs';
+import {casesPanel,casesForTopic} from './cases-view.mjs';
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const url=value=>{try{const u=new URL(value);return /^https?:$/.test(u.protocol)?esc(u.href):'#'}catch{return '#'}};
 const link=(href,text)=>`<a href="${url(href)}" target="_blank" rel="noopener">${esc(text)} ↗</a>`;
 const statusLabel=c=>c.level==='notice'?'고시·조문 발췌 요약':c.level==='overview'?'지정 당시 공식 개요':'허용·조건 설명 미확인';
 const relation=(id,name,sub)=>`<button class="relation-link" data-select="${esc(id)}">${esc(name)}<span aria-hidden="true"> ↗</span><small>${esc(sub)}</small></button>`;
 
-export function topicContent({atlas,evidence,model,graph,topic,region,caseId}){
+export function topicContent({atlas,evidence,model,graph,topic,region,caseId,cases}){
+ const sandbox=cases?casesForTopic(cases,topic.id,region):null;
  const cards=regulationCards(atlas,evidence,topic,region);
  const current=cards.find(c=>c.id===caseId)||cards[0];
  const recs=orderedRecommendations(topic,region),core=recs.filter(r=>r.core);
@@ -15,7 +17,7 @@ export function topicContent({atlas,evidence,model,graph,topic,region,caseId}){
  const selector=cards.length>1?`<label class="case-picker">개별 특례·근거 ${cards.length}건<select id="case-select" aria-label="개별 특례 근거 선택">${cards.map(c=>`<option value="${esc(c.id)}" ${c.id===current.id?'selected':''}>${esc(c.zoneName+' · '+c.title)}</option>`).join('')}</select></label>`:`<p class="case-origin">${esc(current.zoneName)}</p>`;
  const coreHTML=core.map(rec=>{const d=model.datasets.get(rec.id),b=dataBrief(d,rec);return `<button class="core-card" data-select="d:${esc(d.id)}"><span class="data-role">${String(rec.rank).padStart(2,'0')} / ${esc(b.group)}</span><b>${esc(d.short)}</b><span>${esc(b.question)}</span></button>`}).join('');
  const groupHTML=[...new Set(recs.map(r=>r.group))].map(group=>`<section class="data-group"><h3>${esc(group)}</h3>${recs.filter(r=>r.group===group).map(rec=>{const d=model.datasets.get(rec.id);return relation('d:'+d.id,d.short,(rec.core?'먼저 볼 자료':'추가 참고')+' · '+dataBrief(d,rec).question)}).join('')}</section>`).join('');
- const tabs=[['overview','특례 이해'],['data',`자료 ${recs.length}`],['support',`지원 ${supports.length}`],['evidence','위치·근거']];
+ const tabs=[['overview','특례 이해'],['cases',`승인과제 ${sandbox?sandbox.all.length:0}`],['data',`자료 ${recs.length}`],['support',`지원 ${supports.length}`],['evidence','위치·근거']];
  const html=`<p class="subject-breadcrumb">${esc(region||'전국')} / ${esc(topic.short)}</p><h2>${esc(current.title)}</h2>${selector}
   <div class="detail-tabs" role="tablist" aria-label="특례 상세 내용">${tabs.map(([id,label],i)=>`<button id="tab-${id}" role="tab" aria-selected="${i===0}" aria-controls="tab-panel-${id}" tabindex="${i===0?0:-1}" data-tab="${id}">${label}</button>`).join('')}</div>
   <div id="tab-panel-overview" role="tabpanel" aria-labelledby="tab-overview" tabindex="0">
@@ -27,6 +29,7 @@ export function topicContent({atlas,evidence,model,graph,topic,region,caseId}){
    <div class="result-idea"><span>만들어볼 결과 · 검증 전 활용 가설</span><p>${esc(current.result||topic.output)}</p><small>${esc(current.question||topic.question)}</small></div>
    <p>${link(current.source,current.sourceTitle)}</p>
   </div>
+  <div id="tab-panel-cases" role="tabpanel" aria-labelledby="tab-cases" tabindex="0" hidden>${sandbox?casesPanel(cases,topic,region):'<p>승인과제 자료를 불러오지 못했습니다.</p>'}</div>
   <div id="tab-panel-data" role="tabpanel" aria-labelledby="tab-data" tabindex="0" hidden><h3>자료의 역할을 먼저 고르세요</h3><p class="meta">파란 점 하나는 관측값이 아닌 자료 목록 한 건입니다. 전체 ${recs.length}개 중 핵심 ${core.length}개를 지도에서 우선 표시합니다.</p>${groupHTML}</div>
   <div id="tab-panel-support" role="tabpanel" aria-labelledby="tab-support" tabindex="0" hidden><h3>사업화를 위해 검토할 지원</h3><p class="meta">분야·지역으로 선별한 후보입니다. 특례의 공식 지원이나 신청 자격을 뜻하지 않습니다.</p>${supports.length?supports.map(e=>{const p=model.programs.get(e.to.slice(2));return relation(e.to,p.title,p.agency+' · '+(p.kind==='annual'?'연간 지원안내':'재정 예산사업')+' / '+e.why)}).join(''):'<p>연결된 지원 후보가 없습니다. 전체 자료 검색에서 확인하세요.</p>'}</div>
   <div id="tab-panel-evidence" role="tabpanel" aria-labelledby="tab-evidence" tabindex="0" hidden><h3>선택한 특례의 근거</h3><p class="lead">${esc(current.zoneName)}</p><p>${esc(current.period)}</p><p>${esc(current.status)}</p><p>${link(current.source,current.sourceTitle)}${current.noticeURL!==current.source?'<br>'+link(current.noticeURL,'해당 특구 고시·사업개요'):''}</p><p class="meta">자료 기준: ${esc(current.date)} · ${esc(statusLabel(current))}</p>${current.excerpt?`<details class="source-excerpt"><summary>보유 원문 발췌 읽기</summary><pre>${esc(current.excerpt)}</pre></details>`:'<p>이 화면에 보유한 고시 발췌는 없습니다. 공식 개요와 실제 승인조건을 구분해 확인합니다.</p>'}<h3>시·군 위치</h3>${locations.length?locations.map(l=>`<p><b>${esc(l.municipality)}</b> · ${l.precision==='official-municipality'?'공식 위치 자료':'명칭 기반 대응'}<br>${esc(l.note||l.basis)}</p>${l.sources.map(s=>link(s.url,s.title)).join('<br>')}`).join(''):'<p>세부 위치 미확인. 관계망의 주제 위치는 실제 시설 좌표가 아닙니다.</p>'}<h3>데이터 활용의 한계</h3><p>${esc(topic.boundary)}</p></div>`;
