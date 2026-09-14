@@ -36,13 +36,31 @@ export function topicContent({atlas,evidence,model,graph,topic,region,caseId,cas
  return {html,current,core,recs};
 }
 
+
+const RESPONDED=new Set(['api-response','api-response-empty','file-link-alive','file-preview','std-schema']);
+function verificationBlock(dataset,metadataChecked){
+ const c=dataset.check;
+ const step1=`<span class="${metadataChecked?'checked':''}">${metadataChecked?'목록·메타정보 확인':'목록 수록 · 대조 미확인'}</span>`;
+ if(!c)return `<div class="verification-steps" aria-label="자료 검증 수준">${step1}<span>실제 응답 미검증</span><span>자료 결합 미검증</span></div>`;
+ const ok=RESPONDED.has(c.stage),partial=c.stage==='endpoint-only'||c.stage==='file-metadata'||c.stage==='std-metadata';
+ const step2=`<span class="${ok?'checked':partial?'partial':'blocked'}">${esc(c.label)}${c.at?' · '+esc(c.at):''}</span>`;
+ let detail='';
+ if(c.endpoint)detail+=`<p class="meta">호출: <code>${esc(c.endpoint)}</code>${c.operations&&c.operations.length>1?` 외 기능 ${c.operations.length-1}개`:''}${c.code?` · 응답 코드 ${esc(c.code)}${c.message?' '+esc(c.message):''}`:''}${c.missingRequired?.length?` · 표본 호출에 필요한 변수 ${esc(c.missingRequired.join(', '))}`:''}</p>`;
+ if(c.sampleKeys?.length)detail+=`<p class="meta">실제 응답 항목 ${c.sampleKeys.length}개</p><div class="field-list">${c.sampleKeys.map(k=>`<span>${esc(k)}</span>`).join('')}</div>`;
+ else if(c.specFields?.length)detail+=`<p class="meta">규격서의 응답 항목 ${c.specFields.length}개 (실제 응답으로 확인한 것은 아닙니다)</p><div class="field-list">${c.specFields.map(f=>`<span title="${esc(f.name)}">${esc(f.desc||f.name)}</span>`).join('')}</div>`;
+ if(c.columns?.length)detail+=`<p class="meta">항목 ${c.columns.length}개</p><div class="field-list">${c.columns.map(k=>`<span>${esc(k)}</span>`).join('')}</div>`;
+ if(c.info&&Object.keys(c.info).length)detail+=`<p class="meta">${Object.entries(c.info).filter(([k])=>k!=='URL').map(([k,v])=>esc(k)+' '+esc(v)).join(' · ')}</p>`;
+ if(c.externalUrl)detail+=`<p class="meta">원천 링크 ${link(c.externalUrl,'외부 제공 주소')} · 응답 ${esc(String(c.externalStatus))}</p>`;
+ if(c.stage==='application-required')detail+=`<p class="meta">공통 인증키가 이 API에 등록되지 않았습니다(코드 30). 포털에서 활용신청 후 같은 호출로 응답을 확인할 수 있습니다.</p>`;
+ return `<div class="verification-steps" aria-label="자료 검증 수준">${step1}${step2}<span>자료 결합 미검증</span></div>${detail}`;
+}
 export function datasetContent(dataset,recommendations,model){
  const rec=recommendations[0],brief=dataBrief(dataset,rec?.recommendation);
  const fields=brief.fields,metadataChecked=dataset.metaMatched===true||!!dataset.verifiedAt;
  return `<p class="subject-breadcrumb">${esc(dataset.provider)} / ${esc(dataset.kind)} 목록</p><h2>${esc(dataset.short)}</h2><p class="data-role">${brief.core?'먼저 볼 자료':'참고자료'} · ${esc(brief.group)}</p>
  <div class="data-question"><span>이 자료로 답할 질문</span><p class="lead">${esc(brief.question)}</p></div>
  <h3>무엇이 들어 있나요?</h3>${fields.length?`<div class="field-list">${fields.map(f=>`<span>${esc(f)}</span>`).join('')}</div><p class="meta">목록 메타정보에 수록된 주요 항목. 실제 응답 표본은 아직 확인하지 않았습니다.</p>`:'<p>주요 제공 항목 미확인. 포털 설명만으로 데이터 필드를 추정하지 않았습니다.</p>'}
- <div class="verification-steps" aria-label="자료 검증 수준"><span class="${metadataChecked?'checked':''}">${metadataChecked?'목록·메타정보 확인':'목록 수록 · 대조 미확인'}</span><span>실제 응답 미검증</span><span>자료 결합 미검증</span></div>
+ ${verificationBlock(dataset,metadataChecked)}
  <h3>이 특례에서의 쓰임과 한계</h3>${recommendations.map(e=>`<p class="policy-statement">${esc(e.recommendation.why)}</p><p>${esc(e.recommendation.limit)}</p>${relation(e.from,model.themes.get(e.from.slice(2)).short,'특례 설명으로 돌아가기')}`).join('')}
  <h3>다른 자료와 연결하려면</h3><p>${esc(brief.join)}</p>
  <h3>데이터 이용 범위</h3><dl class="case-scope"><dt>지역</dt><dd>${esc(dataset.coverage||'제공 지역 미확인')}</dd><dt>이용</dt><dd>${esc(dataset.license||'이용조건 미확인')} · ${esc(dataset.cost||'비용 미확인')}</dd><dt>갱신</dt><dd>포털 등록 주기: ${esc(dataset.cycle||'미수록')}<br>목록 수정일: ${esc(dataset.modified||'미수록')}<br>이 화면의 실시간 수신을 뜻하지 않습니다.</dd></dl>
