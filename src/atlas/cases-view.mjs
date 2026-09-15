@@ -57,3 +57,29 @@ export function caseDetail(c,S,detail,{themes,region}={}){
 export function caseSearchItems(S){
  return S.cases.map(c=>({id:'s:'+c.seq,type:'case',label:c.title,search:[c.title,c.company,c.ministry,c.field,c.type,c.regulations.join(' '),c.regions.join(' ')].join(' '),sub:[c.type,c.approvedOn,c.company].join(' · ')}));
 }
+
+const PAGE=40;
+export const BROWSE_KEYS=['field','type','year','region','theme','q'];
+export function browseFilter(S,f){
+ const q=(f.q||'').trim().toLowerCase().replace(/\s+/g,'');
+ return S.cases.filter(c=>(!f.field||c.field===f.field)&&(!f.type||c.type===f.type)&&(!f.year||(c.approvedOn||'').startsWith(f.year))
+  &&(!f.region||(f.region==='__none'?!c.regions.length:c.regions.includes(f.region)))
+  &&(!f.theme||(f.theme==='__none'?!c.themes.length:c.themes.includes(f.theme)))
+  &&(!q||[c.title,c.company,c.ministry,c.regulations.join(' ')].join(' ').toLowerCase().replace(/\s+/g,'').includes(q)));
+}
+export function casesBrowse(S,f,themes){
+ const found=browseFilter(S,f),page=Math.max(1,f.page||1),shown=found.slice(0,PAGE*page);
+ const opt=(name,items,cur,label)=>`<label class="browse-field"><span>${esc(label)}</span><select data-browse="${name}"><option value="">전체</option>${items.map(([v,t])=>`<option value="${esc(v)}" ${String(v)===String(cur||'')?'selected':''}>${esc(t)}</option>`).join('')}</select></label>`;
+ const fields=Object.entries(S.byField||{}).map(([k,n])=>[k,`${k} ${n.toLocaleString()}`]);
+ const types=Object.entries(S.byType||{}).map(([k,n])=>[k,`${k} ${n.toLocaleString()}`]);
+ const years=Object.keys(S.byYear||{}).filter(y=>/^\d{4}$/.test(y)).sort().reverse().map(y=>[y,`${y}년 ${S.byYear[y].toLocaleString()}`]);
+ const regions=[...Object.entries(S.byRegion||{}).map(([k,n])=>[k,`${k} ${n}`]),['__none',`지역 미표기 ${(S.total-S.withRegion).toLocaleString()}`]];
+ const themeOpts=[...Object.entries(S.byTheme||{}).map(([k,n])=>[k,`${themes.get(k)?.short||k} ${n}`]),['__none',`주제 미대응 ${(S.total-S.withTheme).toLocaleString()}`]];
+ return {found:found.length,shown:shown.length,html:`<p class="subject-breadcrumb">규제샌드박스 승인과제 ${S.total.toLocaleString()}건 / 찾아보기</p><h2>승인과제 찾아보기</h2>
+ <p class="meta">주제에 대응되지 않은 과제까지 전부 볼 수 있습니다. 분야·유형은 포털 값, 지역·주제는 편집 분류입니다.</p>
+ <div class="browse-filters">${opt('field',fields,f.field,'분야')}${opt('type',types,f.type,'특례유형')}${opt('year',years,f.year,'승인연도')}${opt('region',regions,f.region,'지역 언급')}${opt('theme',themeOpts,f.theme,'편집 주제')}<label class="browse-field wide"><span>검색</span><input type="search" data-browse="q" value="${esc(f.q||'')}" placeholder="제목·업체·주관부처·관련규정"></label></div>
+ <p class="browse-count"><b>${found.length.toLocaleString()}</b>건${found.length>shown.length?` 중 ${shown.length}건 표시`:''}${Object.values(f).some(v=>v&&v!==1)?' <button class="browse-reset" data-browse-reset>조건 지우기</button>':''}</p>
+ <div class="sb-list">${shown.map(c=>caseCard(c,{region:f.region&&f.region!=='__none'?f.region:undefined})).join('')||'<p>조건에 맞는 과제가 없습니다. 조건을 줄여보세요.</p>'}</div>
+ ${found.length>shown.length?`<button class="bundle-action" data-browse-more>더 보기 <span>${(found.length-shown.length).toLocaleString()}건 남음</span></button>`:''}
+ <p class="meta">원천: 규제샌드박스 통합포털 승인과제 목록(${esc(S.fetchedAt?.slice(0,10)||S.parsedAt)} 수록). ${link(PORTAL_LIST,'포털 목록 ↗')}</p>`};
+}

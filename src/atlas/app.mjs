@@ -5,7 +5,7 @@ import {topicContent,datasetContent,storyContent} from './content-view.mjs';
 import {SUPPORT_ROLES} from './support-model.mjs';
 import {supportPanelContent,supportLanesContent,supportDetailProfile,comparisonContent} from './support-view.mjs';
 import {createEnterpriseWorkspace} from './enterprise-workspace.mjs';
-import {caseDetail,caseSearchItems,casesForRegion} from './cases-view.mjs';
+import {caseDetail,caseSearchItems,casesForRegion,casesBrowse,BROWSE_KEYS} from './cases-view.mjs';
 const $=selector=>document.querySelector(selector);
 const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeURL=value=>{try{const u=new URL(value);return /^https?:$/.test(u.protocol)?escape(u.href):'#'}catch{return '#'}};
@@ -16,7 +16,7 @@ try{
  const [D,P,GEO,MUNICIPAL,E,S]=await Promise.all(['assets/atlas-data.json','assets/policy-data.json','assets/korea-explore.geojson','assets/municipalities.geojson','assets/exemption-evidence.json','assets/sandbox-index.json'].map(load));
  let SD=null;const caseDetailData=async()=>{SD??=await load('assets/sandbox-detail.json');return SD;};
  await document.fonts.ready;
- const model=createModel(D,P,MUNICIPAL),state={region:null,topic:null,data:null,program:null,city:null,case:null,sb:null,listMode:query.get('view')==='list',story:query.has('share'),supportMode:query.get('mode')==='support',supportRole:SUPPORT_ROLES.some(r=>r.id===query.get('role'))?query.get('role'):'',supportKind:query.get('supportKind')==='budget'?'budget':'annual',motion:!reduced,auto:false,tour:false,expandedLabels:film};
+ const model=createModel(D,P,MUNICIPAL),state={region:null,topic:null,data:null,program:null,city:null,case:null,sb:null,browse:null,listMode:query.get('view')==='list',story:query.has('share'),supportMode:query.get('mode')==='support',supportRole:SUPPORT_ROLES.some(r=>r.id===query.get('role'))?query.get('role'):'',supportKind:query.get('supportKind')==='budget'?'budget':'annual',motion:!reduced,auto:false,tour:false,expandedLabels:film};
  const comparison={active:false,topic:'food',regions:['전북','강원','경북'],needed:['capital','pilot','market'],keyword:''};
  let graph,scene,workspace,selectedId=null,detailOpen=false,tourFrame=0,lastTourPhase='';
  const layers={topic:true,data:true,central:true,local:true};
@@ -34,8 +34,8 @@ try{
   'green-energy':'발전·전력·지역 에너지 정보를 결합해 실증 모델을 검토하는 경로입니다. 설비 계측자료와 거래 참여 조건은 공개 목록만으로 확정할 수 없습니다.'
  };
  function interpretation(t){const shared=D.regions.filter(r=>model.zonesFor(r.name,t.id).length).length;return interpretations[t.id]||`${shared}개 탐색 지역에서 대응된 주제입니다. ${t.combination}. 지역별 적용 대상과 지방정부의 지원 요건을 대조해야 실행 가능한 조합을 좁힐 수 있습니다.`;}
- function updateURL(replace=false){const p=new URLSearchParams(location.search);for(const key of ['region','topic','data','program','city','case','sb'])state[key]?p.set(key,state[key]):p.delete(key);state.story?p.set('share',''):p.delete('share');state.listMode?p.set('view','list'):p.delete('view');state.supportMode?p.set('mode','support'):p.delete('mode');state.supportRole?p.set('role',state.supportRole):p.delete('role');state.supportKind==='budget'?p.set('supportKind','budget'):p.delete('supportKind');if(comparison.active){p.set('compare',comparison.regions.join(','));p.set('compareTopic',comparison.topic);p.set('needs',comparison.needed.join(','));comparison.keyword?p.set('cq',comparison.keyword):p.delete('cq');}else{for(const k of ['compare','compareTopic','needs','cq'])p.delete(k);}const url=location.pathname+(p.size?'?'+p:'');if(url!==location.pathname+location.search)history[replace?'replaceState':'pushState'](null,'',url);}
- function clearSelection(){state.topic=state.data=state.program=state.city=state.case=state.sb=null;selectedId=null;setDetail(false);}
+ function updateURL(replace=false){const p=new URLSearchParams(location.search);for(const key of ['region','topic','data','program','city','case','sb'])state[key]?p.set(key,state[key]):p.delete(key);state.story?p.set('share',''):p.delete('share');state.listMode?p.set('view','list'):p.delete('view');if(state.browse){p.set('browse','1');for(const k of BROWSE_KEYS)state.browse[k]?p.set('b'+k,state.browse[k]):p.delete('b'+k);}else{p.delete('browse');for(const k of BROWSE_KEYS)p.delete('b'+k);}state.supportMode?p.set('mode','support'):p.delete('mode');state.supportRole?p.set('role',state.supportRole):p.delete('role');state.supportKind==='budget'?p.set('supportKind','budget'):p.delete('supportKind');if(comparison.active){p.set('compare',comparison.regions.join(','));p.set('compareTopic',comparison.topic);p.set('needs',comparison.needed.join(','));comparison.keyword?p.set('cq',comparison.keyword):p.delete('cq');}else{for(const k of ['compare','compareTopic','needs','cq'])p.delete(k);}const url=location.pathname+(p.size?'?'+p:'');if(url!==location.pathname+location.search)history[replace?'replaceState':'pushState'](null,'',url);}
+ function clearSelection(){state.topic=state.data=state.program=state.city=state.case=state.sb=state.browse=null;selectedId=null;setDetail(false);}
  function setDetail(open){detailOpen=open;if(!open){document.body.classList.remove('detail-expanded');document.querySelectorAll('.navigation,.layers,.view-options').forEach(el=>el.inert=false);$('#expand-detail').setAttribute('aria-expanded','false');$('#expand-detail').textContent='크게 읽기';}$('#inspector').hidden=!open;$('#reopen-detail').hidden=open||!selectedId;document.body.classList.toggle('detail-open',open);scene?.setDetailOpen(open);}
  function selectRegion(name,{noURL=false,instant=false}={}){
   cancelTour();const region=name?model.normalizeRegion(name):null;if(region&&!D.regions.some(r=>r.name===region))return;
@@ -59,7 +59,7 @@ try{
   $('#view-kicker').textContent=r?`특공대 · ${r}의 실증 준비`:'특공대 · 창업기업을 위한 특례·데이터 탐색';
   $('#view-title').textContent=r?`${r}의 특례에, 필요한 데이터를.`:'내 실증에 맞는 특례와 데이터를 찾으세요.';
   $('#view-desc').textContent=r?'개별 특례의 조건을 확인하고, 쓸 자료를 내 묶음에 담으세요.':'지역 → 특례의 허용·조건 → 데이터 선택 → 사용 결과와 부족한 데이터';
-  $('#metrics').innerHTML=`<span><strong>${r?graph.topics.length:D.themes.length}</strong>특례 주제</span><span><strong>${casesForRegion(S,r).length.toLocaleString()}</strong>승인과제${r?' 언급':''}</span><span><strong>${counts.data}</strong>연결 데이터</span><span><strong>${counts.central+counts.local}</strong>표시 사업</span>`;
+  $('#metrics').innerHTML=`<span><strong>${r?graph.topics.length:D.themes.length}</strong>특례 주제</span><button class="metric-link" data-open-browse title="승인과제 찾아보기"><strong>${casesForRegion(S,r).length.toLocaleString()}</strong>승인과제${r?' 언급':''} ↗</button><span><strong>${counts.data}</strong>연결 데이터</span><span><strong>${counts.central+counts.local}</strong>표시 사업</span>`;
   $('#scene-scale').textContent=r?`${r} / 시·군 대표 위치 · 2013 배경지도`:'대한민국 / 16개 탐색 지역';
   $('#graph-count').textContent=`${graph.nodes.length} NODES · ${graph.edges.length} LINKS`;
   for(const [type,count] of Object.entries(counts))$('#count-'+type).textContent=count;
@@ -92,6 +92,7 @@ try{
   }
   workspace?.refresh();
   renderGraphList();
+  $('#metrics [data-open-browse]').onclick=()=>openBrowse({region:state.region||''});
  }
  function renderPath(content,t){
   $('#path-guide').hidden=!t||!content.current;
@@ -107,7 +108,7 @@ try{
   scene?.setDetailOpen(detailOpen&&!state.story);if(writeURL)updateURL();
  }
  function renderDetail(n){
-  state.sb=null;
+  state.sb=null;state.browse=null;
   $('#detail-type').textContent=TYPES[n.type].label+' / '+(state.region||'전국 연결');
   let html=`<h2>${escape(n.label)}</h2>`;
   if(n.type==='topic'){
@@ -148,8 +149,9 @@ try{
   const c=S.cases.find(c=>String(c.seq)===String(seq));if(!c)return;
   state.sb=String(seq);
   const topic=state.topic&&model.themes.get(state.topic);
-  const back=topic?`<button class="bundle-action" data-back-topic>← ${escape(topic.short)} 주제로 돌아가기 <span>승인과제 목록</span></button>`:'';
-  const render=detail=>{$('#detail-type').textContent='개별 특례 / '+(c.regions[0]||'전국·지역 미확인');$('#detail-body').innerHTML=back+caseDetail(c,S,detail,{themes:model.themes,region:state.region});$('#detail-body').scrollTop=0;$('#detail-body').querySelectorAll('[data-select]').forEach(b=>b.onclick=()=>{state.sb=null;selectTopic(b.dataset.select.slice(2));});$('#detail-body').querySelector('[data-back-topic]')?.addEventListener('click',()=>{state.sb=null;const n=nodeById('t:'+state.topic);if(n){renderDetail(n);$('#tab-cases')?.click();}else clearSelection();updateURL();});};
+  const browse=state.browse;
+  const back=browse?`<button class="bundle-action" data-back-browse>← 찾아보기로 돌아가기 <span>조건 유지</span></button>`:topic?`<button class="bundle-action" data-back-topic>← ${escape(topic.short)} 주제로 돌아가기 <span>승인과제 목록</span></button>`:'';
+  const render=detail=>{$('#detail-type').textContent='개별 특례 / '+(c.regions[0]||'전국·지역 미확인');$('#detail-body').innerHTML=back+caseDetail(c,S,detail,{themes:model.themes,region:state.region});$('#detail-body').scrollTop=0;$('#detail-body').querySelectorAll('[data-select]').forEach(b=>b.onclick=()=>{state.sb=null;selectTopic(b.dataset.select.slice(2));});$('#detail-body').querySelector('[data-back-topic]')?.addEventListener('click',()=>{state.sb=null;const n=nodeById('t:'+state.topic);if(n){renderDetail(n);$('#tab-cases')?.click();}else clearSelection();updateURL();});$('#detail-body').querySelector('[data-back-browse]')?.addEventListener('click',()=>{state.sb=null;openBrowse(browse);});$('#detail-body').insertAdjacentHTML('beforeend',`<p><button class="relation-link" data-browse-field="${escape(c.field)}">같은 분야(${escape(c.field)})의 다른 승인과제 찾아보기<span aria-hidden="true"> ↗</span></button></p>`);$('#detail-body').querySelector('[data-browse-field]').onclick=()=>openBrowse({field:c.field});};
   render(null);document.body.classList.remove('support-panel-active');setDetail(true);if(!noURL)updateURL();
   try{const all=await caseDetailData();if(state.sb===String(seq))render(all[String(seq)]||{});}catch{const p=$('#sb-conditions');if(p)p.textContent='조건 본문을 불러오지 못했습니다. 포털 링크에서 확인합니다.';}
  }
@@ -158,9 +160,22 @@ try{
   const el=$('#graph-list');if(!el)return;el.hidden=!state.listMode;document.body.classList.toggle('list-mode',state.listMode);$('#list-mode').setAttribute('aria-pressed',String(state.listMode));$('#list-mode').textContent=state.listMode?'관계망으로 보기':'목록으로 보기';if(!state.listMode){el.innerHTML='';return;}
   const groups=LIST_ORDER.map(type=>[type,graph.nodes.filter(n=>n.type===type)]).filter(([,ns])=>ns.length);
   const sub=n=>n.type==='data'?n.ref.provider:['central','local'].includes(n.type)?n.ref.agency+' · '+kindLabel(n.ref):n.type==='topic'?`지역 대응 ${D.regions.filter(r=>model.zonesFor(r.name,n.ref.id).length).length}곳`:n.type==='city'?'시·군 대표 위치':'';
-  el.innerHTML=`<div class="graph-list-head"><b>${escape(state.region||'전국')} 관계망 목록</b><span>${graph.nodes.length}개 항목 · 3D 장면과 같은 내용</span><button id="close-graph-list" aria-label="목록 닫기">×</button></div>`+groups.map(([type,ns])=>`<section><h3><i class="key ${type}"></i>${escape(TYPES[type]?.label||type)} <span>${ns.length}</span></h3>${ns.map(n=>`<button class="graph-list-item" data-select="${escape(n.id)}" aria-current="${n.id===selectedId}">${escape(n.label)}${sub(n)?`<small>${escape(sub(n))}</small>`:''}</button>`).join('')}</section>`).join('')+(state.region?'':'<p class="meta">지역을 고르면 그 지역의 주제·자료·지원이 목록에 나옵니다.</p>');
+  el.innerHTML=`<div class="graph-list-head"><b>${escape(state.region||'전국')} 관계망 목록</b><span>${graph.nodes.length}개 항목 · 3D 장면과 같은 내용</span><button id="close-graph-list" aria-label="목록 닫기">×</button></div><p class="graph-list-browse"><button data-open-browse-list>승인과제 ${S.total.toLocaleString()}건 전체 찾아보기 →</button></p>`+groups.map(([type,ns])=>`<section><h3><i class="key ${type}"></i>${escape(TYPES[type]?.label||type)} <span>${ns.length}</span></h3>${ns.map(n=>`<button class="graph-list-item" data-select="${escape(n.id)}" aria-current="${n.id===selectedId}">${escape(n.label)}${sub(n)?`<small>${escape(sub(n))}</small>`:''}</button>`).join('')}</section>`).join('')+(state.region?'':'<p class="meta">지역을 고르면 그 지역의 주제·자료·지원이 목록에 나옵니다.</p>');
   el.querySelectorAll('[data-select]').forEach(b=>b.onclick=()=>selectNode(b.dataset.select));
   $('#close-graph-list').onclick=()=>setListMode(false);
+  el.querySelector('[data-open-browse-list]').onclick=()=>openBrowse({region:state.region||''});
+ }
+ function openBrowse(opts={},{noURL=false}={}){
+  state.browse={field:'',type:'',year:'',region:'',theme:'',q:'',page:1,...(state.browse&&opts===state.browse?{}:{}),...opts};state.sb=null;
+  const f=state.browse,{html,found}=casesBrowse(S,f,model.themes);
+  $('#detail-type').textContent='승인과제 찾아보기 / '+(f.region&&f.region!=='__none'?f.region:'전국');$('#detail-body').innerHTML=html;if(!(opts.page>1))$('#detail-body').scrollTop=0;
+  const body=$('#detail-body');
+  body.querySelectorAll('[data-browse]').forEach(el=>{const apply=()=>{state.browse={...state.browse,[el.dataset.browse]:el.value,page:1};openBrowse(state.browse);};el.tagName==='SELECT'?el.onchange=apply:(el.oninput=()=>{clearTimeout(el._t);el._t=setTimeout(apply,220);});});
+  body.querySelector('[data-browse-reset]')?.addEventListener('click',()=>openBrowse({}));
+  body.querySelector('[data-browse-more]')?.addEventListener('click',()=>openBrowse({...state.browse,page:(state.browse.page||1)+1},{noURL:true}));
+  body.querySelectorAll('[data-sandbox]').forEach(b=>b.onclick=()=>openCase(b.dataset.sandbox));
+  document.body.classList.remove('support-panel-active');setDetail(true);if(!noURL)updateURL();
+  const q=body.querySelector('[data-browse="q"]');if(q&&document.activeElement!==q&&f.q){q.focus();q.setSelectionRange(q.value.length,q.value.length);}
  }
  function setListMode(value,write=true){state.listMode=value;renderGraphList();if(write)updateURL();}
  function renderSupportPanel(){
@@ -227,14 +242,15 @@ try{
  function syncLayers(){for(const b of document.querySelectorAll('[data-layer]'))b.setAttribute('aria-pressed',String(layers[b.dataset.layer]));scene?.setLayers(layers);}
  function hover(n,x,y){const el=$('#tooltip');el.hidden=!n;if(!n)return;el.innerHTML=`${escape(n.label)}<small>${escape(TYPES[n.type].label)}${n.type==='central'||n.type==='local'?' · '+escape(kindLabel(n.ref)):''} · 클릭해 연결 이유 보기</small>`;const rect=el.getBoundingClientRect();el.style.left=Math.min(innerWidth-rect.width-12,Math.max(12,x+16))+'px';el.style.top=Math.min(innerHeight-rect.height-12,Math.max(80,y+18))+'px';}
  try{scene=createSwarmScene({stage:$('#stage'),labels:$('#canvas-labels'),atlas:D,geo:GEO,municipal:MUNICIPAL,reduced,capture:query.has('capture'),onSelect:selectNode,onHover:hover,onMapSelect:selectRegion});$('#loading').remove();}
- catch(error){console.error(error);$('#loading').textContent='3D 화면을 열지 못했습니다. 지역 선택·검색으로 연결 자료를 확인할 수 있습니다.';$('#loading').className='error';}
- function restore(){const p=new URLSearchParams(location.search);state.supportMode=p.get('mode')==='support';state.supportRole=SUPPORT_ROLES.some(r=>r.id===p.get('role'))?p.get('role'):'';state.supportKind=p.get('supportKind')==='budget'?'budget':'annual';state.story=p.has('share');selectRegion(p.get('region'),{noURL:true,instant:true});if(p.get('program'))selectProgram(p.get('program'),{noURL:true,topic:p.get('topic')});else if(p.get('data')){state.topic=p.get('topic');selectData(p.get('data'),{noURL:true});}else if(p.get('topic'))selectTopic(p.get('topic'),{noURL:true});else if(p.get('city'))selectNode('c:'+p.get('city'),{noURL:true});if(p.get('case')&&state.topic){state.case=p.get('case');if(!state.data&&!state.program)renderDetail(nodeById('t:'+state.topic));}setStory(p.has('share'),false);if(state.supportMode&&state.topic){refreshSupportScene();if(!state.program&&!state.data)$('#tab-support')?.click();}if(p.get('sb'))openCase(p.get('sb'),{noURL:true});restoreComparison(p);updateURL(true);}
+ catch(error){console.error(error);$('#loading').textContent='3D 화면을 열지 못해 같은 내용을 목록으로 보여드립니다. 지역 선택·검색도 그대로 됩니다.';$('#loading').className='error';setListMode(true,false);}
+ function restore(){const p=new URLSearchParams(location.search);state.supportMode=p.get('mode')==='support';state.supportRole=SUPPORT_ROLES.some(r=>r.id===p.get('role'))?p.get('role'):'';state.supportKind=p.get('supportKind')==='budget'?'budget':'annual';state.story=p.has('share');selectRegion(p.get('region'),{noURL:true,instant:true});if(p.get('program'))selectProgram(p.get('program'),{noURL:true,topic:p.get('topic')});else if(p.get('data')){state.topic=p.get('topic');selectData(p.get('data'),{noURL:true});}else if(p.get('topic'))selectTopic(p.get('topic'),{noURL:true});else if(p.get('city'))selectNode('c:'+p.get('city'),{noURL:true});if(p.get('case')&&state.topic){state.case=p.get('case');if(!state.data&&!state.program)renderDetail(nodeById('t:'+state.topic));}setStory(p.has('share'),false);if(state.supportMode&&state.topic){refreshSupportScene();if(!state.program&&!state.data)$('#tab-support')?.click();}if(p.get('browse')){const o={};for(const k of BROWSE_KEYS)if(p.get('b'+k))o[k]=p.get('b'+k);openBrowse(o,{noURL:true});}if(p.get('sb'))openCase(p.get('sb'),{noURL:true});restoreComparison(p);updateURL(true);}
  $('#options-button').onclick=()=>{const open=document.body.classList.toggle('options-open');$('#options-button').setAttribute('aria-expanded',String(open));};
  $('#share-button').onclick=()=>setStory(!state.story);$('#exit-story').onclick=()=>setStory(false);
  $('#region-select').onchange=e=>selectRegion(e.target.value);
  $('#topic-select').onchange=e=>selectTopic(e.target.value||null);
  $('#clear-selection').onclick=()=>{selectTopic(null);$('#topic-select').focus()};
  $('#list-mode').onclick=()=>setListMode(!state.listMode);
+ $('#browse-button').onclick=()=>openBrowse({region:state.region||''});
  $('#label-mode').onclick=()=>{state.expandedLabels=!state.expandedLabels;$('#label-mode').setAttribute('aria-pressed',String(state.expandedLabels));$('#label-mode').textContent=state.expandedLabels?'핵심 연결만 보기':'전체 연결 보기';scene?.setLabelMode(state.expandedLabels)};$('#home-button').onclick=()=>selectRegion(null);$('.brand').onclick=e=>{e.preventDefault();selectRegion(null)};
  $('#expand-detail').onclick=()=>{const expanded=document.body.classList.toggle('detail-expanded');document.querySelectorAll('.navigation,.layers,.view-options').forEach(el=>el.inert=expanded);$('#expand-detail').setAttribute('aria-expanded',String(expanded));$('#expand-detail').textContent=expanded?'지도와 함께':'크게 읽기';scene?.setDetailOpen(true)};
  $('#close-detail').onclick=()=>{setDetail(false);$('#reopen-detail').focus()};$('#reopen-detail').onclick=()=>setDetail(true);
@@ -258,4 +274,4 @@ try{
  workspace=createEnterpriseWorkspace({atlas:D,evidence:E,model,state,onOpen:()=>{cancelTour();if(state.story)setStory(false);},onChange:ids=>scene?.setBundle(ids),onNavigate:r=>{selectRegion(r.region,{noURL:true});selectTopic(r.topic,{noURL:true});state.case=r.caseId;renderDetail(nodeById('t:'+r.topic));updateURL();}});
  window.addEventListener('popstate',restore);restore();workspace.refresh();
  window.atlas={ready:true,webgl:!!scene,seek,selectRegion,selectTopic,selectData,selectProgram,state,getStats:()=>scene?.stats()||{webgl:false},getGraph:()=>({region:graph.region,nodes:graph.nodes.map(n=>({id:n.id,type:n.type,label:n.label})),edges:graph.edges.map(e=>({from:e.from,to:e.to,kind:e.kind,why:e.why}))}),catalogueCounts:{datasets:D.datasets.length,programs:P.programs.length,annual:P.programs.filter(p=>p.kind==='annual').length,budget:P.programs.filter(p=>p.kind==='budget').length}};
-}catch(error){console.error(error);$('#loading').textContent='자료를 불러오지 못했습니다. 서버 연결을 확인하고 새로고침해주세요.';}
+}catch(error){console.error(error);const el=$('#loading');el.className='error';el.innerHTML='<b>자료를 불러오지 못했습니다.</b><br>네트워크가 끊겼거나 자료 파일이 잠시 응답하지 않습니다. 사용자 입력은 이 화면에 없으니 잃은 것은 없습니다.<br><button id="reload-button" type="button">다시 불러오기</button> <a href="https://www.sandbox.go.kr/sandbox.SandboxTaskSlPL" target="_blank" rel="noopener">규제샌드박스 포털에서 직접 보기 ↗</a>';el.querySelector('#reload-button').onclick=()=>location.reload();}
