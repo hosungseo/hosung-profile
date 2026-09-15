@@ -44,12 +44,13 @@ export function topicContent({atlas,evidence,model,graph,topic,region,caseId,cas
 }
 
 
-const RESPONDED=new Set(['api-response','api-response-empty','file-link-alive','file-preview','std-schema']);
+const RESPONDED=new Set(['api-response','api-response-empty','file-link-alive','file-preview','std-schema','link-api-alive']);
+const PARTIAL=new Set(['endpoint-only','file-metadata','std-metadata','params-required','provider-key-required']);
 function verificationBlock(dataset,metadataChecked){
  const c=dataset.check;
  const step1=`<span class="${metadataChecked?'checked':''}">${metadataChecked?'목록·메타정보 확인':'목록 수록 · 대조 미확인'}</span>`;
  if(!c)return `<div class="verification-steps" aria-label="자료 검증 수준">${step1}<span>실제 응답 미검증</span><span>자료 결합 미검증</span></div>`;
- const ok=RESPONDED.has(c.stage),partial=c.stage==='endpoint-only'||c.stage==='file-metadata'||c.stage==='std-metadata';
+ const ok=RESPONDED.has(c.stage),partial=PARTIAL.has(c.stage);
  const step2=`<span class="${ok?'checked':partial?'partial':'blocked'}">${esc(c.label)}${c.at?' · '+esc(c.at):''}</span>`;
  let detail='';
  if(c.endpoint)detail+=`<p class="meta">호출: <code>${esc(c.endpoint)}</code>${c.operations&&c.operations.length>1?` 외 기능 ${c.operations.length-1}개`:''}${c.code?` · 응답 코드 ${esc(c.code)}${c.message?' '+esc(c.message):''}`:''}${c.missingRequired?.length?` · 표본 호출에 필요한 변수 ${esc(c.missingRequired.join(', '))}`:''}</p>`;
@@ -58,7 +59,9 @@ function verificationBlock(dataset,metadataChecked){
  if(c.columns?.length)detail+=`<p class="meta">항목 ${c.columns.length}개</p><div class="field-list">${c.columns.map(k=>`<span>${esc(k)}</span>`).join('')}</div>`;
  if(c.info&&Object.keys(c.info).length)detail+=`<p class="meta">${Object.entries(c.info).filter(([k])=>k!=='URL').map(([k,v])=>esc(k)+' '+esc(v)).join(' · ')}</p>`;
  if(c.externalUrl)detail+=`<p class="meta">원천 링크 ${link(c.externalUrl,'외부 제공 주소')} · 응답 ${esc(String(c.externalStatus))}</p>`;
- if(c.stage==='application-required')detail+=`<p class="meta">공통 인증키가 이 API에 등록되지 않았습니다(코드 30). 포털에서 활용신청 후 같은 호출로 응답을 확인할 수 있습니다.</p>`;
+ if(c.stage==='application-required')detail+=`<p class="meta">보유 인증키가 이 API에 아직 등록되지 않았습니다(코드 30). 포털 활용신청 후 같은 호출로 확인합니다.</p>`;
+ if(c.stage==='provider-key-required')detail+=`<p class="meta">이 API는 공공데이터포털이 아니라 제공기관 자체 포털에서 인증키를 발급합니다. 포털 활용신청만으로는 호출되지 않습니다.</p>`;
+ if(c.stage==='params-required')detail+=`<p class="meta">인증키는 승인됐고 호출도 닿았습니다. 표본 응답에는 이 자료 고유의 필수 요청변수(관측소·기간 등)가 필요해 여기서는 규격 항목만 보여줍니다.</p>`;
  return `<div class="verification-steps" aria-label="자료 검증 수준">${step1}${step2}<span>자료 결합 미검증</span></div>${detail}`;
 }
 export function datasetContent(dataset,recommendations,model){
