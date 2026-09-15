@@ -6,11 +6,11 @@ import '../atlas/enterprise.css';
 import '../atlas/site-integration.css';
 ---
 <!doctype html>
-<html lang="ko"><head><base href="/atlas/"><link rel="canonical" href="https://seohosung.com/atlas/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#030609"><title>지역 기회 아틀라스 · 특례와 데이터 탐색</title><meta name="description" content="지역의 특례, 공공데이터, 중앙정부와 지방정부의 창업지원을 지도 위의 연결망으로 탐색합니다."><link rel="icon" href="data:,"></head>
+<html lang="ko"><head><base href="/atlas/"><link rel="canonical" href="https://seohosung.com/atlas/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#030609"><title>특공대 · 특례에 맞는 공공데이터</title><meta name="description" content="특공대: 지역마다 다른 규제특례에 맞춘 공공데이터와 중앙·지방 창업지원을 관계망과 목록으로 탐색합니다."><link rel="icon" href="data:,"></head>
 <body>
 <main id="atlas" aria-label="지역창업 관계망">
 <div id="stage"><div id="canvas-labels"></div><p id="loading" role="status">지역의 연결을 펼치고 있습니다.</p></div>
-<header><a class="site-back" href="/" aria-label="서호성 사이트로 돌아가기" title="사이트로 돌아가기">←</a><a class="brand" href="./" aria-label="전국 연결망 처음으로"><span class="brand-symbol" aria-hidden="true">✳</span><span>지역 기회 아틀라스 <b>특례 × 공공데이터</b></span></a><div class="header-end"><button id="workspace-button" aria-haspopup="dialog">내 데이터 묶음</button><button id="sources-button">자료와 연결 기준 ↗</button></div></header>
+<header><a class="site-back" href="/" aria-label="서호성 사이트로 돌아가기" title="사이트로 돌아가기">←</a><a class="brand" href="./" aria-label="전국 연결망 처음으로"><span class="brand-symbol" aria-hidden="true">✳</span><span>특공대 <b>특례에 맞는 공공데이터</b></span></a><div class="header-end"><button id="workspace-button" aria-haspopup="dialog">내 데이터 묶음</button><button id="sources-button">자료와 연결 기준 ↗</button></div></header>
 <div class="intro"><div class="eyebrow"><span class="status-light"></span><span id="view-kicker">지역창업 · 연결의 지도</span></div><h1 id="view-title">지역이 달라지면,<br><em>가능성도 달라집니다.</em></h1><p id="view-desc">특례가 여는 기회에 데이터와 실행 수단을 연결합니다.</p><div class="metrics" id="metrics"></div></div>
 <nav class="navigation" aria-label="지역과 연결 탐색">
 <button id="home-button" aria-label="전국 관계망으로">↖ <span>전국</span></button>
@@ -19,7 +19,8 @@ import '../atlas/site-integration.css';
 <div class="search-field"><span aria-hidden="true">⌕</span><label class="sr-only" for="search">지역·특례·데이터·사업 검색</label><input id="search" type="search" placeholder="사업명·기관·데이터 검색" autocomplete="off" aria-controls="search-results"><kbd aria-hidden="true">/</kbd></div>
 <div id="search-results" hidden aria-label="검색 결과"></div></nav>
 <div class="layers" aria-label="큐레이션 목록의 유형별 개수"><span class="layer-heading">수록 목록</span><button data-layer="topic" aria-pressed="true"><i class="key topic"></i>주제 <span id="count-topic"></span></button><button data-layer="data" aria-pressed="true"><i class="key data"></i>자료 <span id="count-data"></span></button><button data-layer="central" aria-pressed="true"><i class="key central"></i>중앙 후보 <span id="count-central"></span></button><button data-layer="local" aria-pressed="true"><i class="key local"></i>지역 후보 <span id="count-local"></span></button></div>
-<div class="view-options"><button id="clear-selection" hidden>선택 해제 ×</button><button id="label-mode" aria-pressed="false" title="참고자료를 포함한 전체 연결. 이름은 화면 공간에 맞게 표시합니다.">전체 연결 보기</button><button id="share-button" aria-pressed="false">한 장 보기 ↗</button></div>
+<div class="view-options"><button id="clear-selection" hidden>선택 해제 ×</button><button id="label-mode" aria-pressed="false" title="참고자료를 포함한 전체 연결. 이름은 화면 공간에 맞게 표시합니다.">전체 연결 보기</button><button id="list-mode" aria-pressed="false" title="관계망의 모든 항목을 목록으로 읽습니다. 키보드·움직임 줄이기 환경에서도 같은 정보를 봅니다.">목록으로 보기</button><button id="share-button" aria-pressed="false">한 장 보기 ↗</button></div>
+<section id="graph-list" hidden aria-label="관계망 목록"></section>
 <p id="scope-note" class="scope-note">지역을 선택하면 특례 주제가 펼쳐집니다.</p>
 <div class="workspace-modes" aria-label="탐색 관점"><button id="data-mode-button" aria-pressed="true">특례·데이터</button><button id="support-mode-button" aria-pressed="false">지원 조합</button><button id="compare-button" aria-haspopup="dialog">지역 비교 ↗</button></div>
 <section id="path-guide" aria-label="핵심 데이터 탐색 경로" hidden></section>

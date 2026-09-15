@@ -1,5 +1,5 @@
 import {regulationCards,orderedRecommendations,dataBrief} from './content-guide.mjs';
-import {STORAGE_KEY,USAGE,AVAILABILITY,workspaceKey,emptyDraft,cleanDraft,hasNeed,validateDraft,exportDraft} from './workspace-model.mjs';
+import {STORAGE_KEY,USAGE,AVAILABILITY,workspaceKey,emptyDraft,cleanDraft,hasNeed,validateDraft,exportDraft,requestSummary,REQUEST_URL} from './workspace-model.mjs';
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const url=value=>{try{const u=new URL(value);return /^https?:$/.test(u.protocol)?esc(u.href):'#'}catch{return '#'}};
 const options=(items,value)=>Object.entries(items).map(([k,v])=>`<option value="${k}" ${value===k?'selected':''}>${esc(v)}</option>`).join('');
@@ -44,7 +44,7 @@ export function createEnterpriseWorkspace({atlas,evidence,model,state,onChange,o
    <p class="workspace-caption">자료를 담는 것은 원천 데이터를 내려받거나 이용 권한을 확보한 것이 아닙니다.</p>`;
  }
  function usagePanel(c,d){
-  return `<h3>직접 써본 결과를 남겨주세요</h3><p class="workspace-caption">사용 전에는 평가를 만들지 않습니다. 아래 기록은 사용자 자기보고이며 아틀라스의 검증 단계와 별개입니다.</p>${d.selected.length?d.selected.map(id=>{const data=model.datasets.get(id),f=d.feedback[id]||{status:'untried',note:''};return `<article class="workspace-usage-card"><h4>${esc(data.short)}</h4><label>사용 상태<select data-usage="${esc(id)}">${options(USAGE,f.status)}</select></label><label>무엇에 썼고, 무엇이 부족했나요?<textarea data-feedback="${esc(id)}" maxlength="1000" rows="3" placeholder="예: 기관 위치를 대조했지만 실증 참여 여부는 확인할 수 없었음">${esc(f.note)}</textarea></label></article>`}).join(''):'<div class="workspace-empty"><p>아직 담은 자료가 없습니다.</p><button class="workspace-secondary" data-step="data">자료 고르기 →</button></div>'}`;
+  return `<h3>직접 써본 결과를 남겨주세요</h3><p class="workspace-caption">사용 전에는 평가를 만들지 않습니다. 아래 기록은 사용자 자기보고이며 특공대의 검증 단계와 별개입니다.</p>${d.selected.length?d.selected.map(id=>{const data=model.datasets.get(id),f=d.feedback[id]||{status:'untried',note:''};return `<article class="workspace-usage-card"><h4>${esc(data.short)}</h4><label>사용 상태<select data-usage="${esc(id)}">${options(USAGE,f.status)}</select></label><label>무엇에 썼고, 무엇이 부족했나요?<textarea data-feedback="${esc(id)}" maxlength="1000" rows="3" placeholder="예: 기관 위치를 대조했지만 실증 참여 여부는 확인할 수 없었음">${esc(f.note)}</textarea></label></article>`}).join(''):'<div class="workspace-empty"><p>아직 담은 자료가 없습니다.</p><button class="workspace-secondary" data-step="data">자료 고르기 →</button></div>'}`;
  }
  const field=(name,label,value,placeholder='',rows=2)=>`<label class="workspace-field ${['problem','fields'].includes(name)?'wide':''}">${label}<textarea id="need-${name}" data-need="${name}" rows="${rows}" maxlength="${['problem','fields'].includes(name)?2000:600}" placeholder="${esc(placeholder)}">${esc(value)}</textarea></label>`;
  function needPanel(c,d){
@@ -58,11 +58,11 @@ export function createEnterpriseWorkspace({atlas,evidence,model,state,onChange,o
  }
  function render(){
   const c=active?.context,d=active?.draft;
-  dialog.innerHTML=`<div class="workspace-head"><div><span class="workspace-eyebrow">ATLAS / MY DATA</span><h2 id="workspace-title">내 데이터 묶음</h2></div><button id="close-workspace" aria-label="내 데이터 묶음 닫기">×</button></div>
+  dialog.innerHTML=`<div class="workspace-head"><div><span class="workspace-eyebrow">특공대 / MY DATA</span><h2 id="workspace-title">내 데이터 묶음</h2></div><button id="close-workspace" aria-label="내 데이터 묶음 닫기">×</button></div>
    <div class="workspace-layout">${c?`<aside class="workspace-context" aria-label="묶음의 개별 특례"><span class="workspace-region">${esc(c.region)} / ${esc(c.topic.short)}</span><h3>${esc(c.current.title)}</h3><p>${esc(c.current.zoneName)}</p><details><summary>선택한 특례의 조건·근거</summary><p><b>허용·실증</b><br>${esc(c.current.after)}</p><p><b>남는 조건</b><br>${esc(c.current.conditions)}</p><p>${esc(c.current.period)}</p><a href="${url(c.current.source)}" target="_blank" rel="noopener">특례 원문 ↗</a><p>현재 효력·신규 참여 자격은 별도 확인</p></details>
    <label class="workspace-goal">내 실증·사업화 과제 *<textarea id="workspace-goal" maxlength="600" rows="3" placeholder="예: 무인 농작업 전 위험 조건을 확인하는 서비스를 실증한다">${esc(d.goal)}</textarea></label><div class="workspace-count"><strong id="workspace-selected-count">${d.selected.length}</strong><span>직접 담은 자료<br>활용 여부는 별도 기록</span></div>${renderSaved()}<p class="workspace-privacy">개별 특례별로 저장됩니다. 이 브라우저에서만 보관하며 기관에 전송하지 않습니다.</p></aside>`:''}
    <section class="workspace-main" aria-label="자료 선택과 수요 기록">${c?`<div class="workspace-tabs" role="tablist" aria-label="데이터 활용 흐름">${[['data','1 자료 고르기'],['usage','2 사용 결과'],['need','3 부족한 데이터']].map(([id,name])=>`<button role="tab" id="workspace-tab-${id}" aria-selected="${step===id}" aria-controls="workspace-panel" tabindex="${step===id?0:-1}" data-step="${id}">${name}</button>`).join('')}</div><div id="workspace-panel" role="tabpanel" aria-labelledby="workspace-tab-${step}" tabindex="0">${step==='data'?dataPanel(c,d):step==='usage'?usagePanel(c,d):needPanel(c,d)}</div>`:`<div class="workspace-empty"><h3>먼저 지역과 특례를 골라주세요</h3><p>특례 설명을 읽고 자료를 담으면, 그 특례에 맞는 데이터 묶음과 수요 초안을 만들 수 있습니다.</p>${renderSaved()}<button class="workspace-primary" data-action="explore">지도로 돌아가 탐색하기 →</button></div>`}</section></div>
-   <div class="workspace-footer"><p id="workspace-save-status" role="status" class="${storageProblem?'storage-error':''}">${esc(storageProblem||(d?.updatedAt?'이 브라우저에 저장됨 · 기관 미제출':'아직 작성 전 · 입력하면 이 브라우저에 저장됩니다'))}</p><p id="workspace-error" role="alert"></p>${c?'<button class="workspace-primary" data-action="export">묶음·수요 초안 내려받기 ↓</button>':''}</div>`;
+   <div class="workspace-footer"><p id="workspace-save-status" role="status" class="${storageProblem?'storage-error':''}">${esc(storageProblem||(d?.updatedAt?'이 브라우저에 저장됨 · 기관 미제출':'아직 작성 전 · 입력하면 이 브라우저에 저장됩니다'))}</p><p id="workspace-error" role="alert"></p>${c?'<button class="workspace-primary" data-action="export">묶음·수요 초안 내려받기 ↓</button>':''}</div>${c?`<div class="workspace-handoff" aria-label="초안의 다음 단계"><b>이 초안으로 할 수 있는 것</b><p>이 사이트는 초안을 접수하지 않습니다. 부족한 데이터는 공공데이터포털의 <a href="${REQUEST_URL}" target="_blank" rel="noopener">공공데이터 제공신청 ↗</a>에 본인 계정으로 직접 신청할 수 있습니다. 기관은 신청을 받은 날부터 10일 안에 제공 여부를 결정합니다.</p><div class="workspace-handoff-actions"><button data-action="copy-request">신청서용 요약 복사</button><span id="workspace-copy-status" role="status"></span></div></div>`:''}`;
   dialog.querySelector('#close-workspace').onclick=()=>dialog.close();
  }
  function changeStep(value){if(!['data','usage','need'].includes(value))return;step=value;render();dialog.querySelector('[role="tab"][aria-selected="true"]')?.focus();}
@@ -75,7 +75,7 @@ export function createEnterpriseWorkspace({atlas,evidence,model,state,onChange,o
   const error=validateDraft(active.draft);
   if(error){if(error.field?.startsWith('need-')&&step!=='need'){step='need';render();}dialog.querySelector('#workspace-error').textContent=error.message;dialog.querySelector('#'+(error.field==='goal'?'workspace-goal':error.field))?.focus();return;}
   const text=exportDraft(active.context,active.draft,model.datasets,dataBrief),blob=new Blob([text],{type:'text/markdown;charset=utf-8'}),href=URL.createObjectURL(blob),a=document.createElement('a');
-  a.href=href;a.download=`atlas-${active.context.region}-${active.context.topic.id}-${active.context.current.id.replace(/[^a-zA-Z0-9-]/g,'_')}.md`;a.click();setTimeout(()=>URL.revokeObjectURL(href),1000);
+  a.href=href;a.download=`teukgongdae-${active.context.region}-${active.context.topic.id}-${active.context.current.id.replace(/[^a-zA-Z0-9-]/g,'_')}.md`;a.click();setTimeout(()=>URL.revokeObjectURL(href),1000);
   dialog.querySelector('#workspace-error').textContent='';dialog.querySelector('#workspace-save-status').textContent='파일 내려받기 요청됨 · 기관에 제출되지는 않았습니다.';
  }
  dialog.addEventListener('click',event=>{
@@ -83,6 +83,7 @@ export function createEnterpriseWorkspace({atlas,evidence,model,state,onChange,o
   if(button.dataset.step){changeStep(button.dataset.step);return;}
   if(button.dataset.action==='add-core'&&active){active.draft.selected=[...new Set([...active.draft.selected,...active.context.recs.filter(r=>r.core).map(r=>r.id)])];write();render();dialog.querySelector('[data-action="add-core"]')?.focus();}
   if(button.dataset.action==='export')download();
+  if(button.dataset.action==='copy-request'){const status=dialog.querySelector('#workspace-copy-status');const text=requestSummary(active.context,active.draft,model.datasets);(navigator.clipboard?.writeText?navigator.clipboard.writeText(text):Promise.reject(new Error('clipboard'))).then(()=>{status.textContent='복사됨 · 포털 신청서에 붙여넣으세요';},()=>{status.textContent='복사할 수 없는 환경입니다 · 내려받은 파일의 4절을 이용하세요';});}
   if(button.dataset.action==='explore'){dialog.close();document.querySelector('#region-select').focus();}
  });
  dialog.addEventListener('input',event=>{

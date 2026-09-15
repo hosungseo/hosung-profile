@@ -83,3 +83,6 @@
  .workspace-footer{padding:10px 14px;gap:7px}#enterprise-workspace .workspace-footer p{flex-basis:100%;font-size:10px}.workspace-footer button{width:100%;font-size:12px}
 }
 @media(max-width:360px){.brand{font-size:10px}.brand-symbol{font-size:21px}#sources-button{font-size:9px}#workspace-button{font-size:10px;padding:4px 6px}.header-end{gap:4px}.workspace-tabs button{font-size:10px}}
+/* Hand-off to the portal's 공공데이터 제공신청 (decision 3, 2026-09-15) */
+.workspace-handoff{margin:12px 22px 6px;padding:13px 15px;border:1px solid #6b8494;border-radius:8px;background:#0f2130}.workspace-handoff b{font-size:12px;letter-spacing:.03em;color:#bad2dc}.workspace-handoff p{font-size:13px;line-height:1.7;color:#c0d0db;margin:6px 0 10px}.workspace-handoff a{color:#a9d9ff;text-decoration:underline;text-underline-offset:4px}.workspace-handoff-actions{display:flex;flex-wrap:wrap;align-items:center;gap:10px}.workspace-handoff-actions button{font-size:13px;min-height:38px;padding:6px 12px;border:1px solid #7ca996;border-radius:6px;background:#17302a;color:#c6f3df}.workspace-handoff-actions button:hover{background:#23483e}#workspace-copy-status{font-size:12px;color:#bfe9d8}
+@media(max-width:650px){.workspace-handoff{margin:10px 14px 4px}}

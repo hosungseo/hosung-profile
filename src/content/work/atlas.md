@@ -1,6 +1,6 @@
 ---
-title: 지역 기회 아틀라스
-description: 지역의 규제특례와 공공데이터, 중앙·지방 창업지원의 연결을 탐색하는 지도.
+title: 특공대
+description: 특례에 맞는 공공데이터. 지역별 규제특례와 승인과제, 공공데이터, 중앙·지방 창업지원의 연결을 탐색하는 도구.
 url: https://seohosung.com/atlas/
 order: 2
 ---
