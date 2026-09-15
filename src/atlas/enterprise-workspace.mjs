@@ -2,11 +2,12 @@ import {regulationCards,orderedRecommendations,dataBrief} from './content-guide.
 import {STORAGE_KEY,USAGE,AVAILABILITY,workspaceKey,emptyDraft,cleanDraft,hasNeed,validateDraft,exportDraft,requestSummary,REQUEST_URL} from './workspace-model.mjs';
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const url=value=>{try{const u=new URL(value);return /^https?:$/.test(u.protocol)?esc(u.href):'#'}catch{return '#'}};
+const SAVE_FAIL='이 브라우저에 저장할 수 없습니다. 내려받기로 보관하세요.',rescueButton='<button class="workspace-secondary workspace-rescue" id="workspace-save-rescue" data-action="export">지금 내려받기 ↓</button>';
 const options=(items,value)=>Object.entries(items).map(([k,v])=>`<option value="${k}" ${value===k?'selected':''}>${esc(v)}</option>`).join('');
 export function createEnterpriseWorkspace({atlas,evidence,model,state,onChange,onNavigate,onOpen}){
  let step='data',active=null,memory=Object.create(null),storageProblem='',returnFocus=null;
  try{const raw=localStorage.getItem(STORAGE_KEY);if(raw){const parsed=JSON.parse(raw);if(parsed.version!==1||!parsed.records||typeof parsed.records!=='object'||Array.isArray(parsed.records))throw new Error();memory=parsed.records;}}
- catch{storageProblem='저장 공간을 읽을 수 없어 이번 입력은 임시 보관됩니다. 파일로 내려받아 보관하세요. 기존 저장값은 덮어쓰지 않습니다.';}
+ catch{storageProblem=SAVE_FAIL;}
  const dialog=document.createElement('dialog');dialog.id='enterprise-workspace';dialog.setAttribute('aria-labelledby','workspace-title');document.body.append(dialog);
  const getContext=()=>{
   const topic=model.themes.get(state.topic);if(!state.region||!topic)return null;
@@ -23,8 +24,8 @@ export function createEnterpriseWorkspace({atlas,evidence,model,state,onChange,o
    const latest=JSON.parse(localStorage.getItem(STORAGE_KEY)||'{"version":1,"records":{}}');
    if(latest.version!==1||!latest.records||typeof latest.records!=='object'||Array.isArray(latest.records))throw new Error();
    memory={...latest.records,[key]:record};localStorage.setItem(STORAGE_KEY,JSON.stringify({version:1,records:memory}));
-  }catch{storageProblem='브라우저 저장에 실패했습니다. 현재 입력은 이 화면에 임시 보관 중입니다. 페이지를 닫거나 새로고침하기 전에 파일로 내려받으세요.';}
-  const status=dialog.querySelector('#workspace-save-status');if(status){status.textContent=storageProblem||'이 브라우저에 저장됨 · 기관 미제출';status.classList.toggle('storage-error',!!storageProblem);}
+  }catch{storageProblem=SAVE_FAIL;}
+  const status=dialog.querySelector('#workspace-save-status');if(status){status.textContent=storageProblem||'이 브라우저에 저장됨 · 기관 미제출';status.classList.toggle('storage-error',!!storageProblem);if(storageProblem&&!dialog.querySelector('#workspace-save-rescue'))status.insertAdjacentHTML('afterend',rescueButton);}
   refresh();
  }
  function refresh(){
@@ -62,7 +63,7 @@ export function createEnterpriseWorkspace({atlas,evidence,model,state,onChange,o
    <div class="workspace-layout">${c?`<aside class="workspace-context" aria-label="묶음의 개별 특례"><span class="workspace-region">${esc(c.region)} / ${esc(c.topic.short)}</span><h3>${esc(c.current.title)}</h3><p>${esc(c.current.zoneName)}</p><details><summary>선택한 특례의 조건·근거</summary><p><b>허용·실증</b><br>${esc(c.current.after)}</p><p><b>남는 조건</b><br>${esc(c.current.conditions)}</p><p>${esc(c.current.period)}</p><a href="${url(c.current.source)}" target="_blank" rel="noopener">특례 원문 ↗</a><p>현재 효력·신규 참여 자격은 별도 확인</p></details>
    <label class="workspace-goal">내 실증·사업화 과제 *<textarea id="workspace-goal" maxlength="600" rows="3" placeholder="예: 무인 농작업 전 위험 조건을 확인하는 서비스를 실증한다">${esc(d.goal)}</textarea></label><div class="workspace-count"><strong id="workspace-selected-count">${d.selected.length}</strong><span>직접 담은 자료<br>활용 여부는 별도 기록</span></div>${renderSaved()}<p class="workspace-privacy">개별 특례별로 저장됩니다. 이 브라우저에서만 보관하며 기관에 전송하지 않습니다.</p></aside>`:''}
    <section class="workspace-main" aria-label="자료 선택과 수요 기록">${c?`<div class="workspace-tabs" role="tablist" aria-label="데이터 활용 흐름">${[['data','1 자료 고르기'],['usage','2 사용 결과'],['need','3 부족한 데이터']].map(([id,name])=>`<button role="tab" id="workspace-tab-${id}" aria-selected="${step===id}" aria-controls="workspace-panel" tabindex="${step===id?0:-1}" data-step="${id}">${name}</button>`).join('')}</div><div id="workspace-panel" role="tabpanel" aria-labelledby="workspace-tab-${step}" tabindex="0">${step==='data'?dataPanel(c,d):step==='usage'?usagePanel(c,d):needPanel(c,d)}</div>`:`<div class="workspace-empty"><h3>먼저 지역과 특례를 골라주세요</h3><p>특례 설명을 읽고 자료를 담으면, 그 특례에 맞는 데이터 묶음과 수요 초안을 만들 수 있습니다.</p>${renderSaved()}<button class="workspace-primary" data-action="explore">지도로 돌아가 탐색하기 →</button></div>`}</section></div>
-   <div class="workspace-footer"><p id="workspace-save-status" role="status" class="${storageProblem?'storage-error':''}">${esc(storageProblem||(d?.updatedAt?'이 브라우저에 저장됨 · 기관 미제출':'아직 작성 전 · 입력하면 이 브라우저에 저장됩니다'))}</p><p id="workspace-error" role="alert"></p>${c?'<button class="workspace-primary" data-action="export">묶음·수요 초안 내려받기 ↓</button>':''}</div>${c?`<div class="workspace-handoff" aria-label="초안의 다음 단계"><b>이 초안으로 할 수 있는 것</b><p>이 사이트는 초안을 접수하지 않습니다. 부족한 데이터는 공공데이터포털의 <a href="${REQUEST_URL}" target="_blank" rel="noopener">공공데이터 제공신청 ↗</a>에 본인 계정으로 직접 신청할 수 있습니다. 기관은 신청을 받은 날부터 10일 안에 제공 여부를 결정합니다.</p><div class="workspace-handoff-actions"><button data-action="copy-request">신청서용 요약 복사</button><span id="workspace-copy-status" role="status"></span></div></div>`:''}`;
+   <div class="workspace-footer"><p id="workspace-save-status" role="status" class="${storageProblem?'storage-error':''}">${esc(storageProblem||(d?.updatedAt?'이 브라우저에 저장됨 · 기관 미제출':'아직 작성 전 · 입력하면 이 브라우저에 저장됩니다'))}</p>${storageProblem&&c?rescueButton:''}<p id="workspace-error" role="alert"></p>${c?'<button class="workspace-primary" data-action="export">묶음·수요 초안 내려받기 ↓</button>':''}</div>${c?`<div class="workspace-handoff" aria-label="초안의 다음 단계"><b>이 초안으로 할 수 있는 것</b><p>이 사이트는 초안을 접수하지 않습니다. 부족한 데이터는 공공데이터포털의 <a href="${REQUEST_URL}" target="_blank" rel="noopener">공공데이터 제공신청 ↗</a>에 본인 계정으로 직접 신청할 수 있습니다. 기관은 신청을 받은 날부터 10일 안에 제공 여부를 결정합니다.</p><div class="workspace-handoff-actions"><button data-action="copy-request">신청서용 요약 복사</button><span id="workspace-copy-status" role="status"></span></div></div>`:''}`;
   dialog.querySelector('#close-workspace').onclick=()=>dialog.close();
  }
  function changeStep(value){if(!['data','usage','need'].includes(value))return;step=value;render();dialog.querySelector('[role="tab"][aria-selected="true"]')?.focus();}

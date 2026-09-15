@@ -63,6 +63,7 @@
 #enterprise-workspace .workspace-footer p{font-size:11px;margin:0;flex:1}.workspace-footer button{margin-left:auto}
 #enterprise-workspace #workspace-error:not(:empty){color:#ffe0b1;flex-basis:100%;order:-1;font-size:13px}
 #enterprise-workspace .storage-error{color:#ffe0b1}
+#enterprise-workspace .workspace-footer .workspace-rescue{margin-left:0;flex-shrink:0;border-color:#ffe0b1aa}
 .workspace-empty{max-width:600px;padding:30px;align-self:center}.workspace-empty button{margin-top:16px}
 .film #workspace-button,.story-mode #workspace-button{display:none}
 @media(max-width:900px){.workspace-context{width:235px;flex-basis:235px;padding:18px}.workspace-section-heading{align-items:flex-start;flex-direction:column;margin-bottom:15px}}
