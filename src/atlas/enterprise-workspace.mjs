@@ -2,7 +2,7 @@ import {regulationCards,orderedRecommendations,dataBrief} from './content-guide.
 import {STORAGE_KEY,USAGE,AVAILABILITY,workspaceKey,emptyDraft,cleanDraft,hasNeed,validateDraft,exportDraft,requestSummary,REQUEST_URL} from './workspace-model.mjs';
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const url=value=>{try{const u=new URL(value);return /^https?:$/.test(u.protocol)?esc(u.href):'#'}catch{return '#'}};
-const SAVE_FAIL='이 브라우저에 저장할 수 없습니다. 내려받기로 보관하세요.',rescueButton='<button class="workspace-secondary workspace-rescue" id="workspace-save-rescue" data-action="export">지금 내려받기 ↓</button>';
+const SAVE_FAIL='저장에 실패했습니다. 이 브라우저에 보관할 수 없으니 임시로 내려받기로 보관하세요.',rescueButton='<button class="workspace-secondary workspace-rescue" id="workspace-save-rescue" data-action="export">지금 내려받기 ↓</button>';
 const options=(items,value)=>Object.entries(items).map(([k,v])=>`<option value="${k}" ${value===k?'selected':''}>${esc(v)}</option>`).join('');
 export function createEnterpriseWorkspace({atlas,evidence,model,state,onChange,onNavigate,onOpen}){
  let step='data',active=null,memory=Object.create(null),storageProblem='',returnFocus=null;
@@ -41,7 +41,7 @@ export function createEnterpriseWorkspace({atlas,evidence,model,state,onChange,o
  }
  function dataPanel(c,d){
   return `<div class="workspace-section-heading"><div><h3>이 실증에 쓸 자료를 골라보세요</h3><p>추천은 주제 기준입니다. 선택한 개별 특례의 조건과 직접 대조하세요.</p></div><button class="workspace-secondary" data-action="add-core">핵심 자료 한 번에 담기</button></div>
-   <div class="workspace-data-list">${c.recs.map(r=>{const data=model.datasets.get(r.id),b=dataBrief(data,r),checked=d.selected.includes(r.id);return `<article class="workspace-data-card ${checked?'is-picked':''}"><div class="workspace-data-top"><label><input type="checkbox" data-pick="${esc(r.id)}" ${checked?'checked':''}><span><small>${r.core?'먼저 볼 자료':'추가 참고'} · ${esc(b.group)}</small><b>${esc(data.short)}</b></span></label><a href="${url(data.url)}" target="_blank" rel="noopener" aria-label="${esc(data.short)} 원문 열기">원문 ↗</a></div><p>${esc(b.question)}</p><div class="workspace-fields">${b.fields.length?b.fields.slice(0,5).map(f=>`<span>${esc(f)}</span>`).join(''):'<span>제공 항목 미확인</span>'}</div><details><summary>범위·이용조건·한계 확인</summary><dl><dt>제공기관</dt><dd>${esc(data.provider)}</dd><dt>범위·갱신</dt><dd>${esc(data.coverage||'지역 미확인')} / ${esc(data.cycle||'주기 미확인')}</dd><dt>이용조건</dt><dd>${esc([data.license,data.cost].filter(Boolean).join(' · ')||'미확인')}</dd><dt>연결 확인</dt><dd>${esc(b.join)}</dd><dt>한계</dt><dd>${esc(r.limit||data.limit||'추가 확인 필요')}</dd></dl></details><span class="workspace-verification">${data.metaMatched||data.verifiedAt?'목록·메타정보 확인':'목록 수록 · 대조 미확인'} · 실제 응답·결합 미검증</span></article>`}).join('')}</div>
+   <div class="workspace-data-list">${c.recs.map(r=>{const data=model.datasets.get(r.id),b=dataBrief(data,r),checked=d.selected.includes(r.id);return `<article class="workspace-data-card ${checked?'is-picked':''}"><div class="workspace-data-top"><label><input type="checkbox" data-pick="${esc(r.id)}" ${checked?'checked':''}><span><small>${r.core?'먼저 볼 자료':'추가 참고'} · ${esc(b.group)}</small><b>${esc(data.short)}</b></span></label><a href="${url(data.url)}" target="_blank" rel="noopener" aria-label="${esc(data.short)} 원문 열기">원문 ↗</a></div><p>${esc(b.question)}</p><div class="workspace-fields">${b.fields.length?b.fields.slice(0,5).map(f=>`<span>${esc(f)}</span>`).join(''):'<span>제공 항목 미확인</span>'}</div><details><summary>범위·이용조건·한계 확인</summary><dl><dt>제공기관</dt><dd>${esc(data.provider)}</dd><dt>범위·갱신</dt><dd>${esc(data.coverage||'지역 미확인')} / ${esc(data.cycle||'주기 미확인')}</dd><dt>이용조건</dt><dd>${esc([data.license,data.cost].filter(Boolean).join(' · ')||'미확인')}</dd><dt>연결 확인</dt><dd>${esc(b.join)}</dd><dt>한계</dt><dd>${esc(r.limit||data.limit||'추가 확인 필요')}</dd></dl></details><span class="workspace-verification">${data.metaMatched||data.verifiedAt?'목록·메타정보 확인':'목록 수록 · 대조 미확인'} · ${d.check?esc(d.check.label):"실제 응답 미검증"} · 결합 미검증</span></article>`}).join('')}</div>
    <p class="workspace-caption">자료를 담는 것은 원천 데이터를 내려받거나 이용 권한을 확보한 것이 아닙니다.</p>`;
  }
  function usagePanel(c,d){
@@ -111,5 +111,6 @@ export function createEnterpriseWorkspace({atlas,evidence,model,state,onChange,o
  dialog.addEventListener('close',()=>{refresh();if(returnFocus?.isConnected&&!returnFocus.closest('dialog'))returnFocus.focus({preventScroll:true});});
  document.addEventListener('click',event=>{const el=event.target.closest('[data-open-workspace]');if(el)open({addData:el.dataset.addData||null,tab:el.dataset.openWorkspace||'data'});});
  document.querySelector('#workspace-button').onclick=()=>open();
- return {open,refresh,getSelection:()=>{const c=getContext();return c?getDraft(c).selected:[];}};
+ function add(id){const context=getContext();if(!context||!context.recs.some(r=>r.id===id))return false;const draft=getDraft(context);if(!draft.selected.includes(id)){draft.selected.push(id);active={context,draft};write();}refresh();return true;}
+ return {open,add,refresh,getSelection:()=>{const c=getContext();return c?getDraft(c).selected:[];}};
 }

@@ -22,7 +22,7 @@ export function topicContent({atlas,evidence,model,graph,topic,region,caseId,cas
  const locations=atlas.locations.filter(l=>(!region||l.region===region)&&l.topics.includes(topic.id));
  if(!current)return {html:'<h2>개별 특례 설명 확인 중</h2><p>이 지역에 대응되는 원문 자료가 아직 없습니다.</p>',current:null,core,recs};
  const selector=cards.length>1?`<label class="case-picker">개별 특례·근거 ${cards.length}건<select id="case-select" aria-label="개별 특례 근거 선택">${cards.map(c=>`<option value="${esc(c.id)}" ${c.id===current.id?'selected':''}>${esc(c.zoneName+' · '+c.title)}</option>`).join('')}</select></label>`:`<p class="case-origin">${esc(current.zoneName)}</p>`;
- const coreHTML=core.map(rec=>{const d=model.datasets.get(rec.id),b=dataBrief(d,rec);return `<button class="core-card" data-select="d:${esc(d.id)}"><span class="data-role">${String(rec.rank).padStart(2,'0')} / ${esc(b.group)}</span><b>${esc(d.short)}</b><span>${esc(b.question)}</span></button>`}).join('');
+ const coreHTML=core.map(rec=>{const d=model.datasets.get(rec.id),b=dataBrief(d,rec);return `<button class="core-card" data-select="d:${esc(d.id)}"><span class="data-role">${String(rec.rank).padStart(2,'0')} / ${esc(b.group)}${d.check&&/dead|404/.test(d.check.stage)?' · <em class="core-warn">원천 응답 없음</em>':''}</span><b>${esc(d.short)}</b><span>${esc(b.question)}</span></button>`}).join('');
  const groupHTML=[...new Set(recs.map(r=>r.group))].map(group=>`<section class="data-group"><h3>${esc(group)}</h3>${recs.filter(r=>r.group===group).map(rec=>{const d=model.datasets.get(rec.id);return relation('d:'+d.id,d.short,(rec.core?'먼저 볼 자료':'추가 참고')+' · '+dataBrief(d,rec).question)}).join('')}</section>`).join('');
  const tabs=[['overview','특례 이해'],['cases',`승인과제 ${sandbox?sandbox.all.length:0}`],['data',`자료 ${recs.length}`],['support',`지원 ${supports.length}`],['evidence','위치·근거']];
  const html=`<p class="subject-breadcrumb">${esc(region||'전국')} / ${esc(topic.short)}</p><h2>${esc(current.title)}</h2>${selector}
@@ -69,7 +69,7 @@ export function datasetContent(dataset,recommendations,model){
  const fields=brief.fields,metadataChecked=dataset.metaMatched===true||!!dataset.verifiedAt;
  return `<p class="subject-breadcrumb">${esc(dataset.provider)} / ${esc(dataset.kind)} 목록</p><h2>${esc(dataset.short)}</h2><p class="data-role">${brief.core?'먼저 볼 자료':'참고자료'} · ${esc(brief.group)}</p>
  <div class="data-question"><span>이 자료로 답할 질문</span><p class="lead">${esc(brief.question)}</p></div>
- <h3>무엇이 들어 있나요?</h3>${fields.length?`<div class="field-list">${fields.map(f=>`<span>${esc(f)}</span>`).join('')}</div><p class="meta">목록 메타정보에 수록된 주요 항목. 실제 응답 표본은 아직 확인하지 않았습니다.</p>`:'<p>주요 제공 항목 미확인. 포털 설명만으로 데이터 필드를 추정하지 않았습니다.</p>'}
+ <h3>무엇이 들어 있나요?</h3>${fields.length?`<div class="field-list">${fields.map(f=>`<span>${esc(f)}</span>`).join('')}</div><p class="meta">${dataset.check&&RESPONDED.has(dataset.check.stage)?'목록 메타정보의 주요 항목. 실제 응답으로 확인한 항목은 아래 검증 단계에 있습니다.':'목록 메타정보에 수록된 주요 항목. 실제 응답 표본은 아직 확인하지 않았습니다.'}</p>`:'<p>주요 제공 항목 미확인. 포털 설명만으로 데이터 필드를 추정하지 않았습니다.</p>'}
  ${verificationBlock(dataset,metadataChecked)}
  <h3>이 특례에서의 쓰임과 한계</h3>${recommendations.map(e=>`<p class="policy-statement">${esc(e.recommendation.why)}</p><p>${esc(e.recommendation.limit)}</p>${relation(e.from,model.themes.get(e.from.slice(2)).short,'특례 설명으로 돌아가기')}`).join('')}
  <h3>다른 자료와 연결하려면</h3><p>${esc(brief.join)}</p>

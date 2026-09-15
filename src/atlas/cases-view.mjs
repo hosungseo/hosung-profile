@@ -20,16 +20,19 @@ const validityLine=c=>{
  if(!c.estimatedEnd)return '추정 불가 · 승인일 없음';
  return `법정 기본기간 2년 기준 ${c.estimatedEnd}${c.estimatePassed?' 경과':' 이전'} · 추정`;
 };
+const stated=v=>v&&v!=='미확인';
+export const isZoneDesignation=c=>c.field==='규제자유특구';
 export function caseFields(c){
- return `<dl class="sb-fields"><div><dt>승인일</dt><dd>${esc(c.approvedOn||'미확인')}</dd></div><div><dt>기간</dt><dd class="${c.period==='미확인'?'unknown':''}">${esc(c.period)}</dd></div><div><dt>연장 이력</dt><dd class="${c.extension==='미확인'?'unknown':''}">${esc(c.extension)}</dd></div><div><dt>현재 효력</dt><dd class="unknown">${esc(c.validity)}<small>${esc(validityLine(c))}</small></dd></div></dl>`;
+ const validity=isZoneDesignation(c)?`특구 지정기간을 따름<small>세부사업 승인이 아니라 특구 지정 건입니다. 지정기간·연장은 특례 상세의 위치·근거 탭에 있습니다.</small>`:`판정하지 않음<small>${esc(validityLine(c))}</small>`;
+ return `<dl class="sb-fields"><div><dt>승인일</dt><dd>${esc(c.approvedOn||'포털 미제공')}</dd></div><div><dt>기간</dt><dd class="${stated(c.period)?'':'unknown'}">${stated(c.period)?esc(c.period):'포털 미제공'}</dd></div><div><dt>연장 이력</dt><dd class="${stated(c.extension)?'':'unknown'}">${stated(c.extension)?esc(c.extension):'포털 미제공'}</dd></div><div><dt>현재 효력</dt><dd class="unknown">${validity}</dd></div></dl>`;
 }
 export function caseCard(c,{region}={}){
  const here=region&&c.regions.includes(region);
- return `<button class="sb-item" data-sandbox="${esc(c.seq)}" id="sb-${esc(c.seq)}"><span class="sb-head"><i class="sb-chip ${typeClass(c.type)}">${esc(c.type)}</i><i class="sb-chip field">${esc(c.field)}</i>${here?`<i class="sb-chip here">${esc(region)} 언급</i>`:''}<span class="sb-date">${esc(c.approvedOn)}</span></span><b>${esc(c.title)}</b><small>${esc(c.company)} · ${esc(c.ministry)}${c.regulations.length?' · '+esc(c.regulations[0])+(c.regulations.length>1?` 외 ${c.regulations.length-1}`:''):''}</small></button>`;
+ return `<button class="sb-item" data-sandbox="${esc(c.seq)}" id="sb-${esc(c.seq)}"><span class="sb-head"><i class="sb-chip ${typeClass(c.type)}">${esc(c.type)}</i><i class="sb-chip field">${esc(c.field)}</i>${isZoneDesignation(c)?'<i class="sb-chip zone">특구 지정 건</i>':''}${here?`<i class="sb-chip here">${esc(region)} 언급</i>`:''}<span class="sb-date">${esc(c.approvedOn)}</span></span><b>${esc(c.title)}</b><small>${esc(c.company)} · ${esc(c.ministry)}${c.regulations.length?' · '+esc(c.regulations[0])+(c.regulations.length>1?` 외 ${c.regulations.length-1}`:''):''}</small></button>`;
 }
 export function casesPanel(S,topic,region){
  const {all,local,rest}=casesForTopic(S,topic.id,region);
- const head=`<h3>포털 승인과제와 대응</h3><p class="meta">규제샌드박스 통합포털 승인과제 ${S.total.toLocaleString()}건 중 이 주제의 키워드·관련규정에 대응된 ${all.length}건입니다. ${esc(S.notes.theme)} 특구 단위가 아닌 <b>개별 승인 단위</b>입니다.</p>`;
+ const head=`<h3>포털 승인과제와 대응</h3><p class="meta">규제샌드박스 통합포털 승인과제 ${S.total.toLocaleString()}건 중 이 주제의 키워드·관련규정에 대응된 ${all.length}건입니다. ${esc(S.notes.theme)} 특구 단위가 아닌 <b>개별 승인 단위</b>입니다.</p><p class="sb-howto"><b>칸 읽는 법</b> 승인일만 포털 확정값. 기간·연장은 본문에 적혀 있을 때만 있고 없으면 '포털 미제공'. 현재 효력은 이 화면이 판정하지 않으며, 승인일+2년 추정 만료일은 참고값입니다.</p>`;
  if(!all.length)return head+`<p>대응된 승인과제가 없습니다. 주제 키워드에 걸리지 않았을 뿐 특례가 없다는 뜻이 아닙니다. ${link(PORTAL_LIST,'포털에서 제목·내용으로 검색')}</p>`;
  const list=(items,label,note)=>items.length?`<section class="sb-group"><h3>${esc(label)} <span>${items.length}</span></h3>${note?`<p class="meta">${esc(note)}</p>`:''}<div class="sb-list">${items.slice(0,LIST_LIMIT).map(c=>caseCard(c,{region})).join('')}</div>${items.length>LIST_LIMIT?`<p class="meta">처음 ${LIST_LIMIT}건만 표시. 나머지는 검색창에서 사업명·업체명으로 찾거나 ${link(PORTAL_LIST,'포털 목록')}에서 확인합니다.</p>`:''}</section>`:'';
  return head
@@ -42,10 +45,10 @@ export function caseDetail(c,S,detail,{themes,region}={}){
  const d=detail||{};
  const conditions=d.conditions??null;
  return `<p class="subject-breadcrumb">규제샌드박스 승인과제 / ${esc(c.field)} / ${esc(c.no||c.seq)}</p><h2>${esc(c.title)}</h2>
-  <p class="sb-head"><i class="sb-chip ${typeClass(c.type)}">${esc(c.type)}</i><i class="sb-chip field">${esc(c.field)}</i>${c.regions.map(r=>`<i class="sb-chip here">${esc(r)}</i>`).join('')}</p>
+  <p class="sb-head"><i class="sb-chip ${typeClass(c.type)}">${esc(c.type)}</i><i class="sb-chip field">${esc(c.field)}</i>${isZoneDesignation(c)?'<i class="sb-chip zone">특구 지정 건 · 개별 기업 승인 아님</i>':''}${c.regions.map(r=>`<i class="sb-chip here">${esc(r)}</i>`).join('')}</p>
   <dl class="case-scope"><dt>업체</dt><dd>${esc(c.company)}</dd><dt>주관</dt><dd>${esc(c.ministry)}</dd><dt>규제</dt><dd>${esc(c.regulator||'미기재')}</dd><dt>신청</dt><dd>${esc(c.requestedOn||'미기재')}</dd></dl>
   ${caseFields(c)}
-  <p class="source-status partial">포털 승인일만 확정값 · 기간·연장·효력은 본문 문구가 있을 때만 기재 · ${esc(S.notes.estimate)}</p>
+  <p class="source-status partial">${isZoneDesignation(c)?'특구 지정 건: 승인일은 특구 지정·변경 고시일에 해당하며 개별 세부사업의 실증기간과 다릅니다.':'포털 승인일만 확정값 · 기간·연장·효력은 본문 문구가 있을 때만 기재 · '+esc(S.notes.estimate)}</p>
   <h3>주요내용</h3><p class="lead">${esc(d.summary||c.summary)}</p>
   <h3>규제특례 · 관련규정</h3>${c.regulations.length?`<div class="field-list">${c.regulations.map(r=>`<span>${esc(r)}</span>`).join('')}</div>`:'<p>포털에 관련규정이 기재되지 않았습니다.</p>'}
   <h3>부가조건</h3>${conditions===null?'<p class="meta" id="sb-conditions">조건 본문을 불러오는 중…</p>':conditions?`<pre class="sb-conditions">${esc(conditions)}</pre>`:'<p>포털에 부가조건이 기재되지 않았습니다.</p>'}
