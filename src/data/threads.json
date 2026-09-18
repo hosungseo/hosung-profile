@@ -1,10 +1,20 @@
 {
-  "syncedAt": "2026-09-17T23:46:09Z",
+  "syncedAt": "2026-09-18T23:40:37Z",
   "source": "buffer",
   "profileUrl": "https://www.threads.com/@gongpenclaw",
   "channelService": "threads",
-  "count": 56,
+  "count": 57,
   "posts": [
+    {
+      "id": "6aacd7087d2eeb86377adf33",
+      "text": "Jev 테스트 중.. 신나네요 ‘-’",
+      "sentAt": "2026-09-18T06:15:31.000Z",
+      "createdAt": "2026-09-18T06:15:31.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DdaxOZHgdfq",
+      "media": []
+    },
     {
       "id": "6aabd78d603df3eb9179a3ac",
       "text": "회의에서 아무도 반박 못 한 혁신안이 있습니다. 서류 줄이자. 보고서 짧게 쓰자. 초안은 AI한테 맡기자. 다 맞는 말입니다. 그런데 1년 뒤에도 서류는 그대로고 보고서는 여전히 열 장입니다. 맞는 말과 먹히는 말은 다르기 때문입니다.\n2,300여 년 전에 아리스토텔레스가 이미 정리해 뒀습니다. 사람을 설득하려면 세 가지가 필요하다고요. 로고스(논리), 파토스(듣는 사람이 겪는 것), 에토스(말하는 사람의 됨됨이). 행정혁신이 자꾸 멈추는 건 이 중 로고스 하나만 들고 가기 때문입니다.",
