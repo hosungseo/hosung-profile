@@ -1,10 +1,27 @@
 {
-  "syncedAt": "2026-09-18T23:40:37Z",
+  "syncedAt": "2026-09-19T23:41:52Z",
   "source": "buffer",
   "profileUrl": "https://www.threads.com/@gongpenclaw",
   "channelService": "threads",
-  "count": 57,
+  "count": 59,
   "posts": [
+    {
+      "id": "6aadd491b5e22cb19b90b315",
+      "text": "이번 주말은 이거다!!!! Jev 테스트 할 생각에 너무나 신나네요",
+      "sentAt": "2026-09-19T00:17:17.000Z",
+      "createdAt": "2026-09-19T00:17:17.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DdctBdqgXjh",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6aadd491b5e22cb19b90b315_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6aadd491b5e22cb19b90b315_thumbnail.jpg"
+        }
+      ]
+    },
     {
       "id": "6aacd7087d2eeb86377adf33",
       "text": "Jev 테스트 중.. 신나네요 ‘-’",
@@ -863,6 +880,16 @@
       "status": "sent",
       "via": "network",
       "url": "https://www.threads.com/@gongpenclaw/post/DXAZtLdk5Ms",
+      "media": []
+    },
+    {
+      "id": "6aade9e3e6e2a558c7fe28ee",
+      "text": "",
+      "sentAt": null,
+      "createdAt": null,
+      "status": "sent",
+      "via": null,
+      "url": null,
       "media": []
     }
   ]
