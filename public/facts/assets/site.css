@@ -210,6 +210,27 @@ footer .links a { text-decoration: none; }
 .chip[aria-pressed="true"] span { color: var(--bg); opacity: .7; }
 #shown { margin-left: auto; }
 
+/* ---------- book layers: hope block, method box, footnotes ---------- */
+.essay .hope { margin: 44px 0 0; padding: 18px 22px 4px; border-left: 3px solid var(--fg); background: var(--card); }
+.essay .hope h2 { margin: 0 0 10px; }
+.essay .hope p { margin: 0 0 14px; }
+.essay .method { margin: 56px 0 0; padding: 18px 22px 8px; border: 1px solid var(--line-strong); background: var(--card); font-size: 14px; line-height: 1.7; }
+.essay .method h2 { margin: 0 0 12px; }
+.essay .method dl { margin: 0; }
+.essay .method dl > div { display: grid; grid-template-columns: 84px minmax(0, 1fr); gap: 14px; padding: 10px 0; border-top: 1px solid var(--line); }
+.essay .method dt { font: 500 11px/1.9 var(--mono); letter-spacing: .08em; color: var(--muted); }
+.essay .method dd { margin: 0; }
+.essay .method b { font: 500 11px/1 var(--mono); letter-spacing: .06em; color: var(--muted); margin-right: 6px; }
+.essay .method .tech { display: inline-block; margin: 0 6px 6px 0; padding: 0 9px; border: 1px solid var(--line-strong); font-size: 13px; line-height: 1.7; cursor: help; }
+@media (max-width: 520px) { .essay .method dl > div { grid-template-columns: 1fr; gap: 2px; } }
+.essay sup.fn { margin-left: 1px; font: 500 10px/0 var(--mono); }
+.essay sup.fn a { padding: 0 1px; color: var(--muted); text-decoration: none; }
+.essay sup.fn a:hover, .essay .notes .back:hover { color: var(--fg); }
+.essay .notes ol { margin: 0 0 18px; padding-left: 1.6em; font-size: 13px; line-height: 1.7; color: var(--muted); }
+.essay .notes li { margin-bottom: 6px; }
+.essay .notes a { color: var(--fg); text-underline-offset: 2px; }
+.essay .notes .back { margin-left: 4px; color: var(--muted); text-decoration: none; }
+
 /* Way back to the host site */
 .siteback { margin: 0 -18px 0 -6px; padding: 14px 10px; font: 500 15px/1 var(--mono); text-decoration: none; color: var(--muted); }
 .siteback:hover { color: var(--fg); }

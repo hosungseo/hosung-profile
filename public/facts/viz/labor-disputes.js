@@ -119,11 +119,11 @@
     const yi = d.years.indexOf(state.year), p = d.per1000[yi];
     const cols = full ? [
       ["분규 건수", `${d.cases[yi].toLocaleString("ko-KR")}건`, INK],
-      ["근로손실일수", `${d.lostdays[yi].toLocaleString("ko-KR")}일`, INK],
+      ["근로손실일수", `${d.lostdays[yi].toLocaleString("ko-KR")}천 일`, INK],
       ["1천 명당 손실일수", p == null ? "집계 전" : `${p.toFixed(1)}`, "#7a1f1a"],
     ] : [
       ["분규 건수", `${d.cases[yi].toLocaleString("ko-KR")}건`, INK],
-      ["근로손실일수", `${d.lostdays[yi].toLocaleString("ko-KR")}일`, INK],
+      ["근로손실일수", `${d.lostdays[yi].toLocaleString("ko-KR")}천 일`, INK],
       ["1천 명당", p == null ? "집계 전" : `${p.toFixed(1)}`, "#7a1f1a"],
     ];
     const colW = (w - pad * 2) / cols.length;
@@ -148,7 +148,7 @@
       const [hx, hy] = state.hover;
       if (geo.hit != null && hy < lineY + 90) {
         const yi2 = d.years.indexOf(geo.hit), p2 = d.per1000[yi2];
-        tip(ctx, w, h, hx, hy, [[`${geo.hit}년`, INK], [`분규 ${d.cases[yi2].toLocaleString("ko-KR")}건 · 손실 ${d.lostdays[yi2].toLocaleString("ko-KR")}일`, "rgba(44,32,17,.8)"], [p2 == null ? "1천 명당: 집계 전" : `1천 명당 ${p2.toFixed(1)}일`, "#7a1f1a"]]);
+        tip(ctx, w, h, hx, hy, [[`${geo.hit}년`, INK], [`분규 ${d.cases[yi2].toLocaleString("ko-KR")}건 · 손실 ${d.lostdays[yi2].toLocaleString("ko-KR")}천 일`, "rgba(44,32,17,.8)"], [p2 == null ? "1천 명당: 집계 전" : `1천 명당 ${p2.toFixed(1)}일`, "#7a1f1a"]]);
       }
     }
   }

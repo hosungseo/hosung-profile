@@ -194,7 +194,7 @@
     const a = clamp((c - 1.2) / 0.8, 0, 1);
     ctx.globalAlpha = a;
     txt(ctx, pct(g.unres[yi], g.rec[yi], 1), 48, h - 34, `600 22px ${MONO}`, rgba(WARM, 1));
-    txt(ctx, `아동 실종 신고 ${KF.fmt(g.rec[yi])}건 중 귀가`, 48, h - 15, `500 11px ${SANS}`, "rgba(226,232,255,.85)");
+    txt(ctx, `아동 실종 신고 ${KF.fmt(g.rec[yi])}건 중 찾음`, 48, h - 15, `500 11px ${SANS}`, "rgba(226,232,255,.85)");
     txt(ctx, `못 찾은 ${g.unres[yi]}명 ○`, w - 16, h - 15, `500 11px ${SANS}`, "rgba(226,232,255,.85)", "right");
     ctx.globalAlpha = 1;
     if (c > 8.3) { ctx.fillStyle = `rgba(11,16,38,${(c - 8.3) / 0.7})`; ctx.fillRect(0, 0, w, h); }
