@@ -16,5 +16,5 @@ const factsPages = existsSync(factsDir)
 
 export default defineConfig({
   site,
-  integrations: [sitemap({ customPages: factsPages.length ? [`${site}/facts/`, ...factsPages] : [] })],
+  integrations: [sitemap({ customPages: [...(factsPages.length ? [`${site}/facts/`, ...factsPages] : []), `${site}/supply/`] })],
 });
