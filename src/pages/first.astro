@@ -1,0 +1,170 @@
+---
+import Base from '../layouts/Base.astro';
+
+const title = '먼저 챙김';
+const description =
+  '신청하지 않아도 국가가 먼저 챙기려면 무엇을 바꿔야 하나. 정부24 개인·가구 서비스 9,934건을 데이터·법·위탁의 세 축으로 전수 분석한 이행 점검판.';
+
+// Figures from research/gov24-audit (policy-preview), 2026-10-03 snapshot of gov24.
+const stairs = [
+  { k: '지금', v: '9%', note: '정부24에 신청불필요로 등록된 845건. 데이터로 판정 가능해 인정되는 것은 600건(6%)' },
+  { k: '세 방법', v: '69%', note: '데이터 공유 · 하위법령 · 위탁으로 6,874건. 법률 개정 없이' },
+  { k: '법 한 조항', v: '78%', note: '86개 법률의 신청 조항을 사회보장기본법 통칙 하나로 묶으면 +895건' },
+  { k: '끝까지 신청', v: '22%', note: '심사·공모 11% · 재량 문구 8% · 의료·금융 민감 데이터 3%' },
+];
+
+const methods = [
+  { n: '1', t: '데이터 공유', d: '행정정보공동이용 서류 212종과 비대면 자격확인 32종(수급·장애·보훈·임산부·다자녀·고용보험…)은 이미 열려 있다. 서비스 59%는 지금 있는 사실만으로 자격이 가려진다. 공유 목록 고시로 8% 더.' },
+  { n: '2', t: '하위법령·조례', d: '정부24가 인용한 법률 조문 1,418개 중 1,007개는 "국가와 지자체는 지원할 수 있다"는 책무 조항이다. 신청 절차는 시행규칙 서식·고시·조례에 있어 84%는 법률을 건드리지 않고 바꿀 수 있다.' },
+  { n: '3', t: '위임·위탁', d: '막힌 서비스 2,106건 중 568건은 그 사실을 이미 가진 기관이 따로 있다. 학생 대상 지자체 서비스 350건은 학교·교육청이 재학을 확인하면 재학 API 없이도 같은 효과.' },
+];
+
+const levers = [
+  { v: '5종', t: '사실 API', d: '주민등록·농업경영체·수급·장애·보훈을 신청 화면에 붙이면 전체 49%, 기초 60%. 새 데이터 0' },
+  { v: '2개', t: '사실 신설', d: 'NEIS 재학 + 행복e음 소득인정액 → 판정 가능 59→65%' },
+  { v: '350건', t: '교육청 위탁', d: '학생 대상 지자체 서비스는 학교가 재학 확인' },
+  { v: '12종', t: '표준 서비스 템플릿', d: '주민안전보험 164곳 · 시설 감면 196 · 건보료 지원 68… = 831건' },
+  { v: '3종', t: '안 받는 서류', d: '등초본·통장사본·신분증 = 구비서류 줄의 32%' },
+  { v: '20개', t: '판정 모듈', d: '보유처 조합 20개로 판정 가능 서비스의 69%' },
+  { v: '5종', t: '표준조례', d: '청년·보훈·저소득·농업·출산 ≈ 750건에 "직권 확인·안내" 한 조항' },
+  { v: '100곳', t: '기관', d: '651곳 중 상위 100곳 = 서비스 52%' },
+  { v: '1개조', t: '법률 통칙', d: '"직권 확인·안내, 동의 시 신청 간주" — 86개 법률 개별 개정 대체' },
+];
+
+const links = [
+  { href: '/first/onepage/', t: '한 장 그림', d: '9,934건을 1칸 10건 격자로. 층위별 격자와 지렛대 9개', ext: false },
+  { href: '/writing/first-serve', t: '긴 글', d: '왜 안 되나, 세 방법, 로드맵, 하위법령으로 되는 것, 한계', ext: false },
+  { href: 'https://policy-preview.vercel.app/gov24/', t: '먼저 챙김 순위표', d: '기관 652곳 극복률 순위 · 표준 서비스 리그표 · 기관별 레터 · 서비스 9,980건 탐색기', ext: true },
+];
+---
+
+<Base title={title} description={description}>
+  <div class="shell">
+    <header class="page-header">
+      <p class="page-kicker"><span>09</span> FIRST SERVE</p>
+      <h1>먼저 챙김</h1>
+      <p class="muted">신청하지 않아도 국가가 먼저 챙기려면 무엇을 바꿔야 하나. 정부24 개인·가구 서비스 9,934건 전수.</p>
+      <p class="page-count">2026.10 SNAPSHOT</p>
+    </header>
+
+    <p class="first-thesis">
+      지금은 10건 중 1건이 신청 없이 나간다. 있는 데이터를 잇고, 시행규칙·조례를 고치고, 자격확인을 데이터 가진 곳에 맡기면 <b>7건</b>. 법 한 조항을 더하면 <b>8건</b>. 나머지 2건은 심사·공모라 신청이 맞다.
+    </p>
+
+    <ol class="first-stairs" aria-label="단계별 비율">
+      {stairs.map((s) => (
+        <li>
+          <span class="first-k">{s.k}</span>
+          <b class="first-v">{s.v}</b>
+          <span class="first-note">{s.note}</span>
+        </li>
+      ))}
+    </ol>
+
+    <section class="first-section" aria-labelledby="first-links">
+      <h2 id="first-links">보기</h2>
+      <ul class="first-rows">
+        {links.map((l, i) => (
+          <li>
+            <span class="first-index">{String(i + 1).padStart(2, '0')}</span>
+            <a href={l.href} target={l.ext ? '_blank' : undefined} rel={l.ext ? 'noopener' : undefined}>{l.t}{l.ext ? ' ↗' : ''}</a>
+            <span class="first-d">{l.d}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="first-section" aria-labelledby="first-methods">
+      <h2 id="first-methods">세 방법</h2>
+      <ul class="first-rows">
+        {methods.map((m) => (
+          <li>
+            <span class="first-index">{m.n}</span>
+            <span class="first-t">{m.t}</span>
+            <span class="first-d">{m.d}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="first-section" aria-labelledby="first-levers">
+      <h2 id="first-levers">딱 몇 개만</h2>
+      <ul class="first-rows">
+        {levers.map((l) => (
+          <li>
+            <span class="first-index first-num">{l.v}</span>
+            <span class="first-t">{l.t}</span>
+            <span class="first-d">{l.d}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="first-section first-limits" aria-labelledby="first-limits">
+      <h2 id="first-limits">읽는 법</h2>
+      <p>극복 = 자격을 국민에게 묻지 않고 가를 수 있고(데이터) 법이 허용함(법). 실제로 먼저 안내하려면 공동이용 사무 등록, 자격확인 API 연계, 동의·직권 발굴 운영이 따로 필요하다.</p>
+      <p>자격 판정은 서비스 본문의 지원대상·선정기준을 규칙으로 옮겨(LLM 변환, 독립 검수) 셌다. 중앙·세종 표본 오류 9%, 시·군·구 미검수. 보유처 접근은 행정정보공동이용 목록(2026-10-04 현행 42기관 212종)과 비대면 자격확인서비스 32종 기준, 법률 판정은 법제처 현행본 350종의 조문 제목 기준. 조회수는 정부24 상세 조회로 관심의 대리 지표다.</p>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .first-thesis {
+    max-width: var(--width-article);
+    font-size: 1.35rem;
+    line-height: 1.6;
+    letter-spacing: -0.02em;
+    color: var(--foreground-strong);
+    margin: 0 0 2.5rem;
+    text-wrap: balance;
+  }
+  .first-thesis b { color: var(--accent); font-weight: 600; }
+  .first-stairs {
+    list-style: none;
+    margin: 0 0 3.5rem;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    border-top: 1px solid var(--line-strong);
+  }
+  .first-stairs li {
+    display: grid;
+    gap: 0.35rem;
+    padding: 1.1rem 1rem 1.1rem 0;
+    border-right: 1px solid var(--line);
+    min-width: 0;
+  }
+  .first-stairs li + li { padding-left: 1rem; }
+  .first-stairs li:last-child { border-right: 0; }
+  .first-k { font-family: var(--font-mono); font-size: 0.66rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+  .first-v { font-size: 3.2rem; line-height: 1; font-weight: 600; letter-spacing: -0.05em; color: var(--foreground-strong); font-variant-numeric: tabular-nums; }
+  .first-stairs li:nth-child(2) .first-v, .first-stairs li:nth-child(3) .first-v { color: var(--accent); }
+  .first-stairs li:last-child .first-v { color: var(--muted); }
+  .first-note { font-size: 0.86rem; line-height: 1.5; color: var(--muted); }
+  .first-section { margin: 0 0 3rem; }
+  .first-section h2 { font-size: 0.72rem; font-family: var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 0 0 0.6rem; font-weight: 500; }
+  .first-rows { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line-strong); }
+  .first-rows li {
+    display: grid;
+    grid-template-columns: 4.5rem 11rem minmax(0, 1fr);
+    gap: 1rem;
+    align-items: baseline;
+    padding: 0.85rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .first-index { font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted); letter-spacing: 0.04em; }
+  .first-num { font-size: 1.05rem; color: var(--accent); font-weight: 600; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+  .first-t, .first-rows a { font-weight: 600; color: var(--foreground-strong); text-decoration: none; letter-spacing: -0.01em; }
+  .first-rows a:hover { color: var(--accent); }
+  .first-d { color: var(--foreground); line-height: 1.6; font-size: 0.95rem; }
+  .first-limits p { max-width: var(--width-reading); color: var(--muted); font-size: 0.92rem; line-height: 1.7; margin: 0 0 0.6rem; }
+  @media (max-width: 760px) {
+    .first-stairs { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .first-stairs li:nth-child(2) { border-right: 0; }
+    .first-stairs li:nth-child(n + 3) { border-top: 1px solid var(--line); }
+    .first-stairs li:nth-child(3) { padding-left: 0; }
+    .first-v { font-size: 2.4rem; }
+    .first-rows li { grid-template-columns: 4rem minmax(0, 1fr); }
+    .first-d { grid-column: 2; }
+  }
+</style>
