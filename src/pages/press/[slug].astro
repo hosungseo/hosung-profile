@@ -1,0 +1,43 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { formatDate } from '../../utils';
+
+export async function getStaticPaths() {
+  const items = await getCollection('press');
+  return items.map((item) => ({ params: { slug: item.id }, props: { item } }));
+}
+
+const { item } = Astro.props;
+const { Content } = await render(item);
+---
+
+<Base title={item.data.title} description={item.data.description} type="article" publishedTime={item.data.date}>
+  <article class="shell article-shell">
+    <header class="article-header">
+      <a class="back-link" href="/press/">← 보도자료</a>
+      <p class="press-kicker">{item.data.event}</p>
+      <h1>{item.data.title}</h1>
+      <p class="press-mine">{item.data.mine}</p>
+      <div class="article-meta">
+        <time datetime={item.data.date.toISOString()}>{formatDate(item.data.date)} 배포</time>
+        <span>{item.data.org}</span>
+      </div>
+    </header>
+    <div class="prose article-prose press-prose">
+      <Content />
+    </div>
+    <footer class="article-end">
+      <span>END OF RELEASE</span>
+      <a href="/press/">보도자료 목록 →</a>
+    </footer>
+  </article>
+</Base>
+
+<style>
+  .press-kicker { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin: 0 0 0.6rem; }
+  .press-mine { margin: 0.4rem 0 0.8rem; font-weight: 600; color: var(--accent); }
+  .press-prose :global(blockquote) { margin: 1.4rem 0; padding: 1rem 1.2rem; border-left: 2px solid var(--line-strong); background: var(--surface); font-size: 0.95rem; }
+  .press-prose :global(blockquote p) { margin: 0.4rem 0; }
+  .press-prose :global(img) { border: 1px solid var(--line); margin-top: 0.6rem; }
+</style>

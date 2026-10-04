@@ -1,0 +1,46 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { formatDate } from '../../utils';
+
+const items = (await getCollection('press')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<Base title="보도자료" description="국무총리 주재 AI 행정혁신 우수공직자 간담회에서 발표한 직접 개발 사례. 국무조정실 보도자료 전문.">
+  <div class="shell">
+    <header class="page-header">
+      <p class="page-kicker"><span>04</span> PRESS</p>
+      <h1>보도자료</h1>
+      <p class="muted">국무총리 주재 AI 행정혁신 우수공직자 간담회에서 직접 개발한 서비스를 발표했습니다. 국무조정실이 배포한 보도자료 전문입니다.</p>
+      <p class="page-count">{String(items.length).padStart(2, '0')} RELEASES</p>
+    </header>
+    <ul class="press-list">
+      {
+        items.map((item) => (
+          <li>
+            <div class="press-meta">
+              <time datetime={item.data.date.toISOString()}>{formatDate(item.data.date)}</time>
+              <span>{item.data.event}</span>
+            </div>
+            <h2><a href={`/press/${item.id}/`}>{item.data.title}</a></h2>
+            <p class="press-mine">{item.data.mine}</p>
+            {item.data.description && <p class="press-desc">{item.data.description}</p>}
+          </li>
+        ))
+      }
+    </ul>
+    <p class="press-note">보도자료는 공공저작물로, 원문의 표기와 강조를 그대로 옮기고 기관 서식과 담당자 연락처만 뺐습니다.</p>
+  </div>
+</Base>
+
+<style>
+  .press-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line-strong); }
+  .press-list li { padding: 1.4rem 0; border-bottom: 1px solid var(--line); display: grid; gap: 0.45rem; }
+  .press-meta { display: flex; gap: 1rem; font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.04em; color: var(--muted); }
+  .press-list h2 { margin: 0; font-size: 1.25rem; line-height: 1.4; letter-spacing: -0.02em; max-width: 44rem; text-wrap: balance; }
+  .press-list h2 a { color: var(--foreground-strong); text-decoration: none; }
+  .press-list h2 a:hover { color: var(--accent); }
+  .press-mine { margin: 0; font-weight: 600; color: var(--accent); font-size: 0.95rem; }
+  .press-desc { margin: 0; color: var(--muted); font-size: 0.92rem; max-width: 44rem; line-height: 1.6; }
+  .press-note { margin: 1.5rem 0 0; font-size: 0.82rem; color: var(--subtle); }
+</style>

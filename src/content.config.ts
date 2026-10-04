@@ -33,4 +33,16 @@ const work = defineCollection({
   }),
 });
 
-export const collections = { writing, notes, work };
+const press = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/press' }),
+  schema: z.object({
+    title: z.string(),
+    date: z.coerce.date(),
+    org: z.string(),
+    event: z.string(),
+    mine: z.string(),
+    description: z.string().optional(),
+  }),
+});
+
+export const collections = { writing, notes, work, press };
