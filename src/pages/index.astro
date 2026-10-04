@@ -1,142 +1,98 @@
 ---
-import { getCollection, render } from 'astro:content';
+import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
-import { CLOUDFLARE_WALLET_URL, THREADS_URL } from '../consts';
+import { NAV_GROUPS, THREADS_URL } from '../consts';
+import archive from '../data/threads.json';
 import { formatDate } from '../utils';
 
-const allWriting = (await getCollection('writing', ({ data }) => !data.draft)).sort(
-  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
-);
-const writing = allWriting.slice(0, 5);
-const [featured, ...recentWriting] = writing;
+type Item = { type: string; title: string; url: string; date: Date; desc?: string; external?: boolean };
 
-const notes = (await getCollection('notes'))
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0, 3);
+const writing = (await getCollection('writing', ({ data }) => !data.draft)).map<Item>((p) => ({
+  type: '글', title: p.data.title, url: `/writing/${p.id}`, date: p.data.date, desc: p.data.description,
+}));
+const notes = (await getCollection('notes')).map<Item>((n) => ({
+  type: '단상', title: n.body?.split('\n').find((l) => l.trim())?.replace(/^#+\s*/, '').slice(0, 80) ?? '단상', url: '/notes', date: n.data.date,
+}));
+const press = (await getCollection('press')).map<Item>((p) => ({
+  type: '보도자료', title: p.data.title, url: `/press/${p.id}/`, date: p.data.date, desc: p.data.mine,
+}));
+const work = (await getCollection('work')).sort((a, b) => a.data.order - b.data.order);
+const workItems = work.filter((w) => w.data.updated).map<Item>((w) => ({
+  type: '작업', title: w.data.title, url: w.data.url ?? '/work', date: w.data.updated!, desc: w.data.description,
+}));
+const threads = (archive.posts as { text: string; sentAt: string | null; url?: string | null; status: string }[])
+  .filter((p) => (p.status === 'sent' || p.status === 'error') && p.sentAt)
+  .map<Item>((p) => ({ type: '쓰레드', title: p.text.split('\n')[0].slice(0, 90), url: p.url ?? THREADS_URL, date: new Date(p.sentAt!), external: !!p.url }));
 
-const renderedNotes = await Promise.all(
-  notes.map(async (note) => ({ note, rendered: await render(note) }))
-);
+const feed = [...writing, ...notes, ...press, ...workItems, ...threads]
+  .sort((a, b) => b.date.valueOf() - a.date.valueOf())
+  .slice(0, 14);
 
-const topics = [
-  'AI가 바꾸는 일의 단위',
-  '도구가 다시 정의하는 사람',
-  '사람이 여전히 잘하는 것',
+const counts = [
+  { n: writing.length, label: '글' },
+  { n: notes.length, label: '단상' },
+  { n: threads.length, label: '쓰레드' },
+  { n: work.length, label: '작업' },
+  { n: press.length, label: '보도자료' },
 ];
+
+const tools = NAV_GROUPS.find((g) => g.key === 'work')!.items;
+const workByUrl = new Map(work.map((w) => [w.data.url?.replace('https://seohosung.com', '').replace(/\/$/, ''), w]));
+
+const questions = ['AI가 바꾸는 일의 단위', '도구가 다시 정의하는 사람', '사람이 여전히 잘하는 것'];
 ---
 
 <Base>
-  <section class="home-hero">
-    <div class="shell-wide hero-frame">
-      <div class="hero-rail" aria-hidden="true">
-        <span>PERSONAL INDEX</span>
-        <span>WRITING · NOTES · WORK</span>
-      </div>
-      <h1 class="hero-wordmark" aria-label="서호성">
-        <span>SEO</span>
-        <span>HOSUNG</span>
-      </h1>
-      <div class="hero-summary">
-        <p class="hero-kicker">서호성의 개인 아카이브</p>
-        <p class="hero-statement">AI가 바꾸는 일과 생각을,<br />오래 남는 글로 씁니다.</p>
-        <p class="hero-description">
-          스치는 단상은 <a href={THREADS_URL}>쓰레드</a>에, 시간을 들인 긴 글은 이곳에
-          기록합니다.
-        </p>
-        <div class="hero-actions">
-          {featured && <a class="button-link" href={`/writing/${featured.id}`}>최근 글 읽기 <span>↗</span></a>}
-          <a class="quiet-link" href={CLOUDFLARE_WALLET_URL}>Cloudflare Wallet ↗</a>
-        </div>
-      </div>
-    </div>
+  <section class="home-top">
+    <h1 class="home-wordmark" aria-label="서호성"><span>SEO HOSUNG</span></h1>
+    <p class="home-statement">AI가 바꾸는 일과 생각을, 오래 남는 글과 쓸 수 있는 도구로 남깁니다.</p>
+    <ul class="home-counts">
+      {counts.map((c) => <li><b>{c.n.toLocaleString('ko-KR')}</b>{c.label}</li>)}
+      <li><b>{archive.syncedAt ? formatDate(new Date(archive.syncedAt)) : '—'}</b>갱신</li>
+    </ul>
   </section>
 
-  <section class="home-section" id="latest-writing">
-    <div class="shell-wide section-layout">
-      <header class="section-intro">
-        <span class="section-index">01</span>
-        <h2>최근 글</h2>
-        <p>새로 쓴 글부터 지난 기록까지<br />총 {allWriting.length}편을 모았습니다.</p>
-        <a href="/writing" class="section-more">모든 글 보기 <span>→</span></a>
-      </header>
-      <div class="section-body">
-      {
-        !featured ? (
-          <p class="muted">아직 올린 글이 없습니다.</p>
-        ) : (
-          <>
-            <article class="featured-post">
-              <div class="featured-meta">
-                <span>LATEST</span>
-                <time datetime={featured.data.date.toISOString()}>{formatDate(featured.data.date)}</time>
+  <div class="home-grid">
+    <section class="home-col" aria-labelledby="home-feed">
+      <h2 id="home-feed">최근 활동 <a href="/writing">모든 글 →</a></h2>
+      <ol class="feed">
+        {
+          feed.map((it) => (
+            <li>
+              <span class="feed-type">{it.type}</span>
+              <div>
+                <a class="feed-title" href={it.url} target={it.external ? '_blank' : undefined} rel={it.external ? 'noopener' : undefined}>{it.title}</a>
+                {it.desc && <span class="feed-desc">{it.desc}</span>}
               </div>
-              <h3><a href={`/writing/${featured.id}`}>{featured.data.title}</a></h3>
-              {featured.data.description && <p>{featured.data.description}</p>}
-              <a class="read-link" href={`/writing/${featured.id}`}>글 읽기 <span>↗</span></a>
-            </article>
-            <ul class="post-list compact-post-list">
-            {recentWriting.map((post, index) => (
-              <li>
-                <span class="post-index">{String(index + 2).padStart(2, '0')}</span>
-                <div class="post-copy">
-                  <a href={`/writing/${post.id}`} class="post-title">
-                    {post.data.title}
-                  </a>
-                  {post.data.description && <p>{post.data.description}</p>}
-                </div>
-                <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
-              </li>
-            ))}
-            </ul>
-          </>
-        )
-      }
-      </div>
-    </div>
-  </section>
+              <time datetime={it.date.toISOString()}>{formatDate(it.date)}</time>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
 
-  <section class="topic-panel">
-    <div class="shell-wide section-layout">
-      <header class="section-intro section-intro-dark">
-        <span class="section-index">02</span>
-        <h2>지금 쓰는 주제</h2>
-        <p>도구보다 사람과 제도에<br />더 오래 남는 질문들.</p>
-      </header>
-      <ul class="topic-list">
-        {topics.map((topic, index) => (
-          <li><span>{String(index + 1).padStart(2, '0')}</span>{topic}</li>
-        ))}
-      </ul>
-    </div>
-  </section>
-
-  <section class="home-section">
-    <div class="shell-wide section-layout">
-      <header class="section-intro">
-        <span class="section-index">03</span>
-        <h2>최근 단상</h2>
-        <p>문장이 되기 전의 생각과<br />짧게 붙잡아 둔 기록.</p>
-        <a href="/notes" class="section-more">모든 단상 보기 <span>→</span></a>
-      </header>
-      <div class="section-body notes-preview">
-      {
-        renderedNotes.length === 0 ? (
-          <p class="muted">아직 단상이 없습니다.</p>
-        ) : (
-          renderedNotes.map(({ note, rendered }) => {
-            const Content = rendered.Content;
+    <section class="home-col" aria-labelledby="home-tools">
+      <h2 id="home-tools">작업물 <a href="/work">전부 →</a></h2>
+      <ul class="tools">
+        {
+          tools.map((t) => {
+            const w = workByUrl.get(t.href.replace(/\/$/, ''));
             return (
-              <article class="note">
-                <time datetime={note.data.date.toISOString()}>{formatDate(note.data.date)}</time>
-                <div class="prose">
-                  <Content />
-                </div>
-              </article>
+              <li>
+                <a href={t.href} target={t.href.startsWith('http') ? '_blank' : undefined} rel={t.href.startsWith('http') ? 'noopener' : undefined}>
+                  {t.label}
+                  <span>{w?.data.updated ? formatDate(w.data.updated) : t.href.startsWith('http') ? '↗' : ''}</span>
+                </a>
+                <p>{t.note ?? w?.data.description ?? ''}</p>
+              </li>
             );
           })
-        )
-      }
-      </div>
-    </div>
-  </section>
+        }
+      </ul>
+      <h2 style="margin-top:2rem">지금 쓰는 질문</h2>
+      <ul class="home-questions">
+        {questions.map((q) => <li>{q}</li>)}
+      </ul>
+    </section>
+  </div>
 </Base>

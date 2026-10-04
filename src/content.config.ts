@@ -30,6 +30,7 @@ const work = defineCollection({
     description: z.string(),
     url: z.string().url().optional(),
     order: z.number().default(0),
+    updated: z.coerce.date().optional(),
   }),
 });
 

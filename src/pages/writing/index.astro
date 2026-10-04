@@ -11,7 +11,7 @@ const posts = (await getCollection('writing', ({ data }) => !data.draft)).sort(
 <Base title="글">
   <div class="shell-wide">
     <header class="page-header">
-      <p class="page-kicker"><span>01</span> WRITING ARCHIVE</p>
+      <p class="page-kicker">WRITING ARCHIVE</p>
       <h1>글</h1>
       <p class="muted">새로 쓴 글과 브런치에 남긴 지난 글을 함께 모읍니다.</p>
       <p class="page-count">{String(posts.length).padStart(3, '0')} ENTRIES</p>

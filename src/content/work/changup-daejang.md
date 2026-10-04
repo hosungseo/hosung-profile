@@ -2,6 +2,7 @@
 title: 창업대장
 description: 2026년 창업지원사업을 공고 기준과 예산 기준, 두 장부로 나란히 놓고 견주는 사이트.
 url: https://changup.seohosung.com
+updated: 2026-09-08
 order: 1
 ---
 

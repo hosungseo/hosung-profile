@@ -2,6 +2,7 @@
 title: 집행대장
 description: 전국 지방정부의 예산이 오늘 얼마나 나갔는지 — 매일 갱신되는 상황판, 3년 주간 시계열, 사업 하나의 3년, 주간 점검.
 url: https://jiphaeng2.seohosung.com
+updated: 2026-09-23
 order: 0
 ---
 

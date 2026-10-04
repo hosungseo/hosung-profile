@@ -1,6 +1,7 @@
 ---
 title: 이 사이트
 description: Astro로 만든 개인 블로그 겸 포트폴리오.
+updated: 2026-10-04
 order: 3
 ---
 

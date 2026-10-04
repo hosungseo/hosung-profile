@@ -2,6 +2,7 @@
 title: 먼저 챙김
 description: 신청하지 않아도 국가가 먼저 챙기려면 무엇을 바꿔야 하나. 정부24 서비스 9,934건을 데이터·법·위탁의 세 축으로 전수 분석한 이행 점검판.
 url: https://seohosung.com/first/
+updated: 2026-10-04
 order: 0
 ---
 
