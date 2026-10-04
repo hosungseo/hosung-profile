@@ -34,6 +34,7 @@ export const NAV_GROUPS = [
       { href: 'https://jiphaeng2.seohosung.com', label: '집행대장', work: 'jiphaeng-daejang', note: '전국 지방정부 예산 집행 상황판, 매일 갱신' },
       { href: 'https://changup.seohosung.com', label: '창업대장', work: 'changup-daejang', note: '중앙·지방 창업지원 사업을 지역·유형·시기별로' },
       { href: 'https://policy-preview.vercel.app', label: '정책 미리듣기', work: 'policy-preview', note: '정책안을 합성 국민 패널에게 먼저 들어 보는 의견수렴 설계 도구 — 부동산 대책 100만 명 지도' },
+      { href: '/signal/', label: 'SIGNAL', work: 'signal', note: '위기경보 의사결정 보좌 — 상황보고·재난문자를 다섯 판단으로 병렬 추적하는 상황판(훈련판 공개)' },
       { href: '/work#minwon-reform', label: '민원을 제도로', work: 'minwon-reform', note: '민원 한 건을 법령·조례·지침 조문과 권익위 결정례까지 끌어내는 의견서 — 시제품(로컬)' },
       { href: '/press/', label: '보도자료', work: 'pm-roundtable', note: '국무총리 주재 AI 행정혁신 간담회 발표 2회' },
       { href: '/work', label: '모든 작업' },
