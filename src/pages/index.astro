@@ -37,7 +37,7 @@ const counts = [
 ];
 
 const tools = NAV_GROUPS.find((g) => g.key === 'work')!.items;
-const workByUrl = new Map(work.map((w) => [w.data.url?.replace('https://seohosung.com', '').replace(/\/$/, ''), w]));
+const workById = new Map(work.map((w) => [w.id, w]));
 
 const questions = ['AI가 바꾸는 일의 단위', '도구가 다시 정의하는 사람', '사람이 여전히 잘하는 것'];
 ---
@@ -76,7 +76,7 @@ const questions = ['AI가 바꾸는 일의 단위', '도구가 다시 정의하�
       <ul class="tools">
         {
           tools.map((t) => {
-            const w = workByUrl.get(t.href.replace(/\/$/, ''));
+            const w = t.work ? workById.get(t.work) : undefined;
             return (
               <li>
                 <a href={t.href} target={t.href.startsWith('http') ? '_blank' : undefined} rel={t.href.startsWith('http') ? 'noopener' : undefined}>

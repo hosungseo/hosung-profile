@@ -29,7 +29,7 @@ const counts: Record<string, number> = {
 };
 
 const isCurrent = (href: string) =>
-  href.startsWith('http') ? false : href === '/' ? currentPath === '/' : currentPath.startsWith(href.replace(/\/$/, ''));
+  href.startsWith('http') || href.includes('#') ? false : href === '/' ? currentPath === '/' : currentPath.startsWith(href.replace(/\/$/, ''));
 const section = NAV_GROUPS.flatMap((g) => g.items).find((i) => isCurrent(i.href));
 ---
 

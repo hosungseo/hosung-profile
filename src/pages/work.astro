@@ -22,7 +22,7 @@ const renderedItems = await Promise.all(
         renderedItems.map(({ item, rendered }, index) => {
           const Content = rendered.Content;
           return (
-            <li>
+            <li id={item.id}>
               <span class="work-index">{String(index + 1).padStart(2, '0')}</span>
               <h2>
                 {item.data.url ? <a href={item.data.url}>{item.data.title}</a> : item.data.title}

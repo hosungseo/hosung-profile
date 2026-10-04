@@ -22,9 +22,8 @@ export const GET: APIRoute = async () => {
   const threads = (archive.posts as { text: string; sentAt: string | null; url?: string | null; status: string }[])
     .filter((p) => (p.status === 'sent' || p.status === 'error') && p.sentAt)
     .map((p) => ({ type: 'threads', title: p.text.split('\n')[0].slice(0, 90), text: p.text.slice(0, 200), url: p.url ?? '/threads', date: (p.sentAt ?? '').slice(0, 10) }));
-  const workUrls = new Set(work.map((w) => w.url.replace('https://seohosung.com', '').replace(/\/$/, '')));
   const pages = NAV_GROUPS.flatMap((g) => g.items)
-    .filter((i) => !workUrls.has(i.href.replace(/\/$/, '')))
+    .filter((i) => !('work' in i && i.work))
     .map((i) => ({ type: 'page', title: i.label, text: i.note ?? '', url: i.href, date: '' }));
   const items = [...pages, ...work, ...press, ...writing, ...notes, ...threads];
   return new Response(JSON.stringify(items), { headers: { 'Content-Type': 'application/json; charset=utf-8' } });
