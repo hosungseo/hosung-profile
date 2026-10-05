@@ -5,6 +5,7 @@
   "rewrites": [
     { "source": "/korea100/", "destination": "https://hosungseo.github.io/korea100/index.html" },
     { "source": "/korea100/:path(.*\\.[A-Za-z0-9]+)", "destination": "https://hosungseo.github.io/korea100/:path" },
+    { "source": "/korea100/:path((?:[^/]+/)*[^/]+)/", "destination": "https://hosungseo.github.io/korea100/:path/index.html" },
     { "source": "/korea100/:path((?:[^/]+/)*[^/]+)", "destination": "https://hosungseo.github.io/korea100/:path/index.html" }
   ]
 }
