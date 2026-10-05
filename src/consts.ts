@@ -27,6 +27,7 @@ export const NAV_GROUPS = [
     key: 'work',
     label: '작업',
     items: [
+      { href: '/korea100/', label: '제도 지도', work: 'korea100', note: '대한민국 제도 모델 — 제도 한 장 요약·업무구조도·메가프로젝트 관제·법령 지도(법률 271건 조문 위임 그래프)' },
       { href: '/first/', label: '먼저 챙김', work: 'first-serve', note: '신청주의 극복 이행 점검판 — 정부24 서비스 9,934건을 데이터·법·위탁으로 전수 분석' },
       { href: '/facts/', label: '팩트풀니스', work: 'facts', note: '데이터로 보는 대한민국 100장' },
       { href: '/supply/', label: '공급상황판', work: 'supply', note: '부동산 공급 대책의 진행 경과와 맡은 곳' },
