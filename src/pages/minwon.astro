@@ -1,0 +1,98 @@
+---
+import Base from '../layouts/Base.astro';
+
+const shots = [
+  {
+    src: '/images/minwon-reform/1-input.webp',
+    alt: '첫 화면 — 민원 내용 입력란과 법률부터 지침까지 이어지는 층위 안내',
+    title: '1. 평소 말투로 적는다',
+    text: '법·조례·고시를 몰라도 됩니다. 겪은 일을 그대로 적으면 법제처 현행 법령·행정규칙·자치법규를 한꺼번에 검색합니다.',
+  },
+  {
+    src: '/images/minwon-reform/2-question.webp',
+    alt: '질문 화면 — 지역·기관·문서 이름을 차례로 묻고, 오른쪽에 후보 법령·행정규칙·자치법규 수와 문답 기록',
+    title: '2. 몇 가지만 더 묻는다',
+    text: '지역, 상대한 기관, 받은 문서 이름처럼 시민이 아는 단서만 묻습니다. 질문마다 왜 묻는지와 후보가 몇 건으로 줄었는지 보여 줍니다.',
+  },
+  {
+    src: '/images/minwon-reform/3-opinion.webp',
+    alt: '제도 개선 의견서 — ① 지금 할 수 있는 것 ② 바로 바꿀 것 ③ 근본 개정 조문(고양시 도로점용 조례 제2조, 원문 대조 표시와 층위 사다리)',
+    title: '3. 두 트랙으로 답한다',
+    text: '① 이 건에서 지금 할 수 있는 것, ② 기관이 바로 바꿀 운영·지침, ③ 근본적으로 고칠 조문과 개정 방향을 나눠 냅니다. 인용한 조문은 법제처 원문과 기계로 대조합니다.',
+  },
+  {
+    src: '/images/minwon-reform/4-precedent.webp',
+    alt: '비슷한 권익위 결정례 — 결정 제목, 의결일, 주문 요지, 인용 법령',
+    title: '4. 선례를 붙인다',
+    text: '국민권익위원회 고충민원 결정문 683건에서 비슷한 결정례를 찾아 주문과 인용 법령을 함께 보여 줍니다.',
+  },
+];
+---
+
+<Base
+  title="민원을 제도로"
+  description="민원 한 건을 법령·조례·지침 조문과 권익위 결정례까지 끌어내 제도 개선 의견서로 바꾸는 시제품의 대표 화면."
+>
+  <div class="shell">
+    <header class="page-header">
+      <p class="page-kicker">WORK · 시제품</p>
+      <h1>민원을 제도로</h1>
+    </header>
+    <div class="prose">
+      <p>
+        민원 한 건을 넣으면 그 일을 막고 있는 조문까지 찾아가 한 장짜리 제도 개선 의견서를 만듭니다.
+        아래는 지어낸 민원 하나(고양시 식당의 인도 테라스 불허)를 실제로 돌린 화면입니다.
+        이 민원은 「고양시 도로점용허가 및 점용료 징수에 관한 조례」 제2조의
+        "그 밖에 도로관리청이 인정한 것"이라는 기준 없는 재량 조항에 닿았습니다.
+      </p>
+      <p>
+        권익위 제도개선 결정문 104건을 정답지로 재었습니다. 근거 법령을 검토 문서에 담은 비율은 88%였고,
+        인용 원문 대조는 모두 통과했습니다. 아직 공개 서비스가 아니라 로컬에서만 돌아갑니다.
+        결과는 공식 판단이 아닌 초안입니다.
+      </p>
+    </div>
+
+    <div class="minwon-shots">
+      {
+        shots.map((s) => (
+          <figure>
+            <figcaption>
+              <strong>{s.title}</strong>
+              <span>{s.text}</span>
+            </figcaption>
+            <img src={s.src} alt={s.alt} loading="lazy" decoding="async" />
+          </figure>
+        ))
+      }
+    </div>
+  </div>
+</Base>
+
+<style>
+  .minwon-shots {
+    display: grid;
+    gap: 2.5rem;
+    margin: 2.5rem 0 3rem;
+  }
+  .minwon-shots figure {
+    margin: 0;
+  }
+  .minwon-shots figcaption {
+    display: grid;
+    gap: 0.25rem;
+    margin-bottom: 0.75rem;
+    max-width: 44rem;
+  }
+  .minwon-shots figcaption span {
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .minwon-shots img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: #fff;
+  }
+</style>
