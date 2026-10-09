@@ -1,10 +1,20 @@
 {
-  "syncedAt": "2026-10-06T01:57:28Z",
+  "syncedAt": "2026-10-09T01:31:12Z",
   "source": "buffer",
   "profileUrl": "https://www.threads.com/@gongpenclaw",
   "channelService": "threads",
-  "count": 68,
+  "count": 69,
   "posts": [
+    {
+      "id": "6ac7f7ea0c5b48e25b36a67e",
+      "text": "Ai 활용에 관심 가지고 노력할수록... 영어 실력에 갈증이 생긴다. Ai번역기 성능은 점점 더 좋아지고 있다. 역설적이지만 번역기를 사용하지 않는 대화의 가치가 함께 올라가는 것을 느낀다.",
+      "sentAt": "2026-10-08T20:07:00.000Z",
+      "createdAt": "2026-10-08T20:07:00.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DePwR5aEzFS",
+      "media": []
+    },
     {
       "id": "6ac4295833ecc1a01e54c197",
       "text": "첫 앱을 만들었습니다. 이름은 '맥박MacBeat'\n\nClaude, ChatGPT, Grok, Google AI를 번갈아 쓰다 보니 한도가 얼마나 남았는지 매번 앱을 열어 확인하는 게 번거로웠어요. 그래서 손목에서 바로 보이게 만들었습니다. 링이 줄어드는 걸 보면 오늘은 어떤 AI한테 일을 맡길지 감이 옵니다.\n\nXcode는 정말 낯설었어요. 시뮬레이터, 서명, 워치 페어링에서 몇 번이나 막혔습니다. 그래도 화면에 내 앱이 처음 떴을 때는 꽤 짜릿했어요. 시간 가는 줄 모르고 붙잡고 있었네요.\n\nAI 사용량을 재는 앱을 AI랑 같이 만들었다는 게 이번 작업에서 제일 재밌는 부분입니다. 공부목적 앱 제작이라 앱스토어 까진 어려워 보입니다.",
