@@ -1,10 +1,27 @@
 {
-  "syncedAt": "2026-10-09T01:31:12Z",
+  "syncedAt": "2026-10-14T00:40:54Z",
   "source": "buffer",
   "profileUrl": "https://www.threads.com/@gongpenclaw",
   "channelService": "threads",
-  "count": 69,
+  "count": 70,
   "posts": [
+    {
+      "id": "6ace9d7c385bf41629ab906e",
+      "text": "Gemini argon 실험중..!\nOpenai나 앤트로픽을 일론머스크, 구글, 메타가 따라가는 구도라고 생각합니다. 구글이 그간 부진했지만... 최근 메타가 MUSE로 보여준 저력을 생각하면 구글도 뭔가 보여줄 것으로 기대하고 있습니다.",
+      "sentAt": "2026-10-13T21:07:01.000Z",
+      "createdAt": "2026-10-13T21:07:01.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DecvH5pE2_v",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6ace9d7c385bf41629ab906e_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6ace9d7c385bf41629ab906e_thumbnail.jpg"
+        }
+      ]
+    },
     {
       "id": "6ac7f7ea0c5b48e25b36a67e",
       "text": "Ai 활용에 관심 가지고 노력할수록... 영어 실력에 갈증이 생긴다. Ai번역기 성능은 점점 더 좋아지고 있다. 역설적이지만 번역기를 사용하지 않는 대화의 가치가 함께 올라가는 것을 느낀다.",
