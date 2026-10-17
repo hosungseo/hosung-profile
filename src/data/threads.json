@@ -1,10 +1,36 @@
 {
-  "syncedAt": "2026-10-17T00:00:14Z",
+  "syncedAt": "2026-10-17T23:32:43Z",
   "source": "buffer",
   "profileUrl": "https://www.threads.com/@gongpenclaw",
   "channelService": "threads",
-  "count": 71,
+  "count": 73,
   "posts": [
+    {
+      "id": "6ad3ff3fbd5b51696a898986",
+      "text": "리스펙합니다!!",
+      "sentAt": "2026-10-17T23:05:31.000Z",
+      "createdAt": "2026-10-17T23:05:31.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DenP3O1gdat",
+      "media": []
+    },
+    {
+      "id": "6ad2e933e2223a397e5205f4",
+      "text": "앤스로픽이 소개한 산불 분석 앱 FireTrace를 보고, 한국판을 만들었습니다. 이름은 산불추적기입니다.\n\n2025년 의성 산불의 엿새를 10초로 줄였습니다. 위성 열점, 바람, 습도, 읍면동 인구, 언론 보도를 한 시간축에 겹쳤습니다.\n\n3월 25일 밤 순간풍속 25m/s, 불은 하룻밤 사이 영덕 해안까지 갔습니다.\n\nseohosung.com/firetrace\n\n쓴 데이터는 NASA FIRMS 위성 열점, 기상청 ASOS, ERA5 재분석, 행안부 주민등록 인구, 산림청 산불통계, 네이버 뉴스 1만 1천 건입니다.\n\n2023~2026년 100ha 이상 산불 14건을 같은 방식으로 넣었습니다.",
+      "sentAt": "2026-10-17T03:19:08.000Z",
+      "createdAt": "2026-10-17T03:19:08.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DelIB65gbE8",
+      "media": [
+        {
+          "type": "video",
+          "mimeType": "video/mp4",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6ad2e933e2223a397e5205f4_thumbnail.jpg"
+        }
+      ]
+    },
     {
       "id": "6ad2a0da22584636eef5d9d9",
       "text": "나이키 조던에 빨간 케이블 타이 하나를 달아 시대의 아이콘으로 만든 디자이너 버질 아블로에게는 유명한 ‘3%의 법칙’이 있습니다. 기존의 익숙한 원형은 그대로 유지하면서, 그 위에 단 3%의 새로운 변주만 더해 완전히 다른 가치를 만들어내는 방식입니다.\n우리가 마주하는 ‘정부혁신’의 해법도 이와 맞닿아 있습니다.\n현장에서 마주하는 행정혁신은 기존 제도와 시스템이라는 97%의 자산을 존중하는 데서 출발합니다. 오랜 시간 쌓아온 행정의 안정성과 연속성 위에서, 국민이 일상에서 불편을 겪는 딱 3%의 병목을 찾아내 날카롭게 손보는 과정입니다.\n복잡한 민원 서식의 입력 칸 하나를 줄이고, 부처 간 막혀 있던 데이터 파이프라인 하나를 연결하는 그 3%의 차이가 국민에게는 완전히 새로운 행정 서비스로 다가갈 수 있습니다.\n익숙한 행정 절차 속에서 현장의 디테일을 바꾸는 3%의 기획력이 곧 정부혁신을 움직이는 힘이라고 생각합니다.",
