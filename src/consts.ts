@@ -30,7 +30,7 @@ export const NAV_GROUPS = [
       { href: '/korea100/', label: '제도 지도', work: 'korea100', note: '대한민국 제도 모델 — 제도 한 장 요약·업무구조도·메가프로젝트 관제·법령 지도(법률 271건 조문 위임 그래프)' },
       { href: '/first/', label: '먼저 챙김', work: 'first-serve', note: '신청주의 극복 이행 점검판 — 정부24 서비스 9,934건을 데이터·법·위탁으로 전수 분석' },
       { href: '/facts/', label: '팩트풀니스', work: 'facts', note: '데이터로 보는 대한민국 100장' },
-      { href: '/firetrace/', label: '산불추적기', work: 'firetrace', note: '대형산불 14건을 위성 열점·기상·보도·인구로 시간 순으로 — 의성 산불은 읍면동별 진입·대응·위성 시차' },
+      { href: '/firetrace/', label: '산불추적기', work: 'firetrace', note: '대형산불 14건을 위성 열점·기상·보도·인구로 시간 순으로 — 의성 산불은 읍면동별 진입 보도·대피명령·위성 기록 대조' },
       { href: '/supply/', label: '공급상황판', work: 'supply', note: '부동산 공급 대책의 진행 경과와 맡은 곳' },
       { href: '/atlas/', label: '특공대', work: 'atlas', note: '특례에 맞는 공공데이터 — 규제특례·승인과제·창업지원의 관계망' },
       { href: 'https://jiphaeng2.seohosung.com', label: '집행대장', work: 'jiphaeng-daejang', note: '전국 지방정부 예산 집행 상황판, 매일 갱신' },
