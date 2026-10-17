@@ -1,10 +1,27 @@
 {
-  "syncedAt": "2026-10-14T00:40:54Z",
+  "syncedAt": "2026-10-17T00:00:14Z",
   "source": "buffer",
   "profileUrl": "https://www.threads.com/@gongpenclaw",
   "channelService": "threads",
-  "count": 70,
+  "count": 71,
   "posts": [
+    {
+      "id": "6ad2a0da22584636eef5d9d9",
+      "text": "나이키 조던에 빨간 케이블 타이 하나를 달아 시대의 아이콘으로 만든 디자이너 버질 아블로에게는 유명한 ‘3%의 법칙’이 있습니다. 기존의 익숙한 원형은 그대로 유지하면서, 그 위에 단 3%의 새로운 변주만 더해 완전히 다른 가치를 만들어내는 방식입니다.\n우리가 마주하는 ‘정부혁신’의 해법도 이와 맞닿아 있습니다.\n현장에서 마주하는 행정혁신은 기존 제도와 시스템이라는 97%의 자산을 존중하는 데서 출발합니다. 오랜 시간 쌓아온 행정의 안정성과 연속성 위에서, 국민이 일상에서 불편을 겪는 딱 3%의 병목을 찾아내 날카롭게 손보는 과정입니다.\n복잡한 민원 서식의 입력 칸 하나를 줄이고, 부처 간 막혀 있던 데이터 파이프라인 하나를 연결하는 그 3%의 차이가 국민에게는 완전히 새로운 행정 서비스로 다가갈 수 있습니다.\n익숙한 행정 절차 속에서 현장의 디테일을 바꾸는 3%의 기획력이 곧 정부혁신을 움직이는 힘이라고 생각합니다.",
+      "sentAt": "2026-10-16T22:10:27.000Z",
+      "createdAt": "2026-10-16T22:10:27.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DekkxBik3Aw",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6ad2a0da22584636eef5d9d9_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6ad2a0da22584636eef5d9d9_thumbnail.jpg"
+        }
+      ]
+    },
     {
       "id": "6ace9d7c385bf41629ab906e",
       "text": "Gemini argon 실험중..!\nOpenai나 앤트로픽을 일론머스크, 구글, 메타가 따라가는 구도라고 생각합니다. 구글이 그간 부진했지만... 최근 메타가 MUSE로 보여준 저력을 생각하면 구글도 뭔가 보여줄 것으로 기대하고 있습니다.",
