@@ -1,11 +1,32 @@
 {
   "redirects": [
-    { "source": "/korea100", "destination": "/korea100/", "permanent": false }
+    {
+      "source": "/korea100",
+      "destination": "/korea100/",
+      "permanent": false
+    },
+    {
+      "source": "/firetrace",
+      "destination": "/firetrace/",
+      "permanent": true
+    }
   ],
   "rewrites": [
-    { "source": "/korea100/", "destination": "https://hosungseo.github.io/korea100/index.html" },
-    { "source": "/korea100/:path(.*\\.[A-Za-z0-9]+)", "destination": "https://hosungseo.github.io/korea100/:path" },
-    { "source": "/korea100/:path((?:[^/]+/)*[^/]+)/", "destination": "https://hosungseo.github.io/korea100/:path/index.html" },
-    { "source": "/korea100/:path((?:[^/]+/)*[^/]+)", "destination": "https://hosungseo.github.io/korea100/:path/index.html" }
+    {
+      "source": "/korea100/",
+      "destination": "https://hosungseo.github.io/korea100/index.html"
+    },
+    {
+      "source": "/korea100/:path(.*\\.[A-Za-z0-9]+)",
+      "destination": "https://hosungseo.github.io/korea100/:path"
+    },
+    {
+      "source": "/korea100/:path((?:[^/]+/)*[^/]+)/",
+      "destination": "https://hosungseo.github.io/korea100/:path/index.html"
+    },
+    {
+      "source": "/korea100/:path((?:[^/]+/)*[^/]+)",
+      "destination": "https://hosungseo.github.io/korea100/:path/index.html"
+    }
   ]
 }
