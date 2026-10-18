@@ -6,6 +6,11 @@
       "permanent": false
     },
     {
+      "source": "/seoul-stay",
+      "destination": "/seoul-stay/",
+      "permanent": true
+    },
+    {
       "source": "/firetrace",
       "destination": "/firetrace/",
       "permanent": true
