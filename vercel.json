@@ -9,6 +9,11 @@
       "source": "/firetrace",
       "destination": "/firetrace/",
       "permanent": true
+    },
+    {
+      "source": "/seat",
+      "destination": "/seat/",
+      "permanent": true
     }
   ],
   "rewrites": [
