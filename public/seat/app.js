@@ -147,7 +147,7 @@ const T_MIN = 0.001;
 const T_MAX = 80;
 const uOf = (t) => Math.min(1, Math.max(0, Math.log(t / T_MIN) / Math.log(T_MAX / T_MIN)));
 const tOf = (u) => T_MIN * (T_MAX / T_MIN) ** u;
-const clock = (t) => `07:00:${String(Math.floor(t)).padStart(2, '0')}.${String(Math.floor((t % 1) * 1000)).padStart(3, '0')}`;
+const clock = (t) => `07:0${Math.floor(t / 60)}:${String(Math.floor(t % 60)).padStart(2, '0')}.${String(Math.floor((t % 1) * 1000)).padStart(3, '0')}`;
 const countUpTo = (sorted, t) => {
   let lo = 0;
   let hi = sorted.length;
@@ -244,7 +244,10 @@ function positionAt(plan, u) {
     const e = ease(k2);
     return { x: lerp(to.x, plan.second.to.x, e), y: lerp(to.y, plan.second.to.y, e), state: k2 >= 1 ? 'seated' : 'fly' };
   }
-  if (k >= 1) return { x: to.x, y: to.y, state: plan.win && !plan.second ? 'seated' : plan.bounce ? 'out' : 'held' };
+  if (k >= 1) {
+    if (plan.bounce) return { x: from.x, y: from.y, state: 'out' };
+    return { x: to.x, y: to.y, state: plan.win && !plan.second ? 'seated' : 'held' };
+  }
   if (plan.bounce) {
     const b = Math.sin(k * Math.PI);
     return { x: lerp(from.x, to.x, b), y: lerp(from.y, to.y, b), state: 'fly' };
@@ -429,7 +432,14 @@ async function liveWindow(run, me, world, prelim) {
   let tapSpeed = null;
   if (human) {
     tapSpeed = await waitForPress(8000);
-    if (tapSpeed === null) tapSpeed = 8;
+    cancelAnimationFrame(raf);
+    const missed = tapSpeed === null;
+    if (missed) tapSpeed = 8;
+    $('press').disabled = true;
+    $('press').classList.remove('hot');
+    $('overlay-text').textContent = missed ? '못 눌렀습니다' : `${sec(tapSpeed)}`;
+    $('overlay-note').textContent = missed ? '8초가 지났습니다' : soldOut !== null && tapSpeed > soldOut ? `눌렀습니다. 매진은 ${sec(soldOut)}` : '눌렀습니다';
+    await wait(900);
   } else {
     await wait(Math.max(500, Math.min(2500, me.speed * 1000)));
     $('overlay-note').textContent = `${sec(me.speed)}에 눌렀습니다`;
