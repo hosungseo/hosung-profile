@@ -1,8 +1,14 @@
 import {
   makePopulation, mulberry32, allocate, soldOutAt, estimate, profileOf, willingness,
   AGES, INCOMES, NEEDS, AGENTS, WORLDS, AGE_BY_ID, INCOME_BY_ID, NEED_BY_ID, AGENT_BY_ID, WORLD_BY_ID,
-  SEATS, APPLICANTS, BASE_FARE, agentMix,
+  SEATS, APPLICANTS, BASE_FARE, QUOTA, agentMix,
 } from './sim.js';
+
+const quotaSeats = {
+  corporate: Math.round(SEATS * QUOTA.corporate),
+  agent: Math.round(SEATS * QUOTA.agent),
+  none: SEATS - Math.round(SEATS * QUOTA.corporate) - Math.round(SEATS * QUOTA.agent),
+};
 
 const $ = (id) => document.getElementById(id);
 const won = (n) => `${Math.round(n).toLocaleString('ko-KR')}원`;
@@ -138,7 +144,7 @@ function renderProfile(me) {
 
 // ---------- time scale ----------
 const T_MIN = 0.001;
-const T_MAX = 40;
+const T_MAX = 80;
 const uOf = (t) => Math.min(1, Math.max(0, Math.log(t / T_MIN) / Math.log(T_MAX / T_MIN)));
 const tOf = (u) => T_MIN * (T_MAX / T_MIN) ** u;
 const clock = (t) => `07:00:${String(Math.floor(t)).padStart(2, '0')}.${String(Math.floor((t % 1) * 1000)).padStart(3, '0')}`;
@@ -154,8 +160,8 @@ const countUpTo = (sorted, t) => {
 };
 
 // ---------- stage (canvas) ----------
-const SEAT_COLS = 20;
-const SEAT_ROWS = 5;
+const SEAT_COLS = 40;
+const SEAT_ROWS = 25;
 let colors = {};
 const readColors = () => {
   const css = getComputedStyle(document.documentElement);
@@ -174,7 +180,7 @@ function buildLayout() {
   const seatsTop = pad;
   const seatsBottom = seatsTop + cell * SEAT_ROWS;
   const crowdTop = seatsBottom + 34;
-  const crowdHeight = 170;
+  const crowdHeight = 250;
   const height = crowdTop + crowdHeight + pad;
   const rand = mulberry32(state.life.seed + 3);
   const start = state.life.crowd.map(() => ({
@@ -252,24 +258,26 @@ function drawStage(plans, u, { soldOut = null, t = null, world } = {}) {
   const { meId } = state.life;
   ctx.clearRect(0, 0, width, height);
 
-  // Seat grid
+  // Seat grid, one path
+  ctx.fillStyle = colors.surface;
+  ctx.beginPath();
   for (let i = 0; i < SEATS; i += 1) {
     const x = pad + (i % SEAT_COLS) * cell;
     const y = seatsTop + Math.floor(i / SEAT_COLS) * cell;
-    ctx.fillStyle = colors.surface;
-    ctx.beginPath();
-    ctx.roundRect(x + 1, y + 1, cell - 2, cell - 2, 3);
-    ctx.fill();
+    ctx.rect(x + 0.8, y + 0.8, cell - 1.6, cell - 1.6);
   }
+  ctx.fill();
   ctx.fillStyle = colors.muted;
   ctx.font = '11px -apple-system, system-ui, sans-serif';
   ctx.textAlign = 'left';
-  ctx.fillText('좌석 100', pad, seatsBottom + 14);
+  ctx.fillText('좌석 1,000', pad, seatsBottom + 14);
   ctx.textAlign = 'right';
-  ctx.fillText(world.timed ? '신청자 1,000명' : '접수함', width - pad, seatsBottom + 14);
+  ctx.fillText(world.timed ? '신청자 10,000명' : '접수함', width - pad, seatsBottom + 14);
 
-  // Crowd
-  const r = cell * 0.3;
+  // Crowd: bucket by look, one fill per bucket (10,000 dots per frame)
+  const dot = Math.max(2.2, cell * 0.32);
+  const seatDot = cell - 1.6;
+  const buckets = new Map();
   let me = null;
   for (const plan of plans) {
     const pos = positionAt(plan, u);
@@ -277,18 +285,37 @@ function drawStage(plans, u, { soldOut = null, t = null, world } = {}) {
       me = { plan, pos };
       continue;
     }
-    ctx.globalAlpha = pos.state === 'out' ? 0.25 : pos.state === 'held' ? 0.6 : 1;
-    ctx.fillStyle = pos.state === 'seated' ? colors.good : colors.tier[plan.person.agent];
+    const seated = pos.state === 'seated';
+    const key = seated ? 'seated' : `${pos.state}:${plan.person.agent}`;
+    let bucket = buckets.get(key);
+    if (!bucket) {
+      bucket = {
+        style: seated ? colors.good : colors.tier[plan.person.agent],
+        alpha: pos.state === 'out' ? 0.22 : pos.state === 'held' ? 0.6 : 1,
+        size: seated ? seatDot : dot,
+        xs: [],
+        ys: [],
+      };
+      buckets.set(key, bucket);
+    }
+    bucket.xs.push(pos.x);
+    bucket.ys.push(pos.y);
+  }
+  for (const bucket of buckets.values()) {
+    ctx.globalAlpha = bucket.alpha;
+    ctx.fillStyle = bucket.style;
     ctx.beginPath();
-    ctx.arc(pos.x, pos.y, pos.state === 'seated' ? r * 1.15 : r, 0, Math.PI * 2);
+    const half = bucket.size / 2;
+    for (let i = 0; i < bucket.xs.length; i += 1) ctx.rect(bucket.xs[i] - half, bucket.ys[i] - half, bucket.size, bucket.size);
     ctx.fill();
   }
   ctx.globalAlpha = 1;
   if (me) {
     const { plan, pos } = me;
+    const r = Math.max(6, cell * 0.8);
     ctx.fillStyle = pos.state === 'seated' ? colors.good : pos.state === 'out' ? colors.bad : colors.tier[plan.person.agent];
     ctx.beginPath();
-    ctx.arc(pos.x, pos.y, r * 2.2, 0, Math.PI * 2);
+    ctx.arc(pos.x, pos.y, r, 0, Math.PI * 2);
     ctx.fill();
     ctx.strokeStyle = colors.ink;
     ctx.lineWidth = 2;
@@ -296,7 +323,7 @@ function drawStage(plans, u, { soldOut = null, t = null, world } = {}) {
     ctx.fillStyle = colors.ink;
     ctx.font = 'bold 12px -apple-system, system-ui, sans-serif';
     ctx.textAlign = 'left';
-    ctx.fillText('나', pos.x + r * 2.2 + 4, pos.y + 4);
+    ctx.fillText('나', pos.x + r + 4, pos.y + 4);
   }
 
   // Sold-out stamp
@@ -309,7 +336,7 @@ function drawStage(plans, u, { soldOut = null, t = null, world } = {}) {
     ctx.scale(scale, scale);
     ctx.globalAlpha = 0.92;
     ctx.fillStyle = colors.bad;
-    ctx.font = 'bold 30px -apple-system, system-ui, sans-serif';
+    ctx.font = 'bold 34px -apple-system, system-ui, sans-serif';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
     ctx.fillText(`매진 ${sec(soldOut)}`, 0, 0);
@@ -387,7 +414,7 @@ async function liveWindow(run, me, world, prelim) {
     const t = (performance.now() - openAt) / 1000;
     $('clock').textContent = clock(t);
     const sold = countUpTo(sortedWinnerTimes, t);
-    $('counter').textContent = SEATS - sold;
+    $('counter').textContent = (SEATS - sold).toLocaleString('ko-KR');
     if (soldOut !== null && t >= soldOut) {
       $('race-sub').textContent = `매진 ${sec(soldOut)}`;
       $('overlay-text').textContent = '매진';
@@ -426,9 +453,9 @@ function replay(run, result, world, soldOut) {
       const t = tOf(u);
       $('clock').textContent = clock(t);
       const sold = countUpTo(sortedWinnerTimes, t);
-      $('counter').textContent = SEATS - sold;
+      $('counter').textContent = (SEATS - sold).toLocaleString('ko-KR');
       if (soldOut !== null && t >= soldOut) {
-        $('race-sub').textContent = `매진. 1,000명 중 ${(APPLICANTS - countUpTo(sortedTimes, soldOut)).toLocaleString('ko-KR')}명은 매진 뒤에 도착했습니다.`;
+        $('race-sub').textContent = `매진. 10,000명 중 ${(APPLICANTS - countUpTo(sortedTimes, soldOut)).toLocaleString('ko-KR')}명은 매진 뒤에 도착했습니다.`;
       } else if (state.world === 'dynamic') {
         $('race-sub').textContent = `느리게 다시 보기 · 지금 값 ${won(BASE_FARE * (1 + (3 * sold) / SEATS))}`;
       } else {
@@ -492,7 +519,7 @@ async function runLife() {
   $('odds').hidden = true;
   $('tiers').innerHTML = '';
   $('clock').textContent = clock(0);
-  $('counter').textContent = world.timed ? SEATS : 0;
+  $('counter').textContent = world.timed ? SEATS.toLocaleString('ko-KR') : '0';
   $('counter-label').textContent = world.timed ? '남은 좌석' : '접수';
 
   // Everyone waits on the platform
@@ -525,7 +552,7 @@ function verdictText(me, result, winners, soldOut, tapped) {
   const arrived = tapped ? `당신은 ${sec(me.speed)} 만에 눌렀습니다` : `당신은 ${sec(me.speed)}에 도착했습니다`;
   if (winners.has(me.id)) {
     if (state.world === 'dynamic') return `탔습니다. ${won(result.prices[me.id])}을 냈습니다.`;
-    if (state.world === 'quota' && me.agent === 'corporate') return '탔습니다. 여행사 몫 20석 덕분입니다.';
+    if (state.world === 'quota' && me.agent === 'corporate') return `탔습니다. 여행사 몫 ${quotaSeats.corporate}석 덕분입니다.`;
     return `탔습니다. ${arrived}.`;
   }
   switch (state.world) {
@@ -537,13 +564,13 @@ function verdictText(me, result, winners, soldOut, tapped) {
       return `당신이 낼 수 있는 돈은 ${won(willingness(me) * BASE_FARE)}, 도착했을 때 값은 ${won(BASE_FARE * (1 + (3 * sold) / SEATS))}이었습니다.`;
     }
     case 'lottery':
-      return '추첨에서 떨어졌습니다. 1,000명 중 100명만 뽑힙니다.';
+      return '추첨에서 떨어졌습니다. 10,000명 중 1,000명만 뽑힙니다.';
     case 'need':
       return me.need === 'urgent'
-        ? '긴급 사유인데도 추첨에서 밀렸습니다. 긴급 신청자가 100명보다 많았습니다.'
+        ? '긴급 사유인데도 추첨에서 밀렸습니다. 긴급 신청자가 1,000명보다 많았습니다.'
         : '좌석은 모두 장례·면접·진료를 증명한 사람에게 갔습니다.';
     case 'quota': {
-      const pool = me.agent === 'none' ? '직접 누른 사람 몫 50석' : me.agent === 'corporate' ? '여행사 몫 20석' : '에이전트 몫 30석';
+      const pool = me.agent === 'none' ? `직접 누른 사람 몫 ${quotaSeats.none}석` : me.agent === 'corporate' ? `여행사 몫 ${quotaSeats.corporate}석` : `에이전트 몫 ${quotaSeats.agent}석`;
       return `${pool} 안에 들지 못했습니다. ${arrived}.`;
     }
     default:

@@ -1,9 +1,11 @@
-// Pure simulation: 2030 KTX holiday booking, 1,000 applicants for 100 seats.
+// Pure simulation: 2030 KTX holiday booking, 10,000 applicants for one 1,000-seat train.
 // Same seed + same inputs always produce the same result.
 
-export const SEATS = 100;
-export const APPLICANTS = 1000;
+export const SEATS = 1000;
+export const APPLICANTS = 10000;
 export const BASE_FARE = 59800;
+export const QUOTA = { corporate: 0.2, agent: 0.3 }; // share of seats; the rest is for hand bookers
+export const AGENT_TIERS = ['free', 'paid', 'premium'];
 
 export function mulberry32(seed) {
   let a = seed >>> 0;
@@ -117,10 +119,10 @@ const NEED_RANK = { urgent: 0, normal: 1, leisure: 2 };
 
 export const WORLDS = [
   { id: 'fcfs', name: '선착순', cost: '에이전트 등급', timed: true, desc: '2030년에도 지금 방식 그대로. 먼저 잡는 쪽이 탄다.' },
-  { id: 'lottery', name: '추첨제', cost: '운', timed: false, desc: '10분 동안 신청을 받고 무작위로 100명을 뽑는다.' },
+  { id: 'lottery', name: '추첨제', cost: '운', timed: false, desc: '10분 동안 신청을 받고 무작위로 1,000명을 뽑는다.' },
   { id: 'dynamic', name: '동적 가격', cost: '돈', timed: true, desc: '좌석이 팔릴수록 값이 오른다. 마지막 좌석은 4배.' },
   { id: 'need', name: '사유 심사', cost: '사생활', timed: false, desc: '장례·면접·진료를 증명한 사람이 먼저. 나머지는 추첨.' },
-  { id: 'quota', name: '할당제', cost: '칸막이', timed: true, desc: '여행사 20 · 에이전트 30 · 직접 누른 사람 50석을 따로 둔다.' },
+  { id: 'quota', name: '할당제', cost: '칸막이', timed: true, desc: '여행사 200 · 에이전트 300 · 직접 누른 사람 500석을 따로 둔다.' },
 ];
 export const WORLD_BY_ID = byId(WORLDS);
 
@@ -161,8 +163,8 @@ const ALLOCATORS = {
         }
       }
     };
-    fill((person) => person.agent === 'corporate', Math.round(seats * 0.2));
-    fill((person) => ['free', 'paid', 'premium'].includes(person.agent), Math.round(seats * 0.3));
+    fill((person) => person.agent === 'corporate', Math.round(seats * QUOTA.corporate));
+    fill((person) => AGENT_TIERS.includes(person.agent), Math.round(seats * QUOTA.agent));
     fill((person) => person.agent === 'none', seats - taken.size);
     // Pools that run short fall back to whoever is fastest
     fill(() => true, seats - taken.size);
@@ -181,21 +183,77 @@ export function soldOutAt(crowd, winners) {
   return Math.max(...winners.map((id) => crowd[id].speed));
 }
 
-// Monte Carlo: inject one person with a fixed profile into many random crowds.
-const populationCache = new Map();
-const population = (seed) => {
-  if (!populationCache.has(seed)) populationCache.set(seed, makePopulation(seed, APPLICANTS - 1));
-  return populationCache.get(seed);
+// Probability estimate: the outcome of one extra person depends only on the others,
+// so each reference crowd is reduced once to "win thresholds" per world, and a
+// sampled person is then checked in O(log n). Exact for every rule when the quota
+// pools are not short (they never are at this crowd size).
+const CROWDS = 40;
+const thresholdCache = new Map();
+
+const sortedNumbers = (list) => Float64Array.from(list).sort();
+const countBelow = (sorted, x) => {
+  let lo = 0;
+  let hi = sorted.length;
+  while (lo < hi) {
+    const mid = (lo + hi) >> 1;
+    if (sorted[mid] < x) lo = mid + 1;
+    else hi = mid;
+  }
+  return lo;
 };
 
-export function estimate(profile, worldId, runs = 120) {
-  let wins = 0;
+export function crowdThresholds(seed) {
+  if (thresholdCache.has(seed)) return thresholdCache.get(seed);
+  const others = makePopulation(seed, APPLICANTS - 1);
+  const speeds = sortedNumbers(others.map((p) => p.speed));
+  const lottery = sortedNumbers(others.map((p) => p.lotteryDraw));
+  const needDraws = Object.fromEntries(NEEDS.map((n) => [n.id, sortedNumbers(others.filter((p) => p.need === n.id).map((p) => p.lotteryDraw))]));
+  const dynamicWinners = sortedNumbers(allocate('dynamic', others).winners.map((id) => others[id].speed));
+  const pool = (predicate) => sortedNumbers(others.filter(predicate).map((p) => p.speed));
+  const quota = {
+    corporate: { speeds: pool((p) => p.agent === 'corporate'), seats: Math.round(SEATS * QUOTA.corporate) },
+    agent: { speeds: pool((p) => AGENT_TIERS.includes(p.agent)), seats: Math.round(SEATS * QUOTA.agent) },
+    none: { speeds: pool((p) => p.agent === 'none'), seats: SEATS - Math.round(SEATS * QUOTA.corporate) - Math.round(SEATS * QUOTA.agent) },
+  };
+  const t = { speeds, lottery, needDraws, dynamicWinners, quota };
+  thresholdCache.set(seed, t);
+  return t;
+}
+
+export function wins(worldId, me, t) {
+  switch (worldId) {
+    case 'fcfs':
+      return countBelow(t.speeds, me.speed) < SEATS;
+    case 'lottery':
+      return countBelow(t.lottery, me.lotteryDraw) < SEATS;
+    case 'need': {
+      let left = SEATS;
+      for (const need of NEEDS) {
+        if (need.id === me.need) return left > 0 && countBelow(t.needDraws[need.id], me.lotteryDraw) < left;
+        left -= t.needDraws[need.id].length;
+      }
+      return false;
+    }
+    case 'dynamic': {
+      const sold = countBelow(t.dynamicWinners, me.speed);
+      return sold < SEATS && willingness(me) * BASE_FARE >= BASE_FARE * (1 + (3 * sold) / SEATS);
+    }
+    case 'quota': {
+      const pool = t.quota[me.agent === 'corporate' ? 'corporate' : me.agent === 'none' ? 'none' : 'agent'];
+      return countBelow(pool.speeds, me.speed) < pool.seats;
+    }
+    default:
+      throw new Error(`Unknown world: ${worldId}`);
+  }
+}
+
+export function estimate(profile, worldId, runs = 200) {
+  let won = 0;
   for (let r = 0; r < runs; r += 1) {
     const me = makePerson(mulberry32(90001 + r), APPLICANTS - 1, profile);
-    const crowd = [...population(1000 + r), me];
-    if (allocate(worldId, crowd).winners.includes(me.id)) wins += 1;
+    if (wins(worldId, me, crowdThresholds(1000 + (r % CROWDS)))) won += 1;
   }
-  return wins / runs;
+  return won / runs;
 }
 
 export const profileOf = (person) => ({ age: person.age, income: person.income, need: person.need, agent: person.agent });
