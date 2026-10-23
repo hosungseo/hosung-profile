@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import { Content } from '../../data/chulgeun-privacy.md';
+
+// Copy of PRIVACY.md in the gov-rehearse-extension repo; keep both in sync.
+const title = '출근연습 개인정보처리방침';
+const description =
+  '출근연습 크롬 확장의 개인정보처리방침. 개발자 서버 없음, ChatGPT 로그인 토큰은 기기에만, 연습 내용은 브라우저와 OpenAI 사이에서만.';
+---
+
+<Base title={title} description={description}>
+  <article class="shell article-shell">
+    <header class="article-header">
+      <p class="page-kicker">CHULGEUN YEONSEUP · PRIVACY</p>
+      <p class="article-description">출근연습(크롬 확장)의 개인정보처리방침입니다. 영문은 아래에 있습니다.</p>
+    </header>
+    <div class="prose article-prose">
+      <Content />
+    </div>
+  </article>
+</Base>
