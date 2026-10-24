@@ -1,6 +1,6 @@
 # 출근연습 개인정보처리방침
 
-**최종 업데이트: 2026-10-24 (2판)**
+**최종 업데이트: 2026-10-24 (3판)**
 
 출근연습은 신입 공무원이 업무 대화를 연습하는 크롬 확장 프로그램입니다. 사이드패널에서 AI가 맡은 상대와 대화하고, 코치 피드백과 다시 말하기, 실전 카드를 받습니다. 오픈소스이며 무료입니다.
 
@@ -44,6 +44,21 @@
 
 "이력·설정"에서 브라우저 에이전트 도구를 켜면(기본 꺼짐), 사이드패널 안에서 브라우저 에이전트가 현재 연습의 대화·코치 피드백·카드를 읽을 수 있고, 상황 선택·연습 시작·피드백 요청·카드 만들기·저장을 대신할 수 있습니다. 연습 발언, 로그인, 동의, 삭제는 에이전트에게 열지 않습니다. 에이전트에게는 토큰이나 계정 식별자를 주지 않습니다. 에이전트가 읽은 내용을 어떻게 다루는지는 그 에이전트의 정책을 따릅니다.
 
+## Chrome 웹 스토어 사용자 데이터 정책 준수
+
+출근연습이 다루는 정보의 사용은 [Chrome 웹 스토어 사용자 데이터 정책](https://developer.chrome.com/docs/webstore/program-policies/policies)과 그 제한적 사용(Limited Use) 요건을 따릅니다.
+
+- 정보는 이 확장의 단일 목적(업무 대화 연습)을 제공하는 데에만 씁니다.
+- 기능에 필요한 경우(OpenAI로 보내는 연습 내용)를 빼고는 제3자에게 넘기지 않습니다.
+- 사람이 사용자 정보를 읽지 않습니다. 개발자는 정보를 받지 않습니다.
+- 광고, 판매, 신용 평가나 대출 목적으로 쓰지 않습니다.
+
+AI로 내용을 보내기 전에 확장 안에서 따로 묻습니다. "계정/AI 연결"의 마지막 단계인 "AI 사용 동의"에서 무엇이 어디로 가는지 보여 주고, 동의해야 연습이 시작됩니다. 이후 데이터 처리 방식이 바뀌면 확장 안에서 다시 알리고 동의를 받습니다.
+
+## 상표
+
+출근연습은 개인이 만든 오픈소스 프로젝트이며 OpenAI와 제휴하거나 그 승인을 받지 않았습니다. ChatGPT와 OpenAI는 OpenAI의 상표입니다. 로그인 버튼의 ChatGPT 로고는 OpenAI가 Sign in with ChatGPT용으로 제공한 자산입니다.
+
 ## 변경
 
 이 방침이 바뀌면 위의 최종 업데이트 날짜를 고칩니다.
@@ -71,5 +86,9 @@ Chulgeun Yeonseup is an open-source Chrome extension where new Korean public off
 **Stored on this device.** Unsaved practices expire 24 hours after last activity and saved ones 30 days after saving; expired records are deleted the next time they are accessed. By default, signing out deletes saved practices too. Settings can delete all of the current account's practice records on this device. Errors leave only an error code and duration in the browser console.
 
 **Browser agent tools.** Off by default. When you turn them on, a browser agent can read the current practice's conversation, coach feedback and card inside the side panel, and can select scenarios, start practice, request feedback, create cards and save. Practice input, sign-in, consent and deletion stay human-only. Agents never receive tokens or account identifiers; what an agent does with what it reads is governed by that agent's own policy.
+
+**Chrome Web Store User Data Policy.** The use of information received through this extension adheres to the [Chrome Web Store User Data Policy](https://developer.chrome.com/docs/webstore/program-policies/policies), including the Limited Use requirements: data is used only to provide the extension's single purpose (workplace conversation practice), is not transferred to third parties except OpenAI as needed for that purpose, is not read by humans, and is never used or sold for advertising, credit-worthiness or lending. Before anything is sent to OpenAI, the extension asks for consent inside its own interface (the "AI 사용 동의" step); changes to data practices will be disclosed and consented to again.
+
+**Trademarks.** This is an independent open-source project, not affiliated with or endorsed by OpenAI. ChatGPT and OpenAI are trademarks of OpenAI. The ChatGPT logo on the sign-in button is OpenAI's Sign in with ChatGPT asset.
 
 **Contact.** Open an issue in the repository, or use the contact on https://seohosung.com.
