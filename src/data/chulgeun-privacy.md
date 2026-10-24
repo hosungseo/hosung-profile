@@ -1,6 +1,6 @@
 # 출근연습 개인정보처리방침
 
-**최종 업데이트: 2026-10-24 (5판)**
+**최종 업데이트: 2026-10-24 (6판)**
 
 출근연습은 신입 공무원이 업무 대화를 연습하는 크롬 확장 프로그램입니다. 사이드패널에서 AI가 맡은 상대와 대화하고, 코치 피드백과 다시 말하기, 실전 카드를 받습니다. 오픈소스이며 무료입니다.
 
@@ -21,6 +21,8 @@
 
 연습을 할 때만, 그 기능에 필요한 내용이 **내 브라우저에서 OpenAI Responses API로 바로** 전송됩니다. 요청은 `store: false`로 보냅니다.
 
+- 코치에게 묻기: 코치에게 묻는 질문, 이전 문답, 연습 상황·대화·코치 결과
+- 실전 뒤 회고: 실전 회고 원문, 연습 상황·실전 카드·코치 결과
 - 말 한 줄 읽어 보기: 붙여넣은 말, 상대 종류, 선택 입력한 상황 한 줄(결과와 함께 저장하지 않음)
 - 내 상황으로 연습: 쓴 상황 설명, 상대 역할, 선택 입력한 내가 하고 싶은 것
 - 역할 대화: 고른 상황의 설정과 지금까지의 대화
@@ -39,6 +41,7 @@
 
 내 상황으로 연습의 설명 원문과 선택 입력은 저장소·로그에 남기지 않습니다. 생성 전 입력과 시작 전 미리보기는 패널 메모리에만 있습니다. 연습을 시작하면 생성된 가상 상황만 세션과 함께 임시 보관되며, 아래의 24시간·30일 만료 및 삭제 규칙을 따릅니다.
 
+- 코치 후속 질문과 답변·검증한 인용은 별도 레코드로 연습과 함께 보관합니다. 실전 회고는 사용자가 쓴 원문을 연습 기록과 함께 저장하며 결과와 같은 만료·삭제 규칙을 적용합니다. 회고는 세션당 1개이고 다시 쓰면 이전 것을 덮어씁니다.
 - 연습 기록은 이 기기에만 저장됩니다. 저장하지 않은 연습은 마지막 활동 후 24시간, "이 기기에 30일 저장"을 고른 연습은 저장일부터 30일에 만료되며, 만료 후 다음 접근 시 기기에서 삭제됩니다.
 - 기본 설정에서는 로그아웃할 때 저장한 연습도 함께 지웁니다. "이력·설정"의 전체 삭제는 이 기기에 저장된 현재 계정의 연습 기록을 모두 지웁니다.
 - 오류가 나면 오류 종류와 걸린 시간만 브라우저 콘솔에 남깁니다. 대화 내용이나 토큰은 남기지 않으며, 어디에도 전송하지 않습니다.
@@ -46,7 +49,7 @@
 
 ## 브라우저 에이전트 도구
 
-"이력·설정"에서 브라우저 에이전트 도구를 켜면(기본 꺼짐), 사이드패널 안에서 브라우저 에이전트가 현재 연습의 대화·코치 피드백·카드를 읽을 수 있고, 상황 선택·연습 시작·피드백 요청·카드 만들기·저장을 대신할 수 있습니다. 연습 발언, 로그인, 동의, 삭제는 에이전트에게 열지 않습니다. 에이전트에게는 토큰이나 계정 식별자를 주지 않습니다. 에이전트가 읽은 내용을 어떻게 다루는지는 그 에이전트의 정책을 따릅니다.
+"이력·설정"에서 브라우저 에이전트 도구를 켜면(기본 꺼짐), 사이드패널 안에서 브라우저 에이전트가 현재 연습의 대화·코치 피드백·카드를 읽을 수 있고, 상황 선택·연습 시작·피드백 요청·카드 만들기·저장을 대신할 수 있습니다. 코치 후속 질문·답은 에이전트가 읽을 수 있으며 실전 회고는 유무만 공개합니다. 연습 발언, 코치 질문·회고 제출, 로그인, 동의, 삭제는 에이전트에게 열지 않습니다. 에이전트에게는 토큰이나 계정 식별자를 주지 않습니다. 에이전트가 읽은 내용을 어떻게 다루는지는 그 에이전트의 정책을 따릅니다.
 
 ## Chrome 웹 스토어 사용자 데이터 정책 준수
 
@@ -87,13 +90,15 @@ Chulgeun Yeonseup is an open-source Chrome extension where new Korean public off
 
 **Sign in with ChatGPT.** Sign-in uses OpenAI's public Sign in with ChatGPT flow. OpenAI returns to a loopback address (`127.0.0.1`); nothing listens on your computer. While sign-in is in progress, a session rule sends that one navigation (that exact callback URL, main frame only) to the extension's own callback page and is removed when the attempt ends or times out after 10 minutes; no other requests are changed. The access and refresh tokens are stored only in this device's local extension storage (`chrome.storage.local`, never sync) and are sent only to OpenAI; the ID token is verified at sign-in and not stored. Alongside them the extension keeps the app registration id OpenAI issued, the issuer, the account subject and a hash of it (used to keep practice records per account on this device). Name and email are not stored. Signing out deletes the tokens and the account identity, asks OpenAI to revoke access, and keeps only the app registration id. Requests count toward your ChatGPT plan.
 
+**Coach questions and real-world debriefs.** Questions sent to the coach, earlier follow-ups, scenario, conversation and evaluation are sent for coach Q&A. The original real-world outcome text, scenario, practice card and evaluation are sent for a debrief. Both features use only your ChatGPT connection; demo replies remain on the device.
+
 **Content sent to OpenAI.** Only when you practice, the content the feature needs (scenario setup, the conversation, the sentence you revise together with the earlier coach feedback) goes directly from your browser to OpenAI's Responses API with `store: false`, under [OpenAI's privacy policy](https://openai.com/policies/privacy-policy). The line reader sends the pasted remark, the speaker type and an optional one-line context; custom scenario practice sends the situation you describe, the speaker role and your optional desired action. Neither input is stored.
 
 **Demo and developer endpoint.** Demo mode uses on-device sample replies and sends nothing; it is always labeled. The store build has no developer endpoint. Only a build made from source with the developer flag shows "개발용 API 연결" in demo mode, and then practice content goes to the endpoint you enter.
 
-**Stored on this device.** The original custom scenario description and optional input are never written to storage or logs. Input and the preview before practice stay in panel memory only. Once practice starts, only the generated fictional scenario is kept with the session and follows the same expiration and deletion rules.  Unsaved practices expire 24 hours after last activity and saved ones 30 days after saving; expired records are deleted the next time they are accessed. By default, signing out deletes saved practices too. Settings can delete all of the current account's practice records on this device. Errors leave only an error code and duration in the browser console.
+**Stored on this device.** Coach questions, answers and validated quotations are stored separately with the practice. The original real-world debrief written by the user is stored together with the practice record and AI response, under the same expiry and deletion rules. Each saved practice has one debrief; rewriting replaces it. The original custom scenario description and optional input are never written to storage or logs. Input and the preview before practice stay in panel memory only. Once practice starts, only the generated fictional scenario is kept with the session and follows the same expiration and deletion rules.  Unsaved practices expire 24 hours after last activity and saved ones 30 days after saving; expired records are deleted the next time they are accessed. By default, signing out deletes saved practices too. Settings can delete all of the current account's practice records on this device. Errors leave only an error code and duration in the browser console.
 
-**Browser agent tools.** Off by default. When you turn them on, a browser agent can read the current practice's conversation, coach feedback and card inside the side panel, and can select scenarios, start practice, request feedback, create cards and save. Practice input, sign-in, consent and deletion stay human-only. Agents never receive tokens or account identifiers; what an agent does with what it reads is governed by that agent's own policy.
+**Browser agent tools.** Off by default. When you turn them on, a browser agent can read the current practice's conversation, coach feedback and card inside the side panel, and can select scenarios, start practice, request feedback, create cards and save. Agents can read follow-up questions and answers, but only the presence of a debrief, not its original text or response. Practice input, coach questions, debrief submission, sign-in, consent and deletion stay human-only. Agents never receive tokens or account identifiers; what an agent does with what it reads is governed by that agent's own policy.
 
 **Chrome Web Store User Data Policy.** The use of information received through this extension adheres to the [Chrome Web Store User Data Policy](https://developer.chrome.com/docs/webstore/program-policies/policies), including the Limited Use requirements: data is used only to provide the extension's single purpose (workplace conversation practice), is not transferred to third parties except OpenAI as needed for that purpose, is not read by humans, and is never used or sold for advertising, credit-worthiness or lending. Before anything is sent to OpenAI, the extension asks for consent inside its own interface (the "AI 사용 동의" step); changes to data practices will be disclosed and consented to again.
 
