@@ -1,6 +1,6 @@
 # 출근연습 개인정보처리방침
 
-**최종 업데이트: 2026-10-24 (3판)**
+**최종 업데이트: 2026-10-24 (4판)**
 
 출근연습은 신입 공무원이 업무 대화를 연습하는 크롬 확장 프로그램입니다. 사이드패널에서 AI가 맡은 상대와 대화하고, 코치 피드백과 다시 말하기, 실전 카드를 받습니다. 오픈소스이며 무료입니다.
 
@@ -65,7 +65,7 @@ AI로 내용을 보내기 전에 확장 안에서 따로 묻습니다. "계정/A
 
 ## 문의
 
-저장소의 이슈 게시판, 또는 https://seohosung.com 의 연락처로 문의해 주세요.
+hosung.seo2026@gmail.com 로 보내 주세요. 문의 메일에 담긴 이메일 주소와 내용은 답변에만 쓰고, 답변이 끝나면 지웁니다. 연습 대화나 계정 정보는 보내지 마세요.
 
 ---
 
@@ -91,4 +91,4 @@ Chulgeun Yeonseup is an open-source Chrome extension where new Korean public off
 
 **Trademarks.** This is an independent open-source project, not affiliated with or endorsed by OpenAI. ChatGPT and OpenAI are trademarks of OpenAI. The ChatGPT logo on the sign-in button is OpenAI's Sign in with ChatGPT asset.
 
-**Contact.** Open an issue in the repository, or use the contact on https://seohosung.com.
+**Contact.** hosung.seo2026@gmail.com. The address and message of a support email are used only to reply and are deleted afterwards. Please do not send practice conversations or account details.
