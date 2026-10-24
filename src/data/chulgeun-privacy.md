@@ -1,6 +1,6 @@
 # 출근연습 개인정보처리방침
 
-**최종 업데이트: 2026-10-24 (6판)**
+**최종 업데이트: 2026-10-24 (7판)**
 
 출근연습은 신입 공무원이 업무 대화를 연습하는 크롬 확장 프로그램입니다. 사이드패널에서 AI가 맡은 상대와 대화하고, 코치 피드백과 다시 말하기, 실전 카드를 받습니다. 오픈소스이며 무료입니다.
 
@@ -34,6 +34,7 @@
 
 ## 데모와 개발용 연결
 
+- 데모는 역할 대화만 제공하고 저장하지 않습니다. 세션과 대화는 기존 24시간 임시 보관 규칙을 따릅니다.
 - 데모 모드는 기기 안의 예시 응답만 씁니다. 아무것도 전송하지 않으며 화면에 "데모 · 실제 인증 아님"이 항상 보입니다.
 - 스토어에 올린 빌드에는 개발용 API 연결 기능이 없습니다. 소스에서 직접 개발용으로 빌드한 경우에만 데모 모드에 "개발용 API 연결"이 나타나며, 그때는 사용자가 입력한 주소로 연습 내용이 전송됩니다.
 
@@ -90,11 +91,11 @@ Chulgeun Yeonseup is an open-source Chrome extension where new Korean public off
 
 **Sign in with ChatGPT.** Sign-in uses OpenAI's public Sign in with ChatGPT flow. OpenAI returns to a loopback address (`127.0.0.1`); nothing listens on your computer. While sign-in is in progress, a session rule sends that one navigation (that exact callback URL, main frame only) to the extension's own callback page and is removed when the attempt ends or times out after 10 minutes; no other requests are changed. The access and refresh tokens are stored only in this device's local extension storage (`chrome.storage.local`, never sync) and are sent only to OpenAI; the ID token is verified at sign-in and not stored. Alongside them the extension keeps the app registration id OpenAI issued, the issuer, the account subject and a hash of it (used to keep practice records per account on this device). Name and email are not stored. Signing out deletes the tokens and the account identity, asks OpenAI to revoke access, and keeps only the app registration id. Requests count toward your ChatGPT plan.
 
-**Coach questions and real-world debriefs.** Questions sent to the coach, earlier follow-ups, scenario, conversation and evaluation are sent for coach Q&A. The original real-world outcome text, scenario, practice card and evaluation are sent for a debrief. Both features use only your ChatGPT connection; demo replies remain on the device.
+**Coach questions and real-world debriefs.** Questions sent to the coach, earlier follow-ups, scenario, conversation and evaluation are sent for coach Q&A. The original real-world outcome text, scenario, practice card and evaluation are sent for a debrief. Both features require your ChatGPT connection (or a developer endpoint in development builds); they are locked in the on-device demo.
 
 **Content sent to OpenAI.** Only when you practice, the content the feature needs (scenario setup, the conversation, the sentence you revise together with the earlier coach feedback) goes directly from your browser to OpenAI's Responses API with `store: false`, under [OpenAI's privacy policy](https://openai.com/policies/privacy-policy). The line reader sends the pasted remark, the speaker type and an optional one-line context; custom scenario practice sends the situation you describe, the speaker role and your optional desired action. Neither input is stored.
 
-**Demo and developer endpoint.** Demo mode uses on-device sample replies and sends nothing; it is always labeled. The store build has no developer endpoint. Only a build made from source with the developer flag shows "개발용 API 연결" in demo mode, and then practice content goes to the endpoint you enter.
+**Demo and developer endpoint.** Demo provides role conversation only and does not save practices. Sessions and conversations remain subject to the existing 24-hour temporary retention rule. Demo mode uses on-device sample replies and sends nothing; it is always labeled. The store build has no developer endpoint. Only a build made from source with the developer flag shows "개발용 API 연결" in demo mode, and then practice content goes to the endpoint you enter.
 
 **Stored on this device.** Coach questions, answers and validated quotations are stored separately with the practice. The original real-world debrief written by the user is stored together with the practice record and AI response, under the same expiry and deletion rules. Each saved practice has one debrief; rewriting replaces it. The original custom scenario description and optional input are never written to storage or logs. Input and the preview before practice stay in panel memory only. Once practice starts, only the generated fictional scenario is kept with the session and follows the same expiration and deletion rules.  Unsaved practices expire 24 hours after last activity and saved ones 30 days after saving; expired records are deleted the next time they are accessed. By default, signing out deletes saved practices too. Settings can delete all of the current account's practice records on this device. Errors leave only an error code and duration in the browser console.
 
