@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+div.oanpgroup{
+	margin:-5px 0px 5px 0;
+	line-height:175%;
+	clear:both;
+	font-size:1.1em; 
+	padding-right:20px;
+}
+div.oanpgroup p.pty1{
+    padding:10px 0 0 20px;
+    text-indent:-14px;
+    margin:0 0 0 0;
+}
+div.oanpgroup p.pty1_de1{
+     padding:0 0 0 36px;
+     text-indent:-15px;
+     margin:0;
+}
+div.oanpgroup p.pty1_de2{
+	 padding:0 0 0 20px;
+	 margin:0;
+}
+div.oanpgroup p.pty1_de3{
+	 padding:0 0 0 56px;
+	 text-indent:-21px;
+	 margin:0;
+}
+div.oanpgroup p.pty1_de4{
+	 padding:0 0 0 100px;
+	 text-indent:-17px;
+	 margin:0;
+}
+div.oanpgroup p.pty1_de5{
+	 padding:0 0 0 36px;
+	 text-indent:0;
+	 margin:0;
+}
+div.oanpgroup p.pty1_de6{
+	 padding:0 0 0 56px;
+	 text-indent:0;
+	 margin:0;
+}
+
+div.oanpgroup p.pty2{
+    padding:10px 0 0 20px;
+    text-indent:0;
+    margin:0 0 0 0;
+}
+
+div.oanpgroup img{
+	width: auto;
+	height : auto;
+	max-width: -webkit-fill-available;
+}

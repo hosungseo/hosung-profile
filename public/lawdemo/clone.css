@@ -1,0 +1,22 @@
+/* 클론 데모 오버라이드 — 원본 레이아웃 JS(absolute panes)를 정적 flex 레이아웃으로 대체 */
+html, body { height: auto !important; overflow: auto !important; }
+
+#lawLayout { display: flex; flex-direction: column; min-height: 100vh; }
+#lawMain { display: flex; flex: 1 1 auto; align-items: stretch; }
+#topDiv { position: static !important; flex: 0 0 34px; }
+#west { position: static !important; flex: 0 0 260px; overflow: auto !important; }
+#center { position: static !important; flex: 1 1 auto; overflow: visible !important; min-width: 0; }
+#viewwrapCenter, #bodyContent { overflow: visible !important; height: auto !important; }
+
+/* 메인 히어로: 원본에선 JS 레이아웃 계산으로 407px, 클론에선 % 해석이 달라져 고정 */
+#visualSpot { height: 407px; }
+.aiLinkAreaBox { height: auto; }
+
+/* 데모 표시 뱃지 (제거하려면 이 블록만 삭제) */
+body::after {
+  content: "클론 데모 — 시연 목적의 복제 사이트";
+  position: fixed; right: 10px; bottom: 10px; z-index: 99999;
+  background: rgba(15, 15, 15, .78); color: #fff;
+  padding: 6px 12px; border-radius: 4px;
+  font: 12px/1.5 "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+}

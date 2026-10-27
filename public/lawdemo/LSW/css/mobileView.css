@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* //2019.03.06 앱다운배너 */
+#appBannerLayer{overflow:hidden;position:fixed;left:0;right:0;top:0;bottom:0;width:100%;height:100%;font-size:14px;background:rgba(0,0,0,.8);z-index:10000;-webkit-transform:translate3D(0, 0, 0);-ms-transform:translate3D(0, 0, 0);transform: translate3D(0, 0, 0);height:100%;margin:0;padding:0;font-family:Helvetica,Apple-Gothic,Dotum,"돋움",Gulim,"굴림";}
+#appBannerLayer a{display:block;}
+#appBannerLayer .banner_wrap{overflow:hidden;position:fixed;left:50%;top:50%; min-width:230px;transform:translate(-50%, -50%);-webkit-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);width:100%;text-align:center; padding-bottom:60px;}
+#appBannerLayer .banner_wrap img{width:auto;max-width:100%;}
+#appBannerLayer .banner_wrap .app_img {display:block;width:47%; margin:auto;}
+#appBannerLayer .banner_wrap .btn_download_app {width:61%; margin:3em auto 1.5em;}
+#appBannerLayer .banner_wrap .btn_close {font-size:1.2em;text-decoration:underline;color:#fff !important;}
+#appBannerLayer .close_btn {position:absolute; right:4%; top:4%; width:70px; height:70px; font-size:5em; text-decoration:none;color:#fff !important; vertical-align:middle; text-align:right; padding:5px 40px 0 0; background:url(../images/btn_layer_close.png); background-position:top right; background-repeat:no-repeat; background-size:70px auto;}
+#appBannerLayer .close_today {position:absolute; right:3%; bottom:6%; width:350px; height:30px; font-size:3.0em; text-decoration:none;color:#fff !important; vertical-align:middle; text-align:right; padding:5px 40px 0 0;}
+#appBannerLayer .close_allday {position:absolute; left:1%; bottom:6%; width:350px; height:30px; font-size:3.0em; text-decoration:none;color:#fff !important; vertical-align:middle; text-align:right; padding:5px 40px 0 0;}
+
+#appBannerLayer .banner_wrap strong{color:#fff !important;font-family:Helvetica,Apple-Gothic,Dotum,"돋움",Gulim,"굴림" !important; font-size:2.5em;}
+#appBannerLayer input[type="checkbox"]{width:2.6em; height:2.6em; margin-left:1.0em;}

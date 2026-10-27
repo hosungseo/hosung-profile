@@ -1,0 +1,262 @@
+@charset "utf-8";
+
+/* 3단비교 Html 생성 내부의 Style을 시트로 옮김 시작 */
+thdCmpJoInfoInc_td_01{
+	border-left:0;
+	border-right:1px solid #ddd;
+}
+
+thdCmpJoInfoInc_td_02{
+	border-right:1px solid #ddd;
+}
+
+thdCmpJoInfoInc_td_03{
+	border-right:0;
+	padding:0 0 0 0;
+}
+/* 3단비교 Html 생성 내부의 Style을 시트로 옮김 종료 */
+
+/* board.css 스타일을 승계하여 padding값 변경 시작 */
+table.tbl7{
+	border:1px solid #ddd;
+	border-top:0px;
+	background:#FFFFFF;
+	width:100%;
+	table-layout:fixed;
+}
+
+table.tbl7 td{
+	border-left:1px solid #ddd;
+	padding:5px 0px 0px 0px;
+	line-height:150%;
+	vertical-align:top;
+}
+/* board.css 스타일을 승계하여 padding값 변경 종료 */
+
+div.thdcmppgroup_thdnew{
+	margin:10px 5px -10px -6px;
+	line-height:175%;
+	clear:both;
+}
+div.thdcmppgroup{
+	margin:0 5px 5px 0;
+	line-height:175%;
+	clear:both;
+}
+
+div.thdcmppgroup span.sfon{ 
+	color:#024fce;
+}
+
+div.thdcmppgroup a.sfon1{
+	color:#086dff;
+}
+
+div.thdcmppgroup a.sfon2{
+	color:#0000cd;
+}
+
+div.thdcmppgroup a.sfon3{
+	color:#5a5aff;
+}
+
+div.thdcmppgroup a.sfon4{
+	color:#000069;
+}
+
+div.thdcmppgroup a.sfon5{
+	color:#5f92a0;
+}
+
+div.thdcmppgroup a.sfon6{
+	color:gray;
+}
+
+div.thdcmppgroup p.babl_thd{
+	background:#fff9df;
+}
+
+div.babl_thd{
+	background:#fff9df;
+}
+
+div.thdcmppgroup_thdnew p.thlpty1_thdnew{
+	 padding:0 0 0 14px;
+	 text-indent:-13px;
+	 margin:0 0 0 0;
+}
+
+div.thdcmppgroup p.thlpty1{
+	 padding:10px 10px 0 14px;
+	 text-indent:-13px;
+	 margin:0 0 0 0;
+}
+div.thdcmppgroup p.thlpty1_de1{
+	 padding:0 7px 0 29px;
+	 text-indent:-14px;
+	 margin:0;
+}
+div.thdcmppgroup p.thlpty1_de2{
+	 padding:0 7px 0 14px;
+	 margin:0;
+}
+div.thdcmppgroup p.thlpty1_de3{
+	 padding:0 7px 0 58px;
+	 text-indent:-20px;
+	 margin:0;
+}
+div.thdcmppgroup p.thlpty1_de4{
+	 padding:0 7px 0 78px;
+	 text-indent:-20px;
+	 margin:0;
+}
+div.thdcmppgroup p.thlpty1_de5{
+	 padding:0 7px 0 30px;
+	 text-indent:0;
+	 margin:0;
+}
+div.thdcmppgroup p.thlpty1_de6{
+	 padding:0 7px 0 60px;
+	 text-indent:0;
+	 margin:0;
+}
+div.thdcmppgroup p span.bl{
+ color:#151594;
+ font-weight:bold;
+}
+
+div.thdcmppgroup p span.bl_no{
+ color:#151594;
+}
+
+div.thdcmppgroup_thdnew p span.bl_thdnew{
+ color:#000000;
+ font-weight:bold;
+}
+
+div.thdcmppgroup p a, div.thdcmppgroup p a:visited{
+ text-decoration:underline;
+ color:#005a84;
+}
+div.thdcmppgroup p a:hover{
+ text-decoration:underline;
+ color:#4ca4e5;
+}
+div.thdcmppgroup p a.nun, div.thdcmppgroup p a.nun:hover, div.thdcmppgroup p a.nun:visited{
+ text-decoration:none;
+}
+div.thdcmppgroup p a.att, div.thdcmppgroup p a.att:visited{
+ text-decoration:none;
+ color:#012e68;
+}
+div.thdcmppgroup p a.att:hover{
+ text-decoration:underline;
+ color:#012e68;
+}
+div.thdcmppgroup p a.delegatedAdmRul_link{
+ text-decoration:underline;
+ color:rgb(179, 0, 0) !important;
+}
+
+/* 3단비교 인쇄 팝업 페이지내 있던style 옮겨옴 */
+ div.tbl8thdP{
+	border:1px solid #ddd;
+	border-top:0px;
+	line-height:0;
+	padding:0;
+}
+div.tbl8thdP table{
+	width:100%;
+	margin:-1px 0 0 0;
+}
+div.tbl8thdP table td{
+	border-bottom:1px solid #ddd; 
+	/* line-height:0; */
+	vertical-align:top; 
+	color:#666;
+}
+div.tbl8thdP table td.on{
+	background:#edeeed;
+} 
+div.tbl8thdP table td div.latit{
+	font-size:1.1em;
+	font-weight:bold;
+	color:#3c7fbc;
+	float:left;
+}
+div.tbl8thdP table td div.latit a, div.tbl8thdP table td div.latit a:hover{
+	font-size:1.1em;
+	font-weight:bold;
+	color:#3c7fbc;
+}
+div.tbl8thdP table td div.lacon{
+	padding:2px 8px;
+	font-size:1.1em;
+}
+div.tbl8thdP table td div.lacon p a{
+	text-decoration:underline;
+}
+div.tbl8thdP table td div.lacon p a:hover{
+	text-decoration:underline;
+	color:#4ca4e5;
+}
+div.lsptnThdCmpGroup img{
+	width: auto;
+	height : auto;
+	max-width:305px; 
+	max-height:62px;
+}
+div.thdcmppgroup img{
+	width: auto;
+	height : auto;
+	max-width:305px; 
+	max-height:62px;
+}
+
+
+
+
+
+
+
+
+
+
+
+div.lsptnThdCmpGroup p.thlpty1{
+	 padding:10px 10px 0 14px;
+	 text-indent:-13px;
+	 margin:0 0 0 0;
+}
+div.lsptnThdCmpGroup p.thlpty1_de1{
+	 padding:0 7px 0 29px;
+	 text-indent:-14px;
+	 margin:0;
+}
+div.lsptnThdCmpGroup p.thlpty1_de2{
+	 padding:0 7px 0 14px;
+	 margin:0;
+}
+div.lsptnThdCmpGroup p.thlpty1_de3{
+	 padding:0 7px 0 58px;
+	 text-indent:-20px;
+	 margin:0;
+}
+div.lsptnThdCmpGroup p.thlpty1_de4{
+	 padding:0 7px 0 78px;
+	 text-indent:-20px;
+	 margin:0;
+}
+div.lsptnThdCmpGroup p.thlpty1_de5{
+	 padding:0 7px 0 30px;
+	 text-indent:0;
+	 margin:0;
+}
+div.lsptnThdCmpGroup p.thlpty1_de6{
+	 padding:0 7px 0 60px;
+	 text-indent:0;
+	 margin:0;
+}
+div.lsptnThdCmpGroup a{
+	text-decoration:underline;	
+}

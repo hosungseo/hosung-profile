@@ -1,0 +1,187 @@
+/* 아이콘 단락 분리 20141031 */
+ul.lawico01	{ 
+	float:left; width:44px; padding:0;
+	margin-top: 4px; /* standard */	
+}
+ul.lawico01 li	{ float:left; padding:2px;}
+ul.lawico01 li img	{ vertical-align : top;}
+div.lawcon	{ overflow:hidden;}
+
+div.pgroup{
+	margin:0 10px 22px 0;
+	/* padding-left:40px; */
+	line-height:190%;
+	clear:both;
+	font-size:1.1em; 
+}
+
+/* 20141201 조문수정 전
+div.pgroup p.pty1_p1{
+	padding: 7px 0 0 38px;
+    text-indent: -37px;
+	margin:0 0 0 0;
+}
+*/
+div.pgroup p.pty1_p1{
+	padding: 0 0 0 32px;
+    text-indent: -30px;
+	margin:0 0 0 0;
+}
+div.pgroup p.pty1_p2{
+	padding: 0 0 0 35px;
+	text-indent: -18px;
+	margin:0 0 0 0;
+}
+/* 20141201 조문수정 전
+div.pgroup p.pty1_p4{
+	padding: 7px 0 0 38px;
+	text-indent: -30px;
+	margin:0 0 0 0;
+}
+*/
+
+/* 법령본문에서는 pty1_p1와 같은 레벨 [판]버튼만 있는 경우*/
+div.pgroup p.pty1_p4{
+	padding: 0 0 0 32px;
+    text-indent: -30px;
+	margin:0 0 0 0;
+}
+/* 20141201 조문 레이어때문에 수정
+div.pgroup p.pty1_p5{
+	padding: 7px 0 0 35px;
+	text-indent: -38px;
+	margin:0 0 0 0;
+}
+*/
+
+div.pgroup p.pty1_p5{
+	padding: 0 0 0 20px;
+	text-indent: -15px;
+	margin:0 0 0 0;
+}
+
+div.pgroup p.pty1_p6 {
+line-height: 20px;
+padding: 0 0 0 20px;
+text-indent: -15px;
+margin: 0 0 0 0;
+}
+
+div.pgroup p.pty1_p11{
+	 padding:7px 0 0 65px;
+	 padding-left:40px;
+	 text-indent:-36px;
+	 margin:0 0 0 0;
+}
+div.pgroup p.pty1_p12{
+	 padding:7px 0 0 65px;
+	 padding-top:0px;
+	 text-indent:-36px;
+	 margin:0 0 0 0;
+}
+
+
+div.pgroup p.pty1_de2{
+	 padding:0 0 0 37px;
+	 margin:0;
+}
+div.pgroup p.pty1_de2_1{
+	 padding:0 0 0 33px;
+	 text-indent:-2px;
+	 margin:0;
+}
+div.pgroup p.pty1_de2h{
+	 padding:0 0 0 48px;
+	 text-indent:-15px;
+	 margin:0;
+}
+div.pgroup p.pty1_de3{
+	 padding:0 0 0 65px;
+	 text-indent:-17px;
+	 margin:0;
+}
+
+/* 1. 가 1) */
+div.pgroup p.pty1_de4_1{
+	 padding:0 0 0 64px;
+	 text-indent:-2px;
+	 margin:0;
+}
+
+div.pgroup p.pty1{
+	/*
+	 padding:10px 0 0 70px;
+	 text-indent:-42px;
+	*/
+	
+	 padding:7px 0 0 35px;
+	 text-indent:-36px;
+	 margin:0 0 0 0;
+}
+
+/* 20141201 예정조문 스타일 신규 */
+div.pgroup p.pty1_ye1 {
+	padding: 7px 0 0 32px;
+    text-indent: -15px;
+	margin:0 0 0 0;
+}
+
+div.pgroup p.pty3{
+	padding: 10px 0 0 86px;
+    text-indent: -49px;
+	margin:0 0 10px 0;
+}
+div.pgroup p.pty3_dep1{
+	padding:0 0 0 82px;
+	text-indent:-17px;
+	margin:0 0 0 0;
+}
+div.pgroup p.pty3_dep2{
+	padding:0 0 0 82px;
+	text-indent:0px;
+	margin:0 0 0 0;
+}
+div.pgroup p.pty3_dep3{
+	padding:0 0 0 75px;
+	text-indent:-19px;
+	margin:0 0 0 0;
+}
+div.pgroup p.pty3_dep4{
+	padding:0 0 0 85px;
+	text-indent:-19px;
+	margin:0 0 0 0;
+}
+/* 조문 제목 스타일 */
+div.pgroup p span.bl{
+	color:#151594;
+	font-weight:bold;
+}
+
+div.babl{
+	background:#d5e6ed;/*2018.11.29. 2018 국가법령 수정*/
+	padding-left:50px;
+}
+
+ul.cont_icon { width:410px; margin:4px 0 0 2px; }
+ul.cont_icon li	{ float:left; padding-right:7px;}
+ul.cont_icon li img	{ vertical-align:top; padding-right:4px; margin-top:-1px}
+ul.cont_icon li	a { vertical-align:middle; text-decoration:none;}
+ 
+.cont_top{padding:20px 0 13px 0} /*2024.01.11. #33957 수정*/
+.cont_top h2{padding:0;font-size:19px;text-align:center}
+.cont_top span{color:#444;font-size:12px;font-weight:normal;letter-spacing:0}
+.ct_sub{margin-top:10px;text-align:center}
+.ct_sub + .ct_sub{margin-top:2px}
+.ct_sub span{display:inline-block;margin-top:3px;font-size:12px;color:#3c7fbc;vertical-align:top}
+
+/* 소관부처 */
+.cont_subtit{margin-bottom:10px;padding:0 20px}
+.cont_subtit p + p{margin-top:4px}
+.cont_subtit p{margin:0;color:#444;font-size:12px;text-align:right}
+
+/* 본문 스크롤 */
+.scr_ctrl{overflow:hidden}
+.scr_ctrl .scr_area {overflow-y:auto; -webkit-overflow-scrolling:touch;}
+
+/* 생활법령 아이콘 */
+li.csmLnkImg {display:none;}

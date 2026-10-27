@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+@font-face{
+	font-family: NanumSquareR;
+    font-weight: 300;
+    src:url(../fonts/NanumSquareL.eot);
+    src:url(../fonts/NanumSquareL.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/NanumSquareL.woff) format('woff'),
+		url(../fonts/NanumSquareL.woff2) format('woff2'),
+        url(../fonts/NanumSquareL.ttf) format('truetype')
+}
+
+@font-face{
+	font-family: NanumSquareR;
+    font-weight: 400;
+    src:url(../fonts/NanumSquareR.eot);
+    src:url(../fonts/NanumSquareR.eot?#iefix) format('embedded-opentype'),
+		url(../fonts/NanumSquareR.woff2) format('woff2'),
+        url(../fonts/NanumSquareR.woff) format('woff'),
+        url(../fonts/NanumSquareR.ttf) format('truetype')
+}
+
+@font-face{
+	font-family: NanumSquareR;
+    font-weight: 500;
+    src:url(../fonts/NanumSquareB.eot);
+    src:url(../fonts/NanumSquareB.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/NanumSquareB.woff) format('woff'),
+		url(../fonts/NanumSquareB.woff2) format('woff2'),
+        url(../fonts/NanumSquareB.ttf) format('truetype')
+}
+
+@font-face{
+	font-family: NanumSquareR;
+    font-weight: 600;
+    src:url(../fonts/NanumSquareEB.eot);
+    src:url(../fonts/NanumSquareEB.eot?#iefix) format('embedded-opentype'),
+		url(../fonts/NanumSquareEB.woff2) format('woff2'),
+        url(../fonts/NanumSquareEB.woff) format('woff'),
+        url(../fonts/NanumSquareEB.ttf) format('truetype')
+}
+
+
+@font-face{
+	font-family: NanumSquareRoundR;
+    font-weight: 400;
+    src:url(../fonts/NanumSquareRoundR.eot);
+    src:url(../fonts/NanumSquareRoundR.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/NanumSquareRoundR.woff) format('woff'),
+		url(../fonts/NanumSquareRoundR.woff2) format('woff2'),
+        url(../fonts/NanumSquareRoundR.ttf) format('truetype')
+}
+
+@font-face {
+	font-family:'Pretendard GOV';
+	font-weight:700;
+	font-display:swap;
+	src:local('Pretendard GOV Bold'), 
+		url(../fonts/PretendardGOV-Bold.subset.woff2) format('woff2'), 
+		url(../fonts/PretendardGOV-Bold.subset.woff) format('woff');
+}
+
+@font-face {
+	font-family:'Pretendard GOV';
+	font-weight:500;
+	font-display:swap;
+	src:local('Pretendard GOV Medium'), 
+		url(../fonts/PretendardGOV-Medium.subset.woff2) format('woff2'), 
+		url(../fonts/PretendardGOV-Medium.subset.woff) format('woff');
+}
+
+@font-face {
+	font-family:'Pretendard GOV';
+	font-weight:400;
+	font-display:swap;
+	src:local('Pretendard GOV Regular'), 
+		url(../fonts/PretendardGOV-Regular.subset.woff2) format('woff2'), 
+		url(../fonts/PretendardGOV-Regular.subset.woff) format('woff');
+}

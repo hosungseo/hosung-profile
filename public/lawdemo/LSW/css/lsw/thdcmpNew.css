@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+/* board.css 스타일을 승계하여 padding값 변경 시작 */
+table.thdtbl{
+	border:1px solid #ddd;
+	border-top:0px;
+	background:#FFFFFF;
+	width:100%;
+	table-layout:fixed;
+	border-collapse:collapse; /* 형진수정 */
+}
+/* 형진수정 */
+table.thdtbl thead{
+	margin: 0;
+    width: 100%;
+    display: table; 
+    table-layout: fixed;
+    background-color: #ddd; 
+}
+table.thdtbl tbody tr:first-child td	{ padding-top: 10px;}
+table.thdtbl th, td {  margin:0;  padding: 6px; } 
+/* 여기까지 */
+table.thdtbl td{
+	border-left:1px solid #ddd;
+	padding:5px 0px 0px 0px;
+	line-height:150%;
+	vertical-align:top;
+}
+/* board.css에 있는 내용 */
+table.thdtbl th{
+	border-left:1px solid #ddd;
+	border-top:1px solid #ddd;
+	padding:3px 0;
+	line-height:150%;
+	background:#dee7ef;
+}
+table.thdtbl td{
+	border-left:1px solid #ddd;
+	padding:5px 0px 0px 0px;
+	line-height:150%;
+	vertical-align:top;
+}
+table.thdtbl td input.btn{
+	vertical-align:-3px;
+}
+table.thdtbl td div.cde{
+	clear:both;
+	padding:2px 0 0 0;
+}
+table.thdtbl td.cne1{
+	background:#fff;
+	padding:0px;
+	border-top:1px solid #ddd;
+}
+table.thdtbl td span.ble{
+	color:#003164;
+	font-weight:bold;
+}
+
+/* content.css에 있는 내용*/
+
+table.thdtbl td span.se2 * {vertical-align : middle;}
+
+table.thdtbl .th2{
+	background:#dee7ef;
+	text-align:center;
+	vertical-align:middle;
+	padding:7px 0;
+}
+
+table.thdtbl .th1{
+	background:#f0f0f0;
+	text-align:center;
+	vertical-align:middle;
+	padding:6px;
+}
+
+table.thdtbl .td1{
+	border:1px solid #d4d4d4;
+	background:#fff;
+	padding:5px 0;
+}
+
+table.thdtbl .td2{
+	border-top:1px solid #d4d4d4;
+	background:#f0f0f0;
+	text-align:center;
+	vertical-align:top;
+	padding:7px 0;
+}
+
+table.thdtbl .td3{
+	border:1px solid #d4d4d4;
+	background:#fff;
+	padding:5px 20px 5px 0;
+}
+
+table.thdtbl th input.btn{
+	vertical-align:middle;
+}
+
