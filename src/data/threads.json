@@ -1,10 +1,37 @@
 {
-  "syncedAt": "2026-10-24T00:06:07Z",
+  "syncedAt": "2026-10-28T00:47:30Z",
   "source": "buffer",
   "profileUrl": "https://www.threads.com/@gongpenclaw",
   "channelService": "threads",
-  "count": 77,
+  "count": 79,
   "posts": [
+    {
+      "id": "6ae1152245ab86b960d4cec2",
+      "text": "인공지능정부정책과와 법제처에 감사드립니다. 제가 만든 ”대한민국 제도지도“가 AX혁신스토어 시범운영서비스 대상으로 선정되었다고 합니다. \n\n대한민국 제도지도는 기술적으로 수준 높은 서비스는 아닙니다. 다만 현직 공무원이 봐도 복잡하고 어려운 법령과 행정절차를 일반 국민께서 이해하기 쉽게 풀어서 설명하고 싶은 마음에서 만들어 보았습니다. 줄글로 제공되는 법령을 업무흐름도(행정절차도)로 바꿔서 보여주는 것입니다. 법제처 api를 소스로 업무흐름도를 만들었습니다.\n\n첨부한 사진은 공식 법령정보사이트가 아닙니다. 만약 운이 좋아서 대한민국 제도지도가 정식 서비스 된다면 이런 모습도 가능하지 않을까 라는 상상에서 만들어보았습니다. 법령정보센터 홈페이지에 업무흐름도 팝업 버튼을 추가하고, 그 버튼을 누르면 해당 법령에 근거한 행정절차 업무흐름도가 뜨는 방식입니다. 이렇게 하면 Ai에이전트나 MCP를 사용하기 어려운 분들도 행정절차를 쉽게 이해하실 것으로 기대됩니다. @moleg.go.kr",
+      "sentAt": "2026-10-27T21:18:18.000Z",
+      "createdAt": "2026-10-27T21:18:18.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/DfAzisvk6CT",
+      "media": [
+        {
+          "type": "image",
+          "mimeType": "image/jpeg",
+          "thumbnail": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6ae1152245ab86b960d4cec2_thumbnail.jpg",
+          "source": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6a185c6b9c30eeddb4563f5b/6a185cb3c687a22dd4369dec/6ae1152245ab86b960d4cec2_thumbnail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6ae00207261312c6a2072901",
+      "text": "@chris_gomdori 함께해서 영광입니다 ㅎㅎ \n대한민국 제도 지도는 업그레이드를 해야겠군요.. ㅎㅎ",
+      "sentAt": "2026-10-27T01:44:33.000Z",
+      "createdAt": "2026-10-27T01:44:33.000Z",
+      "status": "sent",
+      "via": "network",
+      "url": "https://www.threads.com/@gongpenclaw/post/De-tN6cAQ34",
+      "media": []
+    },
     {
       "id": "6adb2cb7cbcd8bf9a48d06c0",
       "text": "새 시대가 왔습니다. 저도 이렇게 직접 만들어 쓰는 앱이 몇개 있어요. 세세한 부분까지 원하는대로 커스터마이징 할 수 있어 아주 즐겁습니다.",
