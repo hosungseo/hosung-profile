@@ -131,3 +131,12 @@ npm run build    # 정적 빌드 → dist/
 
 - 이름·소개·SNS 링크: `src/consts.ts` (쓰레드 핸들 교체 필요)
 - 소개 페이지: `src/pages/about.astro`
+
+## 법령정보 시연판
+
+이용 주소는 https://seohosung.com/lawdemo/ 입니다. 공공 GitLab 저장소는 코드 보관용이며, 이용자가 localhost로 접속할 필요는 없습니다.
+
+- 공개 파일: `public/lawdemo/`
+- 업무흐름도: `public/lawdemo/flow/`의 정적 사본으로 제공하며 별도 로컬 서버가 필요하지 않습니다.
+- 코드 보관: https://gitlab.aigov.go.kr/hosung.seo/lawdemo (비공개)
+- 기존 GitHub → Vercel 자동 배포를 유지합니다. 공공 GitLab 업로드만으로 홈페이지가 자동 갱신되는 구조는 아닙니다.

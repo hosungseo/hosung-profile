@@ -4,7 +4,7 @@
 (() => {
   const script = document.currentScript;
   const base = new URL(script.src).pathname.replace(/\/k100\/task-list\.js$/, "");
-  const flowBase = window.K100_FLOW_BASE ?? "http://localhost:3123";
+  const flowBase = window.K100_FLOW_BASE ?? "/lawdemo/flow";
   const indexUrl = window.K100_FLOW_INDEX_URL ?? `${base}/k100/index.json`;
   const HIDE_KEY = "k100-task-list-hide-until";
   const GROUP_ORDER = ["국가공무원", "지방공무원", "예산·재정", "조직"];

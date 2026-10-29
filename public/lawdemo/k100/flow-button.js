@@ -72,7 +72,7 @@
   async function loadIndex() {
     if (globalThis.chrome?.runtime?.id) return chrome.runtime.sendMessage({ type: "flow-index" });
     // Plain-script mode: the index must be readable from this origin (same origin or CORS).
-    const base = window.K100_FLOW_BASE ?? "http://localhost:3123";
+    const base = window.K100_FLOW_BASE ?? "/lawdemo/flow";
     const url = window.K100_FLOW_INDEX_URL ?? `${base}/embed/flow/index.json`;
     try {
       const response = await fetch(url, { cache: "no-store" });
