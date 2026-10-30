@@ -1,1 +1,371 @@
-[{"lawId": "001719", "name": "국가공무원법", "group": "국가공무원"}, {"lawId": "002315", "name": "공무원임용령", "group": "국가공무원"}, {"lawId": "010217", "name": "고위공무원단 인사규정", "group": "국가공무원"}, {"lawId": "002317", "name": "공무원임용시험령", "group": "국가공무원"}, {"lawId": "002324", "name": "공무원 징계령", "group": "국가공무원"}, {"lawId": "001652", "name": "지방재정법", "group": "예산·재정"}, {"lawId": "001653", "name": "지방공무원법", "group": "지방공무원"}, {"lawId": "010301", "name": "국가재정법", "group": "예산·재정"}, {"lawId": "005050", "name": "지방공무원 임용령", "group": "지방공무원"}, {"lawId": "013988", "name": "지방자치단체 보조금 관리에 관한 법률", "group": "예산·재정"}, {"lawId": "001006", "name": "지방교부세법", "group": "예산·재정"}, {"lawId": "010002", "name": "지방자치단체를 당사자로 하는 계약에 관한 법률", "group": "예산·재정"}, {"lawId": "000695", "name": "국가를 당사자로 하는 계약에 관한 법률", "group": "예산·재정"}, {"lawId": "005053", "name": "지방공무원 징계 및 소청 규정", "group": "지방공무원"}, {"lawId": "001656", "name": "지방자치법", "group": "조직"}, {"lawId": "000729", "name": "보조금 관리에 관한 법률", "group": "예산·재정"}, {"lawId": "002652", "name": "국가를 당사자로 하는 계약에 관한 법률 시행령", "group": "예산·재정"}, {"lawId": "008346", "name": "지방재정투자사업 심사규칙", "group": "예산·재정"}, {"lawId": "001584", "name": "조세특례제한법", "group": "예산·재정"}, {"lawId": "010374", "name": "국가재정법 시행령", "group": "예산·재정"}, {"lawId": "009996", "name": "지방자치단체 기금관리기본법", "group": "예산·재정"}, {"lawId": "005617", "name": "행정기관의 조직과 정원에 관한 통칙", "group": "조직"}, {"lawId": "005098", "name": "지방재정법 시행령", "group": "예산·재정"}, {"lawId": "005091", "name": "지방자치단체의 행정기구와 정원기준 등에 관한 규정", "group": "조직"}, {"lawId": "010094", "name": "지방자치단체 기금관리기본법 시행령", "group": "예산·재정"}, {"lawId": "002812", "name": "국무회의 규정", "group": "조직"}, {"lawId": "005057", "name": "지방교부세법 시행령", "group": "예산·재정"}, {"lawId": "001720", "name": "정부조직법", "group": "조직"}, {"lawId": "005170", "name": "차관회의 규정", "group": "조직"}]
+[
+  {
+    "lawId": "001719",
+    "name": "국가공무원법",
+    "group": "국가공무원"
+  },
+  {
+    "lawId": "002315",
+    "name": "공무원임용령",
+    "group": "국가공무원"
+  },
+  {
+    "lawId": "010217",
+    "name": "고위공무원단 인사규정",
+    "group": "국가공무원"
+  },
+  {
+    "lawId": "002317",
+    "name": "공무원임용시험령",
+    "group": "국가공무원"
+  },
+  {
+    "lawId": "002324",
+    "name": "공무원 징계령",
+    "group": "국가공무원"
+  },
+  {
+    "lawId": "001652",
+    "name": "지방재정법",
+    "group": "예산·재정"
+  },
+  {
+    "lawId": "001653",
+    "name": "지방공무원법",
+    "group": "지방공무원"
+  },
+  {
+    "lawId": "010301",
+    "name": "국가재정법",
+    "group": "예산·재정"
+  },
+  {
+    "lawId": "005050",
+    "name": "지방공무원 임용령",
+    "group": "지방공무원"
+  },
+  {
+    "lawId": "013988",
+    "name": "지방자치단체 보조금 관리에 관한 법률",
+    "group": "예산·재정"
+  },
+  {
+    "lawId": "001006",
+    "name": "지방교부세법",
+    "group": "예산·재정"
+  },
+  {
+    "lawId": "010002",
+    "name": "지방자치단체를 당사자로 하는 계약에 관한 법률",
+    "group": "예산·재정"
+  },
+  {
+    "lawId": "000695",
+    "name": "국가를 당사자로 하는 계약에 관한 법률",
+    "group": "예산·재정"
+  },
+  {
+    "lawId": "005053",
+    "name": "지방공무원 징계 및 소청 규정",
+    "group": "지방공무원"
+  },
+  {
+    "lawId": "001656",
+    "name": "지방자치법",
+    "group": "조직"
+  },
+  {
+    "lawId": "000729",
+    "name": "보조금 관리에 관한 법률",
+    "group": "예산·재정"
+  },
+  {
+    "lawId": "002652",
+    "name": "국가를 당사자로 하는 계약에 관한 법률 시행령",
+    "group": "예산·재정"
+  },
+  {
+    "lawId": "008346",
+    "name": "지방재정투자사업 심사규칙",
+    "group": "예산·재정"
+  },
+  {
+    "lawId": "001584",
+    "name": "조세특례제한법",
+    "group": "예산·재정"
+  },
+  {
+    "lawId": "010374",
+    "name": "국가재정법 시행령",
+    "group": "예산·재정"
+  },
+  {
+    "lawId": "009996",
+    "name": "지방자치단체 기금관리기본법",
+    "group": "예산·재정"
+  },
+  {
+    "lawId": "005617",
+    "name": "행정기관의 조직과 정원에 관한 통칙",
+    "group": "조직"
+  },
+  {
+    "lawId": "005098",
+    "name": "지방재정법 시행령",
+    "group": "예산·재정"
+  },
+  {
+    "lawId": "005091",
+    "name": "지방자치단체의 행정기구와 정원기준 등에 관한 규정",
+    "group": "조직"
+  },
+  {
+    "lawId": "010094",
+    "name": "지방자치단체 기금관리기본법 시행령",
+    "group": "예산·재정"
+  },
+  {
+    "lawId": "002812",
+    "name": "국무회의 규정",
+    "group": "조직"
+  },
+  {
+    "lawId": "005057",
+    "name": "지방교부세법 시행령",
+    "group": "예산·재정"
+  },
+  {
+    "lawId": "001720",
+    "name": "정부조직법",
+    "group": "조직"
+  },
+  {
+    "lawId": "005170",
+    "name": "차관회의 규정",
+    "group": "조직"
+  },
+  {
+    "lawId": "013774",
+    "name": "국가연구개발혁신법",
+    "group": "연구행정",
+    "officialUrl": "https://www.law.go.kr/법령/국가연구개발혁신법",
+    "effectiveOn": "2026-06-11"
+  },
+  {
+    "lawId": "001357",
+    "name": "공공기관의 정보공개에 관한 법률",
+    "group": "민원권리",
+    "officialUrl": "https://www.law.go.kr/법령/공공기관의정보공개에관한법률",
+    "effectiveOn": "2023-11-17"
+  },
+  {
+    "lawId": "001363",
+    "name": "행정심판법",
+    "group": "민원권리",
+    "officialUrl": "https://www.law.go.kr/법령/행정심판법",
+    "effectiveOn": "2023-03-21"
+  },
+  {
+    "lawId": "001218",
+    "name": "행정소송법",
+    "group": "민원권리",
+    "officialUrl": "https://www.law.go.kr/법령/행정소송법",
+    "effectiveOn": "2026-05-12"
+  },
+  {
+    "lawId": "001359",
+    "name": "민원 처리에 관한 법률",
+    "group": "민원권리",
+    "officialUrl": "https://www.law.go.kr/법령/민원처리에관한법률",
+    "effectiveOn": "2022-07-12"
+  },
+  {
+    "lawId": "001362",
+    "name": "행정절차법",
+    "group": "민원권리",
+    "officialUrl": "https://www.law.go.kr/법령/행정절차법",
+    "effectiveOn": "2023-03-24"
+  },
+  {
+    "lawId": "011358",
+    "name": "공익신고자 보호법",
+    "group": "민원권리",
+    "officialUrl": "https://www.law.go.kr/법령/공익신고자보호법",
+    "effectiveOn": "2026-02-01"
+  },
+  {
+    "lawId": "001973",
+    "name": "국민기초생활 보장법",
+    "group": "복지고용",
+    "officialUrl": "https://www.law.go.kr/법령/국민기초생활보장법",
+    "effectiveOn": "2025-10-01"
+  },
+  {
+    "lawId": "012045",
+    "name": "기초연금법",
+    "group": "복지고용",
+    "officialUrl": "https://www.law.go.kr/법령/기초연금법",
+    "effectiveOn": "2025-10-01"
+  },
+  {
+    "lawId": "010436",
+    "name": "노인장기요양보험법",
+    "group": "복지고용",
+    "officialUrl": "https://www.law.go.kr/법령/노인장기요양보험법",
+    "effectiveOn": "2026-05-26"
+  },
+  {
+    "lawId": "011330",
+    "name": "장애인활동 지원에 관한 법률",
+    "group": "복지고용",
+    "officialUrl": "https://www.law.go.kr/법령/장애인활동지원에관한법률",
+    "effectiveOn": "2024-12-20"
+  },
+  {
+    "lawId": "001761",
+    "name": "고용보험법",
+    "group": "복지고용",
+    "officialUrl": "https://www.law.go.kr/법령/고용보험법",
+    "effectiveOn": "2026-05-12"
+  },
+  {
+    "lawId": "001760",
+    "name": "산업재해보상보험법",
+    "group": "복지고용",
+    "officialUrl": "https://www.law.go.kr/법령/산업재해보상보험법",
+    "effectiveOn": "2026-07-01"
+  },
+  {
+    "lawId": "001872",
+    "name": "근로기준법",
+    "group": "복지고용",
+    "officialUrl": "https://www.law.go.kr/법령/근로기준법",
+    "effectiveOn": "2025-10-23"
+  },
+  {
+    "lawId": "001823",
+    "name": "건축법",
+    "group": "국토인허가",
+    "officialUrl": "https://www.law.go.kr/법령/건축법",
+    "effectiveOn": "2026-02-27"
+  },
+  {
+    "lawId": "009294",
+    "name": "국토의 계획 및 이용에 관한 법률",
+    "group": "국토인허가",
+    "officialUrl": "https://www.law.go.kr/법령/국토의계획및이용에관한법률",
+    "effectiveOn": "2026-07-01"
+  },
+  {
+    "lawId": "001463",
+    "name": "산업집적활성화 및 공장설립에 관한 법률",
+    "group": "국토인허가",
+    "officialUrl": "https://www.law.go.kr/법령/산업집적활성화및공장설립에관한법률",
+    "effectiveOn": "2026-07-01"
+  },
+  {
+    "lawId": "001805",
+    "name": "식품위생법",
+    "group": "국토인허가",
+    "officialUrl": "https://www.law.go.kr/법령/식품위생법",
+    "effectiveOn": "2025-10-01"
+  },
+  {
+    "lawId": "009295",
+    "name": "공익사업을 위한 토지 등의 취득 및 보상에 관한 법률",
+    "group": "국토인허가",
+    "officialUrl": "https://www.law.go.kr/법령/공익사업을위한토지등의취득및보상에관한법률",
+    "effectiveOn": "2026-06-16"
+  },
+  {
+    "lawId": "009410",
+    "name": "도시 및 주거환경정비법",
+    "group": "국토인허가",
+    "officialUrl": "https://www.law.go.kr/법령/도시및주거환경정비법",
+    "effectiveOn": "2026-07-01"
+  },
+  {
+    "lawId": "002016",
+    "name": "환경영향평가법",
+    "group": "환경",
+    "officialUrl": "https://www.law.go.kr/법령/환경영향평가법",
+    "effectiveOn": "2025-10-23"
+  },
+  {
+    "lawId": "001773",
+    "name": "대기환경보전법",
+    "group": "환경",
+    "officialUrl": "https://www.law.go.kr/법령/대기환경보전법",
+    "effectiveOn": "2026-07-07"
+  },
+  {
+    "lawId": "001771",
+    "name": "폐기물관리법",
+    "group": "환경",
+    "officialUrl": "https://www.law.go.kr/법령/폐기물관리법",
+    "effectiveOn": "2026-03-26"
+  },
+  {
+    "lawId": "000162",
+    "name": "화학물질관리법",
+    "group": "환경",
+    "officialUrl": "https://www.law.go.kr/법령/화학물질관리법",
+    "effectiveOn": "2025-10-01"
+  },
+  {
+    "lawId": "011612",
+    "name": "온실가스 배출권의 할당 및 거래에 관한 법률",
+    "group": "환경",
+    "officialUrl": "https://www.law.go.kr/법령/온실가스배출권의할당및거래에관한법률",
+    "effectiveOn": "2026-04-29"
+  },
+  {
+    "lawId": "011357",
+    "name": "개인정보 보호법",
+    "group": "디지털",
+    "officialUrl": "https://www.law.go.kr/법령/개인정보보호법",
+    "effectiveOn": "2025-10-02"
+  },
+  {
+    "lawId": "011895",
+    "name": "공공데이터의 제공 및 이용 활성화에 관한 법률",
+    "group": "디지털",
+    "officialUrl": "https://www.law.go.kr/법령/공공데이터의제공및이용활성화에관한법률",
+    "effectiveOn": "2023-11-17"
+  },
+  {
+    "lawId": "009199",
+    "name": "전자정부법",
+    "group": "디지털",
+    "officialUrl": "https://www.law.go.kr/법령/전자정부법",
+    "effectiveOn": "2025-07-08"
+  },
+  {
+    "lawId": "011372",
+    "name": "산업융합 촉진법",
+    "group": "기업",
+    "officialUrl": "https://www.law.go.kr/법령/산업융합촉진법",
+    "effectiveOn": "2026-06-03"
+  },
+  {
+    "lawId": "002006",
+    "name": "책임운영기관의 설치ㆍ운영에 관한 법률",
+    "group": "조직",
+    "officialUrl": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=276367&efYd=20260102&ancYnChk=0#0000",
+    "effectiveOn": "2026-01-02"
+  },
+  {
+    "lawId": "010893",
+    "name": "행정기관 소속 위원회의 설치ㆍ운영에 관한 법률",
+    "group": "조직",
+    "officialUrl": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=250953&efYd=20231117&ancYnChk=0#0000",
+    "effectiveOn": "2023-11-17"
+  },
+  {
+    "lawId": "009761",
+    "name": "과학기술분야 정부출연연구기관 등의 설립ㆍ운영 및 육성에 관한 법률",
+    "group": "연구행정",
+    "officialUrl": "https://law.go.kr/lsInfoP.do?ancYnChk=0&lsId=009761#0000",
+    "effectiveOn": "2026-10-02"
+  }
+]

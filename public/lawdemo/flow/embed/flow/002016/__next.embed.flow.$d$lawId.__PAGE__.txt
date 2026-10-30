@@ -1,0 +1,434 @@
+1:"$Sreact.fragment"
+2:I[7742,["838","static/chunks/838-9b85aecee2a13f53.js","379","static/chunks/379-f104668f756ddde1.js","227","static/chunks/app/embed/flow/%5BlawId%5D/page-b476be85089ecd29.js"],"default"]
+6:I[977,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+:HL["/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","style"]
+3:T8875,<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 250 1744 1960" class="pp-svg">
+<defs>
+      <filter id="card-shadow" x="-20%" y="-25%" width="140%" height="160%">
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#12271e" flood-opacity="0.10"/>
+      </filter>
+      <marker id="arrow-sequence" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#53675d" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-message" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#0f8a65" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-loop" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#3478db" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <style>
+        text { font-family: "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", sans-serif; }
+        .mono { font-family: "SFMono-Regular", "Menlo", monospace; }
+      </style>
+    </defs>
+<rect width="1800" height="2400" fill="#ffffff"/>
+
+
+
+<rect x="38" y="260" width="1724" height="1940" rx="10" fill="#ffffff" stroke="#b8c7bf" stroke-width="2"/>
+<rect x="38" y="260" width="190" height="100" rx="10" fill="#eaf2ee"/>
+<text x="58" y="299" font-size="17" font-weight="800" fill="#17231d">단계 ↓</text>
+<text x="58" y="332" font-size="15" font-weight="650" fill="#68776f">행위자 묶음 →</text>
+<rect x="38" y="360" width="1724" height="173" fill="#fbfcfb"/>
+<rect x="38" y="360" width="190" height="173" fill="#eef3f0"/>
+<text x="58" y="392" class="mono" font-size="16" font-weight="800" fill="#53645b">G0</text>
+<text x="58" y="425" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">대상판정</tspan></text>
+<rect x="38" y="533" width="1724" height="173" fill="#f5f8f6"/>
+<rect x="38" y="533" width="190" height="173" fill="#eef3f0"/>
+<text x="58" y="565" class="mono" font-size="16" font-weight="800" fill="#53645b">G1</text>
+<text x="58" y="598" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">착수·스코핑</tspan></text>
+<rect x="38" y="706" width="1724" height="287" fill="#fbfcfb"/>
+<rect x="38" y="706" width="190" height="287" fill="#eef3f0"/>
+<text x="58" y="738" class="mono" font-size="16" font-weight="800" fill="#53645b">G2</text>
+<text x="58" y="771" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">조사·초안</tspan></text>
+<rect x="38" y="993" width="1724" height="173" fill="#f5f8f6"/>
+<rect x="38" y="993" width="190" height="173" fill="#eef3f0"/>
+<text x="58" y="1025" class="mono" font-size="16" font-weight="800" fill="#53645b">G3</text>
+<text x="58" y="1058" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">공고·공람</tspan></text>
+<rect x="38" y="1166" width="1724" height="173" fill="#fbfcfb"/>
+<rect x="38" y="1166" width="190" height="173" fill="#eef3f0"/>
+<text x="58" y="1198" class="mono" font-size="16" font-weight="800" fill="#53645b">G4</text>
+<text x="58" y="1231" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">의견수렴·본안</tspan></text>
+<rect x="38" y="1339" width="1724" height="401" fill="#f5f8f6"/>
+<rect x="38" y="1339" width="190" height="401" fill="#eef3f0"/>
+<text x="58" y="1371" class="mono" font-size="16" font-weight="800" fill="#53645b">G5</text>
+<text x="58" y="1404" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">협의검토·보완</tspan></text>
+<rect x="38" y="1740" width="1724" height="173" fill="#fbfcfb"/>
+<rect x="38" y="1740" width="190" height="173" fill="#eef3f0"/>
+<text x="58" y="1772" class="mono" font-size="16" font-weight="800" fill="#53645b">G6</text>
+<text x="58" y="1805" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">협의통보·승인</tspan></text>
+<rect x="38" y="1913" width="1724" height="287" fill="#f5f8f6"/>
+<rect x="38" y="1913" width="190" height="287" fill="#eef3f0"/>
+<text x="58" y="1945" class="mono" font-size="16" font-weight="800" fill="#53645b">G7</text>
+<text x="58" y="1978" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">이행·사후관리</tspan></text>
+<rect x="228" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="228" y="260" width="383.5" height="7" fill="#0f9f72"/>
+<text x="248" y="299" font-size="20" font-weight="800" fill="#17231d">사업 준비·작성</text>
+<text x="248" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="248" dy="0">사업자/시행자 · 평가대행자</tspan></text>
+<rect x="611.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="611.5" y="260" width="383.5" height="7" fill="#3b82f6"/>
+<text x="631.5" y="299" font-size="20" font-weight="800" fill="#17231d">승인·공고</text>
+<text x="631.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="631.5" dy="0">승인기관 · 관할 지자체</tspan></text>
+<rect x="995" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="995" y="260" width="383.5" height="7" fill="#c78116"/>
+<text x="1015" y="299" font-size="20" font-weight="800" fill="#17231d">협의·전문검토</text>
+<text x="1015" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1015" dy="0">협의기관 · 위원회/협의회 · 전문검토기관/관계기관</tspan></text>
+<rect x="1378.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="1378.5" y="260" width="383.5" height="7" fill="#0891b2"/>
+<text x="1398.5" y="299" font-size="20" font-weight="800" fill="#17231d">주민·정보공개</text>
+<text x="1398.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1398.5" dy="0">주민/이해관계자 · 정보시스템</tspan></text>
+<line x1="228" y1="260" x2="228" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="611.5" y1="260" x2="611.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="995" y1="260" x2="995" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1378.5" y1="260" x2="1378.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1762" y1="260" x2="1762" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#b8c7bf" stroke-width="2"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="533" x2="1762" y2="533" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="706" x2="1762" y2="706" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="993" x2="1762" y2="993" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1166" x2="1762" y2="1166" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1339" x2="1762" y2="1339" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1740" x2="1762" y2="1740" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1913" x2="1762" y2="1913" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2200" x2="1762" y2="2200" stroke="#b8c7bf" stroke-width="2"/>
+<g class="pp-edge" data-edge-id="E01" data-source="P01" data-target="P02">
+<path d="M 419.8 491.5 V 521 H 409.8 V 566.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 419.8 491.5 V 521 H 409.8 V 566.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E02" data-source="P02" data-target="P03">
+<path d="M 554.8 626 H 1023.8 V 615.5 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 626 H 1023.8 V 615.5 H 1043.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E03" data-source="P03" data-target="P04">
+<path d="M 1184.8 664.5 V 678 H 417.8 V 739.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1184.8 664.5 V 678 H 417.8 V 739.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E04" data-source="P04" data-target="P05">
+<path d="M 409.8 837.5 V 853.5 H 399.8 V 853.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 409.8 837.5 V 853.5 H 399.8 V 853.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E05" data-source="P05" data-target="P06">
+<path d="M 413.8 951.5 V 981 H 783.3 V 1026.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 413.8 951.5 V 981 H 783.3 V 1026.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E06" data-source="P06" data-target="P07">
+<path d="M 823.3 1124.5 V 1154 H 1578.3 V 1199.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 823.3 1124.5 V 1154 H 1578.3 V 1199.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E07" data-source="P07" data-target="P08">
+<path d="M 1435.3 1242 H 608.8 V 1264 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1435.3 1242 H 608.8 V 1264 H 562.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E08" data-source="P08" data-target="P09">
+<path d="M 554.8 1246 H 640.3 V 1239.5 H 660.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1246 H 640.3 V 1239.5 H 660.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E09" data-source="P09" data-target="P10">
+<path d="M 817.3 1297.5 V 1279 H 1158.8 V 1372.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 817.3 1297.5 V 1279 H 1158.8 V 1372.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E10" data-source="P10" data-target="P11">
+<path d="M 1196.8 1470.5 V 1486.5 H 1212.8 V 1486.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1196.8 1470.5 V 1486.5 H 1212.8 V 1486.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E11" data-source="P11" data-target="P12">
+<path d="M 1192.8 1584.5 V 1600.5 H 1184.8 V 1600.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1192.8 1584.5 V 1600.5 H 1184.8 V 1600.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E12" data-source="P12" data-target="P14">
+<path d="M 1198.8 1698.5 V 1712 H 1184.8 V 1773.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1198.8 1698.5 V 1712 H 1184.8 V 1773.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E13" data-source="P14" data-target="P15">
+<path d="M 1051.8 1822.5 H 979.3 V 1833 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1822.5 H 979.3 V 1833 H 946.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E14" data-source="P15" data-target="P16">
+<path d="M 793.3 1871.5 V 1901 H 423.8 V 1946.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 793.3 1871.5 V 1901 H 423.8 V 1946.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E15" data-source="P16" data-target="P17">
+<path d="M 409.8 2044.5 V 2060.5 H 419.8 V 2060.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 409.8 2044.5 V 2060.5 H 419.8 V 2060.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M01" data-source="P05" data-target="S01">
+<path d="M 439.8 951.5 V 965 H 1558.3 V 1026.5" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 439.8 951.5 V 965 H 1558.3 V 1026.5" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M02" data-source="P06" data-target="P07">
+<path d="M 791.3 1124.5 V 1138 H 1576.3 V 1199.5" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 791.3 1124.5 V 1138 H 1576.3 V 1199.5" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M03" data-source="P11" data-target="P12">
+<path d="M 1321.8 1536.5 H 1375.8 V 1657 H 1329.8" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1321.8 1536.5 H 1375.8 V 1657 H 1329.8" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L01" data-source="P12" data-target="P13">
+<path d="M 1051.8 1636.5 H 582.8 V 1546 H 562.8" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1636.5 H 582.8 V 1546 H 562.8" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L02" data-source="P13" data-target="P09">
+<path d="M 284.8 1533 H 216 V 1303 H 791.3 V 1305.5" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 284.8 1533 H 216 V 1303 H 791.3 V 1305.5" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge-label" data-edge-id="M01" data-source="P05" data-target="S01">
+<rect x="941.6" y="933" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="999" y="953" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">초안 공개자료</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M02" data-source="P06" data-target="P07">
+<rect x="1135.8" y="1106" width="96" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1183.8" y="1126" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">공고·공람</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M03" data-source="P11" data-target="P12">
+<rect x="1385.8" y="1581.8" width="96" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1433.8" y="1601.8" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">전문검토</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L01" data-source="P12" data-target="P13">
+<rect x="755.3" y="1559.3" width="96" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="803.3" y="1579.3" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">보완 필요</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L02" data-source="P13" data-target="P09">
+<rect x="235.6" y="1406.3" width="100.9" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="286" y="1426.3" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">보완 재제출</text>
+</g>
+
+    <g class="pp-node" data-node-id="P01" data-basis="환경영향평가법및하위법령:" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="401.5" width="270" height="90" rx="8" fill="#f2f6ff" stroke="#2456d6" stroke-width="2.3"/>
+      <rect x="284.8" y="401.5" width="6" height="90" rx="3" fill="#2456d6"/>
+      <text x="299.8" y="421.5" class="mono" font-size="12.5" font-weight="750" fill="#2456d6">◇ P01</text>
+      
+      <rect x="494.8" y="408.5" width="50" height="24" rx="5" fill="#2456d6" opacity="0.14"/>
+      <text x="519.8" y="425.5" text-anchor="middle" font-size="12" font-weight="800" fill="#14306f">령 §</text>
+      <text x="299.8" y="458.5" font-size="15.5" font-weight="800" fill="#14306f"><tspan x="299.8" dy="0">대상사업 여부 검토</tspan></text>
+      <text x="299.8" y="483.5" font-size="11" font-weight="650" fill="#2456d6">기한 · 내부 목표 7일</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P02" data-basis="환경영향평가법:제24조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="574.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="574.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="594.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P02</text>
+      
+      <rect x="485.8" y="581.5" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="598.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §24</text>
+      <text x="299.8" y="631.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">평가준비서 작성·제출</tspan></text>
+      <text x="299.8" y="656.5" font-size="11" font-weight="650" fill="#3b4a43">기한 · 내부 목표 30일</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P03" data-basis="환경영향평가법:제24조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="574.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="574.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="594.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P03</text>
+      
+      <rect x="1252.8" y="581.5" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="598.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §24</text>
+      <text x="1066.8" y="631.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">평가항목·범위·방법 심의</tspan></text>
+      <text x="1066.8" y="656.5" font-size="11" font-weight="650" fill="#3b4a43">기한 · 목표 30일</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P04" data-basis="환경영향평가법:제27조 환경영향평가법시행령:제34조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="747.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="747.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="767.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P04</text>
+      
+      <rect x="468.8" y="754.5" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="771.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §27 +1</text>
+      <text x="299.8" y="804.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">현황조사·영향예측</tspan></text>
+      <text x="299.8" y="829.5" font-size="11" font-weight="650" fill="#3b4a43">기한 · 목표 60일</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P05" data-basis="환경영향평가법:제25조 환경영향평가법시행령:제34조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="861.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="861.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="881.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P05</text>
+      
+      <rect x="468.8" y="868.5" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="885.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §25 +1</text>
+      <text x="299.8" y="918.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">평가서 초안 확정 총괄</tspan></text>
+      <text x="299.8" y="943.5" font-size="11" font-weight="650" fill="#3b4a43">기한 · 목표 45일</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P06" data-basis="환경영향평가법:제25조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1034.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1034.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1054.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P06</text>
+      
+      <rect x="852.3" y="1041.5" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="1058.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §25 +1</text>
+      <text x="683.3" y="1091.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">초안 공고·공람</tspan></text>
+      <text x="683.3" y="1116.5" font-size="11" font-weight="650" fill="#3b4a43">기한 · 초안 접수 후 10일 내 공고 / 20~60일…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P07" data-basis="환경영향평가법:제25조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="1207.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="1207.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="1227.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P07</text>
+      
+      <rect x="1619.3" y="1214.5" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1657.3" y="1231.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §25 +1</text>
+      <text x="1450.3" y="1264.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">주민의견 제출·공청회 요구</tspan></text>
+      <text x="1450.3" y="1289.5" font-size="11" font-weight="650" fill="#3b4a43">기한 · 공람기간 및 의견제출기간</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P08" data-basis="환경영향평가법:제25조 환경영향평가법:제27조 환경영향평가법시행령:제46조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1207.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1207.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1227.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P08</text>
+      
+      <rect x="468.8" y="1214.5" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="1231.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §25 +2</text>
+      <text x="299.8" y="1264.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">의견반영·본안 작성</tspan></text>
+      <text x="299.8" y="1289.5" font-size="11" font-weight="650" fill="#3b4a43">사업자</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P09" data-basis="환경영향평가법:제27조 환경영향평가법시행령:제47조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1207.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1207.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1227.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P09</text>
+      
+      <rect x="852.3" y="1214.5" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="1231.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §27 +1</text>
+      <text x="683.3" y="1264.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">협의 요청 공문 발송</tspan></text>
+      <text x="683.3" y="1289.5" font-size="11" font-weight="650" fill="#3b4a43">기한 · 평가서 접수 후 10일 이내 협의요청(영…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P10" data-basis="환경영향평가법:제28조 환경영향평가법시행령:제48조 환경영향평가법시행령:제50조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1380.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1380.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1400.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P10</text>
+      
+      <rect x="1235.8" y="1387.5" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1404.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §28 +2</text>
+      <text x="1066.8" y="1437.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">평가서 접수·내용검토</tspan></text>
+      <text x="1066.8" y="1462.5" font-size="11" font-weight="650" fill="#3b4a43">기한 · 협의요청 후 45일, 연장 시 60일(영 제…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P11" data-basis="환경영향평가법:제28조 환경영향평가법시행령:제48조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1494.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1494.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1514.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P11</text>
+      
+      <rect x="1235.8" y="1501.5" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1518.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §28 +1</text>
+      <text x="1066.8" y="1551.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">전문검토서 작성</tspan></text>
+      <text x="1066.8" y="1576.5" font-size="11" font-weight="650" fill="#3b4a43">전문검토기관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P12" data-basis="환경영향평가법:제28조 환경영향평가법시행령:제48조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1608.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1608.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1628.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P12</text>
+      
+      <rect x="1235.8" y="1615.5" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1632.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §28 +3</text>
+      <text x="1066.8" y="1665.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">보완·반려·재검토 판단</tspan></text>
+      <text x="1066.8" y="1690.5" font-size="11" font-weight="650" fill="#3b4a43">협의기관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P13" data-basis="환경영향평가법:제28조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1494.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1494.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1514.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P13</text>
+      
+      <rect x="485.8" y="1501.5" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="1518.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §28</text>
+      <text x="299.8" y="1551.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">보완서·수정평가서 작성</tspan></text>
+      <text x="299.8" y="1576.5" font-size="11" font-weight="650" fill="#3b4a43">사업자/평가대행자</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P14" data-basis="환경영향평가법:제29조 환경영향평가법시행령:제50조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1781.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1781.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1801.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P14</text>
+      
+      <rect x="1235.8" y="1788.5" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1805.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §29 +1</text>
+      <text x="1066.8" y="1838.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">협의내용 통보</tspan></text>
+      <text x="1066.8" y="1863.5" font-size="11" font-weight="650" fill="#3b4a43">기한 · 협의요청 후 45일 이내(영 제50조)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P15" data-basis="환경영향평가법:제30조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1781.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1781.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1801.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P15</text>
+      
+      <rect x="852.3" y="1788.5" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="1805.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §30 +1</text>
+      <text x="683.3" y="1838.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">협의내용 반영 확인·승인</tspan></text>
+      <text x="683.3" y="1863.5" font-size="11" font-weight="650" fill="#3b4a43">승인기관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P16" data-basis="환경영향평가법:제35조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1954.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1954.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1974.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P16</text>
+      
+      <rect x="485.8" y="1961.5" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="1978.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §35</text>
+      <text x="299.8" y="2011.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">착공 전 이행계획·관리대장</tspan></text>
+      <text x="299.8" y="2036.5" font-size="11" font-weight="650" fill="#3b4a43">사업자</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P17" data-basis="환경영향평가법:제36조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="2068.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="2068.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="2088.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P17</text>
+      
+      <rect x="485.8" y="2075.5" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="2092.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §36</text>
+      <text x="299.8" y="2125.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">사후환경영향조사 실시</tspan></text>
+      <text x="299.8" y="2150.5" font-size="11" font-weight="650" fill="#3b4a43">사업자</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="S01" data-basis="환경영향평가법및하위법령:" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="1034.5" width="270" height="90" rx="8" fill="#f2f6ff" stroke="#2456d6" stroke-width="2.3"/>
+      <rect x="1435.3" y="1034.5" width="6" height="90" rx="3" fill="#2456d6"/>
+      <text x="1450.3" y="1054.5" class="mono" font-size="12.5" font-weight="750" fill="#2456d6">▣ S01</text>
+      
+      <rect x="1645.3" y="1041.5" width="50" height="24" rx="5" fill="#2456d6" opacity="0.14"/>
+      <text x="1670.3" y="1058.5" text-anchor="middle" font-size="12" font-weight="800" fill="#14306f">령 §</text>
+      <text x="1450.3" y="1091.5" font-size="15.5" font-weight="800" fill="#14306f"><tspan x="1450.3" dy="0">초안·공람자료 공개</tspan></text>
+      <text x="1450.3" y="1116.5" font-size="11" font-weight="650" fill="#2456d6">정보지원시스템</text>
+    </g>
+  
+
+</svg>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"law":{"lawId":"002016","mst":"276833","name":"환경영향평가법","kind":"법률","tier":"statute","effectiveOn":"2025-10-23","officialUrl":"https://www.law.go.kr/법령/환경영향평가법"},"flows":[{"slug":"environmental-impact-assessment","name":"환경영향평가","oneLiner":"개발사업이 환경에 미칠 영향을 사업 승인 전에 조사·평가하고, 협의기관과 협의해 저감방안을 사업계획에 반영시키는 제도","citingSteps":16,"totalSteps":18,"articles":{"제24조":2,"제27조":3,"제25조":4,"제28조":4,"제29조":1,"제30조":1,"제35조":1,"제36조":1}}],"current":"$0:rsc:props:children:0:props:flows:0","asOfDate":"2026-10-31","reviewNote":"주요 절차를 요약한 참고 모델입니다. 모든 예외·위임규정의 현행성까지 전수 검증한 자료는 아닙니다. 법령 체계의 보관 자료와 현행 원문은 다를 수 있습니다.","svg":"$3","nodes":[{"id":"P01","name":"대상사업 여부 검토","lane":"사업자/시행자","stage":"G0 대상판정","type":"gateway","status":"done","progress":100,"actor":"사업자","action":"대상판정","output_documents":["대상판정표","인허가 매트릭스"],"deadline":"내부 목표 7일","blocker":null,"confidence":0.92,"legal_basis":[{"law":"환경영향평가법 및 하위법령","article":"대상사업 관련 조문·시행령 별표","text":"사업유형과 규모가 환경영향평가 대상인지 검토한다."}]},{"id":"P02","name":"평가준비서 작성·제출","lane":"사업자/시행자","stage":"G1 착수·스코핑","type":"task","status":"done","progress":100,"actor":"사업자","receiver":"승인기관","action":"작성·제출","output_documents":["평가준비서"],"deadline":"내부 목표 30일","confidence":0.9,"legal_basis":[{"law":"환경영향평가법","article":"제24조","text":"환경영향평가항목등의 결정을 위해 평가준비서를 작성한다."}]},{"id":"P03","name":"평가항목·범위·방법 심의","lane":"위원회/협의회","stage":"G1 착수·스코핑","type":"gateway","status":"done","progress":100,"actor":"환경영향평가협의회","action":"심의","output_documents":["평가항목 결정내용","심의결과"],"deadline":"목표 30일","confidence":0.88,"legal_basis":[{"law":"환경영향평가법","article":"제24조","text":"환경영향평가협의회의 심의를 거쳐 평가 항목·범위·방법을 결정한다."}]},{"id":"P04","name":"현황조사·영향예측","lane":"평가대행자","stage":"G2 조사·초안","type":"task","status":"risk","progress":72,"actor":"평가대행자","action":"조사·예측","output_documents":["현황조사 결과","영향예측표"],"deadline":"목표 60일","blocker":"계절조사 1회 미완료","confidence":0.82,"legal_basis":[{"law":"환경영향평가법","article":"제27조","text":"평가서 작성을 위해 환경현황을 조사하고 영향을 예측한다."},{"law":"환경영향평가법 시행령","article":"제34조","text":"초안에 조사·예측·평가 결과와 사후조사계획 등을 포함한다."}]},{"id":"P05","name":"평가서 초안 확정 총괄","lane":"사업자/시행자","stage":"G2 조사·초안","type":"task","status":"current","progress":62,"actor":"사업자","action":"초안 확정","input_documents":["현황조사 결과","평가항목 결정내용"],"output_documents":["평가서 초안","요약문","도면"],"deadline":"목표 45일","blocker":"수질·소음 저감방안 미확정","confidence":0.86,"legal_basis":[{"law":"환경영향평가법","article":"제25조제1항","text":"결정된 평가항목에 따라 환경영향평가서 초안을 작성한다."},{"law":"환경영향평가법 시행령","article":"제34조","text":"초안에 요약문·현황·평가결과·대안 등을 포함한다."}]},{"id":"P06","name":"초안 공고·공람","lane":"관할 지자체","stage":"G3 공고·공람","type":"notice","status":"waiting","progress":0,"actor":"시장·군수·구청장","action":"공고·공람","input_documents":["평가서 초안","요약문"],"output_documents":["공고문","공람대장"],"deadline":"초안 접수 후 10일 내 공고 / 20~60일 공람","blocker":"초안 미접수","confidence":0.9,"legal_basis":[{"law":"환경영향평가법","article":"제25조제2항","text":"주민에 대한 공고·공람은 사업지역 관할 시장·군수·구청장이 한다."},{"law":"환경영향평가법","article":"제25조제6항","text":"공고·공람의 방법 등은 대통령령으로 정한다."}]},{"id":"P07","name":"주민의견 제출·공청회 요구","lane":"주민/이해관계자","stage":"G4 의견수렴·본안","type":"task","status":"waiting","progress":0,"actor":"주민","action":"의견 제출","input_documents":["평가서 초안","공고문"],"output_documents":["주민의견서","공청회 요구"],"deadline":"공람기간 및 의견제출기간","confidence":0.84,"legal_basis":[{"law":"환경영향평가법","article":"제25조제1항","text":"주민 등은 초안을 열람하고 의견을 제출할 수 있다."},{"law":"환경영향평가법","article":"제25조제3항","text":"다른 법령에 따라 20일 이상 의견을 수렴한 경우 이를 준용한 것으로 본다."}]},{"id":"P08","name":"의견반영·본안 작성","lane":"사업자/시행자","stage":"G4 의견수렴·본안","type":"task","status":"waiting","progress":0,"actor":"사업자","action":"본안 작성","input_documents":["주민의견서","관계기관 의견"],"output_documents":["환경영향평가서 본안","의견반영표"],"confidence":0.82,"legal_basis":[{"law":"환경영향평가법","article":"제25조제4항","text":"의견 수렴 결과와 반영 여부를 대통령령으로 정하는 방법으로 공개한다."},{"law":"환경영향평가법","article":"제27조","text":"의견 수렴 결과를 반영하여 환경영향평가서를 작성한다."},{"law":"환경영향평가법 시행령","article":"제46조","text":"평가서에 항목 결정내용·주민의견 검토내용·부록 등을 포함한다."}]},{"id":"P09","name":"협의 요청 공문 발송","lane":"승인기관","stage":"G4 의견수렴·본안","type":"task","status":"waiting","progress":0,"actor":"승인기관","receiver":"협의기관","action":"협의 요청","input_documents":["환경영향평가서 본안","검토의견"],"output_documents":["협의요청 공문"],"confidence":0.9,"legal_basis":[{"law":"환경영향평가법","article":"제27조제1항","text":"승인기관장등은 승인 전에 협의기관에 협의를 요청한다."},{"law":"환경영향평가법 시행령","article":"제47조제3항","text":"승인기관의 장은 평가서를 제출받은 날부터 10일 이내에 협의를 요청한다."}],"deadline":"평가서 접수 후 10일 이내 협의요청(영 제47조제3항)"},{"id":"P10","name":"평가서 접수·내용검토","lane":"협의기관","stage":"G5 협의검토·보완","type":"task","status":"waiting","progress":0,"actor":"협의기관","action":"검토","input_documents":["환경영향평가서 본안","협의요청 공문"],"output_documents":["검토의견"],"deadline":"협의요청 후 45일, 연장 시 60일(영 제50조)","confidence":0.88,"legal_basis":[{"law":"환경영향평가법","article":"제28조제1항","text":"협의기관은 주민의견 수렴 절차 이행 여부와 평가서 내용을 검토한다."},{"law":"환경영향평가법 시행령","article":"제48조","text":"형식요건·의견수렴 이행·내용 타당성을 검토한다."},{"law":"환경영향평가법 시행령","article":"제50조","text":"협의 통보기간은 45일(연장 시 60일)로 한다."}]},{"id":"P11","name":"전문검토서 작성","lane":"전문검토기관/관계기관","stage":"G5 협의검토·보완","type":"task","status":"waiting","progress":0,"actor":"전문검토기관","action":"전문검토","input_documents":["평가서 본안"],"output_documents":["전문검토서","관계기관 의견"],"blocker":"검토의뢰 전","confidence":0.8,"legal_basis":[{"law":"환경영향평가법","article":"제28조제2항","text":"검토 시 한국환경연구원 등 전문기관의 의견을 들어야 한다."},{"law":"환경영향평가법 시행령","article":"제48조제2항","text":"전문기관은 제23조제2항 각 호의 기관으로 한다."}]},{"id":"P12","name":"보완·반려·재검토 판단","lane":"협의기관","stage":"G5 협의검토·보완","type":"gateway","status":"waiting","progress":0,"actor":"협의기관","action":"판단","condition":"보완 필요 여부(2회 한정), 반려 사유, 사업계획 재검토 필요성","output_documents":["보완요청서","반려통보","재검토 통보"],"confidence":0.86,"legal_basis":[{"law":"환경영향평가법","article":"제28조제3항","text":"보완·조정 요청은 두 차례만 할 수 있다."},{"law":"환경영향평가법","article":"제28조제4항","text":"중요 사항 누락·거짓 작성 시 평가서를 반려할 수 있다."},{"law":"환경영향평가법","article":"제28조제5항","text":"환경훼손 우려 등의 경우 사업 규모·내용·시행시기 재검토를 통보할 수 있다."},{"law":"환경영향평가법 시행령","article":"제48조제6항","text":"거짓 작성 반려 시 전문위원회 검토와 환경영향평가협의회 심의를 거친다."}]},{"id":"P13","name":"보완서·수정평가서 작성","lane":"사업자/시행자","stage":"G5 협의검토·보완","type":"task","status":"loop","progress":0,"actor":"사업자/평가대행자","action":"보완","input_documents":["보완요청서"],"output_documents":["보완서","수정평가서"],"blocker":"조건부 회귀 단계","confidence":0.78,"legal_basis":[{"law":"환경영향평가법","article":"제28조제3항","text":"보완·조정 요청을 받으면 보완자료를 작성하여 재제출한다."}]},{"id":"P14","name":"협의내용 통보","lane":"협의기관","stage":"G6 협의통보·승인","type":"task","status":"waiting","progress":0,"actor":"협의기관","receiver":"승인기관","action":"통보","output_documents":["협의내용 통보서"],"confidence":0.89,"legal_basis":[{"law":"환경영향평가법","article":"제29조","text":"협의기관은 협의내용을 승인기관장등에게 통보한다."},{"law":"환경영향평가법 시행령","article":"제50조","text":"협의내용 통보기간은 45일(연장 시 60일)로 한다."}],"deadline":"협의요청 후 45일 이내(영 제50조)"},{"id":"P15","name":"협의내용 반영 확인·승인","lane":"승인기관","stage":"G6 협의통보·승인","type":"gateway","status":"waiting","progress":0,"actor":"승인기관","action":"반영 확인·승인","input_documents":["협의내용 통보서","수정 사업계획"],"output_documents":["승인서","승인조건","반영결과"],"confidence":0.88,"legal_basis":[{"law":"환경영향평가법","article":"제30조제2항","text":"승인기관은 승인 전 협의내용 반영 여부를 확인한다."},{"law":"환경영향평가법","article":"제30조제3항","text":"승인 후 협의내용 반영 결과를 협의기관에 통보한다."}]},{"id":"P16","name":"착공 전 이행계획·관리대장","lane":"사업자/시행자","stage":"G7 이행·사후관리","type":"task","status":"waiting","progress":0,"actor":"사업자","action":"이행계획 수립","output_documents":["이행계획","관리대장","관리책임자 지정"],"confidence":0.8,"legal_basis":[{"law":"환경영향평가법","article":"제35조","text":"사업자는 협의내용의 이행을 관리하고 필요한 조치를 한다."}]},{"id":"P17","name":"사후환경영향조사 실시","lane":"사업자/시행자","stage":"G7 이행·사후관리","type":"task","status":"waiting","progress":0,"actor":"사업자","action":"사후조사","output_documents":["사후환경영향조사서","조치결과 보고"],"confidence":0.84,"legal_basis":[{"law":"환경영향평가법","article":"제36조","text":"사업자는 사후환경영향조사를 실시하고 필요한 조치를 한다."}]},{"id":"S01","name":"초안·공람자료 공개","lane":"정보시스템","stage":"G3 공고·공람","type":"system","status":"waiting","progress":0,"actor":"정보지원시스템","action":"공개","input_documents":["평가서 초안","공고문"],"output_documents":["공개 게시자료"],"confidence":0.76,"legal_basis":[{"law":"환경영향평가법 및 하위법령","article":"정보지원시스템 관련 조문","text":"공고·공람 내용 및 초안 자료를 정보지원시스템에 게시한다.","unverified":true}]}],"edges":[{"id":"E01","source":"P01","target":"P02","type":"sequence","label":null},{"id":"E02","source":"P02","target":"P03","type":"sequence","label":null},{"id":"E03","source":"P03","target":"P04","type":"sequence","label":null},{"id":"E04","source":"P04","target":"P05","type":"sequence","label":null},{"id":"E05","source":"P05","target":"P06","type":"sequence","label":null},{"id":"E06","source":"P06","target":"P07","type":"sequence","label":null},{"id":"E07","source":"P07","target":"P08","type":"sequence","label":null},{"id":"E08","source":"P08","target":"P09","type":"sequence","label":null},{"id":"E09","source":"P09","target":"P10","type":"sequence","label":null},{"id":"E10","source":"P10","target":"P11","type":"sequence","label":null},{"id":"E11","source":"P11","target":"P12","type":"sequence","label":null},{"id":"E12","source":"P12","target":"P14","type":"sequence","label":null},{"id":"E13","source":"P14","target":"P15","type":"sequence","label":null},{"id":"E14","source":"P15","target":"P16","type":"sequence","label":null},{"id":"E15","source":"P16","target":"P17","type":"sequence","label":null},{"id":"M01","source":"P05","target":"S01","type":"message","label":"초안 공개자료"},{"id":"M02","source":"P06","target":"P07","type":"message","label":"공고·공람"},{"id":"M03","source":"P11","target":"P12","type":"message","label":"전문검토"},{"id":"L01","source":"P12","target":"P13","type":"loop","label":"보완 필요"},{"id":"L02","source":"P13","target":"P09","type":"loop","label":"보완 재제출"}],"lawContext":{"byNode":{"P01":[{"law":"환경영향평가법 및 하위법령","article":"대상사업 관련 조문·시행령 별표","text":"사업유형과 규모가 환경영향평가 대상인지 검토한다.","found":false,"lawId":null,"tier":null,"articles":[]}],"P02":[{"law":"환경영향평가법","article":"제24조","text":"환경영향평가항목등의 결정을 위해 평가준비서를 작성한다.","found":true,"lawId":"002016","tier":"statute","articles":[{"label":"제24조","title":"평가 항목ㆍ범위 등의 결정","officialUrl":"https://www.law.go.kr/법령/환경영향평가법/제24조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 기간","lawName":"환경영향평가법 시행령","label":"제32조","title":"평가준비서의 심의기간 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 기간 내에","lawName":"환경영향평가법 시행령","label":"제32조","title":"평가준비서의 심의기간 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 방법에","lawName":"환경영향평가법 시행령","label":"제33조","title":"환경영향평가항목등의 결정내용 공개 등","tier":"decree"},{"kind":"rule","phrase":"기후에너지환경부령","lawName":"환경영향평가법 시행규칙","label":"제8조","title":"환경영향평가 평가준비서의 작성방법 등","tier":"rule"},{"kind":"decree","phrase":"대통령령으로 정하고","lawName":"환경영향평가법 시행령","label":"제33조","title":"환경영향평가항목등의 결정내용 공개 등","tier":"decree"}]}]}],"P03":[{"law":"환경영향평가법","article":"제24조","text":"환경영향평가협의회의 심의를 거쳐 평가 항목·범위·방법을 결정한다.","found":true,"lawId":"002016","tier":"statute","articles":[{"label":"제24조","title":"평가 항목ㆍ범위 등의 결정","officialUrl":"https://www.law.go.kr/법령/환경영향평가법/제24조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 기간","lawName":"환경영향평가법 시행령","label":"제32조","title":"평가준비서의 심의기간 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 기간 내에","lawName":"환경영향평가법 시행령","label":"제32조","title":"평가준비서의 심의기간 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 방법에","lawName":"환경영향평가법 시행령","label":"제33조","title":"환경영향평가항목등의 결정내용 공개 등","tier":"decree"},{"kind":"rule","phrase":"기후에너지환경부령","lawName":"환경영향평가법 시행규칙","label":"제8조","title":"환경영향평가 평가준비서의 작성방법 등","tier":"rule"},{"kind":"decree","phrase":"대통령령으로 정하고","lawName":"환경영향평가법 시행령","label":"제33조","title":"환경영향평가항목등의 결정내용 공개 등","tier":"decree"}]}]}],"P04":[{"law":"환경영향평가법","article":"제27조","text":"평가서 작성을 위해 환경현황을 조사하고 영향을 예측한다.","found":true,"lawId":"002016","tier":"statute","articles":[{"label":"제27조","title":"환경영향평가서의 작성 및 협의 요청 등","officialUrl":"https://www.law.go.kr/법령/환경영향평가법/제27조","up":[],"down":[{"kind":"decree","phrase":"제출방법 등은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제46조","title":"환경영향평가서의 작성 등","tier":"decree"},{"kind":"decree","phrase":"제출방법 등은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제47조","title":"환경영향평가서의 제출방법 및 협의 요청시기 등","tier":"decree"}]}]},{"law":"환경영향평가법 시행령","article":"제34조","text":"초안에 조사·예측·평가 결과와 사후조사계획 등을 포함한다.","found":true,"lawId":"002016","tier":"decree","articles":[{"label":"제34조","title":"환경영향평가서 초안의 작성","officialUrl":"https://www.law.go.kr/법령/환경영향평가법시행령/제34조","up":[{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법","label":"제25조제6항","title":"주민 등의 의견 수렴","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"환경영향평가서 초안의 작성방법에 관한 세부 사항은 기후에너지환경부장관이 정하여 고시한다","lawName":"환경영향평가서등 작성 등에 관한 규정","label":null,"title":null,"tier":"adminRule"}]}]}],"P05":[{"law":"환경영향평가법","article":"제25조제1항","text":"결정된 평가항목에 따라 환경영향평가서 초안을 작성한다.","found":true,"lawId":"002016","tier":"statute","articles":[{"label":"제25조","title":"주민 등의 의견 수렴","officialUrl":"https://www.law.go.kr/법령/환경영향평가법/제25조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"환경영향평가법 시행령","label":"제43조","title":"주민 등의 의견 수렴 결과 및 반영 여부 공개","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"환경영향평가법 시행령","label":"제31조","title":"환경영향평가의 대상사업 및 범위","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제34조","title":"환경영향평가서 초안의 작성","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제35조","title":"환경영향평가서 초안의 제출방법 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제36조","title":"환경영향평가서 초안의 공고ㆍ공람 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제37조","title":"승인기관장등에 의한 공고 및 공람 절차의 대행","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제38조","title":"주민 등의 의견제출 방법 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제39조","title":"설명회의 개최","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제40조","title":"공청회의 개최 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제41조","title":"설명회 또는 공청회의 생략","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제41조의2","title":"온라인 설명회 또는 온라인 공청회의 개최","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제42조","title":"관계 전문가 등의 의견 수렴이 필요한 지역","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제44조","title":"환경영향평가서 초안의 작성 등의 생략절차","tier":"decree"}]}]},{"law":"환경영향평가법 시행령","article":"제34조","text":"초안에 요약문·현황·평가결과·대안 등을 포함한다.","found":true,"lawId":"002016","tier":"decree","articles":[{"label":"제34조","title":"환경영향평가서 초안의 작성","officialUrl":"https://www.law.go.kr/법령/환경영향평가법시행령/제34조","up":[{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법","label":"제25조제6항","title":"주민 등의 의견 수렴","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"환경영향평가서 초안의 작성방법에 관한 세부 사항은 기후에너지환경부장관이 정하여 고시한다","lawName":"환경영향평가서등 작성 등에 관한 규정","label":null,"title":null,"tier":"adminRule"}]}]}],"P06":[{"law":"환경영향평가법","article":"제25조제2항","text":"주민에 대한 공고·공람은 사업지역 관할 시장·군수·구청장이 한다.","found":true,"lawId":"002016","tier":"statute","articles":[{"label":"제25조","title":"주민 등의 의견 수렴","officialUrl":"https://www.law.go.kr/법령/환경영향평가법/제25조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"환경영향평가법 시행령","label":"제43조","title":"주민 등의 의견 수렴 결과 및 반영 여부 공개","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"환경영향평가법 시행령","label":"제31조","title":"환경영향평가의 대상사업 및 범위","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제34조","title":"환경영향평가서 초안의 작성","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제35조","title":"환경영향평가서 초안의 제출방법 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제36조","title":"환경영향평가서 초안의 공고ㆍ공람 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제37조","title":"승인기관장등에 의한 공고 및 공람 절차의 대행","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제38조","title":"주민 등의 의견제출 방법 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제39조","title":"설명회의 개최","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제40조","title":"공청회의 개최 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제41조","title":"설명회 또는 공청회의 생략","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제41조의2","title":"온라인 설명회 또는 온라인 공청회의 개최","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제42조","title":"관계 전문가 등의 의견 수렴이 필요한 지역","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제44조","title":"환경영향평가서 초안의 작성 등의 생략절차","tier":"decree"}]}]},{"law":"환경영향평가법","article":"제25조제6항","text":"공고·공람의 방법 등은 대통령령으로 정한다.","found":true,"lawId":"002016","tier":"statute","articles":[{"label":"제25조","title":"주민 등의 의견 수렴","officialUrl":"https://www.law.go.kr/법령/환경영향평가법/제25조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"환경영향평가법 시행령","label":"제43조","title":"주민 등의 의견 수렴 결과 및 반영 여부 공개","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"환경영향평가법 시행령","label":"제31조","title":"환경영향평가의 대상사업 및 범위","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제34조","title":"환경영향평가서 초안의 작성","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제35조","title":"환경영향평가서 초안의 제출방법 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제36조","title":"환경영향평가서 초안의 공고ㆍ공람 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제37조","title":"승인기관장등에 의한 공고 및 공람 절차의 대행","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제38조","title":"주민 등의 의견제출 방법 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제39조","title":"설명회의 개최","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제40조","title":"공청회의 개최 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제41조","title":"설명회 또는 공청회의 생략","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제41조의2","title":"온라인 설명회 또는 온라인 공청회의 개최","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제42조","title":"관계 전문가 등의 의견 수렴이 필요한 지역","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제44조","title":"환경영향평가서 초안의 작성 등의 생략절차","tier":"decree"}]}]}],"P07":[{"law":"환경영향평가법","article":"제25조제1항","text":"주민 등은 초안을 열람하고 의견을 제출할 수 있다.","found":true,"lawId":"002016","tier":"statute","articles":[{"label":"제25조","title":"주민 등의 의견 수렴","officialUrl":"https://www.law.go.kr/법령/환경영향평가법/제25조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"환경영향평가법 시행령","label":"제43조","title":"주민 등의 의견 수렴 결과 및 반영 여부 공개","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"환경영향평가법 시행령","label":"제31조","title":"환경영향평가의 대상사업 및 범위","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제34조","title":"환경영향평가서 초안의 작성","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제35조","title":"환경영향평가서 초안의 제출방법 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제36조","title":"환경영향평가서 초안의 공고ㆍ공람 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제37조","title":"승인기관장등에 의한 공고 및 공람 절차의 대행","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제38조","title":"주민 등의 의견제출 방법 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제39조","title":"설명회의 개최","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제40조","title":"공청회의 개최 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제41조","title":"설명회 또는 공청회의 생략","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제41조의2","title":"온라인 설명회 또는 온라인 공청회의 개최","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제42조","title":"관계 전문가 등의 의견 수렴이 필요한 지역","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제44조","title":"환경영향평가서 초안의 작성 등의 생략절차","tier":"decree"}]}]},{"law":"환경영향평가법","article":"제25조제3항","text":"다른 법령에 따라 20일 이상 의견을 수렴한 경우 이를 준용한 것으로 본다.","found":true,"lawId":"002016","tier":"statute","articles":[{"label":"제25조","title":"주민 등의 의견 수렴","officialUrl":"https://www.law.go.kr/법령/환경영향평가법/제25조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"환경영향평가법 시행령","label":"제43조","title":"주민 등의 의견 수렴 결과 및 반영 여부 공개","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"환경영향평가법 시행령","label":"제31조","title":"환경영향평가의 대상사업 및 범위","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제34조","title":"환경영향평가서 초안의 작성","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제35조","title":"환경영향평가서 초안의 제출방법 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제36조","title":"환경영향평가서 초안의 공고ㆍ공람 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제37조","title":"승인기관장등에 의한 공고 및 공람 절차의 대행","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제38조","title":"주민 등의 의견제출 방법 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제39조","title":"설명회의 개최","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제40조","title":"공청회의 개최 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제41조","title":"설명회 또는 공청회의 생략","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제41조의2","title":"온라인 설명회 또는 온라인 공청회의 개최","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제42조","title":"관계 전문가 등의 의견 수렴이 필요한 지역","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제44조","title":"환경영향평가서 초안의 작성 등의 생략절차","tier":"decree"}]}]}],"P08":[{"law":"환경영향평가법","article":"제25조제4항","text":"의견 수렴 결과와 반영 여부를 대통령령으로 정하는 방법으로 공개한다.","found":true,"lawId":"002016","tier":"statute","articles":[{"label":"제25조","title":"주민 등의 의견 수렴","officialUrl":"https://www.law.go.kr/법령/환경영향평가법/제25조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"환경영향평가법 시행령","label":"제43조","title":"주민 등의 의견 수렴 결과 및 반영 여부 공개","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"환경영향평가법 시행령","label":"제31조","title":"환경영향평가의 대상사업 및 범위","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제34조","title":"환경영향평가서 초안의 작성","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제35조","title":"환경영향평가서 초안의 제출방법 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제36조","title":"환경영향평가서 초안의 공고ㆍ공람 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제37조","title":"승인기관장등에 의한 공고 및 공람 절차의 대행","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제38조","title":"주민 등의 의견제출 방법 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제39조","title":"설명회의 개최","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제40조","title":"공청회의 개최 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제41조","title":"설명회 또는 공청회의 생략","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제41조의2","title":"온라인 설명회 또는 온라인 공청회의 개최","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제42조","title":"관계 전문가 등의 의견 수렴이 필요한 지역","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제44조","title":"환경영향평가서 초안의 작성 등의 생략절차","tier":"decree"}]}]},{"law":"환경영향평가법","article":"제27조","text":"의견 수렴 결과를 반영하여 환경영향평가서를 작성한다.","found":true,"lawId":"002016","tier":"statute","articles":[{"label":"제27조","title":"환경영향평가서의 작성 및 협의 요청 등","officialUrl":"https://www.law.go.kr/법령/환경영향평가법/제27조","up":[],"down":[{"kind":"decree","phrase":"제출방법 등은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제46조","title":"환경영향평가서의 작성 등","tier":"decree"},{"kind":"decree","phrase":"제출방법 등은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제47조","title":"환경영향평가서의 제출방법 및 협의 요청시기 등","tier":"decree"}]}]},{"law":"환경영향평가법 시행령","article":"제46조","text":"평가서에 항목 결정내용·주민의견 검토내용·부록 등을 포함한다.","found":true,"lawId":"002016","tier":"decree","articles":[{"label":"제46조","title":"환경영향평가서의 작성 등","officialUrl":"https://www.law.go.kr/법령/환경영향평가법시행령/제46조","up":[{"kind":"decree","phrase":"제출방법 등은 대통령령으로","lawName":"환경영향평가법","label":"제27조제3항","title":"환경영향평가서의 작성 및 협의 요청 등","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"그 밖에 환경영향평가서의 작성 등에 필요한 사항은 기후에너지환경부장관이 정하여 고시한다","lawName":"환경영향평가서등 작성 등에 관한 규정","label":null,"title":null,"tier":"adminRule"}]}]}],"P09":[{"law":"환경영향평가법","article":"제27조제1항","text":"승인기관장등은 승인 전에 협의기관에 협의를 요청한다.","found":true,"lawId":"002016","tier":"statute","articles":[{"label":"제27조","title":"환경영향평가서의 작성 및 협의 요청 등","officialUrl":"https://www.law.go.kr/법령/환경영향평가법/제27조","up":[],"down":[{"kind":"decree","phrase":"제출방법 등은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제46조","title":"환경영향평가서의 작성 등","tier":"decree"},{"kind":"decree","phrase":"제출방법 등은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제47조","title":"환경영향평가서의 제출방법 및 협의 요청시기 등","tier":"decree"}]}]},{"law":"환경영향평가법 시행령","article":"제47조제3항","text":"승인기관의 장은 평가서를 제출받은 날부터 10일 이내에 협의를 요청한다.","found":true,"lawId":"002016","tier":"decree","articles":[{"label":"제47조","title":"환경영향평가서의 제출방법 및 협의 요청시기 등","officialUrl":"https://www.law.go.kr/법령/환경영향평가법시행령/제47조","up":[{"kind":"decree","phrase":"제출방법 등은 대통령령으로","lawName":"환경영향평가법","label":"제27조제3항","title":"환경영향평가서의 작성 및 협의 요청 등","tier":"statute"}],"down":[]}]}],"P10":[{"law":"환경영향평가법","article":"제28조제1항","text":"협의기관은 주민의견 수렴 절차 이행 여부와 평가서 내용을 검토한다.","found":true,"lawId":"002016","tier":"statute","articles":[{"label":"제28조","title":"환경영향평가서의 검토 등","officialUrl":"https://www.law.go.kr/법령/환경영향평가법/제28조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 기관","lawName":"환경영향평가법 시행령","label":"제48조","title":"환경영향평가서의 검토 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 사업만","lawName":"환경영향평가법 시행령","label":"제49조","title":"해양수산부장관의 의견을 들어야 하는 환경영향평가 대상사업","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"환경영향평가법 시행령","label":"제48조","title":"환경영향평가서의 검토 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제48조","title":"환경영향평가서의 검토 등","tier":"decree"}]}]},{"law":"환경영향평가법 시행령","article":"제48조","text":"형식요건·의견수렴 이행·내용 타당성을 검토한다.","found":true,"lawId":"002016","tier":"decree","articles":[{"label":"제48조","title":"환경영향평가서의 검토 등","officialUrl":"https://www.law.go.kr/법령/환경영향평가법시행령/제48조","up":[{"kind":"decree","phrase":"대통령령으로 정하는 기관","lawName":"환경영향평가법","label":"제28조제2항","title":"환경영향평가서의 검토 등","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"환경영향평가법","label":"제28조제3항","title":"환경영향평가서의 검토 등","tier":"statute"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법","label":"제28조제7항","title":"환경영향평가서의 검토 등","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"보완·조정 및 반려 등에 필요한 사항은 기후에너지환경부장관이 정한다","lawName":"환경영향평가서등에 관한 협의업무 처리규정","label":null,"title":null,"tier":"adminRule"}]}]},{"law":"환경영향평가법 시행령","article":"제50조","text":"협의 통보기간은 45일(연장 시 60일)로 한다.","found":true,"lawId":"002016","tier":"decree","articles":[{"label":"제50조","title":"협의 내용의 통보기간 등","officialUrl":"https://www.law.go.kr/법령/환경영향평가법시행령/제50조","up":[{"kind":"decree","phrase":"대통령령으로 정하는 기간 이내에","lawName":"환경영향평가법","label":"제29조제1항","title":"협의 내용의 통보기간 등","tier":"statute"}],"down":[]}]}],"P11":[{"law":"환경영향평가법","article":"제28조제2항","text":"검토 시 한국환경연구원 등 전문기관의 의견을 들어야 한다.","found":true,"lawId":"002016","tier":"statute","articles":[{"label":"제28조","title":"환경영향평가서의 검토 등","officialUrl":"https://www.law.go.kr/법령/환경영향평가법/제28조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 기관","lawName":"환경영향평가법 시행령","label":"제48조","title":"환경영향평가서의 검토 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 사업만","lawName":"환경영향평가법 시행령","label":"제49조","title":"해양수산부장관의 의견을 들어야 하는 환경영향평가 대상사업","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"환경영향평가법 시행령","label":"제48조","title":"환경영향평가서의 검토 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제48조","title":"환경영향평가서의 검토 등","tier":"decree"}]}]},{"law":"환경영향평가법 시행령","article":"제48조제2항","text":"전문기관은 제23조제2항 각 호의 기관으로 한다.","found":true,"lawId":"002016","tier":"decree","articles":[{"label":"제48조","title":"환경영향평가서의 검토 등","officialUrl":"https://www.law.go.kr/법령/환경영향평가법시행령/제48조","up":[{"kind":"decree","phrase":"대통령령으로 정하는 기관","lawName":"환경영향평가법","label":"제28조제2항","title":"환경영향평가서의 검토 등","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"환경영향평가법","label":"제28조제3항","title":"환경영향평가서의 검토 등","tier":"statute"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법","label":"제28조제7항","title":"환경영향평가서의 검토 등","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"보완·조정 및 반려 등에 필요한 사항은 기후에너지환경부장관이 정한다","lawName":"환경영향평가서등에 관한 협의업무 처리규정","label":null,"title":null,"tier":"adminRule"}]}]}],"P12":[{"law":"환경영향평가법","article":"제28조제3항","text":"보완·조정 요청은 두 차례만 할 수 있다.","found":true,"lawId":"002016","tier":"statute","articles":[{"label":"제28조","title":"환경영향평가서의 검토 등","officialUrl":"https://www.law.go.kr/법령/환경영향평가법/제28조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 기관","lawName":"환경영향평가법 시행령","label":"제48조","title":"환경영향평가서의 검토 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 사업만","lawName":"환경영향평가법 시행령","label":"제49조","title":"해양수산부장관의 의견을 들어야 하는 환경영향평가 대상사업","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"환경영향평가법 시행령","label":"제48조","title":"환경영향평가서의 검토 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제48조","title":"환경영향평가서의 검토 등","tier":"decree"}]}]},{"law":"환경영향평가법","article":"제28조제4항","text":"중요 사항 누락·거짓 작성 시 평가서를 반려할 수 있다.","found":true,"lawId":"002016","tier":"statute","articles":[{"label":"제28조","title":"환경영향평가서의 검토 등","officialUrl":"https://www.law.go.kr/법령/환경영향평가법/제28조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 기관","lawName":"환경영향평가법 시행령","label":"제48조","title":"환경영향평가서의 검토 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 사업만","lawName":"환경영향평가법 시행령","label":"제49조","title":"해양수산부장관의 의견을 들어야 하는 환경영향평가 대상사업","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"환경영향평가법 시행령","label":"제48조","title":"환경영향평가서의 검토 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제48조","title":"환경영향평가서의 검토 등","tier":"decree"}]}]},{"law":"환경영향평가법","article":"제28조제5항","text":"환경훼손 우려 등의 경우 사업 규모·내용·시행시기 재검토를 통보할 수 있다.","found":true,"lawId":"002016","tier":"statute","articles":[{"label":"제28조","title":"환경영향평가서의 검토 등","officialUrl":"https://www.law.go.kr/법령/환경영향평가법/제28조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 기관","lawName":"환경영향평가법 시행령","label":"제48조","title":"환경영향평가서의 검토 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 사업만","lawName":"환경영향평가법 시행령","label":"제49조","title":"해양수산부장관의 의견을 들어야 하는 환경영향평가 대상사업","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"환경영향평가법 시행령","label":"제48조","title":"환경영향평가서의 검토 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제48조","title":"환경영향평가서의 검토 등","tier":"decree"}]}]},{"law":"환경영향평가법 시행령","article":"제48조제6항","text":"거짓 작성 반려 시 전문위원회 검토와 환경영향평가협의회 심의를 거친다.","found":true,"lawId":"002016","tier":"decree","articles":[{"label":"제48조","title":"환경영향평가서의 검토 등","officialUrl":"https://www.law.go.kr/법령/환경영향평가법시행령/제48조","up":[{"kind":"decree","phrase":"대통령령으로 정하는 기관","lawName":"환경영향평가법","label":"제28조제2항","title":"환경영향평가서의 검토 등","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"환경영향평가법","label":"제28조제3항","title":"환경영향평가서의 검토 등","tier":"statute"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법","label":"제28조제7항","title":"환경영향평가서의 검토 등","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"보완·조정 및 반려 등에 필요한 사항은 기후에너지환경부장관이 정한다","lawName":"환경영향평가서등에 관한 협의업무 처리규정","label":null,"title":null,"tier":"adminRule"}]}]}],"P13":[{"law":"환경영향평가법","article":"제28조제3항","text":"보완·조정 요청을 받으면 보완자료를 작성하여 재제출한다.","found":true,"lawId":"002016","tier":"statute","articles":[{"label":"제28조","title":"환경영향평가서의 검토 등","officialUrl":"https://www.law.go.kr/법령/환경영향평가법/제28조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 기관","lawName":"환경영향평가법 시행령","label":"제48조","title":"환경영향평가서의 검토 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 사업만","lawName":"환경영향평가법 시행령","label":"제49조","title":"해양수산부장관의 의견을 들어야 하는 환경영향평가 대상사업","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"환경영향평가법 시행령","label":"제48조","title":"환경영향평가서의 검토 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"환경영향평가법 시행령","label":"제48조","title":"환경영향평가서의 검토 등","tier":"decree"}]}]}],"P14":[{"law":"환경영향평가법","article":"제29조","text":"협의기관은 협의내용을 승인기관장등에게 통보한다.","found":true,"lawId":"002016","tier":"statute","articles":[{"label":"제29조","title":"협의 내용의 통보기간 등","officialUrl":"https://www.law.go.kr/법령/환경영향평가법/제29조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 기간 이내에","lawName":"환경영향평가법 시행령","label":"제50조","title":"협의 내용의 통보기간 등","tier":"decree"}]}]},{"law":"환경영향평가법 시행령","article":"제50조","text":"협의내용 통보기간은 45일(연장 시 60일)로 한다.","found":true,"lawId":"002016","tier":"decree","articles":[{"label":"제50조","title":"협의 내용의 통보기간 등","officialUrl":"https://www.law.go.kr/법령/환경영향평가법시행령/제50조","up":[{"kind":"decree","phrase":"대통령령으로 정하는 기간 이내에","lawName":"환경영향평가법","label":"제29조제1항","title":"협의 내용의 통보기간 등","tier":"statute"}],"down":[]}]}],"P15":[{"law":"환경영향평가법","article":"제30조제2항","text":"승인기관은 승인 전 협의내용 반영 여부를 확인한다.","found":true,"lawId":"002016","tier":"statute","articles":[{"label":"제30조","title":"협의 내용의 반영 등","officialUrl":"https://www.law.go.kr/법령/환경영향평가법/제30조","up":[],"down":[]}]},{"law":"환경영향평가법","article":"제30조제3항","text":"승인 후 협의내용 반영 결과를 협의기관에 통보한다.","found":true,"lawId":"002016","tier":"statute","articles":[{"label":"제30조","title":"협의 내용의 반영 등","officialUrl":"https://www.law.go.kr/법령/환경영향평가법/제30조","up":[],"down":[]}]}],"P16":[{"law":"환경영향평가법","article":"제35조","text":"사업자는 협의내용의 이행을 관리하고 필요한 조치를 한다.","found":true,"lawId":"002016","tier":"statute","articles":[{"label":"제35조","title":"협의 내용의 이행 등","officialUrl":"https://www.law.go.kr/법령/환경영향평가법/제35조","up":[],"down":[{"kind":"rule","phrase":"기후에너지환경부령","lawName":"환경영향평가법 시행규칙","label":"제16조","title":"관리대장의 비치 등","tier":"rule"},{"kind":"rule","phrase":"기후에너지환경부령","lawName":"환경영향평가법 시행규칙","label":"제17조","title":"관리책임자 자격기준","tier":"rule"},{"kind":"rule","phrase":"기후에너지환경부령","lawName":"환경영향평가법 시행규칙","label":"제17조","title":"관리책임자 자격기준","tier":"rule"}]}]}],"P17":[{"law":"환경영향평가법","article":"제36조","text":"사업자는 사후환경영향조사를 실시하고 필요한 조치를 한다.","found":true,"lawId":"002016","tier":"statute","articles":[{"label":"제36조","title":"사후환경영향조사","officialUrl":"https://www.law.go.kr/법령/환경영향평가법/제36조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 방법에 따라 공개하여야","lawName":"환경영향평가법 시행령","label":"제55조의2","title":"사후환경영향조사 결과 등의 공개","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"환경영향평가법 시행령","label":"제55조의3","title":"사후환경영향조사 결과 등에 대한 검토기관","tier":"decree"},{"kind":"rule","phrase":"기후에너지환경부령","lawName":"환경영향평가법 시행규칙","label":"제19조","title":"사후환경영향조사","tier":"rule"}]}]}],"S01":[{"law":"환경영향평가법 및 하위법령","article":"정보지원시스템 관련 조문","text":"공고·공람 내용 및 초안 자료를 정보지원시스템에 게시한다.","found":false,"lawId":null,"tier":null,"articles":[]}]},"systems":{"002016":{"lawId":"002016","name":"환경영향평가법","href":"/law/002016/","ministry":"기후에너지환경부","effectiveOn":"2025-10-23","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"환경영향평가법","kind":"법률","articleCount":90,"officialUrl":"https://www.law.go.kr/법령/환경영향평가법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":90},{"tier":"decree","label":"시행령","laws":[{"name":"환경영향평가법 시행령","kind":"대통령령","articleCount":107,"officialUrl":"https://www.law.go.kr/법령/환경영향평가법시행령"}],"kinds":[{"kind":"대통령령","count":1}],"articleCount":107},{"tier":"rule","label":"시행규칙","laws":[{"name":"환경영향평가법 시행규칙","kind":"기후에너지환경부령","articleCount":54,"officialUrl":"https://www.law.go.kr/법령/환경영향평가법시행규칙"}],"kinds":[{"kind":"기후에너지환경부령","count":1}],"articleCount":54},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"환경영향평가법에 따른 행정처분의 가중처분에 관한 세부 지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/환경영향평가법에따른행정처분의가중처분에관한세부지침"},{"name":"환경영향평가서등에 관한 협의업무 처리규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/환경영향평가서등에관한협의업무처리규정"},{"name":"환경영향평가업 등록 및 관리에 관한 업무처리지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/환경영향평가업등록및관리에관한업무처리지침"},{"name":"환경영향평가기술자 인정 등의 수수료","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/환경영향평가기술자인정등의수수료"},{"name":"환경영향평가등 재대행 승인 및 관리지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/환경영향평가등재대행승인및관리지침"},{"name":"환경영향평가사 자격시험 응시 수수료","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/환경영향평가사자격시험응시수수료"},{"name":"환경영향평가사 자격증 재발급 수수료","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/환경영향평가사자격증재발급수수료"},{"name":"환경영향평가서등 작성 등에 관한 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/환경영향평가서등작성등에관한규정"},{"name":"친환경댐 건설을 위한 환경영향평가 지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/친환경댐건설을위한환경영향평가지침"},{"name":"환경영향평가 정보지원시스템 운영지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/환경영향평가정보지원시스템운영지침"},{"name":"골프장의 중점 환경영향평가항목 및 평가방법 등에 관한 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/골프장의중점환경영향평가항목및평가방법등에관한규정"},{"name":"환경영향평가기술자 교육·훈련 등에 관한 기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/환경영향평가기술자교육·훈련등에관한기준"},{"name":"환경영향평가기술자의 교육훈련 수수료 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/환경영향평가기술자의교육훈련수수료고시"},{"name":"환경영향평가기술자의 기술자격 및 학력·경력 등의 인정방법 및 절차 등의 세부기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/환경영향평가기술자의기술자격및학력·경력등의인정방법및절차등의세부기준"},{"name":"환경영향평가업 등록 등의 업무 위탁기관 지정 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/환경영향평가업등록등의업무위탁기관지정고시"},{"name":"환경영향평가업자의 사업수행능력 세부평가기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/환경영향평가업자의사업수행능력세부평가기준"},{"name":"환경영향평가등의 대행비용 산정기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/환경영향평가등의대행비용산정기준"}],"kinds":[{"kind":"고시","count":12},{"kind":"예규","count":4},{"kind":"훈령","count":1}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%ED%99%98%EA%B2%BD%EC%98%81%ED%96%A5%ED%8F%89%EA%B0%80%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":134,"rule":52,"adminRule":29,"ordinance":4,"cites":171}}}},"statusStyles":{"done":{"label":"선행","fill":"#effaf5","border":"#35a77d","ink":"#123d2e","sub":"#287a5c"},"current":{"label":"핵심","fill":"#087452","border":"#087452","ink":"#ffffff","sub":"#d8f4e8"},"waiting":{"label":"후속","fill":"#ffffff","border":"#b9c7bf","ink":"#17231d","sub":"#627169"},"risk":{"label":"병목","fill":"#fff8e8","border":"#d9901a","ink":"#7a4305","sub":"#a96008"},"loop":{"label":"회귀","fill":"#edf4ff","border":"#3478db","ink":"#173f7a","sub":"#316bbd"}},"basisLegend":[{"label":"법률","fill":"#ffffff","border":"#3b4a43"},{"label":"시행령","fill":"#f2f6ff","border":"#2456d6"},{"label":"시행규칙","fill":"#effaf6","border":"#0f9f72"},{"label":"행정규칙","fill":"#f6f2ff","border":"#7c56c9"}],"isLawIndex":true}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Eu-UvfunzEwjnKcUq5f7W"}
+4:["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","precedence":"next"}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

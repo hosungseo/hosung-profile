@@ -7,7 +7,7 @@
   const flowBase = window.K100_FLOW_BASE ?? "/lawdemo/flow";
   const indexUrl = window.K100_FLOW_INDEX_URL ?? `${base}/k100/index.json`;
   const HIDE_KEY = "k100-task-list-hide-until";
-  const GROUP_ORDER = ["국가공무원", "지방공무원", "예산·재정", "조직"];
+  const GROUP_ORDER = ["국가공무원", "지방공무원", "예산·재정", "조직", "연구행정", "민원권리", "복지고용", "국토인허가", "환경", "디지털", "기업"];
   const squash = (s) => s.replace(/\s+/g, "");
 
   const storage = {

@@ -1,0 +1,402 @@
+1:"$Sreact.fragment"
+2:I[7742,["838","static/chunks/838-9b85aecee2a13f53.js","379","static/chunks/379-f104668f756ddde1.js","227","static/chunks/app/embed/flow/%5BlawId%5D/page-b476be85089ecd29.js"],"default"]
+6:I[977,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+:HL["/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","style"]
+3:T7ff0,<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 250 1744 1960" class="pp-svg">
+<defs>
+      <filter id="card-shadow" x="-20%" y="-25%" width="140%" height="160%">
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#12271e" flood-opacity="0.10"/>
+      </filter>
+      <marker id="arrow-sequence" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#53675d" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-message" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#0f8a65" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-loop" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#3478db" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <style>
+        text { font-family: "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", sans-serif; }
+        .mono { font-family: "SFMono-Regular", "Menlo", monospace; }
+      </style>
+    </defs>
+<rect width="1800" height="2400" fill="#ffffff"/>
+
+
+
+<rect x="38" y="260" width="1724" height="1940" rx="10" fill="#ffffff" stroke="#b8c7bf" stroke-width="2"/>
+<rect x="38" y="260" width="190" height="100" rx="10" fill="#eaf2ee"/>
+<text x="58" y="299" font-size="17" font-weight="800" fill="#17231d">단계 ↓</text>
+<text x="58" y="332" font-size="15" font-weight="650" fill="#68776f">행위자 묶음 →</text>
+<rect x="38" y="360" width="1724" height="197.7" fill="#fbfcfb"/>
+<rect x="38" y="360" width="190" height="197.7" fill="#eef3f0"/>
+<text x="58" y="392" class="mono" font-size="16" font-weight="800" fill="#53645b">G0</text>
+<text x="58" y="425" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">기준 고시</tspan></text>
+<rect x="38" y="557.7" width="1724" height="311.7" fill="#f5f8f6"/>
+<rect x="38" y="557.7" width="190" height="311.7" fill="#eef3f0"/>
+<text x="58" y="589.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G1</text>
+<text x="58" y="622.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">신청·접수</tspan></text>
+<rect x="38" y="869.4" width="1724" height="197.7" fill="#fbfcfb"/>
+<rect x="38" y="869.4" width="190" height="197.7" fill="#eef3f0"/>
+<text x="58" y="901.4" class="mono" font-size="16" font-weight="800" fill="#53645b">G2</text>
+<text x="58" y="934.4" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">소득·재산 조사</tspan></text>
+<rect x="38" y="1067.1" width="1724" height="197.7" fill="#f5f8f6"/>
+<rect x="38" y="1067.1" width="190" height="197.7" fill="#eef3f0"/>
+<text x="58" y="1099.1" class="mono" font-size="16" font-weight="800" fill="#53645b">G3</text>
+<text x="58" y="1132.1" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">감액·선정 판정</tspan></text>
+<rect x="38" y="1264.9" width="1724" height="425.7" fill="#fbfcfb"/>
+<rect x="38" y="1264.9" width="190" height="425.7" fill="#eef3f0"/>
+<text x="58" y="1296.9" class="mono" font-size="16" font-weight="800" fill="#53645b">G4</text>
+<text x="58" y="1329.9" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">지급 결정·지급</tspan></text>
+<rect x="38" y="1690.6" width="1724" height="311.7" fill="#f5f8f6"/>
+<rect x="38" y="1690.6" width="190" height="311.7" fill="#eef3f0"/>
+<text x="58" y="1722.6" class="mono" font-size="16" font-weight="800" fill="#53645b">G5</text>
+<text x="58" y="1755.6" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">확인조사·변동</tspan></text>
+<rect x="38" y="2002.3" width="1724" height="197.7" fill="#fbfcfb"/>
+<rect x="38" y="2002.3" width="190" height="197.7" fill="#eef3f0"/>
+<text x="58" y="2034.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G6</text>
+<text x="58" y="2067.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">이의신청</tspan></text>
+<rect x="228" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="228" y="260" width="383.5" height="7" fill="#0f9f72"/>
+<text x="248" y="299" font-size="20" font-weight="800" fill="#17231d">신청자</text>
+<text x="248" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="248" dy="0">신청자(수급희망자)</tspan></text>
+<rect x="611.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="611.5" y="260" width="383.5" height="7" fill="#3b82f6"/>
+<text x="631.5" y="299" font-size="20" font-weight="800" fill="#17231d">읍면동·시군구</text>
+<text x="631.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="631.5" dy="0">읍면동·국민연금공단(접수) · 시군구(조사·결정)</tspan></text>
+<rect x="995" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="995" y="260" width="383.5" height="7" fill="#c78116"/>
+<text x="1015" y="299" font-size="20" font-weight="800" fill="#17231d">국민연금공단·사회보장정보원</text>
+<text x="1015" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1015" dy="0">국민연금공단(연계감액 산정) · 사회보장정보원</tspan></text>
+<rect x="1378.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="1378.5" y="260" width="383.5" height="7" fill="#0891b2"/>
+<text x="1398.5" y="299" font-size="20" font-weight="800" fill="#17231d">보건복지부</text>
+<text x="1398.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1398.5" dy="0">보건복지부(기준 고시)</tspan></text>
+<line x1="228" y1="260" x2="228" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="611.5" y1="260" x2="611.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="995" y1="260" x2="995" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1378.5" y1="260" x2="1378.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1762" y1="260" x2="1762" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#b8c7bf" stroke-width="2"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="557.7" x2="1762" y2="557.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="869.4" x2="1762" y2="869.4" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1067.1" x2="1762" y2="1067.1" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1264.9" x2="1762" y2="1264.9" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1690.6" x2="1762" y2="1690.6" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2002.3" x2="1762" y2="2002.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2200" x2="1762" y2="2200" stroke="#b8c7bf" stroke-width="2"/>
+<g class="pp-edge" data-edge-id="E01" data-source="P01" data-target="P02">
+<path d="M 1570.3 503.9 V 545.7 H 423.8 V 660.6" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1570.3 503.9 V 545.7 H 423.8 V 660.6" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E02" data-source="P02" data-target="P03">
+<path d="M 554.8 707.1 H 640.3 V 650.1 H 660.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 707.1 H 640.3 V 650.1 H 660.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E03" data-source="P03" data-target="P04">
+<path d="M 807.3 701.6 V 717.6 H 799.3 V 717.6" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 807.3 701.6 V 717.6 H 799.3 V 717.6" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E04" data-source="P04" data-target="P05">
+<path d="M 813.3 815.6 V 841.4 H 1154.8 V 915.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 813.3 815.6 V 841.4 H 1154.8 V 915.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E05" data-source="P05" data-target="P06">
+<path d="M 1051.8 970.8 H 992.3 V 986.3 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 970.8 H 992.3 V 986.3 H 946.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E06" data-source="P06" data-target="P08">
+<path d="M 783.3 1013.3 V 1055.1 H 783.3 V 1113" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 783.3 1013.3 V 1055.1 H 783.3 V 1113" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E07" data-source="P08" data-target="P09">
+<path d="M 803.3 1211 V 1252.9 H 783.3 V 1310.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 803.3 1211 V 1252.9 H 783.3 V 1310.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E08" data-source="P09" data-target="P10">
+<path d="M 797.3 1408.7 V 1424.7 H 807.3 V 1424.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 797.3 1408.7 V 1424.7 H 807.3 V 1424.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E09" data-source="P10" data-target="P11">
+<path d="M 799.3 1522.7 V 1538.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 799.3 1522.7 V 1538.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E10" data-source="P11" data-target="P12">
+<path d="M 795.3 1636.7 V 1662.6 H 797.3 V 1736.4" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 795.3 1636.7 V 1662.6 H 797.3 V 1736.4" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E11" data-source="P12" data-target="P13">
+<path d="M 823.3 1834.4 V 1850.4 H 807.3 V 1850.4" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 823.3 1834.4 V 1850.4 H 807.3 V 1850.4" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E12" data-source="P14" data-target="P15">
+<path d="M 554.8 2107.6 H 640.3 V 2094.6 H 660.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 2107.6 H 640.3 V 2094.6 H 660.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M01" data-source="P05" data-target="P07">
+<path d="M 1206.8 1013.3 V 1055.1 H 1196.8 V 1113" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1206.8 1013.3 V 1055.1 H 1196.8 V 1113" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M02" data-source="P07" data-target="P09">
+<path d="M 1176.8 1211 V 1220.9 H 841.3 V 1310.7" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1176.8 1211 V 1220.9 H 841.3 V 1310.7" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M03" data-source="P13" data-target="P10">
+<path d="M 668.3 1901.9 H 164 V 1638.6 H 827.3 V 1530.7" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 668.3 1901.9 H 164 V 1638.6 H 827.3 V 1530.7" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M04" data-source="P10" data-target="P14">
+<path d="M 668.3 1458.2 H 246 V 1678.6 H 246 V 2028.1 H 403.8 V 2048.1" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 668.3 1458.2 H 246 V 1678.6 H 246 V 2028.1 H 403.8 V 2048.1" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L01" data-source="P12" data-target="P06">
+<path d="M 668.3 1778.9 H 216 V 1031.1 H 797.3 V 1021.3" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 668.3 1778.9 H 216 V 1031.1 H 797.3 V 1021.3" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L02" data-source="P15" data-target="P08">
+<path d="M 668.3 2110.1 H 203 V 1228.9 H 811.3 V 1219" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 668.3 2110.1 H 203 V 1228.9 H 811.3 V 1219" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge-label" data-edge-id="E06" data-source="P06" data-target="P08">
+<rect x="718.8" y="1023.1" width="128.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="783.3" y="1043.1" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">소득인정액 산정</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E07" data-source="P08" data-target="P09">
+<rect x="745.3" y="1220.9" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="793.3" y="1240.9" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">선정</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E08" data-source="P09" data-target="P10">
+<rect x="1010.3" y="1405.7" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1058.3" y="1425.7" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">지급 결정</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E12" data-source="P14" data-target="P15">
+<rect x="536.6" y="1997.1" width="149.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="611.5" y="2017.1" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">이의신청 접수·심사</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M01" data-source="P05" data-target="P07">
+<rect x="1113.9" y="1023.1" width="175.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1201.8" y="1043.1" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">국민연금 수급이력 연계</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M02" data-source="P07" data-target="P09">
+<rect x="949.1" y="1224.9" width="119.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1009" y="1244.9" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">연계 감액 반영</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M03" data-source="P13" data-target="P10">
+<rect x="244.1" y="1756" width="119.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="304" y="1776" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">급여 변동 통지</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M04" data-source="P10" data-target="P14">
+<rect x="193.1" y="1838.4" width="105.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="246" y="1858.4" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">결정 불복 시</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L01" data-source="P12" data-target="P06">
+<rect x="205.1" y="1395.3" width="161.8" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="286" y="1415.3" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">소득변동 재산정 회귀</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L02" data-source="P15" data-target="P08">
+<rect x="179.2" y="1650" width="187.7" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="273" y="1670" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">취소·변경 결정 시 재판정</text>
+</g>
+
+    <g class="pp-node" data-node-id="P01" data-basis="기초연금법:제3조 기초연금법:제5조 기초연금법시행령:제4조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="413.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="413.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="433.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P01</text>
+      
+      <rect x="1626.3" y="420.9" width="69" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1660.8" y="437.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §3 +1</text>
+      <text x="1450.3" y="470.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">선정기준액·기준연금액 고시</tspan></text>
+      <text x="1450.3" y="495.9" font-size="11" font-weight="650" fill="#3b4a43">기한 · 매년 고시(연도별 적용)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P02" data-basis="기초연금법:제10조 기초연금법시행령:제13조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="668.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="668.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="688.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P02</text>
+      
+      <rect x="468.8" y="675.6" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="692.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §10 +1</text>
+      <text x="299.8" y="725.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">기초연금 신청</tspan></text>
+      <text x="299.8" y="750.6" font-size="11" font-weight="650" fill="#3b4a43">기한 · 상시(65세 생일 1개월 전부터)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P03" data-basis="기초연금법:제10조 기초연금법:제11조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="611.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="611.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="631.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P03</text>
+      
+      <rect x="869.3" y="618.6" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="635.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §10</text>
+      <text x="683.3" y="668.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">신청 접수·상담</tspan></text>
+      <text x="683.3" y="693.6" font-size="11" font-weight="650" fill="#3b4a43">기한 · 신청 당일 접수</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P04" data-basis="기초연금법:제10조 기초연금법:제11조 기초연금법:제12조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="725.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="725.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="745.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P04</text>
+      
+      <rect x="869.3" y="732.6" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="749.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §10</text>
+      <text x="683.3" y="782.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">금융정보 제공 동의·서류 접수</tspan></text>
+      <text x="683.3" y="807.6" font-size="11" font-weight="650" fill="#3b4a43">기한 · 접수 후 지체 없이 이송</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P05" data-basis="기초연금법:제12조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="923.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="923.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="943.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">▣ P05</text>
+      
+      <rect x="1252.8" y="930.3" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="947.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §12</text>
+      <text x="1066.8" y="970.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">소득·재산 공적자료</tspan><tspan x="1066.8" dy="18">조회(행복이음)</tspan></text>
+      <text x="1066.8" y="1005.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 조사기간 내 회신</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P06" data-basis="기초연금법:제2조 기초연금법:제12조 기초연금법시행규칙:제4조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="923.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="923.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="943.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P06</text>
+      
+      <rect x="859.3" y="930.3" width="69" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="893.8" y="947.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §2 +1</text>
+      <text x="683.3" y="980.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">소득인정액 산정</tspan></text>
+      <text x="683.3" y="1005.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 지급결정 기한 내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P07" data-basis="기초연금법:제5조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1121" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1121" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1141" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P07</text>
+      
+      <rect x="1259.8" y="1128" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1285.8" y="1145" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §5</text>
+      <text x="1066.8" y="1178" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">국민연금 연계 감액 산정</tspan></text>
+      <text x="1066.8" y="1203" font-size="11" font-weight="650" fill="#3b4a43">기한 · 지급결정 기한 내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P08" data-basis="기초연금법:제3조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1121" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1121" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1141" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P08</text>
+      
+      <rect x="876.3" y="1128" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="902.3" y="1145" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §3</text>
+      <text x="683.3" y="1178" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">선정기준액 이하 여부 판정</tspan></text>
+      <text x="683.3" y="1203" font-size="11" font-weight="650" fill="#3b4a43">기한 · 지급결정 기한 내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P09" data-basis="기초연금법:제5조 기초연금법:제8조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1318.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1318.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1338.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P09</text>
+      
+      <rect x="876.3" y="1325.7" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="902.3" y="1342.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §5</text>
+      <text x="683.3" y="1375.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">기준연금액 결정(감액 반영)</tspan></text>
+      <text x="683.3" y="1400.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 지급결정 기한 내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P10" data-basis="기초연금법:제13조 기초연금법시행규칙:제8조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1432.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1432.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1452.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P10</text>
+      
+      <rect x="852.3" y="1439.7" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="1456.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §13 +1</text>
+      <text x="683.3" y="1489.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">지급 결정 통지</tspan></text>
+      <text x="683.3" y="1514.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 신청일부터 30일 이내(자료 지연 시 60…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P11" data-basis="기초연금법:제14조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1546.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1546.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1566.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P11</text>
+      
+      <rect x="869.3" y="1553.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1570.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §14</text>
+      <text x="683.3" y="1603.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">매월 지급</tspan></text>
+      <text x="683.3" y="1628.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 매월 정기 지급</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P12" data-basis="기초연금법:제12조 기초연금법:제16조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1744.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1744.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1764.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P12</text>
+      
+      <rect x="869.3" y="1751.4" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1768.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §12</text>
+      <text x="683.3" y="1801.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">소득변동 확인조사</tspan></text>
+      <text x="683.3" y="1826.4" font-size="11" font-weight="650" fill="#3b4a43">기한 · 정기·수시</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P13" data-basis="기초연금법:제16조 기초연금법:제17조 기초연금법:제18조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1858.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1858.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1878.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P13</text>
+      
+      <rect x="869.3" y="1865.4" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1882.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §16</text>
+      <text x="683.3" y="1915.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">자격·급여 변동 처리</tspan></text>
+      <text x="683.3" y="1940.4" font-size="11" font-weight="650" fill="#3b4a43">기한 · 변동 확인 후 지체 없이</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P14" data-basis="기초연금법:제22조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="2056.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="2056.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="2076.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P14</text>
+      
+      <rect x="485.8" y="2063.1" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="2080.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §22</text>
+      <text x="299.8" y="2113.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">이의신청</tspan></text>
+      <text x="299.8" y="2138.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 처분을 안 날부터 90일 이내(정당한 사…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P15" data-basis="기초연금법:제22조 기초연금법시행규칙:제14조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="2056.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="2056.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="2076.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P15</text>
+      
+      <rect x="852.3" y="2063.1" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="2080.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §22 +1</text>
+      <text x="683.3" y="2113.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">이의신청 심사·재결정</tspan></text>
+      <text x="683.3" y="2138.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 접수일부터 30일 이내 결정·통지(조사…</text>
+    </g>
+  
+
+</svg>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"law":{"lawId":"012045","mst":"276657","name":"기초연금법","kind":"법률","tier":"statute","effectiveOn":"2025-10-01","officialUrl":"https://www.law.go.kr/법령/기초연금법"},"flows":[{"slug":"basic-pension","name":"기초연금","oneLiner":"65세 이상 노인 가운데 소득·재산이 적은 하위 70%에게 매달 일정액을 세금으로 지급해 노후소득을 보충하는 복지급여","citingSteps":15,"totalSteps":15,"articles":{"제3조":2,"제5조":3,"제10조":3,"제11조":2,"제12조":4,"제2조":1,"제8조":1,"제13조":1,"제14조":1,"제16조":2,"제17조":1,"제18조":1,"제22조":2}}],"current":"$0:rsc:props:children:0:props:flows:0","asOfDate":"2026-07-10","reviewNote":"주요 절차를 요약한 참고 모델입니다. 모든 예외·위임규정의 현행성까지 전수 검증한 자료는 아닙니다. 법령 체계의 보관 자료와 현행 원문은 다를 수 있습니다.","svg":"$3","nodes":[{"id":"P01","name":"선정기준액·기준연금액 고시","lane":"보건복지부(기준 고시)","stage":"G0 기준 고시","type":"task","status":"done","progress":100,"actor":"보건복지부장관","action":"심의·고시","output_documents":["선정기준액 고시","기준연금액 고시"],"deadline":"매년 고시(연도별 적용)","confidence":0.83,"legal_basis":[{"law":"기초연금법","article":"제3조, 제5조","text":"보건복지부장관은 65세 이상 중 수급자가 100분의 70 수준이 되도록 선정기준액(제3조)을, 전년도 기준연금액에 전국소비자물가변동률을 반영해 기준연금액(제5조제2항)을 매년 고시한다(제9조에 따라 5년마다 적정성 평가로 조정)."},{"law":"기초연금법 시행령","article":"제4조(선정기준액의 기준 등)","text":"선정기준액의 기준·고시 시기 및 적용기간 등 세부사항은 대통령령으로 정한다."}]},{"id":"P02","name":"기초연금 신청","lane":"신청자(수급희망자)","stage":"G1 신청·접수","type":"task","status":"done","progress":100,"actor":"본인·대리인","receiver":"읍면동·국민연금공단","action":"급여 신청","output_documents":["기초연금 신청서"],"deadline":"상시(65세 생일 1개월 전부터)","confidence":0.85,"legal_basis":[{"law":"기초연금법","article":"제10조","text":"65세 이상 본인 또는 보건복지부령으로 정하는 대리인은 급여를 신청할 수 있으며 65세 생일 1개월 전부터 신청할 수 있다."},{"law":"기초연금법 시행령","article":"제13조(기초연금 지급의 신청방법·절차)","text":"기초연금 지급 신청의 방법·절차 및 자료제공 동의의 방법·절차 등에 관하여 필요한 사항은 대통령령으로 정한다."}]},{"id":"P03","name":"신청 접수·상담","lane":"읍면동·국민연금공단(접수)","stage":"G1 신청·접수","type":"task","status":"done","progress":100,"actor":"읍·면·동·국민연금공단","action":"접수·상담","input_documents":["기초연금 신청서"],"output_documents":["접수증","구비서류 안내"],"deadline":"신청 당일 접수","confidence":0.84,"legal_basis":[{"law":"기초연금법","article":"제10조·제11조","text":"신청을 받은 특별자치시장·군수·구청장 또는 국민연금공단은 신청을 접수하고 절차를 안내한다."}]},{"id":"P04","name":"금융정보 제공 동의·서류 접수","lane":"읍면동·국민연금공단(접수)","stage":"G1 신청·접수","type":"task","status":"done","progress":100,"actor":"읍·면·동","receiver":"시군구(조사·결정)","action":"동의서·서류 접수·이송","input_documents":["금융정보 제공 동의서","소득·재산 신고서"],"output_documents":["조사 요청 자료"],"deadline":"접수 후 지체 없이 이송","confidence":0.82,"legal_basis":[{"law":"기초연금법","article":"제10조제2항·제11조·제12조","text":"신청자와 그 배우자는 금융·신용·보험정보 제공에 동의하는 서면을 제출하여야 하며(제10조제2항), 보장기관은 이를 바탕으로 자료를 요청·조사한다(제11조·제12조)."}]},{"id":"P05","name":"소득·재산 공적자료 조회(행복이음)","lane":"사회보장정보원","stage":"G2 소득·재산 조사","type":"system","status":"current","progress":55,"actor":"사회보장정보원(행복e음)","action":"소득·재산 전산조회","input_documents":["금융정보 제공 동의서","조사 요청 자료"],"output_documents":["공적자료 조회결과","금융재산 조회결과"],"deadline":"조사기간 내 회신","blocker":"금융·공적자료 회신 대기 중","confidence":0.78,"legal_basis":[{"law":"기초연금법","article":"제12조","text":"보장기관은 소득·재산을 조사하며 사회보장정보시스템을 통해 공적자료·금융정보를 조회할 수 있다."}]},{"id":"P06","name":"소득인정액 산정","lane":"시군구(조사·결정)","stage":"G2 소득·재산 조사","type":"gateway","status":"risk","progress":15,"actor":"시·군·구","action":"소득인정액 판정","condition":"소득평가액+재산의 소득환산액 산정","input_documents":["공적자료 조회결과","소득·재산 신고서"],"output_documents":["소득인정액 산정 결과"],"deadline":"지급결정 기한 내","blocker":"소득·재산 환산 방식이 복잡해 산정·탈락 혼란이 생긴다","confidence":0.77,"legal_basis":[{"law":"기초연금법","article":"제2조·제12조","text":"소득인정액은 개별가구의 소득평가액과 재산의 소득환산액을 합산하여 산정한다."},{"law":"기초연금법 시행규칙","article":"제4조","text":"재산의 소득환산액은 재산가액에서 기본재산액·부채를 공제한 뒤 재산의 소득환산율(연 100분의 4)을 적용해 12로 나누어 산정한다(법 제2조제4호 위임)."}]},{"id":"P07","name":"국민연금 연계 감액 산정","lane":"국민연금공단(연계감액 산정)","stage":"G3 감액·선정 판정","type":"task","status":"risk","progress":0,"actor":"국민연금공단","action":"연계 감액 산정","input_documents":["국민연금 수급이력"],"output_documents":["연계 감액 산정 결과"],"deadline":"지급결정 기한 내","blocker":"국민연금 연계 감액이 가입 유인을 떨어뜨린다는 비판이 있다","confidence":0.75,"legal_basis":[{"law":"기초연금법","article":"제5조","text":"국민연금 급여액 등을 고려하여 기준연금액의 일부를 감액할 수 있다."}]},{"id":"P08","name":"선정기준액 이하 여부 판정","lane":"시군구(조사·결정)","stage":"G3 감액·선정 판정","type":"gateway","status":"waiting","progress":0,"actor":"시·군·구","action":"선정 판정","condition":"소득인정액이 선정기준액 이하인지 여부(하위 70%)","input_documents":["소득인정액 산정 결과"],"output_documents":["선정 판정 결과"],"deadline":"지급결정 기한 내","confidence":0.83,"legal_basis":[{"law":"기초연금법","article":"제3조","text":"65세 이상이고 소득인정액이 선정기준액 이하인 사람을 수급권자로 한다."}]},{"id":"P09","name":"기준연금액 결정(감액 반영)","lane":"시군구(조사·결정)","stage":"G4 지급 결정·지급","type":"gateway","status":"waiting","progress":0,"actor":"시장·군수·구청장","action":"지급액 결정","condition":"기준연금액에서 국민연금 연계·부부·소득역전 감액 반영","input_documents":["선정 판정 결과","연계 감액 산정 결과"],"output_documents":["기초연금 지급 결정"],"deadline":"지급결정 기한 내","confidence":0.8,"legal_basis":[{"law":"기초연금법","article":"제5조·제8조","text":"소득역전 방지 및 부부 감액 등을 반영하여 실제 지급액을 결정한다."}]},{"id":"P10","name":"지급 결정 통지","lane":"시군구(조사·결정)","stage":"G4 지급 결정·지급","type":"notice","status":"waiting","progress":0,"actor":"시·군·구","receiver":"신청자","action":"결정 통지","output_documents":["지급 결정 통지서","이의신청 방법 안내"],"deadline":"신청일부터 30일 이내(자료 지연 시 60일)","confidence":0.83,"legal_basis":[{"law":"기초연금법","article":"제13조","text":"특별자치시장·특별자치도지사·시장·군수·구청장은 조사 후 기초연금 수급권의 발생·변경·상실 등을 결정하고, 그 결정 내용을 이유를 구체적으로 밝혀 서면으로 지체 없이 수급권자에게 통지한다."},{"law":"기초연금법 시행규칙","article":"제8조(기초연금의 지급결정 절차 및 통지)","text":"수급권의 발생·변경·상실 결정 절차 및 통지 등에 관하여 필요한 사항은 보건복지부령으로 정한다."}]},{"id":"P11","name":"매월 지급","lane":"시군구(조사·결정)","stage":"G4 지급 결정·지급","type":"task","status":"waiting","progress":0,"actor":"시·군·구","receiver":"수급자","action":"급여 지급","output_documents":["기초연금 계좌입금 내역"],"deadline":"매월 정기 지급","confidence":0.82,"legal_basis":[{"law":"기초연금법","article":"제14조","text":"기초연금은 수급권자에게 매월 정기적으로 지급한다."}]},{"id":"P12","name":"소득변동 확인조사","lane":"시군구(조사·결정)","stage":"G5 확인조사·변동","type":"task","status":"loop","progress":0,"actor":"시·군·구·사회보장정보원","action":"확인조사","output_documents":["확인조사 결과","변동 통보"],"deadline":"정기·수시","blocker":"소득·재산 변동 확인 시 재산정 회귀 단계","confidence":0.78,"legal_basis":[{"law":"기초연금법","article":"제12조·제16조","text":"보장기관은 수급자의 소득·재산 등 지급 요건의 변동을 정기·수시로 확인조사한다."}]},{"id":"P13","name":"자격·급여 변동 처리","lane":"시군구(조사·결정)","stage":"G5 확인조사·변동","type":"gateway","status":"waiting","progress":0,"actor":"시·군·구","action":"급여 변경·환수 결정","condition":"소득인정액 변동에 따른 지급 정지·변경·환수 여부","input_documents":["확인조사 결과"],"output_documents":["급여 변경·정지 통지","환수 결정(해당 시)"],"deadline":"변동 확인 후 지체 없이","confidence":0.79,"legal_basis":[{"law":"기초연금법","article":"제16조·제17조·제18조","text":"요건 변동 시 급여를 정지(제16조)하거나 수급권을 상실(제17조)시키며, 잘못 지급한 기초연금액은 환수(제18조)할 수 있다."}]},{"id":"P14","name":"이의신청","lane":"신청자(수급희망자)","stage":"G6 이의신청","type":"task","status":"loop","progress":0,"actor":"수급(권)자·신청자","receiver":"시장·군수·구청장","action":"이의신청","input_documents":["지급 결정 통지서"],"output_documents":["이의신청서"],"deadline":"처분을 안 날부터 90일 이내(정당한 사유가 있으면 사유 소멸일부터 60일 이내)","blocker":"지급 결정 불복 회귀 단계","confidence":0.8,"legal_basis":[{"law":"기초연금법","article":"제22조","text":"결정에 이의가 있으면 90일 이내에 이의신청할 수 있다."}]},{"id":"P15","name":"이의신청 심사·재결정","lane":"시군구(조사·결정)","stage":"G6 이의신청","type":"gateway","status":"waiting","progress":0,"actor":"시장·군수·구청장","action":"이의신청 심사·결정 통지","condition":"각하·기각 또는 취소·변경 결정 여부","input_documents":["이의신청서"],"output_documents":["이의신청 결정통지서"],"deadline":"접수일부터 30일 이내 결정·통지(조사에 시일이 필요한 경우 60일 이내)","confidence":0.78,"legal_basis":[{"law":"기초연금법","article":"제22조","text":"제13조에 따른 결정이나 그 밖의 처분에 이의가 있는 사람은 특별자치시장·특별자치도지사·시장·군수·구청장에게 이의신청을 할 수 있다."},{"law":"기초연금법 시행규칙","article":"제14조제2항","text":"시장·군수·구청장은 접수일부터 30일 이내에 각하·기각하거나 취소·변경하는 결정을 하고 서면 통지해야 하며, 조사에 시일이 필요한 경우 60일 이내에 결정·통지할 수 있다."}]}],"edges":[{"id":"E01","source":"P01","target":"P02","type":"sequence","label":null},{"id":"E02","source":"P02","target":"P03","type":"sequence","label":null},{"id":"E03","source":"P03","target":"P04","type":"sequence","label":null},{"id":"E04","source":"P04","target":"P05","type":"sequence","label":null},{"id":"E05","source":"P05","target":"P06","type":"sequence","label":null},{"id":"E06","source":"P06","target":"P08","type":"sequence","label":"소득인정액 산정"},{"id":"E07","source":"P08","target":"P09","type":"sequence","label":"선정"},{"id":"E08","source":"P09","target":"P10","type":"sequence","label":"지급 결정"},{"id":"E09","source":"P10","target":"P11","type":"sequence","label":null},{"id":"E10","source":"P11","target":"P12","type":"sequence","label":null},{"id":"E11","source":"P12","target":"P13","type":"sequence","label":null},{"id":"E12","source":"P14","target":"P15","type":"sequence","label":"이의신청 접수·심사"},{"id":"M01","source":"P05","target":"P07","type":"message","label":"국민연금 수급이력 연계"},{"id":"M02","source":"P07","target":"P09","type":"message","label":"연계 감액 반영"},{"id":"M03","source":"P13","target":"P10","type":"message","label":"급여 변동 통지"},{"id":"M04","source":"P10","target":"P14","type":"message","label":"결정 불복 시"},{"id":"L01","source":"P12","target":"P06","type":"loop","label":"소득변동 재산정 회귀"},{"id":"L02","source":"P15","target":"P08","type":"loop","label":"취소·변경 결정 시 재판정"}],"lawContext":{"byNode":{"P01":[{"law":"기초연금법","article":"제3조, 제5조","text":"보건복지부장관은 65세 이상 중 수급자가 100분의 70 수준이 되도록 선정기준액(제3조)을, 전년도 기준연금액에 전국소비자물가변동률을 반영해 기준연금액(제5조제2항)을 매년 고시한다(제9조에 따라 5년마다 적정성 평가로 조정).","found":true,"lawId":"012045","tier":"statute","articles":[{"label":"제3조","title":"기초연금 수급권자의 범위 등","officialUrl":"https://www.law.go.kr/법령/기초연금법/제3조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"기초연금법 시행령","label":"제5조","title":"기초연금 지급대상에서 제외되는 사람","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"기초연금법 시행령","label":"제4조","title":"선정기준액의 기준 등","tier":"decree"},{"kind":"adminRule","phrase":"소득인정액이 보건복지부장관이 정하여 고시하는 금액","lawName":"기초연금 지급대상자 선정기준액, 기준연금액 및 소득인정액 산정 세부기준에 관한 고시","label":null,"title":null,"tier":"adminRule"}]},{"label":"제5조","title":"기초연금액의 산정","officialUrl":"https://www.law.go.kr/법령/기초연금법/제5조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"기초연금법 시행령","label":"제6조","title":"물가변동에 따른 기준연금액의 조정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"기초연금법 시행령","label":"제7조","title":"소득재분배급여금액의 산정 기준","tier":"decree"},{"kind":"decree","phrase":"수급권자로서 대통령령으로","lawName":"기초연금법 시행령","label":"제9조","title":"기초연금의 금액을 기준연금액으로 하는 사람","tier":"decree"},{"kind":"decree","phrase":"밖에 대통령령으로","lawName":"기초연금법 시행령","label":"제9조","title":"기초연금의 금액을 기준연금액으로 하는 사람","tier":"decree"},{"kind":"adminRule","phrase":"전국소비자물가변동률을 말한다. 이하 같다)을 반영하여 매년 고시한다.","lawName":"기초연금 지급대상자 선정기준액, 기준연금액 및 소득인정액 산정 세부기준에 관한 고시","label":null,"title":null,"tier":"adminRule"}]}]},{"law":"기초연금법 시행령","article":"제4조(선정기준액의 기준 등)","text":"선정기준액의 기준·고시 시기 및 적용기간 등 세부사항은 대통령령으로 정한다.","found":true,"lawId":"012045","tier":"decree","articles":[{"label":"제4조","title":"선정기준액의 기준 등","officialUrl":"https://www.law.go.kr/법령/기초연금법시행령/제4조","up":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"기초연금법","label":"제3조제4항","title":"기초연금 수급권자의 범위 등","tier":"statute"},{"kind":"decree","phrase":"적용기간 등은 대통령령으로","lawName":"기초연금법","label":"제5조의2제3항","title":"저소득 기초연금 수급권자에 대한 기초연금액 산정의 특례","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"법 제3조제1항에 따라 보건복지부장관이 정하여 고시하는 금액","lawName":"기초연금 지급대상자 선정기준액, 기준연금액 및 소득인정액 산정 세부기준에 관한 고시","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"보건복지부장관이 결정·고시하고, 1월 1일부터 12월 31일까지 적용한다.","lawName":"기초연금 지급대상자 선정기준액, 기준연금액 및 소득인정액 산정 세부기준에 관한 고시","label":null,"title":null,"tier":"adminRule"}]}]}],"P02":[{"law":"기초연금법","article":"제10조","text":"65세 이상 본인 또는 보건복지부령으로 정하는 대리인은 급여를 신청할 수 있으며 65세 생일 1개월 전부터 신청할 수 있다.","found":true,"lawId":"012045","tier":"statute","articles":[{"label":"제10조","title":"기초연금 지급의 신청","officialUrl":"https://www.law.go.kr/법령/기초연금법/제10조","up":[],"down":[{"kind":"rule","phrase":"보건복지부령으로 정하는","lawName":"기초연금법 시행규칙","label":"제6조","title":"대리인","tier":"rule"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"기초연금법 시행령","label":"제14조","title":"금융정보등의 범위","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"기초연금법 시행령","label":"제14조","title":"금융정보등의 범위","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"기초연금법 시행령","label":"제14조","title":"금융정보등의 범위","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"기초연금법 시행령","label":"제13조","title":"기초연금 지급의 신청방법ㆍ절차","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"기초연금법 시행령","label":"제13조의2","title":"기초연금 수급희망 이력관리","tier":"decree"}]}]},{"law":"기초연금법 시행령","article":"제13조(기초연금 지급의 신청방법·절차)","text":"기초연금 지급 신청의 방법·절차 및 자료제공 동의의 방법·절차 등에 관하여 필요한 사항은 대통령령으로 정한다.","found":true,"lawId":"012045","tier":"decree","articles":[{"label":"제13조","title":"기초연금 지급의 신청방법ㆍ절차","officialUrl":"https://www.law.go.kr/법령/기초연금법시행령/제13조","up":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"기초연금법","label":"제10조제4항","title":"기초연금 지급의 신청","tier":"statute"}],"down":[{"kind":"rule","phrase":"보건복지부령으로 정하는","lawName":"기초연금법 시행규칙","label":"제7조","title":"기초연금 지급 신청서 등의 서식","tier":"rule"},{"kind":"rule","phrase":"보건복지부령으로 정하는","lawName":"기초연금법 시행규칙","label":"제7조","title":"기초연금 지급 신청서 등의 서식","tier":"rule"},{"kind":"rule","phrase":"보건복지부령으로 정하는","lawName":"기초연금법 시행규칙","label":"제7조","title":"기초연금 지급 신청서 등의 서식","tier":"rule"}]}]}],"P03":[{"law":"기초연금법","article":"제10조·제11조","text":"신청을 받은 특별자치시장·군수·구청장 또는 국민연금공단은 신청을 접수하고 절차를 안내한다.","found":true,"lawId":"012045","tier":"statute","articles":[{"label":"제10조","title":"기초연금 지급의 신청","officialUrl":"https://www.law.go.kr/법령/기초연금법/제10조","up":[],"down":[{"kind":"rule","phrase":"보건복지부령으로 정하는","lawName":"기초연금법 시행규칙","label":"제6조","title":"대리인","tier":"rule"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"기초연금법 시행령","label":"제14조","title":"금융정보등의 범위","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"기초연금법 시행령","label":"제14조","title":"금융정보등의 범위","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"기초연금법 시행령","label":"제14조","title":"금융정보등의 범위","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"기초연금법 시행령","label":"제13조","title":"기초연금 지급의 신청방법ㆍ절차","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"기초연금법 시행령","label":"제13조의2","title":"기초연금 수급희망 이력관리","tier":"decree"}]},{"label":"제11조","title":"조사ㆍ질문 등","officialUrl":"https://www.law.go.kr/법령/기초연금법/제11조","up":[],"down":[{"kind":"rule","phrase":"보건복지부령으로 정하는","lawName":"기초연금법 시행규칙","label":"제7조의3","title":"현장조사서","tier":"rule"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"기초연금법 시행령","label":"제15조","title":"조사ㆍ질문의 범위ㆍ시기 등","tier":"decree"}]}]}],"P04":[{"law":"기초연금법","article":"제10조제2항·제11조·제12조","text":"신청자와 그 배우자는 금융·신용·보험정보 제공에 동의하는 서면을 제출하여야 하며(제10조제2항), 보장기관은 이를 바탕으로 자료를 요청·조사한다(제11조·제12조).","found":true,"lawId":"012045","tier":"statute","articles":[{"label":"제10조","title":"기초연금 지급의 신청","officialUrl":"https://www.law.go.kr/법령/기초연금법/제10조","up":[],"down":[{"kind":"rule","phrase":"보건복지부령으로 정하는","lawName":"기초연금법 시행규칙","label":"제6조","title":"대리인","tier":"rule"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"기초연금법 시행령","label":"제14조","title":"금융정보등의 범위","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"기초연금법 시행령","label":"제14조","title":"금융정보등의 범위","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"기초연금법 시행령","label":"제14조","title":"금융정보등의 범위","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"기초연금법 시행령","label":"제13조","title":"기초연금 지급의 신청방법ㆍ절차","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"기초연금법 시행령","label":"제13조의2","title":"기초연금 수급희망 이력관리","tier":"decree"}]},{"label":"제11조","title":"조사ㆍ질문 등","officialUrl":"https://www.law.go.kr/법령/기초연금법/제11조","up":[],"down":[{"kind":"rule","phrase":"보건복지부령으로 정하는","lawName":"기초연금법 시행규칙","label":"제7조의3","title":"현장조사서","tier":"rule"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"기초연금법 시행령","label":"제15조","title":"조사ㆍ질문의 범위ㆍ시기 등","tier":"decree"}]},{"label":"제12조","title":"금융정보등의 제공","officialUrl":"https://www.law.go.kr/법령/기초연금법/제12조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"기초연금법 시행령","label":"제16조","title":"금융정보등의 요청ㆍ제공","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"기초연금법 시행령","label":"제16조","title":"금융정보등의 요청ㆍ제공","tier":"decree"}]}]}],"P05":[{"law":"기초연금법","article":"제12조","text":"보장기관은 소득·재산을 조사하며 사회보장정보시스템을 통해 공적자료·금융정보를 조회할 수 있다.","found":true,"lawId":"012045","tier":"statute","articles":[{"label":"제12조","title":"금융정보등의 제공","officialUrl":"https://www.law.go.kr/법령/기초연금법/제12조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"기초연금법 시행령","label":"제16조","title":"금융정보등의 요청ㆍ제공","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"기초연금법 시행령","label":"제16조","title":"금융정보등의 요청ㆍ제공","tier":"decree"}]}]}],"P06":[{"law":"기초연금법","article":"제2조·제12조","text":"소득인정액은 개별가구의 소득평가액과 재산의 소득환산액을 합산하여 산정한다.","found":true,"lawId":"012045","tier":"statute","articles":[{"label":"제2조","title":"정의","officialUrl":"https://www.law.go.kr/법령/기초연금법/제2조","up":[],"down":[{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"기초연금법 시행규칙","label":"제2조","title":"소득평가액 산정방식","tier":"rule"},{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"기초연금법 시행규칙","label":"제3조","title":"재산가액의 산정","tier":"rule"},{"kind":"decree","phrase":"재산의 범위는 대통령령으로 정하고","lawName":"기초연금법 시행령","label":"제3조","title":"재산의 범위","tier":"decree"},{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"기초연금법 시행규칙","label":"제4조","title":"재산의 소득환산액 산정방식","tier":"rule"},{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"기초연금법 시행규칙","label":"제5조","title":"재산가액의 산정 및 재산의 소득환산액 산정방식의 특례","tier":"rule"}]},{"label":"제12조","title":"금융정보등의 제공","officialUrl":"https://www.law.go.kr/법령/기초연금법/제12조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"기초연금법 시행령","label":"제16조","title":"금융정보등의 요청ㆍ제공","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"기초연금법 시행령","label":"제16조","title":"금융정보등의 요청ㆍ제공","tier":"decree"}]}]},{"law":"기초연금법 시행규칙","article":"제4조","text":"재산의 소득환산액은 재산가액에서 기본재산액·부채를 공제한 뒤 재산의 소득환산율(연 100분의 4)을 적용해 12로 나누어 산정한다(법 제2조제4호 위임).","found":true,"lawId":"012045","tier":"rule","articles":[{"label":"제4조","title":"재산의 소득환산액 산정방식","officialUrl":"https://www.law.go.kr/법령/기초연금법시행규칙/제4조","up":[{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"기초연금법","label":"제2조제4호","title":"정의","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"기본생활의 유지에 필요하다고 보건복지부장관이 정하여 고시하는 기본재산액을 뺀 금액(그 뺀 후의 금액이 0보다 작은 경우에는 0으로 한다)","lawName":"기초연금 지급대상자 선정기준액, 기준연금액 및 소득인정액 산정 세부기준에 관한 고시","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"최소한의 경비에 해당한다고 보건복지부장관이 인정하여 고시하는 금액을 뺀 금액(그 뺀 후의 금액이 0보다 작은 경우에는 0으로 한다)","lawName":"기초연금 지급대상자 선정기준액, 기준연금액 및 소득인정액 산정 세부기준에 관한 고시","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"공시된 주택가격을 고려하여 보건복지부장관이 정하여 고시하는 비율에 해당하는 금액","lawName":"기초연금 지급대상자 선정기준액, 기준연금액 및 소득인정액 산정 세부기준에 관한 고시","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"자동차 중 보건복지부장관이 정하여 고시하는 자동차가 있는 경우 제3조제1항제9호의 가액","lawName":"기초연금 지급대상자 선정기준액, 기준연금액 및 소득인정액 산정 세부기준에 관한 고시","label":null,"title":null,"tier":"adminRule"}]}]}],"P07":[{"law":"기초연금법","article":"제5조","text":"국민연금 급여액 등을 고려하여 기준연금액의 일부를 감액할 수 있다.","found":true,"lawId":"012045","tier":"statute","articles":[{"label":"제5조","title":"기초연금액의 산정","officialUrl":"https://www.law.go.kr/법령/기초연금법/제5조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"기초연금법 시행령","label":"제6조","title":"물가변동에 따른 기준연금액의 조정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"기초연금법 시행령","label":"제7조","title":"소득재분배급여금액의 산정 기준","tier":"decree"},{"kind":"decree","phrase":"수급권자로서 대통령령으로","lawName":"기초연금법 시행령","label":"제9조","title":"기초연금의 금액을 기준연금액으로 하는 사람","tier":"decree"},{"kind":"decree","phrase":"밖에 대통령령으로","lawName":"기초연금법 시행령","label":"제9조","title":"기초연금의 금액을 기준연금액으로 하는 사람","tier":"decree"},{"kind":"adminRule","phrase":"전국소비자물가변동률을 말한다. 이하 같다)을 반영하여 매년 고시한다.","lawName":"기초연금 지급대상자 선정기준액, 기준연금액 및 소득인정액 산정 세부기준에 관한 고시","label":null,"title":null,"tier":"adminRule"}]}]}],"P08":[{"law":"기초연금법","article":"제3조","text":"65세 이상이고 소득인정액이 선정기준액 이하인 사람을 수급권자로 한다.","found":true,"lawId":"012045","tier":"statute","articles":[{"label":"제3조","title":"기초연금 수급권자의 범위 등","officialUrl":"https://www.law.go.kr/법령/기초연금법/제3조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"기초연금법 시행령","label":"제5조","title":"기초연금 지급대상에서 제외되는 사람","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"기초연금법 시행령","label":"제4조","title":"선정기준액의 기준 등","tier":"decree"},{"kind":"adminRule","phrase":"소득인정액이 보건복지부장관이 정하여 고시하는 금액","lawName":"기초연금 지급대상자 선정기준액, 기준연금액 및 소득인정액 산정 세부기준에 관한 고시","label":null,"title":null,"tier":"adminRule"}]}]}],"P09":[{"law":"기초연금법","article":"제5조·제8조","text":"소득역전 방지 및 부부 감액 등을 반영하여 실제 지급액을 결정한다.","found":true,"lawId":"012045","tier":"statute","articles":[{"label":"제5조","title":"기초연금액의 산정","officialUrl":"https://www.law.go.kr/법령/기초연금법/제5조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"기초연금법 시행령","label":"제6조","title":"물가변동에 따른 기준연금액의 조정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"기초연금법 시행령","label":"제7조","title":"소득재분배급여금액의 산정 기준","tier":"decree"},{"kind":"decree","phrase":"수급권자로서 대통령령으로","lawName":"기초연금법 시행령","label":"제9조","title":"기초연금의 금액을 기준연금액으로 하는 사람","tier":"decree"},{"kind":"decree","phrase":"밖에 대통령령으로","lawName":"기초연금법 시행령","label":"제9조","title":"기초연금의 금액을 기준연금액으로 하는 사람","tier":"decree"},{"kind":"adminRule","phrase":"전국소비자물가변동률을 말한다. 이하 같다)을 반영하여 매년 고시한다.","lawName":"기초연금 지급대상자 선정기준액, 기준연금액 및 소득인정액 산정 세부기준에 관한 고시","label":null,"title":null,"tier":"adminRule"}]},{"label":"제8조","title":"기초연금액의 감액","officialUrl":"https://www.law.go.kr/법령/기초연금법/제8조","up":[],"down":[{"kind":"decree","phrase":"기준은 대통령령으로","lawName":"기초연금법 시행령","label":"제11조","title":"감액에 따른 기초연금액 지급수준","tier":"decree"}]}]}],"P10":[{"law":"기초연금법","article":"제13조","text":"특별자치시장·특별자치도지사·시장·군수·구청장은 조사 후 기초연금 수급권의 발생·변경·상실 등을 결정하고, 그 결정 내용을 이유를 구체적으로 밝혀 서면으로 지체 없이 수급권자에게 통지한다.","found":true,"lawId":"012045","tier":"statute","articles":[{"label":"제13조","title":"기초연금 지급의 결정 등","officialUrl":"https://www.law.go.kr/법령/기초연금법/제13조","up":[],"down":[{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"기초연금법 시행규칙","label":"제8조","title":"기초연금의 지급결정 절차 및 통지","tier":"rule"}]}]},{"law":"기초연금법 시행규칙","article":"제8조(기초연금의 지급결정 절차 및 통지)","text":"수급권의 발생·변경·상실 결정 절차 및 통지 등에 관하여 필요한 사항은 보건복지부령으로 정한다.","found":true,"lawId":"012045","tier":"rule","articles":[{"label":"제8조","title":"기초연금의 지급결정 절차 및 통지","officialUrl":"https://www.law.go.kr/법령/기초연금법시행규칙/제8조","up":[{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"기초연금법","label":"제13조제4항","title":"기초연금 지급의 결정 등","tier":"statute"}],"down":[]}]}],"P11":[{"law":"기초연금법","article":"제14조","text":"기초연금은 수급권자에게 매월 정기적으로 지급한다.","found":true,"lawId":"012045","tier":"statute","articles":[{"label":"제14조","title":"기초연금의 지급 및 지급 시기","officialUrl":"https://www.law.go.kr/법령/기초연금법/제14조","up":[],"down":[{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"기초연금법 시행규칙","label":"제9조","title":"기초연금의 지급방법 및 절차","tier":"rule"}]}]}],"P12":[{"law":"기초연금법","article":"제12조·제16조","text":"보장기관은 수급자의 소득·재산 등 지급 요건의 변동을 정기·수시로 확인조사한다.","found":true,"lawId":"012045","tier":"statute","articles":[{"label":"제12조","title":"금융정보등의 제공","officialUrl":"https://www.law.go.kr/법령/기초연금법/제12조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"기초연금법 시행령","label":"제16조","title":"금융정보등의 요청ㆍ제공","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"기초연금법 시행령","label":"제16조","title":"금융정보등의 요청ㆍ제공","tier":"decree"}]},{"label":"제16조","title":"기초연금 지급의 정지","officialUrl":"https://www.law.go.kr/법령/기초연금법/제16조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 바에 따라 사망한 것으로","lawName":"기초연금법 시행령","label":"제18조","title":"기초연금 지급정지 대상","tier":"decree"},{"kind":"decree","phrase":"준하는 경우로서 대통령령으로 정하는 경우","lawName":"기초연금법 시행령","label":"제18조","title":"기초연금 지급정지 대상","tier":"decree"},{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"기초연금법 시행규칙","label":"제11조","title":"지급정지 및 해제 절차 등","tier":"rule"}]}]}],"P13":[{"law":"기초연금법","article":"제16조·제17조·제18조","text":"요건 변동 시 급여를 정지(제16조)하거나 수급권을 상실(제17조)시키며, 잘못 지급한 기초연금액은 환수(제18조)할 수 있다.","found":true,"lawId":"012045","tier":"statute","articles":[{"label":"제16조","title":"기초연금 지급의 정지","officialUrl":"https://www.law.go.kr/법령/기초연금법/제16조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 바에 따라 사망한 것으로","lawName":"기초연금법 시행령","label":"제18조","title":"기초연금 지급정지 대상","tier":"decree"},{"kind":"decree","phrase":"준하는 경우로서 대통령령으로 정하는 경우","lawName":"기초연금법 시행령","label":"제18조","title":"기초연금 지급정지 대상","tier":"decree"},{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"기초연금법 시행규칙","label":"제11조","title":"지급정지 및 해제 절차 등","tier":"rule"}]},{"label":"제17조","title":"기초연금 수급권의 상실","officialUrl":"https://www.law.go.kr/법령/기초연금법/제17조","up":[],"down":[]},{"label":"제18조","title":"신고","officialUrl":"https://www.law.go.kr/법령/기초연금법/제18조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 바에 따라 30일 이내에","lawName":"기초연금법 시행령","label":"제19조","title":"신고의 방법","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 기준에 해당하는 기초연금 수급자","lawName":"기초연금법 시행령","label":"제20조","title":"소득ㆍ재산의 변동신고","tier":"decree"},{"kind":"rule","phrase":"그 밖에 보건복지부령으로 정하는 사유가 발생한 경우","lawName":"기초연금법 시행규칙","label":"제12조","title":"신고의 내용 및 절차 등","tier":"rule"},{"kind":"rule","phrase":"필요한 사항은 보건복지부령으로 정한다","lawName":"기초연금법 시행규칙","label":"제12조","title":"신고의 내용 및 절차 등","tier":"rule"}]}]}],"P14":[{"law":"기초연금법","article":"제22조","text":"결정에 이의가 있으면 90일 이내에 이의신청할 수 있다.","found":true,"lawId":"012045","tier":"statute","articles":[{"label":"제22조","title":"이의신청","officialUrl":"https://www.law.go.kr/법령/기초연금법/제22조","up":[],"down":[{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"기초연금법 시행규칙","label":"제14조","title":"이의신청 절차 등","tier":"rule"}]}]}],"P15":[{"law":"기초연금법","article":"제22조","text":"제13조에 따른 결정이나 그 밖의 처분에 이의가 있는 사람은 특별자치시장·특별자치도지사·시장·군수·구청장에게 이의신청을 할 수 있다.","found":true,"lawId":"012045","tier":"statute","articles":[{"label":"제22조","title":"이의신청","officialUrl":"https://www.law.go.kr/법령/기초연금법/제22조","up":[],"down":[{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"기초연금법 시행규칙","label":"제14조","title":"이의신청 절차 등","tier":"rule"}]}]},{"law":"기초연금법 시행규칙","article":"제14조제2항","text":"시장·군수·구청장은 접수일부터 30일 이내에 각하·기각하거나 취소·변경하는 결정을 하고 서면 통지해야 하며, 조사에 시일이 필요한 경우 60일 이내에 결정·통지할 수 있다.","found":true,"lawId":"012045","tier":"rule","articles":[{"label":"제14조","title":"이의신청 절차 등","officialUrl":"https://www.law.go.kr/법령/기초연금법시행규칙/제14조","up":[{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"기초연금법","label":"제22조제3항","title":"이의신청","tier":"statute"}],"down":[]}]}]},"systems":{"012045":{"lawId":"012045","name":"기초연금법","href":"/law/012045/","ministry":"보건복지부","effectiveOn":"2025-10-01","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"기초연금법","kind":"법률","articleCount":33,"officialUrl":"https://www.law.go.kr/법령/기초연금법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":33},{"tier":"decree","label":"시행령","laws":[{"name":"기초연금법 시행령","kind":"대통령령","articleCount":31,"officialUrl":"https://www.law.go.kr/법령/기초연금법시행령"}],"kinds":[{"kind":"대통령령","count":1}],"articleCount":31},{"tier":"rule","label":"시행규칙","laws":[{"name":"기초연금법 시행규칙","kind":"보건복지부령","articleCount":18,"officialUrl":"https://www.law.go.kr/법령/기초연금법시행규칙"}],"kinds":[{"kind":"보건복지부령","count":1}],"articleCount":18},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"기초연금 지급대상자 선정기준액, 기준연금액 및 소득인정액 산정 세부기준에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/기초연금지급대상자선정기준액,기준연금액및소득인정액산정세부기준에관한고시"},{"name":"사회보장급여 관련 공통서식에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/사회보장급여관련공통서식에관한고시"},{"name":"보건복지부 소관 법령에 따른 행정처분 및 과태료의 가중처분에 관한 세부지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/보건복지부소관법령에따른행정처분및과태료의가중처분에관한세부지침"}],"kinds":[{"kind":"고시","count":2},{"kind":"예규","count":1}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":32,"rule":31,"adminRule":19,"ordinance":2,"cites":333}}}},"statusStyles":{"done":{"label":"선행","fill":"#effaf5","border":"#35a77d","ink":"#123d2e","sub":"#287a5c"},"current":{"label":"핵심","fill":"#087452","border":"#087452","ink":"#ffffff","sub":"#d8f4e8"},"waiting":{"label":"후속","fill":"#ffffff","border":"#b9c7bf","ink":"#17231d","sub":"#627169"},"risk":{"label":"병목","fill":"#fff8e8","border":"#d9901a","ink":"#7a4305","sub":"#a96008"},"loop":{"label":"회귀","fill":"#edf4ff","border":"#3478db","ink":"#173f7a","sub":"#316bbd"}},"basisLegend":[{"label":"법률","fill":"#ffffff","border":"#3b4a43"},{"label":"시행령","fill":"#f2f6ff","border":"#2456d6"},{"label":"시행규칙","fill":"#effaf6","border":"#0f9f72"},{"label":"행정규칙","fill":"#f6f2ff","border":"#7c56c9"}],"isLawIndex":true}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Eu-UvfunzEwjnKcUq5f7W"}
+4:["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","precedence":"next"}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

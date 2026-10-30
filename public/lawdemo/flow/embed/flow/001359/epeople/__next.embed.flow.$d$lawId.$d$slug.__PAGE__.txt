@@ -1,0 +1,406 @@
+1:"$Sreact.fragment"
+2:I[7742,["838","static/chunks/838-9b85aecee2a13f53.js","379","static/chunks/379-f104668f756ddde1.js","301","static/chunks/app/embed/flow/%5BlawId%5D/%5Bslug%5D/page-e3d0b6acb7d5d0b3.js"],"default"]
+6:I[977,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+:HL["/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","style"]
+3:T7f85,<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 250 1744 1960" class="pp-svg">
+<defs>
+      <filter id="card-shadow" x="-20%" y="-25%" width="140%" height="160%">
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#12271e" flood-opacity="0.10"/>
+      </filter>
+      <marker id="arrow-sequence" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#53675d" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-message" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#0f8a65" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-loop" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#3478db" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <style>
+        text { font-family: "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", sans-serif; }
+        .mono { font-family: "SFMono-Regular", "Menlo", monospace; }
+      </style>
+    </defs>
+<rect width="1800" height="2400" fill="#ffffff"/>
+
+
+
+<rect x="38" y="260" width="1724" height="1940" rx="10" fill="#ffffff" stroke="#b8c7bf" stroke-width="2"/>
+<rect x="38" y="260" width="190" height="100" rx="10" fill="#eaf2ee"/>
+<text x="58" y="299" font-size="17" font-weight="800" fill="#17231d">단계 ↓</text>
+<text x="58" y="332" font-size="15" font-weight="650" fill="#68776f">행위자 묶음 →</text>
+<rect x="38" y="360" width="1724" height="192.7" fill="#fbfcfb"/>
+<rect x="38" y="360" width="190" height="192.7" fill="#eef3f0"/>
+<text x="58" y="392" class="mono" font-size="16" font-weight="800" fill="#53645b">G0</text>
+<text x="58" y="425" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">신청·접수</tspan></text>
+<rect x="38" y="552.7" width="1724" height="306.7" fill="#f5f8f6"/>
+<rect x="38" y="552.7" width="190" height="306.7" fill="#eef3f0"/>
+<text x="58" y="584.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G1</text>
+<text x="58" y="617.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">이송·소관지정</tspan></text>
+<rect x="38" y="859.3" width="1724" height="192.7" fill="#fbfcfb"/>
+<rect x="38" y="859.3" width="190" height="192.7" fill="#eef3f0"/>
+<text x="58" y="891.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G2</text>
+<text x="58" y="924.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">조사·협의</tspan></text>
+<rect x="38" y="1052" width="1724" height="534.7" fill="#f5f8f6"/>
+<rect x="38" y="1052" width="190" height="534.7" fill="#eef3f0"/>
+<text x="58" y="1084" class="mono" font-size="16" font-weight="800" fill="#53645b">G3</text>
+<text x="58" y="1117" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">처리·통지</tspan></text>
+<rect x="38" y="1586.7" width="1724" height="306.7" fill="#fbfcfb"/>
+<rect x="38" y="1586.7" width="190" height="306.7" fill="#eef3f0"/>
+<text x="58" y="1618.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G4</text>
+<text x="58" y="1651.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">평가·반복</tspan></text>
+<rect x="38" y="1893.3" width="1724" height="306.7" fill="#f5f8f6"/>
+<rect x="38" y="1893.3" width="190" height="306.7" fill="#eef3f0"/>
+<text x="58" y="1925.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G5</text>
+<text x="58" y="1958.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">불복·고충</tspan></text>
+<rect x="228" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="228" y="260" width="383.5" height="7" fill="#0f9f72"/>
+<text x="248" y="299" font-size="20" font-weight="800" fill="#17231d">신청인</text>
+<text x="248" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="248" dy="0">신청인(국민)</tspan></text>
+<rect x="611.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="611.5" y="260" width="383.5" height="7" fill="#3b82f6"/>
+<text x="631.5" y="299" font-size="20" font-weight="800" fill="#17231d">접수·이송기관·소관 행정기관</text>
+<text x="631.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="631.5" dy="0">접수·이송기관 · 소관 행정기관(담당부서)</tspan></text>
+<rect x="995" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="995" y="260" width="383.5" height="7" fill="#c78116"/>
+<text x="1015" y="299" font-size="20" font-weight="800" fill="#17231d">관계기관·국민권익위원회</text>
+<text x="1015" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1015" dy="0">관계기관 · 국민권익위원회</tspan></text>
+<rect x="1378.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="1378.5" y="260" width="383.5" height="7" fill="#0891b2"/>
+<text x="1398.5" y="299" font-size="20" font-weight="800" fill="#17231d">정보시스템</text>
+<text x="1398.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1398.5" dy="0">정보시스템(국민신문고)</tspan></text>
+<line x1="228" y1="260" x2="228" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="611.5" y1="260" x2="611.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="995" y1="260" x2="995" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1378.5" y1="260" x2="1378.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1762" y1="260" x2="1762" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#b8c7bf" stroke-width="2"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="552.7" x2="1762" y2="552.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="859.3" x2="1762" y2="859.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1052" x2="1762" y2="1052" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1586.7" x2="1762" y2="1586.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1893.3" x2="1762" y2="1893.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2200" x2="1762" y2="2200" stroke="#b8c7bf" stroke-width="2"/>
+<g class="pp-edge" data-edge-id="E01" data-source="P01" data-target="P02">
+<path d="M 554.8 449.8 H 640.3 V 443.3 H 660.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 449.8 H 640.3 V 443.3 H 660.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E02" data-source="P02" data-target="P03">
+<path d="M 817.3 501.3 V 492.7 H 771.3 V 596" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 817.3 501.3 V 492.7 H 771.3 V 596" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E03" data-source="P03" data-target="P04">
+<path d="M 823.3 694 V 710 H 797.3 V 710" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 823.3 694 V 710 H 797.3 V 710" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E04" data-source="P04" data-target="P05">
+<path d="M 823.3 808 V 831.3 H 1170.8 V 902.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 823.3 808 V 831.3 H 1170.8 V 902.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E05" data-source="P05" data-target="P06">
+<path d="M 1196.8 1000.7 V 1040 H 811.3 V 1095.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1196.8 1000.7 V 1040 H 811.3 V 1095.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E06" data-source="P06" data-target="P07">
+<path d="M 809.3 1193.3 V 1229.3 H 813.3 V 1323.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 809.3 1193.3 V 1229.3 H 813.3 V 1323.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E07" data-source="P07" data-target="P08">
+<path d="M 781.3 1421.3 V 1437.3 H 817.3 V 1437.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 781.3 1421.3 V 1437.3 H 817.3 V 1437.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E08" data-source="P08" data-target="P09">
+<path d="M 783.3 1535.3 V 1574.7 H 409.8 V 1630" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 783.3 1535.3 V 1574.7 H 409.8 V 1630" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E09" data-source="P09" data-target="P10">
+<path d="M 554.8 1689.5 H 640.3 V 1742.5 H 660.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1689.5 H 640.3 V 1742.5 H 660.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E10" data-source="P10" data-target="P12">
+<path d="M 811.3 1785 V 1865.3 H 413.8 V 1993.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 811.3 1785 V 1865.3 H 413.8 V 1993.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E11" data-source="P13" data-target="P14">
+<path d="M 1190.8 2034.7 V 2050.7 H 1186.8 V 2050.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1190.8 2034.7 V 2050.7 H 1186.8 V 2050.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M01" data-source="P01" data-target="S01">
+<path d="M 554.8 465.3 H 1381.3 V 461.3 H 1427.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 465.3 H 1381.3 V 461.3 H 1427.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M02" data-source="P03" data-target="P04">
+<path d="M 938.3 651.5 H 966.3 V 755 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 651.5 H 966.3 V 755 H 946.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M03" data-source="P08" data-target="P12">
+<path d="M 791.3 1535.3 V 1558.7 H 242 V 1973.7 H 387.8 V 1993.7" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 791.3 1535.3 V 1558.7 H 242 V 1973.7 H 387.8 V 1993.7" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M04" data-source="P12" data-target="P13">
+<path d="M 554.8 2059.7 H 1023.8 V 1988.2 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 2059.7 H 1023.8 V 1988.2 H 1043.8" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L01" data-source="P10" data-target="P11">
+<path d="M 668.3 1732 H 608.8 V 1808.5 H 562.8" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 668.3 1732 H 608.8 V 1808.5 H 562.8" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L02" data-source="P11" data-target="P02">
+<path d="M 284.8 1798 H 216 V 516.7 H 791.3 V 509.3" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 284.8 1798 H 216 V 516.7 H 791.3 V 509.3" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M05" data-source="P06" data-target="P15">
+<path d="M 938.3 1145.3 H 992.3 V 1267.3 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 1145.3 H 992.3 V 1267.3 H 946.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge-label" data-edge-id="E03" data-source="P03" data-target="P04">
+<rect x="1010.3" y="691" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1058.3" y="711" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">소관 지정</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E10" data-source="P10" data-target="P12">
+<rect x="564.5" y="1833.3" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="612.5" y="1853.3" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">거부·불복</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M01" data-source="P01" data-target="S01">
+<rect x="1000.6" y="431.3" width="128.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1065" y="451.3" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">국민신문고 접수</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M02" data-source="P03" data-target="P04">
+<rect x="964.4" y="652.3" width="119.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1024.3" y="672.3" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">소관 이송 통지</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M03" data-source="P08" data-target="P12">
+<rect x="98.1" y="1751.2" width="147.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="172" y="1771.2" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">거부처분 불복 안내</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M04" data-source="P12" data-target="P13">
+<rect x="745.8" y="1991.9" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="803.3" y="2011.9" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">고충민원 연계</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L01" data-source="P10" data-target="P11">
+<rect x="547.1" y="1594.2" width="128.9" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="611.5" y="1614.2" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">반복민원 재신청</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L02" data-source="P11" data-target="P02">
+<rect x="227.5" y="1141.8" width="117" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="286" y="1161.8" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">재접수·재처리</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M05" data-source="P06" data-target="P15">
+<rect x="958.8" y="1191.3" width="182.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1050.3" y="1211.3" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">30일 경과 진행상황 통지</text>
+</g>
+
+    <g class="pp-node" data-node-id="P01" data-basis="민원처리에관한법률:제8조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="411.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="411.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="431.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P01</text>
+      
+      <rect x="492.8" y="418.3" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="518.8" y="435.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §8</text>
+      <text x="299.8" y="468.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">민원·제안·고충 신청</tspan></text>
+      <text x="299.8" y="493.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 수시</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="S01" data-basis="민원처리에관한법률:제12조의2 민원처리에관한법률시행령:제6조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="411.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="411.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="431.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">▣ S01</text>
+      
+      <rect x="1600.3" y="418.3" width="95" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1647.8" y="435.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §12의2 +1</text>
+      <text x="1450.3" y="468.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">국민신문고 전자접수·배정</tspan></text>
+      <text x="1450.3" y="493.3" font-size="11" font-weight="650" fill="#3b4a43">국민신문고(epeople.go.kr)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P02" data-basis="민원처리에관한법률:제9조 민원처리에관한법률시행령:제6조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="411.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="411.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="431.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P02</text>
+      
+      <rect x="859.3" y="418.3" width="69" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="893.8" y="435.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §9 +1</text>
+      <text x="683.3" y="468.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">접수·소관 여부 검토</tspan></text>
+      <text x="683.3" y="493.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 접수 즉시</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P03" data-basis="민원처리에관한법률:제16조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="604" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="604" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="624" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P03</text>
+      
+      <rect x="869.3" y="611" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="628" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §16</text>
+      <text x="683.3" y="661" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">소관 기관 이송</tspan></text>
+      <text x="683.3" y="686" font-size="11" font-weight="650" fill="#3b4a43">기한 · 지체 없이 이송(법 제16조)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P04" data-basis="민원처리에관한법률:제9조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="718" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="718" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="738" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P04</text>
+      
+      <rect x="876.3" y="725" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="902.3" y="742" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §9</text>
+      <text x="683.3" y="775" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">담당부서 지정·배정</tspan></text>
+      <text x="683.3" y="800" font-size="11" font-weight="650" fill="#3b4a43">기한 · 접수 후 즉시</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P05" data-basis="민원처리에관한법률:제20조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="910.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="910.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="930.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P05</text>
+      
+      <rect x="1252.8" y="917.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="934.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §20</text>
+      <text x="1066.8" y="967.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">관계기관 협의·현장확인</tspan></text>
+      <text x="1066.8" y="992.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 협조 요청 후 상당기간</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P06" data-basis="민원처리에관한법률:제17조 민원처리에관한법률:제19조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1103.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1103.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1123.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P06</text>
+      
+      <rect x="852.3" y="1110.3" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="1127.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §17 +1</text>
+      <text x="683.3" y="1160.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">법정 처리기간 내 처리</tspan></text>
+      <text x="683.3" y="1185.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 법정민원 처리기간(민원 유형별 상이)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P15" data-basis="민원처리에관한법률시행령:제23조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1217.3" width="270" height="90" rx="8" fill="#f2f6ff" stroke="#2456d6" stroke-width="2.3"/>
+      <rect x="668.3" y="1217.3" width="6" height="90" rx="3" fill="#2456d6"/>
+      <text x="683.3" y="1237.3" class="mono" font-size="12.5" font-weight="750" fill="#2456d6">P15</text>
+      
+      <rect x="869.3" y="1224.3" width="59" height="24" rx="5" fill="#2456d6" opacity="0.14"/>
+      <text x="898.8" y="1241.3" text-anchor="middle" font-size="12" font-weight="800" fill="#14306f">령 §23</text>
+      <text x="683.3" y="1274.3" font-size="15.5" font-weight="800" fill="#14306f"><tspan x="683.3" dy="0">처리진행상황 통지(30일)</tspan></text>
+      <text x="683.3" y="1299.3" font-size="11" font-weight="650" fill="#2456d6">기한 · 접수일부터 30일마다(영 제23조)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P07" data-basis="민원처리에관한법률시행령:제21조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1331.3" width="270" height="90" rx="8" fill="#f2f6ff" stroke="#2456d6" stroke-width="2.3"/>
+      <rect x="668.3" y="1331.3" width="6" height="90" rx="3" fill="#2456d6"/>
+      <text x="683.3" y="1351.3" class="mono" font-size="12.5" font-weight="750" fill="#2456d6">◇ P07</text>
+      
+      <rect x="869.3" y="1338.3" width="59" height="24" rx="5" fill="#2456d6" opacity="0.14"/>
+      <text x="898.8" y="1355.3" text-anchor="middle" font-size="12" font-weight="800" fill="#14306f">령 §21</text>
+      <text x="683.3" y="1388.3" font-size="15.5" font-weight="800" fill="#14306f"><tspan x="683.3" dy="0">처리기간 연장 판단</tspan></text>
+      <text x="683.3" y="1413.3" font-size="11" font-weight="650" fill="#2456d6">기한 · 처리기간 범위 내 1회 연장(동의 시 1…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P08" data-basis="민원처리에관한법률:제27조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1445.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1445.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1465.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P08</text>
+      
+      <rect x="869.3" y="1452.3" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1469.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §27</text>
+      <text x="683.3" y="1502.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">처리결과 통지</tspan></text>
+      <text x="683.3" y="1527.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 처리 완료 시</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P09" data-basis="민원처리에관한법률:제39조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1638" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1638" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1658" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P09</text>
+      
+      <rect x="485.8" y="1645" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="1662" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §39</text>
+      <text x="299.8" y="1695" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">만족도 평가·환류</tspan></text>
+      <text x="299.8" y="1720" font-size="11" font-weight="650" fill="#3b4a43">신청인</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P10" data-basis="민원처리에관한법률:제23조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1695" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1695" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1715" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P10</text>
+      
+      <rect x="869.3" y="1702" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1719" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §23</text>
+      <text x="683.3" y="1752" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">반복·중복 민원 판단</tspan></text>
+      <text x="683.3" y="1777" font-size="11" font-weight="650" fill="#3b4a43">소관 행정기관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P11" data-basis="민원처리에관한법률:제8조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1752" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1752" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1772" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P11</text>
+      
+      <rect x="492.8" y="1759" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="518.8" y="1776" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §8</text>
+      <text x="299.8" y="1809" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">재신청</tspan></text>
+      <text x="299.8" y="1834" font-size="11" font-weight="650" fill="#3b4a43">신청인</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P12" data-basis="민원처리에관한법률:제35조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="2001.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="2001.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="2021.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P12</text>
+      
+      <rect x="485.8" y="2008.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="2025.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §35</text>
+      <text x="299.8" y="2058.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">거부처분 이의신청</tspan></text>
+      <text x="299.8" y="2083.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 거부처분 통지 받은 날부터 60일 이내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P13" data-basis="부패방지및국민권익위원회의설치와운영에관한법률:제39조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1944.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1944.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1964.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P13</text>
+      
+      <rect x="1252.8" y="1951.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1968.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §39</text>
+      <text x="1066.8" y="2001.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">고충민원 신청·조사</tspan></text>
+      <text x="1066.8" y="2026.7" font-size="11" font-weight="650" fill="#3b4a43">국민권익위원회</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P14" data-basis="부패방지및국민권익위원회의설치와운영에관한법률:제46조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="2058.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="2058.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="2078.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P14</text>
+      
+      <rect x="1252.8" y="2065.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="2082.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §46</text>
+      <text x="1066.8" y="2115.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">시정·제도개선 권고</tspan></text>
+      <text x="1066.8" y="2140.7" font-size="11" font-weight="650" fill="#3b4a43">국민권익위원회</text>
+    </g>
+  
+
+</svg>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"law":{"lawId":"001359","mst":"239293","name":"민원 처리에 관한 법률","kind":"법률","tier":"statute","effectiveOn":"2022-07-12","officialUrl":"https://www.law.go.kr/법령/민원처리에관한법률"},"flows":[{"slug":"epeople","name":"국민신문고","oneLiner":"국민이 행정기관에 민원·제안·고충을 온라인 한 창구(epeople.go.kr)로 접수하면, 소관 기관이 법정 기간 안에 처리하고 결과를 통지하도록 한 통합 민원처리 제도","citingSteps":12,"totalSteps":16,"articles":{"제8조":2,"제12조의2":1,"제9조":2,"제16조":1,"제20조":1,"제17조":1,"제19조":1,"제27조":1,"제39조":1,"제23조":1,"제35조":1}}],"current":"$0:rsc:props:children:0:props:flows:0","asOfDate":"2026-07-10","reviewNote":"주요 절차를 요약한 참고 모델입니다. 모든 예외·위임규정의 현행성까지 전수 검증한 자료는 아닙니다. 법령 체계의 보관 자료와 현행 원문은 다를 수 있습니다.","svg":"$3","nodes":[{"id":"P01","name":"민원·제안·고충 신청","lane":"신청인(국민)","stage":"G0 신청·접수","type":"task","status":"done","progress":100,"actor":"신청인","receiver":"접수기관","action":"신청","output_documents":["민원 신청서(전자)"],"deadline":"수시","confidence":0.85,"legal_basis":[{"law":"민원 처리에 관한 법률","article":"제8조","text":"민원인은 문서 또는 전자문서 등으로 행정기관에 민원을 신청할 수 있다."}]},{"id":"S01","name":"국민신문고 전자접수·배정","lane":"정보시스템(국민신문고)","stage":"G0 신청·접수","type":"system","status":"done","progress":100,"actor":"국민신문고(epeople.go.kr)","action":"전자접수","input_documents":["민원 신청서(전자)"],"output_documents":["접수번호","처리이력"],"confidence":0.72,"legal_basis":[{"law":"민원 처리에 관한 법률","article":"제12조의2","text":"행정기관은 전자민원창구·통합전자민원창구를 통해 민원을 접수·처리할 수 있다."},{"law":"민원 처리에 관한 법률 시행령","article":"제6조","text":"전자민원창구를 통해 신청된 민원은 소관 행정기관에 도달한 때부터 8근무시간 이내에 접수한다(제6조제8항)."}]},{"id":"P02","name":"접수·소관 여부 검토","lane":"접수·이송기관","stage":"G0 신청·접수","type":"gateway","status":"done","progress":100,"actor":"접수기관","action":"접수·소관 확인","condition":"소관 여부","input_documents":["민원 신청서(전자)"],"output_documents":["접수증"],"deadline":"접수 즉시","confidence":0.85,"legal_basis":[{"law":"민원 처리에 관한 법률","article":"제9조","text":"행정기관의 장은 민원의 신청을 받으면 지체 없이 접수하여야 한다."},{"law":"민원 처리에 관한 법률 시행령","article":"제6조","text":"민원을 접수하면 순서에 따라 민원 처리부에 기록하고 접수증을 발급한다(제6조제2항)."}]},{"id":"P03","name":"소관 기관 이송","lane":"접수·이송기관","stage":"G1 이송·소관지정","type":"gateway","status":"done","progress":100,"actor":"접수기관","receiver":"소관 행정기관","action":"이송","condition":"소관 아닌 경우 이송","output_documents":["이송 통지"],"deadline":"지체 없이 이송(법 제16조)","confidence":0.85,"legal_basis":[{"law":"민원 처리에 관한 법률","article":"제16조","text":"접수한 민원이 다른 기관 소관인 경우 지체 없이 소관 기관에 이송하고 그 사실을 민원인에게 통지한다."}]},{"id":"P04","name":"담당부서 지정·배정","lane":"소관 행정기관(담당부서)","stage":"G1 이송·소관지정","type":"task","status":"done","progress":100,"actor":"소관 행정기관","action":"배정","output_documents":["처리주무부서 지정"],"deadline":"접수 후 즉시","confidence":0.72,"legal_basis":[{"law":"민원 처리에 관한 법률","article":"제9조제2항","text":"행정기관의 장은 접수한 민원을 처리주무부서에 배정한다."}]},{"id":"P05","name":"관계기관 협의·현장확인","lane":"관계기관","stage":"G2 조사·협의","type":"task","status":"risk","progress":40,"actor":"관계기관","action":"협의·회신","output_documents":["협의 회신","현장확인 결과"],"deadline":"협조 요청 후 상당기간","blocker":"관계기관 회신 지연으로 사실조사가 멈춰 있다(운영 추정)","confidence":0.78,"legal_basis":[{"law":"민원 처리에 관한 법률","article":"제20조","text":"행정기관의 장은 민원 처리에 관계기관·부서의 협조가 필요하면 협조를 요청할 수 있다."}]},{"id":"P06","name":"법정 처리기간 내 처리","lane":"소관 행정기관(담당부서)","stage":"G3 처리·통지","type":"task","status":"current","progress":55,"actor":"소관 행정기관","action":"처리","input_documents":["협의 회신","사실조사 자료"],"output_documents":["처리안"],"deadline":"법정민원 처리기간(민원 유형별 상이)","blocker":"관계기관 회신 대기로 처리기간이 임박했다","confidence":0.85,"legal_basis":[{"law":"민원 처리에 관한 법률","article":"제17조","text":"행정기관의 장은 법정민원을 처리기간 내에 처리하여야 하며 처리기간을 미리 정하여 공표한다."},{"law":"민원 처리에 관한 법률","article":"제19조","text":"처리기간이 5일 이하이면 시간 단위(1일=8근무시간), 6일 이상이면 일 단위로 계산하며 공휴일·토요일은 산입하지 않는다."}]},{"id":"P15","name":"처리진행상황 통지(30일)","lane":"소관 행정기관(담당부서)","stage":"G3 처리·통지","type":"notice","status":"waiting","progress":0,"actor":"소관 행정기관","receiver":"신청인","action":"진행상황 통지","output_documents":["처리진행상황 통지"],"deadline":"접수일부터 30일마다(영 제23조)","confidence":0.74,"legal_basis":[{"law":"민원 처리에 관한 법률 시행령","article":"제23조","text":"접수일부터 30일이 지나도 처리가 완료되지 않거나 민원인의 요청이 있으면 처리진행상황과 처리완료 예정일을 통지한다(30일마다)."}]},{"id":"P07","name":"처리기간 연장 판단","lane":"소관 행정기관(담당부서)","stage":"G3 처리·통지","type":"gateway","status":"waiting","progress":0,"actor":"소관 행정기관","receiver":"신청인","action":"연장 판단·통지","condition":"부득이한 사유로 처리기간 연장 필요 여부","output_documents":["처리기간 연장 통지"],"deadline":"처리기간 범위 내 1회 연장(동의 시 1회 추가)(영 제21조)","confidence":0.72,"legal_basis":[{"law":"민원 처리에 관한 법률 시행령","article":"제21조","text":"부득이한 사유(관계기관 협조·사실확인·현장확인 등)가 있으면 처리기간의 범위에서 한 차례 연장할 수 있고(민원인 동의 시 한 차례 추가), 연장 사유와 처리완료 예정일을 지체 없이 문서로 통지한다."}]},{"id":"P08","name":"처리결과 통지","lane":"소관 행정기관(담당부서)","stage":"G3 처리·통지","type":"notice","status":"waiting","progress":0,"actor":"소관 행정기관","receiver":"신청인","action":"결과 통지","output_documents":["처리결과 통지서"],"deadline":"처리 완료 시","confidence":0.86,"legal_basis":[{"law":"민원 처리에 관한 법률","article":"제27조","text":"행정기관의 장은 접수된 민원의 처리결과를 민원인에게 문서로 통지하여야 한다."}]},{"id":"P09","name":"만족도 평가·환류","lane":"신청인(국민)","stage":"G4 평가·반복","type":"task","status":"waiting","progress":0,"actor":"신청인","action":"만족도 평가","output_documents":["만족도 응답"],"confidence":0.72,"legal_basis":[{"law":"민원 처리에 관한 법률","article":"제39조","text":"행정기관의 장은 민원처리에 대한 만족도를 조사하고 그 결과를 민원제도 개선에 반영할 수 있다."}]},{"id":"P10","name":"반복·중복 민원 판단","lane":"소관 행정기관(담당부서)","stage":"G4 평가·반복","type":"gateway","status":"waiting","progress":0,"actor":"소관 행정기관","action":"반복·종결 판단","condition":"정당한 사유 없이 반복·중복 신청 여부","output_documents":["종결 처리 통지"],"confidence":0.85,"legal_basis":[{"law":"민원 처리에 관한 법률","article":"제23조","text":"정당한 사유 없이 반복·중복 제출된 민원은 2회 이상 안내 후 내부 종결 처리할 수 있다."}]},{"id":"P11","name":"재신청","lane":"신청인(국민)","stage":"G4 평가·반복","type":"task","status":"loop","progress":0,"actor":"신청인","receiver":"접수기관","action":"재신청","output_documents":["재신청서"],"blocker":"동일 내용 반복 신청 회귀 단계","confidence":0.75,"legal_basis":[{"law":"민원 처리에 관한 법률","article":"제8조","text":"민원인은 처리결과에 이견이 있으면 새로운 사유를 들어 다시 민원을 신청할 수 있다."}]},{"id":"P12","name":"거부처분 이의신청","lane":"신청인(국민)","stage":"G5 불복·고충","type":"task","status":"waiting","progress":0,"actor":"신청인","receiver":"소관 행정기관","action":"이의신청","output_documents":["이의신청서"],"deadline":"거부처분 통지 받은 날부터 60일 이내","confidence":0.85,"legal_basis":[{"law":"민원 처리에 관한 법률","article":"제35조","text":"법정민원 거부처분에 이의가 있는 민원인은 통지를 받은 날부터 60일 이내에 이의신청을 할 수 있다."}]},{"id":"P13","name":"고충민원 신청·조사","lane":"국민권익위원회","stage":"G5 불복·고충","type":"task","status":"waiting","progress":0,"actor":"국민권익위원회","action":"고충민원 조사","input_documents":["고충민원 신청서"],"output_documents":["조사 결과"],"confidence":0.85,"legal_basis":[{"law":"부패방지 및 국민권익위원회의 설치와 운영에 관한 법률","article":"제39조","text":"누구든지 위원회에 고충민원을 신청할 수 있으며 위원회는 이를 조사한다."}]},{"id":"P14","name":"시정·제도개선 권고","lane":"국민권익위원회","stage":"G5 불복·고충","type":"task","status":"waiting","progress":0,"actor":"국민권익위원회","receiver":"소관 행정기관","action":"권고","output_documents":["시정 권고","제도개선 권고"],"confidence":0.82,"legal_basis":[{"law":"부패방지 및 국민권익위원회의 설치와 운영에 관한 법률","article":"제46조","text":"위원회는 고충민원 조사 결과 필요하면 관계 행정기관에 시정·제도개선을 권고할 수 있다."}]}],"edges":[{"id":"E01","source":"P01","target":"P02","type":"sequence","label":null},{"id":"E02","source":"P02","target":"P03","type":"sequence","label":null},{"id":"E03","source":"P03","target":"P04","type":"sequence","label":"소관 지정"},{"id":"E04","source":"P04","target":"P05","type":"sequence","label":null},{"id":"E05","source":"P05","target":"P06","type":"sequence","label":null},{"id":"E06","source":"P06","target":"P07","type":"sequence","label":null},{"id":"E07","source":"P07","target":"P08","type":"sequence","label":null},{"id":"E08","source":"P08","target":"P09","type":"sequence","label":null},{"id":"E09","source":"P09","target":"P10","type":"sequence","label":null},{"id":"E10","source":"P10","target":"P12","type":"sequence","label":"거부·불복"},{"id":"E11","source":"P13","target":"P14","type":"sequence","label":null},{"id":"M01","source":"P01","target":"S01","type":"message","label":"국민신문고 접수"},{"id":"M02","source":"P03","target":"P04","type":"message","label":"소관 이송 통지"},{"id":"M03","source":"P08","target":"P12","type":"message","label":"거부처분 불복 안내"},{"id":"M04","source":"P12","target":"P13","type":"message","label":"고충민원 연계"},{"id":"L01","source":"P10","target":"P11","type":"loop","label":"반복민원 재신청"},{"id":"L02","source":"P11","target":"P02","type":"loop","label":"재접수·재처리"},{"id":"M05","source":"P06","target":"P15","type":"message","label":"30일 경과 진행상황 통지"}],"lawContext":{"byNode":{"P01":[{"law":"민원 처리에 관한 법률","article":"제8조","text":"민원인은 문서 또는 전자문서 등으로 행정기관에 민원을 신청할 수 있다.","found":true,"lawId":"001359","tier":"statute","articles":[{"label":"제8조","title":"민원의 신청","officialUrl":"https://www.law.go.kr/법령/민원처리에관한법률/제8조","up":[],"down":[]}]}],"S01":[{"law":"민원 처리에 관한 법률","article":"제12조의2","text":"행정기관은 전자민원창구·통합전자민원창구를 통해 민원을 접수·처리할 수 있다.","found":true,"lawId":"001359","tier":"statute","articles":[{"label":"제12조의2","title":"전자민원창구 및 통합전자민원창구의 운영 등","officialUrl":"https://www.law.go.kr/법령/민원처리에관한법률/제12조의2","up":[],"down":[{"kind":"rule","phrase":"중앙선거관리위원회규칙","lawName":"선거관리위원회 행정업무 등의 전자화촉진에 관한 규칙","label":"제7조","title":"통합전자민원창구의 설치 및 운영","tier":null},{"kind":"rule","phrase":"중앙선거관리위원회규칙","lawName":"선거관리위원회 행정업무 등의 전자화촉진에 관한 규칙","label":"제8조","title":"전자민원처리 수수료","tier":null},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"민원 처리에 관한 법률 시행령","label":"제10조의2","title":"전자민원창구의 설치","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"민원 처리에 관한 법률 시행령","label":"제11조","title":"전자민원창구의 운영 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"민원 처리에 관한 법률 시행령","label":"제11조의2","title":"전자민원창구 등의 이용 제한","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"민원 처리에 관한 법률 시행령","label":"제25조의3","title":"전자민원창구","tier":null},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"민원 처리에 관한 법률 시행령","label":"제94조의3","title":"전자민원창구","tier":null}]}]},{"law":"민원 처리에 관한 법률 시행령","article":"제6조","text":"전자민원창구를 통해 신청된 민원은 소관 행정기관에 도달한 때부터 8근무시간 이내에 접수한다(제6조제8항).","found":true,"lawId":"001359","tier":"decree","articles":[{"label":"제6조","title":"민원의 접수","officialUrl":"https://www.law.go.kr/법령/민원처리에관한법률시행령/제6조","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"민원 처리에 관한 법률","label":"제9조제2항","title":"민원의 접수","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"민원 처리에 관한 법률","label":"제9조제3항","title":"민원의 접수","tier":"statute"}],"down":[]}]}],"P02":[{"law":"민원 처리에 관한 법률","article":"제9조","text":"행정기관의 장은 민원의 신청을 받으면 지체 없이 접수하여야 한다.","found":true,"lawId":"001359","tier":"statute","articles":[{"label":"제9조","title":"민원의 접수","officialUrl":"https://www.law.go.kr/법령/민원처리에관한법률/제9조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"민원 처리에 관한 법률 시행령","label":"제6조","title":"민원의 접수","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"민원 처리에 관한 법률 시행령","label":"제6조","title":"민원의 접수","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"민원 처리에 관한 법률 시행령","label":"제6조의2","title":"정보시스템 장애 시 민원의 접수","tier":"decree"}]}]},{"law":"민원 처리에 관한 법률 시행령","article":"제6조","text":"민원을 접수하면 순서에 따라 민원 처리부에 기록하고 접수증을 발급한다(제6조제2항).","found":true,"lawId":"001359","tier":"decree","articles":[{"label":"제6조","title":"민원의 접수","officialUrl":"https://www.law.go.kr/법령/민원처리에관한법률시행령/제6조","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"민원 처리에 관한 법률","label":"제9조제2항","title":"민원의 접수","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"민원 처리에 관한 법률","label":"제9조제3항","title":"민원의 접수","tier":"statute"}],"down":[]}]}],"P03":[{"law":"민원 처리에 관한 법률","article":"제16조","text":"접수한 민원이 다른 기관 소관인 경우 지체 없이 소관 기관에 이송하고 그 사실을 민원인에게 통지한다.","found":true,"lawId":"001359","tier":"statute","articles":[{"label":"제16조","title":"민원문서의 이송","officialUrl":"https://www.law.go.kr/법령/민원처리에관한법률/제16조","up":[],"down":[{"kind":"decree","phrase":"필요한 사항은 대통령령으로 정한다","lawName":"민원 처리에 관한 법률 시행령","label":"제13조","title":"민원문서의 이송 절차 및 방법 등","tier":"decree"}]}]}],"P04":[{"law":"민원 처리에 관한 법률","article":"제9조제2항","text":"행정기관의 장은 접수한 민원을 처리주무부서에 배정한다.","found":true,"lawId":"001359","tier":"statute","articles":[{"label":"제9조","title":"민원의 접수","officialUrl":"https://www.law.go.kr/법령/민원처리에관한법률/제9조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"민원 처리에 관한 법률 시행령","label":"제6조","title":"민원의 접수","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"민원 처리에 관한 법률 시행령","label":"제6조","title":"민원의 접수","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"민원 처리에 관한 법률 시행령","label":"제6조의2","title":"정보시스템 장애 시 민원의 접수","tier":"decree"}]}]}],"P05":[{"law":"민원 처리에 관한 법률","article":"제20조","text":"행정기관의 장은 민원 처리에 관계기관·부서의 협조가 필요하면 협조를 요청할 수 있다.","found":true,"lawId":"001359","tier":"statute","articles":[{"label":"제20조","title":"관계 기관ㆍ부서 간의 협조","officialUrl":"https://www.law.go.kr/법령/민원처리에관한법률/제20조","up":[],"down":[]}]}],"P06":[{"law":"민원 처리에 관한 법률","article":"제17조","text":"행정기관의 장은 법정민원을 처리기간 내에 처리하여야 하며 처리기간을 미리 정하여 공표한다.","found":true,"lawId":"001359","tier":"statute","articles":[{"label":"제17조","title":"법정민원의 처리기간 설정ㆍ공표","officialUrl":"https://www.law.go.kr/법령/민원처리에관한법률/제17조","up":[],"down":[]}]},{"law":"민원 처리에 관한 법률","article":"제19조","text":"처리기간이 5일 이하이면 시간 단위(1일=8근무시간), 6일 이상이면 일 단위로 계산하며 공휴일·토요일은 산입하지 않는다.","found":true,"lawId":"001359","tier":"statute","articles":[{"label":"제19조","title":"처리기간의 계산","officialUrl":"https://www.law.go.kr/법령/민원처리에관한법률/제19조","up":[],"down":[]}]}],"P15":[{"law":"민원 처리에 관한 법률 시행령","article":"제23조","text":"접수일부터 30일이 지나도 처리가 완료되지 않거나 민원인의 요청이 있으면 처리진행상황과 처리완료 예정일을 통지한다(30일마다).","found":true,"lawId":"001359","tier":"decree","articles":[{"label":"제23조","title":"처리진행상황 등의 통지","officialUrl":"https://www.law.go.kr/법령/민원처리에관한법률시행령/제23조","up":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"민원 처리에 관한 법률","label":"제18조","title":"질의민원 등의 처리기간 등","tier":"statute"}],"down":[]}]}],"P07":[{"law":"민원 처리에 관한 법률 시행령","article":"제21조","text":"부득이한 사유(관계기관 협조·사실확인·현장확인 등)가 있으면 처리기간의 범위에서 한 차례 연장할 수 있고(민원인 동의 시 한 차례 추가), 연장 사유와 처리완료 예정일을 지체 없이 문서로 통지한다.","found":true,"lawId":"001359","tier":"decree","articles":[{"label":"제21조","title":"처리기간의 연장 등","officialUrl":"https://www.law.go.kr/법령/민원처리에관한법률시행령/제21조","up":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"민원 처리에 관한 법률","label":"제18조","title":"질의민원 등의 처리기간 등","tier":"statute"}],"down":[]}]}],"P08":[{"law":"민원 처리에 관한 법률","article":"제27조","text":"행정기관의 장은 접수된 민원의 처리결과를 민원인에게 문서로 통지하여야 한다.","found":true,"lawId":"001359","tier":"statute","articles":[{"label":"제27조","title":"처리결과의 통지","officialUrl":"https://www.law.go.kr/법령/민원처리에관한법률/제27조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"민원 처리에 관한 법률 시행령","label":"제29조","title":"처리결과의 통지방법 등","tier":"decree"}]}]}],"P09":[{"law":"민원 처리에 관한 법률","article":"제39조","text":"행정기관의 장은 민원처리에 대한 만족도를 조사하고 그 결과를 민원제도 개선에 반영할 수 있다.","found":true,"lawId":"001359","tier":"statute","articles":[{"label":"제39조","title":"민원제도의 개선","officialUrl":"https://www.law.go.kr/법령/민원처리에관한법률/제39조","up":[],"down":[{"kind":"decree","phrase":"개선한 내용을 대통령령으로 정하는 바에 따라","lawName":"민원 처리에 관한 법률 시행령","label":"제41조","title":"민원제도의 개선","tier":"decree"}]}]}],"P10":[{"law":"민원 처리에 관한 법률","article":"제23조","text":"정당한 사유 없이 반복·중복 제출된 민원은 2회 이상 안내 후 내부 종결 처리할 수 있다.","found":true,"lawId":"001359","tier":"statute","articles":[{"label":"제23조","title":"반복 및 중복 민원의 처리","officialUrl":"https://www.law.go.kr/법령/민원처리에관한법률/제23조","up":[],"down":[]}]}],"P11":[{"law":"민원 처리에 관한 법률","article":"제8조","text":"민원인은 처리결과에 이견이 있으면 새로운 사유를 들어 다시 민원을 신청할 수 있다.","found":true,"lawId":"001359","tier":"statute","articles":[{"label":"제8조","title":"민원의 신청","officialUrl":"https://www.law.go.kr/법령/민원처리에관한법률/제8조","up":[],"down":[]}]}],"P12":[{"law":"민원 처리에 관한 법률","article":"제35조","text":"법정민원 거부처분에 이의가 있는 민원인은 통지를 받은 날부터 60일 이내에 이의신청을 할 수 있다.","found":true,"lawId":"001359","tier":"statute","articles":[{"label":"제35조","title":"거부처분에 대한 이의신청","officialUrl":"https://www.law.go.kr/법령/민원처리에관한법률/제35조","up":[],"down":[{"kind":"decree","phrase":"필요한 사항은 대통령령으로 정한다","lawName":"민원 처리에 관한 법률 시행령","label":"제40조","title":"이의신청의 방법 및 처리절차 등","tier":"decree"}]}]}],"P13":[{"law":"부패방지 및 국민권익위원회의 설치와 운영에 관한 법률","article":"제39조","text":"누구든지 위원회에 고충민원을 신청할 수 있으며 위원회는 이를 조사한다.","found":true,"lawId":"009221","tier":"statute","articles":[{"label":"제39조","title":"고충민원의 신청 및 접수","officialUrl":"https://www.law.go.kr/법령/부패방지및국민권익위원회의설치와운영에관한법률/제39조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 사항","lawName":"부패방지 및 국민권익위원회의 설치와 운영에 관한 법률 시행령","label":"제35조","title":"고충민원의 신청","tier":"decree"}]}]}],"P14":[{"law":"부패방지 및 국민권익위원회의 설치와 운영에 관한 법률","article":"제46조","text":"위원회는 고충민원 조사 결과 필요하면 관계 행정기관에 시정·제도개선을 권고할 수 있다.","found":true,"lawId":"009221","tier":"statute","articles":[{"label":"제46조","title":"시정의 권고 및 의견의 표명","officialUrl":"https://www.law.go.kr/법령/부패방지및국민권익위원회의설치와운영에관한법률/제46조","up":[],"down":[]}]}]},"systems":{"001359":{"lawId":"001359","name":"민원 처리에 관한 법률","href":"/law/001359/","ministry":"행정안전부","effectiveOn":"2022-07-12","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"민원 처리에 관한 법률","kind":"법률","articleCount":51,"officialUrl":"https://www.law.go.kr/법령/민원처리에관한법률"}],"kinds":[{"kind":"법률","count":1}],"articleCount":51},{"tier":"decree","label":"시행령","laws":[{"name":"민원 처리에 관한 법률 시행령","kind":"대통령령","articleCount":67,"officialUrl":"https://www.law.go.kr/법령/민원처리에관한법률시행령"}],"kinds":[{"kind":"대통령령","count":1}],"articleCount":67},{"tier":"rule","label":"시행규칙","laws":[{"name":"민원 처리에 관한 법률 시행규칙","kind":"행정안전부령","articleCount":16,"officialUrl":"https://www.law.go.kr/법령/민원처리에관한법률시행규칙"}],"kinds":[{"kind":"행정안전부령","count":1}],"articleCount":16},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"법정민원 신설 사전진단 및 협의 운영지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/법정민원신설사전진단및협의운영지침"},{"name":"조달청 전자민원창구운영세부지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/조달청전자민원창구운영세부지침"},{"name":"민원제도개선조정회의 운영세칙","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/민원제도개선조정회의운영세칙"},{"name":"어디서나 교육민원처리제 운영지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/어디서나교육민원처리제운영지침"},{"name":"어디서나 민원처리제 운영지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/어디서나민원처리제운영지침"},{"name":"음식점 등·미용업 영업신고 통합신청 및 처리에 관한 규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/음식점등·미용업영업신고통합신청및처리에관한규정"},{"name":"임신ㆍ출산 관련 서비스 통합처리에 관한 규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/임신ㆍ출산관련서비스통합처리에관한규정"},{"name":"(고용노동부) 4대 사회보험 민원서류 접수 등에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/(고용노동부)4대사회보험민원서류접수등에관한고시"},{"name":"(기후에너지환경부) 민원인이 출력한 문서를 공문서로 보는 전자문서","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/(기후에너지환경부)민원인이출력한문서를공문서로보는전자문서"},{"name":"(보건복지부) 4대 사회보험 민원서류 접수 등에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/(보건복지부)4대사회보험민원서류접수등에관한고시"},{"name":"(식품의약품안전처) 민원인이 출력한 문서를 공문서로 보는 전자문서의 종류 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/(식품의약품안전처)민원인이출력한문서를공문서로보는전자문서의종류고시"},{"name":"(지식재산처) 민원인이 출력한 문서를 공문서로 보는 전자문서","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/(지식재산처)민원인이출력한문서를공문서로보는전자문서"},{"name":"(행정안전부) 민원사무처리기준표 변경내용 및 민원인이 출력한 문서를 공문서로 보는 전자문서의 종류","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/(행정안전부)민원사무처리기준표변경내용및민원인이출력한문서를공문서로보는전자문서의종류"},{"name":"무인민원발급창구를 이용하여 접수·처리할 수 있는 민원사항의 종류","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/무인민원발급창구를이용하여접수·처리할수있는민원사항의종류"},{"name":"민원인의 요구에 의한 본인정보 공동이용 운영 지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/민원인의요구에의한본인정보공동이용운영지침"},{"name":"행정사무정보처리용 무인민원발급기의 전자적 본인확인장치 표준규격","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정사무정보처리용무인민원발급기의전자적본인확인장치표준규격"},{"name":"민원인의 요구에 의한 공동이용 대상 본인정보","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/민원인의요구에의한공동이용대상본인정보"},{"name":"민원처리기준표 일부개정고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/민원처리기준표일부개정고시"},{"name":"전자증명서 발급업무 처리지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/전자증명서발급업무처리지침"},{"name":"전자증명서의 종류","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/전자증명서의종류"},{"name":"민원처리기준표 고시","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/민원처리기준표고시"},{"name":"임신·출산관련 서비스 통합처리에 관한 규정","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/임신·출산관련서비스통합처리에관한규정"},{"name":"(환경부) 민원인이 출력한 문서를 공문서로 보는 전자문서","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/(환경부)민원인이출력한문서를공문서로보는전자문서"},{"name":"(특허청) 민원인이 출력한 문서를 공문서로 보는 전자문서","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/(특허청)민원인이출력한문서를공문서로보는전자문서"}],"kinds":[{"kind":"고시","count":13},{"kind":"예규","count":6},{"kind":"행정규칙","count":4},{"kind":"훈령","count":1}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EB%AF%BC%EC%9B%90%20%EC%B2%98%EB%A6%AC%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":55,"rule":6,"adminRule":22,"ordinance":2,"cites":152}},"009221":{"lawId":"009221","name":"부패방지 및 국민권익위원회의 설치와 운영에 관한 법률","href":"/law/009221/","ministry":"국민권익위원회","effectiveOn":"2026-10-02","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"부패방지 및 국민권익위원회의 설치와 운영에 관한 법률","kind":"법률","articleCount":112,"officialUrl":"https://www.law.go.kr/법령/부패방지및국민권익위원회의설치와운영에관한법률"}],"kinds":[{"kind":"법률","count":1}],"articleCount":112},{"tier":"decree","label":"시행령","laws":[{"name":"부패방지 및 국민권익위원회의 설치와 운영에 관한 법률 시행령","kind":"대통령령","articleCount":104,"officialUrl":"https://www.law.go.kr/법령/부패방지및국민권익위원회의설치와운영에관한법률시행령"},{"name":"공무원 행동강령","kind":"대통령령","articleCount":33,"officialUrl":"https://www.law.go.kr/법령/공무원행동강령"},{"name":"국민권익위원회와 그 소속기관 직제","kind":"대통령령","articleCount":31,"officialUrl":"https://www.law.go.kr/법령/국민권익위원회와그소속기관직제"},{"name":"지방의회의원 행동강령","kind":"대통령령","articleCount":31,"officialUrl":"https://www.law.go.kr/법령/지방의회의원행동강령"},{"name":"부패방지 및 국민권익위원회의 설치와 운영에 관한 법률의 시행에 관한 중앙선거관리위원회 규칙","kind":"중앙선거관리위원회규칙","articleCount":31,"officialUrl":"https://www.law.go.kr/법령/부패방지및국민권익위원회의설치와운영에관한법률의시행에관한중앙선거관리위원회규칙"},{"name":"법관 및 법원공무원 행동강령","kind":"대법원규칙","articleCount":32,"officialUrl":"https://www.law.go.kr/법령/법관및법원공무원행동강령"},{"name":"부패방지 및 국민권익위원회의 설치와 운영에 관한 법률의 시행에 관한 대법원규칙","kind":"대법원규칙","articleCount":30,"officialUrl":"https://www.law.go.kr/법령/부패방지및국민권익위원회의설치와운영에관한법률의시행에관한대법원규칙"},{"name":"부패방지 및 국민권익위원회의 설치와 운영에 관한 법률의 시행에 관한 헌법재판소 규칙","kind":"헌법재판소규칙","articleCount":30,"officialUrl":"https://www.law.go.kr/법령/부패방지및국민권익위원회의설치와운영에관한법률의시행에관한헌법재판소규칙"},{"name":"헌법재판소 공무원 행동강령","kind":"헌법재판소규칙","articleCount":27,"officialUrl":"https://www.law.go.kr/법령/헌법재판소공무원행동강령"},{"name":"국민감사청구ㆍ부패행위신고등처리에관한규칙","kind":"감사원규칙","articleCount":32,"officialUrl":"https://www.law.go.kr/법령/국민감사청구ㆍ부패행위신고등처리에관한규칙"},{"name":"선거관리위원회 공무원행동강령","kind":"선거관리위원회규칙","articleCount":32,"officialUrl":"https://www.law.go.kr/법령/선거관리위원회공무원행동강령"}],"kinds":[{"kind":"대통령령","count":4},{"kind":"대법원규칙","count":2},{"kind":"헌법재판소규칙","count":2},{"kind":"중앙선거관리위원회규칙","count":1},{"kind":"감사원규칙","count":1},{"kind":"선거관리위원회규칙","count":1}],"articleCount":413},{"tier":"rule","label":"시행규칙","laws":[{"name":"국민권익위원회와 그 소속기관 직제 시행규칙","kind":"총리령","articleCount":25,"officialUrl":"https://www.law.go.kr/법령/국민권익위원회와그소속기관직제시행규칙"}],"kinds":[{"kind":"총리령","count":1}],"articleCount":25},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"국민권익위원회 정책자문에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국민권익위원회정책자문에관한규정"},{"name":"국민권익위원회 파견직원 관리규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국민권익위원회파견직원관리규정"},{"name":"국민권익위원회 회의운영규칙","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국민권익위원회회의운영규칙"},{"name":"온라인 국민참여포털의 운영에 관한 규정","kind":"대통령훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/온라인국민참여포털의운영에관한규정"},{"name":"부패신고 구조금 사무 운영지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/부패신고구조금사무운영지침"},{"name":"부패영향평가업무 운영지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/부패영향평가업무운영지침"},{"name":"부패행위 신고자 보호사무 운영지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/부패행위신고자보호사무운영지침"},{"name":"부패행위 신고자 포상 및 보상 사무 운영지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/부패행위신고자포상및보상사무운영지침"},{"name":"비위면직자등의 취업제한사무 운영지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/비위면직자등의취업제한사무운영지침"},{"name":"국민연금 기금운용관련 직원의 유가증권 보유 및 거래 제한에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국민연금기금운용관련직원의유가증권보유및거래제한에관한규정"},{"name":"어디서나 민원처리제 운영지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/어디서나민원처리제운영지침"},{"name":"부패신고 처리 및 직무관련 범죄 고발기준에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/부패신고처리및직무관련범죄고발기준에관한규정"},{"name":"청렴포털 운영 및 관리 지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/청렴포털운영및관리지침"},{"name":"국민권익위원회 고충민원 처리지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국민권익위원회고충민원처리지침"}],"kinds":[{"kind":"예규","count":7},{"kind":"훈령","count":6},{"kind":"대통령훈령","count":1}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EB%B6%80%ED%8C%A8%EB%B0%A9%EC%A7%80%20%EB%B0%8F%20%EA%B5%AD%EB%AF%BC%EA%B6%8C%EC%9D%B5%EC%9C%84%EC%9B%90%ED%9A%8C%EC%9D%98%20%EC%84%A4%EC%B9%98%EC%99%80%20%EC%9A%B4%EC%98%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":81,"rule":21,"adminRule":14,"ordinance":2,"cites":249}}}},"statusStyles":{"done":{"label":"선행","fill":"#effaf5","border":"#35a77d","ink":"#123d2e","sub":"#287a5c"},"current":{"label":"핵심","fill":"#087452","border":"#087452","ink":"#ffffff","sub":"#d8f4e8"},"waiting":{"label":"후속","fill":"#ffffff","border":"#b9c7bf","ink":"#17231d","sub":"#627169"},"risk":{"label":"병목","fill":"#fff8e8","border":"#d9901a","ink":"#7a4305","sub":"#a96008"},"loop":{"label":"회귀","fill":"#edf4ff","border":"#3478db","ink":"#173f7a","sub":"#316bbd"}},"basisLegend":[{"label":"법률","fill":"#ffffff","border":"#3b4a43"},{"label":"시행령","fill":"#f2f6ff","border":"#2456d6"},{"label":"시행규칙","fill":"#effaf6","border":"#0f9f72"},{"label":"행정규칙","fill":"#f6f2ff","border":"#7c56c9"}],"isLawIndex":false}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Eu-UvfunzEwjnKcUq5f7W"}
+4:["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","precedence":"next"}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

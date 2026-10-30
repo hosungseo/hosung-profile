@@ -1,0 +1,438 @@
+1:"$Sreact.fragment"
+2:I[4116,[],""]
+3:I[8498,[],""]
+5:I[977,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+9:I[977,[],"ViewportBoundary"]
+b:I[977,[],"MetadataBoundary"]
+d:I[8432,[],"default",1]
+:HL["/lawdemo/flow/_next/static/css/cd237d4e4c702e12.css","style"]
+:HL["/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","style"]
+0:{"P":null,"c":["","embed","flow","001973","basic-livelihood-security",""],"q":"","i":false,"f":[[["",{"children":["embed",{"children":["flow",{"children":[["lawId","001973","d",null],{"children":[["slug","basic-livelihood-security","d",null],{"children":["__PAGE__",{}]}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/cd237d4e4c702e12.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"ko","children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,"$@8"]},null,false,"$@8"]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Eu-UvfunzEwjnKcUq5f7W"}
+e:[]
+8:"$We"
+f:I[7742,["838","static/chunks/838-9b85aecee2a13f53.js","379","static/chunks/379-f104668f756ddde1.js","301","static/chunks/app/embed/flow/%5BlawId%5D/%5Bslug%5D/page-e3d0b6acb7d5d0b3.js"],"default"]
+10:T8b13,<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 250 1744 1960" class="pp-svg">
+<defs>
+      <filter id="card-shadow" x="-20%" y="-25%" width="140%" height="160%">
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#12271e" flood-opacity="0.10"/>
+      </filter>
+      <marker id="arrow-sequence" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#53675d" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-message" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#0f8a65" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-loop" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#3478db" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <style>
+        text { font-family: "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", sans-serif; }
+        .mono { font-family: "SFMono-Regular", "Menlo", monospace; }
+      </style>
+    </defs>
+<rect width="1800" height="2400" fill="#ffffff"/>
+
+
+
+<rect x="38" y="260" width="1724" height="1940" rx="10" fill="#ffffff" stroke="#b8c7bf" stroke-width="2"/>
+<rect x="38" y="260" width="190" height="100" rx="10" fill="#eaf2ee"/>
+<text x="58" y="299" font-size="17" font-weight="800" fill="#17231d">단계 ↓</text>
+<text x="58" y="332" font-size="15" font-weight="650" fill="#68776f">행위자 묶음 →</text>
+<rect x="38" y="360" width="1724" height="148.9" fill="#fbfcfb"/>
+<rect x="38" y="360" width="190" height="148.9" fill="#eef3f0"/>
+<text x="58" y="392" class="mono" font-size="16" font-weight="800" fill="#53645b">G0</text>
+<text x="58" y="425" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">기준 고시</tspan></text>
+<rect x="38" y="508.9" width="1724" height="376.9" fill="#f5f8f6"/>
+<rect x="38" y="508.9" width="190" height="376.9" fill="#eef3f0"/>
+<text x="58" y="540.9" class="mono" font-size="16" font-weight="800" fill="#53645b">G1</text>
+<text x="58" y="573.9" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">신청·접수</tspan></text>
+<rect x="38" y="885.7" width="1724" height="490.9" fill="#fbfcfb"/>
+<rect x="38" y="885.7" width="190" height="490.9" fill="#eef3f0"/>
+<text x="58" y="917.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G2</text>
+<text x="58" y="950.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">조사</tspan></text>
+<rect x="38" y="1376.6" width="1724" height="262.9" fill="#f5f8f6"/>
+<rect x="38" y="1376.6" width="190" height="262.9" fill="#eef3f0"/>
+<text x="58" y="1408.6" class="mono" font-size="16" font-weight="800" fill="#53645b">G3</text>
+<text x="58" y="1441.6" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">보장 결정</tspan></text>
+<rect x="38" y="1639.4" width="1724" height="148.9" fill="#fbfcfb"/>
+<rect x="38" y="1639.4" width="190" height="148.9" fill="#eef3f0"/>
+<text x="58" y="1671.4" class="mono" font-size="16" font-weight="800" fill="#53645b">G4</text>
+<text x="58" y="1704.4" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">급여 지급</tspan></text>
+<rect x="38" y="1788.3" width="1724" height="262.9" fill="#f5f8f6"/>
+<rect x="38" y="1788.3" width="190" height="262.9" fill="#eef3f0"/>
+<text x="58" y="1820.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G5</text>
+<text x="58" y="1853.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">확인조사·변동</tspan></text>
+<rect x="38" y="2051.1" width="1724" height="148.9" fill="#fbfcfb"/>
+<rect x="38" y="2051.1" width="190" height="148.9" fill="#eef3f0"/>
+<text x="58" y="2083.1" class="mono" font-size="16" font-weight="800" fill="#53645b">G6</text>
+<text x="58" y="2116.1" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">이의신청</tspan></text>
+<rect x="228" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="228" y="260" width="383.5" height="7" fill="#0f9f72"/>
+<text x="248" y="299" font-size="20" font-weight="800" fill="#17231d">신청자·읍면동</text>
+<text x="248" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="248" dy="0">신청자(수급희망자) · 읍면동(접수·상담)</tspan></text>
+<rect x="611.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="611.5" y="260" width="383.5" height="7" fill="#3b82f6"/>
+<text x="631.5" y="299" font-size="20" font-weight="800" fill="#17231d">시군구·사회보장정보원</text>
+<text x="631.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="631.5" dy="0">시군구(통합조사·보장결정) · 사회보장정보원</tspan></text>
+<rect x="995" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="995" y="260" width="383.5" height="7" fill="#c78116"/>
+<text x="1015" y="299" font-size="20" font-weight="800" fill="#17231d">지방생활보장위원회·보건복지부</text>
+<text x="1015" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1015" dy="0">지방생활보장위원회 · 보건복지부(기준 고시)</tspan></text>
+<rect x="1378.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="1378.5" y="260" width="383.5" height="7" fill="#0891b2"/>
+<text x="1398.5" y="299" font-size="20" font-weight="800" fill="#17231d">시·도</text>
+<text x="1398.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1398.5" dy="0">시·도(이의신청 심사)</tspan></text>
+<line x1="228" y1="260" x2="228" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="611.5" y1="260" x2="611.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="995" y1="260" x2="995" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1378.5" y1="260" x2="1378.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1762" y1="260" x2="1762" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#b8c7bf" stroke-width="2"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="508.9" x2="1762" y2="508.9" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="885.7" x2="1762" y2="885.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1376.6" x2="1762" y2="1376.6" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1639.4" x2="1762" y2="1639.4" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1788.3" x2="1762" y2="1788.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2051.1" x2="1762" y2="2051.1" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2200" x2="1762" y2="2200" stroke="#b8c7bf" stroke-width="2"/>
+<g class="pp-edge" data-edge-id="E01" data-source="P01" data-target="P02">
+<path d="M 1186.8 479.4 V 496.9 H 435.8 V 530.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1186.8 479.4 V 496.9 H 435.8 V 530.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E02" data-source="P02" data-target="P03">
+<path d="M 409.8 628.3 V 644.3 H 429.8 V 644.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 409.8 628.3 V 644.3 H 429.8 V 644.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E03" data-source="P03" data-target="P04">
+<path d="M 403.8 742.3 V 758.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 403.8 742.3 V 758.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E04" data-source="P04" data-target="P05">
+<path d="M 435.8 856.3 V 873.7 H 783.3 V 907.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 435.8 856.3 V 873.7 H 783.3 V 907.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E05" data-source="P05" data-target="P06">
+<path d="M 823.3 1005.1 V 1021.1 H 797.3 V 1021.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 823.3 1005.1 V 1021.1 H 797.3 V 1021.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E06" data-source="P06" data-target="P07">
+<path d="M 777.3 1119.1 V 1135.1 H 819.3 V 1135.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 777.3 1119.1 V 1135.1 H 819.3 V 1135.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E07" data-source="P07" data-target="P08">
+<path d="M 799.3 1233.1 V 1249.1 H 791.3 V 1249.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 799.3 1233.1 V 1249.1 H 791.3 V 1249.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E08" data-source="P08" data-target="P09">
+<path d="M 811.3 1347.1 V 1364.6 H 773.3 V 1398" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 811.3 1347.1 V 1364.6 H 773.3 V 1398" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E09" data-source="P09" data-target="P11">
+<path d="M 787.3 1496 V 1512 H 797.3 V 1512" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 787.3 1496 V 1512 H 797.3 V 1512" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E10" data-source="P11" data-target="P12">
+<path d="M 823.3 1610 V 1611.4 H 791.3 V 1660.9" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 823.3 1610 V 1611.4 H 791.3 V 1660.9" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E11" data-source="P12" data-target="P14">
+<path d="M 811.3 1758.9 V 1760.3 H 797.3 V 1809.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 811.3 1758.9 V 1760.3 H 797.3 V 1809.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E12" data-source="P14" data-target="P15">
+<path d="M 823.3 1907.7 V 1923.7 H 797.3 V 1923.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 823.3 1907.7 V 1923.7 H 797.3 V 1923.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M01" data-source="P09" data-target="P10">
+<path d="M 938.3 1465 H 997.8 V 1513 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 1465 H 997.8 V 1513 H 1043.8" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M02" data-source="P12" data-target="P13">
+<path d="M 668.3 1700.9 H 582.8 V 1713.9 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 668.3 1700.9 H 582.8 V 1713.9 H 562.8" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M03" data-source="P05" data-target="P08">
+<path d="M 938.3 970.1 H 992.3 V 1301.6 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 970.1 H 992.3 V 1301.6 H 946.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L01" data-source="P14" data-target="P06">
+<path d="M 668.3 1852.2 H 177 V 1340.6 H 829.3 V 1127.1" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 668.3 1852.2 H 177 V 1340.6 H 829.3 V 1127.1" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L02" data-source="P17" data-target="P09">
+<path d="M 1435.3 2134.6 H 203 V 1571.4 H 809.3 V 1504" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1435.3 2134.6 H 203 V 1571.4 H 809.3 V 1504" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E18" data-source="P11" data-target="P16">
+<path d="M 783.3 1610 V 1627.4 H 246 V 2052.6 H 409.8 V 2072.6" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 783.3 1610 V 1627.4 H 246 V 2052.6 H 409.8 V 2072.6" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E19" data-source="P16" data-target="P17">
+<path d="M 554.8 2132.1 H 1407.3 V 2121.6 H 1427.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 2132.1 H 1407.3 V 2121.6 H 1427.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge-label" data-edge-id="E09" data-source="P09" data-target="P11">
+<rect x="1010.3" y="1421" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1058.3" y="1441" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">결정</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E10" data-source="P11" data-target="P12">
+<rect x="549.3" y="1579.4" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="597.3" y="1599.4" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">수급 결정</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M01" data-source="P09" data-target="P10">
+<rect x="998.1" y="1349" width="133.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1065" y="1369" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">위원회 심의 요청</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M02" data-source="P12" data-target="P13">
+<rect x="477.1" y="1783.4" width="128.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="541.5" y="1803.4" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">조건부수급 연계</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M03" data-source="P05" data-target="P08">
+<rect x="976.4" y="1120.9" width="147.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1050.3" y="1140.9" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">전산조회 결과 연계</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L01" data-source="P14" data-target="P06">
+<rect x="162.6" y="1586.6" width="168.8" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="247" y="1606.6" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">소득·재산 변동 재산정</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L02" data-source="P17" data-target="P09">
+<rect x="232.7" y="1833.5" width="220.6" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="343" y="1853.5" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">처분 변경·취소 시 재결정 회귀</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E18" data-source="P11" data-target="P16">
+<rect x="117.1" y="1897" width="257.8" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="246" y="1917" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">처분 불복 시(통지일부터 90일 이내)</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E19" data-source="P16" data-target="P17">
+<rect x="882.5" y="2094.8" width="224.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="995" y="2114.8" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">보장기관 경유 이송(10일 이내)</text>
+</g>
+
+    <g class="pp-node" data-node-id="P01" data-basis="국민기초생활보장법:제6조 국민기초생활보장법:제20조의2" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="389.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="389.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="409.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P01</text>
+      
+      <rect x="1259.8" y="396.4" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1285.8" y="413.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §6</text>
+      <text x="1066.8" y="436.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">기준 중위소득·급여별 선정기준</tspan><tspan x="1066.8" dy="18">고시</tspan></text>
+      <text x="1066.8" y="471.4" font-size="11" font-weight="650" fill="#3b4a43">기한 · 매년 8월 1일까지 다음연도 기준 고시</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P02" data-basis="국민기초생활보장법:제21조 국민기초생활보장법시행규칙:제34조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="538.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="538.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="558.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P02</text>
+      
+      <rect x="468.8" y="545.3" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="562.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §21 +1</text>
+      <text x="299.8" y="595.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">급여 신청·상담</tspan></text>
+      <text x="299.8" y="620.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 상시 신청</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P03" data-basis="국민기초생활보장법:제21조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="652.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="652.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="672.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P03</text>
+      
+      <rect x="485.8" y="659.3" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="676.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §21</text>
+      <text x="299.8" y="709.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">신청 접수·초기상담·서식 안내</tspan></text>
+      <text x="299.8" y="734.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 신청 당일 접수</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P04" data-basis="국민기초생활보장법:제21조 국민기초생활보장법시행령:제36조 국민기초생활보장법시행령:제36조의2" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="766.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="766.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="786.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P04</text>
+      
+      <rect x="468.8" y="773.3" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="790.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §21 +2</text>
+      <text x="299.8" y="813.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">금융정보 제공 동의·구비서류</tspan><tspan x="299.8" dy="18">접수</tspan></text>
+      <text x="299.8" y="848.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 접수 후 지체 없이 이송</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P05" data-basis="국민기초생활보장법:제22조 국민기초생활보장법:제23조 국민기초생활보장법시행령:제36조의2" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="915.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="915.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="935.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">▣ P05</text>
+      
+      <rect x="852.3" y="922.1" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="939.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §22 +1</text>
+      <text x="683.3" y="962.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">공적자료·금융재산</tspan><tspan x="683.3" dy="18">조회(행복이음)</tspan></text>
+      <text x="683.3" y="997.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 조사기간 내 회신</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P06" data-basis="국민기초생활보장법:제2조 국민기초생활보장법:제6조의3 국민기초생활보장법시행령:제5조의2 국민기초생활보장법시행령:제5조의3 국민기초생활보장법시행령:제5조의4" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1029.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1029.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1049.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P06</text>
+      
+      <rect x="859.3" y="1036.1" width="69" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="893.8" y="1053.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §2 +3</text>
+      <text x="683.3" y="1086.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">소득인정액 산정(판정)</tspan></text>
+      <text x="683.3" y="1111.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 보장결정 기한 내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P07" data-basis="국민기초생활보장법:제8조의2 국민기초생활보장법시행령:제5조의6" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1143.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1143.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1163.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P07</text>
+      
+      <rect x="840.3" y="1150.1" width="88" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="884.3" y="1167.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §8의2 +1</text>
+      <text x="683.3" y="1200.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">부양의무자 기준 적용 검토</tspan></text>
+      <text x="683.3" y="1225.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 보장결정 기한 내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P08" data-basis="국민기초생활보장법:제22조 국민기초생활보장법시행규칙:제36조의2" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1257.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1257.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1277.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P08</text>
+      
+      <rect x="852.3" y="1264.1" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="1281.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §22 +1</text>
+      <text x="683.3" y="1314.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">통합조사(방문·실태확인)</tspan></text>
+      <text x="683.3" y="1339.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 보장결정 기한 내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P09" data-basis="국민기초생활보장법:제26조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1406" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1406" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1426" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P09</text>
+      
+      <rect x="869.3" y="1413" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1430" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §26</text>
+      <text x="683.3" y="1463" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">보장 결정(급여종류·금액)</tspan></text>
+      <text x="683.3" y="1488" font-size="11" font-weight="650" fill="#3b4a43">기한 · 신청일부터 30일(부득이 시 60일) 이내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P10" data-basis="국민기초생활보장법:제20조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1463" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1463" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1483" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P10</text>
+      
+      <rect x="1252.8" y="1470" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1487" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §20</text>
+      <text x="1066.8" y="1520" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">지방생활보장위원회 심의(필요시)</tspan></text>
+      <text x="1066.8" y="1545" font-size="11" font-weight="650" fill="#3b4a43">기한 · 결정 전 심의</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P11" data-basis="국민기초생활보장법:제26조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1520" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1520" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1540" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P11</text>
+      
+      <rect x="869.3" y="1527" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1544" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §26</text>
+      <text x="683.3" y="1577" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">결정 통지</tspan></text>
+      <text x="683.3" y="1602" font-size="11" font-weight="650" fill="#3b4a43">기한 · 결정 후 지체 없이(제26조 기한 내)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P12" data-basis="국민기초생활보장법:제27조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1668.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1668.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1688.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P12</text>
+      
+      <rect x="869.3" y="1675.9" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1692.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §27</text>
+      <text x="683.3" y="1725.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">급여 지급(생계·의료·주거·교육)</tspan></text>
+      <text x="683.3" y="1750.9" font-size="11" font-weight="650" fill="#3b4a43">기한 · 매월 정기 지급</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P13" data-basis="국민기초생활보장법:제9조 국민기초생활보장법:제15조 국민기초생활보장법시행령:제8조 국민기초생활보장법시행령:제11조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1668.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1668.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1688.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P13</text>
+      
+      <rect x="475.8" y="1675.9" width="69" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="510.3" y="1692.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §9 +2</text>
+      <text x="299.8" y="1725.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">자활사업 참여·조건 부과</tspan></text>
+      <text x="299.8" y="1750.9" font-size="11" font-weight="650" fill="#3b4a43">기한 · 조건부수급 결정일부터 1개월 이내 조…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P14" data-basis="국민기초생활보장법:제23조 국민기초생활보장법시행규칙:제37조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1817.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1817.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1837.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P14</text>
+      
+      <rect x="852.3" y="1824.7" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="1841.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §23 +1</text>
+      <text x="683.3" y="1874.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">정기·수시 확인조사</tspan></text>
+      <text x="683.3" y="1899.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 정기(연 1~2회)·수시</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P15" data-basis="국민기초생활보장법:제29조 국민기초생활보장법:제30조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1931.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1931.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1951.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P15</text>
+      
+      <rect x="869.3" y="1938.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1955.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §29</text>
+      <text x="683.3" y="1988.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">자격·급여 변동 처리</tspan></text>
+      <text x="683.3" y="2013.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 변동 확인 후 지체 없이</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P16" data-basis="국민기초생활보장법:제38조 국민기초생활보장법:제40조 국민기초생활보장법시행령:제38조의2" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="2080.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="2080.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="2100.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P16</text>
+      
+      <rect x="468.8" y="2087.6" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="2104.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §38 +1</text>
+      <text x="299.8" y="2137.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">이의신청(시·도지사·복지부장관)</tspan></text>
+      <text x="299.8" y="2162.6" font-size="11" font-weight="650" fill="#3b4a43">기한 · 결정 통지받은 날부터 90일 이내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P17" data-basis="국민기초생활보장법:제39조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="2080.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="2080.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="2100.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P17</text>
+      
+      <rect x="1636.3" y="2087.6" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1665.8" y="2104.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §39</text>
+      <text x="1450.3" y="2137.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">시·도지사 이의신청 심사·처분</tspan></text>
+      <text x="1450.3" y="2162.6" font-size="11" font-weight="650" fill="#3b4a43">기한 · 이의신청서를 받은 날부터 30일 이내</text>
+    </g>
+  
+
+</svg>4:["$","$Lf",null,{"law":{"lawId":"001973","mst":"276653","name":"국민기초생활 보장법","kind":"법률","tier":"statute","effectiveOn":"2025-10-01","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법"},"flows":[{"slug":"basic-livelihood-security","name":"국민기초생활보장","oneLiner":"소득이 기준 중위소득 이하인 저소득 가구에 생계·의료·주거·교육 등 급여를 지급해 최저생활을 보장하고 자활을 돕는 공공부조 제도","citingSteps":17,"totalSteps":17,"articles":{"제6조":1,"제20조의2":1,"제21조":3,"제22조":2,"제23조":2,"제2조":1,"제6조의3":1,"제8조의2":1,"제26조":2,"제20조":1,"제27조":1,"제9조":1,"제15조":1,"제29조":1,"제30조":1,"제38조":1,"제40조":1,"제39조":1}}],"current":"$4:props:flows:0","asOfDate":"2026-07-10","reviewNote":"주요 절차를 요약한 참고 모델입니다. 모든 예외·위임규정의 현행성까지 전수 검증한 자료는 아닙니다. 법령 체계의 보관 자료와 현행 원문은 다를 수 있습니다.","svg":"$10","nodes":[{"id":"P01","name":"기준 중위소득·급여별 선정기준 고시","lane":"보건복지부(기준 고시)","stage":"G0 기준 고시","type":"task","status":"done","progress":100,"actor":"보건복지부장관","action":"심의·고시","output_documents":["기준 중위소득 고시","급여별 선정기준·최저보장수준"],"deadline":"매년 8월 1일까지 다음연도 기준 고시","confidence":0.85,"legal_basis":[{"law":"국민기초생활 보장법","article":"제6조·제20조의2","text":"보건복지부장관은 중앙생활보장위원회 심의를 거쳐 기준 중위소득과 급여별 선정기준·최저보장수준을 정하여 고시한다."}]},{"id":"P02","name":"급여 신청·상담","lane":"신청자(수급희망자)","stage":"G1 신청·접수","type":"task","status":"done","progress":100,"actor":"본인·가구원·관계인","receiver":"읍면동","action":"급여 신청","output_documents":["급여 신청서"],"deadline":"상시 신청","confidence":0.86,"legal_basis":[{"law":"국민기초생활 보장법","article":"제21조","text":"수급권자와 그 친족 등은 관할 시장·군수·구청장(읍·면·동 경유)에게 급여를 신청할 수 있다."},{"law":"국민기초생활 보장법 시행규칙","article":"제34조","text":"법 제21조의 위임에 따라 급여(변경)신청서에 금융정보등 제공 동의서 등을 첨부하여 시장·군수·구청장에게 제출한다."}]},{"id":"P03","name":"신청 접수·초기상담·서식 안내","lane":"읍면동(접수·상담)","stage":"G1 신청·접수","type":"task","status":"done","progress":100,"actor":"읍·면·동 주민센터","action":"접수·상담","input_documents":["급여 신청서"],"output_documents":["접수증","구비서류 안내"],"deadline":"신청 당일 접수","confidence":0.84,"legal_basis":[{"law":"국민기초생활 보장법","article":"제21조제2항","text":"신청을 받은 읍·면·동은 신청서를 접수하고 급여 종류와 절차를 안내한다."}]},{"id":"P04","name":"금융정보 제공 동의·구비서류 접수","lane":"읍면동(접수·상담)","stage":"G1 신청·접수","type":"task","status":"done","progress":100,"actor":"읍·면·동","receiver":"시군구","action":"동의서·서류 접수·이송","input_documents":["금융정보 제공 동의서","소득·재산 신고서"],"output_documents":["조사 요청 자료"],"deadline":"접수 후 지체 없이 이송","confidence":0.82,"legal_basis":[{"law":"국민기초생활 보장법","article":"제21조제3항","text":"신청자는 금융정보 등 제공에 동의하여야 하며, 읍·면·동은 관련 서류를 보장기관에 이송한다."},{"law":"국민기초생활 보장법 시행령","article":"제36조","text":"법 제21조제3항 관련 금융정보등의 범위(예금·적금·보험 등)를 정한다."},{"law":"국민기초생활 보장법 시행령","article":"제36조의2","text":"금융정보등의 요청·제공 절차를 정한다."}]},{"id":"P05","name":"공적자료·금융재산 조회(행복이음)","lane":"사회보장정보원","stage":"G2 조사","type":"system","status":"current","progress":55,"actor":"사회보장정보원(행복e음)","action":"소득·재산 전산조회","input_documents":["금융정보 제공 동의서","조사 요청 자료"],"output_documents":["공적자료 조회결과","금융재산 조회결과"],"deadline":"조사기간 내 회신","blocker":"금융·공적자료 회신 대기 중","confidence":0.78,"legal_basis":[{"law":"국민기초생활 보장법","article":"제22조·제23조","text":"보장기관은 소득·재산 등을 조사하며, 사회보장정보시스템을 통해 공적자료·금융정보를 조회할 수 있다."},{"law":"국민기초생활 보장법 시행령","article":"제36조의2","text":"보장기관은 사회보장정보시스템을 통해 금융회사등에 금융정보등의 제공을 요청·조회한다."}]},{"id":"P06","name":"소득인정액 산정(판정)","lane":"시군구(통합조사·보장결정)","stage":"G2 조사","type":"gateway","status":"waiting","progress":0,"actor":"시·군·구 통합조사관리팀","action":"소득인정액 판정","condition":"소득평가액+재산의 소득환산액이 급여별 선정기준 이하인지 여부","input_documents":["공적자료 조회결과","소득·재산 신고서"],"output_documents":["소득인정액 산정 결과"],"deadline":"보장결정 기한 내","blocker":"소득·재산 환산 방식이 복잡해 산정·탈락 혼란이 생긴다","confidence":0.8,"legal_basis":[{"law":"국민기초생활 보장법","article":"제2조·제6조의3","text":"소득인정액은 개별가구의 소득평가액과 재산의 소득환산액을 합산하여 산정한다."},{"law":"국민기초생활 보장법 시행령","article":"제5조의2","text":"법 제6조의3의 위임에 따라 소득평가액의 범위·산정기준을 정한다."},{"law":"국민기초생활 보장법 시행령","article":"제5조의3","text":"재산의 범위 및 재산가액 산정기준을 정한다."},{"law":"국민기초생활 보장법 시행령","article":"제5조의4","text":"재산의 소득환산액은 일반재산·금융재산·자동차 재산가액에서 기본재산액·부채를 뺀 뒤 보건복지부장관이 고시하는 소득환산율을 곱해 산정한다."}]},{"id":"P07","name":"부양의무자 기준 적용 검토","lane":"시군구(통합조사·보장결정)","stage":"G2 조사","type":"gateway","status":"waiting","progress":0,"actor":"시·군·구","action":"부양의무자 기준 검토","condition":"급여 종류별 부양의무자 기준 존치 여부·부양능력 판정","output_documents":["부양의무자 기준 검토결과"],"deadline":"보장결정 기한 내","blocker":"부양의무자 기준이 대부분 완화·폐지됐으나 의료급여 등 일부에 남아 사각지대가 발생한다(제도 축소 경과)","confidence":0.76,"legal_basis":[{"law":"국민기초생활 보장법","article":"제8조의2","text":"부양의무자의 부양능력 등을 고려하되, 급여별로 부양의무자 기준의 적용 범위가 단계적으로 완화·폐지되어 왔다."},{"law":"국민기초생활 보장법 시행령","article":"제5조의6","text":"법 제8조의2제1항의 위임에 따라 부양의무자가 수급자이거나 차감된 소득이 기준 중위소득 미만인 경우 등을 '부양능력이 없는 경우'로 정한다."}]},{"id":"P08","name":"통합조사(방문·실태확인)","lane":"시군구(통합조사·보장결정)","stage":"G2 조사","type":"task","status":"risk","progress":20,"actor":"시·군·구 통합조사팀","action":"방문·실태조사","output_documents":["통합조사표","실태확인 결과"],"deadline":"보장결정 기한 내","blocker":"방문·실태조사 물량으로 조사가 지연되는 경우가 있다(운영 추정)","confidence":0.77,"legal_basis":[{"law":"국민기초생활 보장법","article":"제22조","text":"보장기관은 급여 신청이 있는 경우 소득·재산·근로능력 등을 조사하며 필요하면 현지조사를 한다."},{"law":"국민기초생활 보장법 시행규칙","article":"제36조의2","text":"법 제22조제5항의 위임에 따라 현장조사 시 조사기간·범위·담당자·관계법령 등을 적은 현장조사서를 제시한다."}]},{"id":"P09","name":"보장 결정(급여종류·금액)","lane":"시군구(통합조사·보장결정)","stage":"G3 보장 결정","type":"gateway","status":"waiting","progress":0,"actor":"시장·군수·구청장","action":"수급 결정","condition":"급여별 선정기준 대비 소득인정액·부양의무자 판정 종합","input_documents":["소득인정액 산정 결과","통합조사표"],"output_documents":["보장(급여) 결정 내용"],"deadline":"신청일부터 30일(부득이 시 60일) 이내","confidence":0.83,"legal_basis":[{"law":"국민기초생활 보장법","article":"제26조","text":"보장기관은 신청일부터 30일 이내에 급여 실시 여부와 내용을 결정하되, 부득이한 경우 60일 이내로 연장할 수 있다."}]},{"id":"P10","name":"지방생활보장위원회 심의(필요시)","lane":"지방생활보장위원회","stage":"G3 보장 결정","type":"task","status":"waiting","progress":0,"actor":"지방생활보장위원회","action":"심의·의결","input_documents":["보장 결정 안건"],"output_documents":["심의결과"],"deadline":"결정 전 심의","confidence":0.75,"legal_basis":[{"law":"국민기초생활 보장법","article":"제20조","text":"생활보장사업의 기획·조사·실시 등에 관한 사항을 심의·의결하기 위하여 지방생활보장위원회를 둔다."}]},{"id":"P11","name":"결정 통지","lane":"시군구(통합조사·보장결정)","stage":"G3 보장 결정","type":"notice","status":"waiting","progress":0,"actor":"시·군·구","receiver":"신청자","action":"결정 통지","output_documents":["급여 결정 통지서","이의신청 방법 안내"],"deadline":"결정 후 지체 없이(제26조 기한 내)","confidence":0.85,"legal_basis":[{"law":"국민기초생활 보장법","article":"제26조제2항","text":"보장기관은 급여 실시 여부와 내용을 결정하면 그 이유를 구체적으로 밝혀 신청인에게 서면으로 통지한다."}]},{"id":"P12","name":"급여 지급(생계·의료·주거·교육)","lane":"시군구(통합조사·보장결정)","stage":"G4 급여 지급","type":"task","status":"waiting","progress":0,"actor":"시·군·구","receiver":"수급자","action":"급여 지급","output_documents":["생계급여 계좌입금","의료급여증","주거·교육급여 지급"],"deadline":"매월 정기 지급","confidence":0.82,"legal_basis":[{"law":"국민기초생활 보장법","article":"제27조","text":"급여는 결정된 바에 따라 생계·의료·주거·교육급여 등으로 실시한다."}]},{"id":"P13","name":"자활사업 참여·조건 부과","lane":"읍면동(접수·상담)","stage":"G4 급여 지급","type":"task","status":"waiting","progress":0,"actor":"읍·면·동·자활센터","receiver":"조건부수급자","action":"자활 조건 부과","output_documents":["자활사업 참여계획","조건 부과 통지"],"deadline":"조건부수급 결정일부터 1개월 이내 조건 제시(영 제11조제1항)","confidence":0.76,"legal_basis":[{"law":"국민기초생활 보장법","article":"제9조제5항·제15조","text":"근로능력이 있는 수급자에게는 자활에 필요한 사업에 참여할 것을 조건으로 생계급여를 실시할 수 있다."},{"law":"국민기초생활 보장법 시행령","article":"제8조","text":"법 제9조제5항의 위임에 따라 근로능력·자활욕구 등을 고려하여 조건부수급자를 정한다."},{"law":"국민기초생활 보장법 시행령","article":"제11조","text":"시장·군수·구청장은 조건부수급자로 결정된 날부터 1개월 이내에 자활지원계획에 따른 자활사업 참가를 생계급여의 조건으로 제시하고, 직업안정기관의 장은 3개월마다 참가 결과를 통지한다."}]},{"id":"P14","name":"정기·수시 확인조사","lane":"시군구(통합조사·보장결정)","stage":"G5 확인조사·변동","type":"task","status":"loop","progress":0,"actor":"시·군·구·사회보장정보원","action":"확인조사","output_documents":["확인조사 결과","변동 통보"],"deadline":"정기(연 1~2회)·수시","blocker":"소득·재산 변동 확인 시 재산정 회귀 단계","confidence":0.78,"legal_basis":[{"law":"국민기초생활 보장법","article":"제23조","text":"보장기관은 수급자의 소득·재산 등 급여 요건의 변동을 확인하기 위하여 정기·수시로 확인조사를 한다."},{"law":"국민기초생활 보장법 시행규칙","article":"제37조","text":"법 제23조 관련 확인조사를 위한 연간조사계획의 수립에 관한 사항을 정한다."}]},{"id":"P15","name":"자격·급여 변동 처리","lane":"시군구(통합조사·보장결정)","stage":"G5 확인조사·변동","type":"gateway","status":"waiting","progress":0,"actor":"시·군·구","action":"급여 변경·중지 결정","condition":"소득인정액 변동에 따른 급여 변경·중지·환수 여부","input_documents":["확인조사 결과"],"output_documents":["급여 변경·중지 통지","환수 결정(해당 시)"],"deadline":"변동 확인 후 지체 없이","confidence":0.79,"legal_basis":[{"law":"국민기초생활 보장법","article":"제29조·제30조","text":"보장기관은 수급자의 소득·재산 변동에 따라 급여를 변경하거나 급여의 전부·일부를 중지할 수 있다."}]},{"id":"P16","name":"이의신청(시·도지사·복지부장관)","lane":"신청자(수급희망자)","stage":"G6 이의신청","type":"task","status":"loop","progress":0,"actor":"수급(권)자·신청자","receiver":"시·도지사·보건복지부장관","action":"이의신청","input_documents":["급여 결정 통지서"],"output_documents":["이의신청서"],"deadline":"결정 통지받은 날부터 90일 이내","blocker":"보장 결정 불복 회귀 단계","confidence":0.81,"legal_basis":[{"law":"국민기초생활 보장법","article":"제38조·제40조","text":"결정에 이의가 있으면 90일 이내에 시·도지사에게, 그 처분에 다시 이의가 있으면 보건복지부장관에게 이의신청할 수 있다."},{"law":"국민기초생활 보장법 시행령","article":"제38조의2","text":"법 제40조의 위임에 따라 이의신청은 인적사항·통지받은 연월일·처분 내용·이의사유를 적은 이의신청서에 증명서류를 첨부하여 시·도지사에게 제출한다."}]},{"id":"P17","name":"시·도지사 이의신청 심사·처분","lane":"시·도(이의신청 심사)","stage":"G6 이의신청","type":"gateway","status":"waiting","progress":0,"actor":"시·도지사","action":"이의신청 심사 후 각하·기각 또는 처분 변경·취소","condition":"이의신청 인용 여부(인용 시 보장 결정 시정 회귀)","input_documents":["이의신청서"],"output_documents":["이의신청 처리결과 통지"],"deadline":"이의신청서를 받은 날부터 30일 이내","confidence":0.78,"legal_basis":[{"law":"국민기초생활 보장법","article":"제39조(시·도지사의 처분 등)","text":"시·도지사가 이의신청서를 받았을 때에는 30일 이내에 필요한 심사를 하고 이의신청을 각하 또는 기각하거나 해당 처분을 변경 또는 취소하거나 그 밖에 필요한 급여를 명하여야 한다."}]}],"edges":[{"id":"E01","source":"P01","target":"P02","type":"sequence","label":null},{"id":"E02","source":"P02","target":"P03","type":"sequence","label":null},{"id":"E03","source":"P03","target":"P04","type":"sequence","label":null},{"id":"E04","source":"P04","target":"P05","type":"sequence","label":null},{"id":"E05","source":"P05","target":"P06","type":"sequence","label":null},{"id":"E06","source":"P06","target":"P07","type":"sequence","label":null},{"id":"E07","source":"P07","target":"P08","type":"sequence","label":null},{"id":"E08","source":"P08","target":"P09","type":"sequence","label":null},{"id":"E09","source":"P09","target":"P11","type":"sequence","label":"결정"},{"id":"E10","source":"P11","target":"P12","type":"sequence","label":"수급 결정"},{"id":"E11","source":"P12","target":"P14","type":"sequence","label":null},{"id":"E12","source":"P14","target":"P15","type":"sequence","label":null},{"id":"M01","source":"P09","target":"P10","type":"message","label":"위원회 심의 요청"},{"id":"M02","source":"P12","target":"P13","type":"message","label":"조건부수급 연계"},{"id":"M03","source":"P05","target":"P08","type":"message","label":"전산조회 결과 연계"},{"id":"L01","source":"P14","target":"P06","type":"loop","label":"소득·재산 변동 재산정"},{"id":"L02","source":"P17","target":"P09","type":"loop","label":"처분 변경·취소 시 재결정 회귀"},{"id":"E18","source":"P11","target":"P16","type":"sequence","label":"처분 불복 시(통지일부터 90일 이내)"},{"id":"E19","source":"P16","target":"P17","type":"sequence","label":"보장기관 경유 이송(10일 이내)"}],"lawContext":{"byNode":{"P01":[{"law":"국민기초생활 보장법","article":"제6조·제20조의2","text":"보건복지부장관은 중앙생활보장위원회 심의를 거쳐 기준 중위소득과 급여별 선정기준·최저보장수준을 정하여 고시한다.","found":true,"lawId":"001973","tier":"statute","articles":[{"label":"제6조","title":"최저보장수준의 결정 등","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제6조","up":[],"down":[{"kind":"adminRule","phrase":"급여의 종류별 수급자 선정기준 및 최저보장수준을 공표하여야 한다.","lawName":"2018년 주거급여 선정기준 및 최저보장수준","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"급여의 종류별 수급자 선정기준 및 최저보장수준을 공표하여야 한다.","lawName":"2018년 기준 중위소득 및 생계·의료급여 선정기준과 최저보장수준","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"급여의 종류별 수급자 선정기준 및 최저보장수준을 공표하여야 한다.","lawName":"교육급여의 선정기준 및 최저보장수준 고시","label":null,"title":null,"tier":"adminRule"}]},{"label":"제20조의2","title":"기초생활보장 계획의 수립 및 평가","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제20조의2","up":[],"down":[]}]}],"P02":[{"law":"국민기초생활 보장법","article":"제21조","text":"수급권자와 그 친족 등은 관할 시장·군수·구청장(읍·면·동 경유)에게 급여를 신청할 수 있다.","found":true,"lawId":"001973","tier":"statute","articles":[{"label":"제21조","title":"급여의 신청","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제21조","up":[],"down":[{"kind":"decree","phrase":"평균잔액과 그 밖에 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제36조","title":"금융정보등의 범위","tier":"decree"},{"kind":"decree","phrase":"채무액과 그 밖에 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제36조","title":"금융정보등의 범위","tier":"decree"},{"kind":"decree","phrase":"보험료와 그 밖에 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제36조","title":"금융정보등의 범위","tier":"decree"},{"kind":"rule","phrase":"여 필요한 사항은 보건복지부령으로 정한다.","lawName":"국민기초생활 보장법 시행규칙","label":"제34조","title":"급여의 신청","tier":"rule"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"국민기초생활 보장법 시행령","label":"제36조","title":"금융정보등의 범위","tier":"decree"}]}]},{"law":"국민기초생활 보장법 시행규칙","article":"제34조","text":"법 제21조의 위임에 따라 급여(변경)신청서에 금융정보등 제공 동의서 등을 첨부하여 시장·군수·구청장에게 제출한다.","found":true,"lawId":"001973","tier":"rule","articles":[{"label":"제34조","title":"급여의 신청","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법시행규칙/제34조","up":[{"kind":"rule","phrase":"여 필요한 사항은 보건복지부령으로 정한다.","lawName":"국민기초생활 보장법","label":"제21조제6항","title":"급여의 신청","tier":"statute"}],"down":[]}]}],"P03":[{"law":"국민기초생활 보장법","article":"제21조제2항","text":"신청을 받은 읍·면·동은 신청서를 접수하고 급여 종류와 절차를 안내한다.","found":true,"lawId":"001973","tier":"statute","articles":[{"label":"제21조","title":"급여의 신청","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제21조","up":[],"down":[{"kind":"decree","phrase":"평균잔액과 그 밖에 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제36조","title":"금융정보등의 범위","tier":"decree"},{"kind":"decree","phrase":"채무액과 그 밖에 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제36조","title":"금융정보등의 범위","tier":"decree"},{"kind":"decree","phrase":"보험료와 그 밖에 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제36조","title":"금융정보등의 범위","tier":"decree"},{"kind":"rule","phrase":"여 필요한 사항은 보건복지부령으로 정한다.","lawName":"국민기초생활 보장법 시행규칙","label":"제34조","title":"급여의 신청","tier":"rule"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"국민기초생활 보장법 시행령","label":"제36조","title":"금융정보등의 범위","tier":"decree"}]}]}],"P04":[{"law":"국민기초생활 보장법","article":"제21조제3항","text":"신청자는 금융정보 등 제공에 동의하여야 하며, 읍·면·동은 관련 서류를 보장기관에 이송한다.","found":true,"lawId":"001973","tier":"statute","articles":[{"label":"제21조","title":"급여의 신청","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제21조","up":[],"down":[{"kind":"decree","phrase":"평균잔액과 그 밖에 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제36조","title":"금융정보등의 범위","tier":"decree"},{"kind":"decree","phrase":"채무액과 그 밖에 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제36조","title":"금융정보등의 범위","tier":"decree"},{"kind":"decree","phrase":"보험료와 그 밖에 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제36조","title":"금융정보등의 범위","tier":"decree"},{"kind":"rule","phrase":"여 필요한 사항은 보건복지부령으로 정한다.","lawName":"국민기초생활 보장법 시행규칙","label":"제34조","title":"급여의 신청","tier":"rule"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"국민기초생활 보장법 시행령","label":"제36조","title":"금융정보등의 범위","tier":"decree"}]}]},{"law":"국민기초생활 보장법 시행령","article":"제36조","text":"법 제21조제3항 관련 금융정보등의 범위(예금·적금·보험 등)를 정한다.","found":true,"lawId":"001973","tier":"decree","articles":[{"label":"제36조","title":"금융정보등의 범위","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법시행령/제36조","up":[{"kind":"decree","phrase":"평균잔액과 그 밖에 대통령령으로","lawName":"국민기초생활 보장법","label":"제21조제3항제1호","title":"급여의 신청","tier":"statute"},{"kind":"decree","phrase":"채무액과 그 밖에 대통령령으로","lawName":"국민기초생활 보장법","label":"제21조제3항제2호","title":"급여의 신청","tier":"statute"},{"kind":"decree","phrase":"보험료와 그 밖에 대통령령으로","lawName":"국민기초생활 보장법","label":"제21조제3항제3호","title":"급여의 신청","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"국민기초생활 보장법","label":"제21조제7항","title":"급여의 신청","tier":"statute"}],"down":[]}]},{"law":"국민기초생활 보장법 시행령","article":"제36조의2","text":"금융정보등의 요청·제공 절차를 정한다.","found":true,"lawId":"001973","tier":"decree","articles":[{"label":"제36조의2","title":"금융정보등의 요청 및 제공","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법시행령/제36조의2","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국민기초생활 보장법","label":"제23조의2제2항","title":"금융정보등의 제공","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"국민기초생활 보장법","label":"제23조의2제7항","title":"금융정보등의 제공","tier":"statute"}],"down":[]}]}],"P05":[{"law":"국민기초생활 보장법","article":"제22조·제23조","text":"보장기관은 소득·재산 등을 조사하며, 사회보장정보시스템을 통해 공적자료·금융정보를 조회할 수 있다.","found":true,"lawId":"001973","tier":"statute","articles":[{"label":"제22조","title":"신청에 의한 조사","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제22조","up":[],"down":[{"kind":"rule","phrase":"보건복지부령으로 정하는 바에 따라","lawName":"국민기초생활 보장법 시행규칙","label":"제35조","title":"자료의 제출요구","tier":"rule"},{"kind":"rule","phrase":"관계 법령 등 보건복지부령으로 정하는","lawName":"국민기초생활 보장법 시행규칙","label":"제36조의2","title":"현장조사서","tier":"rule"}]},{"label":"제23조","title":"확인조사","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제23조","up":[],"down":[]}]},{"law":"국민기초생활 보장법 시행령","article":"제36조의2","text":"보장기관은 사회보장정보시스템을 통해 금융회사등에 금융정보등의 제공을 요청·조회한다.","found":true,"lawId":"001973","tier":"decree","articles":[{"label":"제36조의2","title":"금융정보등의 요청 및 제공","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법시행령/제36조의2","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국민기초생활 보장법","label":"제23조의2제2항","title":"금융정보등의 제공","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"국민기초생활 보장법","label":"제23조의2제7항","title":"금융정보등의 제공","tier":"statute"}],"down":[]}]}],"P06":[{"law":"국민기초생활 보장법","article":"제2조·제6조의3","text":"소득인정액은 개별가구의 소득평가액과 재산의 소득환산액을 합산하여 산정한다.","found":true,"lawId":"001973","tier":"statute","articles":[{"label":"제2조","title":"정의","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제2조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국민기초생활 보장법 시행령","label":"제3조","title":"차상위계층","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"국민기초생활 보장법 시행령","label":"제2조","title":"개별가구","tier":"decree"},{"kind":"adminRule","phrase":"중앙생활보장위원회의 심의·의결을 거쳐 고시하는 국민 가구소득의 중위값을 말한다.","lawName":"2018년 기준 중위소득 및 생계·의료급여 선정기준과 최저보장수준","label":null,"title":null,"tier":"adminRule"}]},{"label":"제6조의3","title":"소득인정액의 산정","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제6조의3","up":[],"down":[{"kind":"decree","phrase":"범위·기준 등은 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제5조","title":"소득의 범위","tier":"decree"},{"kind":"decree","phrase":"범위·기준 등은 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제5조의2","title":"소득평가액의 범위 및 산정기준","tier":"decree"},{"kind":"decree","phrase":"범위·기준 등은 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제5조의3","title":"재산의 범위 및 재산가액의 산정기준","tier":"decree"},{"kind":"decree","phrase":"범위·기준 등은 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제5조의4","title":"재산의 소득환산액","tier":"decree"},{"kind":"adminRule","phrase":"기초생활의 유지에 필요하다고 보건복지부장관이 정하여 고시하는 재산액을 말한다","lawName":"자동차의 재산가액 산정기준과 재산가액에서 차감하는 기본재산액 및 부채","label":null,"title":null,"tier":"adminRule"}]}]},{"law":"국민기초생활 보장법 시행령","article":"제5조의2","text":"법 제6조의3의 위임에 따라 소득평가액의 범위·산정기준을 정한다.","found":true,"lawId":"001973","tier":"decree","articles":[{"label":"제5조의2","title":"소득평가액의 범위 및 산정기준","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법시행령/제5조의2","up":[{"kind":"decree","phrase":"범위·기준 등은 대통령령으로","lawName":"국민기초생활 보장법","label":"제6조의3제3항","title":"소득인정액의 산정","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"보건복지부장관이 고시하는 1인 가구 기준 중위소득의 100분의 20 이하에 해당하는 금액","lawName":"2018년 기준 중위소득 및 생계·의료급여 선정기준과 최저보장수준","label":null,"title":null,"tier":"adminRule"}]}]},{"law":"국민기초생활 보장법 시행령","article":"제5조의3","text":"재산의 범위 및 재산가액 산정기준을 정한다.","found":true,"lawId":"001973","tier":"decree","articles":[{"label":"제5조의3","title":"재산의 범위 및 재산가액의 산정기준","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법시행령/제5조의3","up":[{"kind":"decree","phrase":"범위·기준 등은 대통령령으로","lawName":"국민기초생활 보장법","label":"제6조의3제3항","title":"소득인정액의 산정","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"차상위자에 대해서는 생활여건 등을 고려하여 보건복지부장관이 정하여 고시하는 바에 따라 다음 각 목의 일반재산의 범위를 달리할 수 있다","lawName":"차상위계층의 소득인정액 산정시 적용하는 이전소득 및 일반재산의 범위·기본재산액 및 재산의 소득환산율 고시","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"보건복지부장관이 정하여 고시하는 자동차는 제외한다.","lawName":"자동차의 재산가액 산정기준과 재산가액에서 차감하는 기본재산액 및 부채","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"보건복지부장관이 정하여 고시하는 기준에 해당하는 금액을 뺀 금액","lawName":"자동차의 재산가액 산정기준과 재산가액에서 차감하는 기본재산액 및 부채","label":null,"title":null,"tier":"adminRule"}]}]},{"law":"국민기초생활 보장법 시행령","article":"제5조의4","text":"재산의 소득환산액은 일반재산·금융재산·자동차 재산가액에서 기본재산액·부채를 뺀 뒤 보건복지부장관이 고시하는 소득환산율을 곱해 산정한다.","found":true,"lawId":"001973","tier":"decree","articles":[{"label":"제5조의4","title":"재산의 소득환산액","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법시행령/제5조의4","up":[{"kind":"decree","phrase":"범위·기준 등은 대통령령으로","lawName":"국민기초생활 보장법","label":"제6조의3제3항","title":"소득인정액의 산정","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국민기초생활 보장법","label":"제18조의8제3항","title":"자산형성지원","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"같은 항 제3호의 자동차 중 화물자동차 등 보건복지부장관이 정하여 고시하는 자동차의 가액","lawName":"자동차의 재산가액 산정기준과 재산가액에서 차감하는 기본재산액 및 부채","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"보건복지부장관이 정하여 고시하는 기본재산액","lawName":"자동차의 재산가액 산정기준과 재산가액에서 차감하는 기본재산액 및 부채","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"대출금과 그 밖에 보건복지부장관이 정하여 고시하는 부채","lawName":"자동차의 재산가액 산정기준과 재산가액에서 차감하는 기본재산액 및 부채","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"보건복지부장관이 정하여 고시하는 자동차의 가액은 제외한다","lawName":"자동차의 재산가액 산정기준과 재산가액에서 차감하는 기본재산액 및 부채","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"전세가격 상승률 등을 고려하여 보건복지부장관이 정하여 고시한다.","lawName":"국민기초생활 보장법상 재산의 소득환산율 고시","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"보건복지부장관이 기본재산액 및 소득환산율을 고시하는 경우에는","lawName":"차상위계층의 소득인정액 산정시 적용하는 이전소득의 범위·기본재산액 및 재산의 소득환산율 고시","label":null,"title":null,"tier":"adminRule"}]}]}],"P07":[{"law":"국민기초생활 보장법","article":"제8조의2","text":"부양의무자의 부양능력 등을 고려하되, 급여별로 부양의무자 기준의 적용 범위가 단계적으로 완화·폐지되어 왔다.","found":true,"lawId":"001973","tier":"statute","articles":[{"label":"제8조의2","title":"부양능력 등","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제8조의2","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국민기초생활 보장법 시행령","label":"제5조의6","title":"부양능력이 없는 경우","tier":"decree"},{"kind":"adminRule","phrase":"자신의 주거에서 부양하는 경우로서 보건복지부장관이 정하여 고시하는 경우","lawName":"직계존속 또는 중증장애인인 직계비속을 자신의 주거에서 부양하는 경우의 기준","label":null,"title":null,"tier":"adminRule"}]}]},{"law":"국민기초생활 보장법 시행령","article":"제5조의6","text":"법 제8조의2제1항의 위임에 따라 부양의무자가 수급자이거나 차감된 소득이 기준 중위소득 미만인 경우 등을 '부양능력이 없는 경우'로 정한다.","found":true,"lawId":"001973","tier":"decree","articles":[{"label":"제5조의6","title":"부양능력이 없는 경우","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법시행령/제5조의6","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국민기초생활 보장법","label":"제8조의2제1항제1호","title":"부양능력 등","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"보건복지부장관이 정하여 고시하는 금액 미만인 경우","lawName":"기초생활 부양의무자 재산의 소득환산액 기준 및 소득 차감금액","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"가구특성을 고려하여 보건복지부장관이 정하여 고시하는 금액을 뺀 금액","lawName":"기초생활 부양의무자 재산의 소득환산액 기준 및 소득 차감금액","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"보건복지부장관이 정하여 고시하는 금액 미만일 것","lawName":"기초생활 부양의무자 재산의 소득환산액 기준 및 소득 차감금액","label":null,"title":null,"tier":"adminRule"}]}]}],"P08":[{"law":"국민기초생활 보장법","article":"제22조","text":"보장기관은 급여 신청이 있는 경우 소득·재산·근로능력 등을 조사하며 필요하면 현지조사를 한다.","found":true,"lawId":"001973","tier":"statute","articles":[{"label":"제22조","title":"신청에 의한 조사","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제22조","up":[],"down":[{"kind":"rule","phrase":"보건복지부령으로 정하는 바에 따라","lawName":"국민기초생활 보장법 시행규칙","label":"제35조","title":"자료의 제출요구","tier":"rule"},{"kind":"rule","phrase":"관계 법령 등 보건복지부령으로 정하는","lawName":"국민기초생활 보장법 시행규칙","label":"제36조의2","title":"현장조사서","tier":"rule"}]}]},{"law":"국민기초생활 보장법 시행규칙","article":"제36조의2","text":"법 제22조제5항의 위임에 따라 현장조사 시 조사기간·범위·담당자·관계법령 등을 적은 현장조사서를 제시한다.","found":true,"lawId":"001973","tier":"rule","articles":[{"label":"제36조의2","title":"현장조사서","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법시행규칙/제36조의2","up":[{"kind":"rule","phrase":"관계 법령 등 보건복지부령으로 정하는","lawName":"국민기초생활 보장법","label":"제22조제5항","title":"신청에 의한 조사","tier":"statute"}],"down":[]}]}],"P09":[{"law":"국민기초생활 보장법","article":"제26조","text":"보장기관은 신청일부터 30일 이내에 급여 실시 여부와 내용을 결정하되, 부득이한 경우 60일 이내로 연장할 수 있다.","found":true,"lawId":"001973","tier":"statute","articles":[{"label":"제26조","title":"급여의 결정 등","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제26조","up":[],"down":[]}]}],"P10":[{"law":"국민기초생활 보장법","article":"제20조","text":"생활보장사업의 기획·조사·실시 등에 관한 사항을 심의·의결하기 위하여 지방생활보장위원회를 둔다.","found":true,"lawId":"001973","tier":"statute","articles":[{"label":"제20조","title":"생활보장위원회","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제20조","up":[],"down":[{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제27조","title":"중앙생활보장위원회의 조직 및 구성","tier":"decree"},{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제27조의2","title":"소위원회","tier":"decree"},{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제28조","title":"지방생활보장위원회의 조직과 구성","tier":"decree"},{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제29조","title":"지방생활보장위원회의 기능","tier":"decree"},{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제30조","title":"위원의 임기와 직무","tier":"decree"},{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제30조의2","title":"위원의 해촉","tier":"decree"},{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제31조","title":"회의 및 의사","tier":"decree"},{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제32조","title":"의견의 청취","tier":"decree"},{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제33조","title":"간사","tier":"decree"},{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제34조","title":"수당과 여비","tier":"decree"},{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"국민기초생활 보장법 시행령","label":"제35조","title":"운영 규정","tier":"decree"},{"kind":"ordinance","phrase":"④ 제1항에 따른 시·도 및 시·군·구 생활보장위원회의 위원은 시·도지사 또는 시장·군수·구청장이 다음 각 호의 어느 하나에 해당하는 사람 중에서 위촉·지명하며 위원장은 해당 시·도지사 또는 시장·군수·구청장으로 한다. 다만, 제1항 단서에 따라 다른 위원회가 생활보장위원회의 기능을 대신하는 경우 위원장은 조례로 정한다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]}],"P11":[{"law":"국민기초생활 보장법","article":"제26조제2항","text":"보장기관은 급여 실시 여부와 내용을 결정하면 그 이유를 구체적으로 밝혀 신청인에게 서면으로 통지한다.","found":true,"lawId":"001973","tier":"statute","articles":[{"label":"제26조","title":"급여의 결정 등","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제26조","up":[],"down":[]}]}],"P12":[{"law":"국민기초생활 보장법","article":"제27조","text":"급여는 결정된 바에 따라 생계·의료·주거·교육급여 등으로 실시한다.","found":true,"lawId":"001973","tier":"statute","articles":[{"label":"제27조","title":"급여의 실시 등","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제27조","up":[],"down":[]}]}],"P13":[{"law":"국민기초생활 보장법","article":"제9조제5항·제15조","text":"근로능력이 있는 수급자에게는 자활에 필요한 사업에 참여할 것을 조건으로 생계급여를 실시할 수 있다.","found":true,"lawId":"001973","tier":"statute","articles":[{"label":"제9조","title":"생계급여의 방법","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제9조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국민기초생활 보장법 시행령","label":"제6조","title":"생계급여의 지급방법","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국민기초생활 보장법 시행령","label":"제7조","title":"근로능력이 있는 수급자","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국민기초생활 보장법 시행령","label":"제8조","title":"조건부수급자","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국민기초생활 보장법 시행령","label":"제11조","title":"생계급여의 조건 제시방법 및 결과 통지","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국민기초생활 보장법 시행령","label":"제15조","title":"조건부수급자의 생계급여 결정","tier":"decree"},{"kind":"adminRule","phrase":"보건복지부장관이 정하는 바에 따라 수급자의 소득인정액 등을 고려하여","lawName":"2018년 기준 중위소득 및 생계·의료급여 선정기준과 최저보장수준","label":null,"title":null,"tier":"adminRule"}]},{"label":"제15조","title":"자활급여","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제15조","up":[],"down":[{"kind":"decree","phrase":"그 밖에 대통령령으로 정하는 기관에","lawName":"국민기초생활 보장법 시행령","label":"제21조의3","title":"자활급여의 위탁","tier":"decree"}]}]},{"law":"국민기초생활 보장법 시행령","article":"제8조","text":"법 제9조제5항의 위임에 따라 근로능력·자활욕구 등을 고려하여 조건부수급자를 정한다.","found":true,"lawId":"001973","tier":"decree","articles":[{"label":"제8조","title":"조건부수급자","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법시행령/제8조","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국민기초생활 보장법","label":"제9조제5항","title":"생계급여의 방법","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"보건복지부장관이 정하여 고시하는 기준을 초과하는 소득을 얻고 있는 사람으로서","lawName":"조건부수급자 선정관련 소득기준에 관한 고시","label":null,"title":null,"tier":"adminRule"}]}]},{"law":"국민기초생활 보장법 시행령","article":"제11조","text":"시장·군수·구청장은 조건부수급자로 결정된 날부터 1개월 이내에 자활지원계획에 따른 자활사업 참가를 생계급여의 조건으로 제시하고, 직업안정기관의 장은 3개월마다 참가 결과를 통지한다.","found":true,"lawId":"001973","tier":"decree","articles":[{"label":"제11조","title":"생계급여의 조건 제시방법 및 결과 통지","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법시행령/제11조","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국민기초생활 보장법","label":"제9조제5항","title":"생계급여의 방법","tier":"statute"}],"down":[]}]}],"P14":[{"law":"국민기초생활 보장법","article":"제23조","text":"보장기관은 수급자의 소득·재산 등 급여 요건의 변동을 확인하기 위하여 정기·수시로 확인조사를 한다.","found":true,"lawId":"001973","tier":"statute","articles":[{"label":"제23조","title":"확인조사","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제23조","up":[],"down":[]}]},{"law":"국민기초생활 보장법 시행규칙","article":"제37조","text":"법 제23조 관련 확인조사를 위한 연간조사계획의 수립에 관한 사항을 정한다.","found":true,"lawId":"001973","tier":"rule","articles":[{"label":"제37조","title":"연간조사계획의 수립","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법시행규칙/제37조","up":[],"down":[]}]}],"P15":[{"law":"국민기초생활 보장법","article":"제29조·제30조","text":"보장기관은 수급자의 소득·재산 변동에 따라 급여를 변경하거나 급여의 전부·일부를 중지할 수 있다.","found":true,"lawId":"001973","tier":"statute","articles":[{"label":"제29조","title":"급여의 변경","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제29조","up":[],"down":[]},{"label":"제30조","title":"급여의 중지 등","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제30조","up":[],"down":[]}]}],"P16":[{"law":"국민기초생활 보장법","article":"제38조·제40조","text":"결정에 이의가 있으면 90일 이내에 시·도지사에게, 그 처분에 다시 이의가 있으면 보건복지부장관에게 이의신청할 수 있다.","found":true,"lawId":"001973","tier":"statute","articles":[{"label":"제38조","title":"시ㆍ도지사에 대한 이의신청","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제38조","up":[],"down":[]},{"label":"제40조","title":"보건복지부장관 등에 대한 이의신청","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제40조","up":[],"down":[{"kind":"decree","phrase":"신청의 방법 등은 대통령령으로 정한다","lawName":"국민기초생활 보장법 시행령","label":"제38조의2","title":"이의신청의 방법 등","tier":"decree"}]}]},{"law":"국민기초생활 보장법 시행령","article":"제38조의2","text":"법 제40조의 위임에 따라 이의신청은 인적사항·통지받은 연월일·처분 내용·이의사유를 적은 이의신청서에 증명서류를 첨부하여 시·도지사에게 제출한다.","found":true,"lawId":"001973","tier":"decree","articles":[{"label":"제38조의2","title":"이의신청의 방법 등","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법시행령/제38조의2","up":[{"kind":"decree","phrase":"신청의 방법 등은 대통령령으로 정한다","lawName":"국민기초생활 보장법","label":"제40조제3항","title":"보건복지부장관 등에 대한 이의신청","tier":"statute"}],"down":[]}]}],"P17":[{"law":"국민기초생활 보장법","article":"제39조(시·도지사의 처분 등)","text":"시·도지사가 이의신청서를 받았을 때에는 30일 이내에 필요한 심사를 하고 이의신청을 각하 또는 기각하거나 해당 처분을 변경 또는 취소하거나 그 밖에 필요한 급여를 명하여야 한다.","found":true,"lawId":"001973","tier":"statute","articles":[{"label":"제39조","title":"시ㆍ도지사의 처분 등","officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법/제39조","up":[],"down":[]}]}]},"systems":{"001973":{"lawId":"001973","name":"국민기초생활 보장법","href":"/law/001973/","ministry":"보건복지부","effectiveOn":"2025-10-01","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"국민기초생활 보장법","kind":"법률","articleCount":85,"officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":85},{"tier":"decree","label":"시행령","laws":[{"name":"국민기초생활 보장법 시행령","kind":"대통령령","articleCount":67,"officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법시행령"}],"kinds":[{"kind":"대통령령","count":1}],"articleCount":67},{"tier":"rule","label":"시행규칙","laws":[{"name":"국민기초생활 보장법 시행규칙","kind":"보건복지부령","articleCount":57,"officialUrl":"https://www.law.go.kr/법령/국민기초생활보장법시행규칙"}],"kinds":[{"kind":"보건복지부령","count":1}],"articleCount":57},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"사회보장급여 관련 공통서식에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/사회보장급여관련공통서식에관한고시"},{"name":"자활급여 수급자가 종사하는 사업","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/자활급여수급자가종사하는사업"},{"name":"보건복지부 소관 법령에 따른 행정처분 및 과태료의 가중처분에 관한 세부지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/보건복지부소관법령에따른행정처분및과태료의가중처분에관한세부지침"},{"name":"2026년 기준 중위소득 및 생계·의료급여 선정기준과 최저보장수준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/2026년기준중위소득및생계·의료급여선정기준과최저보장수준"},{"name":"국민기초생활 보장법상 재산의 소득환산율 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국민기초생활보장법상재산의소득환산율고시"},{"name":"근로능력평가의 기준 등에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/근로능력평가의기준등에관한고시"},{"name":"기초생활 부양의무자 재산의 소득환산액 기준 및 소득 차감금액","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/기초생활부양의무자재산의소득환산액기준및소득차감금액"},{"name":"자동차의 재산가액 산정기준과 재산가액에서 차감하는 기본재산액 및 부채","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/자동차의재산가액산정기준과재산가액에서차감하는기본재산액및부채"},{"name":"조건부수급자 선정 관련 소득기준에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/조건부수급자선정관련소득기준에관한고시"},{"name":"차상위계층의 소득인정액 산정시 적용하는 이전소득 및 일반재산의 범위·기본재산액 및 재산의 소득환산율 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/차상위계층의소득인정액산정시적용하는이전소득및일반재산의범위·기본재산액및재산의소득환산율고시"},{"name":"2026년 교육급여의 선정기준 및 최저보장수준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/2026년교육급여의선정기준및최저보장수준"},{"name":"2026년 주거급여 선정기준 및 최저보장수준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/2026년주거급여선정기준및최저보장수준"},{"name":"직계존속 또는 중증장애인인 직계비속을 자신의 주거에서 부양하는 경우의 기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/직계존속또는중증장애인인직계비속을자신의주거에서부양하는경우의기준"},{"name":"2018년 기준 중위소득 및 생계·의료급여 선정기준과 최저보장수준","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/2018년기준중위소득및생계·의료급여선정기준과최저보장수준"},{"name":"2018년 주거급여 선정기준 및 최저보장수준","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/2018년주거급여선정기준및최저보장수준"},{"name":"교육급여의 선정기준 및 최저보장수준 고시","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/교육급여의선정기준및최저보장수준고시"},{"name":"차상위계층의 소득인정액 산정시 적용하는 이전소득의 범위·기본재산액 및 재산의 소득환산율 고시","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/차상위계층의소득인정액산정시적용하는이전소득의범위·기본재산액및재산의소득환산율고시"}],"kinds":[{"kind":"고시","count":12},{"kind":"행정규칙","count":4},{"kind":"예규","count":1}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EA%B5%AD%EB%AF%BC%EA%B8%B0%EC%B4%88%EC%83%9D%ED%99%9C%20%EB%B3%B4%EC%9E%A5%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":53,"rule":35,"adminRule":24,"ordinance":5,"cites":105}}}},"statusStyles":{"done":{"label":"선행","fill":"#effaf5","border":"#35a77d","ink":"#123d2e","sub":"#287a5c"},"current":{"label":"핵심","fill":"#087452","border":"#087452","ink":"#ffffff","sub":"#d8f4e8"},"waiting":{"label":"후속","fill":"#ffffff","border":"#b9c7bf","ink":"#17231d","sub":"#627169"},"risk":{"label":"병목","fill":"#fff8e8","border":"#d9901a","ink":"#7a4305","sub":"#a96008"},"loop":{"label":"회귀","fill":"#edf4ff","border":"#3478db","ink":"#173f7a","sub":"#316bbd"}},"basisLegend":[{"label":"법률","fill":"#ffffff","border":"#3b4a43"},{"label":"시행령","fill":"#f2f6ff","border":"#2456d6"},{"label":"시행규칙","fill":"#effaf6","border":"#0f9f72"},{"label":"행정규칙","fill":"#f6f2ff","border":"#7c56c9"}],"isLawIndex":false}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:I[6196,[],"IconMark"]
+7:null
+c:[["$","title","0",{"children":"국민기초생활보장 · 국민기초생활 보장법 업무흐름도 | 법령정보 시연판"}],["$","meta","1",{"name":"robots","content":"noindex, nofollow"}],["$","link","2",{"rel":"icon","href":"/lawdemo/flow/favicon.ico?603d046c9a6fdfbb","type":"image/x-icon","sizes":"16x16"}],["$","$L11","3",{}]]

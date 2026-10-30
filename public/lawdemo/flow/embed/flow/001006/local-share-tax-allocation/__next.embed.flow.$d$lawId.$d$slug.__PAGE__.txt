@@ -1,0 +1,232 @@
+1:"$Sreact.fragment"
+2:I[7742,["838","static/chunks/838-9b85aecee2a13f53.js","379","static/chunks/379-f104668f756ddde1.js","301","static/chunks/app/embed/flow/%5BlawId%5D/%5Bslug%5D/page-e3d0b6acb7d5d0b3.js"],"default"]
+6:I[977,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+:HL["/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","style"]
+3:T4622,<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 250 1744 1960" class="pp-svg">
+<defs>
+      <filter id="card-shadow" x="-20%" y="-25%" width="140%" height="160%">
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#12271e" flood-opacity="0.10"/>
+      </filter>
+      <marker id="arrow-sequence" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#53675d" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-message" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#0f8a65" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-loop" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#3478db" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <style>
+        text { font-family: "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", sans-serif; }
+        .mono { font-family: "SFMono-Regular", "Menlo", monospace; }
+      </style>
+    </defs>
+<rect width="1800" height="2400" fill="#ffffff"/>
+
+
+
+<rect x="38" y="260" width="1724" height="1940" rx="10" fill="#ffffff" stroke="#b8c7bf" stroke-width="2"/>
+<rect x="38" y="260" width="190" height="100" rx="10" fill="#eaf2ee"/>
+<text x="58" y="299" font-size="17" font-weight="800" fill="#17231d">단계 ↓</text>
+<text x="58" y="332" font-size="15" font-weight="650" fill="#68776f">행위자 묶음 →</text>
+<rect x="38" y="360" width="1724" height="322.4" fill="#fbfcfb"/>
+<rect x="38" y="360" width="190" height="322.4" fill="#eef3f0"/>
+<text x="58" y="392" class="mono" font-size="16" font-weight="800" fill="#53645b">G0</text>
+<text x="58" y="425" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">재원·예산</tspan></text>
+<rect x="38" y="682.4" width="1724" height="322.4" fill="#f5f8f6"/>
+<rect x="38" y="682.4" width="190" height="322.4" fill="#eef3f0"/>
+<text x="58" y="714.4" class="mono" font-size="16" font-weight="800" fill="#53645b">G1</text>
+<text x="58" y="747.4" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">산정</tspan></text>
+<rect x="38" y="1004.8" width="1724" height="436.4" fill="#fbfcfb"/>
+<rect x="38" y="1004.8" width="190" height="436.4" fill="#eef3f0"/>
+<text x="58" y="1036.8" class="mono" font-size="16" font-weight="800" fill="#53645b">G2</text>
+<text x="58" y="1069.8" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">교부</tspan></text>
+<rect x="38" y="1441.2" width="1724" height="436.4" fill="#f5f8f6"/>
+<rect x="38" y="1441.2" width="190" height="436.4" fill="#eef3f0"/>
+<text x="58" y="1473.2" class="mono" font-size="16" font-weight="800" fill="#53645b">G3</text>
+<text x="58" y="1506.2" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">특별교부세</tspan></text>
+<rect x="38" y="1877.6" width="1724" height="322.4" fill="#fbfcfb"/>
+<rect x="38" y="1877.6" width="190" height="322.4" fill="#eef3f0"/>
+<text x="58" y="1909.6" class="mono" font-size="16" font-weight="800" fill="#53645b">G4</text>
+<text x="58" y="1942.6" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">시정·반환</tspan></text>
+<rect x="228" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="228" y="260" width="383.5" height="7" fill="#0f9f72"/>
+<text x="248" y="299" font-size="20" font-weight="800" fill="#17231d">지방자치단체의 장</text>
+<text x="248" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="248" dy="0">지방자치단체의 장</tspan></text>
+<rect x="611.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="611.5" y="260" width="383.5" height="7" fill="#3b82f6"/>
+<text x="631.5" y="299" font-size="20" font-weight="800" fill="#17231d">행정안전부장관</text>
+<text x="631.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="631.5" dy="0">행정안전부장관</tspan></text>
+<rect x="995" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="995" y="260" width="383.5" height="7" fill="#c78116"/>
+<text x="1015" y="299" font-size="20" font-weight="800" fill="#17231d">국가</text>
+<text x="1015" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1015" dy="0">국가(예산 당국)</tspan></text>
+<rect x="1378.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="1378.5" y="260" width="383.5" height="7" fill="#0891b2"/>
+<text x="1398.5" y="299" font-size="20" font-weight="800" fill="#17231d">감사·시정</text>
+<text x="1398.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1398.5" dy="0">감사·시정</tspan></text>
+<line x1="228" y1="260" x2="228" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="611.5" y1="260" x2="611.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="995" y1="260" x2="995" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1378.5" y1="260" x2="1378.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1762" y1="260" x2="1762" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#b8c7bf" stroke-width="2"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="682.4" x2="1762" y2="682.4" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1004.8" x2="1762" y2="1004.8" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1441.2" x2="1762" y2="1441.2" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1877.6" x2="1762" y2="1877.6" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2200" x2="1762" y2="2200" stroke="#b8c7bf" stroke-width="2"/>
+<g class="pp-edge" data-edge-id="E01" data-source="P01" data-target="P02">
+<path d="M 1186.8 566.2 V 670.4 H 823.3 V 790.6" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1186.8 566.2 V 670.4 H 823.3 V 790.6" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E02" data-source="P02" data-target="P03">
+<path d="M 791.3 888.6 V 976.8 H 787.3 V 1113" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 791.3 888.6 V 976.8 H 787.3 V 1113" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E03" data-source="P03" data-target="P04">
+<path d="M 813.3 1211 V 1227 H 787.3 V 1227" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 813.3 1211 V 1227 H 787.3 V 1227" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E04" data-source="P02" data-target="P05">
+<path d="M 783.3 888.6 V 992.8 H 246 V 1529.4 H 423.8 V 1549.4" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 783.3 888.6 V 992.8 H 246 V 1529.4 H 423.8 V 1549.4" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E05" data-source="P05" data-target="P06">
+<path d="M 409.8 1647.4 V 1663.4" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 409.8 1647.4 V 1663.4" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E06" data-source="P04" data-target="P07">
+<path d="M 807.3 1325 V 1429.2 H 1744 V 1965.8 H 1574.3 V 1985.8" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 807.3 1325 V 1429.2 H 1744 V 1965.8 H 1574.3 V 1985.8" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E07" data-source="P06" data-target="P07">
+<path d="M 423.8 1761.4 V 1865.6 H 1560.3 V 1985.8" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 423.8 1761.4 V 1865.6 H 1560.3 V 1985.8" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge-label" data-edge-id="E01" data-source="P01" data-target="P02">
+<rect x="935.7" y="638.4" width="138.7" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1005" y="658.4" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">재원 확정 후 산정</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E02" data-source="P02" data-target="P03">
+<rect x="722.4" y="944.8" width="133.8" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="789.3" y="964.8" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">미달액 기초 결정</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E03" data-source="P03" data-target="P04">
+<rect x="1001.3" y="1208" width="113.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1058.3" y="1228" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">4기 분할 교부</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E04" data-source="P02" data-target="P05">
+<rect x="127.3" y="1246.1" width="237.4" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="246" y="1266.1" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">산정기일 후 재난 등 특별 수요 시</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E05" data-source="P05" data-target="P06">
+<rect x="614.9" y="1644.4" width="119.8" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="674.8" y="1664.4" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">조건부 교부 시</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E06" data-source="P04" data-target="P07">
+<rect x="1500.7" y="1682.5" width="206.6" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1604" y="1702.5" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">부당 교부·법령 위반 확인 시</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E07" data-source="P06" data-target="P07">
+<rect x="921.6" y="1833.6" width="140.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="992" y="1853.6" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">조건·용도 위반 시</text>
+</g>
+
+    <g class="pp-node" data-node-id="P01" data-basis="지방교부세법:제4조 지방교부세법:제5조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="476.2" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="476.2" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="496.2" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P01</text>
+      
+      <rect x="1259.8" y="483.2" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1285.8" y="500.2" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §4</text>
+      <text x="1066.8" y="533.2" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">재원 확정·예산 계상</tspan></text>
+      <text x="1066.8" y="558.2" font-size="11" font-weight="650" fill="#3b4a43">기한 · 예산·결산 차액은 늦어도 다음 다음 연…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P02" data-basis="지방교부세법:제8조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="798.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="798.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="818.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P02</text>
+      
+      <rect x="876.3" y="805.6" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="902.3" y="822.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §8</text>
+      <text x="683.3" y="855.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">기준재정수요액·수입액 산정</tspan></text>
+      <text x="683.3" y="880.6" font-size="11" font-weight="650" fill="#3b4a43">행정안전부장관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P03" data-basis="지방교부세법:제6조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1121" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1121" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1141" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P03</text>
+      
+      <rect x="876.3" y="1128" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="902.3" y="1145" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §6</text>
+      <text x="683.3" y="1178" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">보통교부세 결정·통지</tspan></text>
+      <text x="683.3" y="1203" font-size="11" font-weight="650" fill="#3b4a43">행정안전부장관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P04" data-basis="지방교부세법:제10조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1235" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1235" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1255" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P04</text>
+      
+      <rect x="869.3" y="1242" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1259" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §10</text>
+      <text x="683.3" y="1292" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">분기별 교부</tspan></text>
+      <text x="683.3" y="1317" font-size="11" font-weight="650" fill="#3b4a43">기한 · 1년을 4기로 나누어 교부(특별교부세…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P05" data-basis="지방교부세법:제9조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1557.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1557.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1577.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P05</text>
+      
+      <rect x="492.8" y="1564.4" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="518.8" y="1581.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §9</text>
+      <text x="299.8" y="1614.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">특별교부세 신청·심사·교부</tspan></text>
+      <text x="299.8" y="1639.4" font-size="11" font-weight="650" fill="#3b4a43">지방자치단체의 장·행정안전부장관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P06" data-basis="지방교부세법:제9조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1671.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1671.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1691.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P06</text>
+      
+      <rect x="492.8" y="1678.4" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="518.8" y="1695.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §9</text>
+      <text x="299.8" y="1728.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">특별교부세 조건·용도 관리</tspan></text>
+      <text x="299.8" y="1753.4" font-size="11" font-weight="650" fill="#3b4a43">지방자치단체의 장</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P07" data-basis="지방교부세법:제11조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="1993.8" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="1993.8" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="2013.8" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P07</text>
+      
+      <rect x="1636.3" y="2000.8" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1665.8" y="2017.8" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §11</text>
+      <text x="1450.3" y="2050.8" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">부당 교부세 시정·감액·반환</tspan></text>
+      <text x="1450.3" y="2075.8" font-size="11" font-weight="650" fill="#3b4a43">행정안전부장관</text>
+    </g>
+  
+
+</svg>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"law":{"lawId":"001006","mst":"284101","name":"지방교부세법","kind":"법률","tier":"statute","effectiveOn":"2026-07-01","officialUrl":"https://www.law.go.kr/법령/지방교부세법"},"flows":[{"slug":"local-share-tax","name":"지방교부세","oneLiner":"국세로 걷은 내국세의 일부를 지자체에 나눠줘 재정 격차를 메우는 제도. 지자체가 용도를 정해 쓰는 자주재원이다.","citingSteps":17,"totalSteps":21,"articles":{"제4조":2,"제7조":2,"제8조":1,"제6조":3,"제9조":2,"제9조의3":1,"제9조의4":1,"제8조의2":1,"제8조의3":1,"제13조":2,"제11조":1,"제15조":1,"제9조의5":1}},{"slug":"local-share-tax-allocation","name":"지방교부세 산정·교부·이의","oneLiner":"내국세 19.24% 재원 계상부터 기준재정수요·수입 산정, 미달액 기초 보통교부세 결정, 4기 교부, 특별교부세 40·50·10 구분, 부당 교부 반환까지의 지방교부세법 절차","citingSteps":7,"totalSteps":7,"articles":{"제4조":1,"제5조":1,"제8조":1,"제6조":1,"제10조":1,"제9조":2,"제11조":1}}],"current":"$0:rsc:props:children:0:props:flows:1","asOfDate":"2026-07-15","reviewNote":"주요 절차를 요약한 참고 모델입니다. 모든 예외·위임규정의 현행성까지 전수 검증한 자료는 아닙니다. 법령 체계의 보관 자료와 현행 원문은 다를 수 있습니다.","svg":"$3","nodes":[{"id":"P01","name":"재원 확정·예산 계상","lane":"국가(예산 당국)","stage":"G0 재원·예산","type":"task","status":"done","progress":100,"actor":"국가","action":"내국세 총액의 10,000분의 1,924, 종합부동산세 총액, 담배 개별소비세의 45%가 재원이다. 국가는 해마다 교부세를 예산에 계상하고, 내국세 증감 시 함께 조절하며, 예산·결산 차액은 늦어도 다다음 연도 예산에 계상해 정산한다.","input_documents":[],"output_documents":["교부세 예산 계상"],"deadline":"예산·결산 차액은 늦어도 다음 다음 연도의 국가예산에 계상하여 정산","blocker":null,"confidence":0.9,"legal_basis":[{"law":"지방교부세법","article":"제4조제1항·제5조제1항·제3항","text":"교부세의 재원은 내국세 총액의 1만분의 1,924에 해당하는 금액, 종합부동산세 총액, 담배에 부과하는 개별소비세 총액의 100분의 45 등으로 한다. 국가는 해마다 교부세를 국가예산에 계상하여야 하며, 교부세 차액은 늦어도 다음 다음 연도의 국가예산에 계상하여 정산하여야 한다."}]},{"id":"P02","name":"기준재정수요액·수입액 산정","lane":"행정안전부장관","stage":"G1 산정","type":"task","status":"current","progress":50,"actor":"행정안전부장관","action":"기준재정수입액은 지방세법 표준세율의 80%인 기준세율로 산정한 보통세 수입액으로 하며, 매우 불합리한 경우 보정한다.","input_documents":[],"output_documents":["기준재정수요·수입 산정"],"deadline":null,"blocker":null,"confidence":0.9,"legal_basis":[{"law":"지방교부세법","article":"제8조제1항·제2항·제3항","text":"기준재정수입액은 기준세율로 산정한 해당 지방자치단체의 보통세 수입액으로 한다. 기준세율은 지방세법에 규정된 표준세율의 100분의 80에 해당하는 세율로 한다. 산정한 기준재정수입액이 매우 불합리한 경우에는 이를 보정하여야 한다."}]},{"id":"P03","name":"보통교부세 결정·통지","lane":"행정안전부장관","stage":"G2 교부","type":"gateway","status":"waiting","progress":0,"actor":"행정안전부장관","action":"기준재정수입액이 수요액에 못 미치는 지자체에 미달액을 기초로 교부한다. 자치구는 특별시·광역시와 합산해 그 시에 교부한다. 결정 시 산정 기초자료·내역을 첨부해 통지한다.","input_documents":[],"output_documents":["보통교부세 결정 통지"],"deadline":null,"blocker":null,"confidence":0.9,"legal_basis":[{"law":"지방교부세법","article":"제6조제1항·제2항","text":"보통교부세는 해마다 기준재정수입액이 기준재정수요액에 못 미치는 지방자치단체에 그 미달액을 기초로 교부한다. 보통교부세를 교부하려면 산정 기초자료, 지방자치단체별 내역, 관련 자료를 첨부하여 결정을 통지하여야 한다."}]},{"id":"P04","name":"분기별 교부","lane":"행정안전부장관","stage":"G2 교부","type":"task","status":"waiting","progress":0,"actor":"행정안전부장관","action":"교부세는 1년을 4기로 나누어 교부한다. 특별교부세는 예외로 할 수 있다.","input_documents":[],"output_documents":["교부"],"deadline":"1년을 4기로 나누어 교부(특별교부세는 예외 가능)","blocker":null,"confidence":0.9,"legal_basis":[{"law":"지방교부세법","article":"제10조","text":"교부세는 1년을 4기로 나누어 교부한다. 다만, 특별교부세는 예외로 할 수 있다."}]},{"id":"P05","name":"특별교부세 신청·심사·교부","lane":"지방자치단체의 장","stage":"G3 특별교부세","type":"task","status":"waiting","progress":0,"actor":"지방자치단체의 장·행정안전부장관","action":"지역 현안 수요 40%, 재난·안전관리 수요 50%, 국가적 장려사업 등 10%로 구분해 교부한다. 지자체장의 신청을 심사해 교부하되, 필요하면 신청 없이도 교부할 수 있다. 민간 지원 보조사업에는 교부할 수 없다.","input_documents":[],"output_documents":["특별교부세 교부 결정"],"deadline":null,"blocker":null,"confidence":0.9,"legal_basis":[{"law":"지방교부세법","article":"제9조제1항·제2항·제6항","text":"특별교부세는 지역 현안에 대한 특별한 재정수요 100분의 40, 재난 복구 및 안전관리를 위한 특별한 재정수요 100분의 50, 국가적 장려사업 등 100분의 10의 구분에 따라 교부한다. 지방자치단체의 장이 교부를 신청하는 경우 이를 심사하여 교부하되, 필요하다고 인정하는 경우에는 신청이 없어도 교부할 수 있다. 민간에 지원하는 보조사업에 대하여는 교부할 수 없다."}]},{"id":"P06","name":"특별교부세 조건·용도 관리","lane":"지방자치단체의 장","stage":"G3 특별교부세","type":"task","status":"waiting","progress":0,"actor":"지방자치단체의 장","action":"행정안전부장관은 사용 조건을 붙이거나 용도를 제한할 수 있고, 지자체장이 조건 변경·용도 변경을 하려면 미리 승인을 받아야 한다.","input_documents":[],"output_documents":["교부조건 이행(변경 승인)"],"deadline":null,"blocker":null,"confidence":0.9,"legal_basis":[{"law":"지방교부세법","article":"제9조제4항·제5항","text":"행정안전부장관은 특별교부세의 사용에 관하여 조건을 붙이거나 용도를 제한할 수 있다. 지방자치단체의 장은 교부조건의 변경이 필요하거나 용도를 변경하여 사용하고자 하는 때에는 미리 행정안전부장관의 승인을 받아야 한다."}]},{"id":"P07","name":"부당 교부세 시정·감액·반환","lane":"감사·시정","stage":"G4 시정·반환","type":"gateway","status":"risk","progress":0,"actor":"행정안전부장관","action":"자료를 부풀리거나 거짓 기재해 부당 교부받으면 초과분 반환 명령·감액을 할 수 있다. 법령 위반 과다 지출·징수 태만 시 그 금액 한도 내에서 감액·반환을 명할 수 있고, 특별교부세 조건·용도 위반 시 반환 명령 또는 다음 연도 감액을 할 수 있다. 반환은 분할할 수 있다.","input_documents":[],"output_documents":["시정·감액·반환 명령(해당 시)"],"deadline":null,"blocker":null,"confidence":0.9,"legal_basis":[{"law":"지방교부세법","article":"제11조제1항·제2항·제3항·제4항","text":"자료를 부풀리거나 거짓으로 기재하여 부당하게 교부받은 경우 초과 부분을 반환하도록 명하거나 감액할 수 있다. 법령을 위반하여 지나치게 많은 경비를 지출하였거나 징수를 게을리한 경우 그 금액을 초과하지 아니하는 범위에서 감액하거나 반환을 명할 수 있다. 교부조건이나 용도를 위반하여 특별교부세를 사용한 때에는 반환을 명하거나 다음 연도 교부세에서 감액할 수 있다."}]}],"edges":[{"id":"E01","source":"P01","target":"P02","type":"sequence","label":"재원 확정 후 산정"},{"id":"E02","source":"P02","target":"P03","type":"sequence","label":"미달액 기초 결정"},{"id":"E03","source":"P03","target":"P04","type":"sequence","label":"4기 분할 교부"},{"id":"E04","source":"P02","target":"P05","type":"message","label":"산정기일 후 재난 등 특별 수요 시"},{"id":"E05","source":"P05","target":"P06","type":"sequence","label":"조건부 교부 시"},{"id":"E06","source":"P04","target":"P07","type":"message","label":"부당 교부·법령 위반 확인 시"},{"id":"E07","source":"P06","target":"P07","type":"message","label":"조건·용도 위반 시"}],"lawContext":{"byNode":{"P01":[{"law":"지방교부세법","article":"제4조제1항·제5조제1항·제3항","text":"교부세의 재원은 내국세 총액의 1만분의 1,924에 해당하는 금액, 종합부동산세 총액, 담배에 부과하는 개별소비세 총액의 100분의 45 등으로 한다. 국가는 해마다 교부세를 국가예산에 계상하여야 하며, 교부세 차액은 늦어도 다음 다음 연도의 국가예산에 계상하여 정산하여야 한다.","found":true,"lawId":"001006","tier":"statute","articles":[{"label":"제4조","title":"교부세의 재원","officialUrl":"https://www.law.go.kr/법령/지방교부세법/제4조","up":[],"down":[]},{"label":"제5조","title":"예산 계상","officialUrl":"https://www.law.go.kr/법령/지방교부세법/제5조","up":[],"down":[]}]}],"P02":[{"law":"지방교부세법","article":"제8조제1항·제2항·제3항","text":"기준재정수입액은 기준세율로 산정한 해당 지방자치단체의 보통세 수입액으로 한다. 기준세율은 지방세법에 규정된 표준세율의 100분의 80에 해당하는 세율로 한다. 산정한 기준재정수입액이 매우 불합리한 경우에는 이를 보정하여야 한다.","found":true,"lawId":"001006","tier":"statute","articles":[{"label":"제8조","title":"기준재정수입액","officialUrl":"https://www.law.go.kr/법령/지방교부세법/제8조","up":[],"down":[]}]}],"P03":[{"law":"지방교부세법","article":"제6조제1항·제2항","text":"보통교부세는 해마다 기준재정수입액이 기준재정수요액에 못 미치는 지방자치단체에 그 미달액을 기초로 교부한다. 보통교부세를 교부하려면 산정 기초자료, 지방자치단체별 내역, 관련 자료를 첨부하여 결정을 통지하여야 한다.","found":true,"lawId":"001006","tier":"statute","articles":[{"label":"제6조","title":"보통교부세의 교부","officialUrl":"https://www.law.go.kr/법령/지방교부세법/제6조","up":[],"down":[]}]}],"P04":[{"law":"지방교부세법","article":"제10조","text":"교부세는 1년을 4기로 나누어 교부한다. 다만, 특별교부세는 예외로 할 수 있다.","found":true,"lawId":"001006","tier":"statute","articles":[{"label":"제10조","title":"교부 시기","officialUrl":"https://www.law.go.kr/법령/지방교부세법/제10조","up":[],"down":[]}]}],"P05":[{"law":"지방교부세법","article":"제9조제1항·제2항·제6항","text":"특별교부세는 지역 현안에 대한 특별한 재정수요 100분의 40, 재난 복구 및 안전관리를 위한 특별한 재정수요 100분의 50, 국가적 장려사업 등 100분의 10의 구분에 따라 교부한다. 지방자치단체의 장이 교부를 신청하는 경우 이를 심사하여 교부하되, 필요하다고 인정하는 경우에는 신청이 없어도 교부할 수 있다. 민간에 지원하는 보조사업에 대하여는 교부할 수 없다.","found":true,"lawId":"001006","tier":"statute","articles":[{"label":"제9조","title":"특별교부세의 교부","officialUrl":"https://www.law.go.kr/법령/지방교부세법/제9조","up":[],"down":[{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"지방교부세법 시행령","label":"제9조의2","title":"특별교부세의 교부기준 등","tier":"decree"}]}]}],"P06":[{"law":"지방교부세법","article":"제9조제4항·제5항","text":"행정안전부장관은 특별교부세의 사용에 관하여 조건을 붙이거나 용도를 제한할 수 있다. 지방자치단체의 장은 교부조건의 변경이 필요하거나 용도를 변경하여 사용하고자 하는 때에는 미리 행정안전부장관의 승인을 받아야 한다.","found":true,"lawId":"001006","tier":"statute","articles":[{"label":"제9조","title":"특별교부세의 교부","officialUrl":"https://www.law.go.kr/법령/지방교부세법/제9조","up":[],"down":[{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"지방교부세법 시행령","label":"제9조의2","title":"특별교부세의 교부기준 등","tier":"decree"}]}]}],"P07":[{"law":"지방교부세법","article":"제11조제1항·제2항·제3항·제4항","text":"자료를 부풀리거나 거짓으로 기재하여 부당하게 교부받은 경우 초과 부분을 반환하도록 명하거나 감액할 수 있다. 법령을 위반하여 지나치게 많은 경비를 지출하였거나 징수를 게을리한 경우 그 금액을 초과하지 아니하는 범위에서 감액하거나 반환을 명할 수 있다. 교부조건이나 용도를 위반하여 특별교부세를 사용한 때에는 반환을 명하거나 다음 연도 교부세에서 감액할 수 있다.","found":true,"lawId":"001006","tier":"statute","articles":[{"label":"제11조","title":"부당 교부세의 시정 등","officialUrl":"https://www.law.go.kr/법령/지방교부세법/제11조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방교부세법 시행령","label":"제12조","title":"교부세의 반환 또는 감액","tier":"decree"}]}]}]},"systems":{"001006":{"lawId":"001006","name":"지방교부세법","href":"/law/001006/","ministry":"행정안전부","effectiveOn":"2026-07-01","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"지방교부세법","kind":"법률","articleCount":21,"officialUrl":"https://www.law.go.kr/법령/지방교부세법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":21},{"tier":"decree","label":"시행령","laws":[{"name":"지방교부세법 시행령","kind":"대통령령","articleCount":23,"officialUrl":"https://www.law.go.kr/법령/지방교부세법시행령"}],"kinds":[{"kind":"대통령령","count":1}],"articleCount":23},{"tier":"rule","label":"시행규칙","laws":[{"name":"지방교부세법 시행규칙","kind":"행정안전부령","articleCount":19,"officialUrl":"https://www.law.go.kr/법령/지방교부세법시행규칙"},{"name":"소방안전교부세 교부기준 등에 관한 규칙","kind":"행정안전부령","articleCount":11,"officialUrl":"https://www.law.go.kr/법령/소방안전교부세교부기준등에관한규칙"}],"kinds":[{"kind":"행정안전부령","count":2}],"articleCount":30},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"지방교부세 감액 세부운영기준","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방교부세감액세부운영기준"},{"name":"지방교부세위원회 운영규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방교부세위원회운영규정"},{"name":"개발대상도서 지정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개발대상도서지정"}],"kinds":[{"kind":"예규","count":2},{"kind":"고시","count":1}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EC%A7%80%EB%B0%A9%EA%B5%90%EB%B6%80%EC%84%B8%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":9,"rule":7,"adminRule":6,"ordinance":0,"cites":82}}}},"statusStyles":{"done":{"label":"선행","fill":"#effaf5","border":"#35a77d","ink":"#123d2e","sub":"#287a5c"},"current":{"label":"핵심","fill":"#087452","border":"#087452","ink":"#ffffff","sub":"#d8f4e8"},"waiting":{"label":"후속","fill":"#ffffff","border":"#b9c7bf","ink":"#17231d","sub":"#627169"},"risk":{"label":"병목","fill":"#fff8e8","border":"#d9901a","ink":"#7a4305","sub":"#a96008"},"loop":{"label":"회귀","fill":"#edf4ff","border":"#3478db","ink":"#173f7a","sub":"#316bbd"}},"basisLegend":[{"label":"법률","fill":"#ffffff","border":"#3b4a43"},{"label":"시행령","fill":"#f2f6ff","border":"#2456d6"},{"label":"시행규칙","fill":"#effaf6","border":"#0f9f72"},{"label":"행정규칙","fill":"#f6f2ff","border":"#7c56c9"}],"isLawIndex":false}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Eu-UvfunzEwjnKcUq5f7W"}
+4:["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","precedence":"next"}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

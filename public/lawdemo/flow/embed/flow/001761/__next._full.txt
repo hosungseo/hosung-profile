@@ -1,0 +1,521 @@
+1:"$Sreact.fragment"
+2:I[4116,[],""]
+3:I[8498,[],""]
+5:I[977,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+9:I[977,[],"ViewportBoundary"]
+b:I[977,[],"MetadataBoundary"]
+d:I[8432,[],"default",1]
+:HL["/lawdemo/flow/_next/static/css/cd237d4e4c702e12.css","style"]
+:HL["/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","style"]
+0:{"P":null,"c":["","embed","flow","001761",""],"q":"","i":false,"f":[[["",{"children":["embed",{"children":["flow",{"children":[["lawId","001761","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/cd237d4e4c702e12.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"ko","children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,"$@8"]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Eu-UvfunzEwjnKcUq5f7W"}
+e:[]
+8:"$We"
+f:I[7742,["838","static/chunks/838-9b85aecee2a13f53.js","379","static/chunks/379-f104668f756ddde1.js","227","static/chunks/app/embed/flow/%5BlawId%5D/page-b476be85089ecd29.js"],"default"]
+10:Ta36e,<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 250 1744 1960" class="pp-svg">
+<defs>
+      <filter id="card-shadow" x="-20%" y="-25%" width="140%" height="160%">
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#12271e" flood-opacity="0.10"/>
+      </filter>
+      <marker id="arrow-sequence" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#53675d" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-message" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#0f8a65" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-loop" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#3478db" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <style>
+        text { font-family: "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", sans-serif; }
+        .mono { font-family: "SFMono-Regular", "Menlo", monospace; }
+      </style>
+    </defs>
+<rect width="1800" height="2400" fill="#ffffff"/>
+
+
+
+<rect x="38" y="260" width="1724" height="1940" rx="10" fill="#ffffff" stroke="#b8c7bf" stroke-width="2"/>
+<rect x="38" y="260" width="190" height="100" rx="10" fill="#eaf2ee"/>
+<text x="58" y="299" font-size="17" font-weight="800" fill="#17231d">단계 ↓</text>
+<text x="58" y="332" font-size="15" font-weight="650" fill="#68776f">행위자 묶음 →</text>
+<rect x="38" y="360" width="1724" height="137.8" fill="#fbfcfb"/>
+<rect x="38" y="360" width="190" height="137.8" fill="#eef3f0"/>
+<text x="58" y="392" class="mono" font-size="16" font-weight="800" fill="#53645b">G0</text>
+<text x="58" y="425" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">피보험자격</tspan></text>
+<rect x="38" y="497.8" width="1724" height="137.8" fill="#f5f8f6"/>
+<rect x="38" y="497.8" width="190" height="137.8" fill="#eef3f0"/>
+<text x="58" y="529.8" class="mono" font-size="16" font-weight="800" fill="#53645b">G1</text>
+<text x="58" y="562.8" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">보험관계·보험료</tspan></text>
+<rect x="38" y="635.5" width="1724" height="137.8" fill="#fbfcfb"/>
+<rect x="38" y="635.5" width="190" height="137.8" fill="#eef3f0"/>
+<text x="58" y="667.5" class="mono" font-size="16" font-weight="800" fill="#53645b">G2</text>
+<text x="58" y="700.5" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">통합징수</tspan></text>
+<rect x="38" y="773.3" width="1724" height="433.8" fill="#f5f8f6"/>
+<rect x="38" y="773.3" width="190" height="433.8" fill="#eef3f0"/>
+<text x="58" y="805.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G3</text>
+<text x="58" y="838.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">실업·수급신청</tspan></text>
+<rect x="38" y="1207" width="1724" height="221.8" fill="#fbfcfb"/>
+<rect x="38" y="1207" width="190" height="221.8" fill="#eef3f0"/>
+<text x="58" y="1239" class="mono" font-size="16" font-weight="800" fill="#53645b">G4</text>
+<text x="58" y="1272" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">수급자격인정</tspan></text>
+<rect x="38" y="1428.8" width="1724" height="221.8" fill="#f5f8f6"/>
+<rect x="38" y="1428.8" width="190" height="221.8" fill="#eef3f0"/>
+<text x="58" y="1460.8" class="mono" font-size="16" font-weight="800" fill="#53645b">G5</text>
+<text x="58" y="1493.8" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">실업인정·급여</tspan></text>
+<rect x="38" y="1650.5" width="1724" height="327.8" fill="#fbfcfb"/>
+<rect x="38" y="1650.5" width="190" height="327.8" fill="#eef3f0"/>
+<text x="58" y="1682.5" class="mono" font-size="16" font-weight="800" fill="#53645b">G6</text>
+<text x="58" y="1715.5" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">재취업·부정수급</tspan></text>
+<rect x="38" y="1978.3" width="1724" height="221.8" fill="#f5f8f6"/>
+<rect x="38" y="1978.3" width="190" height="221.8" fill="#eef3f0"/>
+<text x="58" y="2010.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G7</text>
+<text x="58" y="2043.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">심사·재심사</tspan></text>
+<rect x="228" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="228" y="260" width="383.5" height="7" fill="#0f9f72"/>
+<text x="248" y="299" font-size="20" font-weight="800" fill="#17231d">피보험자·사업주</text>
+<text x="248" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="248" dy="0">피보험자(근로자·실직자) · 사업주</tspan></text>
+<rect x="611.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="611.5" y="260" width="383.5" height="7" fill="#3b82f6"/>
+<text x="631.5" y="299" font-size="20" font-weight="800" fill="#17231d">근로복지공단·국민건강보험공단</text>
+<text x="631.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="631.5" dy="0">근로복지공단 · 국민건강보험공단(통합징수)</tspan></text>
+<rect x="995" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="995" y="260" width="383.5" height="7" fill="#c78116"/>
+<text x="1015" y="299" font-size="20" font-weight="800" fill="#17231d">고용센터·고용보험심사관</text>
+<text x="1015" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1015" dy="0">고용센터(직업안정기관) · 고용보험심사관</tspan></text>
+<rect x="1378.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="1378.5" y="260" width="383.5" height="7" fill="#0891b2"/>
+<text x="1398.5" y="299" font-size="20" font-weight="800" fill="#17231d">고용보험심사위원회·고용노동부</text>
+<text x="1398.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1398.5" dy="0">고용보험심사위원회 · 고용노동부</tspan></text>
+<line x1="228" y1="260" x2="228" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="611.5" y1="260" x2="611.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="995" y1="260" x2="995" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1378.5" y1="260" x2="1378.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1762" y1="260" x2="1762" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#b8c7bf" stroke-width="2"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="497.8" x2="1762" y2="497.8" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="635.5" x2="1762" y2="635.5" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="773.3" x2="1762" y2="773.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1207" x2="1762" y2="1207" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1428.8" x2="1762" y2="1428.8" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1650.5" x2="1762" y2="1650.5" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1978.3" x2="1762" y2="1978.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2200" x2="1762" y2="2200" stroke="#b8c7bf" stroke-width="2"/>
+<g class="pp-edge" data-edge-id="E01" data-source="P01" data-target="P02">
+<path d="M 419.8 471.9 V 485.8 H 793.3 V 515.6" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 419.8 471.9 V 485.8 H 793.3 V 515.6" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E02" data-source="P02" data-target="P03">
+<path d="M 813.3 609.6 V 623.5 H 803.3 V 653.4" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 813.3 609.6 V 623.5 H 803.3 V 653.4" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E03" data-source="P03" data-target="P04">
+<path d="M 783.3 747.4 V 761.3 H 417.8 V 780.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 783.3 747.4 V 761.3 H 417.8 V 780.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E04" data-source="P04" data-target="P15">
+<path d="M 409.8 874.1 V 890.1 H 429.8 V 886.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 409.8 874.1 V 890.1 H 429.8 V 886.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E14" data-source="P15" data-target="P05">
+<path d="M 415.8 980.1 V 996.1 H 425.8 V 992.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 415.8 980.1 V 996.1 H 425.8 V 992.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E05" data-source="P05" data-target="P06">
+<path d="M 393.8 1086.1 V 1102.1 H 403.8 V 1098.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 393.8 1086.1 V 1102.1 H 403.8 V 1098.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E06" data-source="P06" data-target="P07">
+<path d="M 417.8 1192.1 V 1195 H 1166.8 V 1213.9" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 417.8 1192.1 V 1195 H 1166.8 V 1213.9" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E07" data-source="P07" data-target="P08">
+<path d="M 1186.8 1307.9 V 1323.9 H 1172.8 V 1319.9" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1186.8 1307.9 V 1323.9 H 1172.8 V 1319.9" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E08" data-source="P08" data-target="P09">
+<path d="M 1200.8 1413.9 V 1416.8 H 1176.8 V 1435.6" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1200.8 1413.9 V 1416.8 H 1176.8 V 1435.6" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E09" data-source="P09" data-target="P10">
+<path d="M 1196.8 1529.6 V 1545.6 H 1160.8 V 1541.6" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1196.8 1529.6 V 1545.6 H 1160.8 V 1541.6" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E10" data-source="P10" data-target="P11">
+<path d="M 1180.8 1635.6 V 1638.5 H 1186.8 V 1657.4" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1180.8 1635.6 V 1638.5 H 1186.8 V 1657.4" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E11" data-source="P03" data-target="P14">
+<path d="M 938.3 719.9 H 1394.3 V 700.4 H 1427.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 719.9 H 1394.3 V 700.4 H 1427.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E12" data-source="P10" data-target="P12">
+<path d="M 1206.8 1635.6 V 1622.5 H 1347.5 V 1810.4 H 1329.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1206.8 1635.6 V 1622.5 H 1347.5 V 1810.4 H 1329.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E13" data-source="P19" data-target="P13">
+<path d="M 1196.8 1963.4 V 1966.3 H 1186.8 V 1985.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1196.8 1963.4 V 1966.3 H 1186.8 V 1985.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E19" data-source="P12" data-target="P19">
+<path d="M 1190.8 1857.4 V 1873.4 H 1182.8 V 1869.4" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1190.8 1857.4 V 1873.4 H 1182.8 V 1869.4" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M01" data-source="P05" data-target="P07">
+<path d="M 554.8 1066.1 H 645.5 V 1179 H 1134.8 V 1213.9" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1066.1 H 645.5 V 1179 H 1134.8 V 1213.9" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M02" data-source="P08" data-target="P09">
+<path d="M 1180.8 1413.9 V 1384.8 H 1150.8 V 1435.6" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1180.8 1413.9 V 1384.8 H 1150.8 V 1435.6" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M03" data-source="P10" data-target="P14">
+<path d="M 1051.8 1628.6 H 216 V 753.3 H 1580.3 V 755.4" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1628.6 H 216 V 753.3 H 1580.3 V 755.4" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L01" data-source="P10" data-target="P09">
+<path d="M 1051.8 1574.1 H 177 V 1511.1 H 1043.8" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1574.1 H 177 V 1511.1 H 1043.8" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E15" data-source="P07" data-target="P13">
+<path d="M 1321.8 1282.9 H 1425.5 V 1400.8 H 1425.5 V 1965.1 H 1154.8 V 1985.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1321.8 1282.9 H 1425.5 V 1400.8 H 1425.5 V 1965.1 H 1154.8 V 1985.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E16" data-source="P13" data-target="P16">
+<path d="M 1206.8 2079.1 V 2095.1 H 1182.8 V 2091.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1206.8 2079.1 V 2095.1 H 1182.8 V 2091.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E17" data-source="P16" data-target="P17">
+<path d="M 1321.8 2151.1 H 1407.3 V 2037.1 H 1427.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1321.8 2151.1 H 1407.3 V 2037.1 H 1427.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E18" data-source="P17" data-target="P18">
+<path d="M 1580.3 2079.1 V 2091.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1580.3 2079.1 V 2091.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L03" data-source="P18" data-target="P07">
+<path d="M 1435.3 2140.6 H 190 V 1360.8 H 1202.8 V 1315.9" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1435.3 2140.6 H 190 V 1360.8 H 1202.8 V 1315.9" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge-label" data-edge-id="E03" data-source="P03" data-target="P04">
+<rect x="552.5" y="729.3" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="600.5" y="749.3" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">가입 유지</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E04" data-source="P04" data-target="P15">
+<rect x="626.8" y="869.1" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="674.8" y="889.1" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">발급 요청</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E06" data-source="P06" data-target="P07">
+<rect x="734.8" y="1163" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="792.3" y="1183" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">수급자격 신청</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E07" data-source="P07" data-target="P08">
+<rect x="1393.8" y="1302.9" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1441.8" y="1322.9" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">요건 충족</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E09" data-source="P09" data-target="P10">
+<rect x="1393.8" y="1524.6" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1441.8" y="1544.6" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">실업 인정</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E12" data-source="P10" data-target="P12">
+<rect x="1359.7" y="1590.5" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1417.1" y="1610.5" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">부정수급 정황</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E13" data-source="P19" data-target="P13">
+<rect x="933.8" y="1934.3" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="981.8" y="1954.3" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">처분 불복</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E19" data-source="P12" data-target="P19">
+<rect x="1384.3" y="1852.4" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1441.8" y="1872.4" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">부정수급 확인</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M01" data-source="P05" data-target="P07">
+<rect x="742.3" y="1111" width="96" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="790.3" y="1131" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">이직확인서</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M02" data-source="P08" data-target="P09">
+<rect x="891.3" y="1352.8" width="128.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="955.8" y="1372.8" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">실업인정일 안내</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M03" data-source="P10" data-target="P14">
+<rect x="158.6" y="1157.9" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="216" y="1177.9" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">구직급여 지출</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L01" data-source="P10" data-target="P09">
+<rect x="197.6" y="1560.6" width="156.9" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="276" y="1580.6" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">반복 실업인정(순환)</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E15" data-source="P07" data-target="P13">
+<rect x="1351.6" y="1667.9" width="147.8" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1425.5" y="1687.9" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">수급자격 처분 불복</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E16" data-source="P13" data-target="P16">
+<rect x="1383.3" y="1930.1" width="117" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1441.8" y="1950.1" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">심리·심사결정</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E17" data-source="P16" data-target="P17">
+<rect x="1531.1" y="1954.1" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1588.5" y="1974.1" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">심사결정 불복</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E18" data-source="P17" data-target="P18">
+<rect x="1617.3" y="1894.1" width="135.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1685.3" y="1914.1" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">재심사 심리·재결</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L03" data-source="P18" data-target="P07">
+<rect x="174.2" y="1772.4" width="171.6" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="260" y="1792.4" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">인용 재결 시 처분 시정</text>
+</g>
+
+    <g class="pp-node" data-node-id="P01" data-basis="고용보험법:제15조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="385.9" width="270" height="86" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="385.9" width="6" height="86" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="405.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P01</text>
+      
+      <rect x="485.8" y="392.9" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="409.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §15</text>
+      <text x="299.8" y="442.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">피보험자격 취득 신고</tspan></text>
+      <text x="299.8" y="467.9" font-size="11" font-weight="650" fill="#3b4a43">사업주</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P02" data-basis="고용보험및산업재해보상보험의보험료징수등에관한법률:제5조 고용보험및산업재해보상보험의보험료징수등에관한법률:제13조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="523.6" width="270" height="86" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="523.6" width="6" height="86" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="543.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P02</text>
+      
+      <rect x="876.3" y="530.6" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="902.3" y="547.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §5</text>
+      <text x="683.3" y="580.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">보험관계 성립·보험료 부과</tspan></text>
+      <text x="683.3" y="605.6" font-size="11" font-weight="650" fill="#3b4a43">근로복지공단</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P03" data-basis="고용보험및산업재해보상보험의보험료징수등에관한법률:제4조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="661.4" width="270" height="86" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="661.4" width="6" height="86" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="681.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P03</text>
+      
+      <rect x="876.3" y="668.4" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="902.3" y="685.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §4</text>
+      <text x="683.3" y="718.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">보험료 통합 징수</tspan></text>
+      <text x="683.3" y="743.4" font-size="11" font-weight="650" fill="#3b4a43">국민건강보험공단</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P04" data-basis="고용보험법:제40조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="788.1" width="270" height="86" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="788.1" width="6" height="86" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="808.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P04</text>
+      
+      <rect x="485.8" y="795.1" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="812.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §40</text>
+      <text x="299.8" y="845.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">이직·실업 발생</tspan></text>
+      <text x="299.8" y="870.1" font-size="11" font-weight="650" fill="#3b4a43">피보험자(실직자)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P15" data-basis="고용보험법:제42조 고용보험법시행규칙:제82조의2" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="894.1" width="270" height="86" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="894.1" width="6" height="86" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="914.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P15</text>
+      
+      <rect x="468.8" y="901.1" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="918.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §42 +1</text>
+      <text x="299.8" y="951.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">이직확인서 발급 요청</tspan></text>
+      <text x="299.8" y="976.1" font-size="11" font-weight="650" fill="#3b4a43">피보험자(실직자)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P05" data-basis="고용보험법:제42조 고용보험법:제43조 고용보험법시행규칙:제82조의2" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1000.1" width="270" height="86" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1000.1" width="6" height="86" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1020.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P05</text>
+      
+      <rect x="468.8" y="1007.1" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="1024.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §42 +1</text>
+      <text x="299.8" y="1057.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">피보험자 이직확인서 발급·제출</tspan></text>
+      <text x="299.8" y="1082.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 발급요청 후 10일 이내(규칙 제82조의…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P06" data-basis="고용보험법:제42조 고용보험법:제43조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1106.1" width="270" height="86" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1106.1" width="6" height="86" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1126.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P06</text>
+      
+      <rect x="485.8" y="1113.1" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="1130.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §42</text>
+      <text x="299.8" y="1163.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">구직등록·수급자격 신청</tspan></text>
+      <text x="299.8" y="1188.1" font-size="11" font-weight="650" fill="#3b4a43">실직자</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P07" data-basis="고용보험법:제40조 고용보험법:제43조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1221.9" width="270" height="86" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1221.9" width="6" height="86" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1241.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P07</text>
+      
+      <rect x="1252.8" y="1228.9" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1245.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §40</text>
+      <text x="1066.8" y="1278.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">수급자격 인정 판단</tspan></text>
+      <text x="1066.8" y="1303.9" font-size="11" font-weight="650" fill="#3b4a43">고용센터</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P08" data-basis="고용보험법:제43조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1327.9" width="270" height="86" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1327.9" width="6" height="86" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1347.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P08</text>
+      
+      <rect x="1252.8" y="1334.9" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1351.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §43</text>
+      <text x="1066.8" y="1384.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">수급자격 인정 통지</tspan></text>
+      <text x="1066.8" y="1409.9" font-size="11" font-weight="650" fill="#3b4a43">고용센터</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P09" data-basis="고용보험법:제44조 고용보험법시행규칙:제87조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1443.6" width="270" height="86" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1443.6" width="6" height="86" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1463.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P09</text>
+      
+      <rect x="1235.8" y="1450.6" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1467.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §44 +1</text>
+      <text x="1066.8" y="1500.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">실업인정(재취업활동 확인)</tspan></text>
+      <text x="1066.8" y="1525.6" font-size="11" font-weight="650" fill="#3b4a43">고용센터</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P10" data-basis="고용보험법:제46조 고용보험법:제48조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1549.6" width="270" height="86" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1549.6" width="6" height="86" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1569.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P10</text>
+      
+      <rect x="1252.8" y="1556.6" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1573.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §46</text>
+      <text x="1066.8" y="1606.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">구직급여 지급</tspan></text>
+      <text x="1066.8" y="1631.6" font-size="11" font-weight="650" fill="#3b4a43">고용센터</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P11" data-basis="고용보험법:제19조 고용보험법:제64조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1665.4" width="270" height="86" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1665.4" width="6" height="86" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1685.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P11</text>
+      
+      <rect x="1252.8" y="1672.4" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1689.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §19</text>
+      <text x="1066.8" y="1722.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">재취업·직업훈련 연계</tspan></text>
+      <text x="1066.8" y="1747.4" font-size="11" font-weight="650" fill="#3b4a43">고용센터</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P12" data-basis="고용보험법:제61조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1771.4" width="270" height="86" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1771.4" width="6" height="86" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1791.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P12</text>
+      
+      <rect x="1252.8" y="1778.4" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1795.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §61</text>
+      <text x="1066.8" y="1828.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">부정수급 사실 조사</tspan></text>
+      <text x="1066.8" y="1853.4" font-size="11" font-weight="650" fill="#3b4a43">고용센터(직업안정기관)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P19" data-basis="고용보험법:제61조 고용보험법:제62조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1877.4" width="270" height="86" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1877.4" width="6" height="86" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1897.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P19</text>
+      
+      <rect x="1235.8" y="1884.4" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1901.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §61 +1</text>
+      <text x="1066.8" y="1934.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">지급제한·반환명령·추가징수 처분</tspan></text>
+      <text x="1066.8" y="1959.4" font-size="11" font-weight="650" fill="#3b4a43">직업안정기관의 장</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P13" data-basis="고용보험법:제87조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1993.1" width="270" height="86" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1993.1" width="6" height="86" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="2013.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P13</text>
+      
+      <rect x="1252.8" y="2000.1" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="2017.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §87</text>
+      <text x="1066.8" y="2050.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">심사청구</tspan></text>
+      <text x="1066.8" y="2075.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 원처분등을 안 날부터 90일 이내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P16" data-basis="고용보험법:제89조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="2099.1" width="270" height="86" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="2099.1" width="6" height="86" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="2119.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P16</text>
+      
+      <rect x="1252.8" y="2106.1" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="2123.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §89</text>
+      <text x="1066.8" y="2156.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">심사관 심사결정</tspan></text>
+      <text x="1066.8" y="2181.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 심사청구일부터 30일 이내(부득이한…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P17" data-basis="고용보험법:제87조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="1993.1" width="270" height="86" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="1993.1" width="6" height="86" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="2013.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P17</text>
+      
+      <rect x="1636.3" y="2000.1" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1665.8" y="2017.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §87</text>
+      <text x="1450.3" y="2050.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">재심사청구</tspan></text>
+      <text x="1450.3" y="2075.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 심사결정을 안 날부터 90일 이내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P18" data-basis="고용보험법:제99조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="2099.1" width="270" height="86" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="2099.1" width="6" height="86" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="2119.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P18</text>
+      
+      <rect x="1636.3" y="2106.1" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1665.8" y="2123.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §99</text>
+      <text x="1450.3" y="2156.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">심사위원회 재심사 재결</tspan></text>
+      <text x="1450.3" y="2181.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 재심사청구일부터 50일 이내(법정 연…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P14" data-basis="고용보험법:제78조 고용보험법:제79조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="661.4" width="270" height="86" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="661.4" width="6" height="86" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="681.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P14</text>
+      
+      <rect x="1636.3" y="668.4" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1665.8" y="685.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §78</text>
+      <text x="1450.3" y="718.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">고용보험기금 적립금 관리</tspan></text>
+      <text x="1450.3" y="743.4" font-size="11" font-weight="650" fill="#3b4a43">고용노동부장관</text>
+    </g>
+  
+
+</svg>4:["$","$Lf",null,{"law":{"lawId":"001761","mst":"284449","name":"고용보험법","kind":"법률","tier":"statute","effectiveOn":"2026-09-18","officialUrl":"https://www.law.go.kr/법령/고용보험법"},"flows":[{"slug":"employment-insurance","name":"고용보험과 실업급여","oneLiner":"근로자와 사업주가 보험료를 내고, 실직하면 구직급여(실업급여)를 받으며 재취업·직업훈련·고용안정 지원을 함께 받는 사회보험","citingSteps":17,"totalSteps":19,"articles":{"제15조":1,"제40조":2,"제42조":3,"제43조":4,"제44조":1,"제46조":1,"제48조":1,"제19조":1,"제64조":1,"제61조":2,"제62조":1,"제87조":2,"제89조":1,"제99조":1,"제78조":1,"제79조":1}}],"current":"$4:props:flows:0","asOfDate":"2026-07-10","reviewNote":"주요 절차를 요약한 참고 모델입니다. 모든 예외·위임규정의 현행성까지 전수 검증한 자료는 아닙니다. 법령 체계의 보관 자료와 현행 원문은 다를 수 있습니다.","svg":"$10","nodes":[{"id":"P01","name":"피보험자격 취득 신고","lane":"사업주","stage":"G0 피보험자격","type":"task","status":"done","progress":100,"actor":"사업주","receiver":"근로복지공단","action":"근로자 고용 시 피보험자격 취득 신고","output_documents":["피보험자격 취득 신고서"],"confidence":0.85,"legal_basis":[{"law":"고용보험법","article":"제15조","text":"사업주는 피보험자격의 취득·상실을 공단에 신고한다."}]},{"id":"P02","name":"보험관계 성립·보험료 부과","lane":"근로복지공단","stage":"G1 보험관계·보험료","type":"task","status":"done","progress":100,"actor":"근로복지공단","action":"보험관계 성립·보험료 부과","output_documents":["보험료 부과 내역"],"confidence":0.83,"legal_basis":[{"law":"고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률","article":"제5조, 제13조","text":"고용 시 보험관계가 성립하고 임금총액에 보험료율을 적용해 부과한다."}]},{"id":"P03","name":"보험료 통합 징수","lane":"국민건강보험공단(통합징수)","stage":"G2 통합징수","type":"task","status":"done","progress":100,"actor":"국민건강보험공단","receiver":"고용보험기금","action":"실업급여분(노사)·고용안정직능분(사업주) 통합 징수","output_documents":["징수 내역"],"confidence":0.82,"legal_basis":[{"law":"고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률","article":"제4조","text":"보험료 징수는 건강보험공단에 위탁하여 통합 징수한다."}]},{"id":"P04","name":"이직·실업 발생","lane":"피보험자(근로자·실직자)","stage":"G3 실업·수급신청","type":"task","status":"done","progress":100,"actor":"피보험자(실직자)","action":"비자발적 이직 등으로 실업 발생","output_documents":["이직 사실"],"confidence":0.82,"legal_basis":[{"law":"고용보험법","article":"제40조","text":"이직 전 18개월 중 피보험단위기간 180일 이상 등 수급요건의 기초가 된다."}]},{"id":"P15","name":"이직확인서 발급 요청","lane":"피보험자(근로자·실직자)","stage":"G3 실업·수급신청","type":"task","status":"done","progress":100,"actor":"피보험자(실직자)","receiver":"사업주","action":"이직확인서 발급요청서 제출","output_documents":["이직확인서 발급요청서(별지 제75호의3서식)"],"confidence":0.82,"legal_basis":[{"law":"고용보험법","article":"제42조제3항","text":"실업을 신고하려는 사람은 이직 전 사업의 사업주에게 이직확인서 발급을 요청할 수 있다."},{"law":"고용보험법 시행규칙","article":"제82조의2제1항","text":"이직확인서 발급요청서(별지 제75호의3서식)를 작성하여 해당 사업주에게 제출한다."}]},{"id":"P05","name":"피보험자 이직확인서 발급·제출","lane":"사업주","stage":"G3 실업·수급신청","type":"task","status":"done","progress":100,"actor":"사업주","receiver":"고용센터","action":"피보험자 이직확인서 발급·제출","output_documents":["피보험자 이직확인서(별지 제75호의4서식)"],"deadline":"발급요청 후 10일 이내(규칙 제82조의2제2항)","confidence":0.83,"legal_basis":[{"law":"고용보험법","article":"제42조제3항, 제43조제4항","text":"사업주는 근로자의 발급요청 또는 직업안정기관의 장의 요청에 따라 피보험자 이직확인서를 발급·제출하여야 한다(종전 이직확인서 근거였던 제16조는 삭제됨)."},{"law":"고용보험법 시행규칙","article":"제82조의2제2항","text":"발급요청서를 제출받은 사업주는 10일 이내에 피보험자 이직확인서(별지 제75호의4서식)를 발급한다."}]},{"id":"P06","name":"구직등록·수급자격 신청","lane":"피보험자(근로자·실직자)","stage":"G3 실업·수급신청","type":"task","status":"done","progress":100,"actor":"실직자","receiver":"고용센터","action":"워크넷 구직등록·수급자격 신청","output_documents":["구직신청","수급자격 신청서"],"confidence":0.84,"legal_basis":[{"law":"고용보험법","article":"제42조, 제43조","text":"실업 신고와 함께 고용센터에 수급자격 인정을 신청한다."}]},{"id":"P07","name":"수급자격 인정 판단","lane":"고용센터(직업안정기관)","stage":"G4 수급자격인정","type":"gateway","status":"current","progress":50,"actor":"고용센터","action":"180일·비자발성 등 요건 심사","condition":"피보험단위기간 180일·이직사유 비자발성 충족 여부","output_documents":["수급자격 인정·불인정 결정"],"blocker":"수급자격 요건 심사 진행 중","confidence":0.8,"legal_basis":[{"law":"고용보험법","article":"제40조, 제43조","text":"수급요건을 심사하여 수급자격 인정 여부를 결정한다."}]},{"id":"P08","name":"수급자격 인정 통지","lane":"고용센터(직업안정기관)","stage":"G4 수급자격인정","type":"notice","status":"waiting","progress":0,"actor":"고용센터","receiver":"수급자","action":"수급자격 인정·실업인정일 안내","output_documents":["수급자격 인정서","실업인정일 안내"],"confidence":0.82,"legal_basis":[{"law":"고용보험법","article":"제43조제2항","text":"직업안정기관의 장은 수급자격 인정 여부를 결정하고, 대통령령으로 정하는 바에 따라 신청인에게 그 결과와 실업인정 절차를 알려야 한다."}]},{"id":"P09","name":"실업인정(재취업활동 확인)","lane":"고용센터(직업안정기관)","stage":"G5 실업인정·급여","type":"task","status":"waiting","progress":0,"actor":"고용센터","action":"실업인정일마다 재취업활동 확인","input_documents":["구직활동 증빙"],"output_documents":["실업인정 결과"],"confidence":0.8,"legal_basis":[{"law":"고용보험법","article":"제44조","text":"수급자는 실업인정일에 출석해 재취업활동을 신고하고 실업을 인정받는다."},{"law":"고용보험법 시행규칙","article":"제87조","text":"구인 응모·채용 면접·직업능력개발 훈련·직업지도 프로그램 참여 등을 적극적인 재취업활동으로 인정하는 기준을 정한다(법 제44조·영 제63조 위임)."}]},{"id":"P10","name":"구직급여 지급","lane":"고용센터(직업안정기관)","stage":"G5 실업인정·급여","type":"task","status":"waiting","progress":0,"actor":"고용센터","receiver":"수급자","action":"인정된 실업일수만큼 구직급여 지급","output_documents":["구직급여 지급 내역"],"confidence":0.82,"legal_basis":[{"law":"고용보험법","article":"제46조, 제48조","text":"구직급여일액을 소정급여일수 범위에서 지급한다."}]},{"id":"P11","name":"재취업·직업훈련 연계","lane":"고용센터(직업안정기관)","stage":"G6 재취업·부정수급","type":"task","status":"waiting","progress":0,"actor":"고용센터","receiver":"수급자","action":"재취업 지원·직업훈련 연계·조기재취업수당","output_documents":["취업지원 계획","조기재취업수당 결정"],"confidence":0.8,"legal_basis":[{"law":"고용보험법","article":"제19조, 제64조","text":"고용안정·직업능력개발 사업과 조기재취업수당으로 재취업을 지원한다."}]},{"id":"P12","name":"부정수급 사실 조사","lane":"고용센터(직업안정기관)","stage":"G6 재취업·부정수급","type":"gateway","status":"risk","progress":30,"actor":"고용센터(직업안정기관)","action":"구직급여 수급 사실과 거짓·부정한 방법 여부 조사","condition":"거짓·부정한 방법으로 구직급여를 받았거나 받으려 했는지 여부","output_documents":["조사 결과"],"blocker":"반복수급·형식적 구직활동 등 부정수급 관리 부담(운영 추정)","confidence":0.84,"legal_basis":[{"law":"고용보험법","article":"제61조","text":"거짓이나 그 밖의 부정한 방법으로 구직급여를 받았거나 받으려 한 경우 지급 제한의 대상이 된다."}]},{"id":"P19","name":"지급제한·반환명령·추가징수 처분","lane":"고용센터(직업안정기관)","stage":"G6 재취업·부정수급","type":"notice","status":"risk","progress":0,"actor":"직업안정기관의 장","receiver":"수급자·공모 사업주","action":"구직급여 지급을 제한하고, 이미 지급된 급여의 반환을 명하거나 추가징수 처분","input_documents":["조사 결과"],"output_documents":["지급제한 통지","반환명령","추가징수 결정"],"confidence":0.87,"legal_basis":[{"law":"고용보험법","article":"제61조제1항·제2항","text":"부정수급 또는 부정수급 시도에 대해서는 구직급여 지급을 제한한다."},{"law":"고용보험법","article":"제62조제1항부터 제4항","text":"직업안정기관의 장은 이미 지급된 구직급여의 반환을 명하고 추가징수할 수 있으며, 공모 사업주는 수급자와 연대책임을 진다."}]},{"id":"P13","name":"심사청구","lane":"고용보험심사관","stage":"G7 심사·재심사","type":"task","status":"loop","progress":0,"actor":"처분 불복자","receiver":"고용보험심사관","action":"원처분 심사청구","input_documents":["심사청구서"],"output_documents":["심사청구서"],"deadline":"원처분등을 안 날부터 90일 이내","blocker":"수급자격·급여 원처분 불복 단계","confidence":0.85,"legal_basis":[{"law":"고용보험법","article":"제87조제1항·제2항","text":"피보험자격 확인·실업급여·육아휴직 급여 등의 원처분에 이의가 있는 자는 심사관에게 심사를 청구할 수 있고, 원처분을 안 날부터 90일 이내에 제기해야 한다."}]},{"id":"P16","name":"심사관 심사결정","lane":"고용보험심사관","stage":"G7 심사·재심사","type":"gateway","status":"waiting","progress":0,"actor":"고용보험심사관","action":"심리·심사결정","condition":"원처분 유지·변경 여부","input_documents":["심사청구서"],"output_documents":["심사결정서"],"deadline":"심사청구일부터 30일 이내(부득이한 경우 1회 10일 이내 연장)","confidence":0.86,"legal_basis":[{"law":"고용보험법","article":"제89조제2항","text":"심사관은 심사청구를 받으면 30일 이내에 결정해야 하며, 부득이한 경우 한 차례 10일 이내에서 연장할 수 있다."}]},{"id":"P17","name":"재심사청구","lane":"고용보험심사위원회","stage":"G7 심사·재심사","type":"task","status":"loop","progress":0,"actor":"심사결정 불복자","receiver":"고용보험심사위원회","action":"재심사청구","input_documents":["심사결정서","재심사청구서"],"output_documents":["재심사청구 접수서"],"deadline":"심사결정을 안 날부터 90일 이내","confidence":0.86,"legal_basis":[{"law":"고용보험법","article":"제87조제1항·제2항","text":"심사결정에 이의가 있는 자는 고용보험심사위원회에 재심사를 청구할 수 있고, 심사결정을 안 날부터 90일 이내에 제기해야 한다."}]},{"id":"P18","name":"심사위원회 재심사 재결","lane":"고용보험심사위원회","stage":"G7 심사·재심사","type":"gateway","status":"waiting","progress":0,"actor":"고용보험심사위원회","action":"심리·재결","condition":"재심사청구 인용·기각 여부","input_documents":["재심사청구서","심사결정서"],"output_documents":["재결서"],"deadline":"재심사청구일부터 50일 이내(법정 연장 규정 준용)","confidence":0.86,"legal_basis":[{"law":"고용보험법","article":"제99조제1항·제7항","text":"재심사를 위해 고용노동부에 고용보험심사위원회를 두며, 재심사청구를 받으면 50일 이내에 재결해야 한다."}]},{"id":"P14","name":"고용보험기금 적립금 관리","lane":"고용노동부","stage":"G2 통합징수","type":"task","status":"risk","progress":0,"actor":"고용노동부장관","action":"고용보험기금 적립·운용·적립금 관리","input_documents":["징수 내역"],"output_documents":["기금 운용 내역","적립금 현황"],"blocker":"구직급여 지출 증가로 기금 적립금 악화(운영 추정)","confidence":0.78,"legal_basis":[{"law":"고용보험법","article":"제78조, 제79조","text":"고용보험사업에 필요한 재원으로 고용보험기금을 설치·운용한다."}]}],"edges":[{"id":"E01","source":"P01","target":"P02","type":"sequence","label":null},{"id":"E02","source":"P02","target":"P03","type":"sequence","label":null},{"id":"E03","source":"P03","target":"P04","type":"sequence","label":"가입 유지"},{"id":"E04","source":"P04","target":"P15","type":"sequence","label":"발급 요청"},{"id":"E14","source":"P15","target":"P05","type":"sequence","label":null},{"id":"E05","source":"P05","target":"P06","type":"sequence","label":null},{"id":"E06","source":"P06","target":"P07","type":"sequence","label":"수급자격 신청"},{"id":"E07","source":"P07","target":"P08","type":"sequence","label":"요건 충족"},{"id":"E08","source":"P08","target":"P09","type":"sequence","label":null},{"id":"E09","source":"P09","target":"P10","type":"sequence","label":"실업 인정"},{"id":"E10","source":"P10","target":"P11","type":"sequence","label":null},{"id":"E11","source":"P03","target":"P14","type":"sequence","label":null},{"id":"E12","source":"P10","target":"P12","type":"sequence","label":"부정수급 정황"},{"id":"E13","source":"P19","target":"P13","type":"sequence","label":"처분 불복"},{"id":"E19","source":"P12","target":"P19","type":"sequence","label":"부정수급 확인"},{"id":"M01","source":"P05","target":"P07","type":"message","label":"이직확인서"},{"id":"M02","source":"P08","target":"P09","type":"message","label":"실업인정일 안내"},{"id":"M03","source":"P10","target":"P14","type":"message","label":"구직급여 지출"},{"id":"L01","source":"P10","target":"P09","type":"loop","label":"반복 실업인정(순환)"},{"id":"E15","source":"P07","target":"P13","type":"sequence","label":"수급자격 처분 불복"},{"id":"E16","source":"P13","target":"P16","type":"sequence","label":"심리·심사결정"},{"id":"E17","source":"P16","target":"P17","type":"sequence","label":"심사결정 불복"},{"id":"E18","source":"P17","target":"P18","type":"sequence","label":"재심사 심리·재결"},{"id":"L03","source":"P18","target":"P07","type":"loop","label":"인용 재결 시 처분 시정"}],"lawContext":{"byNode":{"P01":[{"law":"고용보험법","article":"제15조","text":"사업주는 피보험자격의 취득·상실을 공단에 신고한다.","found":true,"lawId":"001761","tier":"statute","articles":[{"label":"제15조","title":"피보험자격에 관한 신고 등","officialUrl":"https://www.law.go.kr/법령/고용보험법/제15조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"고용보험법 시행령","label":"제7조","title":"피보험자격의 취득 또는 상실 신고 등","tier":"decree"},{"kind":"rule","phrase":"고용노동부령으로 정하는","lawName":"고용보험법 시행규칙","label":"제4조","title":"원수급인의 하수급인에 관한 자료 제출","tier":"rule"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"고용보험법 시행령","label":"제8조","title":"근로자의 피보험자격에 관한 신고","tier":"decree"},{"kind":"rule","phrase":"고용노동부령으로 정하는","lawName":"고용보험법 시행규칙","label":"제6조","title":"피보험자격 취득ㆍ상실 신고 결과의 통지","tier":"rule"},{"kind":"rule","phrase":"고용노동부령으로 정하는","lawName":"고용보험법 시행규칙","label":"제7조","title":"전자적 방법에 따른 신고","tier":"rule"},{"kind":"rule","phrase":"고용노동부령으로 정하는","lawName":"고용보험법 시행규칙","label":"제8조","title":"전자적 방법에 따른 신고의 지원","tier":"rule"}]}]}],"P02":[{"law":"고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률","article":"제5조, 제13조","text":"고용 시 보험관계가 성립하고 임금총액에 보험료율을 적용해 부과한다.","found":true,"lawId":"009589","tier":"statute","articles":[{"label":"제5조","title":"보험가입자","officialUrl":"https://www.law.go.kr/법령/고용보험및산업재해보상보험의보험료징수등에관한법률/제5조","up":[],"down":[]},{"label":"제13조","title":"보험료","officialUrl":"https://www.law.go.kr/법령/고용보험및산업재해보상보험의보험료징수등에관한법률/제13조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률 시행령","label":"제11조","title":"노무비율 등의 결정","tier":"decree"},{"kind":"adminRule","phrase":"고용노동부장관이 정하여 고시하는 노무비율을 사용하여 보수총액의 추정액 또는 보수총액을 결정할 수 있다.","lawName":"건설공사의 노무비율","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"고용노동부장관이 정하여 고시하는 노무비율을 사용하여 보수총액의 추정액 또는 보수총액을 결정할 수 있다.","lawName":"벌목업의 노무비율","label":null,"title":null,"tier":"adminRule"}]}]}],"P03":[{"law":"고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률","article":"제4조","text":"보험료 징수는 건강보험공단에 위탁하여 통합 징수한다.","found":true,"lawId":"009589","tier":"statute","articles":[{"label":"제4조","title":"보험사업의 수행주체","officialUrl":"https://www.law.go.kr/법령/고용보험및산업재해보상보험의보험료징수등에관한법률/제4조","up":[],"down":[]}]}],"P04":[{"law":"고용보험법","article":"제40조","text":"이직 전 18개월 중 피보험단위기간 180일 이상 등 수급요건의 기초가 된다.","found":true,"lawId":"001761","tier":"statute","articles":[{"label":"제40조","title":"구직급여의 수급 요건","officialUrl":"https://www.law.go.kr/법령/고용보험법/제40조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"고용보험법 시행령","label":"제60조","title":"기준기간의 연장 사유","tier":"decree"},{"kind":"adminRule","phrase":"국가데이터처장이 고시하는 한국표준산업분류의 대분류상 건설업에 종사한 사람을 말한다","lawName":"한국표준산업분류","label":null,"title":null,"tier":"adminRule"}]}]}],"P15":[{"law":"고용보험법","article":"제42조제3항","text":"실업을 신고하려는 사람은 이직 전 사업의 사업주에게 이직확인서 발급을 요청할 수 있다.","found":true,"lawId":"001761","tier":"statute","articles":[{"label":"제42조","title":"실업의 신고","officialUrl":"https://www.law.go.kr/법령/고용보험법/제42조","up":[],"down":[{"kind":"rule","phrase":"고용노동부령으로 정하는","lawName":"고용보험법 시행규칙","label":"제82조","title":"실업신고와 수급자격 인정신청서","tier":"rule"},{"kind":"rule","phrase":"고용노동부령으로 정하는","lawName":"고용보험법 시행규칙","label":"제82조의2","title":"이직확인서의 발급 등","tier":"rule"}]}]},{"law":"고용보험법 시행규칙","article":"제82조의2제1항","text":"이직확인서 발급요청서(별지 제75호의3서식)를 작성하여 해당 사업주에게 제출한다.","found":true,"lawId":"001761","tier":"rule","articles":[{"label":"제82조의2","title":"이직확인서의 발급 등","officialUrl":"https://www.law.go.kr/법령/고용보험법시행규칙/제82조의2","up":[{"kind":"rule","phrase":"고용노동부령으로 정하는","lawName":"고용보험법","label":"제42조제3항","title":"실업의 신고","tier":"statute"},{"kind":"rule","phrase":"사업주는 고용노동부령으로","lawName":"고용보험법","label":"제43조제4항","title":"수급자격의 인정","tier":"statute"}],"down":[]}]}],"P05":[{"law":"고용보험법","article":"제42조제3항, 제43조제4항","text":"사업주는 근로자의 발급요청 또는 직업안정기관의 장의 요청에 따라 피보험자 이직확인서를 발급·제출하여야 한다(종전 이직확인서 근거였던 제16조는 삭제됨).","found":true,"lawId":"001761","tier":"statute","articles":[{"label":"제42조","title":"실업의 신고","officialUrl":"https://www.law.go.kr/법령/고용보험법/제42조","up":[],"down":[{"kind":"rule","phrase":"고용노동부령으로 정하는","lawName":"고용보험법 시행규칙","label":"제82조","title":"실업신고와 수급자격 인정신청서","tier":"rule"},{"kind":"rule","phrase":"고용노동부령으로 정하는","lawName":"고용보험법 시행규칙","label":"제82조의2","title":"이직확인서의 발급 등","tier":"rule"}]},{"label":"제43조","title":"수급자격의 인정","officialUrl":"https://www.law.go.kr/법령/고용보험법/제43조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"고용보험법 시행령","label":"제62조","title":"수급자격의 인정","tier":"decree"},{"kind":"rule","phrase":"사업주는 고용노동부령으로","lawName":"고용보험법 시행규칙","label":"제82조의2","title":"이직확인서의 발급 등","tier":"rule"}]}]},{"law":"고용보험법 시행규칙","article":"제82조의2제2항","text":"발급요청서를 제출받은 사업주는 10일 이내에 피보험자 이직확인서(별지 제75호의4서식)를 발급한다.","found":true,"lawId":"001761","tier":"rule","articles":[{"label":"제82조의2","title":"이직확인서의 발급 등","officialUrl":"https://www.law.go.kr/법령/고용보험법시행규칙/제82조의2","up":[{"kind":"rule","phrase":"고용노동부령으로 정하는","lawName":"고용보험법","label":"제42조제3항","title":"실업의 신고","tier":"statute"},{"kind":"rule","phrase":"사업주는 고용노동부령으로","lawName":"고용보험법","label":"제43조제4항","title":"수급자격의 인정","tier":"statute"}],"down":[]}]}],"P06":[{"law":"고용보험법","article":"제42조, 제43조","text":"실업 신고와 함께 고용센터에 수급자격 인정을 신청한다.","found":true,"lawId":"001761","tier":"statute","articles":[{"label":"제42조","title":"실업의 신고","officialUrl":"https://www.law.go.kr/법령/고용보험법/제42조","up":[],"down":[{"kind":"rule","phrase":"고용노동부령으로 정하는","lawName":"고용보험법 시행규칙","label":"제82조","title":"실업신고와 수급자격 인정신청서","tier":"rule"},{"kind":"rule","phrase":"고용노동부령으로 정하는","lawName":"고용보험법 시행규칙","label":"제82조의2","title":"이직확인서의 발급 등","tier":"rule"}]},{"label":"제43조","title":"수급자격의 인정","officialUrl":"https://www.law.go.kr/법령/고용보험법/제43조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"고용보험법 시행령","label":"제62조","title":"수급자격의 인정","tier":"decree"},{"kind":"rule","phrase":"사업주는 고용노동부령으로","lawName":"고용보험법 시행규칙","label":"제82조의2","title":"이직확인서의 발급 등","tier":"rule"}]}]}],"P07":[{"law":"고용보험법","article":"제40조, 제43조","text":"수급요건을 심사하여 수급자격 인정 여부를 결정한다.","found":true,"lawId":"001761","tier":"statute","articles":[{"label":"제40조","title":"구직급여의 수급 요건","officialUrl":"https://www.law.go.kr/법령/고용보험법/제40조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"고용보험법 시행령","label":"제60조","title":"기준기간의 연장 사유","tier":"decree"},{"kind":"adminRule","phrase":"국가데이터처장이 고시하는 한국표준산업분류의 대분류상 건설업에 종사한 사람을 말한다","lawName":"한국표준산업분류","label":null,"title":null,"tier":"adminRule"}]},{"label":"제43조","title":"수급자격의 인정","officialUrl":"https://www.law.go.kr/법령/고용보험법/제43조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"고용보험법 시행령","label":"제62조","title":"수급자격의 인정","tier":"decree"},{"kind":"rule","phrase":"사업주는 고용노동부령으로","lawName":"고용보험법 시행규칙","label":"제82조의2","title":"이직확인서의 발급 등","tier":"rule"}]}]}],"P08":[{"law":"고용보험법","article":"제43조제2항","text":"직업안정기관의 장은 수급자격 인정 여부를 결정하고, 대통령령으로 정하는 바에 따라 신청인에게 그 결과와 실업인정 절차를 알려야 한다.","found":true,"lawId":"001761","tier":"statute","articles":[{"label":"제43조","title":"수급자격의 인정","officialUrl":"https://www.law.go.kr/법령/고용보험법/제43조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"고용보험법 시행령","label":"제62조","title":"수급자격의 인정","tier":"decree"},{"kind":"rule","phrase":"사업주는 고용노동부령으로","lawName":"고용보험법 시행규칙","label":"제82조의2","title":"이직확인서의 발급 등","tier":"rule"}]}]}],"P09":[{"law":"고용보험법","article":"제44조","text":"수급자는 실업인정일에 출석해 재취업활동을 신고하고 실업을 인정받는다.","found":true,"lawId":"001761","tier":"statute","articles":[{"label":"제44조","title":"실업의 인정","officialUrl":"https://www.law.go.kr/법령/고용보험법/제44조","up":[],"down":[{"kind":"rule","phrase":"고용노동부령으로 정하는","lawName":"고용보험법 시행규칙","label":"제85조","title":"직업능력개발 훈련 등 수강자에 대한 실업인정의 특례","tier":"rule"},{"kind":"rule","phrase":"고용노동부령으로 정하는","lawName":"고용보험법 시행규칙","label":"제86조","title":"대량실업 등에 따른 실업인정의 특례","tier":"rule"},{"kind":"rule","phrase":"고용노동부령으로 정하는","lawName":"고용보험법 시행규칙","label":"제88조","title":"재취업활동 등에 따른 실업인정의 특례","tier":"rule"},{"kind":"rule","phrase":"고용노동부령으로 정하는","lawName":"고용보험법 시행규칙","label":"제89조","title":"섬 거주자 등에 대한 실업인정의 특례","tier":"rule"},{"kind":"decree","phrase":"대통령령으로 정하는 사유가","lawName":"고용보험법 시행령","label":"제64조","title":"실업인정의 특례사유","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 수급자격자","lawName":"고용보험법 시행령","label":"제65조","title":"실업인정의 특례자","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 조치를","lawName":"고용보험법 시행령","label":"제67조","title":"수급자격자의 취업촉진을 위한 조치","tier":"decree"}]}]},{"law":"고용보험법 시행규칙","article":"제87조","text":"구인 응모·채용 면접·직업능력개발 훈련·직업지도 프로그램 참여 등을 적극적인 재취업활동으로 인정하는 기준을 정한다(법 제44조·영 제63조 위임).","found":true,"lawId":"001761","tier":"rule","articles":[{"label":"제87조","title":"재취업활동의 인정기준","officialUrl":"https://www.law.go.kr/법령/고용보험법시행규칙/제87조","up":[{"kind":"rule","phrase":"고용노동부령으로 정한다","lawName":"고용보험법 시행령","label":"제63조제3항","title":"실업의 인정","tier":"decree"}],"down":[{"kind":"adminRule","phrase":"제1호부터 제9호까지의 규정에 준하는 경우로서 고용노동부장관이 정하는 경우","lawName":"실업인정 및 재취업지원규정","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"직업능력개발 훈련 등을 받는 경우 중 고용노동부장관이 정한 경우","lawName":"실업인정 및 재취업지원규정","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"고용노동부장관이 정하는 바에 따라 자영업 준비활동을 한 경우","lawName":"실업인정 및 재취업지원규정","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"제1호부터 제4호까지의 규정에 준하는 경우로서 고용노동부장관이 정하는 경우","lawName":"실업인정 및 재취업지원규정","label":null,"title":null,"tier":"adminRule"}]}]}],"P10":[{"law":"고용보험법","article":"제46조, 제48조","text":"구직급여일액을 소정급여일수 범위에서 지급한다.","found":true,"lawId":"001761","tier":"statute","articles":[{"label":"제46조","title":"구직급여일액","officialUrl":"https://www.law.go.kr/법령/고용보험법/제46조","up":[],"down":[]},{"label":"제48조","title":"수급기간 및 수급일수","officialUrl":"https://www.law.go.kr/법령/고용보험법/제48조","up":[],"down":[{"kind":"decree","phrase":"그 밖에 대통령령으로","lawName":"고용보험법 시행령","label":"제70조","title":"수급기간의 연기 사유","tier":"decree"}]}]}],"P11":[{"law":"고용보험법","article":"제19조, 제64조","text":"고용안정·직업능력개발 사업과 조기재취업수당으로 재취업을 지원한다.","found":true,"lawId":"001761","tier":"statute","articles":[{"label":"제19조","title":"고용안정ㆍ직업능력개발 사업의 실시","officialUrl":"https://www.law.go.kr/법령/고용보험법/제19조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"고용보험법 시행령","label":"제12조","title":"우선지원 대상기업의 범위","tier":"decree"}]},{"label":"제64조","title":"조기재취업 수당","officialUrl":"https://www.law.go.kr/법령/고용보험법/제64조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"고용보험법 시행령","label":"제84조","title":"조기재취업 수당의 지급기준","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"고용보험법 시행령","label":"제84조","title":"조기재취업 수당의 지급기준","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"고용보험법 시행령","label":"제85조","title":"조기재취업 수당의 금액","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"고용보험법 시행령","label":"제87조","title":"재취업촉진 활동 장려금","tier":"decree"}]}]}],"P12":[{"law":"고용보험법","article":"제61조","text":"거짓이나 그 밖의 부정한 방법으로 구직급여를 받았거나 받으려 한 경우 지급 제한의 대상이 된다.","found":true,"lawId":"001761","tier":"statute","articles":[{"label":"제61조","title":"부정행위에 따른 급여의 지급 제한","officialUrl":"https://www.law.go.kr/법령/고용보험법/제61조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"고용보험법 시행령","label":"제80조","title":"구직급여의 지급 제한이 완화되는 부정행위","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"고용보험법 시행령","label":"제80조의2","title":"새로운 수급자격에 따른 구직급여의 지급 제한","tier":"decree"}]}]}],"P19":[{"law":"고용보험법","article":"제61조제1항·제2항","text":"부정수급 또는 부정수급 시도에 대해서는 구직급여 지급을 제한한다.","found":true,"lawId":"001761","tier":"statute","articles":[{"label":"제61조","title":"부정행위에 따른 급여의 지급 제한","officialUrl":"https://www.law.go.kr/법령/고용보험법/제61조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"고용보험법 시행령","label":"제80조","title":"구직급여의 지급 제한이 완화되는 부정행위","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"고용보험법 시행령","label":"제80조의2","title":"새로운 수급자격에 따른 구직급여의 지급 제한","tier":"decree"}]}]},{"law":"고용보험법","article":"제62조제1항부터 제4항","text":"직업안정기관의 장은 이미 지급된 구직급여의 반환을 명하고 추가징수할 수 있으며, 공모 사업주는 수급자와 연대책임을 진다.","found":true,"lawId":"001761","tier":"statute","articles":[{"label":"제62조","title":"반환명령 등","officialUrl":"https://www.law.go.kr/법령/고용보험법/제62조","up":[],"down":[{"kind":"rule","phrase":"고용노동부령으로 정하는","lawName":"고용보험법 시행규칙","label":"제104조","title":"부정행위에 따른 구직급여 반환명령의 기준","tier":"rule"},{"kind":"rule","phrase":"고용노동부령으로 정하는","lawName":"고용보험법 시행규칙","label":"제105조","title":"부정행위에 따른 추가징수 등","tier":"rule"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"고용보험법 시행령","label":"제81조","title":"구직급여의 반환 등","tier":"decree"}]}]}],"P13":[{"law":"고용보험법","article":"제87조제1항·제2항","text":"피보험자격 확인·실업급여·육아휴직 급여 등의 원처분에 이의가 있는 자는 심사관에게 심사를 청구할 수 있고, 원처분을 안 날부터 90일 이내에 제기해야 한다.","found":true,"lawId":"001761","tier":"statute","articles":[{"label":"제87조","title":"심사와 재심사","officialUrl":"https://www.law.go.kr/법령/고용보험법/제87조","up":[],"down":[]}]}],"P16":[{"law":"고용보험법","article":"제89조제2항","text":"심사관은 심사청구를 받으면 30일 이내에 결정해야 하며, 부득이한 경우 한 차례 10일 이내에서 연장할 수 있다.","found":true,"lawId":"001761","tier":"statute","articles":[{"label":"제89조","title":"고용보험심사관","officialUrl":"https://www.law.go.kr/법령/고용보험법/제89조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"고용보험법 시행령","label":"제121조","title":"심사관의 자격","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"고용보험법 시행령","label":"제122조","title":"심사관의 배치ㆍ직무","tier":"decree"}]}]}],"P17":[{"law":"고용보험법","article":"제87조제1항·제2항","text":"심사결정에 이의가 있는 자는 고용보험심사위원회에 재심사를 청구할 수 있고, 심사결정을 안 날부터 90일 이내에 제기해야 한다.","found":true,"lawId":"001761","tier":"statute","articles":[{"label":"제87조","title":"심사와 재심사","officialUrl":"https://www.law.go.kr/법령/고용보험법/제87조","up":[],"down":[]}]}],"P18":[{"law":"고용보험법","article":"제99조제1항·제7항","text":"재심사를 위해 고용노동부에 고용보험심사위원회를 두며, 재심사청구를 받으면 50일 이내에 재결해야 한다.","found":true,"lawId":"001761","tier":"statute","articles":[{"label":"제99조","title":"고용보험심사위원회","officialUrl":"https://www.law.go.kr/법령/고용보험법/제99조","up":[],"down":[{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"고용보험법 시행령","label":"제130조","title":"심사위원회 위원의 위촉ㆍ임명","tier":"decree"},{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"고용보험법 시행령","label":"제131조","title":"위원의 임기","tier":"decree"},{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"고용보험법 시행령","label":"제132조","title":"위원의 처우","tier":"decree"},{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"고용보험법 시행령","label":"제133조","title":"위원장과 부위원장","tier":"decree"},{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"고용보험법 시행령","label":"제134조","title":"직무","tier":"decree"},{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"고용보험법 시행령","label":"제135조","title":"회의","tier":"decree"},{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"고용보험법 시행령","label":"제136조","title":"전문위원의 배치","tier":"decree"}]}]}],"P14":[{"law":"고용보험법","article":"제78조, 제79조","text":"고용보험사업에 필요한 재원으로 고용보험기금을 설치·운용한다.","found":true,"lawId":"001761","tier":"statute","articles":[{"label":"제78조","title":"기금의 설치 및 조성","officialUrl":"https://www.law.go.kr/법령/고용보험법/제78조","up":[],"down":[]},{"label":"제79조","title":"기금의 관리ㆍ운용","officialUrl":"https://www.law.go.kr/법령/고용보험법/제79조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"고용보험법 시행령","label":"제105조","title":"기금의 운용사업 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"고용보험법 시행령","label":"제105조","title":"기금의 운용사업 등","tier":"decree"}]}]}]},"systems":{"001761":{"lawId":"001761","name":"고용보험법","href":"/law/001761/","ministry":"고용노동부","effectiveOn":"2026-09-18","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"고용보험법","kind":"법률","articleCount":147,"officialUrl":"https://www.law.go.kr/법령/고용보험법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":147},{"tier":"decree","label":"시행령","laws":[{"name":"고용보험법 시행령","kind":"대통령령","articleCount":208,"officialUrl":"https://www.law.go.kr/법령/고용보험법시행령"}],"kinds":[{"kind":"대통령령","count":1}],"articleCount":208},{"tier":"rule","label":"시행규칙","laws":[{"name":"고용보험법 시행규칙","kind":"고용노동부령","articleCount":197,"officialUrl":"https://www.law.go.kr/법령/고용보험법시행규칙"}],"kinds":[{"kind":"고용노동부령","count":1}],"articleCount":197},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"고용보험심사관 및 고용보험심사위원회 운영규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용보험심사관및고용보험심사위원회운영규정"},{"name":"고용보험지급사무규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용보험지급사무규정"},{"name":"급여기초임금일액 산정규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/급여기초임금일액산정규정"},{"name":"능력개발비용대부규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/능력개발비용대부규정"},{"name":"실업인정 및 재취업지원규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/실업인정및재취업지원규정"},{"name":"직장어린이집 등 설치·운영 규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/직장어린이집등설치·운영규정"},{"name":"고용위기 선제대응지역 지정 고시(경상북도 포항시, 충청남도 서산시)","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용위기선제대응지역지정고시(경상북도포항시,충청남도서산시)"},{"name":"고용위기 선제대응지역 지정 고시(울산광역시 남구)","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용위기선제대응지역지정고시(울산광역시남구)"},{"name":"고용위기 선제대응지역 지정 고시(인천광역시 동구)","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용위기선제대응지역지정고시(인천광역시동구)"},{"name":"고용위기 선제대응지역 지정 고시(인천광역시 제물포구)","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용위기선제대응지역지정고시(인천광역시제물포구)"},{"name":"고용위기 선제대응지역 지정 고시(전남광주통합특별시 여수시)","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용위기선제대응지역지정고시(전남광주통합특별시여수시)"},{"name":"고용위기 선제대응지역 지정 고시(전라남도 광양시)","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용위기선제대응지역지정고시(전라남도광양시)"},{"name":"고용위기 선제대응지역 지정 고시(충청남도 당진시)","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용위기선제대응지역지정고시(충청남도당진시)"},{"name":"고용위기지역 지정 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용위기지역지정고시"},{"name":"고용유지를 위한 노사합의에 대한 지원 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용유지를위한노사합의에대한지원규정"},{"name":"고용유지지원금 신청 및 지급에 관한 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용유지지원금신청및지급에관한규정"},{"name":"고용창출장려금·고용안정장려금의 신청 및 지급에 관한 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용창출장려금·고용안정장려금의신청및지급에관한규정"},{"name":"광역구직활동비 중 숙박료 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/광역구직활동비중숙박료고시"},{"name":"구직급여 수급자 중 직업능력개발 훈련지시 우선 고려대상자 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/구직급여수급자중직업능력개발훈련지시우선고려대상자고시"},{"name":"국민내일배움카드 운영규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국민내일배움카드운영규정"},{"name":"사업주 직업능력개발훈련 지원규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/사업주직업능력개발훈련지원규정"},{"name":"이주비 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/이주비고시"},{"name":"일학습병행 운영규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/일학습병행운영규정"},{"name":"임금피크제 지원금액등 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/임금피크제지원금액등고시"},{"name":"직장어린이집 보육교사 등 인건비 및 우선지원 대상기업 운영비 지원에 관한 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/직장어린이집보육교사등인건비및우선지원대상기업운영비지원에관한규정"},{"name":"택시운송업 특별고용지원 업종 지정 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/택시운송업특별고용지원업종지정고시"},{"name":"한국표준산업분류","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/한국표준산업분류"},{"name":"현장 실무인재 양성을 위한 직업능력개발훈련 운영규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/현장실무인재양성을위한직업능력개발훈련운영규정"},{"name":"훈련지시대상 훈련과정 및 직종 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/훈련지시대상훈련과정및직종고시"},{"name":"고용노동관계법 위반자에 대한 과태료 부과·징수업무에 관한 예규","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용노동관계법위반자에대한과태료부과·징수업무에관한예규"},{"name":"고용보험법 및 고용산재보험료징수법에 따른 과태료의 가중처분에 관한 세부 지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용보험법및고용산재보험료징수법에따른과태료의가중처분에관한세부지침"},{"name":"고용안정사업 지원금 부정수급 방지업무 처리규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용안정사업지원금부정수급방지업무처리규정"},{"name":"개별연장급여 수급요건 중 학업중인 사람에 대한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개별연장급여수급요건중학업중인사람에대한고시"},{"name":"개별연장급여 지급을 위한 임금 및 재산기준 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개별연장급여지급을위한임금및재산기준고시"},{"name":"고령자 고용안정지원금 지급 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고령자고용안정지원금지급규정"},{"name":"고용보험료 산정범위에 속하는 금품","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용보험료산정범위에속하는금품"},{"name":"고용보험사업 평가기관 지정 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용보험사업평가기관지정고시"},{"name":"고용유지 비용의 대부 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용유지비용의대부규정"},{"name":"고용유지조치에 대한 특별 지원 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용유지조치에대한특별지원고시"},{"name":"고용유지지원금 지원금액 상한액 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용유지지원금지원금액상한액고시"},{"name":"국가인적자원개발컨소시엄운영규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국가인적자원개발컨소시엄운영규정"},{"name":"기준기간 연장사유 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/기준기간연장사유고시"},{"name":"노무제공자 출산전후급여등 상한액 및 하한액 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/노무제공자출산전후급여등상한액및하한액고시"},{"name":"노무제공자의 실업인정대상기간 중 발생한 1일 평균소득에서  제외하는 금액 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/노무제공자의실업인정대상기간중발생한1일평균소득에서제외하는금액고시"},{"name":"노무제공자의 출산전후급여등의 지급기간 중 소득허용금액에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/노무제공자의출산전후급여등의지급기간중소득허용금액에관한고시"},{"name":"무급휴업·휴직 고용유지지원금 지급규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/무급휴업·휴직고용유지지원금지급규정"},{"name":"사업주 및 장애인 등에 대한 융자·지원규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/사업주및장애인등에대한융자·지원규정"},{"name":"실직자 창업지원사업 운영규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/실직자창업지원사업운영규정"},{"name":"예술인 출산전후급여등 상한액 및 하한액 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/예술인출산전후급여등상한액및하한액고시"},{"name":"예술인의 실업인정대상기간 중 발생한 1일 평균소득에서 제외하는 금액 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/예술인의실업인정대상기간중발생한1일평균소득에서제외하는금액고시"},{"name":"예술인의 출산전후급여등의 지급기간 중 소득허용금액에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/예술인의출산전후급여등의지급기간중소득허용금액에관한고시"},{"name":"제8차 한국표준직업분류","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/제8차한국표준직업분류"},{"name":"조기재취업 수당 지급제외 대상에 해당하는 임금액 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/조기재취업수당지급제외대상에해당하는임금액고시"},{"name":"중소기업 직업능력개발 지원사업 실시규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/중소기업직업능력개발지원사업실시규정"},{"name":"지원금 등의 상호조정 비율","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지원금등의상호조정비율"},{"name":"직업능력개발수당 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/직업능력개발수당고시"},{"name":"직업훈련 생계비 대부 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/직업훈련생계비대부규정"},{"name":"출산전후휴가 급여등 상한액 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/출산전후휴가급여등상한액고시"},{"name":"특별고용지원 업종의 지정기준 등에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/특별고용지원업종의지정기준등에관한고시"},{"name":"직업능력개발훈련 모니터링에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/직업능력개발훈련모니터링에관한규정"},{"name":"소득확정이 어려운 직종의 노무제공자에 대한 고용보험 산정의 기초가 되는 보수액 및 기초일액 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/소득확정이어려운직종의노무제공자에대한고용보험산정의기초가되는보수액및기초일액고시"},{"name":"직업능력개발 훈련 거부 등에 따른 구직급여 지급 정지기간 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/직업능력개발훈련거부등에따른구직급여지급정지기간고시"},{"name":"소득 확인이 어려운 직종 노무제공자의 기초일액 고시","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/소득확인이어려운직종노무제공자의기초일액고시"},{"name":"고용창출지원사업 시행지침","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용창출지원사업시행지침"},{"name":"시외버스 등 특별고용지원 업종 지정 고시","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/시외버스등특별고용지원업종지정고시"},{"name":"고령자 계속고용장려금 지급 규정","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고령자계속고용장려금지급규정"},{"name":"직장어린이집 등 설치ㆍ운영 규정","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/직장어린이집등설치ㆍ운영규정"},{"name":"출산전후휴가 급여 등의 상한액","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/출산전후휴가급여등의상한액"},{"name":"한국표준직업분류","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/한국표준직업분류"},{"name":"고용유지지원금 특별 지원 고시","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용유지지원금특별지원고시"},{"name":"고용위기 선제대응지역 지정 고시(전라남도 여수시, 광주광역시 광산구)","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용위기선제대응지역지정고시(전라남도여수시,광주광역시광산구)"}],"kinds":[{"kind":"고시","count":52},{"kind":"행정규칙","count":9},{"kind":"예규","count":8},{"kind":"훈령","count":2}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":169,"rule":113,"adminRule":150,"ordinance":0,"cites":431}},"009589":{"lawId":"009589","name":"고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률","href":"/law/009589/","ministry":"고용노동부","effectiveOn":"2024-01-01","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률","kind":"법률","articleCount":95,"officialUrl":"https://www.law.go.kr/법령/고용보험및산업재해보상보험의보험료징수등에관한법률"}],"kinds":[{"kind":"법률","count":1}],"articleCount":95},{"tier":"decree","label":"시행령","laws":[{"name":"고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률 시행령","kind":"대통령령","articleCount":112,"officialUrl":"https://www.law.go.kr/법령/고용보험및산업재해보상보험의보험료징수등에관한법률시행령"}],"kinds":[{"kind":"대통령령","count":1}],"articleCount":112},{"tier":"rule","label":"시행규칙","laws":[{"name":"고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률 시행규칙","kind":"고용노동부령","articleCount":88,"officialUrl":"https://www.law.go.kr/법령/고용보험및산업재해보상보험의보험료징수등에관한법률시행규칙"}],"kinds":[{"kind":"고용노동부령","count":1}],"articleCount":88},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"2026년도 사업종류별 산재보험료율","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/2026년도사업종류별산재보험료율"},{"name":"고용·산재정보통신망 이용에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용·산재정보통신망이용에관한고시"},{"name":"무급가족종사자에 대한 산재보험료 및 보험급여 산정의 기초가 되는 보수액 및 평균임금","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/무급가족종사자에대한산재보험료및보험급여산정의기초가되는보수액및평균임금"},{"name":"중·소기업 사업주에 대한 산재보험료 및 보험급여 산정의 기초가 되는 보수액 및 평균임금","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/중·소기업사업주에대한산재보험료및보험급여산정의기초가되는보수액및평균임금"},{"name":"학생연구자에 대한 산재보험료 및 보험급여 산정의 기초가 되는 보수액 및 평균임금","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/학생연구자에대한산재보험료및보험급여산정의기초가되는보수액및평균임금"},{"name":"고용노동관계법 위반자에 대한 과태료 부과·징수업무에 관한 예규","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용노동관계법위반자에대한과태료부과·징수업무에관한예규"},{"name":"고용보험법 및 고용산재보험료징수법에 따른 과태료의 가중처분에 관한 세부 지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용보험법및고용산재보험료징수법에따른과태료의가중처분에관한세부지침"},{"name":"2026년도 건설업 월평균보수","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/2026년도건설업월평균보수"},{"name":"건설공사의 노무비율 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/건설공사의노무비율고시"},{"name":"건설사업자가 아닌 자가 시공하는 건설공사의 총공사금액 산정방법에 관한 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/건설사업자가아닌자가시공하는건설공사의총공사금액산정방법에관한규정"},{"name":"고용·산재보험료 완납증명 제외 대상 및 완납증명 방법에 관한 기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용·산재보험료완납증명제외대상및완납증명방법에관한기준"},{"name":"고용보험 가입대상인 고유번호증 보유 자영업자 사업 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용보험가입대상인고유번호증보유자영업자사업고시"},{"name":"고용보험료의 지원 대상 및 지원 수준 등에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용보험료의지원대상및지원수준등에관한고시"},{"name":"노무제공자의 기준보수 및 보수액에서 제외하는 필요경비 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/노무제공자의기준보수및보수액에서제외하는필요경비고시"},{"name":"노무제공자의 보수액에서 제외하는 필요경비","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/노무제공자의보수액에서제외하는필요경비"},{"name":"벌목업의 노무비율","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/벌목업의노무비율"},{"name":"보험사무대행기관의 교육 등에 관한 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/보험사무대행기관의교육등에관한규정"},{"name":"보험사무대행지원금 지급기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/보험사무대행지원금지급기준"},{"name":"산재보험관리기구지원금 지급기준 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/산재보험관리기구지원금지급기준고시"},{"name":"산재예방요율제 운영에 관한 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/산재예방요율제운영에관한규정"},{"name":"예술인 및 노무제공자에 대한 고용보험료의 상한액 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/예술인및노무제공자에대한고용보험료의상한액고시"},{"name":"예술인의 기준보수 및 보수액에서 제외하는 필요경비 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/예술인의기준보수및보수액에서제외하는필요경비고시"},{"name":"플랫폼 사업자 보험사무이행지원금 산정기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/플랫폼사업자보험사무이행지원금산정기준"},{"name":"한국표준산업분류","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/한국표준산업분류"},{"name":"고용보험료 산정범위에 속하는 금품","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용보험료산정범위에속하는금품"},{"name":"근로자의 기준보수 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/근로자의기준보수고시"},{"name":"금융실명거래 및 비밀보장에 관한 법률에서 위임한 서식관련 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/금융실명거래및비밀보장에관한법률에서위임한서식관련규정"},{"name":"노무제공자 직종별 산재보험료율","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/노무제공자직종별산재보험료율"},{"name":"소득확인이 어려운 직종의 노무제공자에 대한 산재보험료 및 보험급여 산정의 기초가 되는 월 보수액 및 평균보수 등","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/소득확인이어려운직종의노무제공자에대한산재보험료및보험급여산정의기초가되는월보수액및평균보수등"},{"name":"소득확정이 어려운 직종의 노무제공자에 대한 고용보험 산정의 기초가 되는 보수액 및 기초일액 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/소득확정이어려운직종의노무제공자에대한고용보험산정의기초가되는보수액및기초일액고시"},{"name":"자영업자의 고용보험료 산정의 기초가 되는 보수액","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/자영업자의고용보험료산정의기초가되는보수액"},{"name":"현장실습생에 대한 산업재해보상보험 적용범위","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/현장실습생에대한산업재해보상보험적용범위"},{"name":"기준보수","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/기준보수"},{"name":"2018년도 사업종류별 산재보험료율","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/2018년도사업종류별산재보험료율"},{"name":"건설공사의 노무비율","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/건설공사의노무비율"},{"name":"소득확인이 어려운 직종의 노무제공자에 대한 고용보험료 산정의 기초가 되는 보수액 및 기초일액 고시","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/소득확인이어려운직종의노무제공자에대한고용보험료산정의기초가되는보수액및기초일액고시"},{"name":"자영업자 고용보험료 산정의 기초가 되는 보수액(고용안정·직업능력개발사업 가입자)","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/자영업자고용보험료산정의기초가되는보수액(고용안정·직업능력개발사업가입자)"},{"name":"자영업자의 고용보험료 산정의 기초가 되는 보수액(실업급여·고용안정·직업능력개발사업 가입자)","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/자영업자의고용보험료산정의기초가되는보수액(실업급여·고용안정·직업능력개발사업가입자)"},{"name":"건설업자가 아닌 자가 시공하는 건설공사의 총공사금액 산정방법에 관한 규정","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/건설업자가아닌자가시공하는건설공사의총공사금액산정방법에관한규정"},{"name":"2018년도 건설업 월평균보수","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/2018년도건설업월평균보수"},{"name":"노무제공플랫폼사업자 보험사무 이행지원금 산정기준","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/노무제공플랫폼사업자보험사무이행지원금산정기준"}],"kinds":[{"kind":"고시","count":30},{"kind":"행정규칙","count":9},{"kind":"예규","count":2}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98%20%EB%B0%8F%20%EC%82%B0%EC%97%85%EC%9E%AC%ED%95%B4%EB%B3%B4%EC%83%81%EB%B3%B4%ED%97%98%EC%9D%98%20%EB%B3%B4%ED%97%98%EB%A3%8C%EC%A7%95%EC%88%98%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":124,"rule":54,"adminRule":58,"ordinance":0,"cites":234}}}},"statusStyles":{"done":{"label":"선행","fill":"#effaf5","border":"#35a77d","ink":"#123d2e","sub":"#287a5c"},"current":{"label":"핵심","fill":"#087452","border":"#087452","ink":"#ffffff","sub":"#d8f4e8"},"waiting":{"label":"후속","fill":"#ffffff","border":"#b9c7bf","ink":"#17231d","sub":"#627169"},"risk":{"label":"병목","fill":"#fff8e8","border":"#d9901a","ink":"#7a4305","sub":"#a96008"},"loop":{"label":"회귀","fill":"#edf4ff","border":"#3478db","ink":"#173f7a","sub":"#316bbd"}},"basisLegend":[{"label":"법률","fill":"#ffffff","border":"#3b4a43"},{"label":"시행령","fill":"#f2f6ff","border":"#2456d6"},{"label":"시행규칙","fill":"#effaf6","border":"#0f9f72"},{"label":"행정규칙","fill":"#f6f2ff","border":"#7c56c9"}],"isLawIndex":true}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:I[6196,[],"IconMark"]
+7:null
+c:[["$","title","0",{"children":"고용보험법 업무흐름도 | 법령정보 시연판"}],["$","meta","1",{"name":"robots","content":"noindex, nofollow"}],["$","link","2",{"rel":"icon","href":"/lawdemo/flow/favicon.ico?603d046c9a6fdfbb","type":"image/x-icon","sizes":"16x16"}],["$","$L11","3",{}]]

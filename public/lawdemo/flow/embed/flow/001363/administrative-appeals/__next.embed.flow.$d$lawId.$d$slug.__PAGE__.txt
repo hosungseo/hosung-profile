@@ -1,0 +1,419 @@
+1:"$Sreact.fragment"
+2:I[7742,["838","static/chunks/838-9b85aecee2a13f53.js","379","static/chunks/379-f104668f756ddde1.js","301","static/chunks/app/embed/flow/%5BlawId%5D/%5Bslug%5D/page-e3d0b6acb7d5d0b3.js"],"default"]
+6:I[977,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+:HL["/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","style"]
+3:T8334,<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 250 1744 1960" class="pp-svg">
+<defs>
+      <filter id="card-shadow" x="-20%" y="-25%" width="140%" height="160%">
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#12271e" flood-opacity="0.10"/>
+      </filter>
+      <marker id="arrow-sequence" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#53675d" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-message" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#0f8a65" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-loop" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#3478db" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <style>
+        text { font-family: "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", sans-serif; }
+        .mono { font-family: "SFMono-Regular", "Menlo", monospace; }
+      </style>
+    </defs>
+<rect width="1800" height="2400" fill="#ffffff"/>
+
+
+
+<rect x="38" y="260" width="1724" height="1940" rx="10" fill="#ffffff" stroke="#b8c7bf" stroke-width="2"/>
+<rect x="38" y="260" width="190" height="100" rx="10" fill="#eaf2ee"/>
+<text x="58" y="299" font-size="17" font-weight="800" fill="#17231d">단계 ↓</text>
+<text x="58" y="332" font-size="15" font-weight="650" fill="#68776f">행위자 묶음 →</text>
+<rect x="38" y="360" width="1724" height="268.7" fill="#fbfcfb"/>
+<rect x="38" y="360" width="190" height="268.7" fill="#eef3f0"/>
+<text x="58" y="392" class="mono" font-size="16" font-weight="800" fill="#53645b">G0</text>
+<text x="58" y="425" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">처분·청구요건</tspan></text>
+<rect x="38" y="628.7" width="1724" height="268.7" fill="#f5f8f6"/>
+<rect x="38" y="628.7" width="190" height="268.7" fill="#eef3f0"/>
+<text x="58" y="660.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G1</text>
+<text x="58" y="693.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">심판청구</tspan></text>
+<rect x="38" y="897.3" width="1724" height="382.7" fill="#fbfcfb"/>
+<rect x="38" y="897.3" width="190" height="382.7" fill="#eef3f0"/>
+<text x="58" y="929.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G2</text>
+<text x="58" y="962.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">답변서·보정</tspan></text>
+<rect x="38" y="1280" width="1724" height="268.7" fill="#f5f8f6"/>
+<rect x="38" y="1280" width="190" height="268.7" fill="#eef3f0"/>
+<text x="58" y="1312" class="mono" font-size="16" font-weight="800" fill="#53645b">G3</text>
+<text x="58" y="1345" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">심리</tspan></text>
+<rect x="38" y="1548.7" width="1724" height="268.7" fill="#fbfcfb"/>
+<rect x="38" y="1548.7" width="190" height="268.7" fill="#eef3f0"/>
+<text x="58" y="1580.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G4</text>
+<text x="58" y="1613.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">재결</tspan></text>
+<rect x="38" y="1817.3" width="1724" height="382.7" fill="#f5f8f6"/>
+<rect x="38" y="1817.3" width="190" height="382.7" fill="#eef3f0"/>
+<text x="58" y="1849.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G5</text>
+<text x="58" y="1882.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">이행·후속</tspan></text>
+<rect x="228" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="228" y="260" width="383.5" height="7" fill="#0f9f72"/>
+<text x="248" y="299" font-size="20" font-weight="800" fill="#17231d">청구인</text>
+<text x="248" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="248" dy="0">청구인</tspan></text>
+<rect x="611.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="611.5" y="260" width="383.5" height="7" fill="#3b82f6"/>
+<text x="631.5" y="299" font-size="20" font-weight="800" fill="#17231d">피청구인·행정심판위원회</text>
+<text x="631.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="631.5" dy="0">피청구인(처분청) · 행정심판위원회(사무국)</tspan></text>
+<rect x="995" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="995" y="260" width="383.5" height="7" fill="#c78116"/>
+<text x="1015" y="299" font-size="20" font-weight="800" fill="#17231d">위원회 회의·법원</text>
+<text x="1015" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1015" dy="0">위원회 회의 · 법원(후속)</tspan></text>
+<rect x="1378.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="1378.5" y="260" width="383.5" height="7" fill="#0891b2"/>
+<text x="1398.5" y="299" font-size="20" font-weight="800" fill="#17231d">정보시스템</text>
+<text x="1398.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1398.5" dy="0">정보시스템</tspan></text>
+<line x1="228" y1="260" x2="228" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="611.5" y1="260" x2="611.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="995" y1="260" x2="995" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1378.5" y1="260" x2="1378.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1762" y1="260" x2="1762" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#b8c7bf" stroke-width="2"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="628.7" x2="1762" y2="628.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="897.3" x2="1762" y2="897.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1280" x2="1762" y2="1280" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1548.7" x2="1762" y2="1548.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1817.3" x2="1762" y2="1817.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2200" x2="1762" y2="2200" stroke="#b8c7bf" stroke-width="2"/>
+<g class="pp-edge" data-edge-id="E01" data-source="P01" data-target="P02">
+<path d="M 668.3 496.8 H 595.8 V 500.8 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 668.3 496.8 H 595.8 V 500.8 H 562.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E02" data-source="P02" data-target="P03">
+<path d="M 409.8 539.3 V 616.7 H 399.8 V 710" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 409.8 539.3 V 616.7 H 399.8 V 710" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E03" data-source="P03" data-target="P04">
+<path d="M 554.8 763 H 640.3 V 746 H 660.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 763 H 640.3 V 746 H 660.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E04" data-source="P04" data-target="P05">
+<path d="M 781.3 808 V 869.3 H 403.8 V 1035.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 781.3 808 V 869.3 H 403.8 V 1035.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E05" data-source="P05" data-target="P06">
+<path d="M 554.8 1095.2 H 1023.8 V 1084.7 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1095.2 H 1023.8 V 1084.7 H 1043.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E06" data-source="P06" data-target="P07">
+<path d="M 1051.8 1100.2 H 979.3 V 1032.7 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1100.2 H 979.3 V 1032.7 H 946.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E07" data-source="P07" data-target="P09">
+<path d="M 938.3 1045.7 H 1016 V 1236 H 1198.8 V 1361.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 1045.7 H 1016 V 1236 H 1198.8 V 1361.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E08" data-source="P09" data-target="P11">
+<path d="M 1194.8 1459.3 V 1520.7 H 1184.8 V 1630" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1194.8 1459.3 V 1520.7 H 1184.8 V 1630" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E09" data-source="P11" data-target="P12">
+<path d="M 1051.8 1679 H 979.3 V 1683 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1679 H 979.3 V 1683 H 946.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E10" data-source="P12" data-target="P13">
+<path d="M 783.3 1728 V 1805.3 H 793.3 V 1898.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 783.3 1728 V 1805.3 H 793.3 V 1898.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E11" data-source="P13" data-target="P14">
+<path d="M 813.3 1996.7 V 2012.7 H 787.3 V 2012.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 813.3 1996.7 V 2012.7 H 787.3 V 2012.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M01" data-source="P09" data-target="P10">
+<path d="M 1051.8 1401.3 H 582.8 V 1414.3 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1401.3 H 582.8 V 1414.3 H 562.8" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M02" data-source="P03" data-target="S01">
+<path d="M 451.8 808 V 853.3 H 1748 V 1341.3 H 1570.3 V 1361.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 451.8 808 V 853.3 H 1748 V 1341.3 H 1570.3 V 1361.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M03" data-source="P12" data-target="P15">
+<path d="M 835.3 1728 V 1773.3 H 1198.8 V 1898.7" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 835.3 1728 V 1773.3 H 1198.8 V 1898.7" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L01" data-source="P04" data-target="P08">
+<path d="M 789.3 808 V 837.3 H 990 V 1157.2 H 946.3" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 789.3 808 V 837.3 H 990 V 1157.2 H 946.3" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L02" data-source="P08" data-target="P04">
+<path d="M 668.3 1141.7 H 216 V 813.3 H 845.3 V 816" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 668.3 1141.7 H 216 V 813.3 H 845.3 V 816" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M04" data-source="P14" data-target="P16">
+<path d="M 938.3 2074.7 H 1023.8 V 2073.2 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 2074.7 H 1023.8 V 2073.2 H 1043.8" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge-label" data-edge-id="E02" data-source="P02" data-target="P03">
+<rect x="354.3" y="584.7" width="100.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="404.8" y="604.7" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">청구기간 내</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E04" data-source="P04" data-target="P05">
+<rect x="544.5" y="837.3" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="592.5" y="857.3" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">적법 수리</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E08" data-source="P09" data-target="P11">
+<rect x="1141.8" y="1488.7" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1189.8" y="1508.7" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">심리 종결</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E10" data-source="P12" data-target="P13">
+<rect x="740.3" y="1773.3" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="788.3" y="1793.3" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">인용</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M01" data-source="P09" data-target="P10">
+<rect x="745.8" y="1375.8" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="803.3" y="1395.8" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">증거조사 요구</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M02" data-source="P03" data-target="S01">
+<rect x="1627.6" y="1082.3" width="100.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1678" y="1102.3" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">온라인 접수</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M03" data-source="P12" data-target="P15">
+<rect x="957.1" y="1741.3" width="119.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1017" y="1761.3" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">재결 불복 안내</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L01" data-source="P04" data-target="P08">
+<rect x="841.6" y="841.3" width="96" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="889.6" y="861.3" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">보정 요구</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L02" data-source="P08" data-target="P04">
+<rect x="289.1" y="964.5" width="133.8" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="356" y="984.5" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">보정 완료 재심사</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M04" data-source="P14" data-target="P16">
+<rect x="897.7" y="2149.9" width="194.7" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="995" y="2169.9" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">재처분 불이행 시 간접강제</text>
+</g>
+
+    <g class="pp-node" data-node-id="P01" data-basis="행정심판법:제58조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="449.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="449.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="469.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P01</text>
+      
+      <rect x="869.3" y="456.3" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="473.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §58</text>
+      <text x="683.3" y="506.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">처분·부작위 발생, 불복방법 고지</tspan></text>
+      <text x="683.3" y="531.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 처분 시</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P02" data-basis="행정심판법:제27조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="449.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="449.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="469.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P02</text>
+      
+      <rect x="485.8" y="456.3" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="473.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §27</text>
+      <text x="299.8" y="506.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">청구요건·청구기간 검토</tspan></text>
+      <text x="299.8" y="531.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 안 날 90일·있은 날 180일 이내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P03" data-basis="행정심판법:제23조 행정심판법시행령:제20조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="718" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="718" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="738" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P03</text>
+      
+      <rect x="468.8" y="725" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="742" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §23 +1</text>
+      <text x="299.8" y="775" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">심판청구서 작성·제출</tspan></text>
+      <text x="299.8" y="800" font-size="11" font-weight="650" fill="#3b4a43">기한 · 청구기간 내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P04" data-basis="행정심판법:제43조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="718" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="718" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="738" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P04</text>
+      
+      <rect x="869.3" y="725" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="742" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §43</text>
+      <text x="683.3" y="775" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">청구요건 심사·각하 판단</tspan></text>
+      <text x="683.3" y="800" font-size="11" font-weight="650" fill="#3b4a43">기한 · 접수 후 지체 없이</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P05" data-basis="행정심판법:제30조 행정심판법:제31조 행정심판법시행령:제22조 행정심판법시행령:제23조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1043.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1043.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1063.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P05</text>
+      
+      <rect x="468.8" y="1050.7" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="1067.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §30 +2</text>
+      <text x="299.8" y="1100.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">집행정지·임시처분 신청</tspan></text>
+      <text x="299.8" y="1125.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 재결 전까지</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P06" data-basis="행정심판법:제30조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1043.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1043.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1063.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P06</text>
+      
+      <rect x="1252.8" y="1050.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1067.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §30</text>
+      <text x="1066.8" y="1100.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">집행정지·임시처분 결정</tspan></text>
+      <text x="1066.8" y="1125.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 신청 후 신속히</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P07" data-basis="행정심판법:제24조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="986.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="986.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1006.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P07</text>
+      
+      <rect x="869.3" y="993.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1010.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §24</text>
+      <text x="683.3" y="1043.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">피청구인 답변서 제출</tspan></text>
+      <text x="683.3" y="1068.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 청구서 부본 받은 날부터 10일 이내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P08" data-basis="행정심판법:제32조 행정심판법시행령:제24조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1100.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1100.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1120.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P08</text>
+      
+      <rect x="852.3" y="1107.7" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="1124.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §32 +1</text>
+      <text x="683.3" y="1157.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">보정 요구·보정</tspan></text>
+      <text x="683.3" y="1182.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 위원회가 정한 상당한 기간</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P09" data-basis="행정심판법:제40조 행정심판법시행령:제27조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1369.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1369.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1389.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P09</text>
+      
+      <rect x="1235.8" y="1376.3" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1393.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §40 +1</text>
+      <text x="1066.8" y="1426.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">서면·구술 심리</tspan></text>
+      <text x="1066.8" y="1451.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 재결기간 내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P10" data-basis="행정심판법:제36조 행정심판법시행령:제25조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1369.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1369.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1389.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P10</text>
+      
+      <rect x="468.8" y="1376.3" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="1393.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §36 +1</text>
+      <text x="299.8" y="1426.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">증거조사·보충서면 제출</tspan></text>
+      <text x="299.8" y="1451.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 심리 종결 전</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P11" data-basis="행정심판법:제43조 행정심판법:제45조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1638" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1638" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1658" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P11</text>
+      
+      <rect x="1252.8" y="1645" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1662" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §43</text>
+      <text x="1066.8" y="1695" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">재결(인용·기각·각하)</tspan></text>
+      <text x="1066.8" y="1720" font-size="11" font-weight="650" fill="#3b4a43">기한 · 청구 받은 날부터 60일(부득이 시 30일…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P12" data-basis="행정심판법:제48조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1638" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1638" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1658" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P12</text>
+      
+      <rect x="869.3" y="1645" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1662" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §48</text>
+      <text x="683.3" y="1695" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">재결서 송달</tspan></text>
+      <text x="683.3" y="1720" font-size="11" font-weight="650" fill="#3b4a43">기한 · 재결 후 지체 없이</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P13" data-basis="행정심판법:제49조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1906.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1906.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1926.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P13</text>
+      
+      <rect x="869.3" y="1913.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1930.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §49</text>
+      <text x="683.3" y="1963.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">재결 기속력에 따른 처분청 이행</tspan></text>
+      <text x="683.3" y="1988.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 재결 취지에 따라 지체 없이</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P14" data-basis="행정심판법:제49조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="2020.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="2020.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="2040.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P14</text>
+      
+      <rect x="869.3" y="2027.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="2044.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §49</text>
+      <text x="683.3" y="2077.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">재처분·후속 관리</tspan></text>
+      <text x="683.3" y="2102.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 재결 취지에 따라</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P15" data-basis="행정소송법:제18조 행정소송법:제20조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1906.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1906.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1926.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P15</text>
+      
+      <rect x="1252.8" y="1913.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1930.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §18</text>
+      <text x="1066.8" y="1963.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">행정소송 제기</tspan></text>
+      <text x="1066.8" y="1988.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 재결서 받은 날부터 90일 이내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="S01" data-basis="행정심판법:제52조 행정심판법시행령:제34조 행정심판법시행령:제38조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="1369.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="1369.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="1389.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">▣ S01</text>
+      
+      <rect x="1619.3" y="1376.3" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1657.3" y="1393.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §52 +2</text>
+      <text x="1450.3" y="1416.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">온라인행정심판 진행조회·재결서</tspan><tspan x="1450.3" dy="18">수령</tspan></text>
+      <text x="1450.3" y="1451.3" font-size="11" font-weight="650" fill="#3b4a43">온라인행정심판(simpan.go.kr)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P16" data-basis="행정심판법시행령:제33조의2" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="2020.7" width="270" height="90" rx="8" fill="#f2f6ff" stroke="#2456d6" stroke-width="2.3"/>
+      <rect x="1051.8" y="2020.7" width="6" height="90" rx="3" fill="#2456d6"/>
+      <text x="1066.8" y="2040.7" class="mono" font-size="12.5" font-weight="750" fill="#2456d6">P16</text>
+      
+      <rect x="1233.8" y="2027.7" width="78" height="24" rx="5" fill="#2456d6" opacity="0.14"/>
+      <text x="1272.8" y="2044.7" text-anchor="middle" font-size="12" font-weight="800" fill="#14306f">령 §33의2</text>
+      <text x="1066.8" y="2067.7" font-size="15.5" font-weight="800" fill="#14306f"><tspan x="1066.8" dy="0">간접강제 신청·결정(재결 불이행</tspan><tspan x="1066.8" dy="18">시)</tspan></text>
+      <text x="1066.8" y="2102.7" font-size="11" font-weight="650" fill="#2456d6">기한 · 재처분 불이행 확인 후</text>
+    </g>
+  
+
+</svg>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"law":{"lawId":"001363","mst":"249041","name":"행정심판법","kind":"법률","tier":"statute","effectiveOn":"2023-03-21","officialUrl":"https://www.law.go.kr/법령/행정심판법"},"flows":[{"slug":"administrative-appeals","name":"행정심판","oneLiner":"행정청의 위법·부당한 처분이나 부작위로 권리를 침해당한 국민이, 법원 소송 전에 행정심판위원회에 제기해 처분의 취소·변경 등을 구하는 준사법적 권리구제 제도","citingSteps":15,"totalSteps":17,"articles":{"제58조":1,"제27조":1,"제23조":1,"제43조":2,"제30조":2,"제31조":1,"제24조":1,"제32조":1,"제40조":1,"제36조":1,"제45조":1,"제48조":1,"제49조":2,"제52조":1}}],"current":"$0:rsc:props:children:0:props:flows:0","asOfDate":"2026-07-10","reviewNote":"주요 절차를 요약한 참고 모델입니다. 모든 예외·위임규정의 현행성까지 전수 검증한 자료는 아닙니다. 법령 체계의 보관 자료와 현행 원문은 다를 수 있습니다.","svg":"$3","nodes":[{"id":"P01","name":"처분·부작위 발생, 불복방법 고지","lane":"피청구인(처분청)","stage":"G0 처분·청구요건","type":"notice","status":"done","progress":100,"actor":"처분청","receiver":"청구인","action":"처분·고지","output_documents":["처분서","불복방법 고지"],"deadline":"처분 시","confidence":0.85,"legal_basis":[{"law":"행정심판법","article":"제58조","text":"행정청은 처분을 할 때 심판청구 가능 여부·절차·청구기간을 상대방에게 고지하여야 한다."}]},{"id":"P02","name":"청구요건·청구기간 검토","lane":"청구인","stage":"G0 처분·청구요건","type":"gateway","status":"done","progress":100,"actor":"청구인","action":"요건 확인","condition":"처분성·청구인 적격·청구기간(안 날 90일, 있은 날 180일) 충족 여부","output_documents":["청구요건 검토메모"],"deadline":"안 날 90일·있은 날 180일 이내","confidence":0.86,"legal_basis":[{"law":"행정심판법","article":"제27조","text":"심판청구는 처분이 있음을 안 날부터 90일, 처분이 있은 날부터 180일 이내에 제기하여야 한다."}]},{"id":"P03","name":"심판청구서 작성·제출","lane":"청구인","stage":"G1 심판청구","type":"task","status":"done","progress":100,"actor":"청구인","receiver":"행정심판위원회","action":"청구서 제출","output_documents":["행정심판 청구서"],"deadline":"청구기간 내","confidence":0.87,"legal_basis":[{"law":"행정심판법","article":"제23조","text":"청구인은 심판청구서를 피청구인 또는 행정심판위원회에 제출한다."},{"law":"행정심판법 시행령","article":"제20조","text":"법 제28조제1항의 위임에 따라 심판청구서에는 대표자·대리인 자격 소명 서면과 증거서류를 첨부할 수 있다."}]},{"id":"P04","name":"청구요건 심사·각하 판단","lane":"행정심판위원회(사무국)","stage":"G1 심판청구","type":"gateway","status":"done","progress":100,"actor":"행정심판위원회 사무국","action":"요건 심사","condition":"청구요건 충족 여부(부적법·보정 불가 시 각하)","input_documents":["행정심판 청구서"],"output_documents":["요건심사 결과","보정요구서(해당 시)"],"deadline":"접수 후 지체 없이","confidence":0.83,"legal_basis":[{"law":"행정심판법","article":"제43조제1항","text":"심판청구가 부적법하면 위원회는 그 심판청구를 각하한다."}]},{"id":"P05","name":"집행정지·임시처분 신청","lane":"청구인","stage":"G2 답변서·보정","type":"task","status":"done","progress":100,"actor":"청구인","receiver":"행정심판위원회","action":"집행정지 신청","output_documents":["집행정지 신청서","임시처분 신청서(해당 시)"],"deadline":"재결 전까지","confidence":0.82,"legal_basis":[{"law":"행정심판법","article":"제30조·제31조","text":"위원회는 처분의 집행 등으로 생길 중대한 손해를 예방하기 위해 집행정지 또는 임시처분을 결정할 수 있다."},{"law":"행정심판법 시행령","article":"제22조","text":"법 제30조제5항의 위임에 따라 집행정지 신청서는 소명자료를 첨부하며, 처분청에 낸 경우 지체 없이 위원회에 송부한다."},{"law":"행정심판법 시행령","article":"제23조","text":"법 제31조의 위임에 따라 임시처분의 신청·심리 절차를 정한다."}]},{"id":"P06","name":"집행정지·임시처분 결정","lane":"위원회 회의","stage":"G2 답변서·보정","type":"gateway","status":"done","progress":100,"actor":"행정심판위원회","action":"집행정지 결정","condition":"회복 곤란한 손해·긴급한 필요 등 요건 충족 여부","input_documents":["집행정지 신청서"],"output_documents":["집행정지 결정문"],"deadline":"신청 후 신속히","blocker":"집행정지 미인용 시 심리 중 처분이 그대로 집행된다","confidence":0.8,"legal_basis":[{"law":"행정심판법","article":"제30조","text":"위원회는 필요하다고 인정하면 처분의 효력·집행·절차의 속행을 정지할 수 있다."}]},{"id":"P07","name":"피청구인 답변서 제출","lane":"피청구인(처분청)","stage":"G2 답변서·보정","type":"task","status":"done","progress":100,"actor":"처분청","receiver":"행정심판위원회","action":"답변서 제출","input_documents":["행정심판 청구서 부본"],"output_documents":["답변서","처분 관계서류"],"deadline":"청구서 부본 받은 날부터 10일 이내","blocker":"답변서 제출이 지연되는 경우가 있다(운영 추정)","confidence":0.8,"legal_basis":[{"law":"행정심판법","article":"제24조","text":"피청구인은 청구서를 접수하거나 송부받으면 답변서를 위원회에 제출한다."}]},{"id":"P08","name":"보정 요구·보정","lane":"행정심판위원회(사무국)","stage":"G2 답변서·보정","type":"task","status":"loop","progress":100,"actor":"사무국·청구인","action":"보정","input_documents":["보정요구서"],"output_documents":["보정서"],"deadline":"위원회가 정한 상당한 기간","blocker":"요건 흠결 보정 회귀 단계","confidence":0.82,"legal_basis":[{"law":"행정심판법","article":"제32조","text":"위원회는 심판청구가 부적법하나 보정할 수 있다고 인정하면 기간을 정하여 보정을 요구할 수 있다."},{"law":"행정심판법 시행령","article":"제24조","text":"법 제32조제1항의 위임에 따라 보정 요구는 보정할 사항·이유·기간을 적은 서면으로 한다."}]},{"id":"P09","name":"서면·구술 심리","lane":"위원회 회의","stage":"G3 심리","type":"task","status":"current","progress":50,"actor":"행정심판위원회","action":"심리","input_documents":["청구서","답변서","보충서면"],"output_documents":["심리조서"],"deadline":"재결기간 내","blocker":"구술심리 기일 조율 중","confidence":0.83,"legal_basis":[{"law":"행정심판법","article":"제40조","text":"심리는 서면심리를 원칙으로 하되, 당사자 신청이나 위원회 직권으로 구술심리를 할 수 있다."},{"law":"행정심판법 시행령","article":"제27조","text":"법 제40조의 위임에 따라 구술심리의 신청·통지 등 절차를 정한다."}]},{"id":"P10","name":"증거조사·보충서면 제출","lane":"청구인","stage":"G3 심리","type":"task","status":"risk","progress":30,"actor":"청구인·피청구인","action":"증거조사·주장 보충","output_documents":["증거자료","보충서면"],"deadline":"심리 종결 전","blocker":"증거조사·감정 등으로 심리가 장기화되는 경우가 있다(운영 추정)","confidence":0.79,"legal_basis":[{"law":"행정심판법","article":"제36조","text":"위원회는 사건 심리를 위해 필요하면 당사자 신청 또는 직권으로 증거조사를 할 수 있다."},{"law":"행정심판법 시행령","article":"제25조","text":"법 제36조의 위임에 따라 증거조사의 방법·절차를 정한다."}]},{"id":"P11","name":"재결(인용·기각·각하)","lane":"위원회 회의","stage":"G4 재결","type":"gateway","status":"waiting","progress":0,"actor":"행정심판위원회","action":"재결","condition":"인용(취소·변경·의무이행)·기각·각하 판단","input_documents":["심리조서","증거자료"],"output_documents":["재결서"],"deadline":"청구 받은 날부터 60일(부득이 시 30일 연장)","confidence":0.84,"legal_basis":[{"law":"행정심판법","article":"제43조·제45조","text":"위원회는 재결을 하고, 재결은 청구를 받은 날부터 60일 이내에 하되 30일 범위에서 연장할 수 있다."}]},{"id":"P12","name":"재결서 송달","lane":"행정심판위원회(사무국)","stage":"G4 재결","type":"notice","status":"waiting","progress":0,"actor":"사무국","receiver":"청구인·피청구인","action":"재결서 송달","output_documents":["재결서 정본"],"deadline":"재결 후 지체 없이","confidence":0.85,"legal_basis":[{"law":"행정심판법","article":"제48조","text":"위원회는 지체 없이 당사자에게 재결서의 정본을 송달한다."}]},{"id":"P13","name":"재결 기속력에 따른 처분청 이행","lane":"피청구인(처분청)","stage":"G5 이행·후속","type":"task","status":"waiting","progress":0,"actor":"처분청","action":"재결 이행","input_documents":["재결서 정본"],"output_documents":["이행결과 통보"],"deadline":"재결 취지에 따라 지체 없이","confidence":0.83,"legal_basis":[{"law":"행정심판법","article":"제49조","text":"인용 재결은 피청구인과 관계 행정청을 기속하며, 처분청은 재결 취지에 따라 처분하여야 한다."}]},{"id":"P14","name":"재처분·후속 관리","lane":"피청구인(처분청)","stage":"G5 이행·후속","type":"task","status":"waiting","progress":0,"actor":"처분청","action":"재처분","output_documents":["재처분 결과"],"deadline":"재결 취지에 따라","blocker":"기속력에도 처분청이 유사 처분을 반복하는 경우가 있다","confidence":0.78,"legal_basis":[{"law":"행정심판법","article":"제49조제2항·제3항","text":"당사자 신청을 거부하거나 부작위한 처분이 취소·확인되면 처분청은 재결 취지에 따라 다시 처분하여야 한다."}]},{"id":"P15","name":"행정소송 제기","lane":"법원(후속)","stage":"G5 이행·후속","type":"task","status":"waiting","progress":0,"actor":"청구인·법원","action":"행정소송","output_documents":["소장","판결"],"deadline":"재결서 받은 날부터 90일 이내","confidence":0.8,"legal_basis":[{"law":"행정소송법","article":"제18조·제20조","text":"재결에 불복하는 자는 재결서를 받은 날부터 90일 이내에 취소소송 등 행정소송을 제기할 수 있다."}]},{"id":"S01","name":"온라인행정심판 진행조회·재결서 수령","lane":"정보시스템","stage":"G3 심리","type":"system","status":"waiting","progress":0,"actor":"온라인행정심판(simpan.go.kr)","action":"진행조회·전자송달","input_documents":["청구서","재결서"],"output_documents":["진행상황 조회","전자 재결서"],"confidence":0.74,"legal_basis":[{"law":"행정심판법","article":"제52조","text":"전자정보처리조직을 통하여 심판청구·서류 제출과 송달 등을 할 수 있다."},{"law":"행정심판법 시행령","article":"제34조","text":"법 제52조의 위임에 따라 전자정보처리조직(온라인행정심판)을 지정·운영한다."},{"law":"행정심판법 시행령","article":"제38조","text":"전자정보처리조직을 이용한 송달의 방법과 효력을 정한다."}]},{"id":"P16","name":"간접강제 신청·결정(재결 불이행 시)","lane":"위원회 회의","stage":"G5 이행·후속","type":"task","status":"waiting","progress":0,"actor":"청구인·행정심판위원회","action":"간접강제 신청·결정","input_documents":["간접강제 신청서"],"output_documents":["간접강제 결정서"],"deadline":"재처분 불이행 확인 후","confidence":0.76,"legal_basis":[{"law":"행정심판법 시행령","article":"제33조의2","text":"법 제50조의2의 위임에 따라 처분청이 재결의 취지대로 재처분을 하지 않으면 청구인은 간접강제를 신청하고, 위원회는 피신청인에게 7~15일 의견 제출 기회를 준 뒤 심리·결정한다."}]}],"edges":[{"id":"E01","source":"P01","target":"P02","type":"sequence","label":null},{"id":"E02","source":"P02","target":"P03","type":"sequence","label":"청구기간 내"},{"id":"E03","source":"P03","target":"P04","type":"sequence","label":null},{"id":"E04","source":"P04","target":"P05","type":"sequence","label":"적법 수리"},{"id":"E05","source":"P05","target":"P06","type":"sequence","label":null},{"id":"E06","source":"P06","target":"P07","type":"sequence","label":null},{"id":"E07","source":"P07","target":"P09","type":"sequence","label":null},{"id":"E08","source":"P09","target":"P11","type":"sequence","label":"심리 종결"},{"id":"E09","source":"P11","target":"P12","type":"sequence","label":null},{"id":"E10","source":"P12","target":"P13","type":"sequence","label":"인용"},{"id":"E11","source":"P13","target":"P14","type":"sequence","label":null},{"id":"M01","source":"P09","target":"P10","type":"message","label":"증거조사 요구"},{"id":"M02","source":"P03","target":"S01","type":"message","label":"온라인 접수"},{"id":"M03","source":"P12","target":"P15","type":"message","label":"재결 불복 안내"},{"id":"L01","source":"P04","target":"P08","type":"loop","label":"보정 요구"},{"id":"L02","source":"P08","target":"P04","type":"loop","label":"보정 완료 재심사"},{"id":"M04","source":"P14","target":"P16","type":"message","label":"재처분 불이행 시 간접강제"}],"lawContext":{"byNode":{"P01":[{"law":"행정심판법","article":"제58조","text":"행정청은 처분을 할 때 심판청구 가능 여부·절차·청구기간을 상대방에게 고지하여야 한다.","found":true,"lawId":"001363","tier":"statute","articles":[{"label":"제58조","title":"행정심판의 고지","officialUrl":"https://www.law.go.kr/법령/행정심판법/제58조","up":[],"down":[]}]}],"P02":[{"law":"행정심판법","article":"제27조","text":"심판청구는 처분이 있음을 안 날부터 90일, 처분이 있은 날부터 180일 이내에 제기하여야 한다.","found":true,"lawId":"001363","tier":"statute","articles":[{"label":"제27조","title":"심판청구의 기간","officialUrl":"https://www.law.go.kr/법령/행정심판법/제27조","up":[],"down":[]}]}],"P03":[{"law":"행정심판법","article":"제23조","text":"청구인은 심판청구서를 피청구인 또는 행정심판위원회에 제출한다.","found":true,"lawId":"001363","tier":"statute","articles":[{"label":"제23조","title":"심판청구서의 제출","officialUrl":"https://www.law.go.kr/법령/행정심판법/제23조","up":[],"down":[]}]},{"law":"행정심판법 시행령","article":"제20조","text":"법 제28조제1항의 위임에 따라 심판청구서에는 대표자·대리인 자격 소명 서면과 증거서류를 첨부할 수 있다.","found":true,"lawId":"001363","tier":"decree","articles":[{"label":"제20조","title":"심판청구서의 첨부서류","officialUrl":"https://www.law.go.kr/법령/행정심판법시행령/제20조","up":[],"down":[]}]}],"P04":[{"law":"행정심판법","article":"제43조제1항","text":"심판청구가 부적법하면 위원회는 그 심판청구를 각하한다.","found":true,"lawId":"001363","tier":"statute","articles":[{"label":"제43조","title":"재결의 구분","officialUrl":"https://www.law.go.kr/법령/행정심판법/제43조","up":[],"down":[]}]}],"P05":[{"law":"행정심판법","article":"제30조·제31조","text":"위원회는 처분의 집행 등으로 생길 중대한 손해를 예방하기 위해 집행정지 또는 임시처분을 결정할 수 있다.","found":true,"lawId":"001363","tier":"statute","articles":[{"label":"제30조","title":"집행정지","officialUrl":"https://www.law.go.kr/법령/행정심판법/제30조","up":[],"down":[]},{"label":"제31조","title":"임시처분","officialUrl":"https://www.law.go.kr/법령/행정심판법/제31조","up":[],"down":[]}]},{"law":"행정심판법 시행령","article":"제22조","text":"법 제30조제5항의 위임에 따라 집행정지 신청서는 소명자료를 첨부하며, 처분청에 낸 경우 지체 없이 위원회에 송부한다.","found":true,"lawId":"001363","tier":"decree","articles":[{"label":"제22조","title":"집행정지","officialUrl":"https://www.law.go.kr/법령/행정심판법시행령/제22조","up":[],"down":[]}]},{"law":"행정심판법 시행령","article":"제23조","text":"법 제31조의 위임에 따라 임시처분의 신청·심리 절차를 정한다.","found":true,"lawId":"001363","tier":"decree","articles":[{"label":"제23조","title":"임시처분","officialUrl":"https://www.law.go.kr/법령/행정심판법시행령/제23조","up":[],"down":[]}]}],"P06":[{"law":"행정심판법","article":"제30조","text":"위원회는 필요하다고 인정하면 처분의 효력·집행·절차의 속행을 정지할 수 있다.","found":true,"lawId":"001363","tier":"statute","articles":[{"label":"제30조","title":"집행정지","officialUrl":"https://www.law.go.kr/법령/행정심판법/제30조","up":[],"down":[]}]}],"P07":[{"law":"행정심판법","article":"제24조","text":"피청구인은 청구서를 접수하거나 송부받으면 답변서를 위원회에 제출한다.","found":true,"lawId":"001363","tier":"statute","articles":[{"label":"제24조","title":"피청구인의 심판청구서 등의 접수ㆍ처리","officialUrl":"https://www.law.go.kr/법령/행정심판법/제24조","up":[],"down":[]}]}],"P08":[{"law":"행정심판법","article":"제32조","text":"위원회는 심판청구가 부적법하나 보정할 수 있다고 인정하면 기간을 정하여 보정을 요구할 수 있다.","found":true,"lawId":"001363","tier":"statute","articles":[{"label":"제32조","title":"보정","officialUrl":"https://www.law.go.kr/법령/행정심판법/제32조","up":[],"down":[]}]},{"law":"행정심판법 시행령","article":"제24조","text":"법 제32조제1항의 위임에 따라 보정 요구는 보정할 사항·이유·기간을 적은 서면으로 한다.","found":true,"lawId":"001363","tier":"decree","articles":[{"label":"제24조","title":"심판청구의 보정","officialUrl":"https://www.law.go.kr/법령/행정심판법시행령/제24조","up":[],"down":[]}]}],"P09":[{"law":"행정심판법","article":"제40조","text":"심리는 서면심리를 원칙으로 하되, 당사자 신청이나 위원회 직권으로 구술심리를 할 수 있다.","found":true,"lawId":"001363","tier":"statute","articles":[{"label":"제40조","title":"심리의 방식","officialUrl":"https://www.law.go.kr/법령/행정심판법/제40조","up":[],"down":[]}]},{"law":"행정심판법 시행령","article":"제27조","text":"법 제40조의 위임에 따라 구술심리의 신청·통지 등 절차를 정한다.","found":true,"lawId":"001363","tier":"decree","articles":[{"label":"제27조","title":"구술심리","officialUrl":"https://www.law.go.kr/법령/행정심판법시행령/제27조","up":[],"down":[]}]}],"P10":[{"law":"행정심판법","article":"제36조","text":"위원회는 사건 심리를 위해 필요하면 당사자 신청 또는 직권으로 증거조사를 할 수 있다.","found":true,"lawId":"001363","tier":"statute","articles":[{"label":"제36조","title":"증거조사","officialUrl":"https://www.law.go.kr/법령/행정심판법/제36조","up":[],"down":[]}]},{"law":"행정심판법 시행령","article":"제25조","text":"법 제36조의 위임에 따라 증거조사의 방법·절차를 정한다.","found":true,"lawId":"001363","tier":"decree","articles":[{"label":"제25조","title":"증거조사","officialUrl":"https://www.law.go.kr/법령/행정심판법시행령/제25조","up":[],"down":[]}]}],"P11":[{"law":"행정심판법","article":"제43조·제45조","text":"위원회는 재결을 하고, 재결은 청구를 받은 날부터 60일 이내에 하되 30일 범위에서 연장할 수 있다.","found":true,"lawId":"001363","tier":"statute","articles":[{"label":"제43조","title":"재결의 구분","officialUrl":"https://www.law.go.kr/법령/행정심판법/제43조","up":[],"down":[]},{"label":"제45조","title":"재결 기간","officialUrl":"https://www.law.go.kr/법령/행정심판법/제45조","up":[],"down":[]}]}],"P12":[{"law":"행정심판법","article":"제48조","text":"위원회는 지체 없이 당사자에게 재결서의 정본을 송달한다.","found":true,"lawId":"001363","tier":"statute","articles":[{"label":"제48조","title":"재결의 송달과 효력 발생","officialUrl":"https://www.law.go.kr/법령/행정심판법/제48조","up":[],"down":[]}]}],"P13":[{"law":"행정심판법","article":"제49조","text":"인용 재결은 피청구인과 관계 행정청을 기속하며, 처분청은 재결 취지에 따라 처분하여야 한다.","found":true,"lawId":"001363","tier":"statute","articles":[{"label":"제49조","title":"재결의 기속력 등","officialUrl":"https://www.law.go.kr/법령/행정심판법/제49조","up":[],"down":[]}]}],"P14":[{"law":"행정심판법","article":"제49조제2항·제3항","text":"당사자 신청을 거부하거나 부작위한 처분이 취소·확인되면 처분청은 재결 취지에 따라 다시 처분하여야 한다.","found":true,"lawId":"001363","tier":"statute","articles":[{"label":"제49조","title":"재결의 기속력 등","officialUrl":"https://www.law.go.kr/법령/행정심판법/제49조","up":[],"down":[]}]}],"P15":[{"law":"행정소송법","article":"제18조·제20조","text":"재결에 불복하는 자는 재결서를 받은 날부터 90일 이내에 취소소송 등 행정소송을 제기할 수 있다.","found":true,"lawId":"001218","tier":"statute","articles":[{"label":"제18조","title":"행정심판과의 관계","officialUrl":"https://www.law.go.kr/법령/행정소송법/제18조","up":[],"down":[]},{"label":"제20조","title":"제소기간","officialUrl":"https://www.law.go.kr/법령/행정소송법/제20조","up":[],"down":[]}]}],"S01":[{"law":"행정심판법","article":"제52조","text":"전자정보처리조직을 통하여 심판청구·서류 제출과 송달 등을 할 수 있다.","found":true,"lawId":"001363","tier":"statute","articles":[{"label":"제52조","title":"전자정보처리조직을 통한 심판청구 등","officialUrl":"https://www.law.go.kr/법령/행정심판법/제52조","up":[],"down":[{"kind":"decree","phrase":"사항은 국회규칙,","lawName":"국회행정심판위원회규칙","label":"제7조의2","title":"전자정보처리조직 지정ㆍ운영","tier":"decree"},{"kind":"rule","phrase":"대법원규칙,","lawName":"국회행정심판위원회규칙","label":"제32조","title":"정의","tier":null},{"kind":"rule","phrase":"대법원규칙,","lawName":"국회행정심판위원회규칙","label":"제33조","title":"실명인증","tier":null},{"kind":"rule","phrase":"대법원규칙,","lawName":"국회행정심판위원회규칙","label":"제34조","title":"전자문서로 제출할 수 있는 서류","tier":null},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"행정심판법 시행령","label":"제34조","title":"전자정보처리조직의 지정ㆍ운영","tier":"decree"}]}]},{"law":"행정심판법 시행령","article":"제34조","text":"법 제52조의 위임에 따라 전자정보처리조직(온라인행정심판)을 지정·운영한다.","found":true,"lawId":"001363","tier":"decree","articles":[{"label":"제34조","title":"전자정보처리조직의 지정ㆍ운영","officialUrl":"https://www.law.go.kr/법령/행정심판법시행령/제34조","up":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"행정심판법","label":"제52조제5항","title":"전자정보처리조직을 통한 심판청구 등","tier":"statute"}],"down":[]}]},{"law":"행정심판법 시행령","article":"제38조","text":"전자정보처리조직을 이용한 송달의 방법과 효력을 정한다.","found":true,"lawId":"001363","tier":"decree","articles":[{"label":"제38조","title":"전자정보처리조직을 이용한 송달 등","officialUrl":"https://www.law.go.kr/법령/행정심판법시행령/제38조","up":[{"kind":"decree","phrase":"대통령령으로 정하는 방법에","lawName":"행정심판법","label":"제54조제2항","title":"전자정보처리조직을 이용한 송달 등","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"행정심판법","label":"제54조제7항","title":"전자정보처리조직을 이용한 송달 등","tier":"statute"}],"down":[]}]}],"P16":[{"law":"행정심판법 시행령","article":"제33조의2","text":"법 제50조의2의 위임에 따라 처분청이 재결의 취지대로 재처분을 하지 않으면 청구인은 간접강제를 신청하고, 위원회는 피신청인에게 7~15일 의견 제출 기회를 준 뒤 심리·결정한다.","found":true,"lawId":"001363","tier":"decree","articles":[{"label":"제33조의2","title":"간접강제의 신청 및 결정","officialUrl":"https://www.law.go.kr/법령/행정심판법시행령/제33조의2","up":[],"down":[]}]}]},"systems":{"001363":{"lawId":"001363","name":"행정심판법","href":"/law/001363/","ministry":"국민권익위원회","effectiveOn":"2023-03-21","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"행정심판법","kind":"법률","articleCount":65,"officialUrl":"https://www.law.go.kr/법령/행정심판법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":65},{"tier":"decree","label":"시행령","laws":[{"name":"행정심판법 시행령","kind":"대통령령","articleCount":52,"officialUrl":"https://www.law.go.kr/법령/행정심판법시행령"},{"name":"국민권익위원회와 그 소속기관 직제","kind":"대통령령","articleCount":31,"officialUrl":"https://www.law.go.kr/법령/국민권익위원회와그소속기관직제"},{"name":"중앙선거관리위원회 사무처 행정심판위원회 규칙","kind":"중앙선거관리위원회규칙","articleCount":19,"officialUrl":"https://www.law.go.kr/법령/중앙선거관리위원회사무처행정심판위원회규칙"},{"name":"법원행정처 행정심판규칙","kind":"대법원규칙","articleCount":42,"officialUrl":"https://www.law.go.kr/법령/법원행정처행정심판규칙"},{"name":"국회행정심판위원회규칙","kind":"국회규칙","articleCount":12,"officialUrl":"https://www.law.go.kr/법령/국회행정심판위원회규칙"},{"name":"헌법재판소사무처 행정심판위원회 규칙","kind":"헌법재판소규칙","articleCount":31,"officialUrl":"https://www.law.go.kr/법령/헌법재판소사무처행정심판위원회규칙"},{"name":"감사원행정심판위원회규칙","kind":"감사원규칙","articleCount":12,"officialUrl":"https://www.law.go.kr/법령/감사원행정심판위원회규칙"}],"kinds":[{"kind":"대통령령","count":2},{"kind":"중앙선거관리위원회규칙","count":1},{"kind":"대법원규칙","count":1},{"kind":"국회규칙","count":1},{"kind":"헌법재판소규칙","count":1},{"kind":"감사원규칙","count":1}],"articleCount":199},{"tier":"rule","label":"시행규칙","laws":[{"name":"행정심판법 시행규칙","kind":"총리령","articleCount":7,"officialUrl":"https://www.law.go.kr/법령/행정심판법시행규칙"},{"name":"국민권익위원회와 그 소속기관 직제 시행규칙","kind":"총리령","articleCount":25,"officialUrl":"https://www.law.go.kr/법령/국민권익위원회와그소속기관직제시행규칙"}],"kinds":[{"kind":"총리령","count":2}],"articleCount":32},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"어디서나 민원처리제 운영지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/어디서나민원처리제운영지침"}],"kinds":[{"kind":"예규","count":1}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%ED%96%89%EC%A0%95%EC%8B%AC%ED%8C%90%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":45,"rule":34,"adminRule":1,"ordinance":0,"cites":127}},"001218":{"lawId":"001218","name":"행정소송법","href":"/law/001218/","ministry":"법무부","effectiveOn":"2026-05-12","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"행정소송법","kind":"법률","articleCount":46,"officialUrl":"https://www.law.go.kr/법령/행정소송법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":46},{"tier":"decree","label":"시행령","laws":[{"name":"행정소송규칙","kind":"대법원규칙","articleCount":21,"officialUrl":"https://www.law.go.kr/법령/행정소송규칙"},{"name":"송달료규칙","kind":"대법원규칙","articleCount":17,"officialUrl":"https://www.law.go.kr/법령/송달료규칙"}],"kinds":[{"kind":"대법원규칙","count":2}],"articleCount":38},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%ED%96%89%EC%A0%95%EC%86%8C%EC%86%A1%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":0,"rule":0,"adminRule":0,"ordinance":0,"cites":38}}}},"statusStyles":{"done":{"label":"선행","fill":"#effaf5","border":"#35a77d","ink":"#123d2e","sub":"#287a5c"},"current":{"label":"핵심","fill":"#087452","border":"#087452","ink":"#ffffff","sub":"#d8f4e8"},"waiting":{"label":"후속","fill":"#ffffff","border":"#b9c7bf","ink":"#17231d","sub":"#627169"},"risk":{"label":"병목","fill":"#fff8e8","border":"#d9901a","ink":"#7a4305","sub":"#a96008"},"loop":{"label":"회귀","fill":"#edf4ff","border":"#3478db","ink":"#173f7a","sub":"#316bbd"}},"basisLegend":[{"label":"법률","fill":"#ffffff","border":"#3b4a43"},{"label":"시행령","fill":"#f2f6ff","border":"#2456d6"},{"label":"시행규칙","fill":"#effaf6","border":"#0f9f72"},{"label":"행정규칙","fill":"#f6f2ff","border":"#7c56c9"}],"isLawIndex":false}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Eu-UvfunzEwjnKcUq5f7W"}
+4:["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","precedence":"next"}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

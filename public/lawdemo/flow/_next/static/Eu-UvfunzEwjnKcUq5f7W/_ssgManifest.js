@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fembed\u002Fflow\u002F[lawId]","\u002Fembed\u002Fflow\u002F[lawId]\u002F[slug]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

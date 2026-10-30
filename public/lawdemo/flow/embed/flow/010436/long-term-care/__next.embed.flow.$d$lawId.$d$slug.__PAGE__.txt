@@ -1,0 +1,416 @@
+1:"$Sreact.fragment"
+2:I[7742,["838","static/chunks/838-9b85aecee2a13f53.js","379","static/chunks/379-f104668f756ddde1.js","301","static/chunks/app/embed/flow/%5BlawId%5D/%5Bslug%5D/page-e3d0b6acb7d5d0b3.js"],"default"]
+6:I[977,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+:HL["/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","style"]
+3:T891f,<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 250 1744 1960" class="pp-svg">
+<defs>
+      <filter id="card-shadow" x="-20%" y="-25%" width="140%" height="160%">
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#12271e" flood-opacity="0.10"/>
+      </filter>
+      <marker id="arrow-sequence" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#53675d" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-message" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#0f8a65" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-loop" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#3478db" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <style>
+        text { font-family: "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", sans-serif; }
+        .mono { font-family: "SFMono-Regular", "Menlo", monospace; }
+      </style>
+    </defs>
+<rect width="1800" height="2400" fill="#ffffff"/>
+
+
+
+<rect x="38" y="260" width="1724" height="1940" rx="10" fill="#ffffff" stroke="#b8c7bf" stroke-width="2"/>
+<rect x="38" y="260" width="190" height="100" rx="10" fill="#eaf2ee"/>
+<text x="58" y="299" font-size="17" font-weight="800" fill="#17231d">단계 ↓</text>
+<text x="58" y="332" font-size="15" font-weight="650" fill="#68776f">행위자 묶음 →</text>
+<rect x="38" y="360" width="1724" height="181.4" fill="#fbfcfb"/>
+<rect x="38" y="360" width="190" height="181.4" fill="#eef3f0"/>
+<text x="58" y="392" class="mono" font-size="16" font-weight="800" fill="#53645b">G0</text>
+<text x="58" y="425" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">기준 고시</tspan></text>
+<rect x="38" y="541.4" width="1724" height="295.4" fill="#f5f8f6"/>
+<rect x="38" y="541.4" width="190" height="295.4" fill="#eef3f0"/>
+<text x="58" y="573.4" class="mono" font-size="16" font-weight="800" fill="#53645b">G1</text>
+<text x="58" y="606.4" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">인정 신청</tspan></text>
+<rect x="38" y="836.9" width="1724" height="295.4" fill="#fbfcfb"/>
+<rect x="38" y="836.9" width="190" height="295.4" fill="#eef3f0"/>
+<text x="58" y="868.9" class="mono" font-size="16" font-weight="800" fill="#53645b">G2</text>
+<text x="58" y="901.9" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">인정조사·소견서</tspan></text>
+<rect x="38" y="1132.3" width="1724" height="181.4" fill="#f5f8f6"/>
+<rect x="38" y="1132.3" width="190" height="181.4" fill="#eef3f0"/>
+<text x="58" y="1164.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G3</text>
+<text x="58" y="1197.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">등급판정</tspan></text>
+<rect x="38" y="1313.7" width="1724" height="181.4" fill="#fbfcfb"/>
+<rect x="38" y="1313.7" width="190" height="181.4" fill="#eef3f0"/>
+<text x="58" y="1345.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G4</text>
+<text x="58" y="1378.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">인정서·이용계약</tspan></text>
+<rect x="38" y="1495.1" width="1724" height="409.4" fill="#f5f8f6"/>
+<rect x="38" y="1495.1" width="190" height="409.4" fill="#eef3f0"/>
+<text x="58" y="1527.1" class="mono" font-size="16" font-weight="800" fill="#53645b">G5</text>
+<text x="58" y="1560.1" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">급여 이용·비용</tspan></text>
+<rect x="38" y="1904.6" width="1724" height="295.4" fill="#fbfcfb"/>
+<rect x="38" y="1904.6" width="190" height="295.4" fill="#eef3f0"/>
+<text x="58" y="1936.6" class="mono" font-size="16" font-weight="800" fill="#53645b">G6</text>
+<text x="58" y="1969.6" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">갱신·이의</tspan></text>
+<rect x="228" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="228" y="260" width="383.5" height="7" fill="#0f9f72"/>
+<text x="248" y="299" font-size="20" font-weight="800" fill="#17231d">신청자·국민건강보험공단</text>
+<text x="248" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="248" dy="0">신청자(노인·가족) · 국민건강보험공단</tspan></text>
+<rect x="611.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="611.5" y="260" width="383.5" height="7" fill="#3b82f6"/>
+<text x="631.5" y="299" font-size="20" font-weight="800" fill="#17231d">의료기관·장기요양등급판정위원회</text>
+<text x="631.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="631.5" dy="0">의료기관 · 장기요양등급판정위원회</tspan></text>
+<rect x="995" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="995" y="260" width="383.5" height="7" fill="#c78116"/>
+<text x="1015" y="299" font-size="20" font-weight="800" fill="#17231d">장기요양심사위원회·장기요양기관</text>
+<text x="1015" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1015" dy="0">장기요양심사위원회 · 장기요양기관</tspan></text>
+<rect x="1378.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="1378.5" y="260" width="383.5" height="7" fill="#0891b2"/>
+<text x="1398.5" y="299" font-size="20" font-weight="800" fill="#17231d">시장·군수·구청장·보건복지부</text>
+<text x="1398.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1398.5" dy="0">시장·군수·구청장(기관 지정) · 보건복지부(기준 고시)</tspan></text>
+<line x1="228" y1="260" x2="228" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="611.5" y1="260" x2="611.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="995" y1="260" x2="995" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1378.5" y1="260" x2="1378.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1762" y1="260" x2="1762" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#b8c7bf" stroke-width="2"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="541.4" x2="1762" y2="541.4" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="836.9" x2="1762" y2="836.9" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1132.3" x2="1762" y2="1132.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1313.7" x2="1762" y2="1313.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1495.1" x2="1762" y2="1495.1" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1904.6" x2="1762" y2="1904.6" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2200" x2="1762" y2="2200" stroke="#b8c7bf" stroke-width="2"/>
+<g class="pp-edge" data-edge-id="E01" data-source="P01" data-target="P02">
+<path d="M 1570.3 495.7 V 529.4 H 423.8 V 579.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1570.3 495.7 V 529.4 H 423.8 V 579.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E02" data-source="P02" data-target="P03">
+<path d="M 409.8 677.1 V 693.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 409.8 677.1 V 693.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E03" data-source="P03" data-target="P04">
+<path d="M 423.8 791.1 V 824.9 H 409.8 V 874.6" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 423.8 791.1 V 824.9 H 409.8 V 874.6" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E04" data-source="P04" data-target="P05">
+<path d="M 554.8 934.1 H 627.3 V 996.1 H 660.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 934.1 H 627.3 V 996.1 H 660.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E05" data-source="P05" data-target="P06">
+<path d="M 668.3 980.6 H 608.8 V 1049.1 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 668.3 980.6 H 608.8 V 1049.1 H 562.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E06" data-source="P06" data-target="P07">
+<path d="M 433.8 1086.6 V 1072.3 H 761.3 V 1170" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 433.8 1086.6 V 1072.3 H 761.3 V 1170" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E07" data-source="P07" data-target="P08">
+<path d="M 793.3 1268 V 1301.7 H 419.8 V 1351.4" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 793.3 1268 V 1301.7 H 419.8 V 1351.4" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E08" data-source="P08" data-target="P09">
+<path d="M 554.8 1419.9 H 1010.8 V 1400.4 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1419.9 H 1010.8 V 1400.4 H 1043.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E09" data-source="P09" data-target="P10">
+<path d="M 1196.8 1449.4 V 1483.1 H 1186.8 V 1646.9" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1196.8 1449.4 V 1483.1 H 1186.8 V 1646.9" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E10" data-source="P10" data-target="P12">
+<path d="M 1051.8 1691.9 H 595.8 V 1711.4 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1691.9 H 595.8 V 1711.4 H 562.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E11" data-source="P12" data-target="P13">
+<path d="M 409.8 1744.9 V 1760.9" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 409.8 1744.9 V 1760.9" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E12" data-source="P13" data-target="P15">
+<path d="M 423.8 1858.9 V 1892.6 H 429.8 V 1942.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 423.8 1858.9 V 1892.6 H 429.8 V 1942.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E13" data-source="P16" data-target="P17">
+<path d="M 554.8 2118.3 H 1023.8 V 2050.8 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 2118.3 H 1023.8 V 2050.8 H 1043.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M01" data-source="P07" data-target="P11">
+<path d="M 801.3 1268 V 1285.7 H 242 V 1512.9 H 407.8 V 1532.9" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 801.3 1268 V 1285.7 H 242 V 1512.9 H 407.8 V 1532.9" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M02" data-source="P10" data-target="P14">
+<path d="M 1321.8 1712.9 H 1407.3 V 1702.4 H 1427.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1321.8 1712.9 H 1407.3 V 1702.4 H 1427.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M03" data-source="P08" data-target="P16">
+<path d="M 399.8 1449.4 V 1483.1 H 259 V 2036.3 H 403.8 V 2056.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 399.8 1449.4 V 1483.1 H 259 V 2036.3 H 403.8 V 2056.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L01" data-source="P15" data-target="P06">
+<path d="M 284.8 1988.8 H 216 V 1112.3 H 393.8 V 1094.6" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 284.8 1988.8 H 216 V 1112.3 H 393.8 V 1094.6" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L02" data-source="P17" data-target="P07">
+<path d="M 1051.8 2058.8 H 203 V 1261.7 H 833.3 V 1276" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 2058.8 H 203 V 1261.7 H 833.3 V 1276" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge-label" data-edge-id="E06" data-source="P06" data-target="P07">
+<rect x="610.1" y="1040.3" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="667.5" y="1060.3" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">인정점수 회부</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E07" data-source="P07" data-target="P08">
+<rect x="558.5" y="1269.7" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="606.5" y="1289.7" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">등급 판정</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M01" data-source="P07" data-target="P11">
+<rect x="110.7" y="1276.3" width="262.6" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="242" y="1296.3" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">재가·시설 이용 곤란 시 특별현금급여</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M02" data-source="P10" data-target="P14">
+<rect x="1301.1" y="1603.6" width="154.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1378.5" y="1623.6" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">기관 관리·감독 대상</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M03" data-source="P08" data-target="P16">
+<rect x="231.7" y="1888.7" width="194.7" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="329" y="1908.7" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">등급판정 불복 시 심사청구</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L01" data-source="P15" data-target="P06">
+<rect x="219.1" y="1466.8" width="133.8" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="286" y="1486.8" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">갱신 재판정 회귀</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L02" data-source="P17" data-target="P07">
+<rect x="390.2" y="1498" width="185.6" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="483" y="1518" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">인용 결정 시 등급 재판정</text>
+</g>
+
+    <g class="pp-node" data-node-id="P01" data-basis="노인장기요양보험법:제9조 노인장기요양보험법:제39조 노인장기요양보험법시행령:제4조 노인장기요양보험법시행령:제7조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="405.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="405.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="425.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P01</text>
+      
+      <rect x="1626.3" y="412.7" width="69" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1660.8" y="429.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §9 +1</text>
+      <text x="1450.3" y="462.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">보험료율·수가·등급판정기준 고시</tspan></text>
+      <text x="1450.3" y="487.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 매년 고시(연도별 적용)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P02" data-basis="노인장기요양보험법:제13조 노인장기요양보험법시행규칙:제2조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="587.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="587.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="607.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P02</text>
+      
+      <rect x="468.8" y="594.1" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="611.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §13 +1</text>
+      <text x="299.8" y="644.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">장기요양인정 신청</tspan></text>
+      <text x="299.8" y="669.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 상시 신청</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P03" data-basis="노인장기요양보험법:제13조 노인장기요양보험법:제14조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="701.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="701.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="721.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P03</text>
+      
+      <rect x="485.8" y="708.1" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="725.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §13</text>
+      <text x="299.8" y="758.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">신청 접수</tspan></text>
+      <text x="299.8" y="783.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 신청 당일 접수</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P04" data-basis="노인장기요양보험법:제14조 노인장기요양보험법시행규칙:제5조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="882.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="882.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="902.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P04</text>
+      
+      <rect x="468.8" y="889.6" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="906.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §14 +1</text>
+      <text x="299.8" y="939.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">방문 인정조사(심신상태)</tspan></text>
+      <text x="299.8" y="964.6" font-size="11" font-weight="650" fill="#3b4a43">기한 · 조사기간 내 완료</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P05" data-basis="노인장기요양보험법:제13조 노인장기요양보험법시행령:제6조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="939.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="939.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="959.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P05</text>
+      
+      <rect x="852.3" y="946.6" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="963.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §13 +1</text>
+      <text x="683.3" y="996.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">의사소견서 제출</tspan></text>
+      <text x="683.3" y="1021.6" font-size="11" font-weight="650" fill="#3b4a43">기한 · 등급판정 전 제출</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P06" data-basis="노인장기요양보험법:제15조 노인장기요양보험법시행령:제7조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="996.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="996.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1016.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P06</text>
+      
+      <rect x="468.8" y="1003.6" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="1020.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §15 +1</text>
+      <text x="299.8" y="1043.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">인정조사표·장기요양인정점수</tspan><tspan x="299.8" dy="18">산정</tspan></text>
+      <text x="299.8" y="1078.6" font-size="11" font-weight="650" fill="#3b4a43">기한 · 위원회 회부 전</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P07" data-basis="노인장기요양보험법:제15조 노인장기요양보험법:제16조 노인장기요양보험법시행령:제7조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1178" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1178" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1198" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P07</text>
+      
+      <rect x="852.3" y="1185" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="1202" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §15 +1</text>
+      <text x="683.3" y="1235" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">등급판정위원회 심의·등급판정</tspan></text>
+      <text x="683.3" y="1260" font-size="11" font-weight="650" fill="#3b4a43">기한 · 신청서 제출일부터 30일 이내(30일 연…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P08" data-basis="노인장기요양보험법:제17조 노인장기요양보험법시행규칙:제6조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1359.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1359.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1379.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P08</text>
+      
+      <rect x="468.8" y="1366.4" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="1383.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §17 +1</text>
+      <text x="299.8" y="1406.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">장기요양인정서·개인별이용계획</tspan><tspan x="299.8" dy="18">서 발급</tspan></text>
+      <text x="299.8" y="1441.4" font-size="11" font-weight="650" fill="#3b4a43">기한 · 등급판정 후 지체 없이 발급</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P09" data-basis="노인장기요양보험법:제23조 노인장기요양보험법:제27조 노인장기요양보험법시행규칙:제16조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1359.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1359.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1379.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P09</text>
+      
+      <rect x="1235.8" y="1366.4" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1383.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §23 +1</text>
+      <text x="1066.8" y="1416.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">장기요양기관 이용 계약</tspan></text>
+      <text x="1066.8" y="1441.4" font-size="11" font-weight="650" fill="#3b4a43">기한 · 이용 개시 전</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P10" data-basis="노인장기요양보험법:제23조 노인장기요양보험법시행규칙:제14조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1654.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1654.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1674.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P10</text>
+      
+      <rect x="1235.8" y="1661.9" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1678.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §23 +1</text>
+      <text x="1066.8" y="1711.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">재가·시설급여 제공</tspan></text>
+      <text x="1066.8" y="1736.9" font-size="11" font-weight="650" fill="#3b4a43">기한 · 이용계획 범위 내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P11" data-basis="노인장기요양보험법:제23조 노인장기요양보험법:제24조 노인장기요양보험법시행령:제12조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1540.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1540.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1560.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P11</text>
+      
+      <rect x="468.8" y="1547.9" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="1564.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §23 +1</text>
+      <text x="299.8" y="1597.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">특별현금급여 지급</tspan></text>
+      <text x="299.8" y="1622.9" font-size="11" font-weight="650" fill="#3b4a43">기한 · 요건 충족 시 지급</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P12" data-basis="노인장기요양보험법:제38조 노인장기요양보험법시행규칙:제30조 노인장기요양보험법시행규칙:제31조 노인장기요양보험법시행규칙:제32조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1654.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1654.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1674.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">▣ P12</text>
+      
+      <rect x="468.8" y="1661.9" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="1678.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §38 +1</text>
+      <text x="299.8" y="1711.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">급여비용 청구·지급</tspan></text>
+      <text x="299.8" y="1736.9" font-size="11" font-weight="650" fill="#3b4a43">기한 · 제공 후 정산</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P13" data-basis="노인장기요양보험법:제40조 노인장기요양보험법시행령:제15조의8 노인장기요양보험법시행규칙:제34조 노인장기요양보험법시행규칙:제35조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1768.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1768.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1788.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P13</text>
+      
+      <rect x="468.8" y="1775.9" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="1792.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §40 +2</text>
+      <text x="299.8" y="1825.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">본인일부부담금 납부</tspan></text>
+      <text x="299.8" y="1850.9" font-size="11" font-weight="650" fill="#3b4a43">기한 · 이용 시 납부</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P14" data-basis="노인장기요양보험법:제31조 노인장기요양보험법:제37조 노인장기요양보험법시행령:제14조 노인장기요양보험법시행규칙:제23조 노인장기요양보험법시행규칙:제29조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="1654.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="1654.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="1674.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P14</text>
+      
+      <rect x="1619.3" y="1661.9" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1657.3" y="1678.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §31 +2</text>
+      <text x="1450.3" y="1711.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">장기요양기관 지정·관리</tspan></text>
+      <text x="1450.3" y="1736.9" font-size="11" font-weight="650" fill="#3b4a43">기한 · 상시 관리</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P15" data-basis="노인장기요양보험법:제20조 노인장기요양보험법:제21조 노인장기요양보험법시행령:제8조 노인장기요양보험법시행규칙:제8조 노인장기요양보험법시행규칙:제9조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1950.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1950.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1970.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P15</text>
+      
+      <rect x="468.8" y="1957.3" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="1974.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §20 +2</text>
+      <text x="299.8" y="2007.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">갱신·등급변경 신청</tspan></text>
+      <text x="299.8" y="2032.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 유효기간 만료 전(영 제8조)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P16" data-basis="노인장기요양보험법:제55조 노인장기요양보험법시행규칙:제39조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="2064.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="2064.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="2084.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P16</text>
+      
+      <rect x="468.8" y="2071.3" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="2088.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §55 +1</text>
+      <text x="299.8" y="2121.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">심사청구</tspan></text>
+      <text x="299.8" y="2146.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 처분이 있음을 안 날부터 90일 이내(법…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P17" data-basis="노인장기요양보험법:제55조 노인장기요양보험법시행규칙:제39조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="2007.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="2007.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="2027.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P17</text>
+      
+      <rect x="1235.8" y="2014.3" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="2031.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §55 +1</text>
+      <text x="1066.8" y="2064.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">심사청구 심사·재결정</tspan></text>
+      <text x="1066.8" y="2089.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 결정 시 지체 없이 심사결정서 송부</text>
+    </g>
+  
+
+</svg>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"law":{"lawId":"010436","mst":"286217","name":"노인장기요양보험법","kind":"법률","tier":"statute","effectiveOn":"2026-05-26","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법"},"flows":[{"slug":"long-term-care","name":"노인장기요양보험","oneLiner":"노인장기요양보험의 전체 골격을 한눈에 보고, 수급자·보호자와 기관 운영자·종사자용 상세 경로로 이동하는 개요 페이지","citingSteps":17,"totalSteps":17,"articles":{"제9조":1,"제39조":1,"제13조":3,"제14조":2,"제15조":2,"제16조":1,"제17조":1,"제23조":3,"제27조":1,"제24조":1,"제38조":1,"제40조":1,"제31조":1,"제37조":1,"제20조":1,"제21조":1,"제55조":2}}],"current":"$0:rsc:props:children:0:props:flows:0","asOfDate":"2026-07-10","reviewNote":"주요 절차를 요약한 참고 모델입니다. 모든 예외·위임규정의 현행성까지 전수 검증한 자료는 아닙니다. 법령 체계의 보관 자료와 현행 원문은 다를 수 있습니다.","svg":"$3","nodes":[{"id":"P01","name":"보험료율·수가·등급판정기준 고시","lane":"보건복지부(기준 고시)","stage":"G0 기준 고시","type":"task","status":"done","progress":100,"actor":"보건복지부장관","action":"심의·고시","output_documents":["등급판정기준 고시","급여비용 수가"],"deadline":"매년 고시(연도별 적용)","confidence":0.8,"legal_basis":[{"law":"노인장기요양보험법","article":"제9조·제39조","text":"보건복지부장관은 장기요양보험료율·급여비용 수가·등급판정기준을 정하여 고시한다."},{"law":"노인장기요양보험법 시행령","article":"제4조·제7조","text":"장기요양보험료율(제4조)과 등급판정기준(제7조)을 구체적으로 정한다."}]},{"id":"P02","name":"장기요양인정 신청","lane":"신청자(노인·가족)","stage":"G1 인정 신청","type":"task","status":"done","progress":100,"actor":"65세 이상 또는 노인성 질병 대상자·가족","receiver":"국민건강보험공단","action":"인정 신청","output_documents":["장기요양인정 신청서"],"deadline":"상시 신청","confidence":0.85,"legal_basis":[{"law":"노인장기요양보험법","article":"제13조","text":"장기요양인정을 받으려는 자는 공단에 장기요양인정을 신청한다."},{"law":"노인장기요양보험법 시행규칙","article":"제2조","text":"장기요양인정 신청 및 의사소견서 제출의 서식·방법을 정한다(정보통신망 신청 포함)."}]},{"id":"P03","name":"신청 접수","lane":"국민건강보험공단","stage":"G1 인정 신청","type":"task","status":"done","progress":100,"actor":"국민건강보험공단","action":"접수","input_documents":["장기요양인정 신청서"],"output_documents":["접수증"],"deadline":"신청 당일 접수","confidence":0.84,"legal_basis":[{"law":"노인장기요양보험법","article":"제13조·제14조","text":"공단은 신청을 접수하고 소속 직원으로 하여금 인정조사를 하게 한다."}]},{"id":"P04","name":"방문 인정조사(심신상태)","lane":"국민건강보험공단","stage":"G2 인정조사·소견서","type":"task","status":"current","progress":50,"actor":"공단 조사원","action":"방문 인정조사","output_documents":["인정조사표"],"deadline":"조사기간 내 완료","blocker":"방문 인정조사 일정 조율로 조사가 지연될 수 있다(운영 추정)","confidence":0.78,"legal_basis":[{"law":"노인장기요양보험법","article":"제14조","text":"공단은 소속 직원으로 하여금 신청인의 심신상태 등을 조사하게 한다."},{"law":"노인장기요양보험법 시행규칙","article":"제5조","text":"장기요양인정 신청의 조사 항목·방법을 정한다."}]},{"id":"P05","name":"의사소견서 제출","lane":"의료기관","stage":"G2 인정조사·소견서","type":"task","status":"waiting","progress":0,"actor":"의사·신청인","receiver":"국민건강보험공단","action":"소견서 제출","output_documents":["의사소견서"],"deadline":"등급판정 전 제출","confidence":0.8,"legal_basis":[{"law":"노인장기요양보험법","article":"제13조제2항","text":"신청인은 신청서에 의사소견서를 첨부하여 제출하여야 한다."},{"law":"노인장기요양보험법 시행령","article":"제6조","text":"거동이 현저히 불편한 자 등 의사소견서 제출 제외자를 정한다."}]},{"id":"P06","name":"인정조사표·장기요양인정점수 산정","lane":"국민건강보험공단","stage":"G2 인정조사·소견서","type":"gateway","status":"waiting","progress":0,"actor":"국민건강보험공단","action":"인정점수 산정","condition":"인정조사 결과·소견서 기반 장기요양인정점수 구간","input_documents":["인정조사표","의사소견서"],"output_documents":["장기요양인정점수"],"deadline":"위원회 회부 전","confidence":0.79,"legal_basis":[{"law":"노인장기요양보험법","article":"제15조제1항","text":"공단은 조사 결과와 의사소견서를 바탕으로 인정점수를 산정하여 등급판정위원회에 제출한다."},{"law":"노인장기요양보험법 시행령","article":"제7조","text":"심신상태·기능상태 등을 반영한 등급판정기준(인정점수 산정 기준)을 정한다."}]},{"id":"P07","name":"등급판정위원회 심의·등급판정","lane":"장기요양등급판정위원회","stage":"G3 등급판정","type":"gateway","status":"waiting","progress":0,"actor":"장기요양등급판정위원회","action":"등급판정","condition":"1~5등급·인지지원등급 판정(인정점수 기준)","input_documents":["장기요양인정점수"],"output_documents":["등급판정 결과"],"deadline":"신청서 제출일부터 30일 이내(30일 연장 가능, 법 제16조)","confidence":0.82,"legal_basis":[{"law":"노인장기요양보험법","article":"제15조제2항·제16조","text":"등급판정위원회는 인정점수 등 대통령령의 등급판정기준에 따라 등급을 판정하며(제15조), 신청서를 제출한 날부터 30일 이내에 판정을 완료한다(제16조, 30일 범위 연장 가능)."},{"law":"노인장기요양보험법 시행령","article":"제7조","text":"장기요양 1~5등급·인지지원등급의 인정점수 구간 등 등급판정기준을 정한다."}]},{"id":"P08","name":"장기요양인정서·개인별이용계획서 발급","lane":"국민건강보험공단","stage":"G4 인정서·이용계약","type":"notice","status":"waiting","progress":0,"actor":"국민건강보험공단","receiver":"수급자","action":"인정서 발급·통지","output_documents":["장기요양인정서","개인별장기요양이용계획서"],"deadline":"등급판정 후 지체 없이 발급","confidence":0.83,"legal_basis":[{"law":"노인장기요양보험법","article":"제17조","text":"공단은 등급판정 심의를 완료하면 지체 없이 장기요양인정서를 작성하여 수급자에게 송부하고, 월 한도액 범위의 개인별장기요양이용계획서를 함께 송부한다."},{"law":"노인장기요양보험법 시행규칙","article":"제6조","text":"장기요양인정서 및 개인별장기요양이용계획서의 작성 방법을 정한다."}]},{"id":"P09","name":"장기요양기관 이용 계약","lane":"장기요양기관","stage":"G4 인정서·이용계약","type":"task","status":"waiting","progress":0,"actor":"수급자·장기요양기관","action":"이용 계약","input_documents":["장기요양인정서","개인별장기요양이용계획서"],"output_documents":["이용 계약서"],"deadline":"이용 개시 전","confidence":0.8,"legal_basis":[{"law":"노인장기요양보험법","article":"제23조·제27조","text":"수급자는 지정 장기요양기관과 계약하여 급여를 이용한다."},{"law":"노인장기요양보험법 시행규칙","article":"제16조","text":"장기요양급여 계약의 절차·방법을 정한다."}]},{"id":"P10","name":"재가·시설급여 제공","lane":"장기요양기관","stage":"G5 급여 이용·비용","type":"task","status":"risk","progress":0,"actor":"요양보호사·장기요양기관","action":"급여 제공","output_documents":["급여 제공기록"],"deadline":"이용계획 범위 내","blocker":"요양보호사 부족·낮은 처우로 서비스 질 편차가 크다","confidence":0.76,"legal_basis":[{"law":"노인장기요양보험법","article":"제23조","text":"장기요양급여는 방문요양 등 재가급여와 시설급여로 제공한다."},{"law":"노인장기요양보험법 시행규칙","article":"제14조","text":"재가급여·시설급여의 범위와 제공기준을 정한다."}]},{"id":"P11","name":"특별현금급여 지급","lane":"국민건강보험공단","stage":"G5 급여 이용·비용","type":"task","status":"waiting","progress":0,"actor":"국민건강보험공단","receiver":"수급자","action":"특별현금급여 지급","output_documents":["가족요양비 등 지급내역"],"deadline":"요건 충족 시 지급","confidence":0.77,"legal_basis":[{"law":"노인장기요양보험법","article":"제23조·제24조","text":"도서·벽지 등 부득이한 경우 특별현금급여(가족요양비 등)를 지급한다."},{"law":"노인장기요양보험법 시행령","article":"제12조","text":"가족요양비의 지급 대상·기준을 정한다."}]},{"id":"P12","name":"급여비용 청구·지급","lane":"국민건강보험공단","stage":"G5 급여 이용·비용","type":"system","status":"waiting","progress":0,"actor":"국민건강보험공단·장기요양기관","action":"청구·지급","input_documents":["급여 제공기록"],"output_documents":["급여비용 청구·지급 내역"],"deadline":"제공 후 정산","confidence":0.79,"legal_basis":[{"law":"노인장기요양보험법","article":"제38조","text":"장기요양기관은 급여비용을 공단에 청구하고 공단이 이를 지급한다."},{"law":"노인장기요양보험법 시행규칙","article":"제30조·제31조·제32조","text":"급여비용의 청구(제30조)·심사·지급(제31조)과 재가·시설 급여비용 산정방법(제32조)을 정한다."}]},{"id":"P13","name":"본인일부부담금 납부","lane":"신청자(노인·가족)","stage":"G5 급여 이용·비용","type":"task","status":"waiting","progress":0,"actor":"수급자","action":"본인부담금 납부","output_documents":["본인부담금 납부내역"],"deadline":"이용 시 납부","confidence":0.8,"legal_basis":[{"law":"노인장기요양보험법","article":"제40조","text":"수급자는 재가 15%·시설 20% 등 본인일부부담금을 부담하되 기초수급자는 면제·감경한다."},{"law":"노인장기요양보험법 시행령","article":"제15조의8","text":"본인부담금의 비율·감경 대상 등 산정기준을 정한다."},{"law":"노인장기요양보험법 시행규칙","article":"제34조·제35조","text":"천재지변 등 본인부담금 감경 대상(제34조)과 감면 절차·방법(제35조)을 정한다."}]},{"id":"P14","name":"장기요양기관 지정·관리","lane":"시장·군수·구청장(기관 지정)","stage":"G5 급여 이용·비용","type":"task","status":"risk","progress":0,"actor":"시장·군수·구청장","action":"기관 지정·관리·감독","output_documents":["지정·행정처분 결과"],"deadline":"상시 관리","blocker":"부정청구·급여비용 관리 부담이 크다(운영 추정)","confidence":0.76,"legal_basis":[{"law":"노인장기요양보험법","article":"제31조·제37조","text":"시·군·구는 장기요양기관을 지정하고 관리·감독하며 위반 시 지정취소 등 행정처분을 한다."},{"law":"노인장기요양보험법 시행령","article":"제14조","text":"장기요양기관의 지정 대상을 정한다."},{"law":"노인장기요양보험법 시행규칙","article":"제23조·제29조","text":"장기요양기관 지정기준(제23조)과 행정처분의 기준(제29조)을 정한다."}]},{"id":"P15","name":"갱신·등급변경 신청","lane":"신청자(노인·가족)","stage":"G6 갱신·이의","type":"task","status":"loop","progress":0,"actor":"수급자·가족","receiver":"국민건강보험공단","action":"갱신·등급변경 신청","output_documents":["갱신·변경 신청서"],"deadline":"유효기간 만료 전(영 제8조)","blocker":"유효기간 만료 시 인정조사·등급판정 회귀 단계","confidence":0.78,"legal_basis":[{"law":"노인장기요양보험법","article":"제20조·제21조","text":"장기요양인정 유효기간이 만료되면 갱신 신청하며 심신상태 변화 시 등급변경을 신청할 수 있다."},{"law":"노인장기요양보험법 시행령","article":"제8조","text":"장기요양인정의 유효기간을 정한다."},{"law":"노인장기요양보험법 시행규칙","article":"제8조·제9조","text":"장기요양인정 갱신절차(제8조)와 장기요양등급 등의 변경절차(제9조)를 정한다."}]},{"id":"P16","name":"심사청구","lane":"신청자(노인·가족)","stage":"G6 갱신·이의","type":"task","status":"loop","progress":0,"actor":"수급자·신청자","receiver":"국민건강보험공단","action":"심사청구","input_documents":["장기요양인정서"],"output_documents":["심사청구서"],"deadline":"처분이 있음을 안 날부터 90일 이내(법 제55조제2항)","blocker":"등급판정 불복 회귀 단계","confidence":0.8,"legal_basis":[{"law":"노인장기요양보험법","article":"제55조","text":"장기요양인정·등급·급여비용 등 공단의 처분에 이의가 있는 자는 처분이 있음을 안 날부터 90일 이내에 공단에 심사청구를 할 수 있다."},{"law":"노인장기요양보험법 시행규칙","article":"제39조","text":"심사청구의 방식 등 절차를 정한다."}]},{"id":"P17","name":"심사청구 심사·재결정","lane":"장기요양심사위원회","stage":"G6 갱신·이의","type":"gateway","status":"waiting","progress":0,"actor":"국민건강보험공단(장기요양심사위원회)","action":"심사청구 심사·결정","condition":"심사청구 인용 여부(인용 시 등급 재판정 회귀)","input_documents":["심사청구서"],"output_documents":["심사청구 결정 통지"],"deadline":"결정 시 지체 없이 심사결정서 송부","confidence":0.78,"legal_basis":[{"law":"노인장기요양보험법","article":"제55조","text":"심사청구 사항을 심사하기 위해 공단에 장기요양심사위원회를 둔다."},{"law":"노인장기요양보험법 시행규칙","article":"제39조제3항","text":"공단은 심사청구에 대해 결정하면 심사결정서를 작성해 지체 없이 청구인에게 정본을, 이해관계인에게 사본을 보내야 한다."}]}],"edges":[{"id":"E01","source":"P01","target":"P02","type":"sequence","label":null},{"id":"E02","source":"P02","target":"P03","type":"sequence","label":null},{"id":"E03","source":"P03","target":"P04","type":"sequence","label":null},{"id":"E04","source":"P04","target":"P05","type":"sequence","label":null},{"id":"E05","source":"P05","target":"P06","type":"sequence","label":null},{"id":"E06","source":"P06","target":"P07","type":"sequence","label":"인정점수 회부"},{"id":"E07","source":"P07","target":"P08","type":"sequence","label":"등급 판정"},{"id":"E08","source":"P08","target":"P09","type":"sequence","label":null},{"id":"E09","source":"P09","target":"P10","type":"sequence","label":null},{"id":"E10","source":"P10","target":"P12","type":"sequence","label":null},{"id":"E11","source":"P12","target":"P13","type":"sequence","label":null},{"id":"E12","source":"P13","target":"P15","type":"sequence","label":null},{"id":"E13","source":"P16","target":"P17","type":"sequence","label":null},{"id":"M01","source":"P07","target":"P11","type":"message","label":"재가·시설 이용 곤란 시 특별현금급여"},{"id":"M02","source":"P10","target":"P14","type":"message","label":"기관 관리·감독 대상"},{"id":"M03","source":"P08","target":"P16","type":"message","label":"등급판정 불복 시 심사청구"},{"id":"L01","source":"P15","target":"P06","type":"loop","label":"갱신 재판정 회귀"},{"id":"L02","source":"P17","target":"P07","type":"loop","label":"인용 결정 시 등급 재판정"}],"lawContext":{"byNode":{"P01":[{"law":"노인장기요양보험법","article":"제9조·제39조","text":"보건복지부장관은 장기요양보험료율·급여비용 수가·등급판정기준을 정하여 고시한다.","found":true,"lawId":"010436","tier":"statute","articles":[{"label":"제9조","title":"장기요양보험료의 산정","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제9조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"노인장기요양보험법 시행령","label":"제4조","title":"장기요양보험료율","tier":"decree"}]},{"label":"제39조","title":"장기요양급여비용 등의 산정","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제39조","up":[],"down":[{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"노인장기요양보험법 시행규칙","label":"제32조","title":"재가 및 시설 급여비용의 산정방법 및 항목","tier":"rule"},{"kind":"adminRule","phrase":"다음 연도의 재가 및 시설 급여비용과 특별현금급여의 지급금액을 정하여 고시하여야 한다.","lawName":"장기요양급여 제공기준 및 급여비용 산정방법 등에 관한 고시","label":null,"title":null,"tier":"adminRule"}]}]},{"law":"노인장기요양보험법 시행령","article":"제4조·제7조","text":"장기요양보험료율(제4조)과 등급판정기준(제7조)을 구체적으로 정한다.","found":true,"lawId":"010436","tier":"decree","articles":[{"label":"제4조","title":"장기요양보험료율","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행령/제4조","up":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"노인장기요양보험법","label":"제9조제2항","title":"장기요양보험료의 산정","tier":"statute"}],"down":[]},{"label":"제7조","title":"등급판정기준 등","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행령/제7조","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"노인장기요양보험법","label":"제15조제2항","title":"등급판정 등","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"보건복지부장관이 정하여 고시하는 심신의 기능 저하 상태를 측정하는 방법에 따라 산정한다.","lawName":"장기요양등급판정기준에 관한 고시","label":null,"title":null,"tier":"adminRule"}]}]}],"P02":[{"law":"노인장기요양보험법","article":"제13조","text":"장기요양인정을 받으려는 자는 공단에 장기요양인정을 신청한다.","found":true,"lawId":"010436","tier":"statute","articles":[{"label":"제13조","title":"장기요양인정의 신청","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제13조","up":[],"down":[{"kind":"rule","phrase":"공단에 보건복지부령으로 정하는 바에 따라 장기요양인정신청서","lawName":"노인장기요양보험법 시행규칙","label":"제2조","title":"장기요양인정 신청 및 의사소견서 제출","tier":"rule"},{"kind":"decree","phrase":"대통령령으로 정하는 자는 의사소견서를 제출하지","lawName":"노인장기요양보험법 시행령","label":"제6조","title":"의사소견서 제출 제외자","tier":"decree"},{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"노인장기요양보험법 시행규칙","label":"제4조","title":"의사소견서 발급비용 등","tier":"rule"}]}]},{"law":"노인장기요양보험법 시행규칙","article":"제2조","text":"장기요양인정 신청 및 의사소견서 제출의 서식·방법을 정한다(정보통신망 신청 포함).","found":true,"lawId":"010436","tier":"rule","articles":[{"label":"제2조","title":"장기요양인정 신청 및 의사소견서 제출","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행규칙/제2조","up":[{"kind":"rule","phrase":"공단에 보건복지부령으로 정하는 바에 따라 장기요양인정신청서","lawName":"노인장기요양보험법","label":"제13조제1항","title":"장기요양인정의 신청","tier":"statute"},{"kind":"rule","phrase":"보건복지부령으로 정하는 바에","lawName":"노인장기요양보험법","label":"제14조제1항","title":"장기요양인정 신청의 조사","tier":"statute"},{"kind":"rule","phrase":"보건복지부령으로 정하는 사항","lawName":"노인장기요양보험법","label":"제14조제1항제3호","title":"장기요양인정 신청의 조사","tier":"statute"}],"down":[]}]}],"P03":[{"law":"노인장기요양보험법","article":"제13조·제14조","text":"공단은 신청을 접수하고 소속 직원으로 하여금 인정조사를 하게 한다.","found":true,"lawId":"010436","tier":"statute","articles":[{"label":"제13조","title":"장기요양인정의 신청","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제13조","up":[],"down":[{"kind":"rule","phrase":"공단에 보건복지부령으로 정하는 바에 따라 장기요양인정신청서","lawName":"노인장기요양보험법 시행규칙","label":"제2조","title":"장기요양인정 신청 및 의사소견서 제출","tier":"rule"},{"kind":"decree","phrase":"대통령령으로 정하는 자는 의사소견서를 제출하지","lawName":"노인장기요양보험법 시행령","label":"제6조","title":"의사소견서 제출 제외자","tier":"decree"},{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"노인장기요양보험법 시행규칙","label":"제4조","title":"의사소견서 발급비용 등","tier":"rule"}]},{"label":"제14조","title":"장기요양인정 신청의 조사","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제14조","up":[],"down":[{"kind":"rule","phrase":"보건복지부령으로 정하는 바에","lawName":"노인장기요양보험법 시행규칙","label":"제2조","title":"장기요양인정 신청 및 의사소견서 제출","tier":"rule"},{"kind":"rule","phrase":"보건복지부령으로 정하는 바에","lawName":"노인장기요양보험법 시행규칙","label":"제5조","title":"장기요양인정 신청의 조사","tier":"rule"},{"kind":"rule","phrase":"보건복지부령으로 정하는 사항","lawName":"노인장기요양보험법 시행규칙","label":"제2조","title":"장기요양인정 신청 및 의사소견서 제출","tier":"rule"},{"kind":"rule","phrase":"보건복지부령으로 정하는 사항","lawName":"노인장기요양보험법 시행규칙","label":"제5조","title":"장기요양인정 신청의 조사","tier":"rule"}]}]}],"P04":[{"law":"노인장기요양보험법","article":"제14조","text":"공단은 소속 직원으로 하여금 신청인의 심신상태 등을 조사하게 한다.","found":true,"lawId":"010436","tier":"statute","articles":[{"label":"제14조","title":"장기요양인정 신청의 조사","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제14조","up":[],"down":[{"kind":"rule","phrase":"보건복지부령으로 정하는 바에","lawName":"노인장기요양보험법 시행규칙","label":"제2조","title":"장기요양인정 신청 및 의사소견서 제출","tier":"rule"},{"kind":"rule","phrase":"보건복지부령으로 정하는 바에","lawName":"노인장기요양보험법 시행규칙","label":"제5조","title":"장기요양인정 신청의 조사","tier":"rule"},{"kind":"rule","phrase":"보건복지부령으로 정하는 사항","lawName":"노인장기요양보험법 시행규칙","label":"제2조","title":"장기요양인정 신청 및 의사소견서 제출","tier":"rule"},{"kind":"rule","phrase":"보건복지부령으로 정하는 사항","lawName":"노인장기요양보험법 시행규칙","label":"제5조","title":"장기요양인정 신청의 조사","tier":"rule"}]}]},{"law":"노인장기요양보험법 시행규칙","article":"제5조","text":"장기요양인정 신청의 조사 항목·방법을 정한다.","found":true,"lawId":"010436","tier":"rule","articles":[{"label":"제5조","title":"장기요양인정 신청의 조사","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행규칙/제5조","up":[{"kind":"rule","phrase":"보건복지부령으로 정하는 바에","lawName":"노인장기요양보험법","label":"제14조제1항","title":"장기요양인정 신청의 조사","tier":"statute"},{"kind":"rule","phrase":"보건복지부령으로 정하는 사항","lawName":"노인장기요양보험법","label":"제14조제1항제3호","title":"장기요양인정 신청의 조사","tier":"statute"}],"down":[]}]}],"P05":[{"law":"노인장기요양보험법","article":"제13조제2항","text":"신청인은 신청서에 의사소견서를 첨부하여 제출하여야 한다.","found":true,"lawId":"010436","tier":"statute","articles":[{"label":"제13조","title":"장기요양인정의 신청","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제13조","up":[],"down":[{"kind":"rule","phrase":"공단에 보건복지부령으로 정하는 바에 따라 장기요양인정신청서","lawName":"노인장기요양보험법 시행규칙","label":"제2조","title":"장기요양인정 신청 및 의사소견서 제출","tier":"rule"},{"kind":"decree","phrase":"대통령령으로 정하는 자는 의사소견서를 제출하지","lawName":"노인장기요양보험법 시행령","label":"제6조","title":"의사소견서 제출 제외자","tier":"decree"},{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"노인장기요양보험법 시행규칙","label":"제4조","title":"의사소견서 발급비용 등","tier":"rule"}]}]},{"law":"노인장기요양보험법 시행령","article":"제6조","text":"거동이 현저히 불편한 자 등 의사소견서 제출 제외자를 정한다.","found":true,"lawId":"010436","tier":"decree","articles":[{"label":"제6조","title":"의사소견서 제출 제외자","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행령/제6조","up":[{"kind":"decree","phrase":"대통령령으로 정하는 자는 의사소견서를 제출하지","lawName":"노인장기요양보험법","label":"제13조제2항","title":"장기요양인정의 신청","tier":"statute"}],"down":[{"kind":"rule","phrase":"보건복지부령으로 정하는 기준에 따라 현저하게 불편한 자로서","lawName":"노인장기요양보험법 시행규칙","label":"제3조","title":"의사소견서 제출 제외자","tier":"rule"},{"kind":"adminRule","phrase":"보건복지부장관이 정하여 고시하는 도서·벽지 지역에 거주하는 자","lawName":"가족요양비 지급 및 의사소견서 제출 제외대상 섬·벽지지역 고시","label":null,"title":null,"tier":"adminRule"}]}]}],"P06":[{"law":"노인장기요양보험법","article":"제15조제1항","text":"공단은 조사 결과와 의사소견서를 바탕으로 인정점수를 산정하여 등급판정위원회에 제출한다.","found":true,"lawId":"010436","tier":"statute","articles":[{"label":"제15조","title":"등급판정 등","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제15조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"노인장기요양보험법 시행령","label":"제7조","title":"등급판정기준 등","tier":"decree"}]}]},{"law":"노인장기요양보험법 시행령","article":"제7조","text":"심신상태·기능상태 등을 반영한 등급판정기준(인정점수 산정 기준)을 정한다.","found":true,"lawId":"010436","tier":"decree","articles":[{"label":"제7조","title":"등급판정기준 등","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행령/제7조","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"노인장기요양보험법","label":"제15조제2항","title":"등급판정 등","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"보건복지부장관이 정하여 고시하는 심신의 기능 저하 상태를 측정하는 방법에 따라 산정한다.","lawName":"장기요양등급판정기준에 관한 고시","label":null,"title":null,"tier":"adminRule"}]}]}],"P07":[{"law":"노인장기요양보험법","article":"제15조제2항·제16조","text":"등급판정위원회는 인정점수 등 대통령령의 등급판정기준에 따라 등급을 판정하며(제15조), 신청서를 제출한 날부터 30일 이내에 판정을 완료한다(제16조, 30일 범위 연장 가능).","found":true,"lawId":"010436","tier":"statute","articles":[{"label":"제15조","title":"등급판정 등","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제15조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"노인장기요양보험법 시행령","label":"제7조","title":"등급판정기준 등","tier":"decree"}]},{"label":"제16조","title":"장기요양등급판정기간","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제16조","up":[],"down":[]}]},{"law":"노인장기요양보험법 시행령","article":"제7조","text":"장기요양 1~5등급·인지지원등급의 인정점수 구간 등 등급판정기준을 정한다.","found":true,"lawId":"010436","tier":"decree","articles":[{"label":"제7조","title":"등급판정기준 등","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행령/제7조","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"노인장기요양보험법","label":"제15조제2항","title":"등급판정 등","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"보건복지부장관이 정하여 고시하는 심신의 기능 저하 상태를 측정하는 방법에 따라 산정한다.","lawName":"장기요양등급판정기준에 관한 고시","label":null,"title":null,"tier":"adminRule"}]}]}],"P08":[{"law":"노인장기요양보험법","article":"제17조","text":"공단은 등급판정 심의를 완료하면 지체 없이 장기요양인정서를 작성하여 수급자에게 송부하고, 월 한도액 범위의 개인별장기요양이용계획서를 함께 송부한다.","found":true,"lawId":"010436","tier":"statute","articles":[{"label":"제17조","title":"장기요양인정서","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제17조","up":[],"down":[{"kind":"rule","phrase":"보건복지부령으로 정하는","lawName":"노인장기요양보험법 시행규칙","label":"제6조","title":"장기요양인정서 및 개인별장기요양이용계획서","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제6조","title":"장기요양인정서 및 개인별장기요양이용계획서","tier":"rule"}]}]},{"law":"노인장기요양보험법 시행규칙","article":"제6조","text":"장기요양인정서 및 개인별장기요양이용계획서의 작성 방법을 정한다.","found":true,"lawId":"010436","tier":"rule","articles":[{"label":"제6조","title":"장기요양인정서 및 개인별장기요양이용계획서","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행규칙/제6조","up":[{"kind":"rule","phrase":"보건복지부령으로 정하는","lawName":"노인장기요양보험법","label":"제17조제1항제3호","title":"장기요양인정서","tier":"statute"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법","label":"제17조제4항","title":"장기요양인정서","tier":"statute"}],"down":[]}]}],"P09":[{"law":"노인장기요양보험법","article":"제23조·제27조","text":"수급자는 지정 장기요양기관과 계약하여 급여를 이용한다.","found":true,"lawId":"010436","tier":"statute","articles":[{"label":"제23조","title":"장기요양급여의 종류","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제23조","up":[],"down":[{"kind":"rule","phrase":"보건복지부령으로 정하는","lawName":"노인장기요양보험법 시행규칙","label":"제11조","title":"단기보호 급여기간","tier":"rule"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"노인장기요양보험법 시행령","label":"제9조","title":"기타재가급여","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"노인장기요양보험법 시행령","label":"제10조","title":"장기요양기관의 종류 및 기준","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"노인장기요양보험법 시행령","label":"제11조","title":"장기요양급여 종류별 장기요양요원의 범위","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"노인장기요양보험법 시행령","label":"제11조의2","title":"장기요양요원 중 요양보호사의 보수교육","tier":"decree"},{"kind":"rule","phrase":"보건복지부령으로 정하는","lawName":"노인장기요양보험법 시행규칙","label":"제19조의2","title":"통합재가서비스 제공기관의 인력, 시설 및 운영 기준 등","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제12조","title":"장기요양급여 제공기준의 일반원칙","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제14조","title":"장기요양급여의 범위 등","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제15조","title":"수급자에 대한 안내","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제16조","title":"장기요양급여 계약 등","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제17조","title":"장기요양급여 중복수급 금지","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제18조","title":"장기요양급여의 기록 등","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제19조","title":"기타재가급여 제공기준 등","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제19조의2","title":"통합재가서비스 제공기관의 인력, 시설 및 운영 기준 등","tier":"rule"}]},{"label":"제27조","title":"장기요양급여의 제공","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제27조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"노인장기요양보험법 시행령","label":"제13조","title":"장기요양급여의 제공","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"노인장기요양보험법 시행령","label":"제13조","title":"장기요양급여의 제공","tier":"decree"}]}]},{"law":"노인장기요양보험법 시행규칙","article":"제16조","text":"장기요양급여 계약의 절차·방법을 정한다.","found":true,"lawId":"010436","tier":"rule","articles":[{"label":"제16조","title":"장기요양급여 계약 등","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행규칙/제16조","up":[{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법","label":"제23조제5항","title":"장기요양급여의 종류","tier":"statute"}],"down":[]}]}],"P10":[{"law":"노인장기요양보험법","article":"제23조","text":"장기요양급여는 방문요양 등 재가급여와 시설급여로 제공한다.","found":true,"lawId":"010436","tier":"statute","articles":[{"label":"제23조","title":"장기요양급여의 종류","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제23조","up":[],"down":[{"kind":"rule","phrase":"보건복지부령으로 정하는","lawName":"노인장기요양보험법 시행규칙","label":"제11조","title":"단기보호 급여기간","tier":"rule"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"노인장기요양보험법 시행령","label":"제9조","title":"기타재가급여","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"노인장기요양보험법 시행령","label":"제10조","title":"장기요양기관의 종류 및 기준","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"노인장기요양보험법 시행령","label":"제11조","title":"장기요양급여 종류별 장기요양요원의 범위","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"노인장기요양보험법 시행령","label":"제11조의2","title":"장기요양요원 중 요양보호사의 보수교육","tier":"decree"},{"kind":"rule","phrase":"보건복지부령으로 정하는","lawName":"노인장기요양보험법 시행규칙","label":"제19조의2","title":"통합재가서비스 제공기관의 인력, 시설 및 운영 기준 등","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제12조","title":"장기요양급여 제공기준의 일반원칙","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제14조","title":"장기요양급여의 범위 등","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제15조","title":"수급자에 대한 안내","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제16조","title":"장기요양급여 계약 등","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제17조","title":"장기요양급여 중복수급 금지","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제18조","title":"장기요양급여의 기록 등","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제19조","title":"기타재가급여 제공기준 등","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제19조의2","title":"통합재가서비스 제공기관의 인력, 시설 및 운영 기준 등","tier":"rule"}]}]},{"law":"노인장기요양보험법 시행규칙","article":"제14조","text":"재가급여·시설급여의 범위와 제공기준을 정한다.","found":true,"lawId":"010436","tier":"rule","articles":[{"label":"제14조","title":"장기요양급여의 범위 등","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행규칙/제14조","up":[{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법","label":"제23조제5항","title":"장기요양급여의 종류","tier":"statute"}],"down":[]}]}],"P11":[{"law":"노인장기요양보험법","article":"제23조·제24조","text":"도서·벽지 등 부득이한 경우 특별현금급여(가족요양비 등)를 지급한다.","found":true,"lawId":"010436","tier":"statute","articles":[{"label":"제23조","title":"장기요양급여의 종류","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제23조","up":[],"down":[{"kind":"rule","phrase":"보건복지부령으로 정하는","lawName":"노인장기요양보험법 시행규칙","label":"제11조","title":"단기보호 급여기간","tier":"rule"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"노인장기요양보험법 시행령","label":"제9조","title":"기타재가급여","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"노인장기요양보험법 시행령","label":"제10조","title":"장기요양기관의 종류 및 기준","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"노인장기요양보험법 시행령","label":"제11조","title":"장기요양급여 종류별 장기요양요원의 범위","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"노인장기요양보험법 시행령","label":"제11조의2","title":"장기요양요원 중 요양보호사의 보수교육","tier":"decree"},{"kind":"rule","phrase":"보건복지부령으로 정하는","lawName":"노인장기요양보험법 시행규칙","label":"제19조의2","title":"통합재가서비스 제공기관의 인력, 시설 및 운영 기준 등","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제12조","title":"장기요양급여 제공기준의 일반원칙","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제14조","title":"장기요양급여의 범위 등","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제15조","title":"수급자에 대한 안내","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제16조","title":"장기요양급여 계약 등","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제17조","title":"장기요양급여 중복수급 금지","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제18조","title":"장기요양급여의 기록 등","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제19조","title":"기타재가급여 제공기준 등","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제19조의2","title":"통합재가서비스 제공기관의 인력, 시설 및 운영 기준 등","tier":"rule"}]},{"label":"제24조","title":"가족요양비","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제24조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 기준에","lawName":"노인장기요양보험법 시행령","label":"제12조","title":"가족요양비 지급기준","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 사유로","lawName":"노인장기요양보험법 시행령","label":"제12조","title":"가족요양비 지급기준","tier":"decree"},{"kind":"rule","phrase":"필요한 사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제20조","title":"가족요양비 지급절차 등","tier":"rule"},{"kind":"adminRule","phrase":"현저히 부족한 지역으로서 보건복지부장관이 정하여 고시하는 지역에 거주하는 자","lawName":"가족요양비 지급 및 의사소견서 제출 제외대상 섬·벽지지역 고시","label":null,"title":null,"tier":"adminRule"}]}]},{"law":"노인장기요양보험법 시행령","article":"제12조","text":"가족요양비의 지급 대상·기준을 정한다.","found":true,"lawId":"010436","tier":"decree","articles":[{"label":"제12조","title":"가족요양비 지급기준","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행령/제12조","up":[{"kind":"decree","phrase":"대통령령으로 정하는 기준에","lawName":"노인장기요양보험법","label":"제24조제1항","title":"가족요양비","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정하는 사유로","lawName":"노인장기요양보험법","label":"제24조제1항제3호","title":"가족요양비","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"가족요양비의 지급금액은 재가급여의 이용수준 등을 고려하여 법 제45조에 따라 장기요양위원회의 심의를 거쳐 보건복지부장관이 정하여 고시한다","lawName":"장기요양급여 제공기준 및 급여비용 산정방법 등에 관한 고시","label":null,"title":null,"tier":"adminRule"}]}]}],"P12":[{"law":"노인장기요양보험법","article":"제38조","text":"장기요양기관은 급여비용을 공단에 청구하고 공단이 이를 지급한다.","found":true,"lawId":"010436","tier":"statute","articles":[{"label":"제38조","title":"재가 및 시설 급여비용의 청구 및 지급 등","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제38조","up":[],"down":[{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"노인장기요양보험법 시행규칙","label":"제30조","title":"장기요양급여비용의 청구 등","tier":"rule"},{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"노인장기요양보험법 시행규칙","label":"제31조","title":"장기요양 급여비용의 심사ㆍ지급","tier":"rule"},{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"노인장기요양보험법 시행규칙","label":"제31조의2","title":"장기요양급여비용의 가감지급기준","tier":"rule"},{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"노인장기요양보험법 시행규칙","label":"제31조의3","title":"장기요양급여비용 지급 보류의 절차ㆍ방법","tier":"rule"},{"kind":"adminRule","phrase":"장기요양급여비용 중 보건복지부장관이 정하여 고시하는 비율에 따라","lawName":"장기요양급여 제공기준 및 급여비용 산정방법 등에 관한 고시","label":null,"title":null,"tier":"adminRule"}]}]},{"law":"노인장기요양보험법 시행규칙","article":"제30조·제31조·제32조","text":"급여비용의 청구(제30조)·심사·지급(제31조)과 재가·시설 급여비용 산정방법(제32조)을 정한다.","found":true,"lawId":"010436","tier":"rule","articles":[{"label":"제30조","title":"장기요양급여비용의 청구 등","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행규칙/제30조","up":[{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"노인장기요양보험법","label":"제38조제8항","title":"재가 및 시설 급여비용의 청구 및 지급 등","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"청구명세서의 서식·작성요령 등 그 밖에 필요한 사항은 보건복지부장관이 정하여 고시한다.","lawName":"장기요양급여비용 청구 및 심사·지급업무 처리기준","label":null,"title":null,"tier":"adminRule"}]},{"label":"제31조","title":"장기요양 급여비용의 심사ㆍ지급","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행규칙/제31조","up":[{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"노인장기요양보험법","label":"제38조제8항","title":"재가 및 시설 급여비용의 청구 및 지급 등","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"장기요양급여비용의 심사·지급에 필요한 사항은 보건복지부장관이 정하여 고시한다.","lawName":"장기요양급여비용 청구 및 심사·지급업무 처리기준","label":null,"title":null,"tier":"adminRule"}]},{"label":"제32조","title":"재가 및 시설 급여비용의 산정방법 및 항목","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행규칙/제32조","up":[{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"노인장기요양보험법","label":"제39조제3항","title":"장기요양급여비용 등의 산정","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"이 경우 세부적인 산정기준은 보건복지부장관이 정하여 고시한다.","lawName":"장기요양급여 제공기준 및 급여비용 산정방법 등에 관한 고시","label":null,"title":null,"tier":"adminRule"}]}]}],"P13":[{"law":"노인장기요양보험법","article":"제40조","text":"수급자는 재가 15%·시설 20% 등 본인일부부담금을 부담하되 기초수급자는 면제·감경한다.","found":true,"lawId":"010436","tier":"statute","articles":[{"label":"제40조","title":"본인부담금","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제40조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"노인장기요양보험법 시행령","label":"제15조의8","title":"본인부담금","tier":"decree"},{"kind":"rule","phrase":"보건복지부령으로 정하는","lawName":"노인장기요양보험법 시행규칙","label":"제34조","title":"천재지변 등으로 인한 본인부담금 감경대상자","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제33조","title":"장기요양급여 대상여부의 확인 등","tier":"rule"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제35조","title":"본인부담금의 감면절차 및 방법","tier":"rule"},{"kind":"adminRule","phrase":"보건복지부장관이 정하는 바에 따라 차등하여 감경할 수 있다.","lawName":"장기요양 본인일부부담금 감경에 관한 고시","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"소득·재산 등이 보건복지부장관이 정하여 고시하는 일정 금액 이하인 자","lawName":"본인일부부담금 감경을 위한 소득·재산 등이 일정금액 이하인 자에 관한 고시","label":null,"title":null,"tier":"adminRule"}]}]},{"law":"노인장기요양보험법 시행령","article":"제15조의8","text":"본인부담금의 비율·감경 대상 등 산정기준을 정한다.","found":true,"lawId":"010436","tier":"decree","articles":[{"label":"제15조의8","title":"본인부담금","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행령/제15조의8","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"노인장기요양보험법","label":"제40조제1항","title":"본인부담금","tier":"statute"}],"down":[]}]},{"law":"노인장기요양보험법 시행규칙","article":"제34조·제35조","text":"천재지변 등 본인부담금 감경 대상(제34조)과 감면 절차·방법(제35조)을 정한다.","found":true,"lawId":"010436","tier":"rule","articles":[{"label":"제34조","title":"천재지변 등으로 인한 본인부담금 감경대상자","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행규칙/제34조","up":[{"kind":"rule","phrase":"보건복지부령으로 정하는","lawName":"노인장기요양보험법","label":"제40조제4항제3호","title":"본인부담금","tier":"statute"}],"down":[]},{"label":"제35조","title":"본인부담금의 감면절차 및 방법","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행규칙/제35조","up":[{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법","label":"제40조제5항","title":"본인부담금","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"보건복지부장관이 정하여 고시하는 일정 금액 이하인 자와 제34조에 따른 생계곤란자: 감경자임을","lawName":"본인일부부담금 감경을 위한 소득·재산 등이 일정금액 이하인 자에 관한 고시","label":null,"title":null,"tier":"adminRule"}]}]}],"P14":[{"law":"노인장기요양보험법","article":"제31조·제37조","text":"시·군·구는 장기요양기관을 지정하고 관리·감독하며 위반 시 지정취소 등 행정처분을 한다.","found":true,"lawId":"010436","tier":"statute","articles":[{"label":"제31조","title":"장기요양기관의 지정","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제31조","up":[],"down":[{"kind":"rule","phrase":"보건복지부령으로 정하는","lawName":"노인장기요양보험법 시행규칙","label":"제23조","title":"장기요양기관 지정기준 등","tier":"rule"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"노인장기요양보험법 시행령","label":"제14조","title":"장기요양기관의 지정 대상","tier":"decree"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법 시행규칙","label":"제23조","title":"장기요양기관 지정기준 등","tier":"rule"}]},{"label":"제37조","title":"장기요양기관 지정의 취소 등","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제37조","up":[],"down":[{"kind":"rule","phrase":"보건복지부령으로 정하는","lawName":"노인장기요양보험법 시행규칙","label":"제29조의2","title":"행정처분대장 등의 기록ㆍ관리","tier":"rule"},{"kind":"rule","phrase":"보건복지부령으로 정하는","lawName":"노인장기요양보험법 시행규칙","label":"제29조의3","title":"수급자의 권익보호 조치","tier":"rule"},{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"노인장기요양보험법 시행규칙","label":"제29조","title":"행정처분의 기준","tier":"rule"}]}]},{"law":"노인장기요양보험법 시행령","article":"제14조","text":"장기요양기관의 지정 대상을 정한다.","found":true,"lawId":"010436","tier":"decree","articles":[{"label":"제14조","title":"장기요양기관의 지정 대상","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행령/제14조","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"노인장기요양보험법","label":"제31조제2항","title":"장기요양기관의 지정","tier":"statute"}],"down":[]}]},{"law":"노인장기요양보험법 시행규칙","article":"제23조·제29조","text":"장기요양기관 지정기준(제23조)과 행정처분의 기준(제29조)을 정한다.","found":true,"lawId":"010436","tier":"rule","articles":[{"label":"제23조","title":"장기요양기관 지정기준 등","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행규칙/제23조","up":[{"kind":"rule","phrase":"보건복지부령으로 정하는","lawName":"노인장기요양보험법","label":"제31조제1항","title":"장기요양기관의 지정","tier":"statute"},{"kind":"rule","phrase":"사항은 보건복지부령으로","lawName":"노인장기요양보험법","label":"제31조제6항","title":"장기요양기관의 지정","tier":"statute"}],"down":[]},{"label":"제29조","title":"행정처분의 기준","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행규칙/제29조","up":[{"kind":"rule","phrase":"보건복지부령으로 정한다","lawName":"노인장기요양보험법","label":"제37조제9항","title":"장기요양기관 지정의 취소 등","tier":"statute"},{"kind":"rule","phrase":"필요한 사항은 보건복지부령으로","lawName":"노인장기요양보험법","label":"제37조의5제3항","title":"장기요양급여 제공의 제한","tier":"statute"}],"down":[]}]}],"P15":[{"law":"노인장기요양보험법","article":"제20조·제21조","text":"장기요양인정 유효기간이 만료되면 갱신 신청하며 심신상태 변화 시 등급변경을 신청할 수 있다.","found":true,"lawId":"010436","tier":"statute","articles":[{"label":"제20조","title":"장기요양인정의 갱신","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제20조","up":[],"down":[]},{"label":"제21조","title":"장기요양등급 등의 변경","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제21조","up":[],"down":[]}]},{"law":"노인장기요양보험법 시행령","article":"제8조","text":"장기요양인정의 유효기간을 정한다.","found":true,"lawId":"010436","tier":"decree","articles":[{"label":"제8조","title":"장기요양인정 유효기간","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행령/제8조","up":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"노인장기요양보험법","label":"제19조제1항","title":"장기요양인정의 유효기간","tier":"statute"}],"down":[]}]},{"law":"노인장기요양보험법 시행규칙","article":"제8조·제9조","text":"장기요양인정 갱신절차(제8조)와 장기요양등급 등의 변경절차(제9조)를 정한다.","found":true,"lawId":"010436","tier":"rule","articles":[{"label":"제8조","title":"장기요양인정 갱신절차","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행규칙/제8조","up":[],"down":[{"kind":"adminRule","phrase":"보건복지부장관이 정하여 고시하는 기준을 충족하는 때에는","lawName":"장기요양등급판정기준에 관한 고시","label":null,"title":null,"tier":"adminRule"}]},{"label":"제9조","title":"장기요양등급 등의 변경절차","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행규칙/제9조","up":[],"down":[]}]}],"P16":[{"law":"노인장기요양보험법","article":"제55조","text":"장기요양인정·등급·급여비용 등 공단의 처분에 이의가 있는 자는 처분이 있음을 안 날부터 90일 이내에 공단에 심사청구를 할 수 있다.","found":true,"lawId":"010436","tier":"statute","articles":[{"label":"제55조","title":"심사청구","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제55조","up":[],"down":[{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"노인장기요양보험법 시행령","label":"제22조","title":"심사청구 결정기간","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"노인장기요양보험법 시행령","label":"제23조","title":"장기요양심사위원회의 구성 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"노인장기요양보험법 시행령","label":"제24조","title":"심사위원회의 운영 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"노인장기요양보험법 시행령","label":"제24조의2","title":"심사위원회 위원의 제척ㆍ기피ㆍ회피","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"노인장기요양보험법 시행령","label":"제24조의3","title":"심사위원회 위원의 해임 및 해촉","tier":"decree"}]}]},{"law":"노인장기요양보험법 시행규칙","article":"제39조","text":"심사청구의 방식 등 절차를 정한다.","found":true,"lawId":"010436","tier":"rule","articles":[{"label":"제39조","title":"심사청구 방식 등","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행규칙/제39조","up":[],"down":[]}]}],"P17":[{"law":"노인장기요양보험법","article":"제55조","text":"심사청구 사항을 심사하기 위해 공단에 장기요양심사위원회를 둔다.","found":true,"lawId":"010436","tier":"statute","articles":[{"label":"제55조","title":"심사청구","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법/제55조","up":[],"down":[{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"노인장기요양보험법 시행령","label":"제22조","title":"심사청구 결정기간","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"노인장기요양보험법 시행령","label":"제23조","title":"장기요양심사위원회의 구성 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"노인장기요양보험법 시행령","label":"제24조","title":"심사위원회의 운영 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"노인장기요양보험법 시행령","label":"제24조의2","title":"심사위원회 위원의 제척ㆍ기피ㆍ회피","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"노인장기요양보험법 시행령","label":"제24조의3","title":"심사위원회 위원의 해임 및 해촉","tier":"decree"}]}]},{"law":"노인장기요양보험법 시행규칙","article":"제39조제3항","text":"공단은 심사청구에 대해 결정하면 심사결정서를 작성해 지체 없이 청구인에게 정본을, 이해관계인에게 사본을 보내야 한다.","found":true,"lawId":"010436","tier":"rule","articles":[{"label":"제39조","title":"심사청구 방식 등","officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행규칙/제39조","up":[],"down":[]}]}]},"systems":{"010436":{"lawId":"010436","name":"노인장기요양보험법","href":"/law/010436/","ministry":"보건복지부","effectiveOn":"2026-05-26","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"노인장기요양보험법","kind":"법률","articleCount":94,"officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":94},{"tier":"decree","label":"시행령","laws":[{"name":"노인장기요양보험법 시행령","kind":"대통령령","articleCount":56,"officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행령"}],"kinds":[{"kind":"대통령령","count":1}],"articleCount":56},{"tier":"rule","label":"시행규칙","laws":[{"name":"노인장기요양보험법 시행규칙","kind":"보건복지부령","articleCount":74,"officialUrl":"https://www.law.go.kr/법령/노인장기요양보험법시행규칙"}],"kinds":[{"kind":"보건복지부령","count":1}],"articleCount":74},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"거동불편자에 해당하는 자","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/거동불편자에해당하는자"},{"name":"방문간호 간호조무사 교육과정 등에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/방문간호간호조무사교육과정등에관한고시"},{"name":"복지용구 급여범위 및 급여기준 등에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/복지용구급여범위및급여기준등에관한고시"},{"name":"복지용구 품목별 제품목록 및 급여비용 등에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/복지용구품목별제품목록및급여비용등에관한고시"},{"name":"사회보장급여 관련 공통서식에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/사회보장급여관련공통서식에관한고시"},{"name":"요양보호사 실무경력자의 재가장기요양기관 관리책임자 양성 교육과정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/요양보호사실무경력자의재가장기요양기관관리책임자양성교육과정"},{"name":"장기요양 본인부담금 감경에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/장기요양본인부담금감경에관한고시"},{"name":"장기요양급여 제공기준 및 급여비용 산정방법 등에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/장기요양급여제공기준및급여비용산정방법등에관한고시"},{"name":"장기요양급여비용 청구 및 심사·지급업무 처리기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/장기요양급여비용청구및심사·지급업무처리기준"},{"name":"장기요양기관 대상 인권교육 운영 및 교육기관 지정 등에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/장기요양기관대상인권교육운영및교육기관지정등에관한고시"},{"name":"장기요양기관 평가방법 등에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/장기요양기관평가방법등에관한고시"},{"name":"장기요양기관 폐쇄회로 텔레비전의 해상도 등 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/장기요양기관폐쇄회로텔레비전의해상도등고시"},{"name":"장기요양등급판정기준에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/장기요양등급판정기준에관한고시"},{"name":"보건복지부 소관 법령에 따른 행정처분 및 과태료의 가중처분에 관한 세부지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/보건복지부소관법령에따른행정처분및과태료의가중처분에관한세부지침"},{"name":"가족요양비 지급 및 의사소견서 제출 제외대상 섬·벽지지역 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/가족요양비지급및의사소견서제출제외대상섬·벽지지역고시"},{"name":"노인성 질병에 해당하는 진전의 범위","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/노인성질병에해당하는진전의범위"},{"name":"의료급여수급권자 지방자치단체 부담금의 지급절차 및 방법 등에 관한 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/의료급여수급권자지방자치단체부담금의지급절차및방법등에관한규정"},{"name":"장기요양보험료 경감고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/장기요양보험료경감고시"},{"name":"장기요양기관에 대한 업무정지명령에 갈음한 과징금 적용기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/장기요양기관에대한업무정지명령에갈음한과징금적용기준"},{"name":"장기요양 본인일부부담금 감경에 관한 고시","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/장기요양본인일부부담금감경에관한고시"},{"name":"본인일부부담금 감경을 위한 소득·재산 등이 일정금액 이하인 자에 관한 고시","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/본인일부부담금감경을위한소득·재산등이일정금액이하인자에관한고시"},{"name":"재가장기요양기관 대상 인권교육 운영 및 교육기관 지정 등에 관한 고시","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/재가장기요양기관대상인권교육운영및교육기관지정등에관한고시"}],"kinds":[{"kind":"고시","count":18},{"kind":"행정규칙","count":3},{"kind":"예규","count":1}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":60,"rule":81,"adminRule":44,"ordinance":4,"cites":183}}}},"statusStyles":{"done":{"label":"선행","fill":"#effaf5","border":"#35a77d","ink":"#123d2e","sub":"#287a5c"},"current":{"label":"핵심","fill":"#087452","border":"#087452","ink":"#ffffff","sub":"#d8f4e8"},"waiting":{"label":"후속","fill":"#ffffff","border":"#b9c7bf","ink":"#17231d","sub":"#627169"},"risk":{"label":"병목","fill":"#fff8e8","border":"#d9901a","ink":"#7a4305","sub":"#a96008"},"loop":{"label":"회귀","fill":"#edf4ff","border":"#3478db","ink":"#173f7a","sub":"#316bbd"}},"basisLegend":[{"label":"법률","fill":"#ffffff","border":"#3b4a43"},{"label":"시행령","fill":"#f2f6ff","border":"#2456d6"},{"label":"시행규칙","fill":"#effaf6","border":"#0f9f72"},{"label":"행정규칙","fill":"#f6f2ff","border":"#7c56c9"}],"isLawIndex":false}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Eu-UvfunzEwjnKcUq5f7W"}
+4:["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","precedence":"next"}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

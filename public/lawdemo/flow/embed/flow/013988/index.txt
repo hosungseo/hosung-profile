@@ -1,0 +1,546 @@
+1:"$Sreact.fragment"
+2:I[4116,[],""]
+3:I[8498,[],""]
+5:I[977,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+9:I[977,[],"ViewportBoundary"]
+b:I[977,[],"MetadataBoundary"]
+d:I[8432,[],"default",1]
+:HL["/lawdemo/flow/_next/static/css/cd237d4e4c702e12.css","style"]
+:HL["/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","style"]
+0:{"P":null,"c":["","embed","flow","013988",""],"q":"","i":false,"f":[[["",{"children":["embed",{"children":["flow",{"children":[["lawId","013988","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/cd237d4e4c702e12.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"ko","children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,"$@8"]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Eu-UvfunzEwjnKcUq5f7W"}
+e:[]
+8:"$We"
+f:I[7742,["838","static/chunks/838-9b85aecee2a13f53.js","379","static/chunks/379-f104668f756ddde1.js","227","static/chunks/app/embed/flow/%5BlawId%5D/page-b476be85089ecd29.js"],"default"]
+10:Tac5b,<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 250 1744 1960" class="pp-svg">
+<defs>
+      <filter id="card-shadow" x="-20%" y="-25%" width="140%" height="160%">
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#12271e" flood-opacity="0.10"/>
+      </filter>
+      <marker id="arrow-sequence" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#53675d" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-message" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#0f8a65" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-loop" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#3478db" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <style>
+        text { font-family: "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", sans-serif; }
+        .mono { font-family: "SFMono-Regular", "Menlo", monospace; }
+      </style>
+    </defs>
+<rect width="1800" height="2400" fill="#ffffff"/>
+
+
+
+<rect x="38" y="260" width="1724" height="1940" rx="10" fill="#ffffff" stroke="#b8c7bf" stroke-width="2"/>
+<rect x="38" y="260" width="190" height="100" rx="10" fill="#eaf2ee"/>
+<text x="58" y="299" font-size="17" font-weight="800" fill="#17231d">단계 ↓</text>
+<text x="58" y="332" font-size="15" font-weight="650" fill="#68776f">행위자 묶음 →</text>
+<rect x="38" y="360" width="1724" height="246.6" fill="#fbfcfb"/>
+<rect x="38" y="360" width="190" height="246.6" fill="#eef3f0"/>
+<text x="58" y="392" class="mono" font-size="16" font-weight="800" fill="#53645b">G0</text>
+<text x="58" y="425" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">편성·공모</tspan></text>
+<rect x="38" y="606.6" width="1724" height="246.6" fill="#f5f8f6"/>
+<rect x="38" y="606.6" width="190" height="246.6" fill="#eef3f0"/>
+<text x="58" y="638.6" class="mono" font-size="16" font-weight="800" fill="#53645b">G1</text>
+<text x="58" y="671.6" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">신청</tspan></text>
+<rect x="38" y="853.1" width="1724" height="132.6" fill="#fbfcfb"/>
+<rect x="38" y="853.1" width="190" height="132.6" fill="#eef3f0"/>
+<text x="58" y="885.1" class="mono" font-size="16" font-weight="800" fill="#53645b">G2</text>
+<text x="58" y="918.1" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">심의·교부결정</tspan></text>
+<rect x="38" y="985.7" width="1724" height="132.6" fill="#f5f8f6"/>
+<rect x="38" y="985.7" width="190" height="132.6" fill="#eef3f0"/>
+<text x="58" y="1017.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G3</text>
+<text x="58" y="1050.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">집행</tspan></text>
+<rect x="38" y="1118.3" width="1724" height="132.6" fill="#fbfcfb"/>
+<rect x="38" y="1118.3" width="190" height="132.6" fill="#eef3f0"/>
+<text x="58" y="1150.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G4</text>
+<text x="58" y="1183.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">정산·검사</tspan></text>
+<rect x="38" y="1250.9" width="1724" height="132.6" fill="#f5f8f6"/>
+<rect x="38" y="1250.9" width="190" height="132.6" fill="#eef3f0"/>
+<text x="58" y="1282.9" class="mono" font-size="16" font-weight="800" fill="#53645b">G5</text>
+<text x="58" y="1315.9" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">성과평가</tspan></text>
+<rect x="38" y="1383.4" width="1724" height="816.6" fill="#fbfcfb"/>
+<rect x="38" y="1383.4" width="190" height="816.6" fill="#eef3f0"/>
+<text x="58" y="1415.4" class="mono" font-size="16" font-weight="800" fill="#53645b">G6</text>
+<text x="58" y="1448.4" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">환수·제재·공시</tspan></text>
+<rect x="228" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="228" y="260" width="383.5" height="7" fill="#0f9f72"/>
+<text x="248" y="299" font-size="20" font-weight="800" fill="#17231d">보조사업자</text>
+<text x="248" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="248" dy="0">보조사업자(민간·단체)</tspan></text>
+<rect x="611.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="611.5" y="260" width="383.5" height="7" fill="#3b82f6"/>
+<text x="631.5" y="299" font-size="20" font-weight="800" fill="#17231d">소관 부서·지방보조금관리위원회</text>
+<text x="631.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="631.5" dy="0">소관 부서(집행부) · 지방보조금관리위원회</tspan></text>
+<rect x="995" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="995" y="260" width="383.5" height="7" fill="#c78116"/>
+<text x="1015" y="299" font-size="20" font-weight="800" fill="#17231d">지방자치단체장·지방의회</text>
+<text x="1015" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1015" dy="0">지방자치단체장(예산·회계) · 지방의회</tspan></text>
+<rect x="1378.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="1378.5" y="260" width="383.5" height="7" fill="#0891b2"/>
+<text x="1398.5" y="299" font-size="20" font-weight="800" fill="#17231d">보탬e</text>
+<text x="1398.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1398.5" dy="0">보탬e(통합관리망)</tspan></text>
+<line x1="228" y1="260" x2="228" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="611.5" y1="260" x2="611.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="995" y1="260" x2="995" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1378.5" y1="260" x2="1378.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1762" y1="260" x2="1762" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#b8c7bf" stroke-width="2"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="606.6" x2="1762" y2="606.6" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="853.1" x2="1762" y2="853.1" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="985.7" x2="1762" y2="985.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1118.3" x2="1762" y2="1118.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1250.9" x2="1762" y2="1250.9" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1383.4" x2="1762" y2="1383.4" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2200" x2="1762" y2="2200" stroke="#b8c7bf" stroke-width="2"/>
+<g class="pp-edge" data-edge-id="E01" data-source="P01" data-target="P02">
+<path d="M 1051.8 428.8 H 979.3 V 432.8 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 428.8 H 979.3 V 432.8 H 946.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E02" data-source="P02" data-target="P03">
+<path d="M 938.3 424.8 H 997.8 V 549.3 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 424.8 H 997.8 V 549.3 H 1043.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E03" data-source="P03" data-target="P04">
+<path d="M 1051.8 541.3 H 1005.3 V 551.8 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 541.3 H 1005.3 V 551.8 H 946.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E04" data-source="P04" data-target="P05">
+<path d="M 793.3 585.3 V 594.6 H 409.8 V 619.9" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 793.3 585.3 V 594.6 H 409.8 V 619.9" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E05" data-source="P06" data-target="P07">
+<path d="M 668.3 710.4 H 582.8 V 795.9 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 668.3 710.4 H 582.8 V 795.9 H 562.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E06" data-source="P06" data-target="P08">
+<path d="M 809.3 774.9 V 793.1 H 781.3 V 866.4" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 809.3 774.9 V 793.1 H 781.3 V 866.4" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E07" data-source="P08" data-target="P09">
+<path d="M 938.3 928.4 H 1010.8 V 915.4 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 928.4 H 1010.8 V 915.4 H 1043.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E08" data-source="P11" data-target="P12">
+<path d="M 409.8 1097 V 1106.3 H 783.3 V 1131.6" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 409.8 1097 V 1106.3 H 783.3 V 1131.6" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E09" data-source="P12" data-target="P13">
+<path d="M 803.3 1229.6 V 1238.9 H 803.3 V 1264.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 803.3 1229.6 V 1238.9 H 803.3 V 1264.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E10" data-source="P12" data-target="P14">
+<path d="M 811.3 1229.6 V 1222.9 H 1356.5 V 1376.7 H 1182.8 V 1396.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 811.3 1229.6 V 1222.9 H 1356.5 V 1376.7 H 1182.8 V 1396.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E11" data-source="P14" data-target="P15">
+<path d="M 1208.8 1494.7 V 1510.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1208.8 1494.7 V 1510.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E12" data-source="P15" data-target="P17">
+<path d="M 1148.8 1608.7 V 1624.7 H 1214.8 V 1624.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1148.8 1608.7 V 1624.7 H 1214.8 V 1624.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M01" data-source="P05" data-target="P06">
+<path d="M 554.8 684.4 H 614.3 V 743.9 H 660.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 684.4 H 614.3 V 743.9 H 660.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M02" data-source="P09" data-target="P10">
+<path d="M 1321.8 930.9 H 1381.3 V 925.9 H 1427.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1321.8 930.9 H 1381.3 V 925.9 H 1427.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M03" data-source="P10" data-target="P11">
+<path d="M 1560.3 964.4 V 973.7 H 429.8 V 999" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1560.3 964.4 V 973.7 H 429.8 V 999" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L01" data-source="P07" data-target="P06">
+<path d="M 554.8 782.9 H 627.3 V 728.4 H 660.3" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 782.9 H 627.3 V 728.4 H 660.3" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L02" data-source="P20" data-target="P15">
+<path d="M 1051.8 1930.7 H 138 V 1604.2 H 1043.8" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1930.7 H 138 V 1604.2 H 1043.8" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E13" data-source="P15" data-target="P18">
+<path d="M 1204.8 1608.7 V 1644.7 H 1182.8 V 1738.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1204.8 1608.7 V 1644.7 H 1182.8 V 1738.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E14" data-source="P17" data-target="P19">
+<path d="M 1051.8 1671.2 H 582.8 V 1785.2 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1671.2 H 582.8 V 1785.2 H 562.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E15" data-source="P18" data-target="P19">
+<path d="M 1051.8 1781.2 H 595.8 V 1800.7 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1781.2 H 595.8 V 1800.7 H 562.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E16" data-source="P19" data-target="P20">
+<path d="M 554.8 1777.2 H 997.8 V 1897.7 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1777.2 H 997.8 V 1897.7 H 1043.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E17" data-source="P18" data-target="P21">
+<path d="M 1162.8 1836.7 V 1872.7 H 1210.8 V 1966.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1162.8 1836.7 V 1872.7 H 1210.8 V 1966.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E18" data-source="P20" data-target="P21">
+<path d="M 1230.8 1950.7 V 1966.7 H 1176.8 V 1966.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1230.8 1950.7 V 1966.7 H 1176.8 V 1966.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E19" data-source="P21" data-target="P16">
+<path d="M 1136.8 2064.7 V 2080.7 H 1216.8 V 2080.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1136.8 2064.7 V 2080.7 H 1216.8 V 2080.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E20" data-source="P15" data-target="P19">
+<path d="M 1051.8 1545.2 H 621.8 V 1818.7 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1545.2 H 621.8 V 1818.7 H 562.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge-label" data-edge-id="E05" data-source="P06" data-target="P07">
+<rect x="563.5" y="721.1" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="611.5" y="741.1" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">보완 필요</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E10" data-source="P12" data-target="P14">
+<rect x="1308.5" y="1284.8" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1356.5" y="1304.8" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">사후 검사</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E11" data-source="P14" data-target="P15">
+<rect x="1388.9" y="1491.7" width="105.8" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1441.8" y="1511.7" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">법 위반 확인</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E12" data-source="P15" data-target="P17">
+<rect x="1377.3" y="1605.7" width="128.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1441.8" y="1625.7" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">제재부가금 사유</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M01" data-source="P05" data-target="P06">
+<rect x="621.6" y="646.1" width="119.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="681.5" y="666.1" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">교부 신청 접수</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M02" data-source="P09" data-target="P10">
+<rect x="1321.1" y="824.4" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1378.5" y="844.4" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">교부결정 등록</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M03" data-source="P10" data-target="P11">
+<rect x="937.6" y="977.7" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="995" y="997.7" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">교부결정 통지</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L01" data-source="P07" data-target="P06">
+<rect x="614.6" y="795.6" width="133.8" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="681.5" y="815.6" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">서류 보완 재제출</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L02" data-source="P20" data-target="P15">
+<rect x="189.2" y="1683.7" width="173.7" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="276" y="1703.7" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">인용·변경 시 처분 시정</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E13" data-source="P15" data-target="P18">
+<rect x="1364.4" y="1662.7" width="154.8" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1441.8" y="1682.7" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">반복·법정 요건 충족</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E14" data-source="P17" data-target="P19">
+<rect x="738.8" y="1696.2" width="128.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="803.3" y="1716.2" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">제재부가금 불복</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E15" data-source="P18" data-target="P19">
+<rect x="709.4" y="1759" width="187.7" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="803.3" y="1779" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">수행 배제·수급 제한 불복</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E16" data-source="P19" data-target="P20">
+<rect x="728.3" y="1805.5" width="149.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="803.3" y="1825.5" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">의견청취·결과 통지</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E17" data-source="P18" data-target="P21">
+<rect x="1393.8" y="1890.7" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1441.8" y="1910.7" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">공표 대상</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E18" data-source="P20" data-target="P21">
+<rect x="1384.3" y="1947.7" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1441.8" y="1967.7" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">불복절차 종료</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E19" data-source="P21" data-target="P16">
+<rect x="1393.8" y="2061.7" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1441.8" y="2081.7" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">공표</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E20" data-source="P15" data-target="P19">
+<rect x="728.3" y="1650" width="149.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="803.3" y="1670" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">취소·반환명령 불복</text>
+</g>
+
+    <g class="pp-node" data-node-id="P01" data-basis="지방자치단체보조금관리에관한법률:제6조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="381.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="381.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="401.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P01</text>
+      
+      <rect x="1259.8" y="388.3" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1285.8" y="405.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §6</text>
+      <text x="1066.8" y="438.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">보조금 예산 편성·계상</tspan></text>
+      <text x="1066.8" y="463.3" font-size="11" font-weight="650" fill="#3b4a43">지방자치단체장</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P02" data-basis="지방자치단체보조금관리에관한법률:제26조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="381.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="381.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="401.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P02</text>
+      
+      <rect x="869.3" y="388.3" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="405.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §26</text>
+      <text x="683.3" y="438.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">지방보조금관리위원회 편성 심의</tspan></text>
+      <text x="683.3" y="463.3" font-size="11" font-weight="650" fill="#3b4a43">지방보조금관리위원회</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P03" data-basis="지방자치법:제47조 지방자치단체보조금관리에관한법률:제6조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="495.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="495.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="515.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P03</text>
+      
+      <rect x="1235.8" y="502.3" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="519.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §47 +1</text>
+      <text x="1066.8" y="552.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">지방의회 보조금 예산 심의·의결</tspan></text>
+      <text x="1066.8" y="577.3" font-size="11" font-weight="650" fill="#3b4a43">지방의회</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P04" data-basis="지방자치단체보조금관리에관한법률:제6조 행정안전부지방보조금관리기준(예규):제4조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="495.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="495.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="515.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P04</text>
+      
+      <rect x="859.3" y="502.3" width="69" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="893.8" y="519.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §6 +1</text>
+      <text x="683.3" y="552.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">보조사업 공모 공고</tspan></text>
+      <text x="683.3" y="577.3" font-size="11" font-weight="650" fill="#3b4a43">소관 부서</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P05" data-basis="지방자치단체보조금관리에관한법률:제7조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="627.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="627.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="647.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P05</text>
+      
+      <rect x="492.8" y="634.9" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="518.8" y="651.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §7</text>
+      <text x="299.8" y="684.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">보조사업자 교부 신청</tspan></text>
+      <text x="299.8" y="709.9" font-size="11" font-weight="650" fill="#3b4a43">기한 · 공모 접수기간</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P06" data-basis="지방자치단체보조금관리에관한법률:제7조 지방자치단체보조금관리에관한법률:제8조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="684.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="684.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="704.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P06</text>
+      
+      <rect x="859.3" y="691.9" width="69" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="893.8" y="708.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §7 +1</text>
+      <text x="683.3" y="741.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">신청 접수·자격·적격 검토</tspan></text>
+      <text x="683.3" y="766.9" font-size="11" font-weight="650" fill="#3b4a43">기한 · 접수 후 검토기간</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P07" data-basis="지방자치단체보조금관리에관한법률:제7조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="741.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="741.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="761.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P07</text>
+      
+      <rect x="492.8" y="748.9" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="518.8" y="765.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §7</text>
+      <text x="299.8" y="798.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">서류 보완 요구·재제출</tspan></text>
+      <text x="299.8" y="823.9" font-size="11" font-weight="650" fill="#3b4a43">보조사업자</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P08" data-basis="지방자치단체보조금관리에관한법률:제8조 지방자치단체보조금관리에관한법률:제26조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="874.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="874.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="894.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P08</text>
+      
+      <rect x="859.3" y="881.4" width="69" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="893.8" y="898.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §8 +1</text>
+      <text x="683.3" y="931.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">지방보조금관리위원회 교부 심의</tspan></text>
+      <text x="683.3" y="956.4" font-size="11" font-weight="650" fill="#3b4a43">지방보조금관리위원회</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P09" data-basis="지방자치단체보조금관리에관한법률:제8조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="874.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="874.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="894.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P09</text>
+      
+      <rect x="1259.8" y="881.4" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1285.8" y="898.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §8</text>
+      <text x="1066.8" y="931.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">교부 결정·조건 부과</tspan></text>
+      <text x="1066.8" y="956.4" font-size="11" font-weight="650" fill="#3b4a43">지방자치단체장</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P10" data-basis="지방자치단체보조금관리에관한법률:제28조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="874.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="874.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="894.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">▣ P10</text>
+      
+      <rect x="1636.3" y="881.4" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1665.8" y="898.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §28</text>
+      <text x="1450.3" y="931.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">교부결정 등록·공시</tspan></text>
+      <text x="1450.3" y="956.4" font-size="11" font-weight="650" fill="#3b4a43">보탬e</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P11" data-basis="지방자치단체보조금관리에관한법률:제8조 지방재정법:제3조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1007" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1007" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1027" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P11</text>
+      
+      <rect x="475.8" y="1014" width="69" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="510.3" y="1031" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §8 +1</text>
+      <text x="299.8" y="1064" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">보조금 교부·사업 집행</tspan></text>
+      <text x="299.8" y="1089" font-size="11" font-weight="650" fill="#3b4a43">보조사업자</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P12" data-basis="지방자치단체보조금관리에관한법률:제17조 지방자치단체보조금관리에관한법률:제19조 지방자치단체보조금관리에관한법률시행령:제17조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1139.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1139.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1159.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P12</text>
+      
+      <rect x="852.3" y="1146.6" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="1163.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §17 +2</text>
+      <text x="683.3" y="1196.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">정산 보고·검사</tspan></text>
+      <text x="683.3" y="1221.6" font-size="11" font-weight="650" fill="#3b4a43">기한 · 사업 종료 후 정산기한</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P13" data-basis="지방자치단체보조금관리에관한법률:제27조 지방자치단체보조금관리에관한법률:제26조 행정안전부지방보조금관리기준(예규):" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1272.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1272.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1292.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P13</text>
+      
+      <rect x="852.3" y="1279.1" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="1296.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §27 +2</text>
+      <text x="683.3" y="1329.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">성과평가 심의</tspan></text>
+      <text x="683.3" y="1354.1" font-size="11" font-weight="650" fill="#3b4a43">지방보조금관리위원회</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P14" data-basis="지방자치단체보조금관리에관한법률:제29조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1404.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1404.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1424.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P14</text>
+      
+      <rect x="1252.8" y="1411.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1428.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §29</text>
+      <text x="1066.8" y="1461.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">사후 검사·법 위반 확인</tspan></text>
+      <text x="1066.8" y="1486.7" font-size="11" font-weight="650" fill="#3b4a43">지방자치단체장</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P15" data-basis="지방자치단체보조금관리에관한법률:제12조 지방자치단체보조금관리에관한법률:제31조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1518.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1518.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1538.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P15</text>
+      
+      <rect x="1252.8" y="1525.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1542.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §12</text>
+      <text x="1066.8" y="1575.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">교부결정 취소·반환명령</tspan></text>
+      <text x="1066.8" y="1600.7" font-size="11" font-weight="650" fill="#3b4a43">지방자치단체장</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P17" data-basis="지방자치단체보조금관리에관한법률:제35조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1632.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1632.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1652.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P17</text>
+      
+      <rect x="1252.8" y="1639.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1656.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §35</text>
+      <text x="1066.8" y="1689.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">제재부가금·가산금 부과</tspan></text>
+      <text x="1066.8" y="1714.7" font-size="11" font-weight="650" fill="#3b4a43">지방자치단체장</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P18" data-basis="지방자치단체보조금관리에관한법률:제32조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1746.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1746.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1766.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P18</text>
+      
+      <rect x="1252.8" y="1753.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1770.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §32</text>
+      <text x="1066.8" y="1803.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">수행 배제·수급 제한</tspan></text>
+      <text x="1066.8" y="1828.7" font-size="11" font-weight="650" fill="#3b4a43">지방자치단체장</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P19" data-basis="지방자치단체보조금관리에관한법률:제36조의2" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1746.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1746.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1766.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P19</text>
+      
+      <rect x="466.8" y="1753.7" width="78" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="505.8" y="1770.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §36의2</text>
+      <text x="299.8" y="1803.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">이의신청</tspan></text>
+      <text x="299.8" y="1828.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 통지 또는 처분을 받은 날부터 20일 이내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P20" data-basis="지방자치단체보조금관리에관한법률:제36조의2" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1860.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1860.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1880.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P20</text>
+      
+      <rect x="1233.8" y="1867.7" width="78" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1272.8" y="1884.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §36의2</text>
+      <text x="1066.8" y="1917.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">이의신청 처리·통지</tspan></text>
+      <text x="1066.8" y="1942.7" font-size="11" font-weight="650" fill="#3b4a43">지방자치단체장</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P21" data-basis="지방자치단체보조금관리에관한법률:제30조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1974.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1974.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1994.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P21</text>
+      
+      <rect x="1252.8" y="1981.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1998.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §30</text>
+      <text x="1066.8" y="2031.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">명단 공표 전 통지·소명</tspan></text>
+      <text x="1066.8" y="2056.7" font-size="11" font-weight="650" fill="#3b4a43">지방자치단체장</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P16" data-basis="지방자치단체보조금관리에관한법률:제30조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="2088.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="2088.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="2108.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">▣ P16</text>
+      
+      <rect x="1252.8" y="2095.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="2112.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §30</text>
+      <text x="1066.8" y="2145.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">처분 관련 명단 공표</tspan></text>
+      <text x="1066.8" y="2170.7" font-size="11" font-weight="650" fill="#3b4a43">지방자치단체장</text>
+    </g>
+  
+
+</svg>4:["$","$Lf",null,{"law":{"lawId":"013988","mst":"291237","name":"지방자치단체 보조금 관리에 관한 법률","kind":"법률","tier":"statute","effectiveOn":"2026-10-20","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률"},"flows":[{"slug":"local-subsidy","name":"지방보조금","oneLiner":"지자체가 민간·단체·개인에게 사업비를 지원하는 보조금. 부정수급과 중복을 막기 위해 편성·교부·정산·환수를 법으로 규율한다.","citingSteps":21,"totalSteps":21,"articles":{"제6조":3,"제26조":3,"제7조":3,"제8조":4,"제28조":1,"제17조":1,"제19조":1,"제27조":1,"제29조":1,"제12조":1,"제31조":1,"제35조":1,"제32조":1,"제36조의2":2,"제30조":2}},{"slug":"local-government-subsidy-management","name":"지방보조금 교부·집행·정산","oneLiner":"교부 결정 통지부터 용도 외 사용 금지, 실적·정산(3억 이상 외부검증), 중요재산 처분 제한, 취소·환수·5년 배제까지의 지방보조금법 절차","citingSteps":9,"totalSteps":9,"articles":{"제10조":1,"제13조":1,"제11조":1,"제17조":2,"제20조":1,"제21조":1,"제12조":1,"제34조":1,"제32조":1}}],"current":"$4:props:flows:0","asOfDate":"2026-07-10","reviewNote":"주요 절차를 요약한 참고 모델입니다. 모든 예외·위임규정의 현행성까지 전수 검증한 자료는 아닙니다. 법령 체계의 보관 자료와 현행 원문은 다를 수 있습니다.","svg":"$10","nodes":[{"id":"P01","name":"보조금 예산 편성·계상","lane":"지방자치단체장(예산·회계)","stage":"G0 편성·공모","type":"task","status":"done","progress":100,"actor":"지방자치단체장","action":"예산 계상","output_documents":["보조금 예산안"],"confidence":0.85,"legal_basis":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제6조","text":"지방보조금은 예산에 계상하여 편성한다."}]},{"id":"P02","name":"지방보조금관리위원회 편성 심의","lane":"지방보조금관리위원회","stage":"G0 편성·공모","type":"gateway","status":"done","progress":100,"actor":"지방보조금관리위원회","action":"편성 심의","condition":"편성 적정성","output_documents":["편성 심의결과"],"confidence":0.75,"legal_basis":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제26조제2항제1호","text":"지방자치단체의 장은 지방보조금 예산을 편성할 때 미리 지방보조금관리위원회의 심의를 거쳐야 한다."}]},{"id":"P03","name":"지방의회 보조금 예산 심의·의결","lane":"지방의회","stage":"G0 편성·공모","type":"task","status":"done","progress":100,"actor":"지방의회","action":"예산 의결","output_documents":["예산 의결서"],"confidence":0.85,"legal_basis":[{"law":"지방자치법","article":"제47조","text":"지방의회는 예산의 심의·확정을 의결한다."},{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제6조","text":"예산 계상"}]},{"id":"P04","name":"보조사업 공모 공고","lane":"소관 부서(집행부)","stage":"G0 편성·공모","type":"notice","status":"done","progress":100,"actor":"소관 부서","action":"공모 공고","output_documents":["공모 공고문"],"confidence":0.8,"legal_basis":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제6조","text":"보조사업 수행을 위한 예산을 편성·공모한다."},{"law":"행정안전부 지방보조금 관리기준(예규)","article":"제4조(지방보조사업자 공모 및 선정)","text":"제4조: 지방자치단체의 장은 지방보조사업자를 선정하는 경우 공모 절차를 거쳐야 하며, 선정기준·절차 등을 사전에 공개하여야 한다."}]},{"id":"P05","name":"보조사업자 교부 신청","lane":"보조사업자(민간·단체)","stage":"G1 신청","type":"task","status":"done","progress":100,"actor":"보조사업자","action":"교부 신청","output_documents":["사업계획서","교부신청서"],"deadline":"공모 접수기간","confidence":0.83,"legal_basis":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제7조","text":"보조사업을 하려는 자는 교부신청서를 제출한다."}]},{"id":"P06","name":"신청 접수·자격·적격 검토","lane":"소관 부서(집행부)","stage":"G1 신청","type":"task","status":"current","progress":50,"actor":"소관 부서","action":"자격·적격 검토","input_documents":["교부신청서","사업계획서"],"output_documents":["검토의견"],"deadline":"접수 후 검토기간","blocker":"유사·중복 보조 여부와 신청 자격 확인 진행 중","confidence":0.8,"legal_basis":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제7조","text":"교부신청을 접수하여 검토한다."},{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제8조","text":"교부 여부·조건을 결정하기 위한 검토"}]},{"id":"P07","name":"서류 보완 요구·재제출","lane":"보조사업자(민간·단체)","stage":"G1 신청","type":"task","status":"loop","progress":0,"actor":"보조사업자","action":"서류 보완","input_documents":["검토의견"],"output_documents":["보완 서류"],"confidence":0.72,"legal_basis":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제7조","text":"신청 서류의 보완을 요구할 수 있다."}]},{"id":"P08","name":"지방보조금관리위원회 교부 심의","lane":"지방보조금관리위원회","stage":"G2 심의·교부결정","type":"gateway","status":"waiting","progress":0,"actor":"지방보조금관리위원회","action":"교부 심의","condition":"교부 적정성·중복 여부","output_documents":["교부 심의결과"],"confidence":0.74,"legal_basis":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제8조제2항","text":"공모방식으로 교부신청서를 제출받은 경우 교부 여부 결정 전에 지방보조금관리위원회의 심의를 거쳐야 한다."},{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제26조","text":"지방보조금에 관한 사항을 전문적으로 심의하기 위하여 지방자치단체의 장 소속으로 지방보조금관리위원회를 둔다."}]},{"id":"P09","name":"교부 결정·조건 부과","lane":"지방자치단체장(예산·회계)","stage":"G2 심의·교부결정","type":"gateway","status":"waiting","progress":0,"actor":"지방자치단체장","action":"교부 결정","condition":"교부·부결·조건","output_documents":["교부결정 통지","교부 조건"],"confidence":0.83,"legal_basis":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제8조","text":"교부 여부와 조건을 결정하여 통지한다."}]},{"id":"P10","name":"교부결정 등록·공시","lane":"보탬e(통합관리망)","stage":"G2 심의·교부결정","type":"system","status":"waiting","progress":0,"actor":"보탬e","action":"등록·공시","input_documents":["교부결정 통지"],"output_documents":["교부 내역 등록"],"confidence":0.75,"legal_basis":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제28조","text":"행정안전부장관과 지방자치단체의 장은 중복·부정 수급 방지를 위하여 지방보조금통합관리망(보탬e)을 구축·운영하며, 교부 신청·결정 등 지방보조금관리정보를 포함한다."}]},{"id":"P11","name":"보조금 교부·사업 집행","lane":"보조사업자(민간·단체)","stage":"G3 집행","type":"task","status":"risk","progress":0,"actor":"보조사업자","action":"사업 집행","input_documents":["교부결정 통지"],"output_documents":["집행 증빙"],"blocker":"목적 외 사용·유사 중복 지원 우려로 부정수급 위험이 상존한다","confidence":0.82,"legal_basis":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제8조","text":"교부 조건에 따라 보조사업을 수행한다."},{"law":"지방재정법","article":"제3조(지방재정 운용의 기본원칙)","text":"지방자치단체는 주민의 복리 증진을 위하여 그 재정을 건전하고 효율적으로 운용하여야 한다."}]},{"id":"P12","name":"정산 보고·검사","lane":"소관 부서(집행부)","stage":"G4 정산·검사","type":"task","status":"waiting","progress":0,"actor":"소관 부서","action":"정산 검사","input_documents":["집행 증빙"],"output_documents":["정산보고서","검사 결과"],"deadline":"사업 종료 후 정산기한","confidence":0.8,"legal_basis":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제17조","text":"지방보조사업자는 대통령령으로 정하는 기한까지 실적보고서(정산보고서 첨부)를 제출하고, 총액 3억원 이상은 감사인의 정산보고서 검증을 받아야 한다."},{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제19조","text":"지방자치단체의 장은 실적보고서 등을 심사하여 교부할 지방보조금의 금액을 확정한다."},{"law":"지방자치단체 보조금 관리에 관한 법률 시행령","article":"제17조 위임 실적보고·정산보고서 검증 세부"}]},{"id":"P13","name":"성과평가 심의","lane":"지방보조금관리위원회","stage":"G5 성과평가","type":"gateway","status":"waiting","progress":0,"actor":"지방보조금관리위원회","action":"성과평가","condition":"성과 적정·미흡","input_documents":["정산보고서"],"output_documents":["성과평가 결과"],"confidence":0.74,"legal_basis":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제27조","text":"지방자치단체의 장은 지방보조사업에 대하여 매년 성과평가를 실시하고 그 결과를 예산편성에 반영하며, 3년마다 유지 필요성을 평가하여 위원회 심의를 거친다."},{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제26조제2항제5호","text":"지방보조사업의 운용평가가 이루어진 때에는 지방보조금관리위원회의 심의를 거친다."},{"law":"행정안전부 지방보조금 관리기준(예규)","article":"성과평가 기준","unverified":true,"text":"행정규칙 API(admrul) 본문 조회 결과 성과평가 관련 조문 미확인(2026-07-12). 예규(일련번호 2100000270884) 본문에 \"성과평가\" 용어 미포함."}]},{"id":"P14","name":"사후 검사·법 위반 확인","lane":"지방자치단체장(예산·회계)","stage":"G6 환수·제재·공시","type":"gateway","status":"waiting","progress":0,"actor":"지방자치단체장","action":"보고를 받거나 장부·서류·재산을 검사해 법 위반·용도 외 사용·부정교부 여부 확인","condition":"용도 외 사용, 법령·교부결정 위반 또는 거짓·부정한 방법의 교부 여부","output_documents":["검사 결과"],"confidence":0.86,"legal_basis":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제29조","text":"지방자치단체의 장은 적절한 집행을 위해 지방보조사업자에게 보고를 요구하거나 장부·서류·재산을 검사하고 관계자에게 질문할 수 있다."}]},{"id":"P15","name":"교부결정 취소·반환명령","lane":"지방자치단체장(예산·회계)","stage":"G6 환수·제재·공시","type":"notice","status":"risk","progress":0,"actor":"지방자치단체장","receiver":"지방보조사업자","action":"법 위반·부정교부에 해당하는 교부결정을 전부 또는 일부 취소하고, 이미 교부된 지방보조금과 이자의 반환을 명령","input_documents":["검사 결과"],"output_documents":["교부결정 취소 통지","반환명령"],"confidence":0.88,"legal_basis":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제12조제1항, 제31조제1항","text":"지방자치단체의 장은 용도 외 사용, 법령·교부결정 위반 또는 부정교부 때 교부결정을 취소할 수 있고, 취소 부분의 보조금과 이자 반환을 명하여야 한다."}]},{"id":"P17","name":"제재부가금·가산금 부과","lane":"지방자치단체장(예산·회계)","stage":"G6 환수·제재·공시","type":"notice","status":"risk","progress":0,"actor":"지방자치단체장","receiver":"지방보조사업자등","action":"반환명령 사유에 대해 반환 대상액의 5배 이내 제재부가금을 부과하고, 납부 지연 시 가산금 징수","output_documents":["제재부가금 부과 통지","가산금 부과 통지"],"confidence":0.86,"legal_basis":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제35조제1항·제4항","text":"지방자치단체의 장은 정해진 반환명령 사유에 제재부가금을 부과·징수하고, 납부기한 내 미납 시 가산금을 징수할 수 있다."}]},{"id":"P18","name":"수행 배제·수급 제한","lane":"지방자치단체장(예산·회계)","stage":"G6 환수·제재·공시","type":"notice","status":"risk","progress":0,"actor":"지방자치단체장","receiver":"지방보조사업자등·지방보조금수령자","action":"교부결정 취소·반환명령 횟수와 사유가 법정 기준에 이르면 지방보조사업 수행을 배제하거나 지방보조금 수급을 제한","output_documents":["수행 배제·수급 제한 통지","타 지방자치단체 통보"],"confidence":0.86,"legal_basis":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제32조제1항·제3항·제6항","text":"법정 횟수의 취소·반환명령 사유가 있으면 수행 대상에서 배제하거나 수급을 제한하고, 그 사실을 다른 지방자치단체장에게 통보해야 한다."}]},{"id":"P19","name":"이의신청","lane":"보조사업자(민간·단체)","stage":"G6 환수·제재·공시","type":"task","status":"loop","progress":0,"actor":"처분 불복자","receiver":"지방자치단체장","action":"교부결정 취소·반환명령·수행 배제·수급 제한·제재부가금 처분에 서면 이의신청","input_documents":["이의신청서","처분 통지서"],"output_documents":["이의신청서"],"deadline":"통지 또는 처분을 받은 날부터 20일 이내","confidence":0.88,"legal_basis":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제36조의2제1항·제2항","text":"지방보조사업자와 지방보조금수령자는 정해진 처분에 대해 20일 이내 지방자치단체장에게 이의신청할 수 있다."}]},{"id":"P20","name":"이의신청 처리·통지","lane":"지방자치단체장(예산·회계)","stage":"G6 환수·제재·공시","type":"gateway","status":"waiting","progress":0,"actor":"지방자치단체장","action":"관계자의 의견을 들은 후 필요한 조치를 하고 결과 통지","condition":"처분 유지·변경·취소 여부","input_documents":["이의신청서"],"output_documents":["이의신청 결과 통지"],"confidence":0.86,"legal_basis":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제36조의2제3항","text":"지방자치단체의 장은 관계자 의견을 들은 뒤 필요한 조치를 하고 이의신청인에게 통지해야 한다."}]},{"id":"P21","name":"명단 공표 전 통지·소명","lane":"지방자치단체장(예산·회계)","stage":"G6 환수·제재·공시","type":"task","status":"waiting","progress":0,"actor":"지방자치단체장","receiver":"공표 대상 지방보조사업자등","action":"명단 공표 전에 대상자에게 통지하고 소명자료 제출·의견진술 기회 부여","output_documents":["공표 사전통지","소명자료"],"confidence":0.88,"legal_basis":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제30조제1항·제3항·제4항","text":"공표 대상 처분과 범위를 정하고, 사전 통지·소명 기회를 보장하며 이의신청 등 불복절차가 끝난 뒤 공표한다."}]},{"id":"P16","name":"처분 관련 명단 공표","lane":"지방자치단체장(예산·회계)","stage":"G6 환수·제재·공시","type":"system","status":"waiting","progress":0,"actor":"지방자치단체장","action":"불복절차 종료 후 법정 공표 대상자의 명단·위반행위·처분 내용을 지방자치단체 인터넷 홈페이지에 공표","input_documents":["공표 사전통지","소명자료","불복절차 종료 결과"],"output_documents":["홈페이지 공표"],"confidence":0.75,"legal_basis":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제30조","text":"지방자치단체의 장은 법정 대상자의 명단·위반행위·처분 내용을 매년 3월 31일까지 인터넷 홈페이지에 공표한다."}]}],"edges":[{"id":"E01","source":"P01","target":"P02","type":"sequence","label":null},{"id":"E02","source":"P02","target":"P03","type":"sequence","label":null},{"id":"E03","source":"P03","target":"P04","type":"sequence","label":null},{"id":"E04","source":"P04","target":"P05","type":"sequence","label":null},{"id":"E05","source":"P06","target":"P07","type":"sequence","label":"보완 필요"},{"id":"E06","source":"P06","target":"P08","type":"sequence","label":null},{"id":"E07","source":"P08","target":"P09","type":"sequence","label":null},{"id":"E08","source":"P11","target":"P12","type":"sequence","label":null},{"id":"E09","source":"P12","target":"P13","type":"sequence","label":null},{"id":"E10","source":"P12","target":"P14","type":"sequence","label":"사후 검사"},{"id":"E11","source":"P14","target":"P15","type":"sequence","label":"법 위반 확인"},{"id":"E12","source":"P15","target":"P17","type":"sequence","label":"제재부가금 사유"},{"id":"M01","source":"P05","target":"P06","type":"message","label":"교부 신청 접수"},{"id":"M02","source":"P09","target":"P10","type":"message","label":"교부결정 등록"},{"id":"M03","source":"P10","target":"P11","type":"message","label":"교부결정 통지"},{"id":"L01","source":"P07","target":"P06","type":"loop","label":"서류 보완 재제출"},{"id":"L02","source":"P20","target":"P15","type":"loop","label":"인용·변경 시 처분 시정"},{"id":"E13","source":"P15","target":"P18","type":"sequence","label":"반복·법정 요건 충족"},{"id":"E14","source":"P17","target":"P19","type":"sequence","label":"제재부가금 불복"},{"id":"E15","source":"P18","target":"P19","type":"sequence","label":"수행 배제·수급 제한 불복"},{"id":"E16","source":"P19","target":"P20","type":"sequence","label":"의견청취·결과 통지"},{"id":"E17","source":"P18","target":"P21","type":"sequence","label":"공표 대상"},{"id":"E18","source":"P20","target":"P21","type":"sequence","label":"불복절차 종료"},{"id":"E19","source":"P21","target":"P16","type":"sequence","label":"공표"},{"id":"E20","source":"P15","target":"P19","type":"sequence","label":"취소·반환명령 불복"}],"lawContext":{"byNode":{"P01":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제6조","text":"지방보조금은 예산에 계상하여 편성한다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제6조","title":"지방보조금의 예산 편성 및 운영","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제6조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제3조","title":"운영비 사용 경비의 종목","tier":"decree"}]}]}],"P02":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제26조제2항제1호","text":"지방자치단체의 장은 지방보조금 예산을 편성할 때 미리 지방보조금관리위원회의 심의를 거쳐야 한다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제26조","title":"지방보조금관리위원회","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제26조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제15조","title":"지방보조금관리위원회의 심의 제외 대상","tier":"decree"},{"kind":"ordinance","phrase":"⑥ 민간위원의 임기는 3년 이내에서 조례로 정하며, 한 차례만 연임할 수 있다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]}],"P03":[{"law":"지방자치법","article":"제47조","text":"지방의회는 예산의 심의·확정을 의결한다.","found":true,"lawId":"001656","tier":"statute","articles":[{"label":"제47조","title":"지방의회의 의결사항","officialUrl":"https://www.law.go.kr/법령/지방자치법/제47조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 중요 재산의 취득·처분","lawName":"지방자치법 시행령","label":"제38조","title":"중요 재산, 공공시설의 취득ㆍ설치 및 처분의 범위 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 공공시설의 설치·처분","lawName":"지방자치법 시행령","label":"제38조","title":"중요 재산, 공공시설의 취득ㆍ설치 및 처분의 범위 등","tier":"decree"},{"kind":"ordinance","phrase":"② 지방자치단체는 제1항 각 호의 사항 외에 조례로 정하는 바에 따라 지방의회에서 의결되어야 할 사항을 따로 정할 수 있다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]},{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제6조","text":"예산 계상","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제6조","title":"지방보조금의 예산 편성 및 운영","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제6조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제3조","title":"운영비 사용 경비의 종목","tier":"decree"}]}]}],"P04":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제6조","text":"보조사업 수행을 위한 예산을 편성·공모한다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제6조","title":"지방보조금의 예산 편성 및 운영","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제6조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제3조","title":"운영비 사용 경비의 종목","tier":"decree"}]}]},{"law":"행정안전부 지방보조금 관리기준(예규)","article":"제4조(지방보조사업자 공모 및 선정)","text":"제4조: 지방자치단체의 장은 지방보조사업자를 선정하는 경우 공모 절차를 거쳐야 하며, 선정기준·절차 등을 사전에 공개하여야 한다.","found":false,"lawId":null,"tier":null,"articles":[{"label":"제4조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P05":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제7조","text":"보조사업을 하려는 자는 교부신청서를 제출한다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제7조","title":"지방보조금의 교부 신청","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제7조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제5조","title":"지방보조금 교부신청서","tier":"decree"}]}]}],"P06":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제7조","text":"교부신청을 접수하여 검토한다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제7조","title":"지방보조금의 교부 신청","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제7조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제5조","title":"지방보조금 교부신청서","tier":"decree"}]}]},{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제8조","text":"교부 여부·조건을 결정하기 위한 검토","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제8조","title":"지방보조금의 교부 결정","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제8조","up":[],"down":[]}]}],"P07":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제7조","text":"신청 서류의 보완을 요구할 수 있다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제7조","title":"지방보조금의 교부 신청","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제7조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제5조","title":"지방보조금 교부신청서","tier":"decree"}]}]}],"P08":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제8조제2항","text":"공모방식으로 교부신청서를 제출받은 경우 교부 여부 결정 전에 지방보조금관리위원회의 심의를 거쳐야 한다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제8조","title":"지방보조금의 교부 결정","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제8조","up":[],"down":[]}]},{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제26조","text":"지방보조금에 관한 사항을 전문적으로 심의하기 위하여 지방자치단체의 장 소속으로 지방보조금관리위원회를 둔다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제26조","title":"지방보조금관리위원회","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제26조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제15조","title":"지방보조금관리위원회의 심의 제외 대상","tier":"decree"},{"kind":"ordinance","phrase":"⑥ 민간위원의 임기는 3년 이내에서 조례로 정하며, 한 차례만 연임할 수 있다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]}],"P09":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제8조","text":"교부 여부와 조건을 결정하여 통지한다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제8조","title":"지방보조금의 교부 결정","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제8조","up":[],"down":[]}]}],"P10":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제28조","text":"행정안전부장관과 지방자치단체의 장은 중복·부정 수급 방지를 위하여 지방보조금통합관리망(보탬e)을 구축·운영하며, 교부 신청·결정 등 지방보조금관리정보를 포함한다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제28조","title":"지방보조금통합관리망의 구축ㆍ운영","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제28조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제16조의2","title":"지방보조금통합관리망의 구축ㆍ운영","tier":"decree"}]}]}],"P11":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제8조","text":"교부 조건에 따라 보조사업을 수행한다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제8조","title":"지방보조금의 교부 결정","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제8조","up":[],"down":[]}]},{"law":"지방재정법","article":"제3조(지방재정 운용의 기본원칙)","text":"지방자치단체는 주민의 복리 증진을 위하여 그 재정을 건전하고 효율적으로 운용하여야 한다.","found":true,"lawId":"001652","tier":"statute","articles":[{"label":"제3조","title":"지방재정 운용의 기본원칙","officialUrl":"https://www.law.go.kr/법령/지방재정법/제3조","up":[],"down":[]}]}],"P12":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제17조","text":"지방보조사업자는 대통령령으로 정하는 기한까지 실적보고서(정산보고서 첨부)를 제출하고, 총액 3억원 이상은 감사인의 정산보고서 검증을 받아야 한다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제17조","title":"지방보조사업의 실적 보고","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제17조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 기한까지","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제9조","title":"지방보조사업의 실적보고서 제출","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 기준에 따라 지방보조금을 삭감할 수","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제9조","title":"지방보조사업의 실적보고서 제출","tier":"decree"},{"kind":"decree","phrase":"필요한 사항은 대통령령으로 정한다","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제9조","title":"지방보조사업의 실적보고서 제출","tier":"decree"},{"kind":"decree","phrase":"필요한 사항은 대통령령으로 정한다","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제10조","title":"정산보고서의 검증","tier":"decree"}]}]},{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제19조","text":"지방자치단체의 장은 실적보고서 등을 심사하여 교부할 지방보조금의 금액을 확정한다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제19조","title":"지방보조금의 금액 확정","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제19조","up":[],"down":[]}]},{"law":"지방자치단체 보조금 관리에 관한 법률 시행령","article":"제17조 위임 실적보고·정산보고서 검증 세부","text":null,"found":true,"lawId":"013988","tier":"decree","articles":[{"label":"제17조","title":"명단 등의 공표방법","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률시행령/제17조","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방자치단체 보조금 관리에 관한 법률","label":"제30조제1항","title":"명단 등의 공표","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방자치단체 보조금 관리에 관한 법률","label":"제30조제2항","title":"명단 등의 공표","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"지방자치단체 보조금 관리에 관한 법률","label":"제30조제5항","title":"명단 등의 공표","tier":"statute"}],"down":[]}]}],"P13":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제27조","text":"지방자치단체의 장은 지방보조사업에 대하여 매년 성과평가를 실시하고 그 결과를 예산편성에 반영하며, 3년마다 유지 필요성을 평가하여 위원회 심의를 거친다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제27조","title":"지방보조사업의 운용평가","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제27조","up":[],"down":[]}]},{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제26조제2항제5호","text":"지방보조사업의 운용평가가 이루어진 때에는 지방보조금관리위원회의 심의를 거친다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제26조","title":"지방보조금관리위원회","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제26조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제15조","title":"지방보조금관리위원회의 심의 제외 대상","tier":"decree"},{"kind":"ordinance","phrase":"⑥ 민간위원의 임기는 3년 이내에서 조례로 정하며, 한 차례만 연임할 수 있다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]},{"law":"행정안전부 지방보조금 관리기준(예규)","article":"성과평가 기준","text":"행정규칙 API(admrul) 본문 조회 결과 성과평가 관련 조문 미확인(2026-07-12). 예규(일련번호 2100000270884) 본문에 \"성과평가\" 용어 미포함.","found":false,"lawId":null,"tier":null,"articles":[]}],"P14":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제29조","text":"지방자치단체의 장은 적절한 집행을 위해 지방보조사업자에게 보고를 요구하거나 장부·서류·재산을 검사하고 관계자에게 질문할 수 있다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제29조","title":"검사","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제29조","up":[],"down":[]}]}],"P15":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제12조제1항, 제31조제1항","text":"지방자치단체의 장은 용도 외 사용, 법령·교부결정 위반 또는 부정교부 때 교부결정을 취소할 수 있고, 취소 부분의 보조금과 이자 반환을 명하여야 한다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제12조","title":"법령 위반 등에 따른 교부 결정의 취소","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제12조","up":[],"down":[{"kind":"ordinance","phrase":"4. 그 밖에 지방보조사업의 수행이 곤란한 경우로서 조례로 정하는 사유에 해당하는 경우","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]},{"label":"제31조","title":"지방보조금의 반환","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제31조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제18조","title":"지방보조금의 반환","tier":"decree"}]}]}],"P17":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제35조제1항·제4항","text":"지방자치단체의 장은 정해진 반환명령 사유에 제재부가금을 부과·징수하고, 납부기한 내 미납 시 가산금을 징수할 수 있다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제35조","title":"제재부가금 및 가산금의 부과ㆍ징수","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제35조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 사유가","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제21조","title":"제재부가금 및 가산금의 부과ㆍ징수 기준 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제21조","title":"제재부가금 및 가산금의 부과ㆍ징수 기준 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제21조","title":"제재부가금 및 가산금의 부과ㆍ징수 기준 등","tier":"decree"}]}]}],"P18":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제32조제1항·제3항·제6항","text":"법정 횟수의 취소·반환명령 사유가 있으면 수행 대상에서 배제하거나 수급을 제한하고, 그 사실을 다른 지방자치단체장에게 통보해야 한다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제32조","title":"지방보조사업 수행 배제 등","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제32조","up":[],"down":[{"kind":"decree","phrase":"5년 이내의 범위에서 대통령령으로 정하는 바에 따라","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제19조","title":"지방보조사업 수행 배제 등의 방법 및 절차","tier":"decree"},{"kind":"decree","phrase":"국고보조사업 등 대통령령으로 정하는 사업으로서","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제19조","title":"지방보조사업 수행 배제 등의 방법 및 절차","tier":"decree"},{"kind":"decree","phrase":"5년 이내의 범위에서 대통령령으로 정하는 바에 따라","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제19조","title":"지방보조사업 수행 배제 등의 방법 및 절차","tier":"decree"},{"kind":"decree","phrase":"5년 이내의 범위에서 대통령령으로 정하는 바에 따라 소관 지방보조사업의 수행 대상에서 배제하여야","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제19조","title":"지방보조사업 수행 배제 등의 방법 및 절차","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제19조","title":"지방보조사업 수행 배제 등의 방법 및 절차","tier":"decree"}]}]}],"P19":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제36조의2제1항·제2항","text":"지방보조사업자와 지방보조금수령자는 정해진 처분에 대해 20일 이내 지방자치단체장에게 이의신청할 수 있다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제36조의2","title":"이의신청 등","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제36조의2","up":[],"down":[]}]}],"P20":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제36조의2제3항","text":"지방자치단체의 장은 관계자 의견을 들은 뒤 필요한 조치를 하고 이의신청인에게 통지해야 한다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제36조의2","title":"이의신청 등","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제36조의2","up":[],"down":[]}]}],"P21":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제30조제1항·제3항·제4항","text":"공표 대상 처분과 범위를 정하고, 사전 통지·소명 기회를 보장하며 이의신청 등 불복절차가 끝난 뒤 공표한다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제30조","title":"명단 등의 공표","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제30조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제17조","title":"명단 등의 공표방법","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제17조","title":"명단 등의 공표방법","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제17조","title":"명단 등의 공표방법","tier":"decree"}]}]}],"P16":[{"law":"지방자치단체 보조금 관리에 관한 법률","article":"제30조","text":"지방자치단체의 장은 법정 대상자의 명단·위반행위·처분 내용을 매년 3월 31일까지 인터넷 홈페이지에 공표한다.","found":true,"lawId":"013988","tier":"statute","articles":[{"label":"제30조","title":"명단 등의 공표","officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률/제30조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제17조","title":"명단 등의 공표방법","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제17조","title":"명단 등의 공표방법","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"지방자치단체 보조금 관리에 관한 법률 시행령","label":"제17조","title":"명단 등의 공표방법","tier":"decree"}]}]}]},"systems":{"013988":{"lawId":"013988","name":"지방자치단체 보조금 관리에 관한 법률","href":"/law/013988/","ministry":"행정안전부","effectiveOn":"2026-10-20","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"지방자치단체 보조금 관리에 관한 법률","kind":"법률","articleCount":52,"officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률"}],"kinds":[{"kind":"법률","count":1}],"articleCount":52},{"tier":"decree","label":"시행령","laws":[{"name":"지방자치단체 보조금 관리에 관한 법률 시행령","kind":"대통령령","articleCount":31,"officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률시행령"}],"kinds":[{"kind":"대통령령","count":1}],"articleCount":31},{"tier":"rule","label":"시행규칙","laws":[{"name":"지방자치단체 보조금 관리에 관한 법률 시행규칙","kind":"행정안전부령","articleCount":9,"officialUrl":"https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률시행규칙"},{"name":"지방보조금통합관리망의 관리 및 운영에 관한 규칙","kind":"행정안전부령","articleCount":12,"officialUrl":"https://www.law.go.kr/법령/지방보조금통합관리망의관리및운영에관한규칙"}],"kinds":[{"kind":"행정안전부령","count":2}],"articleCount":21},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EC%A7%80%EB%B0%A9%EC%9E%90%EC%B9%98%EB%8B%A8%EC%B2%B4%20%EB%B3%B4%EC%A1%B0%EA%B8%88%20%EA%B4%80%EB%A6%AC%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":45,"rule":8,"adminRule":0,"ordinance":6,"cites":174}},"001656":{"lawId":"001656","name":"지방자치법","href":"/law/001656/","ministry":"행정안전부","effectiveOn":"2026-10-15","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"지방자치법","kind":"법률","articleCount":215,"officialUrl":"https://www.law.go.kr/법령/지방자치법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":215},{"tier":"decree","label":"시행령","laws":[{"name":"지방자치법 시행령","kind":"대통령령","articleCount":127,"officialUrl":"https://www.law.go.kr/법령/지방자치법시행령"},{"name":"지방소방기관 설치에 관한 규정","kind":"대통령령","articleCount":17,"officialUrl":"https://www.law.go.kr/법령/지방소방기관설치에관한규정"},{"name":"지방자치단체에 대한 행정감사규정","kind":"대통령령","articleCount":23,"officialUrl":"https://www.law.go.kr/법령/지방자치단체에대한행정감사규정"},{"name":"지방자치단체의 행정기구와 정원기준 등에 관한 규정","kind":"대통령령","articleCount":44,"officialUrl":"https://www.law.go.kr/법령/지방자치단체의행정기구와정원기준등에관한규정"},{"name":"지방자치법 제156조제1항 단서에 따른 전국적 통일이 필요한 수수료의 징수기준에 관한 규정","kind":"대통령령","articleCount":2,"officialUrl":"https://www.law.go.kr/법령/지방자치법제156조제1항단서에따른전국적통일이필요한수수료의징수기준에관한규정"}],"kinds":[{"kind":"대통령령","count":5}],"articleCount":213},{"tier":"rule","label":"시행규칙","laws":[{"name":"주민의 감사 청구 등의 서식에 관한 규칙","kind":"행정안전부령","articleCount":7,"officialUrl":"https://www.law.go.kr/법령/주민의감사청구등의서식에관한규칙"},{"name":"지방자치단체에 두는 고위공무원단 직위의 직무등급 표시에 관한 규칙","kind":"행정안전부령","articleCount":3,"officialUrl":"https://www.law.go.kr/법령/지방자치단체에두는고위공무원단직위의직무등급표시에관한규칙"},{"name":"지방자치법 시행령 제120조에 따른 특례를 둘 수 있는 시ㆍ군ㆍ구의 지정에 필요한 서식에 관한 규칙","kind":"행정안전부령","articleCount":4,"officialUrl":"https://www.law.go.kr/법령/지방자치법시행령제120조에따른특례를둘수있는시ㆍ군ㆍ구의지정에필요한서식에관한규칙"},{"name":"행정구역 조정업무 처리에 관한 규칙","kind":"행정안전부령","articleCount":17,"officialUrl":"https://www.law.go.kr/법령/행정구역조정업무처리에관한규칙"},{"name":"행정협의회의 구성 및 운영에 관한 규칙","kind":"행정안전부령","articleCount":8,"officialUrl":"https://www.law.go.kr/법령/행정협의회의구성및운영에관한규칙"},{"name":"지방자치단체의 행정기구와 정원기준 등에 관한 규정 시행규칙","kind":"행정안전부령","articleCount":6,"officialUrl":"https://www.law.go.kr/법령/지방자치단체의행정기구와정원기준등에관한규정시행규칙"}],"kinds":[{"kind":"행정안전부령","count":6}],"articleCount":45},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"(행정안전부) 감사청구심의회구성 및 운영에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/(행정안전부)감사청구심의회구성및운영에관한규정"},{"name":"감사청구심의회 구성·운영에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/감사청구심의회구성·운영에관한규정"},{"name":"국토교통부 감사청구심의회 구성 및 운영에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국토교통부감사청구심의회구성및운영에관한규정"},{"name":"농림축산식품부 감사청구심의회 운영규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/농림축산식품부감사청구심의회운영규정"},{"name":"문화체육관광부 주민감사청구 심의회 구성 및 운영에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/문화체육관광부주민감사청구심의회구성및운영에관한규정"},{"name":"보건복지부 감사청구심의회 운영규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/보건복지부감사청구심의회운영규정"},{"name":"산업통상자원부 감사청구심의회 운영규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/산업통상자원부감사청구심의회운영규정"},{"name":"해양수산부 감사청구심의회 구성 및 운영에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/해양수산부감사청구심의회구성및운영에관한규정"}],"kinds":[{"kind":"훈령","count":8}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EC%A7%80%EB%B0%A9%EC%9E%90%EC%B9%98%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":96,"rule":46,"adminRule":8,"ordinance":98,"cites":234}},"001652":{"lawId":"001652","name":"지방재정법","href":"/law/001652/","ministry":"행정안전부","effectiveOn":"2026-10-20","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"지방재정법","kind":"법률","articleCount":148,"officialUrl":"https://www.law.go.kr/법령/지방재정법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":148},{"tier":"decree","label":"시행령","laws":[{"name":"지방재정법 시행령","kind":"대통령령","articleCount":188,"officialUrl":"https://www.law.go.kr/법령/지방재정법시행령"}],"kinds":[{"kind":"대통령령","count":1}],"articleCount":188},{"tier":"rule","label":"시행규칙","laws":[{"name":"지방재정법 시행령 제33조제1항 본문에 따른 지방자치단체 경비부담의 기준 등에 관한 규칙","kind":"행정안전부령","articleCount":4,"officialUrl":"https://www.law.go.kr/법령/지방재정법시행령제33조제1항본문에따른지방자치단체경비부담의기준등에관한규칙"},{"name":"교육비특별회계 회계기준에 관한 규칙","kind":"교육부령","articleCount":52,"officialUrl":"https://www.law.go.kr/법령/교육비특별회계회계기준에관한규칙"},{"name":"지방교육행정기관 예산성과금 운영규칙","kind":"교육부령","articleCount":20,"officialUrl":"https://www.law.go.kr/법령/지방교육행정기관예산성과금운영규칙"},{"name":"지방교육행정기관 재정투자사업 심사규칙","kind":"교육부령","articleCount":17,"officialUrl":"https://www.law.go.kr/법령/지방교육행정기관재정투자사업심사규칙"},{"name":"지방자치단체 예산성과금 운영규칙","kind":"행정안전부령","articleCount":20,"officialUrl":"https://www.law.go.kr/법령/지방자치단체예산성과금운영규칙"},{"name":"지방재정투자사업 심사규칙","kind":"행정안전부령","articleCount":18,"officialUrl":"https://www.law.go.kr/법령/지방재정투자사업심사규칙"},{"name":"지방자치단체 교육비특별회계 예산편성 운용에 관한 규칙","kind":"교육부령","articleCount":11,"officialUrl":"https://www.law.go.kr/법령/지방자치단체교육비특별회계예산편성운용에관한규칙"},{"name":"지방자치단체 예산편성 운용에 관한 규칙","kind":"행정안전부령","articleCount":11,"officialUrl":"https://www.law.go.kr/법령/지방자치단체예산편성운용에관한규칙"},{"name":"지방재정업무 처리를 위한 정보시스템의 관리ㆍ운영에 관한 규칙","kind":"행정안전부령","articleCount":10,"officialUrl":"https://www.law.go.kr/법령/지방재정업무처리를위한정보시스템의관리ㆍ운영에관한규칙"}],"kinds":[{"kind":"행정안전부령","count":5},{"kind":"교육부령","count":4}],"articleCount":163},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"지방자치단체 예산편성 운영기준","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방자치단체예산편성운영기준"},{"name":"지방교육재정 분석 및 진단 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방교육재정분석및진단규정"},{"name":"지방재정관리위원회 운영규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방재정관리위원회운영규정"},{"name":"지방재정영향평가지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방재정영향평가지침"},{"name":"지방재정위기관리제도 운영 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방재정위기관리제도운영규정"},{"name":"지방보조금 관리기준","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방보조금관리기준"},{"name":"지방자치단체 주요재정사업 평가기준","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방자치단체주요재정사업평가기준"},{"name":"지방자치단체 채권관리 지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방자치단체채권관리지침"},{"name":"재정분석 및 재정진단 분야 전문기관","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/재정분석및재정진단분야전문기관"},{"name":"지방재정영향평가 면제사업 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방재정영향평가면제사업고시"},{"name":"지방자치단체 교육비특별회계 예산편성 운영기준","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방자치단체교육비특별회계예산편성운영기준"},{"name":"지방자치단체 예산의 성과계획서 작성기준","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방자치단체예산의성과계획서작성기준"},{"name":"통합지방재정시스템 운영지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/통합지방재정시스템운영지침"},{"name":"지방교육행정기관 총사업비 500억원 이상 신규사업에 대한 타당성 조사 전문기관","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방교육행정기관총사업비500억원이상신규사업에대한타당성조사전문기관"},{"name":"총 사업비 500억원 이상 신규사업에 대한 타당성 조사 전문기관","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/총사업비500억원이상신규사업에대한타당성조사전문기관"},{"name":"지방자치단체 성과보고서 작성기준","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방자치단체성과보고서작성기준"}],"kinds":[{"kind":"훈령","count":7},{"kind":"예규","count":4},{"kind":"고시","count":4},{"kind":"행정규칙","count":1}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EC%A7%80%EB%B0%A9%EC%9E%AC%EC%A0%95%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":88,"rule":34,"adminRule":21,"ordinance":15,"cites":254}}}},"statusStyles":{"done":{"label":"선행","fill":"#effaf5","border":"#35a77d","ink":"#123d2e","sub":"#287a5c"},"current":{"label":"핵심","fill":"#087452","border":"#087452","ink":"#ffffff","sub":"#d8f4e8"},"waiting":{"label":"후속","fill":"#ffffff","border":"#b9c7bf","ink":"#17231d","sub":"#627169"},"risk":{"label":"병목","fill":"#fff8e8","border":"#d9901a","ink":"#7a4305","sub":"#a96008"},"loop":{"label":"회귀","fill":"#edf4ff","border":"#3478db","ink":"#173f7a","sub":"#316bbd"}},"basisLegend":[{"label":"법률","fill":"#ffffff","border":"#3b4a43"},{"label":"시행령","fill":"#f2f6ff","border":"#2456d6"},{"label":"시행규칙","fill":"#effaf6","border":"#0f9f72"},{"label":"행정규칙","fill":"#f6f2ff","border":"#7c56c9"}],"isLawIndex":true}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:I[6196,[],"IconMark"]
+7:null
+c:[["$","title","0",{"children":"지방자치단체 보조금 관리에 관한 법률 업무흐름도 | 법령정보 시연판"}],["$","meta","1",{"name":"robots","content":"noindex, nofollow"}],["$","link","2",{"rel":"icon","href":"/lawdemo/flow/favicon.ico?603d046c9a6fdfbb","type":"image/x-icon","sizes":"16x16"}],["$","$L11","3",{}]]

@@ -1,0 +1,3 @@
+:HL["/lawdemo/flow/_next/static/css/cd237d4e4c702e12.css","style"]
+:HL["/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"embed","param":null,"prefetchHints":0,"slots":{"children":{"name":"flow","param":null,"prefetchHints":0,"slots":{"children":{"name":"lawId","param":{"type":"d","key":"002315","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"national-civil-service-early-promotion","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}}}},"staleTime":300,"buildId":"Eu-UvfunzEwjnKcUq5f7W"}

@@ -1,0 +1,400 @@
+1:"$Sreact.fragment"
+2:I[7742,["838","static/chunks/838-9b85aecee2a13f53.js","379","static/chunks/379-f104668f756ddde1.js","301","static/chunks/app/embed/flow/%5BlawId%5D/%5Bslug%5D/page-e3d0b6acb7d5d0b3.js"],"default"]
+6:I[977,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+:HL["/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","style"]
+3:T7f45,<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 250 1744 1960" class="pp-svg">
+<defs>
+      <filter id="card-shadow" x="-20%" y="-25%" width="140%" height="160%">
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#12271e" flood-opacity="0.10"/>
+      </filter>
+      <marker id="arrow-sequence" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#53675d" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-message" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#0f8a65" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-loop" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#3478db" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <style>
+        text { font-family: "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", sans-serif; }
+        .mono { font-family: "SFMono-Regular", "Menlo", monospace; }
+      </style>
+    </defs>
+<rect width="1800" height="2400" fill="#ffffff"/>
+
+
+
+<rect x="38" y="260" width="1724" height="1940" rx="10" fill="#ffffff" stroke="#b8c7bf" stroke-width="2"/>
+<rect x="38" y="260" width="190" height="100" rx="10" fill="#eaf2ee"/>
+<text x="58" y="299" font-size="17" font-weight="800" fill="#17231d">단계 ↓</text>
+<text x="58" y="332" font-size="15" font-weight="650" fill="#68776f">행위자 묶음 →</text>
+<rect x="38" y="360" width="1724" height="173.7" fill="#fbfcfb"/>
+<rect x="38" y="360" width="190" height="173.7" fill="#eef3f0"/>
+<text x="58" y="392" class="mono" font-size="16" font-weight="800" fill="#53645b">G0</text>
+<text x="58" y="425" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">인사 사유 발생</tspan></text>
+<rect x="38" y="533.7" width="1724" height="287.7" fill="#f5f8f6"/>
+<rect x="38" y="533.7" width="190" height="287.7" fill="#eef3f0"/>
+<text x="58" y="565.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G1</text>
+<text x="58" y="598.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">별도정원 판단</tspan></text>
+<rect x="38" y="821.3" width="1724" height="401.7" fill="#fbfcfb"/>
+<rect x="38" y="821.3" width="190" height="401.7" fill="#eef3f0"/>
+<text x="58" y="853.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G2</text>
+<text x="58" y="886.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">결원보충 방식</tspan><tspan x="58" dy="22">선택</tspan></text>
+<rect x="38" y="1223" width="1724" height="287.7" fill="#f5f8f6"/>
+<rect x="38" y="1223" width="190" height="287.7" fill="#eef3f0"/>
+<text x="58" y="1255" class="mono" font-size="16" font-weight="800" fill="#53645b">G3</text>
+<text x="58" y="1288" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">승진티오</tspan><tspan x="58" dy="22">산정·심의</tspan></text>
+<rect x="38" y="1510.7" width="1724" height="287.7" fill="#fbfcfb"/>
+<rect x="38" y="1510.7" width="190" height="287.7" fill="#eef3f0"/>
+<text x="58" y="1542.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G4</text>
+<text x="58" y="1575.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">임용발령·운영</tspan></text>
+<rect x="38" y="1798.3" width="1724" height="401.7" fill="#f5f8f6"/>
+<rect x="38" y="1798.3" width="190" height="401.7" fill="#eef3f0"/>
+<text x="58" y="1830.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G5</text>
+<text x="58" y="1863.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">복직·정원 소멸</tspan></text>
+<rect x="228" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="228" y="260" width="383.5" height="7" fill="#0f9f72"/>
+<text x="248" y="299" font-size="20" font-weight="800" fill="#17231d">휴직·파견 공무원</text>
+<text x="248" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="248" dy="0">휴직·파견 공무원</tspan></text>
+<rect x="611.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="611.5" y="260" width="383.5" height="7" fill="#3b82f6"/>
+<text x="631.5" y="299" font-size="20" font-weight="800" fill="#17231d">임용권자·인사부서</text>
+<text x="631.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="631.5" dy="0">임용권자·인사부서</tspan></text>
+<rect x="995" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="995" y="260" width="383.5" height="7" fill="#c78116"/>
+<text x="1015" y="299" font-size="20" font-weight="800" fill="#17231d">인사위원회·승진후보자·후임자</text>
+<text x="1015" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1015" dy="0">인사위원회 · 승진후보자·후임자</tspan></text>
+<rect x="1378.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="1378.5" y="260" width="383.5" height="7" fill="#0891b2"/>
+<text x="1398.5" y="299" font-size="20" font-weight="800" fill="#17231d">복직자·조직관리</text>
+<text x="1398.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1398.5" dy="0">복직자·조직관리</tspan></text>
+<line x1="228" y1="260" x2="228" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="611.5" y1="260" x2="611.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="995" y1="260" x2="995" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1378.5" y1="260" x2="1378.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1762" y1="260" x2="1762" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#b8c7bf" stroke-width="2"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="533.7" x2="1762" y2="533.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="821.3" x2="1762" y2="821.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1223" x2="1762" y2="1223" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1510.7" x2="1762" y2="1510.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1798.3" x2="1762" y2="1798.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2200" x2="1762" y2="2200" stroke="#b8c7bf" stroke-width="2"/>
+<g class="pp-edge" data-edge-id="E01" data-source="P01" data-target="P02">
+<path d="M 409.8 491.8 V 521.7 H 793.3 V 567.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 409.8 491.8 V 521.7 H 793.3 V 567.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E02" data-source="P01" data-target="P03">
+<path d="M 417.8 491.8 V 505.7 H 616.5 V 730.5 H 660.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 417.8 491.8 V 505.7 H 616.5 V 730.5 H 660.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E03" data-source="P02" data-target="P04">
+<path d="M 938.3 627 H 977 V 809.3 H 783.3 V 855.2" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 627 H 977 V 809.3 H 783.3 V 855.2" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E04" data-source="P03" data-target="P04">
+<path d="M 801.3 779.5 V 793.3 H 791.3 V 855.2" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 801.3 779.5 V 793.3 H 791.3 V 855.2" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E05" data-source="P04" data-target="P05">
+<path d="M 823.3 953.2 V 969.2 H 809.3 V 969.2" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 823.3 953.2 V 969.2 H 809.3 V 969.2" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E06" data-source="P05" data-target="P06">
+<path d="M 777.3 1067.2 V 1083.2 H 771.3 V 1083.2" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 777.3 1067.2 V 1083.2 H 771.3 V 1083.2" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E07" data-source="P06" data-target="P07">
+<path d="M 809.3 1181.2 V 1211 H 793.3 V 1313.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 809.3 1181.2 V 1211 H 793.3 V 1313.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E08" data-source="P06" data-target="P10">
+<path d="M 805.3 1181.2 V 1195 H 1356.5 V 1524.5 H 1160.8 V 1544.5" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 805.3 1181.2 V 1195 H 1356.5 V 1524.5 H 1160.8 V 1544.5" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E09" data-source="P07" data-target="P08">
+<path d="M 938.3 1373.3 H 1023.8 V 1305.8 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 1373.3 H 1023.8 V 1305.8 H 1043.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E10" data-source="P08" data-target="P09">
+<path d="M 1190.8 1354.8 V 1370.8 H 1176.8 V 1370.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1190.8 1354.8 V 1370.8 H 1176.8 V 1370.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E11" data-source="P09" data-target="P10">
+<path d="M 1196.8 1468.8 V 1482.7 H 1174.8 V 1544.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1196.8 1468.8 V 1482.7 H 1174.8 V 1544.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E12" data-source="P10" data-target="P11">
+<path d="M 1206.8 1642.5 V 1658.5 H 1182.8 V 1658.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1206.8 1642.5 V 1658.5 H 1182.8 V 1658.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E13" data-source="P11" data-target="P12">
+<path d="M 1190.8 1756.5 V 1786.3 H 1560.3 V 1832.2" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1190.8 1756.5 V 1786.3 H 1560.3 V 1832.2" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E14" data-source="P12" data-target="P13">
+<path d="M 1574.3 1930.2 V 1946.2" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1574.3 1930.2 V 1946.2" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E15" data-source="P13" data-target="P14">
+<path d="M 1566.3 2044.2 V 2060.2 H 1586.3 V 2060.2" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1566.3 2044.2 V 2060.2 H 1586.3 V 2060.2" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L01" data-source="P14" data-target="P05">
+<path d="M 1435.3 2106.7 H 190 V 1171 H 841.3 V 1075.2" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1435.3 2106.7 H 190 V 1171 H 841.3 V 1075.2" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge-label" data-edge-id="E01" data-source="P01" data-target="P02">
+<rect x="541.6" y="525.7" width="119.8" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="601.5" y="545.7" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">휴직 기간 산정</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E02" data-source="P01" data-target="P03">
+<rect x="425.7" y="581.7" width="182.8" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="517.1" y="601.7" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">파견·직위해제 여부 확인</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E03" data-source="P02" data-target="P04">
+<rect x="684.9" y="813.3" width="226.6" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="798.3" y="833.3" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">6개월 이상 또는 조례 특례 충족</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E04" data-source="P03" data-target="P04">
+<rect x="494.9" y="797.3" width="182.8" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="586.3" y="817.3" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">파견·직위해제 요건 충족</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E05" data-source="P04" data-target="P05">
+<rect x="998.4" y="950.2" width="119.8" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1058.3" y="970.2" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">결원 산정 반영</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E06" data-source="P05" data-target="P06">
+<rect x="998.4" y="1064.2" width="119.8" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1058.3" y="1084.2" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">보충 방식 검토</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E07" data-source="P06" data-target="P07">
+<rect x="734.4" y="1215" width="133.8" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="801.3" y="1235" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">승진임용 선택 시</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E08" data-source="P06" data-target="P10">
+<rect x="1346.7" y="1344.8" width="159.7" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1426.5" y="1364.8" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">신규·전보 등 선택 시</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E09" data-source="P07" data-target="P08">
+<rect x="848.7" y="1271.6" width="152.7" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="925" y="1291.6" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">승진 가능 인원 확정</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E10" data-source="P08" data-target="P09">
+<rect x="1349" y="1387.8" width="185.6" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1441.8" y="1407.8" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">명부 순위 기준 심의 부의</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E11" data-source="P09" data-target="P10">
+<rect x="1128.3" y="1486.7" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1185.8" y="1506.7" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">사전심의 완료</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E12" data-source="P10" data-target="P11">
+<rect x="1393.8" y="1639.5" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1441.8" y="1659.5" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">후임 배치</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E13" data-source="P11" data-target="P12">
+<rect x="1284.1" y="1790.3" width="182.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1375.5" y="1810.3" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">휴직자 복직·파견자 복귀</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E14" data-source="P12" data-target="P13">
+<rect x="1538.9" y="1783.2" width="152.7" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1615.3" y="1803.2" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">소멸 기산 사유 발생</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E15" data-source="P13" data-target="P14">
+<rect x="1260.3" y="2041.2" width="149.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1335.3" y="2061.2" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">과원·보직관리 필요</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L01" data-source="P14" data-target="P05">
+<rect x="160.2" y="1627.1" width="199.6" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="260" y="1647.1" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">다음 결원 보충 계획에 환류</text>
+</g>
+
+    <g class="pp-node" data-node-id="P01" data-basis="지방공무원법:제63조 지방공무원법:제65조의3" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="401.8" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="401.8" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="421.8" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P01</text>
+      
+      <rect x="468.8" y="408.8" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="425.8" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §63 +1</text>
+      <text x="299.8" y="458.8" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">휴직·파견·직위해제 사유 발생</tspan></text>
+      <text x="299.8" y="483.8" font-size="11" font-weight="650" fill="#3b4a43">지방공무원·임용권자</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P02" data-basis="지방공무원법:제41조 지방자치단체인사관련조례:제41조" filter="url(#card-shadow)">
+      <rect x="664.3" y="571.5" width="278" height="98" rx="11" fill="none" stroke="#7c3aed" stroke-width="2.2" stroke-dasharray="7 5"/>
+      <rect x="668.3" y="575.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="575.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="595.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P02</text>
+      <text x="735.3" y="595.5" font-size="11.5" font-weight="800" fill="#5b21b6">조례 위임</text>
+      <rect x="852.3" y="582.5" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="599.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §41 +1</text>
+      <text x="683.3" y="632.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">6개월 이상 휴직·조례 특례 판단</tspan></text>
+      <text x="683.3" y="657.5" font-size="11" font-weight="650" fill="#3b4a43">기한 · 6개월 이상 휴직 또는 조례 특례 적용…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P03" data-basis="지방공무원법:제41조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="689.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="689.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="709.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P03</text>
+      
+      <rect x="852.3" y="696.5" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="713.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §41 +1</text>
+      <text x="683.3" y="746.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">파견·직위해제 별도정원 판단</tspan></text>
+      <text x="683.3" y="771.5" font-size="11" font-weight="650" fill="#3b4a43">인사부서</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P04" data-basis="지방공무원법:제41조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="863.2" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="863.2" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="883.2" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P04</text>
+      
+      <rect x="869.3" y="870.2" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="887.2" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §41</text>
+      <text x="683.3" y="920.2" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">별도정원 간주·결원 산정</tspan></text>
+      <text x="683.3" y="945.2" font-size="11" font-weight="650" fill="#3b4a43">임용권자·인사부서</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P05" data-basis="지방공무원임용령:제8조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="977.2" width="270" height="90" rx="8" fill="#f2f6ff" stroke="#2456d6" stroke-width="2.3"/>
+      <rect x="668.3" y="977.2" width="6" height="90" rx="3" fill="#2456d6"/>
+      <text x="683.3" y="997.2" class="mono" font-size="12.5" font-weight="750" fill="#2456d6">P05</text>
+      
+      <rect x="876.3" y="984.2" width="52" height="24" rx="5" fill="#2456d6" opacity="0.14"/>
+      <text x="902.3" y="1001.2" text-anchor="middle" font-size="12" font-weight="800" fill="#14306f">령 §8</text>
+      <text x="683.3" y="1034.2" font-size="15.5" font-weight="800" fill="#14306f"><tspan x="683.3" dy="0">결원 보충 조치 착수</tspan></text>
+      <text x="683.3" y="1059.2" font-size="11" font-weight="650" fill="#2456d6">기한 · 결원 발생 후 지체 없이</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P06" data-basis="지방공무원법:제26조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1091.2" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1091.2" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1111.2" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P06</text>
+      
+      <rect x="869.3" y="1098.2" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1115.2" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §26</text>
+      <text x="683.3" y="1148.2" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">보충 방식 선택</tspan></text>
+      <text x="683.3" y="1173.2" font-size="11" font-weight="650" fill="#3b4a43">임용권자</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P07" data-basis="지방공무원법:제38조 지방공무원임용령:제33조 지방공무원임용령:제34조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1321.8" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1321.8" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1341.8" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P07</text>
+      
+      <rect x="852.3" y="1328.8" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="1345.8" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §38 +1</text>
+      <text x="683.3" y="1378.8" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">승진 가능 인원 산정</tspan></text>
+      <text x="683.3" y="1403.8" font-size="11" font-weight="650" fill="#3b4a43">인사부서</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P08" data-basis="지방공무원임용령:제32조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1264.8" width="270" height="90" rx="8" fill="#f2f6ff" stroke="#2456d6" stroke-width="2.3"/>
+      <rect x="1051.8" y="1264.8" width="6" height="90" rx="3" fill="#2456d6"/>
+      <text x="1066.8" y="1284.8" class="mono" font-size="12.5" font-weight="750" fill="#2456d6">P08</text>
+      
+      <rect x="1252.8" y="1271.8" width="59" height="24" rx="5" fill="#2456d6" opacity="0.14"/>
+      <text x="1282.3" y="1288.8" text-anchor="middle" font-size="12" font-weight="800" fill="#14306f">령 §32</text>
+      <text x="1066.8" y="1321.8" font-size="15.5" font-weight="800" fill="#14306f"><tspan x="1066.8" dy="0">승진후보자 명부 적용</tspan></text>
+      <text x="1066.8" y="1346.8" font-size="11" font-weight="650" fill="#2456d6">승진후보자 명부 등재 공무원</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P09" data-basis="지방공무원법:제39조 지방공무원법:제41조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1378.8" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1378.8" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1398.8" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P09</text>
+      
+      <rect x="1235.8" y="1385.8" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1402.8" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §39 +1</text>
+      <text x="1066.8" y="1435.8" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">인사위원회 사전심의</tspan></text>
+      <text x="1066.8" y="1460.8" font-size="11" font-weight="650" fill="#3b4a43">지방자치단체 인사위원회</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P10" data-basis="지방공무원법:제26조 지방공무원법:제39조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1552.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1552.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1572.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P10</text>
+      
+      <rect x="1235.8" y="1559.5" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1576.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §26 +1</text>
+      <text x="1066.8" y="1599.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">신규·승진·전보 등 임용발령 결과</tspan><tspan x="1066.8" dy="18">통지·확인</tspan></text>
+      <text x="1066.8" y="1634.5" font-size="11" font-weight="650" fill="#3b4a43">임용권자·후임자</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P11" data-basis="지방공무원법:제41조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1666.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1666.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1686.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P11</text>
+      
+      <rect x="1252.8" y="1673.5" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1690.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §41</text>
+      <text x="1066.8" y="1723.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">후임 근무·업무 공백 해소</tspan></text>
+      <text x="1066.8" y="1748.5" font-size="11" font-weight="650" fill="#3b4a43">후임 공무원·소속 부서</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P12" data-basis="지방공무원법:제41조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="1840.2" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="1840.2" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="1860.2" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P12</text>
+      
+      <rect x="1636.3" y="1847.2" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1665.8" y="1864.2" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §41</text>
+      <text x="1450.3" y="1897.2" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">복직·복귀·직위 부여</tspan></text>
+      <text x="1450.3" y="1922.2" font-size="11" font-weight="650" fill="#3b4a43">복직자·임용권자</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P13" data-basis="지방공무원법:제41조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="1954.2" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="1954.2" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="1974.2" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P13</text>
+      
+      <rect x="1636.3" y="1961.2" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1665.8" y="1978.2" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §41</text>
+      <text x="1450.3" y="2011.2" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">최초 결원 발생 시 별도정원 소멸</tspan></text>
+      <text x="1450.3" y="2036.2" font-size="11" font-weight="650" fill="#3b4a43">기한 · 복직·복귀 이후 해당 직급·직위 최초…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P14" data-basis="지방공무원법:제41조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="2068.2" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="2068.2" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="2088.2" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P14</text>
+      
+      <rect x="1636.3" y="2075.2" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1665.8" y="2092.2" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §41</text>
+      <text x="1450.3" y="2125.2" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">과원·보직관리 환류</tspan></text>
+      <text x="1450.3" y="2150.2" font-size="11" font-weight="650" fill="#3b4a43">임용권자·소속 부서</text>
+    </g>
+  
+
+</svg>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"law":{"lawId":"005050","mst":"287515","name":"지방공무원 임용령","kind":"대통령령","tier":"decree","effectiveOn":"2026-06-30","officialUrl":"https://www.law.go.kr/법령/지방공무원임용령"},"flows":[{"slug":"local-civil-service-exam","name":"지방공무원 공개경쟁임용시험","oneLiner":"채용계획부터 공고·원서접수·시험·합격·등록까지 이어지는 업무 경로","citingSteps":12,"totalSteps":12,"articles":{"제9조":2,"제42조의2":1,"제42조":1,"제50조":1,"제11조":2,"제12조":2,"제38조의3":2,"제13조":2,"제9조의2":1,"제9조의3":1,"제9조의4":1,"제22조":1,"제33조":1,"제34조":1,"제31조의2":1}},{"slug":"local-civil-service-promotion","name":"지방공무원 승진","oneLiner":"근무성적·경력평정으로 승진후보자 명부를 작성하고 인사위원회의 사전심의를 거쳐 상위 계급으로 임용하는 지방공무원 승진 절차","citingSteps":8,"totalSteps":14,"articles":{"제33조":1,"제34조":1,"제31조의2":1,"제31조의6":1,"제32조":2,"제35조":2,"제38조의4":1,"제31조":1}},{"slug":"local-exam-delegation","name":"지방공무원 임용시험 위탁","oneLiner":"시군구 임용권자가 우수 인력 확보 또는 시험관리상 필요하면 자체 인사위원회 대신 시·도 인사위원회에 임용시험 실시를 위탁하고, 시험실시기관이 다른 기관·민간기관과 공동·위탁 실시할 수 있는 지방 시험행정 유연화 제도","citingSteps":8,"totalSteps":14,"articles":{"제42조의2":1,"제42조의3":2,"제42조의4":1,"제42조":1,"제63조":1,"제44조":1,"제13조":1}},{"slug":"local-civil-service-appointment","name":"지방공무원 임용과 인사위원회","oneLiner":"지방자치단체 임용권자(단체장)의 임용권 행사를 인사위원회의 사전심의·의결로 견제하고, 공개경쟁 원칙 위에 공정한 지방공무원 임용을 실현하는 인사행정 제도","citingSteps":7,"totalSteps":14,"articles":{"제9조":1,"제42조의2":1,"제42조":1,"제50조":1,"제11조":1,"제12조":1,"제38조의3":1,"제13조":1}},{"slug":"local-civil-service-special-promotion","name":"지방공무원 특별승진","oneLiner":"핵심 인사교류 직위나 민간기업 전담공무원 등에서 우수 성과를 낸 지방공무원을 특별승진 사유·승진제한·인사위원회 의결을 거쳐 상위 직급으로 임용하는 지방공무원 특별승진 절차","citingSteps":7,"totalSteps":14,"articles":{"제27조의5":2,"제34조":1,"제38조의4":5,"제33조":1,"제31조":1}},{"slug":"local-personnel-exchange","name":"지방 인사교류","oneLiner":"행정안전부·시도지사 주도의 인사교류협의회가 교류안을 작성하고, 본인 동의를 전제로 지방자치단체 간·시도-시군구 간 공무원을 전출·전입시켜 인력을 균형 배치하는 지방인사 제도","citingSteps":5,"totalSteps":13,"articles":{"제27조의5":3,"제27조의7":1,"제27조의6":1}},{"slug":"local-civil-service-vacancy-supplement","name":"지방공무원 결원보충·승진티오","oneLiner":"6개월 이상 휴직·파견·직위해제 등으로 별도정원이 인정되면 임용권자가 결원을 보충하고, 승진임용 선택 시 승진티오에 반영되는 지방공무원 정원관리 절차","citingSteps":3,"totalSteps":14,"articles":{"제8조":1,"제33조":1,"제34조":1,"제32조":1}}],"current":"$0:rsc:props:children:0:props:flows:6","asOfDate":"2026-07-12","reviewNote":"주요 절차를 요약한 참고 모델입니다. 모든 예외·위임규정의 현행성까지 전수 검증한 자료는 아닙니다. 법령 체계의 보관 자료와 현행 원문은 다를 수 있습니다.","svg":"$3","nodes":[{"id":"P01","name":"휴직·파견·직위해제 사유 발생","lane":"휴직·파견 공무원","stage":"G0 인사 사유 발생","type":"notice","status":"done","progress":100,"actor":"지방공무원·임용권자","action":"질병·병역·육아·간병 등 휴직, 파견, 직위해제, 처분 취소 등 결원 보충 판단의 기초가 되는 인사 사유가 발생한다","output_documents":["휴직·파견·직위해제 발령문","사유 증빙자료"],"deadline":null,"confidence":0.95,"legal_basis":[{"law":"지방공무원법","article":"제63조(휴직)","text":"공무원이 법정 휴직 사유에 해당하면 임용권자는 휴직을 명하거나 휴직을 명할 수 있다."},{"law":"지방공무원법","article":"제65조의3(직위해제)","text":"징계의결 요구, 형사기소, 중대 비위 수사 등 일정 사유가 있으면 임용권자는 직위를 부여하지 않을 수 있다."}]},{"id":"P02","name":"6개월 이상 휴직·조례 특례 판단","lane":"임용권자·인사부서","stage":"G1 별도정원 판단","type":"gateway","status":"done","progress":100,"actor":"인사부서","action":"휴직 사유와 기간을 확인한다. 일반 휴직은 6개월 이상인지 보며, 병가+질병휴직 또는 출산휴가+육아휴직 연속 6개월은 대통령령 또는 조례가 정하면 시작일부터 보충 가능성을 검토한다","output_documents":["휴직 기간 산정표","조례 특례 확인표"],"deadline":"6개월 이상 휴직 또는 조례 특례 적용 시점","confidence":0.94,"legal_basis":[{"law":"지방공무원법","article":"제41조제1항","text":"제63조제1항제1호·제2호·제4호·제5호, 제63조제2항 또는 제65조의2에 따라 6개월 이상 휴직한 경우에는 휴직일부터 별도정원으로 보고 결원을 보충할 수 있다."},{"kind":"조례·규칙","law":"지방자치단체 인사 관련 조례","article":"제41조제1항 단서 위임","text":"병가와 질병휴직, 출산휴가와 육아휴직을 연속하여 6개월 이상 사용하는 경우 대통령령 또는 지방자치단체의 조례로 정하면 그 휴가 또는 휴직의 시작일부터 결원을 보충할 수 있다. [지방공무원법 §41① 단서의 임의 조례 — 부산광역시 공무원 정원 조례(2112201)에는 해당 특례 규정이 없음을 확인(2026-07-12). 특례 조례 보유 여부는 지자체별 상이.]","unverified":true}]},{"id":"P03","name":"파견·직위해제 별도정원 판단","lane":"임용권자·인사부서","stage":"G1 별도정원 판단","type":"gateway","status":"waiting","progress":60,"actor":"인사부서","action":"파견 기간, 직위해제 기간, 징계·수사 관련 긴급 보충 요건을 확인하여 별도정원 인정 가능성을 판단한다","output_documents":["파견·직위해제 기간 확인서","긴급 결원 보충 필요성 검토서"],"deadline":null,"confidence":0.9,"legal_basis":[{"law":"지방공무원법","article":"제41조제2항","text":"파견된 경우 대통령령으로 정하는 바에 따라 파견기간 중 해당 직급 정원이 따로 있는 것으로 보고 결원을 보충하거나 파견자의 승진임용을 할 수 있다."},{"law":"지방공무원법","article":"제41조제4항","text":"직위해제 기간이 6개월을 경과하면 별도정원으로 보고 결원을 보충할 수 있으며, 일정한 경우 더 이른 시점의 보충도 가능하다."}]},{"id":"P04","name":"별도정원 간주·결원 산정","lane":"임용권자·인사부서","stage":"G2 결원보충 방식 선택","type":"task","status":"done","progress":100,"actor":"임용권자·인사부서","action":"요건을 충족한 직급·직위 또는 상당 계급의 정원이 따로 있는 것으로 보고 결원 산정표에 반영한다","output_documents":["별도정원 인정 검토서","직급별 결원 산정표"],"deadline":null,"confidence":0.95,"legal_basis":[{"law":"지방공무원법","article":"제41조제1항","text":"6개월 이상 휴직한 경우 휴직일부터 그 휴직자의 직급·직위 또는 상당 계급에 해당하는 정원이 따로 있는 것으로 본다."}]},{"id":"P05","name":"결원 보충 조치 착수","lane":"임용권자·인사부서","stage":"G2 결원보충 방식 선택","type":"task","status":"done","progress":100,"actor":"임용권자","action":"해당 기관에 결원이 생긴 것으로 보고 지체 없이 보충에 필요한 내부 검토와 절차를 시작한다","output_documents":["결원 보충 계획","인력운영 검토안"],"deadline":"결원 발생 후 지체 없이","confidence":0.94,"legal_basis":[{"law":"지방공무원 임용령","article":"제8조(결원의 신속 보충)","text":"임용권자는 해당 기관에 결원이 생기면 지체 없이 결원 보충에 필요한 조치를 하여야 한다."}]},{"id":"P06","name":"보충 방식 선택","lane":"임용권자·인사부서","stage":"G2 결원보충 방식 선택","type":"gateway","status":"current","progress":80,"actor":"임용권자","action":"결원 보충 방식을 신규임용·승진임용·강임·전직·전보 중에서 선택한다. 현장에서 말하는 승진티오는 이 단계에서 승진임용을 선택할 때 발생한다","output_documents":["결원 보충 방식 결정안"],"deadline":null,"confidence":0.96,"legal_basis":[{"law":"지방공무원법","article":"제26조(결원 보충 방법)","text":"임용권자는 공무원의 결원을 신규임용·승진임용·강임·전직 또는 전보의 방법으로 보충한다."}]},{"id":"P07","name":"승진 가능 인원 산정","lane":"임용권자·인사부서","stage":"G3 승진티오 산정·심의","type":"task","status":"waiting","progress":60,"actor":"인사부서","action":"승진임용 방식이 선택되면 직급별 결원, 별도정원 반영분, 승진소요 최저연수, 승진 제한 사유를 대조하여 승진 가능 인원을 산정한다","output_documents":["승진 가능 인원 산정표","승진 제한 확인표"],"deadline":null,"confidence":0.88,"legal_basis":[{"law":"지방공무원법","article":"제38조(승진)","text":"계급 간 승진임용은 근무성적평정, 경력평정, 그 밖의 능력의 실증에 따라 한다."},{"law":"지방공무원 임용령","article":"제33조(승진소요 최저연수)·제34조(승진임용의 제한)","text":"승진에는 계급별 최저 재직연수와 승진 제한 사유 확인이 필요하다."}]},{"id":"P08","name":"승진후보자 명부 적용","lane":"승진후보자·후임자","stage":"G3 승진티오 산정·심의","type":"task","status":"waiting","progress":55,"actor":"승진후보자 명부 등재 공무원","action":"근무성적평정점과 경력평정점 등을 반영한 승진후보자 명부 순위에 따라 심의 대상자를 확정한다","output_documents":["승진후보자 명부","심의 대상자 목록"],"deadline":null,"confidence":0.9,"legal_basis":[{"law":"지방공무원 임용령","article":"제32조(승진후보자 명부의 작성)","text":"임용권자는 근무성적평정점 70%와 경력평정점 30%를 기준으로 승진후보자 명부를 승진 예정 직급별로 작성한다."}]},{"id":"P09","name":"인사위원회 사전심의","lane":"인사위원회","stage":"G3 승진티오 산정·심의","type":"task","status":"waiting","progress":50,"actor":"지방자치단체 인사위원회","action":"승진임용 대상과 결원 보충 필요성을 심의한다. 심사승진 등은 인사위원회 사전심의 결과가 임용권자를 기속한다","output_documents":["인사위원회 심의자료","인사위원회 심의·의결서"],"deadline":null,"confidence":0.9,"legal_basis":[{"law":"지방공무원법","article":"제39조제4항","text":"승진임용할 때에는 해당 인사위원회의 사전심의를 거쳐야 한다."},{"law":"지방공무원법","article":"제41조제4항제2호","text":"일정한 직위해제 사안에서는 인사위원회 심의 결과 긴급한 결원 보충 필요성이 인정되어야 조기 보충할 수 있다."}]},{"id":"P10","name":"신규·승진·전보 등 임용발령 결과 통지·확인","lane":"승진후보자·후임자","stage":"G4 임용발령·운영","type":"task","status":"waiting","progress":45,"actor":"임용권자·후임자","action":"선택한 방식에 따라 신규임용, 승진임용, 전보, 전직, 강임 발령을 하고 승진후보자·후임자에게 임용 결과를 통지·확인한다","output_documents":["임용발령문","보직 발령자료"],"deadline":null,"confidence":0.9,"legal_basis":[{"law":"지방공무원법","article":"제26조(결원 보충 방법)","text":"결원 보충 방법에는 신규임용·승진임용·강임·전직·전보가 포함된다."},{"law":"지방공무원법","article":"제39조제3항","text":"승진은 승진후보자 명부의 높은 순위에 있는 사람부터 대통령령으로 정하는 범위에서 임용하여야 한다."}]},{"id":"P11","name":"후임 근무·업무 공백 해소","lane":"승진후보자·후임자","stage":"G4 임용발령·운영","type":"task","status":"waiting","progress":40,"actor":"후임 공무원·소속 부서","action":"보충 임용된 공무원이 해당 직무를 수행하고, 부서는 장기휴직·파견 등으로 생긴 업무 공백을 운영상 해소한다","output_documents":["업무분장표","보직관리 자료"],"deadline":null,"confidence":0.76,"legal_basis":[{"law":"지방공무원법","article":"제41조제1항·제2항","text":"별도정원 간주는 장기휴직·파견 등으로 생긴 직급·직위 공백을 보충하기 위한 장치다."}]},{"id":"P12","name":"복직·복귀·직위 부여","lane":"복직자·조직관리","stage":"G5 복직·정원 소멸","type":"notice","status":"loop","progress":35,"actor":"복직자·임용권자","action":"휴직자 복직, 파견자 복귀, 파면·해임·면직자 복귀, 직위해제자 직위 부여 등 별도정원 소멸의 원인이 되는 사유가 발생한다","output_documents":["복직·복귀 발령문","직위 부여 문서"],"deadline":null,"confidence":0.94,"legal_basis":[{"law":"지방공무원법","article":"제41조제5항","text":"휴직자의 복직, 파견된 사람의 복귀, 처분 취소에 따른 복귀, 직위해제자 직위 부여가 별도정원 소멸의 기산 사유가 된다."}]},{"id":"P13","name":"최초 결원 발생 시 별도정원 소멸","lane":"복직자·조직관리","stage":"G5 복직·정원 소멸","type":"gateway","status":"loop","progress":30,"actor":"임용권자·인사부서","action":"복직·복귀 등 사유 발생 이후 해당 직급·직위에 최초 결원이 발생하면 별도정원이 소멸된 것으로 처리한다","output_documents":["별도정원 소멸 처리 기록","정원·현원 조정표"],"deadline":"복직·복귀 이후 해당 직급·직위 최초 결원 발생 시","confidence":0.95,"legal_basis":[{"law":"지방공무원법","article":"제41조제5항","text":"별도정원은 복직·복귀 등 사유가 발생한 이후 해당 직급·직위에 최초로 결원이 발생한 때 각각 소멸된 것으로 본다."}]},{"id":"P14","name":"과원·보직관리 환류","lane":"복직자·조직관리","stage":"G5 복직·정원 소멸","type":"task","status":"risk","progress":25,"actor":"임용권자·소속 부서","action":"복직자와 후임자가 동시에 존재하는 기간의 보직 배치, 업무 재분장, 다음 결원 발생 전까지의 과원 관리 방안을 조정한다","output_documents":["과원 관리 계획","보직 재배치안"],"deadline":null,"confidence":0.74,"legal_basis":[{"law":"지방공무원법","article":"제41조제5항","text":"별도정원 소멸 시점 규칙 때문에 복직 직후부터 최초 결원 발생 전까지 과원·보직관리 문제가 남을 수 있다."}]}],"edges":[{"id":"E01","source":"P01","target":"P02","type":"sequence","label":"휴직 기간 산정"},{"id":"E02","source":"P01","target":"P03","type":"sequence","label":"파견·직위해제 여부 확인"},{"id":"E03","source":"P02","target":"P04","type":"sequence","label":"6개월 이상 또는 조례 특례 충족"},{"id":"E04","source":"P03","target":"P04","type":"sequence","label":"파견·직위해제 요건 충족"},{"id":"E05","source":"P04","target":"P05","type":"sequence","label":"결원 산정 반영"},{"id":"E06","source":"P05","target":"P06","type":"sequence","label":"보충 방식 검토"},{"id":"E07","source":"P06","target":"P07","type":"sequence","label":"승진임용 선택 시"},{"id":"E08","source":"P06","target":"P10","type":"message","label":"신규·전보 등 선택 시"},{"id":"E09","source":"P07","target":"P08","type":"sequence","label":"승진 가능 인원 확정"},{"id":"E10","source":"P08","target":"P09","type":"sequence","label":"명부 순위 기준 심의 부의"},{"id":"E11","source":"P09","target":"P10","type":"sequence","label":"사전심의 완료"},{"id":"E12","source":"P10","target":"P11","type":"sequence","label":"후임 배치"},{"id":"E13","source":"P11","target":"P12","type":"message","label":"휴직자 복직·파견자 복귀"},{"id":"E14","source":"P12","target":"P13","type":"sequence","label":"소멸 기산 사유 발생"},{"id":"E15","source":"P13","target":"P14","type":"sequence","label":"과원·보직관리 필요"},{"id":"L01","source":"P14","target":"P05","type":"loop","label":"다음 결원 보충 계획에 환류"}],"lawContext":{"byNode":{"P01":[{"law":"지방공무원법","article":"제63조(휴직)","text":"공무원이 법정 휴직 사유에 해당하면 임용권자는 휴직을 명하거나 휴직을 명할 수 있다.","found":true,"lawId":"001653","tier":"statute","articles":[{"label":"제63조","title":"휴직","officialUrl":"https://www.law.go.kr/법령/지방공무원법/제63조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방공무원 임용령","label":"제38조의14","title":"육아휴직","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방공무원 임용령","label":"제38조의6","title":"민간기업 등의 범위","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방공무원 임용령","label":"제38조의19","title":"가족돌봄휴직","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방공무원 임용령","label":"제38조의20","title":"자기개발휴직","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방공무원 임용령","label":"제38조의7","title":"휴직의 절차 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방공무원 임용령","label":"제38조의8","title":"인사위원회의 심의","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방공무원 임용령","label":"제38조의9","title":"휴직의 제한","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방공무원 임용령","label":"제38조의10","title":"휴직공무원 등의 준수사항","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방공무원 임용령","label":"제38조의11","title":"민간기업등의 준수사항","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방공무원 임용령","label":"제38조의12","title":"임용권자의 준수사항 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방공무원 임용령","label":"제38조의13","title":"복직의 요청 및 명령","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방공무원 임용령","label":"제38조의14","title":"육아휴직","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방공무원 임용령","label":"제38조의16","title":"휴직자 등의 업무를 대행하는 공무원","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방공무원 임용령","label":"제38조의17","title":"휴직자 복무관리 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방공무원 임용령","label":"제38조의18","title":"질병휴직","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방공무원 임용령","label":"제38조의19","title":"가족돌봄휴직","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방공무원 임용령","label":"제38조의20","title":"자기개발휴직","tier":"decree"},{"kind":"adminRule","phrase":"교육부장관 또는 행정안전부장관이 지정하는 연구기관이나 교육기관 등에서 연수하게 되었을 때","lawName":"지방공무원 인사분야 통합지침","label":null,"title":null,"tier":"adminRule"}]}]},{"law":"지방공무원법","article":"제65조의3(직위해제)","text":"징계의결 요구, 형사기소, 중대 비위 수사 등 일정 사유가 있으면 임용권자는 직위를 부여하지 않을 수 있다.","found":true,"lawId":"001653","tier":"statute","articles":[{"label":"제65조의3","title":"직위해제","officialUrl":"https://www.law.go.kr/법령/지방공무원법/제65조의3","up":[],"down":[{"kind":"decree","phrase":"대통령령으로","lawName":"지방공무원 임용령","label":"제41조의2","title":"직위해제","tier":"decree"}]}]}],"P02":[{"law":"지방공무원법","article":"제41조제1항","text":"제63조제1항제1호·제2호·제4호·제5호, 제63조제2항 또는 제65조의2에 따라 6개월 이상 휴직한 경우에는 휴직일부터 별도정원으로 보고 결원을 보충할 수 있다.","found":true,"lawId":"001653","tier":"statute","articles":[{"label":"제41조","title":"휴직자ㆍ장기훈련자 등의 결원 보충","officialUrl":"https://www.law.go.kr/법령/지방공무원법/제41조","up":[],"down":[{"kind":"decree","phrase":"대통령령 또는","lawName":"지방공무원 임용령","label":"제27조의3","title":"파견 등으로 인한 결원 보충","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방공무원 임용령","label":"제27조의3","title":"파견 등으로 인한 결원 보충","tier":"decree"},{"kind":"ordinance","phrase":"① 공무원이 제63조제1항제1호ㆍ제2호ㆍ제4호ㆍ제5호, 제63조제2항 또는 제65조의2에 따라 6개월 이상 휴직한 경우에는 휴직일부터 그 휴직자의 직급ㆍ직위 또는 상당 계급에 해당하는 정원이 따로 있는 것으로 보고 결원을 보충할 수 있다. 다만, 다음 각 호의 어느 하나에 해당하는 경우로서 대통령령 또는 지방자치단체의 조례로 정하는 경우에는 그 휴가 또는 휴직의 시작일부터 결원을 보충할 수 있다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]},{"law":"지방자치단체 인사 관련 조례","article":"제41조제1항 단서 위임","text":"병가와 질병휴직, 출산휴가와 육아휴직을 연속하여 6개월 이상 사용하는 경우 대통령령 또는 지방자치단체의 조례로 정하면 그 휴가 또는 휴직의 시작일부터 결원을 보충할 수 있다. [지방공무원법 §41① 단서의 임의 조례 — 부산광역시 공무원 정원 조례(2112201)에는 해당 특례 규정이 없음을 확인(2026-07-12). 특례 조례 보유 여부는 지자체별 상이.]","found":false,"lawId":null,"tier":null,"articles":[{"label":"제41조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P03":[{"law":"지방공무원법","article":"제41조제2항","text":"파견된 경우 대통령령으로 정하는 바에 따라 파견기간 중 해당 직급 정원이 따로 있는 것으로 보고 결원을 보충하거나 파견자의 승진임용을 할 수 있다.","found":true,"lawId":"001653","tier":"statute","articles":[{"label":"제41조","title":"휴직자ㆍ장기훈련자 등의 결원 보충","officialUrl":"https://www.law.go.kr/법령/지방공무원법/제41조","up":[],"down":[{"kind":"decree","phrase":"대통령령 또는","lawName":"지방공무원 임용령","label":"제27조의3","title":"파견 등으로 인한 결원 보충","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방공무원 임용령","label":"제27조의3","title":"파견 등으로 인한 결원 보충","tier":"decree"},{"kind":"ordinance","phrase":"① 공무원이 제63조제1항제1호ㆍ제2호ㆍ제4호ㆍ제5호, 제63조제2항 또는 제65조의2에 따라 6개월 이상 휴직한 경우에는 휴직일부터 그 휴직자의 직급ㆍ직위 또는 상당 계급에 해당하는 정원이 따로 있는 것으로 보고 결원을 보충할 수 있다. 다만, 다음 각 호의 어느 하나에 해당하는 경우로서 대통령령 또는 지방자치단체의 조례로 정하는 경우에는 그 휴가 또는 휴직의 시작일부터 결원을 보충할 수 있다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]},{"law":"지방공무원법","article":"제41조제4항","text":"직위해제 기간이 6개월을 경과하면 별도정원으로 보고 결원을 보충할 수 있으며, 일정한 경우 더 이른 시점의 보충도 가능하다.","found":true,"lawId":"001653","tier":"statute","articles":[{"label":"제41조","title":"휴직자ㆍ장기훈련자 등의 결원 보충","officialUrl":"https://www.law.go.kr/법령/지방공무원법/제41조","up":[],"down":[{"kind":"decree","phrase":"대통령령 또는","lawName":"지방공무원 임용령","label":"제27조의3","title":"파견 등으로 인한 결원 보충","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방공무원 임용령","label":"제27조의3","title":"파견 등으로 인한 결원 보충","tier":"decree"},{"kind":"ordinance","phrase":"① 공무원이 제63조제1항제1호ㆍ제2호ㆍ제4호ㆍ제5호, 제63조제2항 또는 제65조의2에 따라 6개월 이상 휴직한 경우에는 휴직일부터 그 휴직자의 직급ㆍ직위 또는 상당 계급에 해당하는 정원이 따로 있는 것으로 보고 결원을 보충할 수 있다. 다만, 다음 각 호의 어느 하나에 해당하는 경우로서 대통령령 또는 지방자치단체의 조례로 정하는 경우에는 그 휴가 또는 휴직의 시작일부터 결원을 보충할 수 있다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]}],"P04":[{"law":"지방공무원법","article":"제41조제1항","text":"6개월 이상 휴직한 경우 휴직일부터 그 휴직자의 직급·직위 또는 상당 계급에 해당하는 정원이 따로 있는 것으로 본다.","found":true,"lawId":"001653","tier":"statute","articles":[{"label":"제41조","title":"휴직자ㆍ장기훈련자 등의 결원 보충","officialUrl":"https://www.law.go.kr/법령/지방공무원법/제41조","up":[],"down":[{"kind":"decree","phrase":"대통령령 또는","lawName":"지방공무원 임용령","label":"제27조의3","title":"파견 등으로 인한 결원 보충","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방공무원 임용령","label":"제27조의3","title":"파견 등으로 인한 결원 보충","tier":"decree"},{"kind":"ordinance","phrase":"① 공무원이 제63조제1항제1호ㆍ제2호ㆍ제4호ㆍ제5호, 제63조제2항 또는 제65조의2에 따라 6개월 이상 휴직한 경우에는 휴직일부터 그 휴직자의 직급ㆍ직위 또는 상당 계급에 해당하는 정원이 따로 있는 것으로 보고 결원을 보충할 수 있다. 다만, 다음 각 호의 어느 하나에 해당하는 경우로서 대통령령 또는 지방자치단체의 조례로 정하는 경우에는 그 휴가 또는 휴직의 시작일부터 결원을 보충할 수 있다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]}],"P05":[{"law":"지방공무원 임용령","article":"제8조(결원의 신속 보충)","text":"임용권자는 해당 기관에 결원이 생기면 지체 없이 결원 보충에 필요한 조치를 하여야 한다.","found":true,"lawId":"001653","tier":"decree","articles":[{"label":"제8조","title":"결원의 신속 보충","officialUrl":"https://www.law.go.kr/법령/지방공무원임용령/제8조","up":[],"down":[]}]}],"P06":[{"law":"지방공무원법","article":"제26조(결원 보충 방법)","text":"임용권자는 공무원의 결원을 신규임용·승진임용·강임·전직 또는 전보의 방법으로 보충한다.","found":true,"lawId":"001653","tier":"statute","articles":[{"label":"제26조","title":"결원 보충 방법","officialUrl":"https://www.law.go.kr/법령/지방공무원법/제26조","up":[],"down":[]}]}],"P07":[{"law":"지방공무원법","article":"제38조(승진)","text":"계급 간 승진임용은 근무성적평정, 경력평정, 그 밖의 능력의 실증에 따라 한다.","found":true,"lawId":"001653","tier":"statute","articles":[{"label":"제38조","title":"승진","officialUrl":"https://www.law.go.kr/법령/지방공무원법/제38조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제11조","title":"승진임용의 방법 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제38조","title":"5급 공무원으로의 승진임용","tier":null},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제30조","title":"4급 공무원과 6급 이하 공무원으로의 승진임용","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제11조","title":"승진임용의 방법 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제12조","title":"승진소요최저연수","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제13조","title":"연구 실적 심사","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제14조","title":"승진후보자 명부 작성","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제15조","title":"근무성적평정","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제17조","title":"근무성적평정위원회의 설치","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제18조","title":"근무성적평정의 시기 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제19조","title":"경력평정","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제20조","title":"특별승진임용","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제30조","title":"4급 공무원과 6급 이하 공무원으로의 승진임용","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제31조","title":"대우공무원 및 필수실무요원의 선발ㆍ지정 등","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제31조의2","title":"근무성적평정","tier":null},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제31조의3","title":"근무성적평정의 예외","tier":null},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제31조의4","title":"근무성적평정위원회의 설치","tier":null},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제31조의6","title":"경력평정","tier":null},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제31조의7","title":"기구 개편 등에 따른 경력평정의 특례","tier":null},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제32조","title":"승진후보자 명부의 작성","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제33조","title":"승진소요 최저연수","tier":null},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제33조의2","title":"우대승진 및 근속승진 임용","tier":null},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제34조","title":"승진임용의 제한","tier":null},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제35조","title":"5급 공무원으로의 일반승진시험","tier":null},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제36조","title":"일반승진시험 응시자격의 정지","tier":null},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제38조","title":"5급 공무원으로의 승진임용","tier":null},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제38조의2","title":"승진시험합격 등의 효력","tier":null},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제38조의3","title":"2급부터 4급까지의 공무원의 승진임용","tier":null},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제38조의4","title":"특별승진임용","tier":null},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제38조의5","title":"인사위원회 사전심의 등의 기속력","tier":null}]}]},{"law":"지방공무원 임용령","article":"제33조(승진소요 최저연수)·제34조(승진임용의 제한)","text":"승진에는 계급별 최저 재직연수와 승진 제한 사유 확인이 필요하다.","found":true,"lawId":"001653","tier":"decree","articles":[{"label":"제33조","title":"승진소요 최저연수","officialUrl":"https://www.law.go.kr/법령/지방공무원임용령/제33조","up":[],"down":[{"kind":"adminRule","phrase":"일반직공무원으로 재임용된 경우에는 재임용되기 전에 교육부장관 또는 행정안전부장관이 정한 특수한 업무에 근무한","lawName":"지방공무원 인사제도 운영지침","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"일반직공무원으로 임용된 경우에는 교육부장관 또는 행정안전부장관이 정하는 범위에서","lawName":"지방공무원 인사분야 통합지침","label":null,"title":null,"tier":"adminRule"},{"kind":"ordinance","phrase":"⑨ 지방전문경력관, 임기제공무원, 특정직공무원 및 별정직공무원이 퇴직 후 일반직공무원으로 임용된 경우에는 교육부장관 또는 행정안전부장관이 정하는 범위에서 규칙으로 정하는 바에 따라 해당 계급 상당 이상으로 재직한 기간은 제1항에 따른 기간에 포함시킬 수 있다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]},{"label":"제34조","title":"승진임용의 제한","officialUrl":"https://www.law.go.kr/법령/지방공무원임용령/제34조","up":[],"down":[]}]}],"P08":[{"law":"지방공무원 임용령","article":"제32조(승진후보자 명부의 작성)","text":"임용권자는 근무성적평정점 70%와 경력평정점 30%를 기준으로 승진후보자 명부를 승진 예정 직급별로 작성한다.","found":true,"lawId":"001653","tier":"decree","articles":[{"label":"제32조","title":"승진후보자 명부의 작성","officialUrl":"https://www.law.go.kr/법령/지방공무원임용령/제32조","up":[],"down":[{"kind":"rule","phrase":"또는 행정안전부령으로","lawName":"지방공무원 평정규칙","label":"제23조","title":"자격증 등의 가산점","tier":"rule"},{"kind":"rule","phrase":"사항은 교육부령","lawName":"지방공무원 평정규칙","label":"제24조","title":"근무경력 가산점","tier":"rule"},{"kind":"rule","phrase":"사항은 교육부령","lawName":"지방공무원 평정규칙","label":"제25조의2","title":"실적 가산점","tier":"rule"},{"kind":"rule","phrase":"또는 행정안전부령으로","lawName":"지방공무원 평정규칙","label":"제25조의3","title":"가산점 부여 기준의 공개 등","tier":"rule"},{"kind":"rule","phrase":"사항은 교육부령","lawName":"지방공무원 평정규칙","label":"제26조","title":"경력평정 및 가산점평정 결과의 제출 및 열람","tier":"rule"},{"kind":"rule","phrase":"사항은 교육부령","lawName":"지방공무원 평정규칙","label":"제27조","title":"승진후보자 명부의 작성 방법","tier":"rule"},{"kind":"rule","phrase":"사항은 교육부령","lawName":"지방공무원 평정규칙","label":"제28조","title":"명부의 작성 기준일","tier":"rule"},{"kind":"rule","phrase":"사항은 교육부령","lawName":"지방공무원 평정규칙","label":"제29조","title":"명부의 효력","tier":"rule"},{"kind":"rule","phrase":"또는 행정안전부령으로","lawName":"지방공무원 평정규칙","label":"제30조","title":"동점자의 순위","tier":"rule"},{"kind":"rule","phrase":"사항은 교육부령","lawName":"지방공무원 평정규칙","label":"제31조","title":"명부의 조정 및 삭제","tier":"rule"},{"kind":"rule","phrase":"사항은 교육부령","lawName":"지방공무원 평정규칙","label":"제32조","title":"명부 순위의 공개","tier":"rule"},{"kind":"ordinance","phrase":"5. 재난 및 안전관리 업무 중 규칙으로 정하는 업무에 근무한 경력이 있는 경우","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]}],"P09":[{"law":"지방공무원법","article":"제39조제4항","text":"승진임용할 때에는 해당 인사위원회의 사전심의를 거쳐야 한다.","found":true,"lawId":"001653","tier":"statute","articles":[{"label":"제39조","title":"승진임용의 방법","officialUrl":"https://www.law.go.kr/법령/지방공무원법/제39조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제11조","title":"승진임용의 방법 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제38조","title":"5급 공무원으로의 승진임용","tier":null},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제11조","title":"승진임용의 방법 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제30조","title":"4급 공무원과 6급 이하 공무원으로의 승진임용","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제38조","title":"5급 공무원으로의 승진임용","tier":null},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제38조의3","title":"2급부터 4급까지의 공무원의 승진임용","tier":null},{"kind":"decree","phrase":"대하여 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제14조","title":"승진후보자 명부 작성","tier":"decree"},{"kind":"decree","phrase":"대하여 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제32조","title":"승진후보자 명부의 작성","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제32조","title":"승진후보자 명부의 작성","tier":"decree"}]}]},{"law":"지방공무원법","article":"제41조제4항제2호","text":"일정한 직위해제 사안에서는 인사위원회 심의 결과 긴급한 결원 보충 필요성이 인정되어야 조기 보충할 수 있다.","found":true,"lawId":"001653","tier":"statute","articles":[{"label":"제41조","title":"휴직자ㆍ장기훈련자 등의 결원 보충","officialUrl":"https://www.law.go.kr/법령/지방공무원법/제41조","up":[],"down":[{"kind":"decree","phrase":"대통령령 또는","lawName":"지방공무원 임용령","label":"제27조의3","title":"파견 등으로 인한 결원 보충","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방공무원 임용령","label":"제27조의3","title":"파견 등으로 인한 결원 보충","tier":"decree"},{"kind":"ordinance","phrase":"① 공무원이 제63조제1항제1호ㆍ제2호ㆍ제4호ㆍ제5호, 제63조제2항 또는 제65조의2에 따라 6개월 이상 휴직한 경우에는 휴직일부터 그 휴직자의 직급ㆍ직위 또는 상당 계급에 해당하는 정원이 따로 있는 것으로 보고 결원을 보충할 수 있다. 다만, 다음 각 호의 어느 하나에 해당하는 경우로서 대통령령 또는 지방자치단체의 조례로 정하는 경우에는 그 휴가 또는 휴직의 시작일부터 결원을 보충할 수 있다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]}],"P10":[{"law":"지방공무원법","article":"제26조(결원 보충 방법)","text":"결원 보충 방법에는 신규임용·승진임용·강임·전직·전보가 포함된다.","found":true,"lawId":"001653","tier":"statute","articles":[{"label":"제26조","title":"결원 보충 방법","officialUrl":"https://www.law.go.kr/법령/지방공무원법/제26조","up":[],"down":[]}]},{"law":"지방공무원법","article":"제39조제3항","text":"승진은 승진후보자 명부의 높은 순위에 있는 사람부터 대통령령으로 정하는 범위에서 임용하여야 한다.","found":true,"lawId":"001653","tier":"statute","articles":[{"label":"제39조","title":"승진임용의 방법","officialUrl":"https://www.law.go.kr/법령/지방공무원법/제39조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제11조","title":"승진임용의 방법 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제38조","title":"5급 공무원으로의 승진임용","tier":null},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제11조","title":"승진임용의 방법 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제30조","title":"4급 공무원과 6급 이하 공무원으로의 승진임용","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제38조","title":"5급 공무원으로의 승진임용","tier":null},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제38조의3","title":"2급부터 4급까지의 공무원의 승진임용","tier":null},{"kind":"decree","phrase":"대하여 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제14조","title":"승진후보자 명부 작성","tier":"decree"},{"kind":"decree","phrase":"대하여 대통령령으로","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제32조","title":"승진후보자 명부의 작성","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","label":"제32조","title":"승진후보자 명부의 작성","tier":"decree"}]}]}],"P11":[{"law":"지방공무원법","article":"제41조제1항·제2항","text":"별도정원 간주는 장기휴직·파견 등으로 생긴 직급·직위 공백을 보충하기 위한 장치다.","found":true,"lawId":"001653","tier":"statute","articles":[{"label":"제41조","title":"휴직자ㆍ장기훈련자 등의 결원 보충","officialUrl":"https://www.law.go.kr/법령/지방공무원법/제41조","up":[],"down":[{"kind":"decree","phrase":"대통령령 또는","lawName":"지방공무원 임용령","label":"제27조의3","title":"파견 등으로 인한 결원 보충","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방공무원 임용령","label":"제27조의3","title":"파견 등으로 인한 결원 보충","tier":"decree"},{"kind":"ordinance","phrase":"① 공무원이 제63조제1항제1호ㆍ제2호ㆍ제4호ㆍ제5호, 제63조제2항 또는 제65조의2에 따라 6개월 이상 휴직한 경우에는 휴직일부터 그 휴직자의 직급ㆍ직위 또는 상당 계급에 해당하는 정원이 따로 있는 것으로 보고 결원을 보충할 수 있다. 다만, 다음 각 호의 어느 하나에 해당하는 경우로서 대통령령 또는 지방자치단체의 조례로 정하는 경우에는 그 휴가 또는 휴직의 시작일부터 결원을 보충할 수 있다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]}],"P12":[{"law":"지방공무원법","article":"제41조제5항","text":"휴직자의 복직, 파견된 사람의 복귀, 처분 취소에 따른 복귀, 직위해제자 직위 부여가 별도정원 소멸의 기산 사유가 된다.","found":true,"lawId":"001653","tier":"statute","articles":[{"label":"제41조","title":"휴직자ㆍ장기훈련자 등의 결원 보충","officialUrl":"https://www.law.go.kr/법령/지방공무원법/제41조","up":[],"down":[{"kind":"decree","phrase":"대통령령 또는","lawName":"지방공무원 임용령","label":"제27조의3","title":"파견 등으로 인한 결원 보충","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방공무원 임용령","label":"제27조의3","title":"파견 등으로 인한 결원 보충","tier":"decree"},{"kind":"ordinance","phrase":"① 공무원이 제63조제1항제1호ㆍ제2호ㆍ제4호ㆍ제5호, 제63조제2항 또는 제65조의2에 따라 6개월 이상 휴직한 경우에는 휴직일부터 그 휴직자의 직급ㆍ직위 또는 상당 계급에 해당하는 정원이 따로 있는 것으로 보고 결원을 보충할 수 있다. 다만, 다음 각 호의 어느 하나에 해당하는 경우로서 대통령령 또는 지방자치단체의 조례로 정하는 경우에는 그 휴가 또는 휴직의 시작일부터 결원을 보충할 수 있다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]}],"P13":[{"law":"지방공무원법","article":"제41조제5항","text":"별도정원은 복직·복귀 등 사유가 발생한 이후 해당 직급·직위에 최초로 결원이 발생한 때 각각 소멸된 것으로 본다.","found":true,"lawId":"001653","tier":"statute","articles":[{"label":"제41조","title":"휴직자ㆍ장기훈련자 등의 결원 보충","officialUrl":"https://www.law.go.kr/법령/지방공무원법/제41조","up":[],"down":[{"kind":"decree","phrase":"대통령령 또는","lawName":"지방공무원 임용령","label":"제27조의3","title":"파견 등으로 인한 결원 보충","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방공무원 임용령","label":"제27조의3","title":"파견 등으로 인한 결원 보충","tier":"decree"},{"kind":"ordinance","phrase":"① 공무원이 제63조제1항제1호ㆍ제2호ㆍ제4호ㆍ제5호, 제63조제2항 또는 제65조의2에 따라 6개월 이상 휴직한 경우에는 휴직일부터 그 휴직자의 직급ㆍ직위 또는 상당 계급에 해당하는 정원이 따로 있는 것으로 보고 결원을 보충할 수 있다. 다만, 다음 각 호의 어느 하나에 해당하는 경우로서 대통령령 또는 지방자치단체의 조례로 정하는 경우에는 그 휴가 또는 휴직의 시작일부터 결원을 보충할 수 있다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]}],"P14":[{"law":"지방공무원법","article":"제41조제5항","text":"별도정원 소멸 시점 규칙 때문에 복직 직후부터 최초 결원 발생 전까지 과원·보직관리 문제가 남을 수 있다.","found":true,"lawId":"001653","tier":"statute","articles":[{"label":"제41조","title":"휴직자ㆍ장기훈련자 등의 결원 보충","officialUrl":"https://www.law.go.kr/법령/지방공무원법/제41조","up":[],"down":[{"kind":"decree","phrase":"대통령령 또는","lawName":"지방공무원 임용령","label":"제27조의3","title":"파견 등으로 인한 결원 보충","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방공무원 임용령","label":"제27조의3","title":"파견 등으로 인한 결원 보충","tier":"decree"},{"kind":"ordinance","phrase":"① 공무원이 제63조제1항제1호ㆍ제2호ㆍ제4호ㆍ제5호, 제63조제2항 또는 제65조의2에 따라 6개월 이상 휴직한 경우에는 휴직일부터 그 휴직자의 직급ㆍ직위 또는 상당 계급에 해당하는 정원이 따로 있는 것으로 보고 결원을 보충할 수 있다. 다만, 다음 각 호의 어느 하나에 해당하는 경우로서 대통령령 또는 지방자치단체의 조례로 정하는 경우에는 그 휴가 또는 휴직의 시작일부터 결원을 보충할 수 있다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]}]},"systems":{"001653":{"lawId":"001653","name":"지방공무원법","href":"/law/001653/","ministry":"행정안전부","effectiveOn":"2026-10-22","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"지방공무원법","kind":"법률","articleCount":132,"officialUrl":"https://www.law.go.kr/법령/지방공무원법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":132},{"tier":"decree","label":"시행령","laws":[{"name":"지방공무원 임용령","kind":"대통령령","articleCount":163,"officialUrl":"https://www.law.go.kr/법령/지방공무원임용령"},{"name":"지방 연구직 및 지도직공무원의 임용 등에 관한 규정","kind":"대통령령","articleCount":36,"officialUrl":"https://www.law.go.kr/법령/지방연구직및지도직공무원의임용등에관한규정"},{"name":"지방공무원 명예퇴직수당 등 지급 규정","kind":"대통령령","articleCount":19,"officialUrl":"https://www.law.go.kr/법령/지방공무원명예퇴직수당등지급규정"},{"name":"지방공무원 보수규정","kind":"대통령령","articleCount":59,"officialUrl":"https://www.law.go.kr/법령/지방공무원보수규정"},{"name":"지방공무원 복무규정","kind":"대통령령","articleCount":32,"officialUrl":"https://www.law.go.kr/법령/지방공무원복무규정"},{"name":"지방공무원 수당 등에 관한 규정","kind":"대통령령","articleCount":41,"officialUrl":"https://www.law.go.kr/법령/지방공무원수당등에관한규정"},{"name":"지방공무원 임용후보자 장학규정","kind":"대통령령","articleCount":18,"officialUrl":"https://www.law.go.kr/법령/지방공무원임용후보자장학규정"},{"name":"지방공무원 징계 및 소청 규정","kind":"대통령령","articleCount":31,"officialUrl":"https://www.law.go.kr/법령/지방공무원징계및소청규정"},{"name":"지방공무원의 구분 변경에 따른 전직임용 등에 관한 특례규정","kind":"대통령령","articleCount":19,"officialUrl":"https://www.law.go.kr/법령/지방공무원의구분변경에따른전직임용등에관한특례규정"},{"name":"지방별정직공무원 인사규정","kind":"대통령령","articleCount":14,"officialUrl":"https://www.law.go.kr/법령/지방별정직공무원인사규정"},{"name":"지방자치단체 전자인사관리시스템 구축ㆍ운영 등에 관한 규정","kind":"대통령령","articleCount":9,"officialUrl":"https://www.law.go.kr/법령/지방자치단체전자인사관리시스템구축ㆍ운영등에관한규정"},{"name":"지방자치단체의 개방형직위 및 공모직위의 운영 등에 관한 규정","kind":"대통령령","articleCount":27,"officialUrl":"https://www.law.go.kr/법령/지방자치단체의개방형직위및공모직위의운영등에관한규정"},{"name":"지방전문경력관 규정","kind":"대통령령","articleCount":18,"officialUrl":"https://www.law.go.kr/법령/지방전문경력관규정"}],"kinds":[{"kind":"대통령령","count":13}],"articleCount":486},{"tier":"rule","label":"시행규칙","laws":[{"name":"지방공무원 인사기록ㆍ통계 및 인사사무 처리 규칙","kind":"행정안전부령","articleCount":31,"officialUrl":"https://www.law.go.kr/법령/지방공무원인사기록ㆍ통계및인사사무처리규칙"},{"name":"교육감 소속 지방공무원 인사기록ㆍ통계 및 인사사무 처리 규칙","kind":"교육부령","articleCount":25,"officialUrl":"https://www.law.go.kr/법령/교육감소속지방공무원인사기록ㆍ통계및인사사무처리규칙"},{"name":"교육감 소속 지방공무원 평정규칙","kind":"교육부령","articleCount":40,"officialUrl":"https://www.law.go.kr/법령/교육감소속지방공무원평정규칙"},{"name":"지방공무원 평정규칙","kind":"행정안전부령","articleCount":40,"officialUrl":"https://www.law.go.kr/법령/지방공무원평정규칙"},{"name":"행정안전부장관이 시행하는 5급 이상 지방공무원임용시험 시행규칙","kind":"행정안전부령","articleCount":7,"officialUrl":"https://www.law.go.kr/법령/행정안전부장관이시행하는5급이상지방공무원임용시험시행규칙"},{"name":"지방공무원 징계규칙","kind":"행정안전부령","articleCount":11,"officialUrl":"https://www.law.go.kr/법령/지방공무원징계규칙"},{"name":"교육감 소속 지방공무원 인사교류 규칙","kind":"교육부령","articleCount":10,"officialUrl":"https://www.law.go.kr/법령/교육감소속지방공무원인사교류규칙"},{"name":"지방공무원인사교류규칙","kind":"행정안전부령","articleCount":16,"officialUrl":"https://www.law.go.kr/법령/지방공무원인사교류규칙"}],"kinds":[{"kind":"행정안전부령","count":5},{"kind":"교육부령","count":3}],"articleCount":180},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"지방공무원 인사제도 운영지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방공무원인사제도운영지침"},{"name":"교육공무원징계등 기록말소제 시행지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/교육공무원징계등기록말소제시행지침"},{"name":"비상대비업무담당자 인사관리규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/비상대비업무담당자인사관리규정"},{"name":"지방공무원 균형인사 운영지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방공무원균형인사운영지침"},{"name":"지방공무원 다면평가 운영지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방공무원다면평가운영지침"},{"name":"지방공무원보수업무 등 처리지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방공무원보수업무등처리지침"},{"name":"지방자치인재개발원 역량평가·역량교육 운영 규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방자치인재개발원역량평가·역량교육운영규정"},{"name":"지방자치인재개발원 역량평가위원 위촉 등에 관한 규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방자치인재개발원역량평가위원위촉등에관한규정"},{"name":"지방공무원 임용을 위한 체력시험 금지약물 및 금지방법 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방공무원임용을위한체력시험금지약물및금지방법고시"},{"name":"지방공무원 복무에 관한 예규","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방공무원복무에관한예규"},{"name":"지방공무원의 구분변경에 따른 전직임용 등 특례지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방공무원의구분변경에따른전직임용등특례지침"},{"name":"지방별정직공무원 인사운영지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방별정직공무원인사운영지침"},{"name":"자치단체의 개방형직위 및 공모직위 운영지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/자치단체의개방형직위및공모직위운영지침"},{"name":"지방공무원 인사분야 통합지침","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방공무원인사분야통합지침"}],"kinds":[{"kind":"예규","count":12},{"kind":"고시","count":1},{"kind":"행정규칙","count":1}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EC%A7%80%EB%B0%A9%EA%B3%B5%EB%AC%B4%EC%9B%90%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":292,"rule":88,"adminRule":100,"ordinance":70,"cites":904}}}},"statusStyles":{"done":{"label":"선행","fill":"#effaf5","border":"#35a77d","ink":"#123d2e","sub":"#287a5c"},"current":{"label":"핵심","fill":"#087452","border":"#087452","ink":"#ffffff","sub":"#d8f4e8"},"waiting":{"label":"후속","fill":"#ffffff","border":"#b9c7bf","ink":"#17231d","sub":"#627169"},"risk":{"label":"병목","fill":"#fff8e8","border":"#d9901a","ink":"#7a4305","sub":"#a96008"},"loop":{"label":"회귀","fill":"#edf4ff","border":"#3478db","ink":"#173f7a","sub":"#316bbd"}},"basisLegend":[{"label":"법률","fill":"#ffffff","border":"#3b4a43"},{"label":"시행령","fill":"#f2f6ff","border":"#2456d6"},{"label":"시행규칙","fill":"#effaf6","border":"#0f9f72"},{"label":"행정규칙","fill":"#f6f2ff","border":"#7c56c9"}],"isLawIndex":false}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Eu-UvfunzEwjnKcUq5f7W"}
+4:["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","precedence":"next"}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

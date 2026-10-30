@@ -1,0 +1,407 @@
+1:"$Sreact.fragment"
+2:I[7742,["838","static/chunks/838-9b85aecee2a13f53.js","379","static/chunks/379-f104668f756ddde1.js","301","static/chunks/app/embed/flow/%5BlawId%5D/%5Bslug%5D/page-e3d0b6acb7d5d0b3.js"],"default"]
+6:I[977,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+:HL["/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","style"]
+3:T8156,<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 250 1744 1960" class="pp-svg">
+<defs>
+      <filter id="card-shadow" x="-20%" y="-25%" width="140%" height="160%">
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#12271e" flood-opacity="0.10"/>
+      </filter>
+      <marker id="arrow-sequence" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#53675d" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-message" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#0f8a65" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-loop" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#3478db" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <style>
+        text { font-family: "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", sans-serif; }
+        .mono { font-family: "SFMono-Regular", "Menlo", monospace; }
+      </style>
+    </defs>
+<rect width="1800" height="2400" fill="#ffffff"/>
+
+
+
+<rect x="38" y="260" width="1724" height="1940" rx="10" fill="#ffffff" stroke="#b8c7bf" stroke-width="2"/>
+<rect x="38" y="260" width="190" height="100" rx="10" fill="#eaf2ee"/>
+<text x="58" y="299" font-size="17" font-weight="800" fill="#17231d">단계 ↓</text>
+<text x="58" y="332" font-size="15" font-weight="650" fill="#68776f">행위자 묶음 →</text>
+<rect x="38" y="360" width="1724" height="197.7" fill="#fbfcfb"/>
+<rect x="38" y="360" width="190" height="197.7" fill="#eef3f0"/>
+<text x="58" y="392" class="mono" font-size="16" font-weight="800" fill="#53645b">G0</text>
+<text x="58" y="425" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">발의·공론화</tspan></text>
+<rect x="38" y="557.7" width="1724" height="311.7" fill="#f5f8f6"/>
+<rect x="38" y="557.7" width="190" height="311.7" fill="#eef3f0"/>
+<text x="58" y="589.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G1</text>
+<text x="58" y="622.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">방안합의</tspan></text>
+<rect x="38" y="869.4" width="1724" height="311.7" fill="#fbfcfb"/>
+<rect x="38" y="869.4" width="190" height="311.7" fill="#eef3f0"/>
+<text x="58" y="901.4" class="mono" font-size="16" font-weight="800" fill="#53645b">G2</text>
+<text x="58" y="934.4" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">의견수렴</tspan></text>
+<rect x="38" y="1181.1" width="1724" height="311.7" fill="#f5f8f6"/>
+<rect x="38" y="1181.1" width="190" height="311.7" fill="#eef3f0"/>
+<text x="58" y="1213.1" class="mono" font-size="16" font-weight="800" fill="#53645b">G3</text>
+<text x="58" y="1246.1" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">입법</tspan></text>
+<rect x="38" y="1492.9" width="1724" height="311.7" fill="#fbfcfb"/>
+<rect x="38" y="1492.9" width="190" height="311.7" fill="#eef3f0"/>
+<text x="58" y="1524.9" class="mono" font-size="16" font-weight="800" fill="#53645b">G4</text>
+<text x="58" y="1557.9" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">출범준비</tspan></text>
+<rect x="38" y="1804.6" width="1724" height="197.7" fill="#f5f8f6"/>
+<rect x="38" y="1804.6" width="190" height="197.7" fill="#eef3f0"/>
+<text x="58" y="1836.6" class="mono" font-size="16" font-weight="800" fill="#53645b">G5</text>
+<text x="58" y="1869.6" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">출범·승계</tspan></text>
+<rect x="38" y="2002.3" width="1724" height="197.7" fill="#fbfcfb"/>
+<rect x="38" y="2002.3" width="190" height="197.7" fill="#eef3f0"/>
+<text x="58" y="2034.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G6</text>
+<text x="58" y="2067.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">사후정착</tspan></text>
+<rect x="228" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="228" y="260" width="383.5" height="7" fill="#0f9f72"/>
+<text x="248" y="299" font-size="20" font-weight="800" fill="#17231d">관계 지자체·지방의회</text>
+<text x="248" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="248" dy="0">관계 지자체(단체장) · 지방의회</tspan></text>
+<rect x="611.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="611.5" y="260" width="383.5" height="7" fill="#3b82f6"/>
+<text x="631.5" y="299" font-size="20" font-weight="800" fill="#17231d">주민·이해관계자·행정안전부</text>
+<text x="631.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="631.5" dy="0">주민/이해관계자 · 행정안전부</tspan></text>
+<rect x="995" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="995" y="260" width="383.5" height="7" fill="#c78116"/>
+<text x="1015" y="299" font-size="20" font-weight="800" fill="#17231d">국무총리·국회</text>
+<text x="1015" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1015" dy="0">국무총리·지방시대위원회 · 국회</tspan></text>
+<rect x="1378.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="1378.5" y="260" width="383.5" height="7" fill="#0891b2"/>
+<text x="1398.5" y="299" font-size="20" font-weight="800" fill="#17231d">통합추진단</text>
+<text x="1398.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1398.5" dy="0">통합추진단</tspan></text>
+<line x1="228" y1="260" x2="228" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="611.5" y1="260" x2="611.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="995" y1="260" x2="995" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1378.5" y1="260" x2="1378.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1762" y1="260" x2="1762" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#b8c7bf" stroke-width="2"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="557.7" x2="1762" y2="557.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="869.4" x2="1762" y2="869.4" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1181.1" x2="1762" y2="1181.1" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1492.9" x2="1762" y2="1492.9" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1804.6" x2="1762" y2="1804.6" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2002.3" x2="1762" y2="2002.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2200" x2="1762" y2="2200" stroke="#b8c7bf" stroke-width="2"/>
+<g class="pp-edge" data-edge-id="E01" data-source="P01" data-target="P03">
+<path d="M 419.8 503.9 V 545.7 H 389.8 V 603.6" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 419.8 503.9 V 545.7 H 389.8 V 603.6" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E02" data-source="P03" data-target="P04">
+<path d="M 409.8 701.6 V 717.6 H 403.8 V 717.6" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 409.8 701.6 V 717.6 H 403.8 V 717.6" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E03" data-source="P04" data-target="P05">
+<path d="M 423.8 815.6 V 857.4 H 793.3 V 915.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 423.8 815.6 V 857.4 H 793.3 V 915.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E04" data-source="P05" data-target="P06">
+<path d="M 668.3 974.8 H 582.8 V 1014.8 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 668.3 974.8 H 582.8 V 1014.8 H 562.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E05" data-source="P06" data-target="P08">
+<path d="M 427.8 1070.3 V 1153.1 H 787.3 V 1284" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 427.8 1070.3 V 1153.1 H 787.3 V 1284" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E06" data-source="P08" data-target="P09">
+<path d="M 938.3 1343.5 H 1023.8 V 1285 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 1343.5 H 1023.8 V 1285 H 1043.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E07" data-source="P09" data-target="P10">
+<path d="M 1212.8 1325 V 1341 H 1166.8 V 1341" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1212.8 1325 V 1341 H 1166.8 V 1341" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E08" data-source="P10" data-target="P11">
+<path d="M 1200.8 1439 V 1448.9 H 1576.3 V 1538.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1200.8 1439 V 1448.9 H 1576.3 V 1538.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E09" data-source="P11" data-target="P12">
+<path d="M 1584.3 1636.7 V 1652.7 H 1586.3 V 1652.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1584.3 1636.7 V 1652.7 H 1586.3 V 1652.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E10" data-source="P12" data-target="P13">
+<path d="M 1560.3 1750.7 V 1792.6 H 409.8 V 1850.4" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1560.3 1750.7 V 1792.6 H 409.8 V 1850.4" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E11" data-source="P13" data-target="P14">
+<path d="M 429.8 1948.4 V 1990.3 H 1560.3 V 2048.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 429.8 1948.4 V 1990.3 H 1560.3 V 2048.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E12" data-source="P14" data-target="P15">
+<path d="M 1435.3 2110.1 H 1362.8 V 2112.6 H 1329.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1435.3 2110.1 H 1362.8 V 2112.6 H 1329.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E13" data-source="P15" data-target="P16">
+<path d="M 1051.8 2094.6 H 966.3 V 2103.6 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 2094.6 H 966.3 V 2103.6 H 946.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M01" data-source="P02" data-target="P03">
+<path d="M 791.3 503.9 V 529.7 H 411.8 V 603.6" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 791.3 503.9 V 529.7 H 411.8 V 603.6" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M02" data-source="P05" data-target="P07">
+<path d="M 938.3 997.8 H 1005.3 V 1087.3 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 997.8 H 1005.3 V 1087.3 H 946.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M03" data-source="P06" data-target="P08">
+<path d="M 413.8 1070.3 V 1137.1 H 773.3 V 1284" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 413.8 1070.3 V 1137.1 H 773.3 V 1284" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M04" data-source="P10" data-target="P11">
+<path d="M 1186.8 1439 V 1432.9 H 1532.3 V 1538.7" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1186.8 1439 V 1432.9 H 1532.3 V 1538.7" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L01" data-source="P05" data-target="P03">
+<path d="M 668.3 953.8 H 203 V 833.4 H 449.8 V 709.6" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 668.3 953.8 H 203 V 833.4 H 449.8 V 709.6" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L02" data-source="P09" data-target="P08">
+<path d="M 1051.8 1269.5 H 979.3 V 1364 H 946.3" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1269.5 H 979.3 V 1364 H 946.3" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge-label" data-edge-id="E04" data-source="P05" data-target="P06">
+<rect x="484.1" y="926.8" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="541.5" y="946.8" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">의회의결 선택</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M01" data-source="P02" data-target="P03">
+<rect x="551.1" y="533.7" width="100.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="601.5" y="553.7" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">공론화 의견</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M02" data-source="P05" data-target="P07">
+<rect x="984.8" y="1027.5" width="156.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1063.3" y="1047.5" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">주민투표 방식(대안)</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M03" data-source="P06" data-target="P08">
+<rect x="533.6" y="1105.1" width="119.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="593.5" y="1125.1" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">의회 동의 결과</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M04" data-source="P10" data-target="P11">
+<rect x="1352.1" y="1400.9" width="154.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1429.5" y="1420.9" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">시행·출범 준비 지시</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L01" data-source="P05" data-target="P03">
+<rect x="275.1" y="885.9" width="135.9" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="343" y="905.9" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">합의 결렬·재협의</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L02" data-source="P09" data-target="P08">
+<rect x="857.1" y="1248.8" width="135.9" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="925" y="1268.8" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">부결·수정 재발의</text>
+</g>
+
+    <g class="pp-node" data-node-id="P01" data-basis="지방자치법:제5조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="413.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="413.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="433.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P01</text>
+      
+      <rect x="492.8" y="420.9" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="518.8" y="437.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §5</text>
+      <text x="299.8" y="470.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">통합 논의 발의·건의</tspan></text>
+      <text x="299.8" y="495.9" font-size="11" font-weight="650" fill="#3b4a43">기한 · 내부 목표</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P02" data-basis="지방자치법:제18조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="413.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="413.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="433.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P02</text>
+      
+      <rect x="869.3" y="420.9" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="437.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §18</text>
+      <text x="683.3" y="470.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">통합 공론화·주민 토론</tspan></text>
+      <text x="683.3" y="495.9" font-size="11" font-weight="650" fill="#3b4a43">기한 · 공론화 기간</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P03" data-basis="전남광주통합특별시설치를위한특별법:제7조" filter="url(#card-shadow)">
+      <rect x="280.8" y="607.6" width="278" height="98" rx="11" fill="none" stroke="#7c3aed" stroke-width="2.2" stroke-dasharray="7 5"/>
+      <rect x="284.8" y="611.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="611.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="631.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P03</text>
+      <text x="351.8" y="631.6" font-size="11.5" font-weight="800" fill="#5b21b6">조례 관련</text>
+      <rect x="492.8" y="618.6" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="518.8" y="635.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §7</text>
+      <text x="299.8" y="668.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">통합방안·특례 협상·합의</tspan></text>
+      <text x="299.8" y="693.6" font-size="11" font-weight="650" fill="#3b4a43">기한 · 협상 기간</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P04" data-basis="전남광주통합특별시설치를위한특별법:제7조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="725.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="725.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="745.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P04</text>
+      
+      <rect x="492.8" y="732.6" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="518.8" y="749.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §7</text>
+      <text x="299.8" y="782.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">청사·명칭 조정 협의</tspan></text>
+      <text x="299.8" y="807.6" font-size="11" font-weight="650" fill="#3b4a43">기한 · 협상 기간</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P05" data-basis="주민투표법:제8조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="923.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="923.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="943.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P05</text>
+      
+      <rect x="876.3" y="930.3" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="902.3" y="947.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §8</text>
+      <text x="683.3" y="970.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">의견수렴 방식</tspan><tspan x="683.3" dy="18">결정(주민투표/의회의결)</tspan></text>
+      <text x="683.3" y="1005.3" font-size="11" font-weight="650" fill="#3b4a43">행정안전부·관계 자치단체</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P06" data-basis="지방자치법:제5조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="980.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="980.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1000.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P06</text>
+      
+      <rect x="492.8" y="987.3" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="518.8" y="1004.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §5</text>
+      <text x="299.8" y="1037.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">지방의회 통합 동의안 의결</tspan></text>
+      <text x="299.8" y="1062.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 의회 회기</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P07" data-basis="주민투표법:제8조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1037.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1037.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1057.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P07</text>
+      
+      <rect x="876.3" y="1044.3" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="902.3" y="1061.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §8</text>
+      <text x="683.3" y="1094.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">주민투표 실시(대안 경로)</tspan></text>
+      <text x="683.3" y="1119.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 주민투표법상 절차</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P08" data-basis="지방자치분권및균형성장에관한특별법:제45조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1292" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1292" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1312" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P08</text>
+      
+      <rect x="869.3" y="1299" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1316" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §45</text>
+      <text x="683.3" y="1349" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">통합 특별법안 제출</tspan></text>
+      <text x="683.3" y="1374" font-size="11" font-weight="650" fill="#3b4a43">행정안전부·의원</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P09" data-basis="전남광주통합특별시설치를위한특별법:제1조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1235" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1235" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1255" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P09</text>
+      
+      <rect x="1259.8" y="1242" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1285.8" y="1259" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §1</text>
+      <text x="1066.8" y="1292" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">특별법 심사·의결</tspan></text>
+      <text x="1066.8" y="1317" font-size="11" font-weight="650" fill="#3b4a43">기한 · 국회 회기</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P10" data-basis="전남광주통합특별시설치를위한특별법:" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1349" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1349" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1369" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P10</text>
+      
+      <rect x="1261.8" y="1356" width="50" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1286.8" y="1373" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §</text>
+      <text x="1066.8" y="1406" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">특별법 공포·시행</tspan></text>
+      <text x="1066.8" y="1431" font-size="11" font-weight="650" fill="#3b4a43">기한 · 2026.3.5 공포 / 2026.7.1 시행</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P11" data-basis="지방자치분권및균형성장에관한특별법:제46조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="1546.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="1546.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="1566.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P11</text>
+      
+      <rect x="1636.3" y="1553.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1665.8" y="1570.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §46</text>
+      <text x="1450.3" y="1603.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">통합추진단 구성·출범준비</tspan></text>
+      <text x="1450.3" y="1628.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 시행일 전</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P12" data-basis="지방자치법:제8조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="1660.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="1660.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="1680.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P12</text>
+      
+      <rect x="1643.3" y="1667.7" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1669.3" y="1684.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §8</text>
+      <text x="1450.3" y="1717.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">조직·정원·재정 통합계획</tspan></text>
+      <text x="1450.3" y="1742.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 시행일 전</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P13" data-basis="지방자치법:제8조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1858.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1858.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1878.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P13</text>
+      
+      <rect x="492.8" y="1865.4" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="518.8" y="1882.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §8</text>
+      <text x="299.8" y="1915.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">통합 출범·사무 및 재산 승계</tspan></text>
+      <text x="299.8" y="1940.4" font-size="11" font-weight="650" fill="#3b4a43">기한 · 2026.7.1 출범</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P14" data-basis="지방자치법:제5조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="2056.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="2056.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="2076.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P14</text>
+      
+      <rect x="1643.3" y="2063.1" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1669.3" y="2080.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §5</text>
+      <text x="1450.3" y="2113.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">공무원 인사 통합</tspan></text>
+      <text x="1450.3" y="2138.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 출범 후 진행</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P15" data-basis="전남광주통합특별시설치를위한특별법:제12조 전남광주통합특별시설치를위한특별법:제16조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="2056.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="2056.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="2076.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P15</text>
+      
+      <rect x="1235.8" y="2063.1" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="2080.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §12 +1</text>
+      <text x="1066.8" y="2113.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">특례·권한이양 이행</tspan></text>
+      <text x="1066.8" y="2138.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 단계적 이행</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P16" data-basis="지방자치분권및균형성장에관한특별법:제63조 지방자치분권및균형성장에관한특별법:제71조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="2056.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="2056.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="2076.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P16</text>
+      
+      <rect x="852.3" y="2063.1" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="2080.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §63 +1</text>
+      <text x="683.3" y="2113.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">통합 성과 점검·사후관리</tspan></text>
+      <text x="683.3" y="2138.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 정기 점검</text>
+    </g>
+  
+
+</svg>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"law":{"lawId":"001656","mst":"285291","name":"지방자치법","kind":"법률","tier":"statute","effectiveOn":"2026-10-15","officialUrl":"https://www.law.go.kr/법령/지방자치법"},"flows":[{"slug":"local-council","name":"지방의회 운영","oneLiner":"주민이 뽑은 지방의원이 조례를 만들고 예산을 심의하며 집행부를 감시하는 대의기관. 2022년 지방자치법 전부개정으로 인사권 독립과 정책지원 전문인력이 도입됐다.","citingSteps":17,"totalSteps":17,"articles":{"제57조":1,"제64조":1,"제53조":1,"제54조":1,"제76조":2,"제85조":1,"제67조":3,"제87조":1,"제68조":1,"제41조":1,"제81조":1,"제72조":1,"제75조":1,"제73조":1,"제74조":1,"제32조":3,"제120조":2,"제121조":1,"제49조":1,"제84조":1}},{"slug":"special-local-government","name":"특별지방자치단체","oneLiner":"둘 이상의 지자체가 광역 사무를 함께 처리하려고 규약을 만들어 설립하는 별도 법인격의 자치단체. 초광역 협력의 그릇으로 2022년 지방자치법 전부개정으로 도입됐다.","citingSteps":16,"totalSteps":16,"articles":{"제202조":2,"제206조":4,"제199조":5,"제204조":1,"제205조":1,"제203조":2,"제207조":1,"제210조":1,"제208조":1,"제209조":1}},{"slug":"administrative-boundary-change","name":"행정구역 경계 변경","oneLiner":"지방자치단체의 명칭·구역 변경과 사무·재산 승계를 처리하는 절차","citingSteps":16,"totalSteps":16,"articles":{"제5조":8,"제6조":6,"제8조":3}},{"slug":"ordinance-hierarchy","name":"시·도 조례와 시·군·구 조례 관계","oneLiner":"조례·규칙의 제정권과 입법한계, 상위 규범과의 관계를 검토하는 절차","citingSteps":15,"totalSteps":15,"articles":{"제28조":7,"제30조":2,"제29조":2,"제192조":2,"제32조":4,"제33조":1}},{"slug":"residents-audit-request","name":"주민감사청구","oneLiner":"지방자치단체의 위법·부당한 사무 처리로 공익이 침해되면, 일정 수의 주민이 상급기관에 감사를 청구해 잘못을 바로잡도록 요구하는 주민 직접참여 제도","citingSteps":15,"totalSteps":15,"articles":{"제21조":14,"제22조":1}},{"slug":"ordinance-enactment","name":"조례 제정","oneLiner":"지자체가 법령 범위에서 지역에 적용할 자치법규(조례)를 만드는 절차. 자치입법권의 핵심이며, 상위 법령을 벗어나면 무효가 된다.","citingSteps":14,"totalSteps":17,"articles":{"제28조":2,"제32조":6,"제76조":1,"제64조":2,"제47조":1,"제73조":1,"제35조":1,"제192조":2,"제33조":2,"제30조":1}},{"slug":"residents-lawsuit","name":"주민소송","oneLiner":"주민감사청구를 거친 주민이 지방자치단체의 위법한 재무회계 행위에 대해 법원에 소송을 제기해, 공금 지출 등의 중지·취소·손해 회수를 구하는 납세자 소송 제도","citingSteps":14,"totalSteps":15,"articles":{"제21조":1,"제22조":10,"제23조":3,"제24조":2}},{"slug":"local-council-resolution-reconsideration","name":"지방의회 의결·재의·이송","oneLiner":"지방의회 의결안의 이송, 재의 요구와 제소까지를 다루는 절차","citingSteps":14,"totalSteps":14,"articles":{"제47조":8,"제73조":2,"제120조":1,"제32조":1,"제121조":2}},{"slug":"local-government-special-status","name":"특별시·광역시·특별자치시 특례","oneLiner":"지방자치단체의 종류와 기관구성·사무 특례를 확인하고 적용하는 절차","citingSteps":14,"totalSteps":15,"articles":{"제2조":7,"제197조":1,"제198조":1,"제4조":3,"제11조":1,"제14조":2}},{"slug":"local-government-ordinance-proposal","name":"주민 조례청구·의회심사","oneLiner":"청구서·서명부터 요건심사·의회부의·심의·공포까지 이어지는 업무 경로","citingSteps":12,"totalSteps":12,"articles":{"제5조":3,"제6조":9,"제8조":2}},{"slug":"local-government-organization","name":"지방자치단체 조직","oneLiner":"지자체가 사무를 처리하기 위해 부단체장·실국·과 같은 행정기구와 공무원 정원을 스스로 짜는 자치조직권 제도. 다만 국가가 정한 기준인건비 안에서 움직인다.","citingSteps":9,"totalSteps":19,"articles":{"제125조":5,"제126조":1,"제64조":1,"제47조":1,"제73조":1,"제32조":1,"제127조":1,"제35조":1}},{"slug":"local-government-merger","name":"지방자치단체 통합(행정구역 개편)","oneLiner":"둘 이상의 지방자치단체를 하나로 합치는 절차. 통합 논의·주민 의견수렴을 거쳐 국회가 특별법을 제정하면 사무·재산·공무원이 통합 자치단체로 승계된다.","citingSteps":6,"totalSteps":16,"articles":{"제5조":3,"제18조":1,"제8조":2}},{"slug":"local-delegation-entrustment","name":"인허가 대행·위임(지자체 창구)","oneLiner":"국가·시도의 사무를 지자체 창구에 위임·위탁하고 처리·감사하는 절차","citingSteps":4,"totalSteps":14,"articles":{"제115조":1,"제116조":1,"제117조":1,"제168조":1,"제185조":1}},{"slug":"local-budget-formulation","name":"지방예산 편성·심의·확정","oneLiner":"지방자치단체가 예산안을 편성하고 주민참여·지방의회 심의를 거쳐 확정하는 절차","citingSteps":2,"totalSteps":14,"articles":{"제142조":1,"제149조":1}},{"slug":"supplementary-budget","name":"성립전 예산·추가경정예산","oneLiner":"예산 성립 전 집행과 추가경정예산 편성·의결의 예외 경로를 다루는 절차","citingSteps":1,"totalSteps":15,"articles":{"제47조":1,"제142조":1}},{"slug":"participatory-budgeting","name":"주민참여예산","oneLiner":"예산 편성 등 예산과정에 주민이 사업을 제안하고 우선순위를 정하도록 참여를 보장하는 제도. 지방재정법상 모든 지자체가 절차를 두어야 한다.","citingSteps":1,"totalSteps":14,"articles":{"제47조":1}},{"slug":"local-subsidy","name":"지방보조금","oneLiner":"지자체가 민간·단체·개인에게 사업비를 지원하는 보조금. 부정수급과 중복을 막기 위해 편성·교부·정산·환수를 법으로 규율한다.","citingSteps":1,"totalSteps":21,"articles":{"제47조":1}},{"slug":"local-extinction-response-fund","name":"지방소멸대응기금","oneLiner":"인구감소지역 등에 연 1조 원 규모 기금을 배분해 지자체가 스스로 수립한 투자계획으로 인구감소에 대응하게 하는 재정지원 제도","citingSteps":1,"totalSteps":17,"articles":{"제47조":1}},{"slug":"local-bond-issuance","name":"지방채 발행","oneLiner":"지방자치단체가 법정 한도와 절차에 따라 지방채를 발행·관리하는 절차","citingSteps":1,"totalSteps":14,"articles":{"제139조":1}}],"current":"$0:rsc:props:children:0:props:flows:11","asOfDate":"2026-07-10","reviewNote":"주요 절차를 요약한 참고 모델입니다. 모든 예외·위임규정의 현행성까지 전수 검증한 자료는 아닙니다. 법령 체계의 보관 자료와 현행 원문은 다를 수 있습니다.","svg":"$3","nodes":[{"id":"P01","name":"통합 논의 발의·건의","lane":"관계 지자체(단체장)","stage":"G0 발의·공론화","type":"task","status":"done","progress":100,"actor":"시·도지사","action":"발의·건의","output_documents":["통합 건의서","통합 필요성 검토보고"],"deadline":"내부 목표","blocker":null,"confidence":0.82,"legal_basis":[{"law":"지방자치법","article":"제5조","text":"지방자치단체의 폐치·분합과 명칭 변경은 법률로 정하도록 하고, 관계 자치단체가 통합을 발의·건의한다."}]},{"id":"P02","name":"통합 공론화·주민 토론","lane":"주민/이해관계자","stage":"G0 발의·공론화","type":"task","status":"done","progress":100,"actor":"주민·시민사회","action":"공론화","output_documents":["공론화 결과","주민 의견 요지"],"deadline":"공론화 기간","blocker":null,"confidence":0.72,"legal_basis":[{"law":"지방자치법","article":"제18조","text":"주민에게 중대한 영향을 미치는 결정으로서 공론화를 통해 통합에 대한 의견을 형성한다.(운영 관행, 현장 검증 필요)"}]},{"id":"P03","name":"통합방안·특례 협상·합의","lane":"관계 지자체(단체장)","stage":"G1 방안합의","type":"task","status":"done","progress":100,"actor":"시·도지사","action":"협상·합의","input_documents":["통합 건의서","공론화 결과"],"output_documents":["통합방안 합의문","특례·권한이양 목록"],"deadline":"협상 기간","blocker":null,"confidence":0.8,"legal_basis":[{"law":"전남광주통합특별시 설치를 위한 특별법","article":"제7조(전남광주통합특별시의 설치)","text":"제7조(전남광주통합특별시의 설치) ① 전라남도와 광주광역시를 각각 폐지하고 정부의 직할(直轄)로 통합특별시를 다음과 같이 설치하며, 약칭은 광주특별시로 한다. ② 통합특별시는 이 법으로 정하는 범위에서 서울특별시에 준하는 지위를 가진다. ③ 통합특별시의 청사는 종전의 전남동부청사, 무안청사, 광주청사를 균형있게 활용ㆍ운영하며, 청사의 면적기준은 「공유재산 및 물품 관리법」 제94조의3에도 불구하고 주민 및 공무원 수 등을 고려하여 통합특별시조례로 정할 수 있다."}]},{"id":"P04","name":"청사·명칭 조정 협의","lane":"관계 지자체(단체장)","stage":"G1 방안합의","type":"task","status":"done","progress":100,"actor":"시·도지사·협의체","action":"청사·명칭 조정","output_documents":["청사 배치안","통합 명칭안"],"deadline":"협상 기간","blocker":"청사 소재지·명칭을 둘러싼 지역 갈등(균형배치로 조정)","confidence":0.7,"legal_basis":[{"law":"전남광주통합특별시 설치를 위한 특별법","article":"제7조(전남광주통합특별시의 설치)","text":"통합특별시의 약칭은 광주특별시로 하며, 청사는 종전의 전남동부청사·무안청사·광주청사를 균형있게 활용·운영한다(제7조제1항·제3항)."}]},{"id":"P05","name":"의견수렴 방식 결정(주민투표/의회의결)","lane":"행정안전부","stage":"G2 의견수렴","type":"gateway","status":"done","progress":100,"actor":"행정안전부·관계 자치단체","action":"방식 결정","condition":"주민투표를 실시할지, 관계 지방의회 의견·의결로 갈음할지 결정","output_documents":["의견수렴 방식 결정"],"confidence":0.78,"legal_basis":[{"law":"주민투표법","article":"제8조","text":"행정안전부장관은 자치단체 통합 등 국가정책에 관하여 주민투표를 요구할 수 있고, 지방자치법 제5조에 따라 지방의회 의견청취로 갈음할 수도 있다."}]},{"id":"P06","name":"지방의회 통합 동의안 의결","lane":"지방의회","stage":"G2 의견수렴","type":"task","status":"done","progress":100,"actor":"관계 지방의회","action":"동의안 의결","input_documents":["통합방안 합의문","의견수렴 방식 결정"],"output_documents":["통합 동의안 의결서"],"deadline":"의회 회기","blocker":null,"confidence":0.85,"legal_basis":[{"law":"지방자치법","article":"제5조","text":"폐치·분합 시 관계 지방의회의 의견을 들어야 하며, 전남·광주는 2026.1.30 양 시·도의회 동의안 가결로 절차를 마쳤다."}]},{"id":"P07","name":"주민투표 실시(대안 경로)","lane":"주민/이해관계자","stage":"G2 의견수렴","type":"notice","status":"waiting","progress":0,"actor":"관계 자치단체·주민","action":"주민투표","output_documents":["주민투표 공고","주민투표 결과"],"deadline":"주민투표법상 절차","blocker":"이 사례는 의회 의결을 선택해 미실시(대안 경로)","confidence":0.8,"legal_basis":[{"law":"주민투표법","article":"제8조","text":"통합을 주민투표에 부치는 경우 공고·투표·개표 절차를 거친다(2005년 제주 사례가 대표적)."}]},{"id":"P08","name":"통합 특별법안 제출","lane":"행정안전부","stage":"G3 입법","type":"task","status":"done","progress":100,"actor":"행정안전부·의원","receiver":"국회","action":"법안 제출","input_documents":["통합 동의안 의결서","통합방안 합의문"],"output_documents":["통합 특별법안"],"confidence":0.8,"legal_basis":[{"law":"지방자치분권 및 균형성장에 관한 특별법","article":"제45조(시·군·구의 통합절차)","text":"행정안전부장관은 지방시대위원회의 통합방안에 따라 통합을 권고하고, 지방의회 의견청취 또는 주민투표 후 통합 법률안을 마련하여 제출한다."}]},{"id":"P09","name":"특별법 심사·의결","lane":"국회","stage":"G3 입법","type":"gateway","status":"done","progress":100,"actor":"국회","action":"심사·의결","condition":"본회의 의결 여부, 수정·부결 시 재발의","input_documents":["통합 특별법안"],"output_documents":["의결 특별법","심사보고서"],"deadline":"국회 회기","blocker":null,"confidence":0.86,"legal_basis":[{"law":"전남광주통합특별시 설치를 위한 특별법","article":"제1조(목적)","unverified":true,"text":"국회 심사·의결 절차 자체는 헌법·국회법에 따르며, 특별법 내에 국회 의결 절차를 규정한 조문이 없음. 이 법 전체가 국회 의결의 산물(unverified 처리)."}]},{"id":"P10","name":"특별법 공포·시행","lane":"국회","stage":"G3 입법","type":"notice","status":"done","progress":100,"actor":"정부(공포)","action":"공포·시행","output_documents":["공포문(관보)"],"deadline":"2026.3.5 공포 / 2026.7.1 시행","blocker":null,"confidence":0.9,"legal_basis":[{"law":"전남광주통합특별시 설치를 위한 특별법","article":"부칙 시행일","text":"2026년 3월 5일 공포, 2026년 7월 1일 시행으로 통합 설치의 효력이 발생한다."}]},{"id":"P11","name":"통합추진단 구성·출범준비","lane":"통합추진단","stage":"G4 출범준비","type":"task","status":"done","progress":100,"actor":"통합추진단","action":"출범 준비","output_documents":["출범준비 계획","통합 시스템 구축안"],"deadline":"시행일 전","blocker":null,"confidence":0.7,"legal_basis":[{"law":"지방자치분권 및 균형성장에 관한 특별법","article":"제46조(통합추진공동위원회)","text":"통합의사 확인 후 관계 지방자치단체의 장은 명칭·청사 소재지·사무 등 통합 세부사항을 심의하기 위해 통합추진공동위원회를 공동으로 설치하여야 한다."}]},{"id":"P12","name":"조직·정원·재정 통합계획","lane":"통합추진단","stage":"G4 출범준비","type":"task","status":"done","progress":100,"actor":"통합추진단","action":"통합계획 수립","output_documents":["조직·정원 통합안","재정 통합계획"],"deadline":"시행일 전","blocker":null,"confidence":0.72,"legal_basis":[{"law":"지방자치법","article":"제8조","text":"구역변경·폐치·분합 시 사무와 재산은 새로 관할하게 된 자치단체가 승계하므로, 이에 대비해 조직·정원·재정 통합계획을 수립한다.(세부는 현장 검증 필요)"}]},{"id":"P13","name":"통합 출범·사무 및 재산 승계","lane":"관계 지자체(단체장)","stage":"G5 출범·승계","type":"task","status":"done","progress":100,"actor":"통합 자치단체","action":"출범·승계","input_documents":["조직·정원 통합안","재정 통합계획"],"output_documents":["사무·재산 인계인수서","출범 공고"],"deadline":"2026.7.1 출범","blocker":null,"confidence":0.88,"legal_basis":[{"law":"지방자치법","article":"제8조","text":"구역변경·폐치·분합 시 새로 관할하게 된 자치단체가 사무와 재산을 승계한다(제8조제1항). 사무·재산 구분이 곤란하면 행정안전부장관 등이 승계 자치단체를 지정한다(2026.7.1 전남광주통합특별시 출범)."}]},{"id":"P14","name":"공무원 인사 통합","lane":"통합추진단","stage":"G6 사후정착","type":"task","status":"current","progress":40,"actor":"통합 자치단체 인사부서","action":"인사 통합","output_documents":["정원·인사 통합안","직급 조정 결과"],"deadline":"출범 후 진행","blocker":"직급·정원 통합의 형평성 갈등, 조정 진행 중","confidence":0.68,"legal_basis":[{"law":"지방자치법","article":"제5조 및 관련 인사법령","text":"승계된 소속 공무원의 정원·직급을 통합 조정한다.(구체 방식·기간은 현장 검증 필요)"}]},{"id":"P15","name":"특례·권한이양 이행","lane":"국무총리·지방시대위원회","stage":"G6 사후정착","type":"task","status":"risk","progress":20,"actor":"지원위원회·관계부처","action":"특례 이행","output_documents":["특례 이행계획","권한이양 진행표"],"deadline":"단계적 이행","blocker":"394개 특례·44건 권한이양의 부처 협의 지체 위험","confidence":0.7,"legal_basis":[{"law":"전남광주통합특별시 설치를 위한 특별법","article":"제12조(전남광주통합특별시 지원위원회의 설치)","text":"국무총리 소속으로 전남광주통합특별시 지원위원회를 두어 특례 이행·재정지원·권한이양 등을 심의한다."},{"law":"전남광주통합특별시 설치를 위한 특별법","article":"제16조(중앙행정기관 권한의 단계적 이양)","text":"지원위원회는 외교·국방·사법 등 국가존립사무를 제외한 사무를 단계별로 통합특별시에 이양하기 위한 이양계획을 수립하여야 한다."}]},{"id":"P16","name":"통합 성과 점검·사후관리","lane":"행정안전부","stage":"G6 사후정착","type":"task","status":"waiting","progress":0,"actor":"행정안전부·지원위원회","action":"성과 점검","output_documents":["성과 점검보고","제도 개선안"],"deadline":"정기 점검","blocker":null,"confidence":0.72,"legal_basis":[{"law":"지방자치분권 및 균형성장에 관한 특별법","article":"제63조(기능)","text":"지방시대위원회는 지방자치단체 통합을 위한 기준·통합방안·조정(제10호) 및 지방자치분권·균형성장 국정과제 총괄·점검(제2호) 등을 심의·의결한다."},{"law":"지방자치분권 및 균형성장에 관한 특별법","article":"제71조(이행상황의 점검 등)","text":"지방시대위원회는 실천계획 이행상황을 점검하여 국무회의에 보고하고, 관계 기관에 필요한 조치를 권고할 수 있다."}]}],"edges":[{"id":"E01","source":"P01","target":"P03","type":"sequence","label":null},{"id":"E02","source":"P03","target":"P04","type":"sequence","label":null},{"id":"E03","source":"P04","target":"P05","type":"sequence","label":null},{"id":"E04","source":"P05","target":"P06","type":"sequence","label":"의회의결 선택"},{"id":"E05","source":"P06","target":"P08","type":"sequence","label":null},{"id":"E06","source":"P08","target":"P09","type":"sequence","label":null},{"id":"E07","source":"P09","target":"P10","type":"sequence","label":null},{"id":"E08","source":"P10","target":"P11","type":"sequence","label":null},{"id":"E09","source":"P11","target":"P12","type":"sequence","label":null},{"id":"E10","source":"P12","target":"P13","type":"sequence","label":null},{"id":"E11","source":"P13","target":"P14","type":"sequence","label":null},{"id":"E12","source":"P14","target":"P15","type":"sequence","label":null},{"id":"E13","source":"P15","target":"P16","type":"sequence","label":null},{"id":"M01","source":"P02","target":"P03","type":"message","label":"공론화 의견"},{"id":"M02","source":"P05","target":"P07","type":"message","label":"주민투표 방식(대안)"},{"id":"M03","source":"P06","target":"P08","type":"message","label":"의회 동의 결과"},{"id":"M04","source":"P10","target":"P11","type":"message","label":"시행·출범 준비 지시"},{"id":"L01","source":"P05","target":"P03","type":"loop","label":"합의 결렬·재협의"},{"id":"L02","source":"P09","target":"P08","type":"loop","label":"부결·수정 재발의"}],"lawContext":{"byNode":{"P01":[{"law":"지방자치법","article":"제5조","text":"지방자치단체의 폐치·분합과 명칭 변경은 법률로 정하도록 하고, 관계 자치단체가 통합을 발의·건의한다.","found":true,"lawId":"001656","tier":"statute","articles":[{"label":"제5조","title":"지방자치단체의 명칭과 구역","officialUrl":"https://www.law.go.kr/법령/지방자치법/제5조","up":[],"down":[{"kind":"rule","phrase":"법률로 정한다","lawName":"인천광역시 제물포구ㆍ영종구 및 검단구 설치 등에 관한 법률","label":null,"title":"모든조문","tier":null},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"경기도 안양시와 광명시의 관할구역 변경에 관한 규정","label":null,"title":"모든조문","tier":null}]}]}],"P02":[{"law":"지방자치법","article":"제18조","text":"주민에게 중대한 영향을 미치는 결정으로서 공론화를 통해 통합에 대한 의견을 형성한다.(운영 관행, 현장 검증 필요)","found":true,"lawId":"001656","tier":"statute","articles":[{"label":"제18조","title":"주민투표","officialUrl":"https://www.law.go.kr/법령/지방자치법/제18조","up":[],"down":[{"kind":"rule","phrase":"투표절차 등에 관한 사항은 따로 법률로","lawName":"주민투표법","label":null,"title":"모든조문","tier":null}]}]}],"P03":[{"law":"전남광주통합특별시 설치를 위한 특별법","article":"제7조(전남광주통합특별시의 설치)","text":"제7조(전남광주통합특별시의 설치) ① 전라남도와 광주광역시를 각각 폐지하고 정부의 직할(直轄)로 통합특별시를 다음과 같이 설치하며, 약칭은 광주특별시로 한다. ② 통합특별시는 이 법으로 정하는 범위에서 서울특별시에 준하는 지위를 가진다. ③ 통합특별시의 청사는 종전의 전남동부청사, 무안청사, 광주청사를 균형있게 활용ㆍ운영하며, 청사의 면적기준은 「공유재산 및 물품 관리법」 제94조의3에도 불구하고 주민 및 공무원 수 등을 고려하여 통합특별시조례로 정할 수 있다.","found":true,"lawId":"015064","tier":"statute","articles":[{"label":"제7조","title":"전남광주통합특별시의 설치","officialUrl":"https://www.law.go.kr/법령/전남광주통합특별시설치를위한특별법/제7조","up":[],"down":[{"kind":"ordinance","phrase":"③ 통합특별시의 청사는 종전의 전남동부청사, 무안청사, 광주청사를 균형있게 활용ㆍ운영하며, 청사의 면적기준은 「공유재산 및 물품 관리법」 제94조의3에도 불구하고 주민 및 공무원 수 등을 고려하여 통합특별시조례로 정할 수 있다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]}],"P04":[{"law":"전남광주통합특별시 설치를 위한 특별법","article":"제7조(전남광주통합특별시의 설치)","text":"통합특별시의 약칭은 광주특별시로 하며, 청사는 종전의 전남동부청사·무안청사·광주청사를 균형있게 활용·운영한다(제7조제1항·제3항).","found":true,"lawId":"015064","tier":"statute","articles":[{"label":"제7조","title":"전남광주통합특별시의 설치","officialUrl":"https://www.law.go.kr/법령/전남광주통합특별시설치를위한특별법/제7조","up":[],"down":[{"kind":"ordinance","phrase":"③ 통합특별시의 청사는 종전의 전남동부청사, 무안청사, 광주청사를 균형있게 활용ㆍ운영하며, 청사의 면적기준은 「공유재산 및 물품 관리법」 제94조의3에도 불구하고 주민 및 공무원 수 등을 고려하여 통합특별시조례로 정할 수 있다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]}],"P05":[{"law":"주민투표법","article":"제8조","text":"행정안전부장관은 자치단체 통합 등 국가정책에 관하여 주민투표를 요구할 수 있고, 지방자치법 제5조에 따라 지방의회 의견청취로 갈음할 수도 있다.","found":true,"lawId":"009629","tier":"statute","articles":[{"label":"제8조","title":"국가정책에 관한 주민투표","officialUrl":"https://www.law.go.kr/법령/주민투표법/제8조","up":[],"down":[]}]}],"P06":[{"law":"지방자치법","article":"제5조","text":"폐치·분합 시 관계 지방의회의 의견을 들어야 하며, 전남·광주는 2026.1.30 양 시·도의회 동의안 가결로 절차를 마쳤다.","found":true,"lawId":"001656","tier":"statute","articles":[{"label":"제5조","title":"지방자치단체의 명칭과 구역","officialUrl":"https://www.law.go.kr/법령/지방자치법/제5조","up":[],"down":[{"kind":"rule","phrase":"법률로 정한다","lawName":"인천광역시 제물포구ㆍ영종구 및 검단구 설치 등에 관한 법률","label":null,"title":"모든조문","tier":null},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"경기도 안양시와 광명시의 관할구역 변경에 관한 규정","label":null,"title":"모든조문","tier":null}]}]}],"P07":[{"law":"주민투표법","article":"제8조","text":"통합을 주민투표에 부치는 경우 공고·투표·개표 절차를 거친다(2005년 제주 사례가 대표적).","found":true,"lawId":"009629","tier":"statute","articles":[{"label":"제8조","title":"국가정책에 관한 주민투표","officialUrl":"https://www.law.go.kr/법령/주민투표법/제8조","up":[],"down":[]}]}],"P08":[{"law":"지방자치분권 및 균형성장에 관한 특별법","article":"제45조(시·군·구의 통합절차)","text":"행정안전부장관은 지방시대위원회의 통합방안에 따라 통합을 권고하고, 지방의회 의견청취 또는 주민투표 후 통합 법률안을 마련하여 제출한다.","found":true,"lawId":"014455","tier":"statute","articles":[{"label":"제45조","title":"시ㆍ군ㆍ구의 통합절차","officialUrl":"https://www.law.go.kr/법령/지방자치분권및균형성장에관한특별법/제45조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"지방자치분권 및 지역균형발전에 관한 특별법 시행령","label":"제45조","title":"시ㆍ군ㆍ구의 통합 건의절차","tier":"decree"}]}]}],"P09":[{"law":"전남광주통합특별시 설치를 위한 특별법","article":"제1조(목적)","text":"국회 심사·의결 절차 자체는 헌법·국회법에 따르며, 특별법 내에 국회 의결 절차를 규정한 조문이 없음. 이 법 전체가 국회 의결의 산물(unverified 처리).","found":true,"lawId":"015064","tier":"statute","articles":[{"label":"제1조","title":"목적","officialUrl":"https://www.law.go.kr/법령/전남광주통합특별시설치를위한특별법/제1조","up":[],"down":[]}]}],"P10":[{"law":"전남광주통합특별시 설치를 위한 특별법","article":"부칙 시행일","text":"2026년 3월 5일 공포, 2026년 7월 1일 시행으로 통합 설치의 효력이 발생한다.","found":true,"lawId":"015064","tier":"statute","articles":[]}],"P11":[{"law":"지방자치분권 및 균형성장에 관한 특별법","article":"제46조(통합추진공동위원회)","text":"통합의사 확인 후 관계 지방자치단체의 장은 명칭·청사 소재지·사무 등 통합 세부사항을 심의하기 위해 통합추진공동위원회를 공동으로 설치하여야 한다.","found":true,"lawId":"014455","tier":"statute","articles":[{"label":"제46조","title":"통합추진공동위원회","officialUrl":"https://www.law.go.kr/법령/지방자치분권및균형성장에관한특별법/제46조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"지방자치분권 및 지역균형발전에 관한 특별법 시행령","label":"제46조","title":"통합추진공동위원회의 구성 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"지방자치분권 및 지역균형발전에 관한 특별법 시행령","label":"제47조","title":"공동위원장의 직무","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"지방자치분권 및 지역균형발전에 관한 특별법 시행령","label":"제48조","title":"공동위원회의 회의","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"지방자치분권 및 지역균형발전에 관한 특별법 시행령","label":"제49조","title":"공동위원회 자문위원","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"지방자치분권 및 지역균형발전에 관한 특별법 시행령","label":"제50조","title":"통합지원단","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"지방자치분권 및 지역균형발전에 관한 특별법 시행령","label":"제51조","title":"경비 부담 및 수당 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"지방자치분권 및 지역균형발전에 관한 특별법 시행령","label":"제52조","title":"공무원의 파견 요청 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"지방자치분권 및 지역균형발전에 관한 특별법 시행령","label":"제53조","title":"공동위원회 운영세칙","tier":"decree"}]}]}],"P12":[{"law":"지방자치법","article":"제8조","text":"구역변경·폐치·분합 시 사무와 재산은 새로 관할하게 된 자치단체가 승계하므로, 이에 대비해 조직·정원·재정 통합계획을 수립한다.(세부는 현장 검증 필요)","found":true,"lawId":"001656","tier":"statute","articles":[{"label":"제8조","title":"구역의 변경 또는 폐지ㆍ설치ㆍ분리ㆍ합병 시의 사무와 재산의 승계","officialUrl":"https://www.law.go.kr/법령/지방자치법/제8조","up":[],"down":[]}]}],"P13":[{"law":"지방자치법","article":"제8조","text":"구역변경·폐치·분합 시 새로 관할하게 된 자치단체가 사무와 재산을 승계한다(제8조제1항). 사무·재산 구분이 곤란하면 행정안전부장관 등이 승계 자치단체를 지정한다(2026.7.1 전남광주통합특별시 출범).","found":true,"lawId":"001656","tier":"statute","articles":[{"label":"제8조","title":"구역의 변경 또는 폐지ㆍ설치ㆍ분리ㆍ합병 시의 사무와 재산의 승계","officialUrl":"https://www.law.go.kr/법령/지방자치법/제8조","up":[],"down":[]}]}],"P14":[{"law":"지방자치법","article":"제5조 및 관련 인사법령","text":"승계된 소속 공무원의 정원·직급을 통합 조정한다.(구체 방식·기간은 현장 검증 필요)","found":true,"lawId":"001656","tier":"statute","articles":[{"label":"제5조","title":"지방자치단체의 명칭과 구역","officialUrl":"https://www.law.go.kr/법령/지방자치법/제5조","up":[],"down":[{"kind":"rule","phrase":"법률로 정한다","lawName":"인천광역시 제물포구ㆍ영종구 및 검단구 설치 등에 관한 법률","label":null,"title":"모든조문","tier":null},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"경기도 안양시와 광명시의 관할구역 변경에 관한 규정","label":null,"title":"모든조문","tier":null}]}]}],"P15":[{"law":"전남광주통합특별시 설치를 위한 특별법","article":"제12조(전남광주통합특별시 지원위원회의 설치)","text":"국무총리 소속으로 전남광주통합특별시 지원위원회를 두어 특례 이행·재정지원·권한이양 등을 심의한다.","found":true,"lawId":"015064","tier":"statute","articles":[{"label":"제12조","title":"전남광주통합특별시 지원위원회의 설치","officialUrl":"https://www.law.go.kr/법령/전남광주통합특별시설치를위한특별법/제12조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"전남광주통합특별시 설치를 위한 특별법 시행령","label":"제2조","title":"전남광주통합특별시 지원위원회의 구성 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"전남광주통합특별시 설치를 위한 특별법 시행령","label":"제2조","title":"전남광주통합특별시 지원위원회의 구성 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"전남광주통합특별시 설치를 위한 특별법 시행령","label":"제3조","title":"위원의 해촉","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"전남광주통합특별시 설치를 위한 특별법 시행령","label":"제4조","title":"위원의 제척ㆍ기피ㆍ회피","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"전남광주통합특별시 설치를 위한 특별법 시행령","label":"제5조","title":"위원의 자격제한","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"전남광주통합특별시 설치를 위한 특별법 시행령","label":"제6조","title":"지원위원회 위원장의 직무","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"전남광주통합특별시 설치를 위한 특별법 시행령","label":"제7조","title":"지원위원회의 운영","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"전남광주통합특별시 설치를 위한 특별법 시행령","label":"제8조","title":"실무위원회의 구성 및 운영","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"전남광주통합특별시 설치를 위한 특별법 시행령","label":"제9조","title":"실무지원단","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"전남광주통합특별시 설치를 위한 특별법 시행령","label":"제10조","title":"전문요원","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"전남광주통합특별시 설치를 위한 특별법 시행령","label":"제11조","title":"파견 요청","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"전남광주통합특별시 설치를 위한 특별법 시행령","label":"제12조","title":"조사ㆍ연구 의뢰 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"전남광주통합특별시 설치를 위한 특별법 시행령","label":"제13조","title":"수당 등","tier":"decree"}]}]},{"law":"전남광주통합특별시 설치를 위한 특별법","article":"제16조(중앙행정기관 권한의 단계적 이양)","text":"지원위원회는 외교·국방·사법 등 국가존립사무를 제외한 사무를 단계별로 통합특별시에 이양하기 위한 이양계획을 수립하여야 한다.","found":true,"lawId":"015064","tier":"statute","articles":[{"label":"제16조","title":"중앙행정기관 권한의 단계적 이양","officialUrl":"https://www.law.go.kr/법령/전남광주통합특별시설치를위한특별법/제16조","up":[],"down":[]}]}],"P16":[{"law":"지방자치분권 및 균형성장에 관한 특별법","article":"제63조(기능)","text":"지방시대위원회는 지방자치단체 통합을 위한 기준·통합방안·조정(제10호) 및 지방자치분권·균형성장 국정과제 총괄·점검(제2호) 등을 심의·의결한다.","found":true,"lawId":"014455","tier":"statute","articles":[{"label":"제63조","title":"기능","officialUrl":"https://www.law.go.kr/법령/지방자치분권및균형성장에관한특별법/제63조","up":[],"down":[]}]},{"law":"지방자치분권 및 균형성장에 관한 특별법","article":"제71조(이행상황의 점검 등)","text":"지방시대위원회는 실천계획 이행상황을 점검하여 국무회의에 보고하고, 관계 기관에 필요한 조치를 권고할 수 있다.","found":true,"lawId":"014455","tier":"statute","articles":[{"label":"제71조","title":"이행상황의 점검 등","officialUrl":"https://www.law.go.kr/법령/지방자치분권및균형성장에관한특별법/제71조","up":[],"down":[]}]}]},"systems":{"001656":{"lawId":"001656","name":"지방자치법","href":"/law/001656/","ministry":"행정안전부","effectiveOn":"2026-10-15","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"지방자치법","kind":"법률","articleCount":215,"officialUrl":"https://www.law.go.kr/법령/지방자치법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":215},{"tier":"decree","label":"시행령","laws":[{"name":"지방자치법 시행령","kind":"대통령령","articleCount":127,"officialUrl":"https://www.law.go.kr/법령/지방자치법시행령"},{"name":"지방소방기관 설치에 관한 규정","kind":"대통령령","articleCount":17,"officialUrl":"https://www.law.go.kr/법령/지방소방기관설치에관한규정"},{"name":"지방자치단체에 대한 행정감사규정","kind":"대통령령","articleCount":23,"officialUrl":"https://www.law.go.kr/법령/지방자치단체에대한행정감사규정"},{"name":"지방자치단체의 행정기구와 정원기준 등에 관한 규정","kind":"대통령령","articleCount":44,"officialUrl":"https://www.law.go.kr/법령/지방자치단체의행정기구와정원기준등에관한규정"},{"name":"지방자치법 제156조제1항 단서에 따른 전국적 통일이 필요한 수수료의 징수기준에 관한 규정","kind":"대통령령","articleCount":2,"officialUrl":"https://www.law.go.kr/법령/지방자치법제156조제1항단서에따른전국적통일이필요한수수료의징수기준에관한규정"}],"kinds":[{"kind":"대통령령","count":5}],"articleCount":213},{"tier":"rule","label":"시행규칙","laws":[{"name":"주민의 감사 청구 등의 서식에 관한 규칙","kind":"행정안전부령","articleCount":7,"officialUrl":"https://www.law.go.kr/법령/주민의감사청구등의서식에관한규칙"},{"name":"지방자치단체에 두는 고위공무원단 직위의 직무등급 표시에 관한 규칙","kind":"행정안전부령","articleCount":3,"officialUrl":"https://www.law.go.kr/법령/지방자치단체에두는고위공무원단직위의직무등급표시에관한규칙"},{"name":"지방자치법 시행령 제120조에 따른 특례를 둘 수 있는 시ㆍ군ㆍ구의 지정에 필요한 서식에 관한 규칙","kind":"행정안전부령","articleCount":4,"officialUrl":"https://www.law.go.kr/법령/지방자치법시행령제120조에따른특례를둘수있는시ㆍ군ㆍ구의지정에필요한서식에관한규칙"},{"name":"행정구역 조정업무 처리에 관한 규칙","kind":"행정안전부령","articleCount":17,"officialUrl":"https://www.law.go.kr/법령/행정구역조정업무처리에관한규칙"},{"name":"행정협의회의 구성 및 운영에 관한 규칙","kind":"행정안전부령","articleCount":8,"officialUrl":"https://www.law.go.kr/법령/행정협의회의구성및운영에관한규칙"},{"name":"지방자치단체의 행정기구와 정원기준 등에 관한 규정 시행규칙","kind":"행정안전부령","articleCount":6,"officialUrl":"https://www.law.go.kr/법령/지방자치단체의행정기구와정원기준등에관한규정시행규칙"}],"kinds":[{"kind":"행정안전부령","count":6}],"articleCount":45},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"(행정안전부) 감사청구심의회구성 및 운영에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/(행정안전부)감사청구심의회구성및운영에관한규정"},{"name":"감사청구심의회 구성·운영에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/감사청구심의회구성·운영에관한규정"},{"name":"국토교통부 감사청구심의회 구성 및 운영에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국토교통부감사청구심의회구성및운영에관한규정"},{"name":"농림축산식품부 감사청구심의회 운영규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/농림축산식품부감사청구심의회운영규정"},{"name":"문화체육관광부 주민감사청구 심의회 구성 및 운영에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/문화체육관광부주민감사청구심의회구성및운영에관한규정"},{"name":"보건복지부 감사청구심의회 운영규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/보건복지부감사청구심의회운영규정"},{"name":"산업통상자원부 감사청구심의회 운영규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/산업통상자원부감사청구심의회운영규정"},{"name":"해양수산부 감사청구심의회 구성 및 운영에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/해양수산부감사청구심의회구성및운영에관한규정"}],"kinds":[{"kind":"훈령","count":8}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EC%A7%80%EB%B0%A9%EC%9E%90%EC%B9%98%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":96,"rule":46,"adminRule":8,"ordinance":98,"cites":234}},"015064":{"lawId":"015064","name":"전남광주통합특별시 설치를 위한 특별법","href":"/law/015064/","ministry":"행정안전부","effectiveOn":"2026-09-08","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"전남광주통합특별시 설치를 위한 특별법","kind":"법률","articleCount":408,"officialUrl":"https://www.law.go.kr/법령/전남광주통합특별시설치를위한특별법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":408},{"tier":"decree","label":"시행령","laws":[{"name":"전남광주통합특별시 설치를 위한 특별법 시행령","kind":"대통령령","articleCount":82,"officialUrl":"https://www.law.go.kr/법령/전남광주통합특별시설치를위한특별법시행령"}],"kinds":[{"kind":"대통령령","count":1}],"articleCount":82},{"tier":"rule","label":"시행규칙","laws":[{"name":"전남광주통합특별시 설치에 따른 전남광주통합특별시교육감 소속 공무원 인사관리 특례에 관한 규칙","kind":"교육부령","articleCount":3,"officialUrl":"https://www.law.go.kr/법령/전남광주통합특별시설치에따른전남광주통합특별시교육감소속공무원인사관리특례에관한규칙"}],"kinds":[{"kind":"교육부령","count":1}],"articleCount":3},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"전남광주통합특별시 지원위원회 운영세칙","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/전남광주통합특별시지원위원회운영세칙"}],"kinds":[{"kind":"훈령","count":1}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%84%A4%EC%B9%98%EB%A5%BC%20%EC%9C%84%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":98,"rule":2,"adminRule":1,"ordinance":49,"cites":1756}},"009629":{"lawId":"009629","name":"주민투표법","href":"/law/009629/","ministry":"행정안전부","effectiveOn":"2023-04-27","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"주민투표법","kind":"법률","articleCount":32,"officialUrl":"https://www.law.go.kr/법령/주민투표법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":32},{"tier":"decree","label":"시행령","laws":[{"name":"주민투표관리규칙","kind":"중앙선거관리위원회규칙","articleCount":13,"officialUrl":"https://www.law.go.kr/법령/주민투표관리규칙"}],"kinds":[{"kind":"중앙선거관리위원회규칙","count":1}],"articleCount":13},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EC%A3%BC%EB%AF%BC%ED%88%AC%ED%91%9C%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":6,"rule":3,"adminRule":0,"ordinance":6,"cites":30}},"014455":{"lawId":"014455","name":"지방자치분권 및 균형성장에 관한 특별법","href":"/law/014455/","ministry":"국토교통부","effectiveOn":"2026-09-10","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"지방자치분권 및 균형성장에 관한 특별법","kind":"법률","articleCount":96,"officialUrl":"https://www.law.go.kr/법령/지방자치분권및균형성장에관한특별법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":96},{"tier":"decree","label":"시행령","laws":[{"name":"지방자치분권 및 지역균형발전에 관한 특별법 시행령","kind":"대통령령","articleCount":95,"officialUrl":"https://www.law.go.kr/법령/지방자치분권및지역균형발전에관한특별법시행령"}],"kinds":[{"kind":"대통령령","count":1}],"articleCount":95},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"기회발전특구 지정 통합고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/기회발전특구지정통합고시"},{"name":"기회발전특구의 지정·운영 등에 관한 지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/기회발전특구의지정·운영등에관한지침"},{"name":"인구감소관심지역 지정 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/인구감소관심지역지정고시"},{"name":"인구감소지역 지정 변경 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/인구감소지역지정변경고시"},{"name":"지방자치분권 및 지역균형발전에 관한 특별법 시행령 제44조의2제1항의 출자 대상 범위에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방자치분권및지역균형발전에관한특별법시행령제44조의2제1항의출자대상범위에관한고시"},{"name":"지역발전투자협약 운영지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지역발전투자협약운영지침"},{"name":"지역산업지원사업 공통운영요령","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지역산업지원사업공통운영요령"},{"name":"지역혁신융복합단지 지정(변경)","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지역혁신융복합단지지정(변경)"},{"name":"2024년도 기회발전특구 지정","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/2024년도기회발전특구지정"}],"kinds":[{"kind":"고시","count":8},{"kind":"행정규칙","count":1}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EC%A7%80%EB%B0%A9%EC%9E%90%EC%B9%98%EB%B6%84%EA%B6%8C%20%EB%B0%8F%20%EA%B7%A0%ED%98%95%EC%84%B1%EC%9E%A5%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":114,"rule":11,"adminRule":11,"ordinance":6,"cites":462}}}},"statusStyles":{"done":{"label":"선행","fill":"#effaf5","border":"#35a77d","ink":"#123d2e","sub":"#287a5c"},"current":{"label":"핵심","fill":"#087452","border":"#087452","ink":"#ffffff","sub":"#d8f4e8"},"waiting":{"label":"후속","fill":"#ffffff","border":"#b9c7bf","ink":"#17231d","sub":"#627169"},"risk":{"label":"병목","fill":"#fff8e8","border":"#d9901a","ink":"#7a4305","sub":"#a96008"},"loop":{"label":"회귀","fill":"#edf4ff","border":"#3478db","ink":"#173f7a","sub":"#316bbd"}},"basisLegend":[{"label":"법률","fill":"#ffffff","border":"#3b4a43"},{"label":"시행령","fill":"#f2f6ff","border":"#2456d6"},{"label":"시행규칙","fill":"#effaf6","border":"#0f9f72"},{"label":"행정규칙","fill":"#f6f2ff","border":"#7c56c9"}],"isLawIndex":false}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Eu-UvfunzEwjnKcUq5f7W"}
+4:["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","precedence":"next"}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

@@ -1,0 +1,434 @@
+1:"$Sreact.fragment"
+2:I[4116,[],""]
+3:I[8498,[],""]
+5:I[977,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+9:I[977,[],"ViewportBoundary"]
+b:I[977,[],"MetadataBoundary"]
+d:I[8432,[],"default",1]
+:HL["/lawdemo/flow/_next/static/css/cd237d4e4c702e12.css","style"]
+:HL["/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","style"]
+0:{"P":null,"c":["","embed","flow","011358",""],"q":"","i":false,"f":[[["",{"children":["embed",{"children":["flow",{"children":[["lawId","011358","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/cd237d4e4c702e12.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"ko","children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,"$@8"]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Eu-UvfunzEwjnKcUq5f7W"}
+e:[]
+8:"$We"
+f:I[7742,["838","static/chunks/838-9b85aecee2a13f53.js","379","static/chunks/379-f104668f756ddde1.js","227","static/chunks/app/embed/flow/%5BlawId%5D/page-b476be85089ecd29.js"],"default"]
+10:T86e5,<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 250 1744 1960" class="pp-svg">
+<defs>
+      <filter id="card-shadow" x="-20%" y="-25%" width="140%" height="160%">
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#12271e" flood-opacity="0.10"/>
+      </filter>
+      <marker id="arrow-sequence" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#53675d" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-message" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#0f8a65" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-loop" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#3478db" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <style>
+        text { font-family: "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", sans-serif; }
+        .mono { font-family: "SFMono-Regular", "Menlo", monospace; }
+      </style>
+    </defs>
+<rect width="1800" height="2400" fill="#ffffff"/>
+
+
+
+<rect x="38" y="260" width="1724" height="1940" rx="10" fill="#ffffff" stroke="#b8c7bf" stroke-width="2"/>
+<rect x="38" y="260" width="190" height="100" rx="10" fill="#eaf2ee"/>
+<text x="58" y="299" font-size="17" font-weight="800" fill="#17231d">단계 ↓</text>
+<text x="58" y="332" font-size="15" font-weight="650" fill="#68776f">행위자 묶음 →</text>
+<rect x="38" y="360" width="1724" height="295.4" fill="#fbfcfb"/>
+<rect x="38" y="360" width="190" height="295.4" fill="#eef3f0"/>
+<text x="58" y="392" class="mono" font-size="16" font-weight="800" fill="#53645b">G0</text>
+<text x="58" y="425" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">신고준비</tspan></text>
+<rect x="38" y="655.4" width="1724" height="295.4" fill="#f5f8f6"/>
+<rect x="38" y="655.4" width="190" height="295.4" fill="#eef3f0"/>
+<text x="58" y="687.4" class="mono" font-size="16" font-weight="800" fill="#53645b">G1</text>
+<text x="58" y="720.4" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">접수·요건</tspan></text>
+<rect x="38" y="950.9" width="1724" height="295.4" fill="#fbfcfb"/>
+<rect x="38" y="950.9" width="190" height="295.4" fill="#eef3f0"/>
+<text x="58" y="982.9" class="mono" font-size="16" font-weight="800" fill="#53645b">G2</text>
+<text x="58" y="1015.9" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">이첩·조사</tspan></text>
+<rect x="38" y="1246.3" width="1724" height="295.4" fill="#f5f8f6"/>
+<rect x="38" y="1246.3" width="190" height="295.4" fill="#eef3f0"/>
+<text x="58" y="1278.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G3</text>
+<text x="58" y="1311.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">처리결과</tspan></text>
+<rect x="38" y="1541.7" width="1724" height="181.4" fill="#fbfcfb"/>
+<rect x="38" y="1541.7" width="190" height="181.4" fill="#eef3f0"/>
+<text x="58" y="1573.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G4</text>
+<text x="58" y="1606.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">비밀·신변보호</tspan></text>
+<rect x="38" y="1723.1" width="1724" height="295.4" fill="#f5f8f6"/>
+<rect x="38" y="1723.1" width="190" height="295.4" fill="#eef3f0"/>
+<text x="58" y="1755.1" class="mono" font-size="16" font-weight="800" fill="#53645b">G5</text>
+<text x="58" y="1788.1" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">보호조치</tspan></text>
+<rect x="38" y="2018.6" width="1724" height="181.4" fill="#fbfcfb"/>
+<rect x="38" y="2018.6" width="190" height="181.4" fill="#eef3f0"/>
+<text x="58" y="2050.6" class="mono" font-size="16" font-weight="800" fill="#53645b">G6</text>
+<text x="58" y="2083.6" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">감면·보상·구조</tspan></text>
+<rect x="228" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="228" y="260" width="383.5" height="7" fill="#0f9f72"/>
+<text x="248" y="299" font-size="20" font-weight="800" fill="#17231d">신고자·대리인</text>
+<text x="248" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="248" dy="0">신고자/대리인</tspan></text>
+<rect x="611.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="611.5" y="260" width="383.5" height="7" fill="#3b82f6"/>
+<text x="631.5" y="299" font-size="20" font-weight="800" fill="#17231d">접수기관·조사·수사기관</text>
+<text x="631.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="631.5" dy="0">접수기관(국민권익위) · 조사·수사기관</tspan></text>
+<rect x="995" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="995" y="260" width="383.5" height="7" fill="#c78116"/>
+<text x="1015" y="299" font-size="20" font-weight="800" fill="#17231d">위원회 회의·사용자·소속기관</text>
+<text x="1015" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1015" dy="0">위원회 회의 · 사용자/소속기관</tspan></text>
+<rect x="1378.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="1378.5" y="260" width="383.5" height="7" fill="#0891b2"/>
+<text x="1398.5" y="299" font-size="20" font-weight="800" fill="#17231d">정보시스템</text>
+<text x="1398.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1398.5" dy="0">정보시스템</tspan></text>
+<line x1="228" y1="260" x2="228" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="611.5" y1="260" x2="611.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="995" y1="260" x2="995" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1378.5" y1="260" x2="1378.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1762" y1="260" x2="1762" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#b8c7bf" stroke-width="2"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="655.4" x2="1762" y2="655.4" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="950.9" x2="1762" y2="950.9" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1246.3" x2="1762" y2="1246.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1541.7" x2="1762" y2="1541.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1723.1" x2="1762" y2="1723.1" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2018.6" x2="1762" y2="2018.6" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2200" x2="1762" y2="2200" stroke="#b8c7bf" stroke-width="2"/>
+<g class="pp-edge" data-edge-id="E01" data-source="P01" data-target="P02">
+<path d="M 419.8 495.7 V 511.7 H 409.8 V 511.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 419.8 495.7 V 511.7 H 409.8 V 511.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E02" data-source="P02" data-target="P03">
+<path d="M 423.8 609.7 V 643.4 H 783.3 V 693.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 423.8 609.7 V 643.4 H 783.3 V 693.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E03" data-source="P03" data-target="P04">
+<path d="M 803.3 791.1 V 807.1 H 777.3 V 807.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 803.3 791.1 V 807.1 H 777.3 V 807.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E04" data-source="P04" data-target="P05">
+<path d="M 817.3 905.1 V 938.9 H 977 V 1559.4 H 793.3 V 1579.4" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 817.3 905.1 V 938.9 H 977 V 1559.4 H 793.3 V 1579.4" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E05" data-source="P05" data-target="P06">
+<path d="M 938.3 1638.9 H 1023.8 V 1634.9 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 1638.9 H 1023.8 V 1634.9 H 1043.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E06" data-source="P04" data-target="P07">
+<path d="M 803.3 905.1 V 922.9 H 787.3 V 988.6" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 803.3 905.1 V 922.9 H 787.3 V 988.6" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E07" data-source="P08" data-target="P09">
+<path d="M 813.3 1200.6 V 1234.3 H 773.3 V 1284" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 813.3 1200.6 V 1234.3 H 773.3 V 1284" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E08" data-source="P10" data-target="P11">
+<path d="M 825.3 1496 V 1497.7 H 1364.5 V 1740.9 H 1208.8 V 1760.9" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 825.3 1496 V 1497.7 H 1364.5 V 1740.9 H 1208.8 V 1760.9" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E09" data-source="P12" data-target="P13">
+<path d="M 554.8 1864.4 H 1023.8 V 1921.4 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1864.4 H 1023.8 V 1921.4 H 1043.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E10" data-source="P09" data-target="P14">
+<path d="M 938.3 1364 H 1339.5 V 1481.7 H 1339.5 V 2036.3 H 1180.8 V 2056.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 1364 H 1339.5 V 1481.7 H 1339.5 V 2036.3 H 1180.8 V 2056.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E11" data-source="P09" data-target="P15">
+<path d="M 938.3 1343.5 H 1029 V 1529.7 H 1029 V 2036.3 H 797.3 V 2056.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 1343.5 H 1029 V 1529.7 H 1029 V 2036.3 H 797.3 V 2056.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E12" data-source="P11" data-target="P16">
+<path d="M 1051.8 1809.9 H 1000 V 1990.6 H 413.8 V 2056.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1809.9 H 1000 V 1990.6 H 413.8 V 2056.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M01" data-source="P07" data-target="P08">
+<path d="M 938.3 1050.6 H 979.3 V 1151.6 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 1050.6 H 979.3 V 1151.6 H 946.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M02" data-source="P09" data-target="P10">
+<path d="M 938.3 1333 H 979.3 V 1447 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 1333 H 979.3 V 1447 H 946.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M03" data-source="P03" data-target="S01">
+<path d="M 938.3 766.6 H 1381.3 V 808.1 H 1427.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 766.6 H 1381.3 V 808.1 H 1427.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L01" data-source="P11" data-target="P12">
+<path d="M 1051.8 1799.4 H 608.8 V 1879.9 H 562.8" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1799.4 H 608.8 V 1879.9 H 562.8" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L02" data-source="P13" data-target="P11">
+<path d="M 1051.8 1941.9 H 216 V 1840.9 H 1043.8" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1941.9 H 216 V 1840.9 H 1043.8" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge-label" data-edge-id="E04" data-source="P04" data-target="P05">
+<rect x="917.1" y="1234.1" width="119.8" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="977" y="1254.1" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">접수 즉시 보호</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E06" data-source="P04" data-target="P07">
+<rect x="720.3" y="926.9" width="149.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="795.3" y="946.9" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">소관기관 이첩·송부</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E10" data-source="P09" data-target="P14">
+<rect x="1258.6" y="1708" width="161.8" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1339.5" y="1728" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">신고자 위법행위 발견</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E11" data-source="P09" data-target="P15">
+<rect x="886.5" y="1768" width="145" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="959" y="1788" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">수입회복·공익증진</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E12" data-source="P11" data-target="P16">
+<rect x="704.9" y="1958.6" width="168.8" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="789.3" y="1978.6" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">신고로 인한 피해·비용</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M01" data-source="P07" data-target="P08">
+<rect x="958.8" y="1086.1" width="156.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1037.3" y="1106.1" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">조사·수사 이첩·송부</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M02" data-source="P09" data-target="P10">
+<rect x="979.8" y="1375" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1037.3" y="1395" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">처리결과 통보</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M03" data-source="P03" data-target="S01">
+<rect x="1138.8" y="755.4" width="96" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1186.8" y="775.4" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">신고 등록</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L01" data-source="P11" data-target="P12">
+<rect x="729.4" y="1807.6" width="147.8" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="803.3" y="1827.6" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">불이익조치 시 신청</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L02" data-source="P13" data-target="P11">
+<rect x="199.7" y="1927.9" width="152.7" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="276" y="1947.9" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">불이익 지속 시 재발</text>
+</g>
+
+    <g class="pp-node" data-node-id="P01" data-basis="공익신고자보호법:제2조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="405.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="405.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="425.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P01</text>
+      
+      <rect x="492.8" y="412.7" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="518.8" y="429.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §2</text>
+      <text x="299.8" y="462.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">공익침해행위 인지·신고서 작성</tspan></text>
+      <text x="299.8" y="487.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 상시</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P02" data-basis="공익신고자보호법:제8조의2" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="519.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="519.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="539.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P02</text>
+      
+      <rect x="473.8" y="526.7" width="71" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="509.3" y="543.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §8의2</text>
+      <text x="299.8" y="576.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">비실명 대리신고서 작성(변호사)</tspan></text>
+      <text x="299.8" y="601.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 상시</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P03" data-basis="공익신고자보호법:제6조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="701.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="701.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="721.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P03</text>
+      
+      <rect x="876.3" y="708.1" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="902.3" y="725.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §6</text>
+      <text x="683.3" y="758.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">공익신고 접수</tspan></text>
+      <text x="683.3" y="783.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 접수 즉시</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P04" data-basis="공익신고자보호법:제9조 공익신고자보호법시행령:제9조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="815.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="815.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="835.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P04</text>
+      
+      <rect x="859.3" y="822.1" width="69" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="893.8" y="839.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §9 +1</text>
+      <text x="683.3" y="872.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">신고요건·소관기관 판단</tspan></text>
+      <text x="683.3" y="897.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 접수 후 지체 없이</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P05" data-basis="공익신고자보호법:제12조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1587.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1587.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1607.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P05</text>
+      
+      <rect x="869.3" y="1594.4" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1611.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §12</text>
+      <text x="683.3" y="1644.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">신고자 비밀보장</tspan></text>
+      <text x="683.3" y="1669.4" font-size="11" font-weight="650" fill="#3b4a43">기한 · 접수 시부터 상시</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P06" data-basis="공익신고자보호법:제13조 공익신고자보호법시행령:제13조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1587.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1587.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1607.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P06</text>
+      
+      <rect x="1235.8" y="1594.4" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1611.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §13 +1</text>
+      <text x="1066.8" y="1644.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">신변보호 조치</tspan></text>
+      <text x="1066.8" y="1669.4" font-size="11" font-weight="650" fill="#3b4a43">기한 · 위해 우려 시 신속히</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P07" data-basis="공익신고자보호법:제9조 공익신고자보호법시행령:제9조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="996.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="996.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1016.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P07</text>
+      
+      <rect x="859.3" y="1003.6" width="69" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="893.8" y="1020.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §9 +1</text>
+      <text x="683.3" y="1053.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">조사·수사기관 이첩·송부</tspan></text>
+      <text x="683.3" y="1078.6" font-size="11" font-weight="650" fill="#3b4a43">기한 · 사실확인 후 지체 없이(법 제9조제3항)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P08" data-basis="공익신고자보호법:제10조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1110.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1110.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1130.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P08</text>
+      
+      <rect x="869.3" y="1117.6" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1134.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §10</text>
+      <text x="683.3" y="1167.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">사실조사·수사 진행</tspan></text>
+      <text x="683.3" y="1192.6" font-size="11" font-weight="650" fill="#3b4a43">기한 · 조사기관 처리기간</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P09" data-basis="공익신고자보호법:제10조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1292" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1292" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1312" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P09</text>
+      
+      <rect x="869.3" y="1299" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1316" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §10</text>
+      <text x="683.3" y="1349" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">시정·처분·수사의뢰 조치</tspan></text>
+      <text x="683.3" y="1374" font-size="11" font-weight="650" fill="#3b4a43">기한 · 조사 종료 후</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P10" data-basis="공익신고자보호법:제9조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1406" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1406" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1426" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P10</text>
+      
+      <rect x="876.3" y="1413" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="902.3" y="1430" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §9</text>
+      <text x="683.3" y="1463" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">처리결과 통지</tspan></text>
+      <text x="683.3" y="1488" font-size="11" font-weight="650" fill="#3b4a43">기한 · 조사·수사결과 통보받은 후 지체 없이(…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P11" data-basis="공익신고자보호법:제15조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1768.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1768.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1788.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P11</text>
+      
+      <rect x="1252.8" y="1775.9" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1792.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §15</text>
+      <text x="1066.8" y="1825.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">불이익조치 발생</tspan></text>
+      <text x="1066.8" y="1850.9" font-size="11" font-weight="650" fill="#3b4a43">기한 · 상시</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P12" data-basis="공익신고자보호법:제17조 공익신고자보호법시행령:제17조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1825.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1825.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1845.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P12</text>
+      
+      <rect x="468.8" y="1832.9" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="1849.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §17 +1</text>
+      <text x="299.8" y="1882.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">보호조치 신청</tspan></text>
+      <text x="299.8" y="1907.9" font-size="11" font-weight="650" fill="#3b4a43">기한 · 불이익조치가 있었던 날(계속 시 종료…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P13" data-basis="공익신고자보호법:제20조 공익신고자보호법시행령:제20조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1882.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1882.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1902.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P13</text>
+      
+      <rect x="1235.8" y="1889.9" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1906.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §20 +2</text>
+      <text x="1066.8" y="1929.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">보호조치 결정·불이익조치 금지</tspan><tspan x="1066.8" dy="18">명령</tspan></text>
+      <text x="1066.8" y="1964.9" font-size="11" font-weight="650" fill="#3b4a43">기한 · 인정 시 불이익조치자에게 30일 이내…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P14" data-basis="공익신고자보호법:제14조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="2064.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="2064.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="2084.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P14</text>
+      
+      <rect x="1252.8" y="2071.3" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="2088.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §14</text>
+      <text x="1066.8" y="2121.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">책임감면</tspan></text>
+      <text x="1066.8" y="2146.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 관련 형사·징계·행정처분 절차에서</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P15" data-basis="공익신고자보호법:제26조 공익신고자보호법:제26조의2 공익신고자보호법:제26조의3 공익신고자보호법시행령:제22조 공익신고자보호법시행령:제25조의2 공익신고자보호법시행령:제25조의3" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="2064.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="2064.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="2084.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P15</text>
+      
+      <rect x="852.3" y="2071.3" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="2088.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §26 +1</text>
+      <text x="683.3" y="2121.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">보상금·포상금 지급</tspan></text>
+      <text x="683.3" y="2146.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 보상금은 신청일부터 90일 이내 지급…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P16" data-basis="공익신고자보호법:제27조 공익신고자보호법시행령:제26조 공익신고자보호법시행령:제27조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="2064.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="2064.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="2084.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P16</text>
+      
+      <rect x="468.8" y="2071.3" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="2088.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §27 +1</text>
+      <text x="299.8" y="2121.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">구조금 신청·지급</tspan></text>
+      <text x="299.8" y="2146.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 신청일부터 90일 이내 결정(영 제27조…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="S01" data-basis="공익신고자보호법:제6조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="758.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="758.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="778.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">▣ S01</text>
+      
+      <rect x="1643.3" y="765.1" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1669.3" y="782.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §6</text>
+      <text x="1450.3" y="815.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">청렴포털·신고시스템 등록</tspan></text>
+      <text x="1450.3" y="840.1" font-size="11" font-weight="650" fill="#3b4a43">신고처리시스템</text>
+    </g>
+  
+
+</svg>4:["$","$Lf",null,{"law":{"lawId":"011358","mst":"285175","name":"공익신고자 보호법","kind":"법률","tier":"statute","effectiveOn":"2026-10-01","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법"},"flows":[{"slug":"public-interest-whistleblowing","name":"공익신고","oneLiner":"국민의 건강·안전·환경·소비자 이익 등을 해치는 법령 위반 행위를 누구든지 신고하면, 신고자를 비밀보장·불이익 금지·보상으로 보호하는 제도","citingSteps":17,"totalSteps":17,"articles":{"제2조":1,"제8조의2":1,"제6조":2,"제9조":3,"제12조":1,"제13조":1,"제10조":2,"제15조":1,"제17조":1,"제20조":1,"제14조":1,"제26조":1,"제26조의2":1,"제26조의3":1,"제27조":1}}],"current":"$4:props:flows:0","asOfDate":"2026-07-11","reviewNote":"주요 절차를 요약한 참고 모델입니다. 모든 예외·위임규정의 현행성까지 전수 검증한 자료는 아닙니다. 법령 체계의 보관 자료와 현행 원문은 다를 수 있습니다.","svg":"$10","nodes":[{"id":"P01","name":"공익침해행위 인지·신고서 작성","lane":"신고자/대리인","stage":"G0 신고준비","type":"task","status":"done","progress":100,"actor":"신고자","action":"신고서 작성","output_documents":["공익신고서","증거자료"],"deadline":"상시","confidence":0.88,"legal_basis":[{"law":"공익신고자 보호법","article":"제2조","text":"국민의 건강·안전·환경·소비자 이익 등을 침해하는 공익침해행위를 신고 대상으로 한다."}]},{"id":"P02","name":"비실명 대리신고서 작성(변호사)","lane":"신고자/대리인","stage":"G0 신고준비","type":"task","status":"done","progress":100,"actor":"신고자·변호사","action":"대리신고 작성","output_documents":["비실명 대리신고서","위임장"],"deadline":"상시","confidence":0.82,"legal_basis":[{"law":"공익신고자 보호법","article":"제8조의2","text":"신고자는 자신의 인적사항을 밝히지 아니하고 변호사로 하여금 대리하여 신고하게 할 수 있다."}]},{"id":"P03","name":"공익신고 접수","lane":"접수기관(국민권익위)","stage":"G1 접수·요건","type":"task","status":"done","progress":100,"actor":"국민권익위원회","action":"신고 접수","input_documents":["공익신고서"],"output_documents":["접수증"],"deadline":"접수 즉시","confidence":0.87,"legal_basis":[{"law":"공익신고자 보호법","article":"제6조","text":"누구든지 공익침해행위를 조사기관·수사기관·국민권익위원회 등에 신고할 수 있다."}]},{"id":"P04","name":"신고요건·소관기관 판단","lane":"접수기관(국민권익위)","stage":"G1 접수·요건","type":"gateway","status":"done","progress":100,"actor":"국민권익위원회","action":"요건·소관 판단","condition":"신고 요건 충족 여부와 소관 조사기관·수사기관 판단","input_documents":["공익신고서","접수증"],"output_documents":["요건검토 결과","이첩·송부 결정서"],"deadline":"접수 후 지체 없이","confidence":0.84,"legal_basis":[{"law":"공익신고자 보호법","article":"제9조제1항·제3항","text":"위원회는 공익신고를 받으면 신고내용 특정에 필요한 사항을 확인하고, 사실 확인을 마친 후에는 지체 없이 대통령령으로 정하는 바에 따라 조사기관등에 이첩 또는 송부하고 그 사실을 공익신고자에게 통지하여야 한다."},{"law":"공익신고자 보호법 시행령","article":"제9조"}]},{"id":"P05","name":"신고자 비밀보장","lane":"접수기관(국민권익위)","stage":"G4 비밀·신변보호","type":"task","status":"done","progress":100,"actor":"국민권익위원회","action":"비밀보장","output_documents":["비밀보장 관리기록"],"deadline":"접수 시부터 상시","confidence":0.85,"legal_basis":[{"law":"공익신고자 보호법","article":"제12조","text":"누구든지 공익신고자의 인적사항이나 신원을 알 수 있는 사실을 다른 사람에게 알려주거나 공개해서는 아니 된다."}]},{"id":"P06","name":"신변보호 조치","lane":"위원회 회의","stage":"G4 비밀·신변보호","type":"task","status":"done","progress":100,"actor":"국민권익위원회","action":"신변보호","output_documents":["신변보호 조치 결정"],"deadline":"위해 우려 시 신속히","confidence":0.72,"legal_basis":[{"law":"공익신고자 보호법","article":"제13조","text":"공익신고자등과 그 친족·동거인은 생명·신체에 중대한 위해 우려가 명백한 경우 위원회에 신변보호조치를 요구할 수 있고, 위원회는 경찰관서의 장에게 신변보호조치를 요청할 수 있으며 요청받은 경찰관서의 장은 대통령령으로 정하는 바에 따라 즉시 조치하여야 한다."},{"law":"공익신고자 보호법 시행령","article":"제13조"}]},{"id":"P07","name":"조사·수사기관 이첩·송부","lane":"접수기관(국민권익위)","stage":"G2 이첩·조사","type":"task","status":"done","progress":100,"actor":"국민권익위원회","receiver":"조사·수사기관","action":"이첩·송부","input_documents":["이첩·송부 결정서"],"output_documents":["이첩·송부 공문"],"deadline":"사실확인 후 지체 없이(법 제9조제3항)","confidence":0.85,"legal_basis":[{"law":"공익신고자 보호법","article":"제9조제3항","text":"위원회는 사실 확인을 마친 후 지체 없이 대통령령으로 정하는 바에 따라 조사기관이나 수사기관에 이첩 또는 송부하고 그 사실을 공익신고자에게 통지하여야 한다."},{"law":"공익신고자 보호법 시행령","article":"제9조"}]},{"id":"P08","name":"사실조사·수사 진행","lane":"조사·수사기관","stage":"G2 이첩·조사","type":"task","status":"current","progress":55,"actor":"조사·수사기관","action":"조사·수사","input_documents":["이첩·송부 공문","공익신고서"],"output_documents":["조사자료","수사기록"],"deadline":"조사기관 처리기간","confidence":0.82,"legal_basis":[{"law":"공익신고자 보호법","article":"제10조제1항","text":"조사기관등이 공익신고를 받거나 위원회로부터 이첩·송부받은 때에는 그 내용에 관하여 필요한 조사 또는 수사를 하여야 한다."}]},{"id":"P09","name":"시정·처분·수사의뢰 조치","lane":"조사·수사기관","stage":"G3 처리결과","type":"task","status":"waiting","progress":0,"actor":"조사·수사기관","action":"처분·조치","output_documents":["처분 결과","수사의뢰서"],"deadline":"조사 종료 후","confidence":0.8,"legal_basis":[{"law":"공익신고자 보호법","article":"제10조제4항","text":"조사기관등은 공익신고에 대한 조사 또는 수사를 끝냈을 때에는 그 결과에 따라 필요한 조치를 취하고 그 결과를 공익신고자에게 통지하여야 한다."}]},{"id":"P10","name":"처리결과 통지","lane":"접수기관(국민권익위)","stage":"G3 처리결과","type":"notice","status":"waiting","progress":0,"actor":"국민권익위원회","receiver":"신고자","action":"결과 통지","output_documents":["처리결과 통지서"],"deadline":"조사·수사결과 통보받은 후 지체 없이(법 제9조제6항)","confidence":0.83,"legal_basis":[{"law":"공익신고자 보호법","article":"제9조제5항·제6항","text":"이첩·송부받은 조사기관등은 조사·수사 종료 후 그 결과를 위원회에 통보하여야 하고, 위원회는 통보받은 조사·수사결과의 요지를 공익신고자에게 통지하여야 한다."}]},{"id":"P11","name":"불이익조치 발생","lane":"사용자/소속기관","stage":"G5 보호조치","type":"task","status":"risk","progress":0,"actor":"사용자·소속기관","action":"불이익조치","output_documents":["인사·계약 조치"],"deadline":"상시","blocker":"신고를 이유로 한 파면·징계·계약 해지 등 불이익조치가 발생하고 입증이 어렵다","confidence":0.78,"legal_basis":[{"law":"공익신고자 보호법","article":"제15조","text":"누구든지 공익신고자등에게 공익신고를 이유로 불이익조치를 하여서는 아니 된다."}]},{"id":"P12","name":"보호조치 신청","lane":"신고자/대리인","stage":"G5 보호조치","type":"task","status":"loop","progress":0,"actor":"신고자","receiver":"국민권익위원회","action":"보호조치 신청","output_documents":["보호조치 신청서"],"deadline":"불이익조치가 있었던 날(계속 시 종료일)부터 1년 이내(법 제17조제2항)","blocker":"불이익조치 시 보호조치 회귀 단계","confidence":0.8,"legal_basis":[{"law":"공익신고자 보호법","article":"제17조","text":"공익신고자등은 공익신고등을 이유로 불이익조치를 받은 때에는 위원회에 원상회복 등 보호조치를 신청할 수 있으며, 신청은 불이익조치가 있었던 날부터 1년 이내에 하여야 한다(신청 방법·절차는 대통령령)."},{"law":"공익신고자 보호법 시행령","article":"제17조"}]},{"id":"P13","name":"보호조치 결정·불이익조치 금지 명령","lane":"위원회 회의","stage":"G5 보호조치","type":"gateway","status":"waiting","progress":0,"actor":"국민권익위원회","action":"보호조치 결정","condition":"불이익조치 인정 여부와 원상회복 필요성","input_documents":["보호조치 신청서"],"output_documents":["보호조치 결정서","불이익조치 금지 명령"],"deadline":"인정 시 불이익조치자에게 30일 이내 이행 요구(법 제20조제1항)","confidence":0.8,"legal_basis":[{"law":"공익신고자 보호법","article":"제20조","text":"위원회는 조사 결과 공익신고등을 이유로 불이익조치를 받았다고 인정되면 불이익조치를 한 자에게 30일 이내의 기간을 정하여 원상회복 등 보호조치결정을 하여야 하고, 인정되지 아니하면 기각결정을 한다."},{"law":"공익신고자 보호법","article":"제20조제5항","text":"위원회는 대통령령으로 정하는 바에 따라 보호조치결정 이후 2년 동안 이행 여부와 추가 불이익조치 발생 여부를 주기적으로 점검하여야 한다."},{"law":"공익신고자 보호법 시행령","article":"제20조"}]},{"id":"P14","name":"책임감면","lane":"위원회 회의","stage":"G6 감면·보상·구조","type":"gateway","status":"waiting","progress":0,"actor":"법원·징계권자·행정처분권자·국민권익위원회","action":"형벌·징계·행정처분 감면 판단·요구","condition":"조사·수사 과정에서 공익신고와 관련한 신고자등 자신의 범죄·위법행위가 발견된 경우","input_documents":["처분 결과","수사의뢰서"],"output_documents":["책임감면 의견서","감경·면제 요구서"],"deadline":"관련 형사·징계·행정처분 절차에서","confidence":0.86,"legal_basis":[{"law":"공익신고자 보호법","article":"제14조","text":"공익신고등과 관련하여 신고자등의 범죄행위가 발견되면 형을 감경·면제할 수 있고, 징계권자나 행정처분권자는 관련 위법행위에 대한 징계·불리한 행정처분을 감경·면제할 수 있으며 위원회는 이를 요구할 수 있다."}]},{"id":"P15","name":"보상금·포상금 지급","lane":"접수기관(국민권익위)","stage":"G6 감면·보상·구조","type":"gateway","status":"waiting","progress":0,"actor":"국민권익위원회","action":"보상금·포상금 지급","condition":"공공기관 수입 회복·증대 또는 재산상 이익·손실 방지·공익 증진 여부","input_documents":["처분 결과","보상금 신청서","포상금 추천·직권검토 자료"],"output_documents":["보상금 결정서","포상금 지급 결정서"],"deadline":"보상금은 신청일부터 90일 이내 지급 여부·금액 결정(법 제26조제4항)","confidence":0.86,"legal_basis":[{"law":"공익신고자 보호법","article":"제26조·제26조의2·제26조의3","text":"내부 공익신고로 벌칙·과태료·과징금 부과 등 공공기관 수입의 회복·증대가 있으면 보상금을 신청할 수 있고, 공공기관의 재산상 이익·손실 방지나 공익 증진에 현저히 기여한 경우 위원회는 포상금을 지급할 수 있다."},{"law":"공익신고자 보호법 시행령","article":"제22조·제25조의2·제25조의3","text":"보상금 산정기준과 포상금 지급사유·지급기준·지급절차를 정한다."}]},{"id":"P16","name":"구조금 신청·지급","lane":"신고자/대리인","stage":"G6 감면·보상·구조","type":"gateway","status":"waiting","progress":0,"actor":"신고자·국민권익위원회","action":"구조금 신청·지급","condition":"공익신고로 치료비·이사비·쟁송비·임금손실 등 피해를 받거나 비용을 지출한 경우","input_documents":["구조금 신청서","피해·비용 증빙"],"output_documents":["구조금 지급 결정서"],"deadline":"신청일부터 90일 이내 결정(영 제27조제2항), 긴급 시 우선 지급 가능","confidence":0.86,"legal_basis":[{"law":"공익신고자 보호법","article":"제27조","text":"공익신고자등과 그 친족·동거인은 공익신고로 치료비·이사비·쟁송비·임금손실 등 피해를 받거나 비용을 지출하면 구조금 지급을 신청할 수 있고, 긴급한 경우 위원장이 우선 지급할 수 있다."},{"law":"공익신고자 보호법 시행령","article":"제26조·제27조","text":"구조금 산정기준과 신청일부터 90일 이내 지급결정 절차를 정한다."}]},{"id":"S01","name":"청렴포털·신고시스템 등록","lane":"정보시스템","stage":"G1 접수·요건","type":"system","status":"waiting","progress":0,"actor":"신고처리시스템","action":"등록","input_documents":["공익신고서"],"output_documents":["접수 등록기록"],"confidence":0.72,"legal_basis":[{"law":"공익신고자 보호법","article":"제6조","text":"신고는 국민권익위원회 등이 운영하는 신고 접수 창구를 통하여 이루어진다."}]}],"edges":[{"id":"E01","source":"P01","target":"P02","type":"sequence","label":null},{"id":"E02","source":"P02","target":"P03","type":"sequence","label":null},{"id":"E03","source":"P03","target":"P04","type":"sequence","label":null},{"id":"E04","source":"P04","target":"P05","type":"sequence","label":"접수 즉시 보호"},{"id":"E05","source":"P05","target":"P06","type":"sequence","label":null},{"id":"E06","source":"P04","target":"P07","type":"sequence","label":"소관기관 이첩·송부"},{"id":"E07","source":"P08","target":"P09","type":"sequence","label":null},{"id":"E08","source":"P10","target":"P11","type":"sequence","label":null},{"id":"E09","source":"P12","target":"P13","type":"sequence","label":null},{"id":"E10","source":"P09","target":"P14","type":"sequence","label":"신고자 위법행위 발견"},{"id":"E11","source":"P09","target":"P15","type":"sequence","label":"수입회복·공익증진"},{"id":"E12","source":"P11","target":"P16","type":"sequence","label":"신고로 인한 피해·비용"},{"id":"M01","source":"P07","target":"P08","type":"message","label":"조사·수사 이첩·송부"},{"id":"M02","source":"P09","target":"P10","type":"message","label":"처리결과 통보"},{"id":"M03","source":"P03","target":"S01","type":"message","label":"신고 등록"},{"id":"L01","source":"P11","target":"P12","type":"loop","label":"불이익조치 시 신청"},{"id":"L02","source":"P13","target":"P11","type":"loop","label":"불이익 지속 시 재발"}],"lawContext":{"byNode":{"P01":[{"law":"공익신고자 보호법","article":"제2조","text":"국민의 건강·안전·환경·소비자 이익 등을 침해하는 공익침해행위를 신고 대상으로 한다.","found":true,"lawId":"011358","tier":"statute","articles":[{"label":"제2조","title":"정의","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법/제2조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법 시행령","label":"제3조","title":"행정처분의 범위","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법 시행령","label":"제3조의2","title":"내부 공익신고자의 범위","tier":"decree"}]}]}],"P02":[{"law":"공익신고자 보호법","article":"제8조의2","text":"신고자는 자신의 인적사항을 밝히지 아니하고 변호사로 하여금 대리하여 신고하게 할 수 있다.","found":true,"lawId":"011358","tier":"statute","articles":[{"label":"제8조의2","title":"비실명 대리신고","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법/제8조의2","up":[],"down":[]}]}],"P03":[{"law":"공익신고자 보호법","article":"제6조","text":"누구든지 공익침해행위를 조사기관·수사기관·국민권익위원회 등에 신고할 수 있다.","found":true,"lawId":"011358","tier":"statute","articles":[{"label":"제6조","title":"공익신고","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법/제6조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법 시행령","label":"제5조","title":"공익신고 기관 등","tier":"decree"}]}]}],"P04":[{"law":"공익신고자 보호법","article":"제9조제1항·제3항","text":"위원회는 공익신고를 받으면 신고내용 특정에 필요한 사항을 확인하고, 사실 확인을 마친 후에는 지체 없이 대통령령으로 정하는 바에 따라 조사기관등에 이첩 또는 송부하고 그 사실을 공익신고자에게 통지하여야 한다.","found":true,"lawId":"011358","tier":"statute","articles":[{"label":"제9조","title":"위원회의 공익신고 처리","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법/제9조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법 시행령","label":"제9조","title":"공익신고의 이첩","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법 시행령","label":"제10조","title":"공익신고의 송부","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법 시행령","label":"제11조의3","title":"이의신청 및 재조사ㆍ재수사 요구 등","tier":"decree"}]}]},{"law":"공익신고자 보호법 시행령","article":"제9조","text":null,"found":true,"lawId":"011358","tier":"decree","articles":[{"label":"제9조","title":"공익신고의 이첩","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법시행령/제9조","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법","label":"제9조제3항","title":"위원회의 공익신고 처리","tier":"statute"}],"down":[]}]}],"P05":[{"law":"공익신고자 보호법","article":"제12조","text":"누구든지 공익신고자의 인적사항이나 신원을 알 수 있는 사실을 다른 사람에게 알려주거나 공개해서는 아니 된다.","found":true,"lawId":"011358","tier":"statute","articles":[{"label":"제12조","title":"공익신고자등의 비밀보장 의무","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법/제12조","up":[],"down":[]}]}],"P06":[{"law":"공익신고자 보호법","article":"제13조","text":"공익신고자등과 그 친족·동거인은 생명·신체에 중대한 위해 우려가 명백한 경우 위원회에 신변보호조치를 요구할 수 있고, 위원회는 경찰관서의 장에게 신변보호조치를 요청할 수 있으며 요청받은 경찰관서의 장은 대통령령으로 정하는 바에 따라 즉시 조치하여야 한다.","found":true,"lawId":"011358","tier":"statute","articles":[{"label":"제13조","title":"신변보호조치","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법/제13조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법 시행령","label":"제14조","title":"신변보호조치","tier":"decree"}]}]},{"law":"공익신고자 보호법 시행령","article":"제13조","text":null,"found":true,"lawId":"011358","tier":"decree","articles":[{"label":"제13조","title":"공익신고자등의 신분 비밀보장","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법시행령/제13조","up":[],"down":[]}]}],"P07":[{"law":"공익신고자 보호법","article":"제9조제3항","text":"위원회는 사실 확인을 마친 후 지체 없이 대통령령으로 정하는 바에 따라 조사기관이나 수사기관에 이첩 또는 송부하고 그 사실을 공익신고자에게 통지하여야 한다.","found":true,"lawId":"011358","tier":"statute","articles":[{"label":"제9조","title":"위원회의 공익신고 처리","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법/제9조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법 시행령","label":"제9조","title":"공익신고의 이첩","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법 시행령","label":"제10조","title":"공익신고의 송부","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법 시행령","label":"제11조의3","title":"이의신청 및 재조사ㆍ재수사 요구 등","tier":"decree"}]}]},{"law":"공익신고자 보호법 시행령","article":"제9조","text":null,"found":true,"lawId":"011358","tier":"decree","articles":[{"label":"제9조","title":"공익신고의 이첩","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법시행령/제9조","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법","label":"제9조제3항","title":"위원회의 공익신고 처리","tier":"statute"}],"down":[]}]}],"P08":[{"law":"공익신고자 보호법","article":"제10조제1항","text":"조사기관등이 공익신고를 받거나 위원회로부터 이첩·송부받은 때에는 그 내용에 관하여 필요한 조사 또는 수사를 하여야 한다.","found":true,"lawId":"011358","tier":"statute","articles":[{"label":"제10조","title":"조사기관등의 공익신고 처리","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법/제10조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법 시행령","label":"제12조","title":"조사가 필요하지 아니한 경우","tier":"decree"}]}]}],"P09":[{"law":"공익신고자 보호법","article":"제10조제4항","text":"조사기관등은 공익신고에 대한 조사 또는 수사를 끝냈을 때에는 그 결과에 따라 필요한 조치를 취하고 그 결과를 공익신고자에게 통지하여야 한다.","found":true,"lawId":"011358","tier":"statute","articles":[{"label":"제10조","title":"조사기관등의 공익신고 처리","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법/제10조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법 시행령","label":"제12조","title":"조사가 필요하지 아니한 경우","tier":"decree"}]}]}],"P10":[{"law":"공익신고자 보호법","article":"제9조제5항·제6항","text":"이첩·송부받은 조사기관등은 조사·수사 종료 후 그 결과를 위원회에 통보하여야 하고, 위원회는 통보받은 조사·수사결과의 요지를 공익신고자에게 통지하여야 한다.","found":true,"lawId":"011358","tier":"statute","articles":[{"label":"제9조","title":"위원회의 공익신고 처리","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법/제9조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법 시행령","label":"제9조","title":"공익신고의 이첩","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법 시행령","label":"제10조","title":"공익신고의 송부","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법 시행령","label":"제11조의3","title":"이의신청 및 재조사ㆍ재수사 요구 등","tier":"decree"}]}]}],"P11":[{"law":"공익신고자 보호법","article":"제15조","text":"누구든지 공익신고자등에게 공익신고를 이유로 불이익조치를 하여서는 아니 된다.","found":true,"lawId":"011358","tier":"statute","articles":[{"label":"제15조","title":"불이익조치 등의 금지","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법/제15조","up":[],"down":[]}]}],"P12":[{"law":"공익신고자 보호법","article":"제17조","text":"공익신고자등은 공익신고등을 이유로 불이익조치를 받은 때에는 위원회에 원상회복 등 보호조치를 신청할 수 있으며, 신청은 불이익조치가 있었던 날부터 1년 이내에 하여야 한다(신청 방법·절차는 대통령령).","found":true,"lawId":"011358","tier":"statute","articles":[{"label":"제17조","title":"보호조치 신청","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법/제17조","up":[],"down":[{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"공익신고자 보호법 시행령","label":"제15조","title":"보호조치의 신청 및 조사","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"공익신고자 보호법 시행령","label":"제16조","title":"보호조치결정 등","tier":"decree"}]}]},{"law":"공익신고자 보호법 시행령","article":"제17조","text":null,"found":true,"lawId":"011358","tier":"decree","articles":[{"label":"제17조","title":"체불된 보수 등의 지급 기준 등","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법시행령/제17조","up":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"공익신고자 보호법","label":"제20조제6항","title":"보호조치결정 등","tier":"statute"}],"down":[]}]}],"P13":[{"law":"공익신고자 보호법","article":"제20조","text":"위원회는 조사 결과 공익신고등을 이유로 불이익조치를 받았다고 인정되면 불이익조치를 한 자에게 30일 이내의 기간을 정하여 원상회복 등 보호조치결정을 하여야 하고, 인정되지 아니하면 기각결정을 한다.","found":true,"lawId":"011358","tier":"statute","articles":[{"label":"제20조","title":"보호조치결정 등","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법/제20조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법 시행령","label":"제17조의2","title":"보호조치결정의 이행 점검","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"공익신고자 보호법 시행령","label":"제17조","title":"체불된 보수 등의 지급 기준 등","tier":"decree"}]}]},{"law":"공익신고자 보호법","article":"제20조제5항","text":"위원회는 대통령령으로 정하는 바에 따라 보호조치결정 이후 2년 동안 이행 여부와 추가 불이익조치 발생 여부를 주기적으로 점검하여야 한다.","found":true,"lawId":"011358","tier":"statute","articles":[{"label":"제20조","title":"보호조치결정 등","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법/제20조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법 시행령","label":"제17조의2","title":"보호조치결정의 이행 점검","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"공익신고자 보호법 시행령","label":"제17조","title":"체불된 보수 등의 지급 기준 등","tier":"decree"}]}]},{"law":"공익신고자 보호법 시행령","article":"제20조","text":null,"found":true,"lawId":"011358","tier":"decree","articles":[{"label":"제20조","title":"협조 요청","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법시행령/제20조","up":[],"down":[]}]}],"P14":[{"law":"공익신고자 보호법","article":"제14조","text":"공익신고등과 관련하여 신고자등의 범죄행위가 발견되면 형을 감경·면제할 수 있고, 징계권자나 행정처분권자는 관련 위법행위에 대한 징계·불리한 행정처분을 감경·면제할 수 있으며 위원회는 이를 요구할 수 있다.","found":true,"lawId":"011358","tier":"statute","articles":[{"label":"제14조","title":"책임의 감면 등","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법/제14조","up":[],"down":[]}]}],"P15":[{"law":"공익신고자 보호법","article":"제26조·제26조의2·제26조의3","text":"내부 공익신고로 벌칙·과태료·과징금 부과 등 공공기관 수입의 회복·증대가 있으면 보상금을 신청할 수 있고, 공공기관의 재산상 이익·손실 방지나 공익 증진에 현저히 기여한 경우 위원회는 포상금을 지급할 수 있다.","found":true,"lawId":"011358","tier":"statute","articles":[{"label":"제26조","title":"보상금","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법/제26조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법 시행령","label":"제21조","title":"보상금의 지급사유","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"공익신고자 보호법 시행령","label":"제23조","title":"보상금의 지급결정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"공익신고자 보호법 시행령","label":"제24조","title":"공익신고의 경합 시의 보상금 결정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"공익신고자 보호법 시행령","label":"제25조","title":"보상금의 지급시기","tier":"decree"}]},{"label":"제26조의2","title":"보상금의 산정기준","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법/제26조의2","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"공익신고자 보호법 시행령","label":"제22조","title":"보상금의 산정","tier":"decree"}]},{"label":"제26조의3","title":"포상금 등","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법/제26조의3","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법 시행령","label":"제25조의2","title":"포상금의 지급사유","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"공익신고자 보호법 시행령","label":"제25조의3","title":"포상금의 지급기준 등","tier":"decree"}]}]},{"law":"공익신고자 보호법 시행령","article":"제22조·제25조의2·제25조의3","text":"보상금 산정기준과 포상금 지급사유·지급기준·지급절차를 정한다.","found":true,"lawId":"011358","tier":"decree","articles":[{"label":"제22조","title":"보상금의 산정","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법시행령/제22조","up":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"공익신고자 보호법","label":"제26조의2","title":"보상금의 산정기준","tier":"statute"}],"down":[]},{"label":"제25조의2","title":"포상금의 지급사유","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법시행령/제25조의2","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법","label":"제26조의3제1항제4호","title":"포상금 등","tier":"statute"}],"down":[]},{"label":"제25조의3","title":"포상금의 지급기준 등","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법시행령/제25조의3","up":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"공익신고자 보호법","label":"제26조의3제2항","title":"포상금 등","tier":"statute"}],"down":[]}]}],"P16":[{"law":"공익신고자 보호법","article":"제27조","text":"공익신고자등과 그 친족·동거인은 공익신고로 치료비·이사비·쟁송비·임금손실 등 피해를 받거나 비용을 지출하면 구조금 지급을 신청할 수 있고, 긴급한 경우 위원장이 우선 지급할 수 있다.","found":true,"lawId":"011358","tier":"statute","articles":[{"label":"제27조","title":"구조금","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법/제27조","up":[],"down":[{"kind":"decree","phrase":"이전에 대통령령으로","lawName":"공익신고자 보호법 시행령","label":"제26조","title":"구조금 산정 기준","tier":"decree"},{"kind":"decree","phrase":"이전에 대통령령으로","lawName":"공익신고자 보호법 시행령","label":"제27조","title":"구조금의 지급 결정","tier":"decree"}]}]},{"law":"공익신고자 보호법 시행령","article":"제26조·제27조","text":"구조금 산정기준과 신청일부터 90일 이내 지급결정 절차를 정한다.","found":true,"lawId":"011358","tier":"decree","articles":[{"label":"제26조","title":"구조금 산정 기준","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법시행령/제26조","up":[{"kind":"decree","phrase":"이전에 대통령령으로","lawName":"공익신고자 보호법","label":"제27조제2항","title":"구조금","tier":"statute"}],"down":[]},{"label":"제27조","title":"구조금의 지급 결정","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법시행령/제27조","up":[{"kind":"decree","phrase":"이전에 대통령령으로","lawName":"공익신고자 보호법","label":"제27조제2항","title":"구조금","tier":"statute"}],"down":[]}]}],"S01":[{"law":"공익신고자 보호법","article":"제6조","text":"신고는 국민권익위원회 등이 운영하는 신고 접수 창구를 통하여 이루어진다.","found":true,"lawId":"011358","tier":"statute","articles":[{"label":"제6조","title":"공익신고","officialUrl":"https://www.law.go.kr/법령/공익신고자보호법/제6조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"공익신고자 보호법 시행령","label":"제5조","title":"공익신고 기관 등","tier":"decree"}]}]}]},"systems":{"011358":{"lawId":"011358","name":"공익신고자 보호법","href":"/law/011358/","ministry":"국민권익위원회","effectiveOn":"2026-10-01","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"공익신고자 보호법","kind":"법률","articleCount":43,"officialUrl":"https://www.law.go.kr/법령/공익신고자보호법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":43},{"tier":"decree","label":"시행령","laws":[{"name":"공익신고자 보호법 시행령","kind":"대통령령","articleCount":46,"officialUrl":"https://www.law.go.kr/법령/공익신고자보호법시행령"}],"kinds":[{"kind":"대통령령","count":1}],"articleCount":46},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"(방위사업청) 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/(방위사업청)공익신고처리및신고자보호등에관한규정"},{"name":"개인정보보호위원회 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보보호위원회공익신고처리및신고자보호등에관한규정"},{"name":"공정거래위원회 공익신고 처리 및 신고자보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/공정거래위원회공익신고처리및신고자보호등에관한규정"},{"name":"과학기술정보통신부 공익신고 처리 및 신고자 보호 등에 관한 운영지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/과학기술정보통신부공익신고처리및신고자보호등에관한운영지침"},{"name":"교육부 공익신고 처리 및 신고자 보호 등에 관한 운영지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/교육부공익신고처리및신고자보호등에관한운영지침"},{"name":"국가데이터처 공익신고 처리 및 신고자 보호 등에 관한 운영지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국가데이터처공익신고처리및신고자보호등에관한운영지침"},{"name":"국가보훈부 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국가보훈부공익신고처리및신고자보호등에관한규정"},{"name":"국가유산청 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국가유산청공익신고처리및신고자보호등에관한규정"},{"name":"국무조정실 및 국무총리비서실 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국무조정실및국무총리비서실공익신고처리및신고자보호등에관한규정"},{"name":"국방부 공익신고 처리 및 신고자 보호 등에 관한 훈령","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국방부공익신고처리및신고자보호등에관한훈령"},{"name":"국토교통부 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국토교통부공익신고처리및신고자보호등에관한규정"},{"name":"금융위원회 공익신고 처리 및 신고자 보호 등에 관한 운영지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/금융위원회공익신고처리및신고자보호등에관한운영지침"},{"name":"기획예산처 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/기획예산처공익신고처리및신고자보호등에관한규정"},{"name":"농림축산식품부 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/농림축산식품부공익신고처리및신고자보호등에관한규정"},{"name":"농촌진흥청 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/농촌진흥청공익신고처리및신고자보호등에관한규정"},{"name":"대산지방해양수산청 공익신고 처리 및 신고자 보호 등에 관한 훈령","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/대산지방해양수산청공익신고처리및신고자보호등에관한훈령"},{"name":"문화체육관광부 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/문화체육관광부공익신고처리및신고자보호등에관한규정"},{"name":"방송미디어통신위원회 공익신고 처리 및 신고자 보호 등에 관한 운영지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/방송미디어통신위원회공익신고처리및신고자보호등에관한운영지침"},{"name":"법무부 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/법무부공익신고처리및신고자보호등에관한규정"},{"name":"법제처 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/법제처공익신고처리및신고자보호등에관한규정"},{"name":"병무청 공익신고처리 및 신고자보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/병무청공익신고처리및신고자보호등에관한규정"},{"name":"보건복지부 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/보건복지부공익신고처리및신고자보호등에관한규정"},{"name":"산림청 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/산림청공익신고처리및신고자보호등에관한규정"},{"name":"산업통상부 공익신고 처리 및 신고자 보호 등에 관한 지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/산업통상부공익신고처리및신고자보호등에관한지침"},{"name":"새만금개발청 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/새만금개발청공익신고처리및신고자보호등에관한규정"},{"name":"성평등가족부 공익신고 처리 및 신고자 보호 등에 관한 운영지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/성평등가족부공익신고처리및신고자보호등에관한운영지침"},{"name":"소방청 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/소방청공익신고처리및신고자보호등에관한규정"},{"name":"식품의약품안전처 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/식품의약품안전처공익신고처리및신고자보호등에관한규정"},{"name":"외교부 공익신고 처리 및 신고자 보호 등에 관한 운영지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/외교부공익신고처리및신고자보호등에관한운영지침"},{"name":"우주항공청 공익신고 처리 및 신고자 보호 등에 관한 운영규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/우주항공청공익신고처리및신고자보호등에관한운영규정"},{"name":"원자력안전위원회 공익신고 처리 및 신고자 보호 등에 관한 운영지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/원자력안전위원회공익신고처리및신고자보호등에관한운영지침"},{"name":"인사혁신처 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/인사혁신처공익신고처리및신고자보호등에관한규정"},{"name":"인천지방해양수산청 소관 공익신고 처리에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/인천지방해양수산청소관공익신고처리에관한규정"},{"name":"재외동포청 공익신고 처리 및 신고자 보호 등에 관한 운영지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/재외동포청공익신고처리및신고자보호등에관한운영지침"},{"name":"재정경제부 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/재정경제부공익신고처리및신고자보호등에관한규정"},{"name":"조달청 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/조달청공익신고처리및신고자보호등에관한규정"},{"name":"중소벤처기업부 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/중소벤처기업부공익신고처리및신고자보호등에관한규정"},{"name":"지식재산처 공익신고 처리 및 신고자 보호에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지식재산처공익신고처리및신고자보호에관한규정"},{"name":"질병관리청 공익신고처리 및 신고자보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/질병관리청공익신고처리및신고자보호등에관한규정"},{"name":"평택지방해양수산청 공익신고 처리에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/평택지방해양수산청공익신고처리에관한규정"},{"name":"해양경찰청 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/해양경찰청공익신고처리및신고자보호등에관한규정"},{"name":"해양수산부 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/해양수산부공익신고처리및신고자보호등에관한규정"},{"name":"행정안전부 공익신고처리 및 신고자보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정안전부공익신고처리및신고자보호등에관한규정"},{"name":"행정중심복합도시건설청 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정중심복합도시건설청공익신고처리및신고자보호등에관한규정"},{"name":"(고용노동부) 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/(고용노동부)공익신고처리및신고자보호등에관한규정"},{"name":"(목포지방해양항만청) 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/(목포지방해양항만청)공익신고처리및신고자보호등에관한규정"},{"name":"공익신고 구조금 사무 운영지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/공익신고구조금사무운영지침"},{"name":"공익신고 보상금 및 포상금 사무 운영지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/공익신고보상금및포상금사무운영지침"},{"name":"공익신고자 보호사무 운영지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/공익신고자보호사무운영지침"},{"name":"군산지방해양수산청 공익신고 처리 등에 관한 규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/군산지방해양수산청공익신고처리등에관한규정"},{"name":"기후에너지환경부 공익신고 처리 및 신고자 보호 등에 관한 규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/기후에너지환경부공익신고처리및신고자보호등에관한규정"},{"name":"포항지방해양수산청 공익신고 처리에 관한 규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/포항지방해양수산청공익신고처리에관한규정"},{"name":"공익신고 보상금의 지급기준 등에 관한 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/공익신고보상금의지급기준등에관한규정"},{"name":"비실명 대리신고 변호사 조력비용 지급 기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/비실명대리신고변호사조력비용지급기준"},{"name":"청렴포털 운영 및 관리 지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/청렴포털운영및관리지침"}],"kinds":[{"kind":"훈령","count":45},{"kind":"예규","count":8},{"kind":"고시","count":2}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EA%B3%B5%EC%9D%B5%EC%8B%A0%EA%B3%A0%EC%9E%90%20%EB%B3%B4%ED%98%B8%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":28,"rule":0,"adminRule":4,"ordinance":0,"cites":48}}}},"statusStyles":{"done":{"label":"선행","fill":"#effaf5","border":"#35a77d","ink":"#123d2e","sub":"#287a5c"},"current":{"label":"핵심","fill":"#087452","border":"#087452","ink":"#ffffff","sub":"#d8f4e8"},"waiting":{"label":"후속","fill":"#ffffff","border":"#b9c7bf","ink":"#17231d","sub":"#627169"},"risk":{"label":"병목","fill":"#fff8e8","border":"#d9901a","ink":"#7a4305","sub":"#a96008"},"loop":{"label":"회귀","fill":"#edf4ff","border":"#3478db","ink":"#173f7a","sub":"#316bbd"}},"basisLegend":[{"label":"법률","fill":"#ffffff","border":"#3b4a43"},{"label":"시행령","fill":"#f2f6ff","border":"#2456d6"},{"label":"시행규칙","fill":"#effaf6","border":"#0f9f72"},{"label":"행정규칙","fill":"#f6f2ff","border":"#7c56c9"}],"isLawIndex":true}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:I[6196,[],"IconMark"]
+7:null
+c:[["$","title","0",{"children":"공익신고자 보호법 업무흐름도 | 법령정보 시연판"}],["$","meta","1",{"name":"robots","content":"noindex, nofollow"}],["$","link","2",{"rel":"icon","href":"/lawdemo/flow/favicon.ico?603d046c9a6fdfbb","type":"image/x-icon","sizes":"16x16"}],["$","$L11","3",{}]]

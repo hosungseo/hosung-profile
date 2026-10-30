@@ -1,0 +1,453 @@
+1:"$Sreact.fragment"
+2:I[7742,["838","static/chunks/838-9b85aecee2a13f53.js","379","static/chunks/379-f104668f756ddde1.js","301","static/chunks/app/embed/flow/%5BlawId%5D/%5Bslug%5D/page-e3d0b6acb7d5d0b3.js"],"default"]
+6:I[977,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+:HL["/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","style"]
+3:T8f5a,<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 250 1744 1960" class="pp-svg">
+<defs>
+      <filter id="card-shadow" x="-20%" y="-25%" width="140%" height="160%">
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#12271e" flood-opacity="0.10"/>
+      </filter>
+      <marker id="arrow-sequence" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#53675d" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-message" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#0f8a65" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-loop" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#3478db" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <style>
+        text { font-family: "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", sans-serif; }
+        .mono { font-family: "SFMono-Regular", "Menlo", monospace; }
+      </style>
+    </defs>
+<rect width="1800" height="2400" fill="#ffffff"/>
+
+
+
+<rect x="38" y="260" width="1724" height="1940" rx="10" fill="#ffffff" stroke="#b8c7bf" stroke-width="2"/>
+<rect x="38" y="260" width="190" height="100" rx="10" fill="#eaf2ee"/>
+<text x="58" y="299" font-size="17" font-weight="800" fill="#17231d">단계 ↓</text>
+<text x="58" y="332" font-size="15" font-weight="650" fill="#68776f">행위자 묶음 →</text>
+<rect x="38" y="360" width="1724" height="279.1" fill="#fbfcfb"/>
+<rect x="38" y="360" width="190" height="279.1" fill="#eef3f0"/>
+<text x="58" y="392" class="mono" font-size="16" font-weight="800" fill="#53645b">G0</text>
+<text x="58" y="425" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">신청</tspan></text>
+<rect x="38" y="639.1" width="1724" height="279.1" fill="#f5f8f6"/>
+<rect x="38" y="639.1" width="190" height="279.1" fill="#eef3f0"/>
+<text x="58" y="671.1" class="mono" font-size="16" font-weight="800" fill="#53645b">G1</text>
+<text x="58" y="704.1" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">승인·지정</tspan></text>
+<rect x="38" y="918.3" width="1724" height="165.1" fill="#fbfcfb"/>
+<rect x="38" y="918.3" width="190" height="165.1" fill="#eef3f0"/>
+<text x="58" y="950.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G2</text>
+<text x="58" y="983.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">연계·보안</tspan></text>
+<rect x="38" y="1083.4" width="1724" height="393.1" fill="#f5f8f6"/>
+<rect x="38" y="1083.4" width="190" height="393.1" fill="#eef3f0"/>
+<text x="58" y="1115.4" class="mono" font-size="16" font-weight="800" fill="#53645b">G3</text>
+<text x="58" y="1148.4" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">동의확인</tspan></text>
+<rect x="38" y="1476.6" width="1724" height="165.1" fill="#fbfcfb"/>
+<rect x="38" y="1476.6" width="190" height="165.1" fill="#eef3f0"/>
+<text x="58" y="1508.6" class="mono" font-size="16" font-weight="800" fill="#53645b">G4</text>
+<text x="58" y="1541.6" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">조회·처리</tspan></text>
+<rect x="38" y="1641.7" width="1724" height="165.1" fill="#f5f8f6"/>
+<rect x="38" y="1641.7" width="190" height="165.1" fill="#eef3f0"/>
+<text x="58" y="1673.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G5</text>
+<text x="58" y="1706.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">이용내역·열람</tspan></text>
+<rect x="38" y="1806.9" width="1724" height="393.1" fill="#fbfcfb"/>
+<rect x="38" y="1806.9" width="190" height="393.1" fill="#eef3f0"/>
+<text x="58" y="1838.9" class="mono" font-size="16" font-weight="800" fill="#53645b">G6</text>
+<text x="58" y="1871.9" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">점검·통제</tspan></text>
+<rect x="228" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="228" y="260" width="383.5" height="7" fill="#0f9f72"/>
+<text x="248" y="299" font-size="20" font-weight="800" fill="#17231d">정보이용기관</text>
+<text x="248" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="248" dy="0">정보이용기관</tspan></text>
+<rect x="611.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="611.5" y="260" width="383.5" height="7" fill="#3b82f6"/>
+<text x="631.5" y="299" font-size="20" font-weight="800" fill="#17231d">행정안전부·정보보유기관</text>
+<text x="631.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="631.5" dy="0">행정안전부(공동이용센터) · 정보보유기관</tspan></text>
+<rect x="995" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="995" y="260" width="383.5" height="7" fill="#c78116"/>
+<text x="1015" y="299" font-size="20" font-weight="800" fill="#17231d">정보주체·개인정보보호위원회</text>
+<text x="1015" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1015" dy="0">정보주체(국민) · 개인정보보호위원회</tspan></text>
+<rect x="1378.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="1378.5" y="260" width="383.5" height="7" fill="#0891b2"/>
+<text x="1398.5" y="299" font-size="20" font-weight="800" fill="#17231d">공동이용시스템</text>
+<text x="1398.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1398.5" dy="0">공동이용시스템</tspan></text>
+<line x1="228" y1="260" x2="228" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="611.5" y1="260" x2="611.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="995" y1="260" x2="995" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1378.5" y1="260" x2="1378.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1762" y1="260" x2="1762" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#b8c7bf" stroke-width="2"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="639.1" x2="1762" y2="639.1" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="918.3" x2="1762" y2="918.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1083.4" x2="1762" y2="1083.4" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1476.6" x2="1762" y2="1476.6" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1641.7" x2="1762" y2="1641.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1806.9" x2="1762" y2="1806.9" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2200" x2="1762" y2="2200" stroke="#b8c7bf" stroke-width="2"/>
+<g class="pp-edge" data-edge-id="E01" data-source="P01" data-target="P02">
+<path d="M 419.8 487.6 V 503.6 H 409.8 V 503.6" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 419.8 487.6 V 503.6 H 409.8 V 503.6" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E02" data-source="P02" data-target="P03">
+<path d="M 423.8 601.6 V 627.1 H 783.3 V 668.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 423.8 601.6 V 627.1 H 783.3 V 668.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E03" data-source="P03" data-target="P05">
+<path d="M 938.3 737.2 H 990 V 890.3 H 1548.3 V 947.9" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 737.2 H 990 V 890.3 H 1548.3 V 947.9" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E04" data-source="P05" data-target="P06">
+<path d="M 1435.3 1009.9 H 992.3 V 1018.9 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1435.3 1009.9 H 992.3 V 1018.9 H 946.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E05" data-source="P06" data-target="P07">
+<path d="M 783.3 1045.9 V 1071.4 H 425.8 V 1113" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 783.3 1045.9 V 1071.4 H 425.8 V 1113" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E06" data-source="P07" data-target="P08">
+<path d="M 399.8 1211 V 1227 H 409.8 V 1227" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 399.8 1211 V 1227 H 409.8 V 1227" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E07" data-source="P08" data-target="P10">
+<path d="M 554.8 1309.5 H 645.5 V 1416.6 H 1538.3 V 1506.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1309.5 H 645.5 V 1416.6 H 1538.3 V 1506.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E08" data-source="P10" data-target="P11">
+<path d="M 1435.3 1572.1 H 582.8 V 1561.6 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1435.3 1572.1 H 582.8 V 1561.6 H 562.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E09" data-source="P11" data-target="P12">
+<path d="M 427.8 1604.1 V 1613.7 H 1554.3 V 1671.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 427.8 1604.1 V 1613.7 H 1554.3 V 1671.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E10" data-source="P12" data-target="P13">
+<path d="M 1435.3 1733.3 H 979.3 V 1733.3 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1435.3 1733.3 H 979.3 V 1733.3 H 946.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E11" data-source="P13" data-target="P14">
+<path d="M 793.3 1769.3 V 1794.9 H 783.3 V 1836.4" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 793.3 1769.3 V 1794.9 H 783.3 V 1836.4" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E12" data-source="P14" data-target="P15">
+<path d="M 823.3 1934.4 V 1950.4 H 777.3 V 1950.4" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 823.3 1934.4 V 1950.4 H 777.3 V 1950.4" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E13" data-source="P15" data-target="P17">
+<path d="M 938.3 2023.9 H 1010.8 V 2017.4 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 2023.9 H 1010.8 V 2017.4 H 1043.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M01" data-source="P03" data-target="P04">
+<path d="M 938.3 721.7 H 966.3 V 838.2 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 721.7 H 966.3 V 838.2 H 946.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M02" data-source="P08" data-target="P09">
+<path d="M 554.8 1263 H 582.8 V 1396.5 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1263 H 582.8 V 1396.5 H 562.8" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M03" data-source="P10" data-target="P11">
+<path d="M 1435.3 1564.1 H 608.8 V 1551.1 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1435.3 1564.1 H 608.8 V 1551.1 H 562.8" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M04" data-source="P15" data-target="P17">
+<path d="M 938.3 2013.4 H 997.8 V 2006.9 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 2013.4 H 997.8 V 2006.9 H 1043.8" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L01" data-source="P14" data-target="P16">
+<path d="M 797.3 1934.4 V 1970.4 H 819.3 V 2064.4" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 797.3 1934.4 V 1970.4 H 819.3 V 2064.4" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L02" data-source="P16" data-target="P06">
+<path d="M 668.3 2115.9 H 216 V 1047.4 H 797.3 V 1053.9" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 668.3 2115.9 H 216 V 1047.4 H 797.3 V 1053.9" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E90" data-source="P07" data-target="P18">
+<path d="M 554.8 1184 H 1010.8 V 1294 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1184 H 1010.8 V 1294 H 1043.8" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E91" data-source="P18" data-target="P08">
+<path d="M 1051.8 1281 H 608.8 V 1296.5 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1281 H 608.8 V 1296.5 H 562.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge-label" data-edge-id="E03" data-source="P03" data-target="P05">
+<rect x="1131.8" y="858.3" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1179.8" y="878.3" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">승인</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E07" data-source="P08" data-target="P10">
+<rect x="946" y="1384.6" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="994" y="1404.6" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">동의</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M01" data-source="P03" data-target="P04">
+<rect x="950.4" y="765" width="147.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1024.3" y="785" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">대상정보 제공 협의</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M02" data-source="P08" data-target="P09">
+<rect x="611" y="1314.8" width="199.6" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="710.8" y="1334.8" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">동의 거부 시 종이서류 안내</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M03" data-source="P10" data-target="P11">
+<rect x="921.1" y="1525.6" width="147.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="995" y="1545.6" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">보유정보 조회 응답</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M04" data-source="P15" data-target="P17">
+<rect x="991.1" y="1906.2" width="147.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1065" y="1926.2" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">실태점검 결과 공유</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L01" data-source="P14" data-target="P16">
+<rect x="988.9" y="2060.4" width="138.7" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="1058.3" y="2080.4" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">목적 외 이용 적발</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L02" data-source="P16" data-target="P06">
+<rect x="265.7" y="1639.4" width="180.7" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="356" y="1659.4" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">시정 후 접근권한 재설정</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E90" data-source="P07" data-target="P18">
+<rect x="742.3" y="1207" width="121.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="803.3" y="1227" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">동의 요청·고지</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E91" data-source="P18" data-target="P08">
+<rect x="745.8" y="1256.8" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="803.3" y="1276.8" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">동의 의사표시</text>
+</g>
+
+    <g class="pp-node" data-node-id="P01" data-basis="전자정부법:제38조 전자정부법시행령:제43조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="397.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="397.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="417.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P01</text>
+      
+      <rect x="468.8" y="404.6" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="421.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §38 +1</text>
+      <text x="299.8" y="454.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">공동이용 대상정보·목적 검토</tspan></text>
+      <text x="299.8" y="479.6" font-size="11" font-weight="650" fill="#3b4a43">기한 · 내부 목표 14일</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P02" data-basis="전자정부법:제39조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="511.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="511.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="531.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P02</text>
+      
+      <rect x="485.8" y="518.6" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="535.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §39</text>
+      <text x="299.8" y="568.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">공동이용 신청서 제출</tspan></text>
+      <text x="299.8" y="593.6" font-size="11" font-weight="650" fill="#3b4a43">정보이용기관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P03" data-basis="전자정부법:제39조 전자정부법:제38조 전자정부법시행령:제44조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="676.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="676.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="696.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P03</text>
+      
+      <rect x="852.3" y="683.7" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="700.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §39 +2</text>
+      <text x="683.3" y="733.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">공동이용 승인·대상 지정</tspan></text>
+      <text x="683.3" y="758.7" font-size="11" font-weight="650" fill="#3b4a43">행정안전부</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P04" data-basis="전자정부법:제39조 전자정부법:제38조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="790.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="790.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="810.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P04</text>
+      
+      <rect x="852.3" y="797.7" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="814.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §39 +1</text>
+      <text x="683.3" y="847.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">보유기관 제공 협의·확인</tspan></text>
+      <text x="683.3" y="872.7" font-size="11" font-weight="650" fill="#3b4a43">정보보유기관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P05" data-basis="전자정부법:제36조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="955.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="955.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="975.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">▣ P05</text>
+      
+      <rect x="1636.3" y="962.9" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1665.8" y="979.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §36</text>
+      <text x="1450.3" y="1012.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">시스템 연계·보안대책 적용</tspan></text>
+      <text x="1450.3" y="1037.9" font-size="11" font-weight="650" fill="#3b4a43">행정정보공동이용시스템</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P06" data-basis="전자정부법:제39조 행정정보공동이용지침:제21조 행정정보공동이용지침:제24조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="955.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="955.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="975.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P06</text>
+      
+      <rect x="852.3" y="962.9" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="979.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §39 +1</text>
+      <text x="683.3" y="1012.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">접근권한 설정·연계 완료</tspan></text>
+      <text x="683.3" y="1037.9" font-size="11" font-weight="650" fill="#3b4a43">행정안전부</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P07" data-basis="전자정부법:제36조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1121" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1121" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1141" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P07</text>
+      
+      <rect x="485.8" y="1128" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="1145" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §36</text>
+      <text x="299.8" y="1178" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">민원 접수</tspan></text>
+      <text x="299.8" y="1203" font-size="11" font-weight="650" fill="#3b4a43">정보이용기관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P18" data-basis="전자정부법:제42조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1235" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1235" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1255" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P18</text>
+      
+      <rect x="1252.8" y="1242" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1259" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §42</text>
+      <text x="1066.8" y="1282" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">공동이용</tspan><tspan x="1066.8" dy="18">사전동의(목적·범위·기관 고지)</tspan></text>
+      <text x="1066.8" y="1317" font-size="11" font-weight="650" fill="#3b4a43">정보주체(민원인)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P08" data-basis="전자정부법:제42조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1235" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1235" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1255" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P08</text>
+      
+      <rect x="485.8" y="1242" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="1259" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §42</text>
+      <text x="299.8" y="1292" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">정보주체 사전동의 확인</tspan></text>
+      <text x="299.8" y="1317" font-size="11" font-weight="650" fill="#3b4a43">정보이용기관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P09" data-basis="전자정부법:제42조 개인정보보호법:제17조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1349" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1349" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1369" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P09</text>
+      
+      <rect x="468.8" y="1356" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="1373" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §42 +1</text>
+      <text x="299.8" y="1406" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">동의 거부 시 종이서류 제출 안내</tspan></text>
+      <text x="299.8" y="1431" font-size="11" font-weight="650" fill="#3b4a43">정보이용기관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P10" data-basis="전자정부법:제38조 전자정부법:제37조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="1514.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="1514.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="1534.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">▣ P10</text>
+      
+      <rect x="1619.3" y="1521.1" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1657.3" y="1538.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §38 +1</text>
+      <text x="1450.3" y="1571.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">공동이용시스템 정보 조회</tspan></text>
+      <text x="1450.3" y="1596.1" font-size="11" font-weight="650" fill="#3b4a43">행정정보공동이용시스템</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P11" data-basis="전자정부법:제36조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1514.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1514.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1534.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P11</text>
+      
+      <rect x="485.8" y="1521.1" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="1538.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §36</text>
+      <text x="299.8" y="1571.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">조회정보로 민원 심사·처리</tspan></text>
+      <text x="299.8" y="1596.1" font-size="11" font-weight="650" fill="#3b4a43">정보이용기관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P12" data-basis="전자정부법:제43조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="1679.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="1679.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="1699.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">▣ P12</text>
+      
+      <rect x="1636.3" y="1686.3" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1665.8" y="1703.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §43</text>
+      <text x="1450.3" y="1736.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">이용내역 기록·로그 저장</tspan></text>
+      <text x="1450.3" y="1761.3" font-size="11" font-weight="650" fill="#3b4a43">행정정보공동이용시스템</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P13" data-basis="전자정부법:제43조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1679.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1679.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1699.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P13</text>
+      
+      <rect x="869.3" y="1686.3" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1703.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §43</text>
+      <text x="683.3" y="1736.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">정보주체 이용내역 열람 제공</tspan></text>
+      <text x="683.3" y="1761.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 열람신청일부터 10일 이내 통보(정당…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P14" data-basis="전자정부법:제38조 전자정부법:제35조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1844.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1844.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1864.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P14</text>
+      
+      <rect x="852.3" y="1851.4" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="1868.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §38 +1</text>
+      <text x="683.3" y="1901.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">목적 외 이용·오남용 판단</tspan></text>
+      <text x="683.3" y="1926.4" font-size="11" font-weight="650" fill="#3b4a43">행정안전부</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P15" data-basis="행정정보공동이용지침:제32조 행정정보공동이용지침:제35조 전자정부법:제38조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1958.4" width="270" height="90" rx="8" fill="#f6f2ff" stroke="#7c56c9" stroke-width="2.3"/>
+      <rect x="668.3" y="1958.4" width="6" height="90" rx="3" fill="#7c56c9"/>
+      <text x="683.3" y="1978.4" class="mono" font-size="12.5" font-weight="750" fill="#6b45b8">P15</text>
+      
+      <rect x="852.3" y="1965.4" width="76" height="24" rx="5" fill="#7c56c9" opacity="0.14"/>
+      <text x="890.3" y="1982.4" text-anchor="middle" font-size="12" font-weight="800" fill="#3d2470">규 §32 +1</text>
+      <text x="683.3" y="2015.4" font-size="15.5" font-weight="800" fill="#3d2470"><tspan x="683.3" dy="0">정기 실태점검</tspan></text>
+      <text x="683.3" y="2040.4" font-size="11" font-weight="650" fill="#6b45b8">행정안전부</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P16" data-basis="전자정부법:제41조 전자정부법:제35조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="2072.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="2072.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="2092.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P16</text>
+      
+      <rect x="852.3" y="2079.4" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="2096.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §41 +1</text>
+      <text x="683.3" y="2129.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">오남용 시정·승인 취소</tspan></text>
+      <text x="683.3" y="2154.4" font-size="11" font-weight="650" fill="#3b4a43">행정안전부</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P17" data-basis="전자정부법:제39조 개인정보보호법:제28조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1958.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1958.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1978.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P17</text>
+      
+      <rect x="1235.8" y="1965.4" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1982.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §39 +1</text>
+      <text x="1066.8" y="2015.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">개인정보 보호 감독·의견</tspan></text>
+      <text x="1066.8" y="2040.4" font-size="11" font-weight="650" fill="#3b4a43">개인정보보호위원회</text>
+    </g>
+  
+
+</svg>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"law":{"lawId":"009199","mst":"283701","name":"전자정부법","kind":"법률","tier":"statute","effectiveOn":"2026-08-28","officialUrl":"https://www.law.go.kr/법령/전자정부법"},"flows":[{"slug":"admin-info-sharing","name":"행정정보공동이용","oneLiner":"행정기관이 보유한 정보를 기관끼리 온라인으로 확인하게 해, 국민이 민원마다 주민등록등본·소득증명 같은 구비서류를 떼어 내지 않아도 되게 하는 서류 감축 제도","citingSteps":18,"totalSteps":18,"articles":{"제38조":6,"제39조":5,"제36조":3,"제42조":3,"제37조":1,"제43조":2,"제35조":2,"제41조":1}}],"current":"$0:rsc:props:children:0:props:flows:0","asOfDate":"2026-07-10","reviewNote":"주요 절차를 요약한 참고 모델입니다. 모든 예외·위임규정의 현행성까지 전수 검증한 자료는 아닙니다. 법령 체계의 보관 자료와 현행 원문은 다를 수 있습니다.","svg":"$3","nodes":[{"id":"P01","name":"공동이용 대상정보·목적 검토","lane":"정보이용기관","stage":"G0 신청","type":"task","status":"done","progress":100,"actor":"정보이용기관","action":"대상정보·목적 검토","output_documents":["대상정보 목록","이용목적 명세"],"deadline":"내부 목표 14일","confidence":0.85,"legal_basis":[{"law":"전자정부법","article":"제38조","text":"공동이용센터를 통해 공동이용할 수 있는 행정정보(민원처리용 정보 등)의 범위에서 필요한 정보와 이용목적을 검토한다.(제1항)"},{"law":"전자정부법 시행령","article":"제43조","text":"법 제38조에 따른 공동이용 대상 행정정보의 종류를 정하며, 이용기관은 그 범위에서 필요한 정보를 검토한다."}]},{"id":"P02","name":"공동이용 신청서 제출","lane":"정보이용기관","stage":"G0 신청","type":"task","status":"done","progress":100,"actor":"정보이용기관","receiver":"행정안전부(공동이용센터)","action":"신청서 제출","output_documents":["공동이용 신청서"],"confidence":0.86,"legal_basis":[{"law":"전자정부법","article":"제39조","text":"공동이용이 필요한 행정기관은 공동이용을 신청한다."}]},{"id":"P03","name":"공동이용 승인·대상 지정","lane":"행정안전부(공동이용센터)","stage":"G1 승인·지정","type":"gateway","status":"done","progress":100,"actor":"행정안전부","action":"승인·대상 지정","condition":"대상정보 적정성·보유기관 협의 결과","output_documents":["승인 결정","공동이용 대상 지정"],"confidence":0.82,"legal_basis":[{"law":"전자정부법","article":"제39조","text":"행정안전부장관은 공동이용 신청을 받으면 공동이용의 조건 등을 정하여 승인하되, 보유기관의 장 동의를 받아야 한다.(제2항·제3항)"},{"law":"전자정부법","article":"제38조","text":"공동이용 대상 행정정보를 지정하며, 안전보장·비밀 정보는 대상에서 제외할 수 있다.(제2항)"},{"law":"전자정부법 시행령","article":"제44조","text":"공동이용 신청기관은 기관명·행정정보 명칭·사무·목적·방식·안전성 확보방안 등이 포함된 공동이용신청서를 첨부자료와 함께 제출한다."}]},{"id":"P04","name":"보유기관 제공 협의·확인","lane":"정보보유기관","stage":"G1 승인·지정","type":"task","status":"done","progress":100,"actor":"정보보유기관","action":"제공 협의·확인","output_documents":["제공 협의결과","정보 정확성 확인"],"confidence":0.78,"legal_basis":[{"law":"전자정부법","article":"제39조","text":"행정안전부장관은 승인 전 보유기관의 장의 동의를 받아야 하며, 보유기관은 특별한 사유가 없으면 공동이용에 협조하여야 한다.(제3항)"},{"law":"전자정부법","article":"제38조","text":"보유기관은 공동이용되는 행정정보가 최신 정보가 되도록 하고 정확성을 유지하여야 한다.(제3항)"}]},{"id":"P05","name":"시스템 연계·보안대책 적용","lane":"공동이용시스템","stage":"G2 연계·보안","type":"system","status":"done","progress":100,"actor":"행정정보공동이용시스템","action":"연계·보안대책 적용","output_documents":["연계 설정","보안대책 적용내역"],"confidence":0.8,"legal_basis":[{"law":"전자정부법","article":"제36조","text":"행정정보를 효율적으로 관리·이용하기 위한 연계 및 보안대책을 적용한다."}]},{"id":"P06","name":"접근권한 설정·연계 완료","lane":"행정안전부(공동이용센터)","stage":"G2 연계·보안","type":"task","status":"done","progress":100,"actor":"행정안전부","action":"접근권한 설정","output_documents":["접근권한 대장","연계 완료 통지"],"confidence":0.76,"legal_basis":[{"law":"전자정부법","article":"제39조","text":"승인을 받은 기관은 공동이용 총괄관리자·접근권한 부여권자·업무담당자를 지정하여 운영한다.(제7항)"},{"law":"행정정보 공동이용 지침","article":"제21조(행정정보 접근권한의 신청 및 승인 등)·제24조(접근권한의 관리)","text":"행정정보 공동이용을 통하여 사무를 처리하고자 하는 사람은 접근권한신청서를 작성하여 공동이용관리자에게 신청하여야 하며, 공동이용관리자는 업무분장상 정당한 권한이 있는지를 확인한 후에 접근권한을 승인하여야 한다."}]},{"id":"P07","name":"민원 접수","lane":"정보이용기관","stage":"G3 동의확인","type":"task","status":"done","progress":100,"actor":"정보이용기관","action":"민원 접수","output_documents":["민원 접수증"],"confidence":0.72,"legal_basis":[{"law":"전자정부법","article":"제36조","text":"행정기관은 민원 처리를 위하여 필요한 행정정보를 공동이용할 수 있다."}]},{"id":"P18","name":"공동이용 사전동의(목적·범위·기관 고지)","lane":"정보주체(국민)","stage":"G3 동의확인","type":"task","status":"done","progress":100,"actor":"정보주체(민원인)","action":"공동이용 목적·대상 정보·이용기관을 고지받고 사전동의 (거부 가능)","output_documents":["사전동의 의사표시"],"deadline":null,"confidence":0.9,"legal_basis":[{"law":"전자정부법","article":"제42조(정보주체의 사전동의)","text":"이용기관이 공동이용센터를 통하여 개인정보가 포함된 행정정보를 공동이용할 때에는 정보주체가 공동이용의 목적, 대상 행정정보 및 이용범위, 이용기관의 명칭을 알 수 있도록 사전동의를 받아야 한다."}]},{"id":"P08","name":"정보주체 사전동의 확인","lane":"정보이용기관","stage":"G3 동의확인","type":"gateway","status":"current","progress":55,"actor":"정보이용기관","action":"사전동의 확인","condition":"정보주체 사전동의 여부(동의 없으면 종이서류 제출)","output_documents":["동의서","동의 확인 로그"],"blocker":"일부 민원 건 정보주체 동의 미확인","confidence":0.82,"legal_basis":[{"law":"전자정부법","article":"제42조","text":"행정정보를 공동이용할 때에는 정보주체의 사전동의를 받아야 한다."}]},{"id":"P09","name":"동의 거부 시 종이서류 제출 안내","lane":"정보이용기관","stage":"G3 동의확인","type":"notice","status":"waiting","progress":0,"actor":"정보이용기관","receiver":"정보주체(국민)","action":"서류 제출 안내","output_documents":["구비서류 제출 안내"],"confidence":0.75,"legal_basis":[{"law":"전자정부법","article":"제42조","text":"정보주체가 동의하지 아니하면 해당 정보를 공동이용하지 아니하고 서류로 확인한다."},{"law":"개인정보 보호법","article":"제17조(개인정보의 제공)","text":"개인정보처리자는 정보주체의 동의를 받은 경우 등 법정 사유에 해당하는 경우에만 개인정보를 제3자에게 제공할 수 있다."}]},{"id":"P10","name":"공동이용시스템 정보 조회","lane":"공동이용시스템","stage":"G4 조회·처리","type":"system","status":"waiting","progress":0,"actor":"행정정보공동이용시스템","action":"보유기관 정보 조회","input_documents":["동의서","조회 요청"],"output_documents":["조회 결과(주민등록·소득·부동산 등)"],"confidence":0.8,"legal_basis":[{"law":"전자정부법","article":"제38조","text":"이용기관은 지정된 공동이용 대상 행정정보를 보유기관으로부터 온라인으로 조회한다."},{"law":"전자정부법","article":"제37조","text":"공동이용 기관은 정당한 사유가 없으면 공동이용센터를 통하여 행정정보를 공동이용한다.(제2항)"}]},{"id":"P11","name":"조회정보로 민원 심사·처리","lane":"정보이용기관","stage":"G4 조회·처리","type":"task","status":"waiting","progress":0,"actor":"정보이용기관","action":"민원 심사·처리","input_documents":["조회 결과"],"output_documents":["민원 처리 결과"],"confidence":0.74,"legal_basis":[{"law":"전자정부법","article":"제36조","text":"공동이용한 행정정보를 활용하여 민원을 심사·처리한다."}]},{"id":"P12","name":"이용내역 기록·로그 저장","lane":"공동이용시스템","stage":"G5 이용내역·열람","type":"system","status":"waiting","progress":0,"actor":"행정정보공동이용시스템","action":"이용내역 기록","output_documents":["이용내역 로그"],"confidence":0.79,"legal_basis":[{"law":"전자정부법","article":"제43조","text":"행정안전부장관은 공동이용한 행정정보의 명칭·공동이용 횟수 등의 기록을 유지·관리하고 공개하여야 한다.(제6항)"}]},{"id":"P13","name":"정보주체 이용내역 열람 제공","lane":"행정안전부(공동이용센터)","stage":"G5 이용내역·열람","type":"task","status":"waiting","progress":0,"actor":"행정안전부","receiver":"정보주체(국민)","action":"이용내역 열람 제공","input_documents":["이용내역 로그"],"output_documents":["이용내역 열람 결과"],"deadline":"열람신청일부터 10일 이내 통보(정당한 사유 시 예외)","confidence":0.78,"legal_basis":[{"law":"전자정부법","article":"제43조","text":"정보주체는 본인에 관한 공동이용 행정정보의 이용기관·목적·종류·시기·법적근거의 열람을 신청할 수 있고, 행정안전부장관·이용기관은 신청일부터 10일 이내에 통보하여야 한다.(제1항·제2항)"}]},{"id":"P14","name":"목적 외 이용·오남용 판단","lane":"행정안전부(공동이용센터)","stage":"G6 점검·통제","type":"gateway","status":"waiting","progress":0,"actor":"행정안전부","action":"목적 외 이용 판단","condition":"이용목적 부합 여부·오남용 정황","output_documents":["점검 판단 결과"],"confidence":0.8,"legal_basis":[{"law":"전자정부법","article":"제38조","text":"행정정보의 공동이용은 특정한 이용목적에 따라 필요한 범위에서 이루어져야 한다.(제4항)"},{"law":"전자정부법","article":"제35조","text":"행정정보를 권한 없이 또는 권한 범위를 넘어 처리하거나 승인받지 아니한 방식으로 공동이용하는 행위 등을 금지한다."}]},{"id":"P15","name":"정기 실태점검","lane":"행정안전부(공동이용센터)","stage":"G6 점검·통제","type":"task","status":"risk","progress":0,"actor":"행정안전부","action":"실태점검","output_documents":["실태점검 결과보고"],"blocker":"이용내역 감사가 형식적으로 흐를 위험(운영 추정)","confidence":0.74,"legal_basis":[{"law":"행정정보 공동이용 지침","article":"제32조제2항제3호·제35조(개인정보 침해사고 등의 대응)","text":"이용기관의 개인정보보호책임자는 주기적인 업무 실태점검 및 개인정보보호 실태점검을 실시하고 그에 관한 기록을 유지하여야 하며, 공동이용센터는 공동이용 기록을 주기적으로 조사하여 위반사항이 있는 경우 해당 이용기관에 필요한 조치를 취하도록 하여야 한다."},{"law":"전자정부법","article":"제38조","text":"공동이용이 특정 이용목적에 필요한 범위에서 이루어지는지 점검한다.(제4항)"}]},{"id":"P16","name":"오남용 시정·승인 취소","lane":"행정안전부(공동이용센터)","stage":"G6 점검·통제","type":"task","status":"loop","progress":0,"actor":"행정안전부","receiver":"정보이용기관","action":"시정·승인 취소","output_documents":["시정 요구","승인 취소 통보"],"blocker":"목적 외 이용 적발 시 회귀 단계","confidence":0.76,"legal_basis":[{"law":"전자정부법","article":"제41조","text":"행정안전부장관은 이용기관이 공동이용 조건을 위반하거나 금지행위·준수의무를 위반한 경우 공동이용 승인을 철회하거나 공동이용을 일시 정지시킬 수 있다.(제1항·제2항)"},{"law":"전자정부법","article":"제35조","text":"권한 없는 처리·승인받지 아니한 방식의 공동이용 등 금지행위 위반을 시정 대상으로 한다."}]},{"id":"P17","name":"개인정보 보호 감독·의견","lane":"개인정보보호위원회","stage":"G6 점검·통제","type":"notice","status":"waiting","progress":0,"actor":"개인정보보호위원회","action":"감독·의견 제시","output_documents":["개선 의견"],"confidence":0.75,"legal_basis":[{"law":"전자정부법","article":"제39조","text":"공동이용하려는 행정정보가 개인정보파일인 경우 행정안전부장관은 개인정보 보호위원회의 심의·의결을 거쳐 공동이용을 승인하여야 한다.(제4항)"},{"law":"개인정보 보호법","article":"제28조(개인정보취급자에 대한 감독)","text":"개인정보처리자는 개인정보취급자에 대하여 적절한 관리·감독을 행하여야 한다."}]}],"edges":[{"id":"E01","source":"P01","target":"P02","type":"sequence","label":null},{"id":"E02","source":"P02","target":"P03","type":"sequence","label":null},{"id":"E03","source":"P03","target":"P05","type":"sequence","label":"승인"},{"id":"E04","source":"P05","target":"P06","type":"sequence","label":null},{"id":"E05","source":"P06","target":"P07","type":"sequence","label":null},{"id":"E06","source":"P07","target":"P08","type":"sequence","label":null},{"id":"E07","source":"P08","target":"P10","type":"sequence","label":"동의"},{"id":"E08","source":"P10","target":"P11","type":"sequence","label":null},{"id":"E09","source":"P11","target":"P12","type":"sequence","label":null},{"id":"E10","source":"P12","target":"P13","type":"sequence","label":null},{"id":"E11","source":"P13","target":"P14","type":"sequence","label":null},{"id":"E12","source":"P14","target":"P15","type":"sequence","label":null},{"id":"E13","source":"P15","target":"P17","type":"sequence","label":null},{"id":"M01","source":"P03","target":"P04","type":"message","label":"대상정보 제공 협의"},{"id":"M02","source":"P08","target":"P09","type":"message","label":"동의 거부 시 종이서류 안내"},{"id":"M03","source":"P10","target":"P11","type":"message","label":"보유정보 조회 응답"},{"id":"M04","source":"P15","target":"P17","type":"message","label":"실태점검 결과 공유"},{"id":"L01","source":"P14","target":"P16","type":"loop","label":"목적 외 이용 적발"},{"id":"L02","source":"P16","target":"P06","type":"loop","label":"시정 후 접근권한 재설정"},{"id":"E90","source":"P07","target":"P18","type":"message","label":"동의 요청·고지"},{"id":"E91","source":"P18","target":"P08","type":"sequence","label":"동의 의사표시"}],"lawContext":{"byNode":{"P01":[{"law":"전자정부법","article":"제38조","text":"공동이용센터를 통해 공동이용할 수 있는 행정정보(민원처리용 정보 등)의 범위에서 필요한 정보와 이용목적을 검토한다.(제1항)","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제38조","title":"공동이용 행정정보","officialUrl":"https://www.law.go.kr/법령/전자정부법/제38조","up":[],"down":[{"kind":"decree","phrase":"유형 등은 대통령령으로","lawName":"전자정부법 시행령","label":"제43조","title":"행정정보 공동이용 대상 행정정보의 종류","tier":"decree"}]}]},{"law":"전자정부법 시행령","article":"제43조","text":"법 제38조에 따른 공동이용 대상 행정정보의 종류를 정하며, 이용기관은 그 범위에서 필요한 정보를 검토한다.","found":true,"lawId":"009199","tier":"decree","articles":[{"label":"제43조","title":"행정정보 공동이용 대상 행정정보의 종류","officialUrl":"https://www.law.go.kr/법령/전자정부법시행령/제43조","up":[{"kind":"decree","phrase":"유형 등은 대통령령으로","lawName":"전자정부법","label":"제38조제5항","title":"공동이용 행정정보","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"② 제1항 각 호의 공동이용 대상 행정정보의 구체적인 명칭과 종류는 행정안전부장관이 정하여 고시한다.","lawName":"공동이용 대상 행정정보 현황","label":null,"title":null,"tier":"adminRule"}]}]}],"P02":[{"law":"전자정부법","article":"제39조","text":"공동이용이 필요한 행정기관은 공동이용을 신청한다.","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제39조","title":"행정정보 공동이용의 신청ㆍ승인","officialUrl":"https://www.law.go.kr/법령/전자정부법/제39조","up":[],"down":[{"kind":"decree","phrase":"기관은 대통령령으로","lawName":"전자정부법 시행령","label":"제44조","title":"공동이용 신청","tier":"decree"},{"kind":"decree","phrase":"받으면 대통령령으로","lawName":"전자정부법 시행령","label":"제45조","title":"행정정보 공동이용의 승인","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 경우","lawName":"전자정부법 시행령","label":"제45조","title":"행정정보 공동이용의 승인","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에 따라 다음","lawName":"선거관리위원회 행정업무 등의 전자화촉진에 관한 규칙","label":"제30조","title":"공동이용관리자 지정·운영 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에 따라 다음","lawName":"전자정부법 시행령","label":"제46조","title":"공동이용관리자 지정ㆍ운영 등","tier":"decree"}]}]}],"P03":[{"law":"전자정부법","article":"제39조","text":"행정안전부장관은 공동이용 신청을 받으면 공동이용의 조건 등을 정하여 승인하되, 보유기관의 장 동의를 받아야 한다.(제2항·제3항)","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제39조","title":"행정정보 공동이용의 신청ㆍ승인","officialUrl":"https://www.law.go.kr/법령/전자정부법/제39조","up":[],"down":[{"kind":"decree","phrase":"기관은 대통령령으로","lawName":"전자정부법 시행령","label":"제44조","title":"공동이용 신청","tier":"decree"},{"kind":"decree","phrase":"받으면 대통령령으로","lawName":"전자정부법 시행령","label":"제45조","title":"행정정보 공동이용의 승인","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 경우","lawName":"전자정부법 시행령","label":"제45조","title":"행정정보 공동이용의 승인","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에 따라 다음","lawName":"선거관리위원회 행정업무 등의 전자화촉진에 관한 규칙","label":"제30조","title":"공동이용관리자 지정·운영 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에 따라 다음","lawName":"전자정부법 시행령","label":"제46조","title":"공동이용관리자 지정ㆍ운영 등","tier":"decree"}]}]},{"law":"전자정부법","article":"제38조","text":"공동이용 대상 행정정보를 지정하며, 안전보장·비밀 정보는 대상에서 제외할 수 있다.(제2항)","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제38조","title":"공동이용 행정정보","officialUrl":"https://www.law.go.kr/법령/전자정부법/제38조","up":[],"down":[{"kind":"decree","phrase":"유형 등은 대통령령으로","lawName":"전자정부법 시행령","label":"제43조","title":"행정정보 공동이용 대상 행정정보의 종류","tier":"decree"}]}]},{"law":"전자정부법 시행령","article":"제44조","text":"공동이용 신청기관은 기관명·행정정보 명칭·사무·목적·방식·안전성 확보방안 등이 포함된 공동이용신청서를 첨부자료와 함께 제출한다.","found":true,"lawId":"009199","tier":"decree","articles":[{"label":"제44조","title":"공동이용 신청","officialUrl":"https://www.law.go.kr/법령/전자정부법시행령/제44조","up":[{"kind":"decree","phrase":"기관은 대통령령으로","lawName":"전자정부법","label":"제39조제1항","title":"행정정보 공동이용의 신청ㆍ승인","tier":"statute"}],"down":[]}]}],"P04":[{"law":"전자정부법","article":"제39조","text":"행정안전부장관은 승인 전 보유기관의 장의 동의를 받아야 하며, 보유기관은 특별한 사유가 없으면 공동이용에 협조하여야 한다.(제3항)","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제39조","title":"행정정보 공동이용의 신청ㆍ승인","officialUrl":"https://www.law.go.kr/법령/전자정부법/제39조","up":[],"down":[{"kind":"decree","phrase":"기관은 대통령령으로","lawName":"전자정부법 시행령","label":"제44조","title":"공동이용 신청","tier":"decree"},{"kind":"decree","phrase":"받으면 대통령령으로","lawName":"전자정부법 시행령","label":"제45조","title":"행정정보 공동이용의 승인","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 경우","lawName":"전자정부법 시행령","label":"제45조","title":"행정정보 공동이용의 승인","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에 따라 다음","lawName":"선거관리위원회 행정업무 등의 전자화촉진에 관한 규칙","label":"제30조","title":"공동이용관리자 지정·운영 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에 따라 다음","lawName":"전자정부법 시행령","label":"제46조","title":"공동이용관리자 지정ㆍ운영 등","tier":"decree"}]}]},{"law":"전자정부법","article":"제38조","text":"보유기관은 공동이용되는 행정정보가 최신 정보가 되도록 하고 정확성을 유지하여야 한다.(제3항)","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제38조","title":"공동이용 행정정보","officialUrl":"https://www.law.go.kr/법령/전자정부법/제38조","up":[],"down":[{"kind":"decree","phrase":"유형 등은 대통령령으로","lawName":"전자정부법 시행령","label":"제43조","title":"행정정보 공동이용 대상 행정정보의 종류","tier":"decree"}]}]}],"P05":[{"law":"전자정부법","article":"제36조","text":"행정정보를 효율적으로 관리·이용하기 위한 연계 및 보안대책을 적용한다.","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제36조","title":"행정정보의 효율적 관리 및 이용","officialUrl":"https://www.law.go.kr/법령/전자정부법/제36조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 법인","lawName":"전자정부법 시행령","label":"제39조","title":"공동이용 대상기관","tier":"decree"},{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"전자정부법 시행령","label":"제40조","title":"행정정보 목록의 공표 등","tier":"decree"},{"kind":"adminRule","phrase":"공동이용에 대한 기준과 절차 등에 관한 지침을 마련하여 고시할 수 있다.","lawName":"행정정보 공동이용 지침","label":null,"title":null,"tier":"adminRule"}]}]}],"P06":[{"law":"전자정부법","article":"제39조","text":"승인을 받은 기관은 공동이용 총괄관리자·접근권한 부여권자·업무담당자를 지정하여 운영한다.(제7항)","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제39조","title":"행정정보 공동이용의 신청ㆍ승인","officialUrl":"https://www.law.go.kr/법령/전자정부법/제39조","up":[],"down":[{"kind":"decree","phrase":"기관은 대통령령으로","lawName":"전자정부법 시행령","label":"제44조","title":"공동이용 신청","tier":"decree"},{"kind":"decree","phrase":"받으면 대통령령으로","lawName":"전자정부법 시행령","label":"제45조","title":"행정정보 공동이용의 승인","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 경우","lawName":"전자정부법 시행령","label":"제45조","title":"행정정보 공동이용의 승인","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에 따라 다음","lawName":"선거관리위원회 행정업무 등의 전자화촉진에 관한 규칙","label":"제30조","title":"공동이용관리자 지정·운영 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에 따라 다음","lawName":"전자정부법 시행령","label":"제46조","title":"공동이용관리자 지정ㆍ운영 등","tier":"decree"}]}]},{"law":"행정정보 공동이용 지침","article":"제21조(행정정보 접근권한의 신청 및 승인 등)·제24조(접근권한의 관리)","text":"행정정보 공동이용을 통하여 사무를 처리하고자 하는 사람은 접근권한신청서를 작성하여 공동이용관리자에게 신청하여야 하며, 공동이용관리자는 업무분장상 정당한 권한이 있는지를 확인한 후에 접근권한을 승인하여야 한다.","found":false,"lawId":null,"tier":null,"articles":[{"label":"제21조","title":null,"officialUrl":null,"up":[],"down":[]},{"label":"제24조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P07":[{"law":"전자정부법","article":"제36조","text":"행정기관은 민원 처리를 위하여 필요한 행정정보를 공동이용할 수 있다.","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제36조","title":"행정정보의 효율적 관리 및 이용","officialUrl":"https://www.law.go.kr/법령/전자정부법/제36조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 법인","lawName":"전자정부법 시행령","label":"제39조","title":"공동이용 대상기관","tier":"decree"},{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"전자정부법 시행령","label":"제40조","title":"행정정보 목록의 공표 등","tier":"decree"},{"kind":"adminRule","phrase":"공동이용에 대한 기준과 절차 등에 관한 지침을 마련하여 고시할 수 있다.","lawName":"행정정보 공동이용 지침","label":null,"title":null,"tier":"adminRule"}]}]}],"P18":[{"law":"전자정부법","article":"제42조(정보주체의 사전동의)","text":"이용기관이 공동이용센터를 통하여 개인정보가 포함된 행정정보를 공동이용할 때에는 정보주체가 공동이용의 목적, 대상 행정정보 및 이용범위, 이용기관의 명칭을 알 수 있도록 사전동의를 받아야 한다.","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제42조","title":"정보주체의 사전동의","officialUrl":"https://www.law.go.kr/법령/전자정부법/제42조","up":[],"down":[{"kind":"decree","phrase":"중앙선거관리위원회규칙","lawName":"선거관리위원회 행정업무 등의 전자화촉진에 관한 규칙","label":"제31조","title":"정보주체의 사전동의","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에","lawName":"전자정부법 시행령","label":"제49조","title":"정보주체의 사전동의","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 경우","lawName":"전자정부법 시행령","label":"제49조","title":"정보주체의 사전동의","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"전자정부법 시행령","label":"제49조","title":"정보주체의 사전동의","tier":"decree"}]}]}],"P08":[{"law":"전자정부법","article":"제42조","text":"행정정보를 공동이용할 때에는 정보주체의 사전동의를 받아야 한다.","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제42조","title":"정보주체의 사전동의","officialUrl":"https://www.law.go.kr/법령/전자정부법/제42조","up":[],"down":[{"kind":"decree","phrase":"중앙선거관리위원회규칙","lawName":"선거관리위원회 행정업무 등의 전자화촉진에 관한 규칙","label":"제31조","title":"정보주체의 사전동의","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에","lawName":"전자정부법 시행령","label":"제49조","title":"정보주체의 사전동의","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 경우","lawName":"전자정부법 시행령","label":"제49조","title":"정보주체의 사전동의","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"전자정부법 시행령","label":"제49조","title":"정보주체의 사전동의","tier":"decree"}]}]}],"P09":[{"law":"전자정부법","article":"제42조","text":"정보주체가 동의하지 아니하면 해당 정보를 공동이용하지 아니하고 서류로 확인한다.","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제42조","title":"정보주체의 사전동의","officialUrl":"https://www.law.go.kr/법령/전자정부법/제42조","up":[],"down":[{"kind":"decree","phrase":"중앙선거관리위원회규칙","lawName":"선거관리위원회 행정업무 등의 전자화촉진에 관한 규칙","label":"제31조","title":"정보주체의 사전동의","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에","lawName":"전자정부법 시행령","label":"제49조","title":"정보주체의 사전동의","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 경우","lawName":"전자정부법 시행령","label":"제49조","title":"정보주체의 사전동의","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"전자정부법 시행령","label":"제49조","title":"정보주체의 사전동의","tier":"decree"}]}]},{"law":"개인정보 보호법","article":"제17조(개인정보의 제공)","text":"개인정보처리자는 정보주체의 동의를 받은 경우 등 법정 사유에 해당하는 경우에만 개인정보를 제3자에게 제공할 수 있다.","found":true,"lawId":"011357","tier":"statute","articles":[{"label":"제17조","title":"개인정보의 제공","officialUrl":"https://www.law.go.kr/법령/개인정보보호법/제17조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"개인정보 보호법 시행령","label":"제14조의2","title":"개인정보의 추가적인 이용ㆍ제공의 기준 등","tier":"decree"}]}]}],"P10":[{"law":"전자정부법","article":"제38조","text":"이용기관은 지정된 공동이용 대상 행정정보를 보유기관으로부터 온라인으로 조회한다.","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제38조","title":"공동이용 행정정보","officialUrl":"https://www.law.go.kr/법령/전자정부법/제38조","up":[],"down":[{"kind":"decree","phrase":"유형 등은 대통령령으로","lawName":"전자정부법 시행령","label":"제43조","title":"행정정보 공동이용 대상 행정정보의 종류","tier":"decree"}]}]},{"law":"전자정부법","article":"제37조","text":"공동이용 기관은 정당한 사유가 없으면 공동이용센터를 통하여 행정정보를 공동이용한다.(제2항)","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제37조","title":"행정정보 공동이용센터","officialUrl":"https://www.law.go.kr/법령/전자정부법/제37조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"전자정부법 시행령","label":"제42조","title":"행정정보 공동이용센터","tier":"decree"}]}]}],"P11":[{"law":"전자정부법","article":"제36조","text":"공동이용한 행정정보를 활용하여 민원을 심사·처리한다.","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제36조","title":"행정정보의 효율적 관리 및 이용","officialUrl":"https://www.law.go.kr/법령/전자정부법/제36조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 법인","lawName":"전자정부법 시행령","label":"제39조","title":"공동이용 대상기관","tier":"decree"},{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"전자정부법 시행령","label":"제40조","title":"행정정보 목록의 공표 등","tier":"decree"},{"kind":"adminRule","phrase":"공동이용에 대한 기준과 절차 등에 관한 지침을 마련하여 고시할 수 있다.","lawName":"행정정보 공동이용 지침","label":null,"title":null,"tier":"adminRule"}]}]}],"P12":[{"law":"전자정부법","article":"제43조","text":"행정안전부장관은 공동이용한 행정정보의 명칭·공동이용 횟수 등의 기록을 유지·관리하고 공개하여야 한다.(제6항)","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제43조","title":"정보주체의 열람청구권","officialUrl":"https://www.law.go.kr/법령/전자정부법/제43조","up":[],"down":[{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"전자정부법 시행령","label":"제50조","title":"정보주체의 열람신청 절차 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"전자정부법 시행령","label":"제51조","title":"공동이용 기록의 공개","tier":"decree"}]}]}],"P13":[{"law":"전자정부법","article":"제43조","text":"정보주체는 본인에 관한 공동이용 행정정보의 이용기관·목적·종류·시기·법적근거의 열람을 신청할 수 있고, 행정안전부장관·이용기관은 신청일부터 10일 이내에 통보하여야 한다.(제1항·제2항)","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제43조","title":"정보주체의 열람청구권","officialUrl":"https://www.law.go.kr/법령/전자정부법/제43조","up":[],"down":[{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"전자정부법 시행령","label":"제50조","title":"정보주체의 열람신청 절차 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"전자정부법 시행령","label":"제51조","title":"공동이용 기록의 공개","tier":"decree"}]}]}],"P14":[{"law":"전자정부법","article":"제38조","text":"행정정보의 공동이용은 특정한 이용목적에 따라 필요한 범위에서 이루어져야 한다.(제4항)","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제38조","title":"공동이용 행정정보","officialUrl":"https://www.law.go.kr/법령/전자정부법/제38조","up":[],"down":[{"kind":"decree","phrase":"유형 등은 대통령령으로","lawName":"전자정부법 시행령","label":"제43조","title":"행정정보 공동이용 대상 행정정보의 종류","tier":"decree"}]}]},{"law":"전자정부법","article":"제35조","text":"행정정보를 권한 없이 또는 권한 범위를 넘어 처리하거나 승인받지 아니한 방식으로 공동이용하는 행위 등을 금지한다.","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제35조","title":"금지행위","officialUrl":"https://www.law.go.kr/법령/전자정부법/제35조","up":[],"down":[]}]}],"P15":[{"law":"행정정보 공동이용 지침","article":"제32조제2항제3호·제35조(개인정보 침해사고 등의 대응)","text":"이용기관의 개인정보보호책임자는 주기적인 업무 실태점검 및 개인정보보호 실태점검을 실시하고 그에 관한 기록을 유지하여야 하며, 공동이용센터는 공동이용 기록을 주기적으로 조사하여 위반사항이 있는 경우 해당 이용기관에 필요한 조치를 취하도록 하여야 한다.","found":false,"lawId":null,"tier":null,"articles":[{"label":"제32조","title":null,"officialUrl":null,"up":[],"down":[]},{"label":"제35조","title":null,"officialUrl":null,"up":[],"down":[]}]},{"law":"전자정부법","article":"제38조","text":"공동이용이 특정 이용목적에 필요한 범위에서 이루어지는지 점검한다.(제4항)","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제38조","title":"공동이용 행정정보","officialUrl":"https://www.law.go.kr/법령/전자정부법/제38조","up":[],"down":[{"kind":"decree","phrase":"유형 등은 대통령령으로","lawName":"전자정부법 시행령","label":"제43조","title":"행정정보 공동이용 대상 행정정보의 종류","tier":"decree"}]}]}],"P16":[{"law":"전자정부법","article":"제41조","text":"행정안전부장관은 이용기관이 공동이용 조건을 위반하거나 금지행위·준수의무를 위반한 경우 공동이용 승인을 철회하거나 공동이용을 일시 정지시킬 수 있다.(제1항·제2항)","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제41조","title":"행정정보 공동이용 승인의 철회 및 정지","officialUrl":"https://www.law.go.kr/법령/전자정부법/제41조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 경우","lawName":"전자정부법 시행령","label":"제47조","title":"행정정보 공동이용 승인의 철회 및 정지","tier":"decree"},{"kind":"decree","phrase":"필요한 사항은 대통령령으로","lawName":"전자정부법 시행령","label":"제47조","title":"행정정보 공동이용 승인의 철회 및 정지","tier":"decree"}]}]},{"law":"전자정부법","article":"제35조","text":"권한 없는 처리·승인받지 아니한 방식의 공동이용 등 금지행위 위반을 시정 대상으로 한다.","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제35조","title":"금지행위","officialUrl":"https://www.law.go.kr/법령/전자정부법/제35조","up":[],"down":[]}]}],"P17":[{"law":"전자정부법","article":"제39조","text":"공동이용하려는 행정정보가 개인정보파일인 경우 행정안전부장관은 개인정보 보호위원회의 심의·의결을 거쳐 공동이용을 승인하여야 한다.(제4항)","found":true,"lawId":"009199","tier":"statute","articles":[{"label":"제39조","title":"행정정보 공동이용의 신청ㆍ승인","officialUrl":"https://www.law.go.kr/법령/전자정부법/제39조","up":[],"down":[{"kind":"decree","phrase":"기관은 대통령령으로","lawName":"전자정부법 시행령","label":"제44조","title":"공동이용 신청","tier":"decree"},{"kind":"decree","phrase":"받으면 대통령령으로","lawName":"전자정부법 시행령","label":"제45조","title":"행정정보 공동이용의 승인","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 경우","lawName":"전자정부법 시행령","label":"제45조","title":"행정정보 공동이용의 승인","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에 따라 다음","lawName":"선거관리위원회 행정업무 등의 전자화촉진에 관한 규칙","label":"제30조","title":"공동이용관리자 지정·운영 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에 따라 다음","lawName":"전자정부법 시행령","label":"제46조","title":"공동이용관리자 지정ㆍ운영 등","tier":"decree"}]}]},{"law":"개인정보 보호법","article":"제28조(개인정보취급자에 대한 감독)","text":"개인정보처리자는 개인정보취급자에 대하여 적절한 관리·감독을 행하여야 한다.","found":true,"lawId":"011357","tier":"statute","articles":[{"label":"제28조","title":"개인정보취급자에 대한 감독","officialUrl":"https://www.law.go.kr/법령/개인정보보호법/제28조","up":[],"down":[]}]}]},"systems":{"009199":{"lawId":"009199","name":"전자정부법","href":"/law/009199/","ministry":"행정안전부","effectiveOn":"2026-08-28","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"전자정부법","kind":"법률","articleCount":100,"officialUrl":"https://www.law.go.kr/법령/전자정부법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":100},{"tier":"decree","label":"시행령","laws":[{"name":"전자정부법 시행령","kind":"대통령령","articleCount":121,"officialUrl":"https://www.law.go.kr/법령/전자정부법시행령"},{"name":"선거관리위원회 행정업무 등의 전자화촉진에 관한 규칙","kind":"중앙선거관리위원회규칙","articleCount":37,"officialUrl":"https://www.law.go.kr/법령/선거관리위원회행정업무등의전자화촉진에관한규칙"},{"name":"법원 행정전자서명 인증업무에 관한 규칙","kind":"대법원규칙","articleCount":11,"officialUrl":"https://www.law.go.kr/법령/법원행정전자서명인증업무에관한규칙"},{"name":"헌법재판소사무처 행정업무 등의 전자적 처리에 관한 규칙","kind":"헌법재판소규칙","articleCount":35,"officialUrl":"https://www.law.go.kr/법령/헌법재판소사무처행정업무등의전자적처리에관한규칙"}],"kinds":[{"kind":"대통령령","count":1},{"kind":"중앙선거관리위원회규칙","count":1},{"kind":"대법원규칙","count":1},{"kind":"헌법재판소규칙","count":1}],"articleCount":204},{"tier":"rule","label":"시행규칙","laws":[{"name":"전자정부법 시행규칙","kind":"행정안전부령","articleCount":3,"officialUrl":"https://www.law.go.kr/법령/전자정부법시행규칙"}],"kinds":[{"kind":"행정안전부령","count":1}],"articleCount":3},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"스마트워크센터 이용 및 운영지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/스마트워크센터이용및운영지침"},{"name":"자치단체 정보시스템 장애 예방 및 대응 지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/자치단체정보시스템장애예방및대응지침"},{"name":"전자정부지원사업 관리지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/전자정부지원사업관리지침"},{"name":"정보자원통합심의위원회 운영세칙","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/정보자원통합심의위원회운영세칙"},{"name":"지방자치단체 우수정보시스템의 선정 및 공동활용 지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방자치단체우수정보시스템의선정및공동활용지침"},{"name":"행정정보 공동이용 지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정정보공동이용지침"},{"name":"공동이용 대상 행정정보 현황","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/공동이용대상행정정보현황"},{"name":"교육부 행정전자서명 인증업무지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/교육부행정전자서명인증업무지침"},{"name":"국가기준데이터 관리지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국가기준데이터관리지침"},{"name":"국가기준데이터 목록 등 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국가기준데이터목록등고시"},{"name":"민간서비스 활용을 통한 전자적 대민서비스 제공 등에 관한 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/민간서비스활용을통한전자적대민서비스제공등에관한규정"},{"name":"본인에 관한 행정정보의 제공 등에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/본인에관한행정정보의제공등에관한고시"},{"name":"수혜적 공공서비스 목록관리 및 맞춤 안내에 관한 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/수혜적공공서비스목록관리및맞춤안내에관한규정"},{"name":"전자정부 성과관리 지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/전자정부성과관리지침"},{"name":"전자정부 웹사이트 품질관리 지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/전자정부웹사이트품질관리지침"},{"name":"전자정부사업관리 위탁에 관한 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/전자정부사업관리위탁에관한규정"},{"name":"정보시스템 감리기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/정보시스템감리기준"},{"name":"정부디렉터리시스템 관리지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/정부디렉터리시스템관리지침"},{"name":"지능형 전자정부서비스 도입 및 관리지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지능형전자정부서비스도입및관리지침"},{"name":"첨단 정보기술을 활용한 공공서비스 지원사업 관리지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/첨단정보기술을활용한공공서비스지원사업관리지침"},{"name":"통합인증 게이트웨이 기술규격","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/통합인증게이트웨이기술규격"},{"name":"행정·공공기관 RFID표준코드 관리지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정·공공기관RFID표준코드관리지침"},{"name":"행정기관 및 공공기관 영상회의시스템 상호연계 기술 표준규격","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정기관및공공기관영상회의시스템상호연계기술표준규격"},{"name":"행정기관 및 공공기관 정보시스템 구축·운영 지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정기관및공공기관정보시스템구축·운영지침"},{"name":"행정기관 및 공공기관 정보시스템 안정성 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정기관및공공기관정보시스템안정성고시"},{"name":"행정기관 및 공공기관 정보자원 통합기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정기관및공공기관정보자원통합기준"},{"name":"행정기관의 코드표준화 추진지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정기관의코드표준화추진지침"},{"name":"행정사무정보처리용 무인민원발급기(KIOSK) 표준규격","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정사무정보처리용무인민원발급기(KIOSK)표준규격"},{"name":"행정사무정보처리용 무인민원발급기의 전자적 본인확인장치 표준규격","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정사무정보처리용무인민원발급기의전자적본인확인장치표준규격"},{"name":"행정업무용 표준 관리규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정업무용표준관리규정"},{"name":"행정전자서명 인증업무지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정전자서명인증업무지침"},{"name":"모바일 전자정부 서비스 관리 지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/모바일전자정부서비스관리지침"},{"name":"전자정부사업관리 위탁용역계약 특수조건","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/전자정부사업관리위탁용역계약특수조건"},{"name":"사법부 유연근무제 실시 및 운영에 관한 예규","kind":"행정예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/사법부유연근무제실시및운영에관한예규"},{"name":"생활정보 열람서비스의 종류 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/생활정보열람서비스의종류고시"},{"name":"정보기술아키텍처 도입·운영 지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/정보기술아키텍처도입·운영지침"},{"name":"조달청 해외조달시장 진출지원시스템 운영규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/조달청해외조달시장진출지원시스템운영규정"},{"name":"행정기관 및 공공기관의 클라우드컴퓨팅서비스 이용 기준 및 안전성 확보 등에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정기관및공공기관의클라우드컴퓨팅서비스이용기준및안전성확보등에관한고시"},{"name":"수혜적 공공서비스 목록 제공에 관한 지침","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/수혜적공공서비스목록제공에관한지침"},{"name":"유비쿼터스 기반의 전자정부서비스 지원사업 관리지침","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/유비쿼터스기반의전자정부서비스지원사업관리지침"},{"name":"행정·공공기관 영상회의시스템 상호연계 기술 표준규격","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정·공공기관영상회의시스템상호연계기술표준규격"},{"name":"행정·공공기관 RFID 기관코드 관리지침","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정·공공기관RFID기관코드관리지침"}],"kinds":[{"kind":"고시","count":29},{"kind":"예규","count":8},{"kind":"행정규칙","count":4},{"kind":"행정예규","count":1}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EC%A0%84%EC%9E%90%EC%A0%95%EB%B6%80%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":142,"rule":15,"adminRule":52,"ordinance":0,"cites":203}},"011357":{"lawId":"011357","name":"개인정보 보호법","href":"/law/011357/","ministry":"개인정보보호위원회","effectiveOn":"2026-09-11","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"개인정보 보호법","kind":"법률","articleCount":127,"officialUrl":"https://www.law.go.kr/법령/개인정보보호법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":127},{"tier":"decree","label":"시행령","laws":[{"name":"개인정보 보호법 시행령","kind":"대통령령","articleCount":142,"officialUrl":"https://www.law.go.kr/법령/개인정보보호법시행령"},{"name":"개인정보 보호위원회 직제","kind":"대통령령","articleCount":14,"officialUrl":"https://www.law.go.kr/법령/개인정보보호위원회직제"},{"name":"개인정보 단체소송규칙","kind":"대법원규칙","articleCount":14,"officialUrl":"https://www.law.go.kr/법령/개인정보단체소송규칙"},{"name":"법원 개인정보 보호에 관한 규칙","kind":"대법원규칙","articleCount":10,"officialUrl":"https://www.law.go.kr/법령/법원개인정보보호에관한규칙"},{"name":"헌법재판소 개인정보 보호 규칙","kind":"헌법재판소규칙","articleCount":13,"officialUrl":"https://www.law.go.kr/법령/헌법재판소개인정보보호규칙"},{"name":"선거관리위원회 개인정보 보호에 관한 규칙","kind":"선거관리위원회규칙","articleCount":10,"officialUrl":"https://www.law.go.kr/법령/선거관리위원회개인정보보호에관한규칙"}],"kinds":[{"kind":"대통령령","count":2},{"kind":"대법원규칙","count":2},{"kind":"헌법재판소규칙","count":1},{"kind":"선거관리위원회규칙","count":1}],"articleCount":203},{"tier":"rule","label":"시행규칙","laws":[{"name":"개인정보 보호위원회 직제 시행규칙","kind":"총리령","articleCount":12,"officialUrl":"https://www.law.go.kr/법령/개인정보보호위원회직제시행규칙"}],"kinds":[{"kind":"총리령","count":1}],"articleCount":12},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"(개인정보보호위원회) 개인정보 보호 자율규제단체 지정 및 운영 등에 관한 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/(개인정보보호위원회)개인정보보호자율규제단체지정및운영등에관한규정"},{"name":"가명정보의 결합 및 반출 등에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/가명정보의결합및반출등에관한고시"},{"name":"가스 분야 개인정보 전송에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/가스분야개인정보전송에관한고시"},{"name":"개인정보 국외 이전 운영 등에 관한 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보국외이전운영등에관한규정"},{"name":"개인정보 보호 법규 위반에 대한 징계권고 기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보보호법규위반에대한징계권고기준"},{"name":"개인정보 보호법 위반에 대한 과징금 부과기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보보호법위반에대한과징금부과기준"},{"name":"개인정보 보호법 위반에 대한 과태료 부과기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보보호법위반에대한과태료부과기준"},{"name":"개인정보 보호수준 평가에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보보호수준평가에관한고시"},{"name":"개인정보 보호책임자 지정 및 경력 인정에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보보호책임자지정및경력인정에관한고시"},{"name":"개인정보 영향평가에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보영향평가에관한고시"},{"name":"개인정보 전송 및 개인정보관리 전문기관 지정 등에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보전송및개인정보관리전문기관지정등에관한고시"},{"name":"개인정보 처리 방법에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보처리방법에관한고시"},{"name":"개인정보 처리방침 평가에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보처리방침평가에관한고시"},{"name":"개인정보의 안전성 확보조치 기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보의안전성확보조치기준"},{"name":"보건의료 분야 개인정보 전송에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/보건의료분야개인정보전송에관한고시"},{"name":"자동화된 결정에 대한 개인정보처리자의 조치 기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/자동화된결정에대한개인정보처리자의조치기준"},{"name":"정보보호 및 개인정보보호 관리체계 인증 등에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/정보보호및개인정보보호관리체계인증등에관한고시"},{"name":"통신 분야 개인정보 전송에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/통신분야개인정보전송에관한고시"},{"name":"표준 개인정보 보호지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/표준개인정보보호지침"},{"name":"개인정보보호위원회 개인정보보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보보호위원회개인정보보호지침"},{"name":"고용노동부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용노동부개인정보보호지침"},{"name":"과학기술정보통신부 개인정보보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/과학기술정보통신부개인정보보호지침"},{"name":"관세청 개인정보 보호에 관한 훈령","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/관세청개인정보보호에관한훈령"},{"name":"교육부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/교육부개인정보보호지침"},{"name":"국가보훈부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국가보훈부개인정보보호지침"},{"name":"국무조정실 및 국무총리비서실 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국무조정실및국무총리비서실개인정보보호지침"},{"name":"국민권익위원회 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국민권익위원회개인정보보호지침"},{"name":"국방 개인정보보호 훈령","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국방개인정보보호훈령"},{"name":"국세청 개인정보 보호 지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국세청개인정보보호지침"},{"name":"국토교통부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국토교통부개인정보보호지침"},{"name":"기후에너지환경부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/기후에너지환경부개인정보보호지침"},{"name":"농림축산식품부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/농림축산식품부개인정보보호지침"},{"name":"문화체육관광부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/문화체육관광부개인정보보호지침"},{"name":"법무부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/법무부개인정보보호지침"},{"name":"병무청 개인정보보호 관리 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/병무청개인정보보호관리규정"},{"name":"보건복지부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/보건복지부개인정보보호지침"},{"name":"산림청 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/산림청개인정보보호지침"},{"name":"산업통상자원부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/산업통상자원부개인정보보호지침"},{"name":"새만금개발청 개인정보보호 세부지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/새만금개발청개인정보보호세부지침"},{"name":"외교부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/외교부개인정보보호지침"},{"name":"우정사업본부 개인정보 보호 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/우정사업본부개인정보보호규정"},{"name":"우주항공청 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/우주항공청개인정보보호지침"},{"name":"원자력안전위원회 개인정보보호 지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/원자력안전위원회개인정보보호지침"},{"name":"재외동포청 개인정보보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/재외동포청개인정보보호지침"},{"name":"중소벤처기업부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/중소벤처기업부개인정보보호지침"},{"name":"지식재산처 개인정보보호 세부지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지식재산처개인정보보호세부지침"},{"name":"통일부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/통일부개인정보보호지침"},{"name":"해양경찰청 개인정보 보호규칙","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/해양경찰청개인정보보호규칙"},{"name":"해양수산부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/해양수산부개인정보보호지침"},{"name":"행정안전부 개인정보보호 지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정안전부개인정보보호지침"},{"name":"행정중심복합도시건설청 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정중심복합도시건설청개인정보보호지침"},{"name":"경찰청 개인정보 보호 규칙","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/경찰청개인정보보호규칙"},{"name":"고위공직자범죄수사처 개인정보 보호지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고위공직자범죄수사처개인정보보호지침"},{"name":"국가데이터처 개인정보 보호지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국가데이터처개인정보보호지침"},{"name":"국가인권위원회 개인정보보호 지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국가인권위원회개인정보보호지침"},{"name":"소방청 개인정보 보호규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/소방청개인정보보호규정"},{"name":"개인정보 보호 법규 위반에 대한 고발 기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보보호법규위반에대한고발기준"},{"name":"개인정보 보호위원회의 조사 및 처분에 관한 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보보호위원회의조사및처분에관한규정"},{"name":"개인정보보호위원회 사전적정성 검토제 운영규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보보호위원회사전적정성검토제운영규정"},{"name":"디지털 포렌식 지원 및 증거 보관·관리 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/디지털포렌식지원및증거보관·관리규정"},{"name":"전기 분야 개인정보 전송에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/전기분야개인정보전송에관한고시"},{"name":"개인정보 보호위원회 운영규칙","kind":"규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보보호위원회운영규칙"},{"name":"(개인정보보호위원회) 표준 개인정보 보호지침","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/(개인정보보호위원회)표준개인정보보호지침"},{"name":"우정사업본부 개인정보 보호 지침","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/우정사업본부개인정보보호지침"},{"name":"통계청 개인정보 보호지침","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/통계청개인정보보호지침"},{"name":"특허청 개인정보보호 세부지침","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/특허청개인정보보호세부지침"},{"name":"환경부 개인정보 보호지침","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/환경부개인정보보호지침"},{"name":"국토교통부 개인정보보호 세부지침","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국토교통부개인정보보호세부지침"},{"name":"(개인정보보호위원회) 개인정보의 안전성 확보조치 기준","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/(개인정보보호위원회)개인정보의안전성확보조치기준"},{"name":"(개인정보보호위원회) 정보보호 및 개인정보보호 관리체계 인증 등에 관한 고시","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/(개인정보보호위원회)정보보호및개인정보보호관리체계인증등에관한고시"}],"kinds":[{"kind":"훈령","count":32},{"kind":"고시","count":24},{"kind":"행정규칙","count":8},{"kind":"예규","count":5},{"kind":"규칙","count":1}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%20%EB%B3%B4%ED%98%B8%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":153,"rule":11,"adminRule":112,"ordinance":2,"cites":191}}}},"statusStyles":{"done":{"label":"선행","fill":"#effaf5","border":"#35a77d","ink":"#123d2e","sub":"#287a5c"},"current":{"label":"핵심","fill":"#087452","border":"#087452","ink":"#ffffff","sub":"#d8f4e8"},"waiting":{"label":"후속","fill":"#ffffff","border":"#b9c7bf","ink":"#17231d","sub":"#627169"},"risk":{"label":"병목","fill":"#fff8e8","border":"#d9901a","ink":"#7a4305","sub":"#a96008"},"loop":{"label":"회귀","fill":"#edf4ff","border":"#3478db","ink":"#173f7a","sub":"#316bbd"}},"basisLegend":[{"label":"법률","fill":"#ffffff","border":"#3b4a43"},{"label":"시행령","fill":"#f2f6ff","border":"#2456d6"},{"label":"시행규칙","fill":"#effaf6","border":"#0f9f72"},{"label":"행정규칙","fill":"#f6f2ff","border":"#7c56c9"}],"isLawIndex":false}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Eu-UvfunzEwjnKcUq5f7W"}
+4:["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","precedence":"next"}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

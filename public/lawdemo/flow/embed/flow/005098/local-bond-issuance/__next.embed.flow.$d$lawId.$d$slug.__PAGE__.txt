@@ -1,0 +1,336 @@
+1:"$Sreact.fragment"
+2:I[7742,["838","static/chunks/838-9b85aecee2a13f53.js","379","static/chunks/379-f104668f756ddde1.js","301","static/chunks/app/embed/flow/%5BlawId%5D/%5Bslug%5D/page-e3d0b6acb7d5d0b3.js"],"default"]
+6:I[977,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+:HL["/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","style"]
+3:T6623,<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 250 1744 1960" class="pp-svg">
+<defs>
+      <filter id="card-shadow" x="-20%" y="-25%" width="140%" height="160%">
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#12271e" flood-opacity="0.10"/>
+      </filter>
+      <marker id="arrow-sequence" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#53675d" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-message" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#0f8a65" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-loop" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#3478db" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <style>
+        text { font-family: "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", sans-serif; }
+        .mono { font-family: "SFMono-Regular", "Menlo", monospace; }
+      </style>
+    </defs>
+<rect width="1800" height="2400" fill="#ffffff"/>
+
+
+
+<rect x="38" y="260" width="1724" height="1940" rx="10" fill="#ffffff" stroke="#b8c7bf" stroke-width="2"/>
+<rect x="38" y="260" width="190" height="100" rx="10" fill="#eaf2ee"/>
+<text x="58" y="299" font-size="17" font-weight="800" fill="#17231d">단계 ↓</text>
+<text x="58" y="332" font-size="15" font-weight="650" fill="#68776f">행위자 묶음 →</text>
+<rect x="38" y="360" width="1724" height="249.7" fill="#fbfcfb"/>
+<rect x="38" y="360" width="190" height="249.7" fill="#eef3f0"/>
+<text x="58" y="392" class="mono" font-size="16" font-weight="800" fill="#53645b">G0</text>
+<text x="58" y="425" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">대상인지</tspan></text>
+<rect x="38" y="609.7" width="1724" height="249.7" fill="#f5f8f6"/>
+<rect x="38" y="609.7" width="190" height="249.7" fill="#eef3f0"/>
+<text x="58" y="641.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G1</text>
+<text x="58" y="674.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">접수·제안</tspan></text>
+<rect x="38" y="859.3" width="1724" height="477.7" fill="#fbfcfb"/>
+<rect x="38" y="859.3" width="190" height="477.7" fill="#eef3f0"/>
+<text x="58" y="891.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G2</text>
+<text x="58" y="924.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">요건검토</tspan></text>
+<rect x="38" y="1337" width="1724" height="249.7" fill="#f5f8f6"/>
+<rect x="38" y="1337" width="190" height="249.7" fill="#eef3f0"/>
+<text x="58" y="1369" class="mono" font-size="16" font-weight="800" fill="#53645b">G3</text>
+<text x="58" y="1402" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">심의·결정</tspan></text>
+<rect x="38" y="1586.7" width="1724" height="363.7" fill="#fbfcfb"/>
+<rect x="38" y="1586.7" width="190" height="363.7" fill="#eef3f0"/>
+<text x="58" y="1618.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G4</text>
+<text x="58" y="1651.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">집행·공개</tspan></text>
+<rect x="38" y="1950.3" width="1724" height="249.7" fill="#f5f8f6"/>
+<rect x="38" y="1950.3" width="190" height="249.7" fill="#eef3f0"/>
+<text x="58" y="1982.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G5</text>
+<text x="58" y="2015.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">사후관리</tspan></text>
+<rect x="228" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="228" y="260" width="383.5" height="7" fill="#0f9f72"/>
+<text x="248" y="299" font-size="20" font-weight="800" fill="#17231d">주민·이해관계자</text>
+<text x="248" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="248" dy="0">주민·이해관계자</tspan></text>
+<rect x="611.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="611.5" y="260" width="383.5" height="7" fill="#3b82f6"/>
+<text x="631.5" y="299" font-size="20" font-weight="800" fill="#17231d">지방자치단체</text>
+<text x="631.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="631.5" dy="0">지방자치단체</tspan></text>
+<rect x="995" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="995" y="260" width="383.5" height="7" fill="#c78116"/>
+<text x="1015" y="299" font-size="20" font-weight="800" fill="#17231d">지방의회·선관위</text>
+<text x="1015" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1015" dy="0">지방의회·선관위</tspan></text>
+<rect x="1378.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="1378.5" y="260" width="383.5" height="7" fill="#0891b2"/>
+<text x="1398.5" y="299" font-size="20" font-weight="800" fill="#17231d">중앙부처·관계기관</text>
+<text x="1398.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1398.5" dy="0">중앙부처·관계기관</tspan></text>
+<line x1="228" y1="260" x2="228" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="611.5" y1="260" x2="611.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="995" y1="260" x2="995" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1378.5" y1="260" x2="1378.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1762" y1="260" x2="1762" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#b8c7bf" stroke-width="2"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="609.7" x2="1762" y2="609.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="859.3" x2="1762" y2="859.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1337" x2="1762" y2="1337" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1586.7" x2="1762" y2="1586.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1950.3" x2="1762" y2="1950.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2200" x2="1762" y2="2200" stroke="#b8c7bf" stroke-width="2"/>
+<g class="pp-edge" data-edge-id="E01" data-source="P01" data-target="P02">
+<path d="M 419.8 529.8 V 597.7 H 409.8 V 681.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 419.8 529.8 V 597.7 H 409.8 V 681.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E02" data-source="P02" data-target="P03">
+<path d="M 554.8 741 H 640.3 V 730.5 H 660.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 741 H 640.3 V 730.5 H 660.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E03" data-source="P03" data-target="P04">
+<path d="M 801.3 779.5 V 831.3 H 793.3 V 931.2" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 801.3 779.5 V 831.3 H 793.3 V 931.2" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E04" data-source="P04" data-target="P05">
+<path d="M 819.3 1029.2 V 1045.2 H 801.3 V 1045.2" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 819.3 1029.2 V 1045.2 H 801.3 V 1045.2" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E05" data-source="P05" data-target="P06">
+<path d="M 938.3 1127.7 H 1029 V 1293 H 1592.3 V 1408.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 1127.7 H 1029 V 1293 H 1592.3 V 1408.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E06" data-source="P06" data-target="P07">
+<path d="M 1435.3 1457.8 H 595.8 V 1470.8 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1435.3 1457.8 H 595.8 V 1470.8 H 562.8" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E07" data-source="P07" data-target="P10">
+<path d="M 554.8 1455.3 H 1023.8 V 1455.3 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1455.3 H 1023.8 V 1455.3 H 1043.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E08" data-source="P05" data-target="P08">
+<path d="M 781.3 1143.2 V 1159.2 H 825.3 V 1159.2" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 781.3 1143.2 V 1159.2 H 825.3 V 1159.2" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E09" data-source="P08" data-target="P09">
+<path d="M 668.3 1205.7 H 582.8 V 1104.7 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 668.3 1205.7 H 582.8 V 1104.7 H 562.8" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L01" data-source="P09" data-target="P05">
+<path d="M 554.8 1094.2 H 627.3 V 1081.2 H 660.3" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1094.2 H 627.3 V 1081.2 H 660.3" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E10" data-source="P10" data-target="P11">
+<path d="M 1208.8 1506.8 V 1542.7 H 825.3 V 1658.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1208.8 1506.8 V 1542.7 H 825.3 V 1658.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E11" data-source="P11" data-target="P12">
+<path d="M 799.3 1756.5 V 1772.5 H 807.3 V 1772.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 799.3 1756.5 V 1772.5 H 807.3 V 1772.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E12" data-source="P12" data-target="P13">
+<path d="M 668.3 1819 H 582.8 V 1762 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 668.3 1819 H 582.8 V 1762 H 562.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E13" data-source="P13" data-target="P14">
+<path d="M 417.8 1813.5 V 1922.3 H 1564.3 V 2022.2" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 417.8 1813.5 V 1922.3 H 1564.3 V 2022.2" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge-label" data-edge-id="E08" data-source="P05" data-target="P08">
+<rect x="1010.3" y="1140.2" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1058.3" y="1160.2" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">자료 보완</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L01" data-source="P09" data-target="P05">
+<rect x="481.6" y="983.7" width="119.8" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="541.5" y="1003.7" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">보완 후 재검토</text>
+</g>
+
+    <g class="pp-node" data-node-id="P01" data-basis="지방재정법:제11조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="439.8" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="439.8" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="459.8" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P01</text>
+      
+      <rect x="485.8" y="446.8" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="463.8" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §11</text>
+      <text x="299.8" y="496.8" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">대상·사안 인지</tspan></text>
+      <text x="299.8" y="521.8" font-size="11" font-weight="650" fill="#3b4a43">주민·이해관계자</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P02" data-basis="지방재정법:제11조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="689.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="689.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="709.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P02</text>
+      
+      <rect x="485.8" y="696.5" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="713.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §11</text>
+      <text x="299.8" y="746.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">의견·청구 제출</tspan></text>
+      <text x="299.8" y="771.5" font-size="11" font-weight="650" fill="#3b4a43">주민·이해관계자</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P03" data-basis="지방재정법:제11조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="689.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="689.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="709.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">▣ P03</text>
+      
+      <rect x="869.3" y="696.5" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="713.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §11</text>
+      <text x="683.3" y="746.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">접수·공고</tspan></text>
+      <text x="683.3" y="771.5" font-size="11" font-weight="650" fill="#3b4a43">지방자치단체</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P04" data-basis="지방재정법:제11조 지방재정법시행령:제10조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="939.2" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="939.2" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="959.2" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P04</text>
+      
+      <rect x="852.3" y="946.2" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="963.2" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §11 +1</text>
+      <text x="683.3" y="996.2" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">관할·요건 확인</tspan></text>
+      <text x="683.3" y="1021.2" font-size="11" font-weight="650" fill="#3b4a43">지방자치단체</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P05" data-basis="지방재정법:제11조 지방재정법:제11조의2" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1053.2" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1053.2" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1073.2" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P05</text>
+      
+      <rect x="852.3" y="1060.2" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="1077.2" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §11 +1</text>
+      <text x="683.3" y="1110.2" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">법정 기준 검토</tspan></text>
+      <text x="683.3" y="1135.2" font-size="11" font-weight="650" fill="#3b4a43">지방자치단체</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P06" data-basis="지방재정법:제11조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="1416.8" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="1416.8" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="1436.8" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">▣ P06</text>
+      
+      <rect x="1619.3" y="1423.8" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1657.3" y="1440.8" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §11 +1</text>
+      <text x="1450.3" y="1473.8" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">관계기관 협의</tspan></text>
+      <text x="1450.3" y="1498.8" font-size="11" font-weight="650" fill="#3b4a43">중앙부처·관계기관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P07" data-basis="지방재정법:제11조의2" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1416.8" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1416.8" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1436.8" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P07</text>
+      
+      <rect x="466.8" y="1423.8" width="78" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="505.8" y="1440.8" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §11의2</text>
+      <text x="299.8" y="1473.8" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">주민·기관 의견 제출</tspan></text>
+      <text x="299.8" y="1498.8" font-size="11" font-weight="650" fill="#3b4a43">주민·이해관계자</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P08" data-basis="지방재정법:제11조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1167.2" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1167.2" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1187.2" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P08</text>
+      
+      <rect x="869.3" y="1174.2" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1191.2" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §11</text>
+      <text x="683.3" y="1224.2" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">보완 요구</tspan></text>
+      <text x="683.3" y="1249.2" font-size="11" font-weight="650" fill="#3b4a43">지방자치단체</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P09" data-basis="지방재정법:제11조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1053.2" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1053.2" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1073.2" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P09</text>
+      
+      <rect x="485.8" y="1060.2" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="1077.2" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §11</text>
+      <text x="299.8" y="1110.2" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">보완 자료 제출</tspan></text>
+      <text x="299.8" y="1135.2" font-size="11" font-weight="650" fill="#3b4a43">주민·이해관계자</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P10" data-basis="지방재정법:제11조 지방자치법:제139조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1416.8" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1416.8" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1436.8" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P10</text>
+      
+      <rect x="1235.8" y="1423.8" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1440.8" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §11 +1</text>
+      <text x="1066.8" y="1473.8" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">지방채 발행 결정</tspan></text>
+      <text x="1066.8" y="1498.8" font-size="11" font-weight="650" fill="#3b4a43">지방의회·선관위</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P11" data-basis="지방재정법:제11조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1666.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1666.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1686.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P11</text>
+      
+      <rect x="869.3" y="1673.5" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1690.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §11</text>
+      <text x="683.3" y="1723.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">결정 통지·공개</tspan></text>
+      <text x="683.3" y="1748.5" font-size="11" font-weight="650" fill="#3b4a43">지방자치단체</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P12" data-basis="지방재정법:제12조 지방재정법시행령:제11조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1780.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1780.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1800.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P12</text>
+      
+      <rect x="852.3" y="1787.5" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="1804.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §12 +1</text>
+      <text x="683.3" y="1837.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">집행·교부·관리</tspan></text>
+      <text x="683.3" y="1862.5" font-size="11" font-weight="650" fill="#3b4a43">지방자치단체</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P13" data-basis="지방재정법:제12조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1723.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1723.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1743.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P13</text>
+      
+      <rect x="485.8" y="1730.5" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="1747.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §12</text>
+      <text x="299.8" y="1780.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">주민 권리·이행 확인</tspan></text>
+      <text x="299.8" y="1805.5" font-size="11" font-weight="650" fill="#3b4a43">주민·이해관계자</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P14" data-basis="지방재정법:제12조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="2030.2" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="2030.2" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="2050.2" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P14</text>
+      
+      <rect x="1636.3" y="2037.2" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1665.8" y="2054.2" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §12</text>
+      <text x="1450.3" y="2087.2" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">사후 공개·개선</tspan></text>
+      <text x="1450.3" y="2112.2" font-size="11" font-weight="650" fill="#3b4a43">중앙부처·관계기관</text>
+    </g>
+  
+
+</svg>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"law":{"lawId":"005098","mst":"281539","name":"지방재정법 시행령","kind":"대통령령","tier":"decree","effectiveOn":"2026-01-02","officialUrl":"https://www.law.go.kr/법령/지방재정법시행령"},"flows":[{"slug":"participatory-budgeting","name":"주민참여예산","oneLiner":"예산 편성 등 예산과정에 주민이 사업을 제안하고 우선순위를 정하도록 참여를 보장하는 제도. 지방재정법상 모든 지자체가 절차를 두어야 한다.","citingSteps":6,"totalSteps":14,"articles":{"제46조":6}},{"slug":"local-finance-investment-review-feasibility","name":"지방재정 투자심사·타당성조사","oneLiner":"투자사업 계획·자료 작성 → 중기지방재정계획 연계 확인 → 심사유형·제외 여부 판정 → 타당성조사 대상 판정 → 타당성조사 전문기관 의뢰 → 수요·비용편익·재정 분석 → 타당성조사 결과 제출·반영 → 투자심사 의뢰서 제출 → 의뢰자료 사전검토·반려 → 투자심사위원회 본심사 → 심사결과 유형 결정 → 심사결과·조건 통보 → 심사조건 이행·예산 편성 → 계획변경·재심사 사유 확인 → 보완계획 재심사 의뢰 → 추진상황 공개·사후평가","citingSteps":2,"totalSteps":16,"articles":{"제41조":1,"제41조의2":2}},{"slug":"local-bond-issuance","name":"지방채 발행","oneLiner":"지방자치단체가 법정 한도와 절차에 따라 지방채를 발행·관리하는 절차","citingSteps":2,"totalSteps":14,"articles":{"제10조":1,"제11조":1}},{"slug":"local-adjustment-grant","name":"조정교부금(광역–기초)","oneLiner":"시·도와 자치구·시군 사이의 조정교부금을 산정·교부·공개하는 절차","citingSteps":1,"totalSteps":14,"articles":{"제36조의2":1}}],"current":"$0:rsc:props:children:0:props:flows:2","asOfDate":"2026-07-13","reviewNote":"주요 절차를 요약한 참고 모델입니다. 모든 예외·위임규정의 현행성까지 전수 검증한 자료는 아닙니다. 법령 체계의 보관 자료와 현행 원문은 다를 수 있습니다.","svg":"$3","nodes":[{"id":"P01","name":"대상·사안 인지","lane":"주민·이해관계자","stage":"G0 대상인지","type":"notice","status":"done","progress":100,"actor":"주민·이해관계자","action":"제도 적용 대상과 쟁점을 확인","output_documents":["대상 확인 기록"],"deadline":null,"blocker":null,"confidence":0.9,"legal_basis":[{"law":"지방재정법","article":"제11조","text":"지방채의 발행에 관한 절차와 기준을 정한다."}]},{"id":"P02","name":"의견·청구 제출","lane":"주민·이해관계자","stage":"G1 접수·제안","type":"task","status":"done","progress":100,"actor":"주민·이해관계자","action":"주민·이해관계자가 의견·청구 또는 자료를 제출","output_documents":["의견·청구서"],"deadline":null,"blocker":null,"confidence":0.9,"legal_basis":[{"law":"지방재정법","article":"제11조","text":"지방채의 발행에 관한 절차와 기준을 정한다."}]},{"id":"P03","name":"접수·공고","lane":"지방자치단체","stage":"G1 접수·제안","type":"system","status":"done","progress":100,"actor":"지방자치단체","action":"접수 사실과 절차를 공고·안내","output_documents":["접수·공고 기록"],"deadline":null,"blocker":null,"confidence":0.9,"legal_basis":[{"law":"지방재정법","article":"제11조","text":"지방채의 발행에 관한 절차와 기준을 정한다."}]},{"id":"P04","name":"관할·요건 확인","lane":"지방자치단체","stage":"G2 요건검토","type":"gateway","status":"done","progress":100,"actor":"지방자치단체","action":"관할과 법정 요건을 확인","output_documents":["요건 검토서"],"deadline":null,"blocker":null,"confidence":0.9,"legal_basis":[{"law":"지방재정법","article":"제11조제2항","text":"대통령령으로 정하는 지방채 발행 한도액의 범위에서 발행하여야 한다."},{"law":"지방재정법 시행령","article":"제10조","text":"지방채발행 한도액의 산정 등을 정한다."}]},{"id":"P05","name":"법정 기준 검토","lane":"지방자치단체","stage":"G2 요건검토","type":"gateway","status":"current","progress":45,"actor":"지방자치단체","action":"지방채 발행 사유·한도액 적용을 검토(공공청사·재해복구·재정투자 등)","output_documents":["검토 의견"],"deadline":null,"blocker":null,"confidence":0.9,"legal_basis":[{"law":"지방재정법","article":"제11조제1항","text":"지방자치단체의 장은 각 호의 자금 조달에 필요할 때에는 지방채를 발행할 수 있다."},{"law":"지방재정법","article":"제11조의2","text":"지방채는 이 법과 제11조의2 각 호의 법률에 의하지 아니하고는 발행할 수 없다."}]},{"id":"P06","name":"관계기관 협의","lane":"중앙부처·관계기관","stage":"G3 심의·결정","type":"system","status":"waiting","progress":0,"actor":"중앙부처·관계기관","action":"행정안전부장관이 지방채 발행 한도액을 산정·통보하고, 외채·한도초과 발행 시 승인·협의","output_documents":["협의 결과"],"deadline":null,"blocker":null,"confidence":0.9,"legal_basis":[{"law":"지방재정법","article":"제11조제2항","text":"지방자치단체의 장은 대통령령으로 정하는 지방채 발행 한도액의 범위에서 지방의회의 의결을 얻어야 하며, 외채를 발행하는 경우에는 의회 의결 전에 행정안전부장관의 승인을 받아야 한다."},{"law":"지방재정법","article":"제11조제3항","text":"행정안전부장관과 협의한 경우에는 그 협의한 범위에서 지방의회 의결을 얻어 한도액을 초과하여 지방채를 발행할 수 있다."}]},{"id":"P07","name":"주민·기관 의견 제출","lane":"주민·이해관계자","stage":"G3 심의·결정","type":"task","status":"waiting","progress":0,"actor":"주민·이해관계자","action":"의견과 사실관계 자료를 제출","output_documents":["의견서·증빙"],"deadline":null,"blocker":null,"confidence":0.9,"legal_basis":[{"law":"지방재정법","article":"제11조의2","text":"지방채 발행의 제한에 관한 절차와 기준을 정한다."}]},{"id":"P08","name":"보완 요구","lane":"지방자치단체","stage":"G2 요건검토","type":"task","status":"risk","progress":0,"actor":"지방자치단체","action":"판단에 필요한 자료 보완을 요구","output_documents":["보완 요구서"],"deadline":null,"blocker":"기준 적용과 사실관계 자료의 불일치","confidence":0.78,"legal_basis":[{"law":"지방재정법","article":"제11조","text":"지방채의 발행에 관한 절차와 기준을 정한다."}]},{"id":"P09","name":"보완 자료 제출","lane":"주민·이해관계자","stage":"G2 요건검토","type":"task","status":"waiting","progress":0,"actor":"주민·이해관계자","action":"보완 자료를 제출해 재검토를 받음","output_documents":["보완 자료"],"deadline":null,"blocker":null,"confidence":0.9,"legal_basis":[{"law":"지방재정법","article":"제11조","text":"지방채의 발행에 관한 절차와 기준을 정한다."}]},{"id":"P10","name":"지방채 발행 결정","lane":"지방의회·선관위","stage":"G3 심의·결정","type":"task","status":"waiting","progress":0,"actor":"지방의회·선관위","action":"지방의회가 지방채 발행(한도액 범위·협의 초과범위)을 의결","output_documents":["지방채 발행 의결서"],"deadline":null,"blocker":null,"confidence":0.9,"legal_basis":[{"law":"지방재정법","article":"제11조제2항","text":"지방자치단체의 장은 지방채 발행 한도액의 범위에서 지방의회의 의결을 얻어야 한다."},{"law":"지방자치법","article":"제139조제1항","text":"지방자치단체의 장이나 지방자치단체조합은 따로 법률로 정하는 바에 따라 지방채를 발행할 수 있다."}]},{"id":"P11","name":"결정 통지·공개","lane":"지방자치단체","stage":"G4 집행·공개","type":"notice","status":"waiting","progress":0,"actor":"지방자치단체","action":"결정과 적용 범위를 통지·공개","output_documents":["통지·공개 기록"],"deadline":null,"blocker":null,"confidence":0.9,"legal_basis":[{"law":"지방재정법","article":"제11조","text":"지방채의 발행에 관한 절차와 기준을 정한다."}]},{"id":"P12","name":"집행·교부·관리","lane":"지방자치단체","stage":"G4 집행·공개","type":"task","status":"waiting","progress":0,"actor":"지방자치단체","action":"지방채 발행(증권·증서), 원금 상환·이자 지급 사무 집행","output_documents":["집행 기록"],"deadline":null,"blocker":null,"confidence":0.9,"legal_basis":[{"law":"지방재정법","article":"제12조제1항","text":"지방채의 발행, 원금의 상환, 이자의 지급, 증권에 관한 사무절차 및 사무 취급기관은 대통령령으로 정한다."},{"law":"지방재정법 시행령","article":"제11조","text":"지방채발행의 절차를 정한다."}]},{"id":"P13","name":"주민 권리·이행 확인","lane":"주민·이해관계자","stage":"G4 집행·공개","type":"task","status":"waiting","progress":0,"actor":"주민·이해관계자","action":"주민의 참여·권리 행사와 이행 상태를 확인","output_documents":["이행 확인"],"deadline":null,"blocker":null,"confidence":0.9,"legal_basis":[{"law":"지방재정법","article":"제12조","text":"지방채 발행의 절차에 관한 절차와 기준을 정한다."}]},{"id":"P14","name":"사후 공개·개선","lane":"중앙부처·관계기관","stage":"G5 사후관리","type":"task","status":"waiting","progress":0,"actor":"중앙부처·관계기관","action":"결과를 기록·공개하고 개선 과제를 관리","output_documents":["결과보고·개선안"],"deadline":null,"blocker":null,"confidence":0.9,"legal_basis":[{"law":"지방재정법","article":"제12조","text":"지방채 발행의 절차에 관한 절차와 기준을 정한다."}]}],"edges":[{"id":"E01","source":"P01","target":"P02","type":"sequence","label":null},{"id":"E02","source":"P02","target":"P03","type":"message","label":null},{"id":"E03","source":"P03","target":"P04","type":"sequence","label":null},{"id":"E04","source":"P04","target":"P05","type":"sequence","label":null},{"id":"E05","source":"P05","target":"P06","type":"sequence","label":null},{"id":"E06","source":"P06","target":"P07","type":"message","label":null},{"id":"E07","source":"P07","target":"P10","type":"sequence","label":null},{"id":"E08","source":"P05","target":"P08","type":"sequence","label":"자료 보완"},{"id":"E09","source":"P08","target":"P09","type":"message","label":null},{"id":"L01","source":"P09","target":"P05","type":"loop","label":"보완 후 재검토"},{"id":"E10","source":"P10","target":"P11","type":"sequence","label":null},{"id":"E11","source":"P11","target":"P12","type":"sequence","label":null},{"id":"E12","source":"P12","target":"P13","type":"sequence","label":null},{"id":"E13","source":"P13","target":"P14","type":"sequence","label":null}],"lawContext":{"byNode":{"P01":[{"law":"지방재정법","article":"제11조","text":"지방채의 발행에 관한 절차와 기준을 정한다.","found":true,"lawId":"001652","tier":"statute","articles":[{"label":"제11조","title":"지방채의 발행","officialUrl":"https://www.law.go.kr/법령/지방재정법/제11조","up":[],"down":[{"kind":"decree","phrase":"대통령령","lawName":"지방재정법 시행령","label":"제10조","title":"지방채발행 한도액의 산정 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에","lawName":"지방재정법 시행령","label":"제11조","title":"지방채발행의 절차","tier":"decree"}]}]}],"P02":[{"law":"지방재정법","article":"제11조","text":"지방채의 발행에 관한 절차와 기준을 정한다.","found":true,"lawId":"001652","tier":"statute","articles":[{"label":"제11조","title":"지방채의 발행","officialUrl":"https://www.law.go.kr/법령/지방재정법/제11조","up":[],"down":[{"kind":"decree","phrase":"대통령령","lawName":"지방재정법 시행령","label":"제10조","title":"지방채발행 한도액의 산정 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에","lawName":"지방재정법 시행령","label":"제11조","title":"지방채발행의 절차","tier":"decree"}]}]}],"P03":[{"law":"지방재정법","article":"제11조","text":"지방채의 발행에 관한 절차와 기준을 정한다.","found":true,"lawId":"001652","tier":"statute","articles":[{"label":"제11조","title":"지방채의 발행","officialUrl":"https://www.law.go.kr/법령/지방재정법/제11조","up":[],"down":[{"kind":"decree","phrase":"대통령령","lawName":"지방재정법 시행령","label":"제10조","title":"지방채발행 한도액의 산정 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에","lawName":"지방재정법 시행령","label":"제11조","title":"지방채발행의 절차","tier":"decree"}]}]}],"P04":[{"law":"지방재정법","article":"제11조제2항","text":"대통령령으로 정하는 지방채 발행 한도액의 범위에서 발행하여야 한다.","found":true,"lawId":"001652","tier":"statute","articles":[{"label":"제11조","title":"지방채의 발행","officialUrl":"https://www.law.go.kr/법령/지방재정법/제11조","up":[],"down":[{"kind":"decree","phrase":"대통령령","lawName":"지방재정법 시행령","label":"제10조","title":"지방채발행 한도액의 산정 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에","lawName":"지방재정법 시행령","label":"제11조","title":"지방채발행의 절차","tier":"decree"}]}]},{"law":"지방재정법 시행령","article":"제10조","text":"지방채발행 한도액의 산정 등을 정한다.","found":true,"lawId":"001652","tier":"decree","articles":[{"label":"제10조","title":"지방채발행 한도액의 산정 등","officialUrl":"https://www.law.go.kr/법령/지방재정법시행령/제10조","up":[{"kind":"decree","phrase":"대통령령","lawName":"지방재정법","label":"제11조제2항","title":"지방채의 발행","tier":"statute"}],"down":[]}]}],"P05":[{"law":"지방재정법","article":"제11조제1항","text":"지방자치단체의 장은 각 호의 자금 조달에 필요할 때에는 지방채를 발행할 수 있다.","found":true,"lawId":"001652","tier":"statute","articles":[{"label":"제11조","title":"지방채의 발행","officialUrl":"https://www.law.go.kr/법령/지방재정법/제11조","up":[],"down":[{"kind":"decree","phrase":"대통령령","lawName":"지방재정법 시행령","label":"제10조","title":"지방채발행 한도액의 산정 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에","lawName":"지방재정법 시행령","label":"제11조","title":"지방채발행의 절차","tier":"decree"}]}]},{"law":"지방재정법","article":"제11조의2","text":"지방채는 이 법과 제11조의2 각 호의 법률에 의하지 아니하고는 발행할 수 없다.","found":true,"lawId":"001652","tier":"statute","articles":[{"label":"제11조의2","title":"지방채 발행의 제한","officialUrl":"https://www.law.go.kr/법령/지방재정법/제11조의2","up":[],"down":[]}]}],"P06":[{"law":"지방재정법","article":"제11조제2항","text":"지방자치단체의 장은 대통령령으로 정하는 지방채 발행 한도액의 범위에서 지방의회의 의결을 얻어야 하며, 외채를 발행하는 경우에는 의회 의결 전에 행정안전부장관의 승인을 받아야 한다.","found":true,"lawId":"001652","tier":"statute","articles":[{"label":"제11조","title":"지방채의 발행","officialUrl":"https://www.law.go.kr/법령/지방재정법/제11조","up":[],"down":[{"kind":"decree","phrase":"대통령령","lawName":"지방재정법 시행령","label":"제10조","title":"지방채발행 한도액의 산정 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에","lawName":"지방재정법 시행령","label":"제11조","title":"지방채발행의 절차","tier":"decree"}]}]},{"law":"지방재정법","article":"제11조제3항","text":"행정안전부장관과 협의한 경우에는 그 협의한 범위에서 지방의회 의결을 얻어 한도액을 초과하여 지방채를 발행할 수 있다.","found":true,"lawId":"001652","tier":"statute","articles":[{"label":"제11조","title":"지방채의 발행","officialUrl":"https://www.law.go.kr/법령/지방재정법/제11조","up":[],"down":[{"kind":"decree","phrase":"대통령령","lawName":"지방재정법 시행령","label":"제10조","title":"지방채발행 한도액의 산정 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에","lawName":"지방재정법 시행령","label":"제11조","title":"지방채발행의 절차","tier":"decree"}]}]}],"P07":[{"law":"지방재정법","article":"제11조의2","text":"지방채 발행의 제한에 관한 절차와 기준을 정한다.","found":true,"lawId":"001652","tier":"statute","articles":[{"label":"제11조의2","title":"지방채 발행의 제한","officialUrl":"https://www.law.go.kr/법령/지방재정법/제11조의2","up":[],"down":[]}]}],"P08":[{"law":"지방재정법","article":"제11조","text":"지방채의 발행에 관한 절차와 기준을 정한다.","found":true,"lawId":"001652","tier":"statute","articles":[{"label":"제11조","title":"지방채의 발행","officialUrl":"https://www.law.go.kr/법령/지방재정법/제11조","up":[],"down":[{"kind":"decree","phrase":"대통령령","lawName":"지방재정법 시행령","label":"제10조","title":"지방채발행 한도액의 산정 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에","lawName":"지방재정법 시행령","label":"제11조","title":"지방채발행의 절차","tier":"decree"}]}]}],"P09":[{"law":"지방재정법","article":"제11조","text":"지방채의 발행에 관한 절차와 기준을 정한다.","found":true,"lawId":"001652","tier":"statute","articles":[{"label":"제11조","title":"지방채의 발행","officialUrl":"https://www.law.go.kr/법령/지방재정법/제11조","up":[],"down":[{"kind":"decree","phrase":"대통령령","lawName":"지방재정법 시행령","label":"제10조","title":"지방채발행 한도액의 산정 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에","lawName":"지방재정법 시행령","label":"제11조","title":"지방채발행의 절차","tier":"decree"}]}]}],"P10":[{"law":"지방재정법","article":"제11조제2항","text":"지방자치단체의 장은 지방채 발행 한도액의 범위에서 지방의회의 의결을 얻어야 한다.","found":true,"lawId":"001652","tier":"statute","articles":[{"label":"제11조","title":"지방채의 발행","officialUrl":"https://www.law.go.kr/법령/지방재정법/제11조","up":[],"down":[{"kind":"decree","phrase":"대통령령","lawName":"지방재정법 시행령","label":"제10조","title":"지방채발행 한도액의 산정 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에","lawName":"지방재정법 시행령","label":"제11조","title":"지방채발행의 절차","tier":"decree"}]}]},{"law":"지방자치법","article":"제139조제1항","text":"지방자치단체의 장이나 지방자치단체조합은 따로 법률로 정하는 바에 따라 지방채를 발행할 수 있다.","found":true,"lawId":"001656","tier":"statute","articles":[{"label":"제139조","title":"지방채무 및 지방채권의 관리","officialUrl":"https://www.law.go.kr/법령/지방자치법/제139조","up":[],"down":[{"kind":"rule","phrase":"법률","lawName":"지방재정법","label":"제11조","title":"지방채의 발행","tier":null},{"kind":"rule","phrase":"법률","lawName":"지방재정법","label":"제11조의2","title":"지방채 발행의 제한","tier":null},{"kind":"rule","phrase":"법률","lawName":"지방재정법","label":"제12조","title":"지방채 발행의 절차","tier":null},{"kind":"rule","phrase":"법률로 정하는 바에","lawName":"지방재정법","label":"제44조","title":"채무부담행위","tier":null}]}]}],"P11":[{"law":"지방재정법","article":"제11조","text":"지방채의 발행에 관한 절차와 기준을 정한다.","found":true,"lawId":"001652","tier":"statute","articles":[{"label":"제11조","title":"지방채의 발행","officialUrl":"https://www.law.go.kr/법령/지방재정법/제11조","up":[],"down":[{"kind":"decree","phrase":"대통령령","lawName":"지방재정법 시행령","label":"제10조","title":"지방채발행 한도액의 산정 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 바에","lawName":"지방재정법 시행령","label":"제11조","title":"지방채발행의 절차","tier":"decree"}]}]}],"P12":[{"law":"지방재정법","article":"제12조제1항","text":"지방채의 발행, 원금의 상환, 이자의 지급, 증권에 관한 사무절차 및 사무 취급기관은 대통령령으로 정한다.","found":true,"lawId":"001652","tier":"statute","articles":[{"label":"제12조","title":"지방채 발행의 절차","officialUrl":"https://www.law.go.kr/법령/지방재정법/제12조","up":[],"down":[{"kind":"decree","phrase":"취급기관은 대통령령으로","lawName":"지방재정법 시행령","label":"제11조","title":"지방채발행의 절차","tier":"decree"},{"kind":"decree","phrase":"취급기관은 대통령령으로","lawName":"지방재정법 시행령","label":"제13조","title":"모집의 방법에 의한 지방채증권의 발행","tier":"decree"}]}]},{"law":"지방재정법 시행령","article":"제11조","text":"지방채발행의 절차를 정한다.","found":true,"lawId":"001652","tier":"decree","articles":[{"label":"제11조","title":"지방채발행의 절차","officialUrl":"https://www.law.go.kr/법령/지방재정법시행령/제11조","up":[{"kind":"decree","phrase":"대통령령으로 정하는 바에","lawName":"지방재정법","label":"제11조제3항","title":"지방채의 발행","tier":"statute"},{"kind":"decree","phrase":"취급기관은 대통령령으로","lawName":"지방재정법","label":"제12조제1항","title":"지방채 발행의 절차","tier":"statute"}],"down":[]}]}],"P13":[{"law":"지방재정법","article":"제12조","text":"지방채 발행의 절차에 관한 절차와 기준을 정한다.","found":true,"lawId":"001652","tier":"statute","articles":[{"label":"제12조","title":"지방채 발행의 절차","officialUrl":"https://www.law.go.kr/법령/지방재정법/제12조","up":[],"down":[{"kind":"decree","phrase":"취급기관은 대통령령으로","lawName":"지방재정법 시행령","label":"제11조","title":"지방채발행의 절차","tier":"decree"},{"kind":"decree","phrase":"취급기관은 대통령령으로","lawName":"지방재정법 시행령","label":"제13조","title":"모집의 방법에 의한 지방채증권의 발행","tier":"decree"}]}]}],"P14":[{"law":"지방재정법","article":"제12조","text":"지방채 발행의 절차에 관한 절차와 기준을 정한다.","found":true,"lawId":"001652","tier":"statute","articles":[{"label":"제12조","title":"지방채 발행의 절차","officialUrl":"https://www.law.go.kr/법령/지방재정법/제12조","up":[],"down":[{"kind":"decree","phrase":"취급기관은 대통령령으로","lawName":"지방재정법 시행령","label":"제11조","title":"지방채발행의 절차","tier":"decree"},{"kind":"decree","phrase":"취급기관은 대통령령으로","lawName":"지방재정법 시행령","label":"제13조","title":"모집의 방법에 의한 지방채증권의 발행","tier":"decree"}]}]}]},"systems":{"001652":{"lawId":"001652","name":"지방재정법","href":"/law/001652/","ministry":"행정안전부","effectiveOn":"2026-10-20","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"지방재정법","kind":"법률","articleCount":148,"officialUrl":"https://www.law.go.kr/법령/지방재정법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":148},{"tier":"decree","label":"시행령","laws":[{"name":"지방재정법 시행령","kind":"대통령령","articleCount":188,"officialUrl":"https://www.law.go.kr/법령/지방재정법시행령"}],"kinds":[{"kind":"대통령령","count":1}],"articleCount":188},{"tier":"rule","label":"시행규칙","laws":[{"name":"지방재정법 시행령 제33조제1항 본문에 따른 지방자치단체 경비부담의 기준 등에 관한 규칙","kind":"행정안전부령","articleCount":4,"officialUrl":"https://www.law.go.kr/법령/지방재정법시행령제33조제1항본문에따른지방자치단체경비부담의기준등에관한규칙"},{"name":"교육비특별회계 회계기준에 관한 규칙","kind":"교육부령","articleCount":52,"officialUrl":"https://www.law.go.kr/법령/교육비특별회계회계기준에관한규칙"},{"name":"지방교육행정기관 예산성과금 운영규칙","kind":"교육부령","articleCount":20,"officialUrl":"https://www.law.go.kr/법령/지방교육행정기관예산성과금운영규칙"},{"name":"지방교육행정기관 재정투자사업 심사규칙","kind":"교육부령","articleCount":17,"officialUrl":"https://www.law.go.kr/법령/지방교육행정기관재정투자사업심사규칙"},{"name":"지방자치단체 예산성과금 운영규칙","kind":"행정안전부령","articleCount":20,"officialUrl":"https://www.law.go.kr/법령/지방자치단체예산성과금운영규칙"},{"name":"지방재정투자사업 심사규칙","kind":"행정안전부령","articleCount":18,"officialUrl":"https://www.law.go.kr/법령/지방재정투자사업심사규칙"},{"name":"지방자치단체 교육비특별회계 예산편성 운용에 관한 규칙","kind":"교육부령","articleCount":11,"officialUrl":"https://www.law.go.kr/법령/지방자치단체교육비특별회계예산편성운용에관한규칙"},{"name":"지방자치단체 예산편성 운용에 관한 규칙","kind":"행정안전부령","articleCount":11,"officialUrl":"https://www.law.go.kr/법령/지방자치단체예산편성운용에관한규칙"},{"name":"지방재정업무 처리를 위한 정보시스템의 관리ㆍ운영에 관한 규칙","kind":"행정안전부령","articleCount":10,"officialUrl":"https://www.law.go.kr/법령/지방재정업무처리를위한정보시스템의관리ㆍ운영에관한규칙"}],"kinds":[{"kind":"행정안전부령","count":5},{"kind":"교육부령","count":4}],"articleCount":163},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"지방자치단체 예산편성 운영기준","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방자치단체예산편성운영기준"},{"name":"지방교육재정 분석 및 진단 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방교육재정분석및진단규정"},{"name":"지방재정관리위원회 운영규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방재정관리위원회운영규정"},{"name":"지방재정영향평가지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방재정영향평가지침"},{"name":"지방재정위기관리제도 운영 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방재정위기관리제도운영규정"},{"name":"지방보조금 관리기준","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방보조금관리기준"},{"name":"지방자치단체 주요재정사업 평가기준","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방자치단체주요재정사업평가기준"},{"name":"지방자치단체 채권관리 지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방자치단체채권관리지침"},{"name":"재정분석 및 재정진단 분야 전문기관","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/재정분석및재정진단분야전문기관"},{"name":"지방재정영향평가 면제사업 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방재정영향평가면제사업고시"},{"name":"지방자치단체 교육비특별회계 예산편성 운영기준","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방자치단체교육비특별회계예산편성운영기준"},{"name":"지방자치단체 예산의 성과계획서 작성기준","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방자치단체예산의성과계획서작성기준"},{"name":"통합지방재정시스템 운영지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/통합지방재정시스템운영지침"},{"name":"지방교육행정기관 총사업비 500억원 이상 신규사업에 대한 타당성 조사 전문기관","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방교육행정기관총사업비500억원이상신규사업에대한타당성조사전문기관"},{"name":"총 사업비 500억원 이상 신규사업에 대한 타당성 조사 전문기관","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/총사업비500억원이상신규사업에대한타당성조사전문기관"},{"name":"지방자치단체 성과보고서 작성기준","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지방자치단체성과보고서작성기준"}],"kinds":[{"kind":"훈령","count":7},{"kind":"예규","count":4},{"kind":"고시","count":4},{"kind":"행정규칙","count":1}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EC%A7%80%EB%B0%A9%EC%9E%AC%EC%A0%95%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":88,"rule":34,"adminRule":21,"ordinance":15,"cites":254}},"001656":{"lawId":"001656","name":"지방자치법","href":"/law/001656/","ministry":"행정안전부","effectiveOn":"2026-10-15","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"지방자치법","kind":"법률","articleCount":215,"officialUrl":"https://www.law.go.kr/법령/지방자치법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":215},{"tier":"decree","label":"시행령","laws":[{"name":"지방자치법 시행령","kind":"대통령령","articleCount":127,"officialUrl":"https://www.law.go.kr/법령/지방자치법시행령"},{"name":"지방소방기관 설치에 관한 규정","kind":"대통령령","articleCount":17,"officialUrl":"https://www.law.go.kr/법령/지방소방기관설치에관한규정"},{"name":"지방자치단체에 대한 행정감사규정","kind":"대통령령","articleCount":23,"officialUrl":"https://www.law.go.kr/법령/지방자치단체에대한행정감사규정"},{"name":"지방자치단체의 행정기구와 정원기준 등에 관한 규정","kind":"대통령령","articleCount":44,"officialUrl":"https://www.law.go.kr/법령/지방자치단체의행정기구와정원기준등에관한규정"},{"name":"지방자치법 제156조제1항 단서에 따른 전국적 통일이 필요한 수수료의 징수기준에 관한 규정","kind":"대통령령","articleCount":2,"officialUrl":"https://www.law.go.kr/법령/지방자치법제156조제1항단서에따른전국적통일이필요한수수료의징수기준에관한규정"}],"kinds":[{"kind":"대통령령","count":5}],"articleCount":213},{"tier":"rule","label":"시행규칙","laws":[{"name":"주민의 감사 청구 등의 서식에 관한 규칙","kind":"행정안전부령","articleCount":7,"officialUrl":"https://www.law.go.kr/법령/주민의감사청구등의서식에관한규칙"},{"name":"지방자치단체에 두는 고위공무원단 직위의 직무등급 표시에 관한 규칙","kind":"행정안전부령","articleCount":3,"officialUrl":"https://www.law.go.kr/법령/지방자치단체에두는고위공무원단직위의직무등급표시에관한규칙"},{"name":"지방자치법 시행령 제120조에 따른 특례를 둘 수 있는 시ㆍ군ㆍ구의 지정에 필요한 서식에 관한 규칙","kind":"행정안전부령","articleCount":4,"officialUrl":"https://www.law.go.kr/법령/지방자치법시행령제120조에따른특례를둘수있는시ㆍ군ㆍ구의지정에필요한서식에관한규칙"},{"name":"행정구역 조정업무 처리에 관한 규칙","kind":"행정안전부령","articleCount":17,"officialUrl":"https://www.law.go.kr/법령/행정구역조정업무처리에관한규칙"},{"name":"행정협의회의 구성 및 운영에 관한 규칙","kind":"행정안전부령","articleCount":8,"officialUrl":"https://www.law.go.kr/법령/행정협의회의구성및운영에관한규칙"},{"name":"지방자치단체의 행정기구와 정원기준 등에 관한 규정 시행규칙","kind":"행정안전부령","articleCount":6,"officialUrl":"https://www.law.go.kr/법령/지방자치단체의행정기구와정원기준등에관한규정시행규칙"}],"kinds":[{"kind":"행정안전부령","count":6}],"articleCount":45},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"(행정안전부) 감사청구심의회구성 및 운영에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/(행정안전부)감사청구심의회구성및운영에관한규정"},{"name":"감사청구심의회 구성·운영에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/감사청구심의회구성·운영에관한규정"},{"name":"국토교통부 감사청구심의회 구성 및 운영에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국토교통부감사청구심의회구성및운영에관한규정"},{"name":"농림축산식품부 감사청구심의회 운영규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/농림축산식품부감사청구심의회운영규정"},{"name":"문화체육관광부 주민감사청구 심의회 구성 및 운영에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/문화체육관광부주민감사청구심의회구성및운영에관한규정"},{"name":"보건복지부 감사청구심의회 운영규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/보건복지부감사청구심의회운영규정"},{"name":"산업통상자원부 감사청구심의회 운영규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/산업통상자원부감사청구심의회운영규정"},{"name":"해양수산부 감사청구심의회 구성 및 운영에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/해양수산부감사청구심의회구성및운영에관한규정"}],"kinds":[{"kind":"훈령","count":8}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EC%A7%80%EB%B0%A9%EC%9E%90%EC%B9%98%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":96,"rule":46,"adminRule":8,"ordinance":98,"cites":234}}}},"statusStyles":{"done":{"label":"선행","fill":"#effaf5","border":"#35a77d","ink":"#123d2e","sub":"#287a5c"},"current":{"label":"핵심","fill":"#087452","border":"#087452","ink":"#ffffff","sub":"#d8f4e8"},"waiting":{"label":"후속","fill":"#ffffff","border":"#b9c7bf","ink":"#17231d","sub":"#627169"},"risk":{"label":"병목","fill":"#fff8e8","border":"#d9901a","ink":"#7a4305","sub":"#a96008"},"loop":{"label":"회귀","fill":"#edf4ff","border":"#3478db","ink":"#173f7a","sub":"#316bbd"}},"basisLegend":[{"label":"법률","fill":"#ffffff","border":"#3b4a43"},{"label":"시행령","fill":"#f2f6ff","border":"#2456d6"},{"label":"시행규칙","fill":"#effaf6","border":"#0f9f72"},{"label":"행정규칙","fill":"#f6f2ff","border":"#7c56c9"}],"isLawIndex":false}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Eu-UvfunzEwjnKcUq5f7W"}
+4:["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","precedence":"next"}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

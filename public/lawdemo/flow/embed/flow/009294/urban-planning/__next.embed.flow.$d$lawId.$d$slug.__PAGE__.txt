@@ -1,0 +1,399 @@
+1:"$Sreact.fragment"
+2:I[7742,["838","static/chunks/838-9b85aecee2a13f53.js","379","static/chunks/379-f104668f756ddde1.js","301","static/chunks/app/embed/flow/%5BlawId%5D/%5Bslug%5D/page-e3d0b6acb7d5d0b3.js"],"default"]
+6:I[977,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+:HL["/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","style"]
+3:T7f91,<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 250 1744 1960" class="pp-svg">
+<defs>
+      <filter id="card-shadow" x="-20%" y="-25%" width="140%" height="160%">
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#12271e" flood-opacity="0.10"/>
+      </filter>
+      <marker id="arrow-sequence" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#53675d" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-message" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#0f8a65" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-loop" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#3478db" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <style>
+        text { font-family: "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", sans-serif; }
+        .mono { font-family: "SFMono-Regular", "Menlo", monospace; }
+      </style>
+    </defs>
+<rect width="1800" height="2400" fill="#ffffff"/>
+
+
+
+<rect x="38" y="260" width="1724" height="1940" rx="10" fill="#ffffff" stroke="#b8c7bf" stroke-width="2"/>
+<rect x="38" y="260" width="190" height="100" rx="10" fill="#eaf2ee"/>
+<text x="58" y="299" font-size="17" font-weight="800" fill="#17231d">단계 ↓</text>
+<text x="58" y="332" font-size="15" font-weight="650" fill="#68776f">행위자 묶음 →</text>
+<rect x="38" y="360" width="1724" height="311.7" fill="#fbfcfb"/>
+<rect x="38" y="360" width="190" height="311.7" fill="#eef3f0"/>
+<text x="58" y="392" class="mono" font-size="16" font-weight="800" fill="#53645b">G0</text>
+<text x="58" y="425" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">기초조사</tspan></text>
+<rect x="38" y="671.7" width="1724" height="197.7" fill="#f5f8f6"/>
+<rect x="38" y="671.7" width="190" height="197.7" fill="#eef3f0"/>
+<text x="58" y="703.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G1</text>
+<text x="58" y="736.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">입안</tspan></text>
+<rect x="38" y="869.4" width="1724" height="311.7" fill="#fbfcfb"/>
+<rect x="38" y="869.4" width="190" height="311.7" fill="#eef3f0"/>
+<text x="58" y="901.4" class="mono" font-size="16" font-weight="800" fill="#53645b">G2</text>
+<text x="58" y="934.4" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">의견청취</tspan></text>
+<rect x="38" y="1181.1" width="1724" height="197.7" fill="#f5f8f6"/>
+<rect x="38" y="1181.1" width="190" height="197.7" fill="#eef3f0"/>
+<text x="58" y="1213.1" class="mono" font-size="16" font-weight="800" fill="#53645b">G3</text>
+<text x="58" y="1246.1" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">관계기관협의</tspan></text>
+<rect x="38" y="1378.9" width="1724" height="311.7" fill="#fbfcfb"/>
+<rect x="38" y="1378.9" width="190" height="311.7" fill="#eef3f0"/>
+<text x="58" y="1410.9" class="mono" font-size="16" font-weight="800" fill="#53645b">G4</text>
+<text x="58" y="1443.9" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">위원회심의</tspan></text>
+<rect x="38" y="1690.6" width="1724" height="311.7" fill="#f5f8f6"/>
+<rect x="38" y="1690.6" width="190" height="311.7" fill="#eef3f0"/>
+<text x="58" y="1722.6" class="mono" font-size="16" font-weight="800" fill="#53645b">G5</text>
+<text x="58" y="1755.6" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">결정·고시</tspan></text>
+<rect x="38" y="2002.3" width="1724" height="197.7" fill="#fbfcfb"/>
+<rect x="38" y="2002.3" width="190" height="197.7" fill="#eef3f0"/>
+<text x="58" y="2034.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G6</text>
+<text x="58" y="2067.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">재검토</tspan></text>
+<rect x="228" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="228" y="260" width="383.5" height="7" fill="#0f9f72"/>
+<text x="248" y="299" font-size="20" font-weight="800" fill="#17231d">신청인·입안제안자·지자체 입안부서</text>
+<text x="248" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="248" dy="0">신청인/입안제안자 · 지자체 입안부서</tspan></text>
+<rect x="611.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="611.5" y="260" width="383.5" height="7" fill="#3b82f6"/>
+<text x="631.5" y="299" font-size="20" font-weight="800" fill="#17231d">지방의회·관계 행정기관</text>
+<text x="631.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="631.5" dy="0">지방의회 · 관계 행정기관</tspan></text>
+<rect x="995" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="995" y="260" width="383.5" height="7" fill="#c78116"/>
+<text x="1015" y="299" font-size="20" font-weight="800" fill="#17231d">지방도시계획위원회·결정권자</text>
+<text x="1015" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1015" dy="0">지방도시계획위원회 · 결정권자(시·도지사)</tspan></text>
+<rect x="1378.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="1378.5" y="260" width="383.5" height="7" fill="#0891b2"/>
+<text x="1398.5" y="299" font-size="20" font-weight="800" fill="#17231d">정보시스템</text>
+<text x="1398.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1398.5" dy="0">정보시스템</tspan></text>
+<line x1="228" y1="260" x2="228" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="611.5" y1="260" x2="611.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="995" y1="260" x2="995" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1378.5" y1="260" x2="1378.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1762" y1="260" x2="1762" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#b8c7bf" stroke-width="2"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="671.7" x2="1762" y2="671.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="869.4" x2="1762" y2="869.4" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1181.1" x2="1762" y2="1181.1" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1378.9" x2="1762" y2="1378.9" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1690.6" x2="1762" y2="1690.6" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2002.3" x2="1762" y2="2002.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2200" x2="1762" y2="2200" stroke="#b8c7bf" stroke-width="2"/>
+<g class="pp-edge" data-edge-id="E01" data-source="N01" data-target="N03">
+<path d="M 554.8 458.9 H 593.5 V 659.7 H 419.8 V 717.6" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 458.9 H 593.5 V 659.7 H 419.8 V 717.6" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E02" data-source="N03" data-target="N04">
+<path d="M 439.8 815.6 V 857.4 H 399.8 V 915.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 439.8 815.6 V 857.4 H 399.8 V 915.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E03" data-source="N04" data-target="N05">
+<path d="M 439.8 1013.3 V 1029.3 H 413.8 V 1029.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 439.8 1013.3 V 1029.3 H 413.8 V 1029.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E04" data-source="N05" data-target="N06">
+<path d="M 554.8 1100.3 H 627.3 V 1026.3 H 660.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1100.3 H 627.3 V 1026.3 H 660.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E05" data-source="N06" data-target="N07">
+<path d="M 813.3 1070.3 V 1169.1 H 807.3 V 1227" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 813.3 1070.3 V 1169.1 H 807.3 V 1227" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E06" data-source="N07" data-target="N08">
+<path d="M 668.3 1273.5 H 582.8 V 1267 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 668.3 1273.5 H 582.8 V 1267 H 562.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E07" data-source="N08" data-target="N09">
+<path d="M 427.8 1325 V 1350.9 H 1170.8 V 1424.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 427.8 1325 V 1350.9 H 1170.8 V 1424.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E08" data-source="N09" data-target="N10">
+<path d="M 1222.8 1522.7 V 1538.7 H 1198.8 V 1538.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1222.8 1522.7 V 1538.7 H 1198.8 V 1538.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E09" data-source="N10" data-target="N12">
+<path d="M 1200.8 1636.7 V 1646.6 H 1188.8 V 1736.4" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1200.8 1636.7 V 1646.6 H 1188.8 V 1736.4" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E10" data-source="N12" data-target="N13">
+<path d="M 1196.8 1834.4 V 1850.4 H 1184.8 V 1850.4" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1196.8 1834.4 V 1850.4 H 1184.8 V 1850.4" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E11" data-source="N13" data-target="N14">
+<path d="M 1051.8 1899.4 H 595.8 V 1846.4 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1899.4 H 595.8 V 1846.4 H 562.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E12" data-source="N14" data-target="N16">
+<path d="M 399.8 1891.4 V 1990.3 H 419.8 V 2048.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 399.8 1891.4 V 1990.3 H 419.8 V 2048.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M01" data-source="N02" data-target="N03">
+<path d="M 407.8 617.9 V 643.7 H 387.8 V 717.6" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 407.8 617.9 V 643.7 H 387.8 V 717.6" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M02" data-source="N04" data-target="N05">
+<path d="M 554.8 970.8 H 582.8 V 1074.3 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 970.8 H 582.8 V 1074.3 H 562.8" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M03" data-source="N08" data-target="N09">
+<path d="M 431.8 1325 V 1334.9 H 1150.8 V 1424.7" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 431.8 1325 V 1334.9 H 1150.8 V 1424.7" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M04" data-source="N14" data-target="N15">
+<path d="M 554.8 1864.4 H 1381.3 V 1848.9 H 1427.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1864.4 H 1381.3 V 1848.9 H 1427.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L01" data-source="N10" data-target="N11">
+<path d="M 1051.8 1578.7 H 582.8 V 1543.7 H 562.8" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1578.7 H 582.8 V 1543.7 H 562.8" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L02" data-source="N11" data-target="N09">
+<path d="M 554.8 1530.7 H 1010.8 V 1489.2 H 1043.8" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1530.7 H 1010.8 V 1489.2 H 1043.8" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge-label" data-edge-id="M01" data-source="N02" data-target="N03">
+<rect x="349.8" y="647.7" width="96" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="397.8" y="667.7" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">입안 제안</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M02" data-source="N04" data-target="N05">
+<rect x="592.8" y="935.5" width="96" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="640.8" y="955.5" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">공람 공고</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M03" data-source="N08" data-target="N09">
+<rect x="743.3" y="1338.9" width="96" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="791.3" y="1358.9" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">심의 상정</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M04" data-source="N14" data-target="N15">
+<rect x="867.6" y="1824.7" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="925" y="1844.7" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">고시자료 등재</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L01" data-source="N10" data-target="N11">
+<rect x="735.3" y="1529.2" width="135.9" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="803.3" y="1549.2" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">재심의·보완 필요</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L02" data-source="N11" data-target="N09">
+<rect x="743.4" y="1478" width="119.8" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="803.3" y="1498" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">보완 후 재심의</text>
+</g>
+
+    <g class="pp-node" data-node-id="N01" data-basis="국토의계획및이용에관한법률:제27조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="413.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="413.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="433.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">N01</text>
+      
+      <rect x="485.8" y="420.9" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="437.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §27</text>
+      <text x="299.8" y="470.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">기초조사·도시·군기본계획 검토</tspan></text>
+      <text x="299.8" y="495.9" font-size="11" font-weight="650" fill="#3b4a43">시장·군수·구청장</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="N02" data-basis="국토의계획및이용에관한법률:제26조 국토의계획및이용에관한법률시행령:제19조의2" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="527.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="527.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="547.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">N02</text>
+      
+      <rect x="468.8" y="534.9" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="551.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §26 +1</text>
+      <text x="299.8" y="584.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">주민 입안 제안 접수·검토</tspan></text>
+      <text x="299.8" y="609.9" font-size="11" font-weight="650" fill="#3b4a43">기한 · 제안일부터 45일 내 반영여부 통보</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="N03" data-basis="국토의계획및이용에관한법률:제24조 국토의계획및이용에관한법률:제25조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="725.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="725.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="745.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">N03</text>
+      
+      <rect x="468.8" y="732.6" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="749.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §24 +1</text>
+      <text x="299.8" y="782.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">도시·군관리계획안 입안</tspan></text>
+      <text x="299.8" y="807.6" font-size="11" font-weight="650" fill="#3b4a43">시장·군수·구청장</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="N04" data-basis="국토의계획및이용에관한법률:제28조 국토의계획및이용에관한법률시행령:제22조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="923.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="923.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="943.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">N04</text>
+      
+      <rect x="468.8" y="930.3" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="947.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §28 +1</text>
+      <text x="299.8" y="980.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">주민 의견 청취(공람·공고)</tspan></text>
+      <text x="299.8" y="1005.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 14일 이상 공람(영 제22조②)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="N05" data-basis="국토의계획및이용에관한법률:제28조 국토의계획및이용에관한법률시행령:제22조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1037.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1037.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1057.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">N05</text>
+      
+      <rect x="468.8" y="1044.3" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="1061.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §28 +1</text>
+      <text x="299.8" y="1094.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">주민 의견서 접수·검토</tspan></text>
+      <text x="299.8" y="1119.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 공람기간 내 제출</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="N06" data-basis="국토의계획및이용에관한법률:제28조 국토의계획및이용에관한법률시행령:제22조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="980.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="980.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1000.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">N06</text>
+      
+      <rect x="852.3" y="987.3" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="1004.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §28 +1</text>
+      <text x="683.3" y="1037.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">지방의회 의견 청취</tspan></text>
+      <text x="683.3" y="1062.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 입안권자가 명시한 기한까지(법 제28…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="N07" data-basis="국토의계획및이용에관한법률:제30조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1235" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1235" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1255" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">N07</text>
+      
+      <rect x="869.3" y="1242" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1259" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §30</text>
+      <text x="683.3" y="1292" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">관계 행정기관 협의</tspan></text>
+      <text x="683.3" y="1317" font-size="11" font-weight="650" fill="#3b4a43">기한 · 협의 요청 후 30일</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="N08" data-basis="국토의계획및이용에관한법률:제30조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1235" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1235" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1255" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">N08</text>
+      
+      <rect x="485.8" y="1242" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="1259" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §30</text>
+      <text x="299.8" y="1292" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">협의결과 취합·심의 상정</tspan></text>
+      <text x="299.8" y="1317" font-size="11" font-weight="650" fill="#3b4a43">시장·군수·구청장</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="N09" data-basis="국토의계획및이용에관한법률:제30조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1432.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1432.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1452.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ N09</text>
+      
+      <rect x="1252.8" y="1439.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1456.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §30</text>
+      <text x="1066.8" y="1489.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">지방도시계획위원회 심의</tspan></text>
+      <text x="1066.8" y="1514.7" font-size="11" font-weight="650" fill="#3b4a43">지방도시계획위원회</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="N10" data-basis="국토의계획및이용에관한법률:제30조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1546.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1546.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1566.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ N10</text>
+      
+      <rect x="1252.8" y="1553.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1570.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §30</text>
+      <text x="1066.8" y="1603.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">심의결과 판단(의결·조건·재심의)</tspan></text>
+      <text x="1066.8" y="1628.7" font-size="11" font-weight="650" fill="#3b4a43">지방도시계획위원회</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="N11" data-basis="국토의계획및이용에관한법률:제30조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1489.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1489.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1509.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">N11</text>
+      
+      <rect x="485.8" y="1496.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="1513.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §30</text>
+      <text x="299.8" y="1546.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">보완·재입안</tspan></text>
+      <text x="299.8" y="1571.7" font-size="11" font-weight="650" fill="#3b4a43">시장·군수·구청장</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="N12" data-basis="국토의계획및이용에관한법률:제30조 국토의계획및이용에관한법률시행령:제25조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1744.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1744.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1764.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">N12</text>
+      
+      <rect x="1235.8" y="1751.4" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1768.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §30 +1</text>
+      <text x="1066.8" y="1801.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">도시·군관리계획 결정</tspan></text>
+      <text x="1066.8" y="1826.4" font-size="11" font-weight="650" fill="#3b4a43">시·도지사</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="N13" data-basis="국토의계획및이용에관한법률:제32조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1858.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1858.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1878.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">N13</text>
+      
+      <rect x="1252.8" y="1865.4" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1882.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §32</text>
+      <text x="1066.8" y="1915.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">지형도면 승인</tspan></text>
+      <text x="1066.8" y="1940.4" font-size="11" font-weight="650" fill="#3b4a43">시·도지사</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="N14" data-basis="국토의계획및이용에관한법률:제31조 국토의계획및이용에관한법률:제32조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1801.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1801.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1821.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">N14</text>
+      
+      <rect x="468.8" y="1808.4" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="1825.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §31 +1</text>
+      <text x="299.8" y="1848.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">결정·고시 및 지형도면 고시(효력</tspan><tspan x="299.8" dy="18">발생)</tspan></text>
+      <text x="299.8" y="1883.4" font-size="11" font-weight="650" fill="#3b4a43">시장·군수·구청장</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="N15" data-basis="국토의계획및이용에관한법률:제32조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="1801.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="1801.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="1821.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">▣ N15</text>
+      
+      <rect x="1636.3" y="1808.4" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1665.8" y="1825.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §32</text>
+      <text x="1450.3" y="1858.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">토지이음 등재·공개</tspan></text>
+      <text x="1450.3" y="1883.4" font-size="11" font-weight="650" fill="#3b4a43">토지이음(도시계획정보시스템)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="N16" data-basis="국토의계획및이용에관한법률:제34조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="2056.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="2056.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="2076.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">N16</text>
+      
+      <rect x="485.8" y="2063.1" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="2080.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §34</text>
+      <text x="299.8" y="2113.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">5년마다 타당성 재검토</tspan></text>
+      <text x="299.8" y="2138.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 5년마다</text>
+    </g>
+  
+
+</svg>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"law":{"lawId":"009294","mst":"284013","name":"국토의 계획 및 이용에 관한 법률","kind":"법률","tier":"statute","effectiveOn":"2026-07-01","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률"},"flows":[{"slug":"development-permit","name":"개발행위허가","oneLiner":"건축물 건축, 토지 형질변경, 토지분할 등 땅의 모습을 바꾸는 행위를 할 때 계획적 관리와 난개발 방지를 위해 미리 받아야 하는 허가","citingSteps":18,"totalSteps":18,"articles":{"제56조":2,"제57조":6,"제61조의2":1,"제61조":2,"제58조":2,"제59조":2,"제60조":1,"제62조":2,"제65조":1}},{"slug":"urban-planning","name":"도시계획(도시·군관리계획)","oneLiner":"땅마다 용도지역·지구를 정하고 무엇을 어떻게 지을 수 있는지 미리 그려두는 법정계획으로, 도시의 개발과 보전 방향을 결정하는 국토이용의 밑그림","citingSteps":16,"totalSteps":16,"articles":{"제27조":1,"제26조":1,"제24조":1,"제25조":1,"제28조":3,"제30조":6,"제32조":3,"제31조":1,"제34조":1}},{"slug":"factory-establishment","name":"공장설립승인","oneLiner":"일정 규모 이상 공장을 신·증설하거나 업종을 바꿀 때 입지·환경·개별 인허가를 한꺼번에 심사·승인받도록 한 제도(건축면적 500㎡ 이상 대상)","citingSteps":2,"totalSteps":16,"articles":{"제76조":1,"제56조":1}}],"current":"$0:rsc:props:children:0:props:flows:1","asOfDate":"2026-07-10","reviewNote":"주요 절차를 요약한 참고 모델입니다. 모든 예외·위임규정의 현행성까지 전수 검증한 자료는 아닙니다. 법령 체계의 보관 자료와 현행 원문은 다를 수 있습니다.","svg":"$3","nodes":[{"id":"N01","name":"기초조사·도시·군기본계획 검토","lane":"지자체 입안부서","stage":"G0 기초조사","type":"task","status":"done","progress":100,"actor":"시장·군수·구청장","action":"기초조사","output_documents":["기초조사서","토지적성평가"],"confidence":0.86,"legal_basis":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제27조(도시·군관리계획의 입안을 위한 기초조사 등)","text":"도시·군관리계획을 입안하는 경우에는 제13조를 준용하여 인구·경제·사회·문화·토지이용·환경·교통·주택 등을 조사 또는 측량하여야 하며, 환경성 검토·토지적성평가·재해취약성분석을 포함하여야 한다."}]},{"id":"N02","name":"주민 입안 제안 접수·검토","lane":"신청인/입안제안자","stage":"G0 기초조사","type":"task","status":"done","progress":100,"actor":"토지소유자·주민","receiver":"지자체 입안부서","action":"입안 제안","output_documents":["입안 제안서","제안 반영여부 통보"],"deadline":"제안일부터 45일 내 반영여부 통보","confidence":0.78,"legal_basis":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제26조(도시·군관리계획 입안의 제안)","text":"주민은 기반시설·지구단위계획 등에 대해 입안을 제안할 수 있고 입안권자는 반영 여부를 통보한다."},{"law":"국토의 계획 및 이용에 관한 법률 시행령","article":"제19조의2(도시·군관리계획 입안의 제안)","text":"제안자는 기반시설·도시·군계획시설입체복합구역(법 제26조①1호·5호)은 대상 토지 면적의 5분의 4 이상, 지구단위계획구역·용도지구(법 제26조①2호·3호)는 대상 토지 면적의 3분의 2 이상 토지소유자 동의를 받아 제안한다. 국·공유지는 동의 대상 면적에서 제외한다."}]},{"id":"N03","name":"도시·군관리계획안 입안","lane":"지자체 입안부서","stage":"G1 입안","type":"task","status":"done","progress":100,"actor":"시장·군수·구청장","action":"입안","input_documents":["기초조사서","입안 제안서"],"output_documents":["도시·군관리계획(안)","계획도서"],"deadline":null,"confidence":0.88,"legal_basis":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제24조(도시·군관리계획의 입안권자)","text":"시장·군수·구청장 등 입안권자가 관할 구역의 도시·군관리계획을 입안한다."},{"law":"국토의 계획 및 이용에 관한 법률","article":"제25조(도시·군관리계획의 입안)","text":"입안 기준과 도서·설명서 작성 기준에 따라 계획안을 작성한다."}]},{"id":"N04","name":"주민 의견 청취(공람·공고)","lane":"지자체 입안부서","stage":"G2 의견청취","type":"notice","status":"done","progress":100,"actor":"시장·군수·구청장","action":"공람·공고","output_documents":["공고문","공람대장"],"deadline":"14일 이상 공람(영 제22조②)","confidence":0.85,"unverified":true,"unverified_note":"공청회는 도시·군관리계획 입안 절차의 법정 의무 단계가 아님(제28조①은 '주민의 의견을 들어야 한다'만 규정; 공청회 의무는 제14조 광역도시계획에만 적용). 일부 지자체 조례로 공청회를 추가할 수 있으나 이는 법정 절차가 아닌 조례·운영 기반임.","legal_basis":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제28조(주민과 지방의회의 의견 청취)","text":"입안 시 주민의 의견을 들어야 하며, 타당한 의견은 계획안에 반영하여야 한다."},{"law":"국토의 계획 및 이용에 관한 법률 시행령","article":"제22조(주민 및 지방의회의 의견청취)","text":"계획안 주요 내용을 공보·홈페이지·국토이용정보체계에 공고하고 14일 이상 일반인이 열람하게 한다."}]},{"id":"N05","name":"주민 의견서 접수·검토","lane":"신청인/입안제안자","stage":"G2 의견청취","type":"task","status":"risk","progress":70,"actor":"주민·토지소유자","receiver":"지자체 입안부서","action":"의견 제출","input_documents":["도시·군관리계획(안)","공고문"],"output_documents":["주민의견서","의견검토표"],"deadline":"공람기간 내 제출","blocker":"용도지역 지정에 따른 재산권 제한으로 반대의견 다수 접수","confidence":0.8,"legal_basis":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제28조(주민과 지방의회의 의견 청취)","text":"제출된 주민 의견을 검토해 타당한 경우 계획에 반영한다."},{"law":"국토의 계획 및 이용에 관한 법률 시행령","article":"제22조(주민 및 지방의회의 의견청취)","text":"제출된 의견의 반영 여부를 검토하여 열람기간이 끝난 날부터 60일 이내에 제출자에게 통보한다."}]},{"id":"N06","name":"지방의회 의견 청취","lane":"지방의회","stage":"G2 의견청취","type":"task","status":"current","progress":55,"actor":"지방의회","action":"의견 청취","input_documents":["도시·군관리계획(안)","주민의견 검토결과"],"output_documents":["지방의회 의견서"],"deadline":"입안권자가 명시한 기한까지(법 제28조⑧; 구체적 기한은 법령 미규정)","blocker":null,"confidence":0.82,"legal_basis":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제28조(주민과 지방의회의 의견 청취)","text":"대통령령으로 정하는 사항은 지방의회의 의견을 들어야 한다."},{"law":"국토의 계획 및 이용에 관한 법률 시행령","article":"제22조(주민 및 지방의회의 의견청취)","text":"용도지역·용도지구·용도구역 지정, 주간선도로·도시철도·대학·지방자치단체 청사 등 기반시설의 결정 등은 지방의회 의견청취 대상이다."}]},{"id":"N07","name":"관계 행정기관 협의","lane":"관계 행정기관","stage":"G3 관계기관협의","type":"task","status":"waiting","progress":0,"actor":"관계 행정기관","receiver":"지자체 입안부서","action":"협의 회신","input_documents":["도시·군관리계획(안)"],"output_documents":["협의 회신"],"deadline":"협의 요청 후 30일","confidence":0.82,"legal_basis":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제30조(도시·군관리계획의 결정)","text":"결정하려면 관계 행정기관의 장과 미리 협의하여야 한다."}]},{"id":"N08","name":"협의결과 취합·심의 상정","lane":"지자체 입안부서","stage":"G3 관계기관협의","type":"task","status":"waiting","progress":0,"actor":"시장·군수·구청장","receiver":"지방도시계획위원회","action":"심의 상정","input_documents":["협의 회신","의견검토표"],"output_documents":["심의 상정서","심의자료"],"confidence":0.83,"legal_basis":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제30조(도시·군관리계획의 결정)","text":"협의 결과를 반영해 도시계획위원회 심의에 부친다."}]},{"id":"N09","name":"지방도시계획위원회 심의","lane":"지방도시계획위원회","stage":"G4 위원회심의","type":"gateway","status":"waiting","progress":0,"actor":"지방도시계획위원회","action":"심의","input_documents":["심의자료","도시·군관리계획(안)"],"output_documents":["심의 결과"],"confidence":0.85,"legal_basis":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제30조(도시·군관리계획의 결정)","text":"결정하려면 지방도시계획위원회의 심의를 거쳐야 한다."}]},{"id":"N10","name":"심의결과 판단(의결·조건·재심의)","lane":"지방도시계획위원회","stage":"G4 위원회심의","type":"gateway","status":"waiting","progress":0,"actor":"지방도시계획위원회","action":"판단","condition":"원안의결, 조건부 의결, 재심의·보완 필요","output_documents":["의결서","조건부 의견","재심의 통보"],"confidence":0.82,"legal_basis":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제30조(도시·군관리계획의 결정)","text":"심의 결과에 따라 원안·조건부 의결 또는 재심의를 결정한다."}]},{"id":"N11","name":"보완·재입안","lane":"지자체 입안부서","stage":"G4 위원회심의","type":"task","status":"loop","progress":0,"actor":"시장·군수·구청장","action":"보완·재입안","input_documents":["재심의 통보","조건부 의견"],"output_documents":["보완 계획안"],"blocker":"재심의 회귀 단계","confidence":0.75,"legal_basis":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제30조(도시·군관리계획의 결정)","text":"재심의·보완 요구를 받은 경우 계획안을 수정하여 다시 심의에 부친다."}]},{"id":"N12","name":"도시·군관리계획 결정","lane":"결정권자(시·도지사)","stage":"G5 결정·고시","type":"task","status":"waiting","progress":0,"actor":"시·도지사","action":"결정","input_documents":["의결서","협의 회신"],"output_documents":["결정서"],"confidence":0.85,"legal_basis":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제30조(도시·군관리계획의 결정)","text":"시·도지사 등이 도시·군관리계획을 결정한다."},{"law":"국토의 계획 및 이용에 관한 법률 시행령","article":"제25조(도시·군관리계획의 결정)","text":"광역계획 관련 등 중요 계획은 국토교통부장관 협의 대상이며, 경미한 변경은 협의·심의를 생략하고 공보·홈페이지에 게재하는 방법으로 결정을 고시한다."}]},{"id":"N13","name":"지형도면 승인","lane":"결정권자(시·도지사)","stage":"G5 결정·고시","type":"task","status":"waiting","progress":0,"actor":"시·도지사","action":"지형도면 승인","input_documents":["결정서","지형도면(안)"],"output_documents":["지형도면 승인"],"confidence":0.8,"legal_basis":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제32조(도시·군관리계획에 관한 지형도면의 고시 등)","text":"지형도면을 작성해 시·도지사의 승인을 받는다."}]},{"id":"N14","name":"결정·고시 및 지형도면 고시(효력 발생)","lane":"지자체 입안부서","stage":"G5 결정·고시","type":"notice","status":"waiting","progress":0,"actor":"시장·군수·구청장","action":"고시","input_documents":["결정서","지형도면 승인"],"output_documents":["결정·고시문","지형도면 고시"],"confidence":0.85,"legal_basis":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제31조(도시·군관리계획 결정의 효력)","text":"지형도면을 고시한 날부터 도시·군관리계획 결정의 효력이 발생한다."},{"law":"국토의 계획 및 이용에 관한 법률","article":"제32조(도시·군관리계획에 관한 지형도면의 고시 등)","text":"지형도면을 고시하여야 한다."}]},{"id":"N15","name":"토지이음 등재·공개","lane":"정보시스템","stage":"G5 결정·고시","type":"system","status":"waiting","progress":0,"actor":"토지이음(도시계획정보시스템)","action":"등재·공개","input_documents":["결정·고시문","지형도면 고시"],"output_documents":["공개 게시자료"],"confidence":0.76,"legal_basis":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제32조(도시·군관리계획에 관한 지형도면의 고시 등)","text":"고시된 지형도면 등을 국토이용정보체계에 등재하여 일반에 공개한다."}]},{"id":"N16","name":"5년마다 타당성 재검토","lane":"지자체 입안부서","stage":"G6 재검토","type":"task","status":"waiting","progress":0,"actor":"시장·군수·구청장","action":"재검토","output_documents":["재검토 결과","정비계획"],"deadline":"5년마다","confidence":0.78,"legal_basis":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제34조(도시·군관리계획의 정비)","text":"5년마다 관할 구역의 도시·군관리계획의 타당성을 전반적으로 재검토하여 정비한다."}]}],"edges":[{"id":"E01","source":"N01","target":"N03","type":"sequence","label":null},{"id":"E02","source":"N03","target":"N04","type":"sequence","label":null},{"id":"E03","source":"N04","target":"N05","type":"sequence","label":null},{"id":"E04","source":"N05","target":"N06","type":"sequence","label":null},{"id":"E05","source":"N06","target":"N07","type":"sequence","label":null},{"id":"E06","source":"N07","target":"N08","type":"sequence","label":null},{"id":"E07","source":"N08","target":"N09","type":"sequence","label":null},{"id":"E08","source":"N09","target":"N10","type":"sequence","label":null},{"id":"E09","source":"N10","target":"N12","type":"sequence","label":null},{"id":"E10","source":"N12","target":"N13","type":"sequence","label":null},{"id":"E11","source":"N13","target":"N14","type":"sequence","label":null},{"id":"E12","source":"N14","target":"N16","type":"sequence","label":null},{"id":"M01","source":"N02","target":"N03","type":"message","label":"입안 제안"},{"id":"M02","source":"N04","target":"N05","type":"message","label":"공람 공고"},{"id":"M03","source":"N08","target":"N09","type":"message","label":"심의 상정"},{"id":"M04","source":"N14","target":"N15","type":"message","label":"고시자료 등재"},{"id":"L01","source":"N10","target":"N11","type":"loop","label":"재심의·보완 필요"},{"id":"L02","source":"N11","target":"N09","type":"loop","label":"보완 후 재심의"}],"lawContext":{"byNode":{"N01":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제27조(도시·군관리계획의 입안을 위한 기초조사 등)","text":"도시·군관리계획을 입안하는 경우에는 제13조를 준용하여 인구·경제·사회·문화·토지이용·환경·교통·주택 등을 조사 또는 측량하여야 하며, 환경성 검토·토지적성평가·재해취약성분석을 포함하여야 한다.","found":true,"lawId":"009294","tier":"statute","articles":[{"label":"제27조","title":"도시ㆍ군관리계획의 입안을 위한 기초조사 등","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률/제27조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 경미한 사항을","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제21조","title":"도시ㆍ군관리계획의 입안을 위한 기초조사 면제사유 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 요건에","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제21조","title":"도시ㆍ군관리계획의 입안을 위한 기초조사 면제사유 등","tier":"decree"}]}]}],"N02":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제26조(도시·군관리계획 입안의 제안)","text":"주민은 기반시설·지구단위계획 등에 대해 입안을 제안할 수 있고 입안권자는 반영 여부를 통보한다.","found":true,"lawId":"009294","tier":"statute","articles":[{"label":"제26조","title":"도시ㆍ군관리계획 입안의 제안","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률/제26조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제19조의2","title":"도시ㆍ군관리계획 입안의 제안","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제19조의2","title":"도시ㆍ군관리계획 입안의 제안","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제19조의2","title":"도시ㆍ군관리계획 입안의 제안","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제20조","title":"제안서의 처리절차","tier":"decree"}]}]},{"law":"국토의 계획 및 이용에 관한 법률 시행령","article":"제19조의2(도시·군관리계획 입안의 제안)","text":"제안자는 기반시설·도시·군계획시설입체복합구역(법 제26조①1호·5호)은 대상 토지 면적의 5분의 4 이상, 지구단위계획구역·용도지구(법 제26조①2호·3호)는 대상 토지 면적의 3분의 2 이상 토지소유자 동의를 받아 제안한다. 국·공유지는 동의 대상 면적에서 제외한다.","found":true,"lawId":"009294","tier":"decree","articles":[{"label":"제19조의2","title":"도시ㆍ군관리계획 입안의 제안","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률시행령/제19조의2","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률","label":"제26조제1항제3호가목","title":"도시ㆍ군관리계획 입안의 제안","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"국토의 계획 및 이용에 관한 법률","label":"제26조제4항","title":"도시ㆍ군관리계획 입안의 제안","tier":"statute"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"국토의 계획 및 이용에 관한 법률","label":"제26조제5항","title":"도시ㆍ군관리계획 입안의 제안","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"개발행위의 방지를 위하여 국토교통부장관이 정하여 고시하는 기준에 적합할 것","lawName":"도시·군관리계획수립지침","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"입안 제안의 세부적인 절차는 국토교통부장관이 정하여 고시한다.","lawName":"도시·군관리계획수립지침","label":null,"title":null,"tier":"adminRule"}]}]}],"N03":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제24조(도시·군관리계획의 입안권자)","text":"시장·군수·구청장 등 입안권자가 관할 구역의 도시·군관리계획을 입안한다.","found":true,"lawId":"009294","tier":"statute","articles":[{"label":"제24조","title":"도시ㆍ군관리계획의 입안권자","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률/제24조","up":[],"down":[]}]},{"law":"국토의 계획 및 이용에 관한 법률","article":"제25조(도시·군관리계획의 입안)","text":"입안 기준과 도서·설명서 작성 기준에 따라 계획안을 작성한다.","found":true,"lawId":"009294","tier":"statute","articles":[{"label":"제25조","title":"도시ㆍ군관리계획의 입안","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률/제25조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제18조","title":"도시ㆍ군관리계획도서 및 계획설명서의 작성기준 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제18조","title":"도시ㆍ군관리계획도서 및 계획설명서의 작성기준 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제19조","title":"도시ㆍ군관리계획의 수립기준","tier":"decree"},{"kind":"adminRule","phrase":"정하는 바에 따라 국토교통부장관이 정한다","lawName":"도시·군관리계획수립지침","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"정하는 바에 따라 국토교통부장관이 정한다","lawName":"개발제한구역의 조정을 위한 도시관리계획 변경안 수립 지침","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"정하는 바에 따라 국토교통부장관이 정한다","lawName":"저탄소 녹색도시 조성을 위한 도시·군계획수립 지침","label":null,"title":null,"tier":"adminRule"}]}]}],"N04":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제28조(주민과 지방의회의 의견 청취)","text":"입안 시 주민의 의견을 들어야 하며, 타당한 의견은 계획안에 반영하여야 한다.","found":true,"lawId":"009294","tier":"statute","articles":[{"label":"제28조","title":"주민과 지방의회의 의견 청취","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률/제28조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제22조","title":"주민 및 지방의회의 의견청취","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제22조","title":"주민 및 지방의회의 의견청취","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제22조","title":"주민 및 지방의회의 의견청취","tier":"decree"},{"kind":"ordinance","phrase":"⑤ 제1항 및 제4항에 따른 주민의 의견 청취에 필요한 사항은 대통령령으로 정하는 기준에 따라 해당 지방자치단체의 조례로 정한다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]},{"law":"국토의 계획 및 이용에 관한 법률 시행령","article":"제22조(주민 및 지방의회의 의견청취)","text":"계획안 주요 내용을 공보·홈페이지·국토이용정보체계에 공고하고 14일 이상 일반인이 열람하게 한다.","found":true,"lawId":"009294","tier":"decree","articles":[{"label":"제22조","title":"주민 및 지방의회의 의견청취","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률시행령/제22조","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률","label":"제28조제1항","title":"주민과 지방의회의 의견 청취","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률","label":"제28조제5항","title":"주민과 지방의회의 의견 청취","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률","label":"제28조제6항","title":"주민과 지방의회의 의견 청취","tier":"statute"}],"down":[{"kind":"rule","phrase":"국토교통부령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행규칙","label":"제2조의2","title":"주민과 지방의회의 의견 청취","tier":"rule"},{"kind":"ordinance","phrase":"② 법 제28조제5항에 따라 조례로 주민의 의견 청취에 필요한 사항을 정할 때 적용되는 기준은 다음 각 호와 같다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]}],"N05":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제28조(주민과 지방의회의 의견 청취)","text":"제출된 주민 의견을 검토해 타당한 경우 계획에 반영한다.","found":true,"lawId":"009294","tier":"statute","articles":[{"label":"제28조","title":"주민과 지방의회의 의견 청취","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률/제28조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제22조","title":"주민 및 지방의회의 의견청취","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제22조","title":"주민 및 지방의회의 의견청취","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제22조","title":"주민 및 지방의회의 의견청취","tier":"decree"},{"kind":"ordinance","phrase":"⑤ 제1항 및 제4항에 따른 주민의 의견 청취에 필요한 사항은 대통령령으로 정하는 기준에 따라 해당 지방자치단체의 조례로 정한다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]},{"law":"국토의 계획 및 이용에 관한 법률 시행령","article":"제22조(주민 및 지방의회의 의견청취)","text":"제출된 의견의 반영 여부를 검토하여 열람기간이 끝난 날부터 60일 이내에 제출자에게 통보한다.","found":true,"lawId":"009294","tier":"decree","articles":[{"label":"제22조","title":"주민 및 지방의회의 의견청취","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률시행령/제22조","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률","label":"제28조제1항","title":"주민과 지방의회의 의견 청취","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률","label":"제28조제5항","title":"주민과 지방의회의 의견 청취","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률","label":"제28조제6항","title":"주민과 지방의회의 의견 청취","tier":"statute"}],"down":[{"kind":"rule","phrase":"국토교통부령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행규칙","label":"제2조의2","title":"주민과 지방의회의 의견 청취","tier":"rule"},{"kind":"ordinance","phrase":"② 법 제28조제5항에 따라 조례로 주민의 의견 청취에 필요한 사항을 정할 때 적용되는 기준은 다음 각 호와 같다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]}],"N06":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제28조(주민과 지방의회의 의견 청취)","text":"대통령령으로 정하는 사항은 지방의회의 의견을 들어야 한다.","found":true,"lawId":"009294","tier":"statute","articles":[{"label":"제28조","title":"주민과 지방의회의 의견 청취","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률/제28조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제22조","title":"주민 및 지방의회의 의견청취","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제22조","title":"주민 및 지방의회의 의견청취","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제22조","title":"주민 및 지방의회의 의견청취","tier":"decree"},{"kind":"ordinance","phrase":"⑤ 제1항 및 제4항에 따른 주민의 의견 청취에 필요한 사항은 대통령령으로 정하는 기준에 따라 해당 지방자치단체의 조례로 정한다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]},{"law":"국토의 계획 및 이용에 관한 법률 시행령","article":"제22조(주민 및 지방의회의 의견청취)","text":"용도지역·용도지구·용도구역 지정, 주간선도로·도시철도·대학·지방자치단체 청사 등 기반시설의 결정 등은 지방의회 의견청취 대상이다.","found":true,"lawId":"009294","tier":"decree","articles":[{"label":"제22조","title":"주민 및 지방의회의 의견청취","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률시행령/제22조","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률","label":"제28조제1항","title":"주민과 지방의회의 의견 청취","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률","label":"제28조제5항","title":"주민과 지방의회의 의견 청취","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률","label":"제28조제6항","title":"주민과 지방의회의 의견 청취","tier":"statute"}],"down":[{"kind":"rule","phrase":"국토교통부령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행규칙","label":"제2조의2","title":"주민과 지방의회의 의견 청취","tier":"rule"},{"kind":"ordinance","phrase":"② 법 제28조제5항에 따라 조례로 주민의 의견 청취에 필요한 사항을 정할 때 적용되는 기준은 다음 각 호와 같다.","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]}],"N07":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제30조(도시·군관리계획의 결정)","text":"결정하려면 관계 행정기관의 장과 미리 협의하여야 한다.","found":true,"lawId":"009294","tier":"statute","articles":[{"label":"제30조","title":"도시ㆍ군관리계획의 결정","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률/제30조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"}]}]}],"N08":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제30조(도시·군관리계획의 결정)","text":"협의 결과를 반영해 도시계획위원회 심의에 부친다.","found":true,"lawId":"009294","tier":"statute","articles":[{"label":"제30조","title":"도시ㆍ군관리계획의 결정","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률/제30조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"}]}]}],"N09":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제30조(도시·군관리계획의 결정)","text":"결정하려면 지방도시계획위원회의 심의를 거쳐야 한다.","found":true,"lawId":"009294","tier":"statute","articles":[{"label":"제30조","title":"도시ㆍ군관리계획의 결정","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률/제30조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"}]}]}],"N10":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제30조(도시·군관리계획의 결정)","text":"심의 결과에 따라 원안·조건부 의결 또는 재심의를 결정한다.","found":true,"lawId":"009294","tier":"statute","articles":[{"label":"제30조","title":"도시ㆍ군관리계획의 결정","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률/제30조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"}]}]}],"N11":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제30조(도시·군관리계획의 결정)","text":"재심의·보완 요구를 받은 경우 계획안을 수정하여 다시 심의에 부친다.","found":true,"lawId":"009294","tier":"statute","articles":[{"label":"제30조","title":"도시ㆍ군관리계획의 결정","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률/제30조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"}]}]}],"N12":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제30조(도시·군관리계획의 결정)","text":"시·도지사 등이 도시·군관리계획을 결정한다.","found":true,"lawId":"009294","tier":"statute","articles":[{"label":"제30조","title":"도시ㆍ군관리계획의 결정","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률/제30조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제25조","title":"도시ㆍ군관리계획의 결정","tier":"decree"}]}]},{"law":"국토의 계획 및 이용에 관한 법률 시행령","article":"제25조(도시·군관리계획의 결정)","text":"광역계획 관련 등 중요 계획은 국토교통부장관 협의 대상이며, 경미한 변경은 협의·심의를 생략하고 공보·홈페이지에 게재하는 방법으로 결정을 고시한다.","found":true,"lawId":"009294","tier":"decree","articles":[{"label":"제25조","title":"도시ㆍ군관리계획의 결정","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률시행령/제25조","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률","label":"제30조제2항","title":"도시ㆍ군관리계획의 결정","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률","label":"제30조제3항","title":"도시ㆍ군관리계획의 결정","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률","label":"제30조제5항","title":"도시ㆍ군관리계획의 결정","tier":"statute"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률","label":"제30조제6항","title":"도시ㆍ군관리계획의 결정","tier":"statute"}],"down":[{"kind":"rule","phrase":"국토교통부령이 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행규칙","label":"제2조의3","title":"국토교통부장관과 미리 협의하여야 하는 도시ㆍ군관리계획","tier":"rule"},{"kind":"rule","phrase":"국토교통부령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행규칙","label":"제3조","title":"경미한 도시ㆍ군관리계획변경사항","tier":"rule"},{"kind":"rule","phrase":"국토교통부령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행규칙","label":"제3조","title":"경미한 도시ㆍ군관리계획변경사항","tier":"rule"},{"kind":"rule","phrase":"밖에 국토교통부령","lawName":"국토의 계획 및 이용에 관한 법률 시행규칙","label":"제3조","title":"경미한 도시ㆍ군관리계획변경사항","tier":"rule"},{"kind":"rule","phrase":"해양수산부령을 말한다","lawName":"국토의 계획 및 이용에 관한 법률 시행규칙","label":"제45조","title":"경미한 도시관리계획 변경사항","tier":null},{"kind":"rule","phrase":"국토교통부령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행규칙","label":"제3조","title":"경미한 도시ㆍ군관리계획변경사항","tier":"rule"},{"kind":"ordinance","phrase":"3. 이미 결정된 도시ㆍ군계획시설의 세부시설을 변경하는 경우로서 세부시설 면적, 건축물 연면적 또는 건축물 높이의 변경[50퍼센트 미만으로서 시ㆍ도 또는 대도시(「지방자치법」 제198조제1항에 따른 인구 50만 이상 대도시를 말한다. 이하 같다)의 도시ㆍ군계획조례로 정하는 범위 이내의 변경은 제외하며, 건축물 높이의 변경은 층수변경이 수반되는 경우를 포함한다]이 포함되지 않는 경우","lawName":"지방자치단체의 조례·규칙","label":null,"title":null,"tier":"ordinance"}]}]}],"N13":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제32조(도시·군관리계획에 관한 지형도면의 고시 등)","text":"지형도면을 작성해 시·도지사의 승인을 받는다.","found":true,"lawId":"009294","tier":"statute","articles":[{"label":"제32조","title":"도시ㆍ군관리계획에 관한 지형도면의 고시 등","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률/제32조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 기간에","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제27조","title":"지형도면의 승인 기간","tier":"decree"}]}]}],"N14":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제31조(도시·군관리계획 결정의 효력)","text":"지형도면을 고시한 날부터 도시·군관리계획 결정의 효력이 발생한다.","found":true,"lawId":"009294","tier":"statute","articles":[{"label":"제31조","title":"도시ㆍ군관리계획 결정의 효력","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률/제31조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 바에 따라","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제26조","title":"시행중인 공사에 대한 특례","tier":"decree"}]}]},{"law":"국토의 계획 및 이용에 관한 법률","article":"제32조(도시·군관리계획에 관한 지형도면의 고시 등)","text":"지형도면을 고시하여야 한다.","found":true,"lawId":"009294","tier":"statute","articles":[{"label":"제32조","title":"도시ㆍ군관리계획에 관한 지형도면의 고시 등","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률/제32조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 기간에","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제27조","title":"지형도면의 승인 기간","tier":"decree"}]}]}],"N15":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제32조(도시·군관리계획에 관한 지형도면의 고시 등)","text":"고시된 지형도면 등을 국토이용정보체계에 등재하여 일반에 공개한다.","found":true,"lawId":"009294","tier":"statute","articles":[{"label":"제32조","title":"도시ㆍ군관리계획에 관한 지형도면의 고시 등","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률/제32조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 기간에","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제27조","title":"지형도면의 승인 기간","tier":"decree"}]}]}],"N16":[{"law":"국토의 계획 및 이용에 관한 법률","article":"제34조(도시·군관리계획의 정비)","text":"5년마다 관할 구역의 도시·군관리계획의 타당성을 전반적으로 재검토하여 정비한다.","found":true,"lawId":"009294","tier":"statute","articles":[{"label":"제34조","title":"도시ㆍ군관리계획의 정비","officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률/제34조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국토의 계획 및 이용에 관한 법률 시행령","label":"제29조","title":"도시ㆍ군관리계획의 정비","tier":"decree"}]}]}]},"systems":{"009294":{"lawId":"009294","name":"국토의 계획 및 이용에 관한 법률","href":"/law/009294/","ministry":"국토교통부","effectiveOn":"2026-07-01","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"국토의 계획 및 이용에 관한 법률","kind":"법률","articleCount":182,"officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률"}],"kinds":[{"kind":"법률","count":1}],"articleCount":182},{"tier":"decree","label":"시행령","laws":[{"name":"국토의 계획 및 이용에 관한 법률 시행령","kind":"대통령령","articleCount":189,"officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률시행령"}],"kinds":[{"kind":"대통령령","count":1}],"articleCount":189},{"tier":"rule","label":"시행규칙","laws":[{"name":"국토의 계획 및 이용에 관한 법률 시행규칙","kind":"기후에너지환경부령","articleCount":56,"officialUrl":"https://www.law.go.kr/법령/국토의계획및이용에관한법률시행규칙"},{"name":"도시ㆍ군계획시설의 결정ㆍ구조 및 설치기준에 관한 규칙","kind":"기후에너지환경부령","articleCount":177,"officialUrl":"https://www.law.go.kr/법령/도시ㆍ군계획시설의결정ㆍ구조및설치기준에관한규칙"},{"name":"지하공공보도시설의 결정ㆍ구조 및 설치기준에 관한 규칙","kind":"국토교통부령","articleCount":15,"officialUrl":"https://www.law.go.kr/법령/지하공공보도시설의결정ㆍ구조및설치기준에관한규칙"}],"kinds":[{"kind":"기후에너지환경부령","count":2},{"kind":"국토교통부령","count":1}],"articleCount":248},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"기반시설에 해당하는 전기통신설비","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/기반시설에해당하는전기통신설비"},{"name":"개발행위허가운영지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개발행위허가운영지침"},{"name":"공동구 점용예정면적 산정기준에 관한 지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/공동구점용예정면적산정기준에관한지침"},{"name":"기반시설연동제 운영지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/기반시설연동제운영지침"},{"name":"도시·군관리계획수립지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/도시·군관리계획수립지침"},{"name":"도시의 지속가능성 및 생활인프라 평가 지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/도시의지속가능성및생활인프라평가지침"},{"name":"성장관리계획수립지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/성장관리계획수립지침"},{"name":"중앙도시계획위원회 운영세칙","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/중앙도시계획위원회운영세칙"},{"name":"지구단위계획수립지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지구단위계획수립지침"},{"name":"2026년 기반시설 표준시설비용 및 단위당 표준조성비 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/2026년기반시설표준시설비용및단위당표준조성비고시"},{"name":"공간재구조화계획 수립 등에 관한 지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/공간재구조화계획수립등에관한지침"},{"name":"자연녹지지역의 대형할인점등 설치·운영에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/자연녹지지역의대형할인점등설치·운영에관한고시"},{"name":"필요감염병관리시설에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/필요감염병관리시설에관한고시"},{"name":"개발제한구역의 조정을 위한 도시·군관리계획 변경안 수립지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개발제한구역의조정을위한도시·군관리계획변경안수립지침"},{"name":"공동구 설치 및 관리지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/공동구설치및관리지침"},{"name":"광역도시계획수립지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/광역도시계획수립지침"},{"name":"도시 기후변화 재해취약성분석 및 활용에 관한 지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/도시기후변화재해취약성분석및활용에관한지침"},{"name":"도시·군기본계획수립지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/도시·군기본계획수립지침"},{"name":"수산자원보호구역 관리요령","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/수산자원보호구역관리요령"},{"name":"저탄소 녹색도시 조성을 위한 도시·군계획수립 지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/저탄소녹색도시조성을위한도시·군계획수립지침"},{"name":"토지의 적성평가에 관한 지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/토지의적성평가에관한지침"},{"name":"행정중심복합도시 지구단위계획 수립지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정중심복합도시지구단위계획수립지침"},{"name":"개발제한구역의 조정을 위한 도시관리계획 변경안 수립 지침","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개발제한구역의조정을위한도시관리계획변경안수립지침"},{"name":"2015년 기반시설 표준시설비용 및 기반시설별 단위당 표준조성비","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/2015년기반시설표준시설비용및기반시설별단위당표준조성비"}],"kinds":[{"kind":"훈령","count":17},{"kind":"고시","count":5},{"kind":"행정규칙","count":2}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EA%B5%AD%ED%86%A0%EC%9D%98%20%EA%B3%84%ED%9A%8D%20%EB%B0%8F%20%EC%9D%B4%EC%9A%A9%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":245,"rule":40,"adminRule":34,"ordinance":60,"cites":610}}}},"statusStyles":{"done":{"label":"선행","fill":"#effaf5","border":"#35a77d","ink":"#123d2e","sub":"#287a5c"},"current":{"label":"핵심","fill":"#087452","border":"#087452","ink":"#ffffff","sub":"#d8f4e8"},"waiting":{"label":"후속","fill":"#ffffff","border":"#b9c7bf","ink":"#17231d","sub":"#627169"},"risk":{"label":"병목","fill":"#fff8e8","border":"#d9901a","ink":"#7a4305","sub":"#a96008"},"loop":{"label":"회귀","fill":"#edf4ff","border":"#3478db","ink":"#173f7a","sub":"#316bbd"}},"basisLegend":[{"label":"법률","fill":"#ffffff","border":"#3b4a43"},{"label":"시행령","fill":"#f2f6ff","border":"#2456d6"},{"label":"시행규칙","fill":"#effaf6","border":"#0f9f72"},{"label":"행정규칙","fill":"#f6f2ff","border":"#7c56c9"}],"isLawIndex":false}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Eu-UvfunzEwjnKcUq5f7W"}
+4:["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","precedence":"next"}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

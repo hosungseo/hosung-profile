@@ -1,0 +1,423 @@
+1:"$Sreact.fragment"
+2:I[7742,["838","static/chunks/838-9b85aecee2a13f53.js","379","static/chunks/379-f104668f756ddde1.js","301","static/chunks/app/embed/flow/%5BlawId%5D/%5Bslug%5D/page-e3d0b6acb7d5d0b3.js"],"default"]
+6:I[977,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+:HL["/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","style"]
+3:T8511,<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 250 1744 1960" class="pp-svg">
+<defs>
+      <filter id="card-shadow" x="-20%" y="-25%" width="140%" height="160%">
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#12271e" flood-opacity="0.10"/>
+      </filter>
+      <marker id="arrow-sequence" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#53675d" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-message" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#0f8a65" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-loop" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#3478db" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <style>
+        text { font-family: "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", sans-serif; }
+        .mono { font-family: "SFMono-Regular", "Menlo", monospace; }
+      </style>
+    </defs>
+<rect width="1800" height="2400" fill="#ffffff"/>
+
+
+
+<rect x="38" y="260" width="1724" height="1940" rx="10" fill="#ffffff" stroke="#b8c7bf" stroke-width="2"/>
+<rect x="38" y="260" width="190" height="100" rx="10" fill="#eaf2ee"/>
+<text x="58" y="299" font-size="17" font-weight="800" fill="#17231d">단계 ↓</text>
+<text x="58" y="332" font-size="15" font-weight="650" fill="#68776f">행위자 묶음 →</text>
+<rect x="38" y="360" width="1724" height="344.3" fill="#fbfcfb"/>
+<rect x="38" y="360" width="190" height="344.3" fill="#eef3f0"/>
+<text x="58" y="392" class="mono" font-size="16" font-weight="800" fill="#53645b">G0</text>
+<text x="58" y="425" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">처분·전심</tspan></text>
+<rect x="38" y="704.3" width="1724" height="230.3" fill="#f5f8f6"/>
+<rect x="38" y="704.3" width="190" height="230.3" fill="#eef3f0"/>
+<text x="58" y="736.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G1</text>
+<text x="58" y="769.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">제소요건</tspan></text>
+<rect x="38" y="934.6" width="1724" height="344.3" fill="#fbfcfb"/>
+<rect x="38" y="934.6" width="190" height="344.3" fill="#eef3f0"/>
+<text x="58" y="966.6" class="mono" font-size="16" font-weight="800" fill="#53645b">G2</text>
+<text x="58" y="999.6" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">소제기·집행정지</tspan></text>
+<rect x="38" y="1278.9" width="1724" height="230.3" fill="#f5f8f6"/>
+<rect x="38" y="1278.9" width="190" height="230.3" fill="#eef3f0"/>
+<text x="58" y="1310.9" class="mono" font-size="16" font-weight="800" fill="#53645b">G3</text>
+<text x="58" y="1343.9" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">심리·변론</tspan></text>
+<rect x="38" y="1509.1" width="1724" height="230.3" fill="#fbfcfb"/>
+<rect x="38" y="1509.1" width="190" height="230.3" fill="#eef3f0"/>
+<text x="58" y="1541.1" class="mono" font-size="16" font-weight="800" fill="#53645b">G4</text>
+<text x="58" y="1574.1" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">판결</tspan></text>
+<rect x="38" y="1739.4" width="1724" height="230.3" fill="#f5f8f6"/>
+<rect x="38" y="1739.4" width="190" height="230.3" fill="#eef3f0"/>
+<text x="58" y="1771.4" class="mono" font-size="16" font-weight="800" fill="#53645b">G5</text>
+<text x="58" y="1804.4" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">상소</tspan></text>
+<rect x="38" y="1969.7" width="1724" height="230.3" fill="#fbfcfb"/>
+<rect x="38" y="1969.7" width="190" height="230.3" fill="#eef3f0"/>
+<text x="58" y="2001.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G6</text>
+<text x="58" y="2034.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">확정·재처분</tspan></text>
+<rect x="228" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="228" y="260" width="383.5" height="7" fill="#0f9f72"/>
+<text x="248" y="299" font-size="20" font-weight="800" fill="#17231d">원고</text>
+<text x="248" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="248" dy="0">원고</tspan></text>
+<rect x="611.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="611.5" y="260" width="383.5" height="7" fill="#3b82f6"/>
+<text x="631.5" y="299" font-size="20" font-weight="800" fill="#17231d">피고 행정청·행정심판위원회</text>
+<text x="631.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="631.5" dy="0">피고 행정청 · 행정심판위원회(전치)</tspan></text>
+<rect x="995" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="995" y="260" width="383.5" height="7" fill="#c78116"/>
+<text x="1015" y="299" font-size="20" font-weight="800" fill="#17231d">행정법원·상급심</text>
+<text x="1015" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1015" dy="0">행정법원(1심) · 상급심(고법·대법)</tspan></text>
+<rect x="1378.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="1378.5" y="260" width="383.5" height="7" fill="#0891b2"/>
+<text x="1398.5" y="299" font-size="20" font-weight="800" fill="#17231d">정보시스템</text>
+<text x="1398.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1398.5" dy="0">정보시스템</tspan></text>
+<line x1="228" y1="260" x2="228" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="611.5" y1="260" x2="611.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="995" y1="260" x2="995" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1378.5" y1="260" x2="1378.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1762" y1="260" x2="1762" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#b8c7bf" stroke-width="2"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="704.3" x2="1762" y2="704.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="934.6" x2="1762" y2="934.6" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1278.9" x2="1762" y2="1278.9" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1509.1" x2="1762" y2="1509.1" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1739.4" x2="1762" y2="1739.4" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1969.7" x2="1762" y2="1969.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2200" x2="1762" y2="2200" stroke="#b8c7bf" stroke-width="2"/>
+<g class="pp-edge" data-edge-id="E01" data-source="P01" data-target="P03">
+<path d="M 668.3 468.6 H 629.5 V 692.3 H 439.8 V 766.4" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 668.3 468.6 H 629.5 V 692.3 H 439.8 V 766.4" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E02" data-source="P03" data-target="P04">
+<path d="M 399.8 864.4 V 922.6 H 399.8 V 996.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 399.8 864.4 V 922.6 H 399.8 V 996.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E03" data-source="P04" data-target="P05">
+<path d="M 554.8 1049.7 H 1023.8 V 1058.7 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1049.7 H 1023.8 V 1058.7 H 1043.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E04" data-source="P05" data-target="P06">
+<path d="M 1051.8 1045.7 H 595.8 V 1175.2 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1045.7 H 595.8 V 1175.2 H 562.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E05" data-source="P06" data-target="P07">
+<path d="M 554.8 1162.2 H 997.8 V 1164.7 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1162.2 H 997.8 V 1164.7 H 1043.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E06" data-source="P07" data-target="P08">
+<path d="M 1220.8 1208.7 V 1202.9 H 793.3 V 1341" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1220.8 1208.7 V 1202.9 H 793.3 V 1341" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E07" data-source="P08" data-target="P09">
+<path d="M 938.3 1405.5 H 997.8 V 1404 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 1405.5 H 997.8 V 1404 H 1043.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E08" data-source="P09" data-target="P11">
+<path d="M 1182.8 1439 V 1449.1 H 1184.8 V 1571.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1182.8 1439 V 1449.1 H 1184.8 V 1571.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E09" data-source="P11" data-target="P12">
+<path d="M 1176.8 1669.3 V 1727.4 H 409.8 V 1801.6" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1176.8 1669.3 V 1727.4 H 409.8 V 1801.6" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E10" data-source="P12" data-target="P13">
+<path d="M 554.8 1861.1 H 1023.8 V 1844.1 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1861.1 H 1023.8 V 1844.1 H 1043.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E11" data-source="P13" data-target="P14">
+<path d="M 1194.8 1899.6 V 1941.7 H 1184.8 V 2031.9" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1194.8 1899.6 V 1941.7 H 1184.8 V 2031.9" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E12" data-source="P14" data-target="P15">
+<path d="M 1051.8 2078.4 H 966.3 V 2084.9 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 2078.4 H 966.3 V 2084.9 H 946.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M01" data-source="P01" data-target="P02">
+<path d="M 938.3 486.6 H 992.3 V 595.6 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 486.6 H 992.3 V 595.6 H 946.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M02" data-source="P02" data-target="P03">
+<path d="M 781.3 634.1 V 676.3 H 407.8 V 766.4" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 781.3 634.1 V 676.3 H 407.8 V 766.4" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M03" data-source="P04" data-target="S01">
+<path d="M 554.8 1070.2 H 632.5 V 1218.9 H 1564.3 V 1341" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1070.2 H 632.5 V 1218.9 H 1564.3 V 1341" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M04" data-source="P09" data-target="P10">
+<path d="M 1051.8 1370.5 H 595.8 V 1403 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1370.5 H 595.8 V 1403 H 562.8" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L01" data-source="P10" data-target="P09">
+<path d="M 554.8 1387.5 H 1023.8 V 1381 H 1043.8" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1387.5 H 1023.8 V 1381 H 1043.8" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L02" data-source="P13" data-target="P09">
+<path d="M 1051.8 1859.6 H 216 V 1425.1 H 1220.8 V 1447" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1859.6 H 216 V 1425.1 H 1220.8 V 1447" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge-label" data-edge-id="E02" data-source="P03" data-target="P04">
+<rect x="349.3" y="890.6" width="100.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="399.8" y="910.6" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">제소기간 내</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E06" data-source="P07" data-target="P08">
+<rect x="879.6" y="1170.9" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="937" y="1190.9" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">집행정지 결정</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E08" data-source="P09" data-target="P11">
+<rect x="1135.8" y="1453.1" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1183.8" y="1473.1" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">변론종결</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E09" data-source="P11" data-target="P12">
+<rect x="745.3" y="1695.4" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="793.3" y="1715.4" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">판결 불복</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E11" data-source="P13" data-target="P14">
+<rect x="1139.3" y="1909.7" width="100.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1189.8" y="1929.7" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">상소심 판결</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E12" data-source="P14" data-target="P15">
+<rect x="947" y="2049.6" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="995" y="2069.6" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">인용 확정</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M01" data-source="P01" data-target="P02">
+<rect x="969.4" y="526.1" width="161.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1050.3" y="546.1" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">임의적 행정심판 전치</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M02" data-source="P02" data-target="P03">
+<rect x="492.6" y="644.3" width="203.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="594.5" y="664.3" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">재결서 송달(제소기간 기산)</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M03" data-source="P04" data-target="S01">
+<rect x="932.6" y="1222.9" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="990" y="1242.9" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">전자소송 접수</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M04" data-source="P09" data-target="P10">
+<rect x="742.3" y="1282.7" width="121.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="803.3" y="1302.7" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">석명·보정 요구</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L01" data-source="P10" data-target="P09">
+<rect x="712.9" y="1244.2" width="180.7" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="803.3" y="1264.2" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">준비서면 보정 후 재변론</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L02" data-source="P13" data-target="P09">
+<rect x="238" y="1624.9" width="96" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="286" y="1644.9" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">파기환송</text>
+</g>
+
+    <g class="pp-node" data-node-id="P01" data-basis="행정소송법:제2조 행정소송법:제19조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="430.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="430.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="450.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P01</text>
+      
+      <rect x="876.3" y="437.1" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="902.3" y="454.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §2</text>
+      <text x="683.3" y="487.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">위법한 처분·부작위 발생</tspan></text>
+      <text x="683.3" y="512.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 처분 시</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P02" data-basis="행정소송법:제18조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="544.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="544.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="564.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P02</text>
+      
+      <rect x="869.3" y="551.1" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="568.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §18</text>
+      <text x="683.3" y="601.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">(선택) 행정심판 청구·재결</tspan></text>
+      <text x="683.3" y="626.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 임의적 전치(개별법상 필요적 전치 예외)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P03" data-basis="행정소송법:제12조 행정소송법:제20조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="774.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="774.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="794.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P03</text>
+      
+      <rect x="485.8" y="781.4" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="798.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §12</text>
+      <text x="299.8" y="831.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">제소기간·원고적격 판단</tspan></text>
+      <text x="299.8" y="856.4" font-size="11" font-weight="650" fill="#3b4a43">기한 · 안 날 90일·있은 날 1년 이내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P04" data-basis="행정소송법:제9조 행정소송규칙:제5조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1004.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1004.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1024.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P04</text>
+      
+      <rect x="475.8" y="1011.7" width="69" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="510.3" y="1028.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §9 +1</text>
+      <text x="299.8" y="1061.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">소장 작성·관할 행정법원 제출</tspan></text>
+      <text x="299.8" y="1086.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 제소기간 내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P05" data-basis="행정소송법:제8조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1004.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1004.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1024.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P05</text>
+      
+      <rect x="1259.8" y="1011.7" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1285.8" y="1028.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §8</text>
+      <text x="1066.8" y="1061.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">소장 접수·피고 송달</tspan></text>
+      <text x="1066.8" y="1086.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 접수 후 지체 없이</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P06" data-basis="행정소송법:제23조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1118.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1118.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1138.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P06</text>
+      
+      <rect x="485.8" y="1125.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="1142.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §23</text>
+      <text x="299.8" y="1175.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">집행정지 신청</tspan></text>
+      <text x="299.8" y="1200.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 판결 전까지</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P07" data-basis="행정소송법:제23조 행정소송규칙:제10조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1118.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1118.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1138.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P07</text>
+      
+      <rect x="1235.8" y="1125.7" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1142.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §23 +1</text>
+      <text x="1066.8" y="1175.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">집행정지 결정</tspan></text>
+      <text x="1066.8" y="1200.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 신청 후 신속히</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P08" data-basis="행정소송법:제25조 행정소송규칙:제8조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1349" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1349" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1369" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P08</text>
+      
+      <rect x="852.3" y="1356" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="1373" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §25 +1</text>
+      <text x="683.3" y="1406" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">피고 답변서·처분기록 제출</tspan></text>
+      <text x="683.3" y="1431" font-size="11" font-weight="650" fill="#3b4a43">기한 · 소장 부본 송달 후 30일 이내(규칙 제8…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P09" data-basis="행정소송법:제26조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1349" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1349" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1369" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P09</text>
+      
+      <rect x="1252.8" y="1356" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1373" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §26</text>
+      <text x="1066.8" y="1406" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">변론·증거조사</tspan></text>
+      <text x="1066.8" y="1431" font-size="11" font-weight="650" fill="#3b4a43">기한 · 심리 종결 전</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P10" data-basis="행정소송법:제8조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1349" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1349" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1369" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P10</text>
+      
+      <rect x="492.8" y="1356" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="518.8" y="1373" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §8</text>
+      <text x="299.8" y="1406" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">준비서면·보정 제출</tspan></text>
+      <text x="299.8" y="1431" font-size="11" font-weight="650" fill="#3b4a43">기한 · 법원이 정한 기간 내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P11" data-basis="행정소송법:제27조 행정소송법:제28조 행정소송규칙:제14조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1579.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1579.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1599.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P11</text>
+      
+      <rect x="1235.8" y="1586.3" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1603.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §27 +1</text>
+      <text x="1066.8" y="1636.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">1심 판결(취소·기각·각하)</tspan></text>
+      <text x="1066.8" y="1661.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 변론종결 후</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P12" data-basis="행정소송법:제8조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1809.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1809.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1829.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P12</text>
+      
+      <rect x="492.8" y="1816.6" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="518.8" y="1833.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §8</text>
+      <text x="299.8" y="1866.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">항소·상고 제기</tspan></text>
+      <text x="299.8" y="1891.6" font-size="11" font-weight="650" fill="#3b4a43">기한 · 판결서 송달 후 2주 이내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P13" data-basis="법원조직법:제28조 법원조직법:제14조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1809.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1809.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1829.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P13</text>
+      
+      <rect x="1252.8" y="1816.6" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1833.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §28</text>
+      <text x="1066.8" y="1866.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">상급심 심리·판결</tspan></text>
+      <text x="1066.8" y="1891.6" font-size="11" font-weight="650" fill="#3b4a43">기한 · 상소심 심리기간 내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P14" data-basis="행정소송법:제29조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="2039.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="2039.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="2059.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P14</text>
+      
+      <rect x="1252.8" y="2046.9" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="2063.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §29</text>
+      <text x="1066.8" y="2096.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">판결 확정</tspan></text>
+      <text x="1066.8" y="2121.9" font-size="11" font-weight="650" fill="#3b4a43">기한 · 상소기간 도과·상고심 종료 시</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P15" data-basis="행정소송법:제30조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="2039.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="2039.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="2059.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P15</text>
+      
+      <rect x="869.3" y="2046.9" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="2063.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §30</text>
+      <text x="683.3" y="2096.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">인용 확정 시 재처분</tspan></text>
+      <text x="683.3" y="2121.9" font-size="11" font-weight="650" fill="#3b4a43">기한 · 판결 취지에 따라 지체 없이</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="S01" data-basis="민사소송등에서의전자문서이용등에관한법률:제5조 민사소송등에서의전자문서이용등에관한법률:제11조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="1349" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="1349" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="1369" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">▣ S01</text>
+      
+      <rect x="1643.3" y="1356" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1669.3" y="1373" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §5</text>
+      <text x="1450.3" y="1406" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">전자소송 진행·열람</tspan></text>
+      <text x="1450.3" y="1431" font-size="11" font-weight="650" fill="#3b4a43">법원 전자소송 시스템</text>
+    </g>
+  
+
+</svg>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"law":{"lawId":"001218","mst":"285913","name":"행정소송법","kind":"법률","tier":"statute","effectiveOn":"2026-05-12","officialUrl":"https://www.law.go.kr/법령/행정소송법"},"flows":[{"slug":"administrative-litigation","name":"행정소송","oneLiner":"위법한 행정처분이나 공권력 행사로 침해된 권리를 법원의 재판으로 다투어 취소·무효 확인 등을 구하는 사법적 권리구제 제도","citingSteps":14,"totalSteps":16,"articles":{"제2조":1,"제19조":1,"제18조":1,"제12조":1,"제20조":1,"제9조":1,"제8조":3,"제23조":2,"제25조":1,"제26조":1,"제27조":1,"제28조":1,"제29조":1,"제30조":1}},{"slug":"residents-lawsuit","name":"주민소송","oneLiner":"주민감사청구를 거친 주민이 지방자치단체의 위법한 재무회계 행위에 대해 법원에 소송을 제기해, 공금 지출 등의 중지·취소·손해 회수를 구하는 납세자 소송 제도","citingSteps":4,"totalSteps":15,"articles":{"제8조":4,"제26조":1}},{"slug":"administrative-appeals","name":"행정심판","oneLiner":"행정청의 위법·부당한 처분이나 부작위로 권리를 침해당한 국민이, 법원 소송 전에 행정심판위원회에 제기해 처분의 취소·변경 등을 구하는 준사법적 권리구제 제도","citingSteps":1,"totalSteps":17,"articles":{"제18조":1,"제20조":1}}],"current":"$0:rsc:props:children:0:props:flows:0","asOfDate":"2026-07-10","reviewNote":"주요 절차를 요약한 참고 모델입니다. 모든 예외·위임규정의 현행성까지 전수 검증한 자료는 아닙니다. 법령 체계의 보관 자료와 현행 원문은 다를 수 있습니다.","svg":"$3","nodes":[{"id":"P01","name":"위법한 처분·부작위 발생","lane":"피고 행정청","stage":"G0 처분·전심","type":"notice","status":"done","progress":100,"actor":"행정청","receiver":"원고","action":"처분","output_documents":["처분서","불복방법 고지"],"deadline":"처분 시","confidence":0.85,"legal_basis":[{"law":"행정소송법","article":"제2조·제19조","text":"취소소송은 처분등을 대상으로 하며, 위법한 처분·부작위가 소송의 전제가 된다."}]},{"id":"P02","name":"(선택) 행정심판 청구·재결","lane":"행정심판위원회(전치)","stage":"G0 처분·전심","type":"task","status":"done","progress":100,"actor":"행정심판위원회","receiver":"원고","action":"재결","input_documents":["행정심판 청구서"],"output_documents":["재결서"],"deadline":"임의적 전치(개별법상 필요적 전치 예외)","confidence":0.82,"legal_basis":[{"law":"행정소송법","article":"제18조","text":"취소소송은 행정심판을 거치지 아니하고 제기할 수 있으나, 다른 법률에 전치 규정이 있으면 이를 거쳐야 한다."}]},{"id":"P03","name":"제소기간·원고적격 판단","lane":"원고","stage":"G1 제소요건","type":"gateway","status":"done","progress":100,"actor":"원고","action":"제소요건 확인","condition":"처분성·원고적격·제소기간(안 날 90일, 있은 날 1년) 충족 여부","output_documents":["제소요건 검토메모"],"deadline":"안 날 90일·있은 날 1년 이내","confidence":0.83,"legal_basis":[{"law":"행정소송법","article":"제12조·제20조","text":"법률상 이익이 있는 자가 원고가 되며, 취소소송은 처분을 안 날부터 90일, 있은 날부터 1년 이내에 제기한다."}]},{"id":"P04","name":"소장 작성·관할 행정법원 제출","lane":"원고","stage":"G2 소제기·집행정지","type":"task","status":"done","progress":100,"actor":"원고","receiver":"행정법원(1심)","action":"소 제기","output_documents":["소장"],"deadline":"제소기간 내","confidence":0.84,"legal_basis":[{"law":"행정소송법","article":"제9조","text":"취소소송은 피고 행정청 소재지를 관할하는 행정법원에 제기한다."},{"law":"행정소송규칙","article":"제5조","text":"행정소송법 제9조를 구체화하여 항고소송의 관할 법원을 정한다."}]},{"id":"P05","name":"소장 접수·피고 송달","lane":"행정법원(1심)","stage":"G2 소제기·집행정지","type":"task","status":"done","progress":100,"actor":"행정법원","receiver":"피고 행정청","action":"접수·송달","input_documents":["소장"],"output_documents":["소장 부본 송달"],"deadline":"접수 후 지체 없이","confidence":0.83,"legal_basis":[{"law":"행정소송법","article":"제8조제2항","text":"행정소송에 관하여 이 법에 특별한 규정이 없는 사항은 민사소송법을 준용하여 소장을 접수·송달한다."}]},{"id":"P06","name":"집행정지 신청","lane":"원고","stage":"G2 소제기·집행정지","type":"task","status":"current","progress":50,"actor":"원고","receiver":"행정법원(1심)","action":"집행정지 신청","output_documents":["집행정지 신청서"],"deadline":"판결 전까지","blocker":"회복하기 어려운 손해 소명자료 준비 중","confidence":0.81,"legal_basis":[{"law":"행정소송법","article":"제23조","text":"처분의 집행으로 생길 회복하기 어려운 손해를 예방하기 위해 법원에 집행정지를 신청할 수 있다."}]},{"id":"P07","name":"집행정지 결정","lane":"행정법원(1심)","stage":"G2 소제기·집행정지","type":"gateway","status":"risk","progress":0,"actor":"행정법원","action":"집행정지 결정","condition":"회복 곤란한 손해·긴급한 필요·본안 승소 가능성 등 요건 충족 여부","input_documents":["집행정지 신청서"],"output_documents":["집행정지 결정문"],"deadline":"신청 후 신속히","blocker":"집행정지가 인용되지 않으면 심리 중 처분이 그대로 집행되어 실익이 준다(운영 추정)","confidence":0.78,"legal_basis":[{"law":"행정소송법","article":"제23조","text":"법원은 요건을 갖춘 경우 처분등의 효력이나 집행 또는 절차의 속행을 정지할 수 있다."},{"law":"행정소송규칙","article":"제10조","text":"행정소송법 제23조를 구체화하여 집행정지 결정의 종기를 정한다."}]},{"id":"P08","name":"피고 답변서·처분기록 제출","lane":"피고 행정청","stage":"G3 심리·변론","type":"task","status":"waiting","progress":0,"actor":"피고 행정청","receiver":"행정법원(1심)","action":"답변·기록 제출","input_documents":["소장 부본"],"output_documents":["답변서","처분 관계기록"],"deadline":"소장 부본 송달 후 30일 이내(규칙 제8조)","confidence":0.8,"legal_basis":[{"law":"행정소송법","article":"제25조","text":"법원은 필요하다고 인정할 때 행정심판기록의 제출을 명할 수 있고 행정청은 이를 제출한다."},{"law":"행정소송규칙","article":"제8조","text":"피고가 청구를 다투는 경우 소장 부본을 송달받은 날부터 30일 이내에 처분 경위·관계법령·항변 등을 기재한 답변서를 제출한다."}]},{"id":"P09","name":"변론·증거조사","lane":"행정법원(1심)","stage":"G3 심리·변론","type":"task","status":"risk","progress":0,"actor":"행정법원","action":"변론·증거조사","input_documents":["소장","답변서","준비서면"],"output_documents":["변론조서","증거조사 결과"],"deadline":"심리 종결 전","blocker":"재판 지연으로 심리가 장기화되는 경우가 있다(운영 추정)","confidence":0.78,"legal_basis":[{"law":"행정소송법","article":"제26조","text":"법원은 필요하다고 인정할 때 직권으로 증거조사를 하고 당사자가 주장하지 아니한 사실도 판단할 수 있다."}]},{"id":"P10","name":"준비서면·보정 제출","lane":"원고","stage":"G3 심리·변론","type":"task","status":"loop","progress":0,"actor":"원고·피고","action":"준비서면 보정","input_documents":["석명·보정 요구"],"output_documents":["준비서면","보정서"],"deadline":"법원이 정한 기간 내","blocker":"석명·보정 회귀 단계","confidence":0.79,"legal_basis":[{"law":"행정소송법","article":"제8조제2항","text":"민사소송법 준용에 따라 당사자는 준비서면을 제출하고 재판장의 석명에 응하여 보정한다."}]},{"id":"P11","name":"1심 판결(취소·기각·각하)","lane":"행정법원(1심)","stage":"G4 판결","type":"gateway","status":"waiting","progress":0,"actor":"행정법원","action":"판결","condition":"취소(인용)·기각·각하·사정판결 판단","input_documents":["변론조서","증거조사 결과"],"output_documents":["판결서"],"deadline":"변론종결 후","confidence":0.82,"legal_basis":[{"law":"행정소송법","article":"제27조·제28조","text":"재량처분의 일탈·남용은 취소할 수 있고, 처분이 위법하나 공공복리를 위해 필요하면 사정판결을 할 수 있다."},{"law":"행정소송규칙","article":"제14조","text":"행정소송법 제28조의 사정판결 여부는 사실심 변론종결 시를 기준으로 판단한다."}]},{"id":"P12","name":"항소·상고 제기","lane":"원고","stage":"G5 상소","type":"task","status":"waiting","progress":0,"actor":"원고·피고","receiver":"상급심(고법·대법)","action":"상소","input_documents":["판결서"],"output_documents":["항소장","상고장"],"deadline":"판결서 송달 후 2주 이내","confidence":0.8,"legal_basis":[{"law":"행정소송법","article":"제8조제2항","text":"민사소송법 준용에 따라 판결에 불복하는 당사자는 항소·상고를 제기할 수 있다."}]},{"id":"P13","name":"상급심 심리·판결","lane":"상급심(고법·대법)","stage":"G5 상소","type":"gateway","status":"waiting","progress":0,"actor":"고등법원·대법원","action":"상소심 판결","condition":"항소기각·인용, 상고기각·파기환송·파기자판 판단","input_documents":["항소장","상고장","소송기록"],"output_documents":["상소심 판결서"],"deadline":"상소심 심리기간 내","confidence":0.79,"legal_basis":[{"law":"법원조직법","article":"제28조·제14조","text":"고등법원은 행정법원 판결에 대한 항소를, 대법원은 상고를 심판한다."}]},{"id":"P14","name":"판결 확정","lane":"행정법원(1심)","stage":"G6 확정·재처분","type":"task","status":"waiting","progress":0,"actor":"법원","action":"확정","input_documents":["판결서"],"output_documents":["확정증명"],"deadline":"상소기간 도과·상고심 종료 시","confidence":0.83,"legal_basis":[{"law":"행정소송법","article":"제29조","text":"처분등을 취소하는 확정판결은 제3자에 대하여도 효력이 있다."}]},{"id":"P15","name":"인용 확정 시 재처분","lane":"피고 행정청","stage":"G6 확정·재처분","type":"task","status":"waiting","progress":0,"actor":"피고 행정청","action":"재처분","input_documents":["확정판결서"],"output_documents":["재처분 결과"],"deadline":"판결 취지에 따라 지체 없이","blocker":"승소해도 행정청의 재처분이 미흡해 실질 구제가 제한되는 경우가 있다","confidence":0.79,"legal_basis":[{"law":"행정소송법","article":"제30조","text":"처분을 취소하는 확정판결은 당사자인 행정청을 기속하며, 행정청은 판결 취지에 따라 다시 처분하여야 한다."}]},{"id":"S01","name":"전자소송 진행·열람","lane":"정보시스템","stage":"G3 심리·변론","type":"system","status":"waiting","progress":0,"actor":"법원 전자소송 시스템","action":"전자접수·열람","input_documents":["소장","준비서면"],"output_documents":["사건 진행조회","전자 판결서"],"blocker":"전자소송 시스템 명칭·운영 상세 확인 필요(현장 검증 필요)","confidence":0.72,"legal_basis":[{"law":"민사소송 등에서의 전자문서 이용 등에 관한 법률","article":"제5조·제11조","text":"전자소송 시스템을 통하여 소장 등 전자문서의 제출·송달과 사건기록 열람을 할 수 있다."}]}],"edges":[{"id":"E01","source":"P01","target":"P03","type":"sequence","label":null},{"id":"E02","source":"P03","target":"P04","type":"sequence","label":"제소기간 내"},{"id":"E03","source":"P04","target":"P05","type":"sequence","label":null},{"id":"E04","source":"P05","target":"P06","type":"sequence","label":null},{"id":"E05","source":"P06","target":"P07","type":"sequence","label":null},{"id":"E06","source":"P07","target":"P08","type":"sequence","label":"집행정지 결정"},{"id":"E07","source":"P08","target":"P09","type":"sequence","label":null},{"id":"E08","source":"P09","target":"P11","type":"sequence","label":"변론종결"},{"id":"E09","source":"P11","target":"P12","type":"sequence","label":"판결 불복"},{"id":"E10","source":"P12","target":"P13","type":"sequence","label":null},{"id":"E11","source":"P13","target":"P14","type":"sequence","label":"상소심 판결"},{"id":"E12","source":"P14","target":"P15","type":"sequence","label":"인용 확정"},{"id":"M01","source":"P01","target":"P02","type":"message","label":"임의적 행정심판 전치"},{"id":"M02","source":"P02","target":"P03","type":"message","label":"재결서 송달(제소기간 기산)"},{"id":"M03","source":"P04","target":"S01","type":"message","label":"전자소송 접수"},{"id":"M04","source":"P09","target":"P10","type":"message","label":"석명·보정 요구"},{"id":"L01","source":"P10","target":"P09","type":"loop","label":"준비서면 보정 후 재변론"},{"id":"L02","source":"P13","target":"P09","type":"loop","label":"파기환송"}],"lawContext":{"byNode":{"P01":[{"law":"행정소송법","article":"제2조·제19조","text":"취소소송은 처분등을 대상으로 하며, 위법한 처분·부작위가 소송의 전제가 된다.","found":true,"lawId":"001218","tier":"statute","articles":[{"label":"제2조","title":"정의","officialUrl":"https://www.law.go.kr/법령/행정소송법/제2조","up":[],"down":[]},{"label":"제19조","title":"취소소송의 대상","officialUrl":"https://www.law.go.kr/법령/행정소송법/제19조","up":[],"down":[]}]}],"P02":[{"law":"행정소송법","article":"제18조","text":"취소소송은 행정심판을 거치지 아니하고 제기할 수 있으나, 다른 법률에 전치 규정이 있으면 이를 거쳐야 한다.","found":true,"lawId":"001218","tier":"statute","articles":[{"label":"제18조","title":"행정심판과의 관계","officialUrl":"https://www.law.go.kr/법령/행정소송법/제18조","up":[],"down":[]}]}],"P03":[{"law":"행정소송법","article":"제12조·제20조","text":"법률상 이익이 있는 자가 원고가 되며, 취소소송은 처분을 안 날부터 90일, 있은 날부터 1년 이내에 제기한다.","found":true,"lawId":"001218","tier":"statute","articles":[{"label":"제12조","title":"원고적격","officialUrl":"https://www.law.go.kr/법령/행정소송법/제12조","up":[],"down":[]},{"label":"제20조","title":"제소기간","officialUrl":"https://www.law.go.kr/법령/행정소송법/제20조","up":[],"down":[]}]}],"P04":[{"law":"행정소송법","article":"제9조","text":"취소소송은 피고 행정청 소재지를 관할하는 행정법원에 제기한다.","found":true,"lawId":"001218","tier":"statute","articles":[{"label":"제9조","title":"재판관할","officialUrl":"https://www.law.go.kr/법령/행정소송법/제9조","up":[],"down":[]}]},{"law":"행정소송규칙","article":"제5조","text":"행정소송법 제9조를 구체화하여 항고소송의 관할 법원을 정한다.","found":true,"lawId":"001218","tier":"decree","articles":[{"label":"제5조","title":"재판관할","officialUrl":"https://www.law.go.kr/법령/행정소송규칙/제5조","up":[],"down":[]}]}],"P05":[{"law":"행정소송법","article":"제8조제2항","text":"행정소송에 관하여 이 법에 특별한 규정이 없는 사항은 민사소송법을 준용하여 소장을 접수·송달한다.","found":true,"lawId":"001218","tier":"statute","articles":[{"label":"제8조","title":"법적용례","officialUrl":"https://www.law.go.kr/법령/행정소송법/제8조","up":[],"down":[]}]}],"P06":[{"law":"행정소송법","article":"제23조","text":"처분의 집행으로 생길 회복하기 어려운 손해를 예방하기 위해 법원에 집행정지를 신청할 수 있다.","found":true,"lawId":"001218","tier":"statute","articles":[{"label":"제23조","title":"집행정지","officialUrl":"https://www.law.go.kr/법령/행정소송법/제23조","up":[],"down":[]}]}],"P07":[{"law":"행정소송법","article":"제23조","text":"법원은 요건을 갖춘 경우 처분등의 효력이나 집행 또는 절차의 속행을 정지할 수 있다.","found":true,"lawId":"001218","tier":"statute","articles":[{"label":"제23조","title":"집행정지","officialUrl":"https://www.law.go.kr/법령/행정소송법/제23조","up":[],"down":[]}]},{"law":"행정소송규칙","article":"제10조","text":"행정소송법 제23조를 구체화하여 집행정지 결정의 종기를 정한다.","found":true,"lawId":"001218","tier":"decree","articles":[{"label":"제10조","title":"집행정지의 종기","officialUrl":"https://www.law.go.kr/법령/행정소송규칙/제10조","up":[],"down":[]}]}],"P08":[{"law":"행정소송법","article":"제25조","text":"법원은 필요하다고 인정할 때 행정심판기록의 제출을 명할 수 있고 행정청은 이를 제출한다.","found":true,"lawId":"001218","tier":"statute","articles":[{"label":"제25조","title":"행정심판기록의 제출명령","officialUrl":"https://www.law.go.kr/법령/행정소송법/제25조","up":[],"down":[]}]},{"law":"행정소송규칙","article":"제8조","text":"피고가 청구를 다투는 경우 소장 부본을 송달받은 날부터 30일 이내에 처분 경위·관계법령·항변 등을 기재한 답변서를 제출한다.","found":true,"lawId":"001218","tier":"decree","articles":[{"label":"제8조","title":"답변서의 제출","officialUrl":"https://www.law.go.kr/법령/행정소송규칙/제8조","up":[],"down":[]}]}],"P09":[{"law":"행정소송법","article":"제26조","text":"법원은 필요하다고 인정할 때 직권으로 증거조사를 하고 당사자가 주장하지 아니한 사실도 판단할 수 있다.","found":true,"lawId":"001218","tier":"statute","articles":[{"label":"제26조","title":"직권심리","officialUrl":"https://www.law.go.kr/법령/행정소송법/제26조","up":[],"down":[]}]}],"P10":[{"law":"행정소송법","article":"제8조제2항","text":"민사소송법 준용에 따라 당사자는 준비서면을 제출하고 재판장의 석명에 응하여 보정한다.","found":true,"lawId":"001218","tier":"statute","articles":[{"label":"제8조","title":"법적용례","officialUrl":"https://www.law.go.kr/법령/행정소송법/제8조","up":[],"down":[]}]}],"P11":[{"law":"행정소송법","article":"제27조·제28조","text":"재량처분의 일탈·남용은 취소할 수 있고, 처분이 위법하나 공공복리를 위해 필요하면 사정판결을 할 수 있다.","found":true,"lawId":"001218","tier":"statute","articles":[{"label":"제27조","title":"재량처분의 취소","officialUrl":"https://www.law.go.kr/법령/행정소송법/제27조","up":[],"down":[]},{"label":"제28조","title":"사정판결","officialUrl":"https://www.law.go.kr/법령/행정소송법/제28조","up":[],"down":[]}]},{"law":"행정소송규칙","article":"제14조","text":"행정소송법 제28조의 사정판결 여부는 사실심 변론종결 시를 기준으로 판단한다.","found":true,"lawId":"001218","tier":"decree","articles":[{"label":"제14조","title":"사정판결","officialUrl":"https://www.law.go.kr/법령/행정소송규칙/제14조","up":[],"down":[]}]}],"P12":[{"law":"행정소송법","article":"제8조제2항","text":"민사소송법 준용에 따라 판결에 불복하는 당사자는 항소·상고를 제기할 수 있다.","found":true,"lawId":"001218","tier":"statute","articles":[{"label":"제8조","title":"법적용례","officialUrl":"https://www.law.go.kr/법령/행정소송법/제8조","up":[],"down":[]}]}],"P13":[{"law":"법원조직법","article":"제28조·제14조","text":"고등법원은 행정법원 판결에 대한 항소를, 대법원은 상고를 심판한다.","found":true,"lawId":"001710","tier":"statute","articles":[{"label":"제28조","title":"심판권","officialUrl":"https://www.law.go.kr/법령/법원조직법/제28조","up":[],"down":[{"kind":"decree","phrase":"대법원규칙으로 정하는","lawName":"민사 및 가사소송의 사물관할에 관한 규칙","label":"제4조","title":"고등법원의 심판범위","tier":"decree"}]},{"label":"제14조","title":"심판권","officialUrl":"https://www.law.go.kr/법령/법원조직법/제14조","up":[],"down":[]}]}],"P14":[{"law":"행정소송법","article":"제29조","text":"처분등을 취소하는 확정판결은 제3자에 대하여도 효력이 있다.","found":true,"lawId":"001218","tier":"statute","articles":[{"label":"제29조","title":"취소판결등의 효력","officialUrl":"https://www.law.go.kr/법령/행정소송법/제29조","up":[],"down":[]}]}],"P15":[{"law":"행정소송법","article":"제30조","text":"처분을 취소하는 확정판결은 당사자인 행정청을 기속하며, 행정청은 판결 취지에 따라 다시 처분하여야 한다.","found":true,"lawId":"001218","tier":"statute","articles":[{"label":"제30조","title":"취소판결등의 기속력","officialUrl":"https://www.law.go.kr/법령/행정소송법/제30조","up":[],"down":[]}]}],"S01":[{"law":"민사소송 등에서의 전자문서 이용 등에 관한 법률","article":"제5조·제11조","text":"전자소송 시스템을 통하여 소장 등 전자문서의 제출·송달과 사건기록 열람을 할 수 있다.","found":true,"lawId":"011173","tier":"statute","articles":[{"label":"제5조","title":"전자문서에 의한 민사소송등의 수행","officialUrl":"https://www.law.go.kr/법령/민사소송등에서의전자문서이용등에관한법률/제5조","up":[],"down":[{"kind":"decree","phrase":"그 밖에 대법원규칙으로 정하는 자는 민사소송등에서","lawName":"민사소송 등에서의 전자문서 이용 등에 관한 규칙","label":"제3조","title":"전자문서를 제출할 수 있는 자","tier":"decree"}]},{"label":"제11조","title":"전자적 송달 또는 통지","officialUrl":"https://www.law.go.kr/법령/민사소송등에서의전자문서이용등에관한법률/제11조","up":[],"down":[{"kind":"decree","phrase":"대법원규칙으로 정하는","lawName":"민사소송 등에서의 전자문서 이용 등에 관한 규칙","label":"제24조","title":"전자적 송달ㆍ통지를 받을 자","tier":"decree"},{"kind":"decree","phrase":"대법원규칙으로 정하는","lawName":"민사소송 등에서의 전자문서 이용 등에 관한 규칙","label":"제25조","title":"전자적 송달ㆍ통지를 받을 기관 등","tier":"decree"},{"kind":"decree","phrase":"기간의 계산은 대법원규칙으로 정하는 바에 따른다","lawName":"민사소송 등에서의 전자문서 이용 등에 관한 규칙","label":"제28조","title":"기간의 계산","tier":"decree"}]}]}]},"systems":{"001218":{"lawId":"001218","name":"행정소송법","href":"/law/001218/","ministry":"법무부","effectiveOn":"2026-05-12","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"행정소송법","kind":"법률","articleCount":46,"officialUrl":"https://www.law.go.kr/법령/행정소송법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":46},{"tier":"decree","label":"시행령","laws":[{"name":"행정소송규칙","kind":"대법원규칙","articleCount":21,"officialUrl":"https://www.law.go.kr/법령/행정소송규칙"},{"name":"송달료규칙","kind":"대법원규칙","articleCount":17,"officialUrl":"https://www.law.go.kr/법령/송달료규칙"}],"kinds":[{"kind":"대법원규칙","count":2}],"articleCount":38},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%ED%96%89%EC%A0%95%EC%86%8C%EC%86%A1%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":0,"rule":0,"adminRule":0,"ordinance":0,"cites":38}},"001710":{"lawId":"001710","name":"법원조직법","href":"/law/001710/","ministry":"대법원","effectiveOn":"2026-10-02","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"법원조직법","kind":"법률","articleCount":132,"officialUrl":"https://www.law.go.kr/법령/법원조직법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":132},{"tier":"decree","label":"시행령","laws":[{"name":"각급 법원에 배치할 판사의 수에 관한 규칙","kind":"대법원규칙","articleCount":4,"officialUrl":"https://www.law.go.kr/법령/각급법원에배치할판사의수에관한규칙"},{"name":"고등법원 부의 지방법원 소재지에서의 사무처리에 관한 규칙","kind":"대법원규칙","articleCount":14,"officialUrl":"https://www.law.go.kr/법령/고등법원부의지방법원소재지에서의사무처리에관한규칙"},{"name":"고등법원 부장판사급 이상의 법관의 보직범위에 관한 규칙","kind":"대법원규칙","articleCount":2,"officialUrl":"https://www.law.go.kr/법령/고등법원부장판사급이상의법관의보직범위에관한규칙"},{"name":"기술심리관규칙","kind":"대법원규칙","articleCount":8,"officialUrl":"https://www.law.go.kr/법령/기술심리관규칙"},{"name":"대법관회의 운영규칙","kind":"대법원규칙","articleCount":8,"officialUrl":"https://www.law.go.kr/법령/대법관회의운영규칙"},{"name":"대법관후보추천위원회 규칙","kind":"대법원규칙","articleCount":11,"officialUrl":"https://www.law.go.kr/법령/대법관후보추천위원회규칙"},{"name":"대법원 윤리감사관과 그 보좌기관 및 분장사무에 관한 규칙","kind":"대법원규칙","articleCount":4,"officialUrl":"https://www.law.go.kr/법령/대법원윤리감사관과그보좌기관및분장사무에관한규칙"},{"name":"대법원규칙 등의 제ㆍ개정절차 등에 관한 규칙","kind":"대법원규칙","articleCount":11,"officialUrl":"https://www.law.go.kr/법령/대법원규칙등의제ㆍ개정절차등에관한규칙"},{"name":"대법원에서의변론에관한규칙","kind":"대법원규칙","articleCount":12,"officialUrl":"https://www.law.go.kr/법령/대법원에서의변론에관한규칙"},{"name":"대법원장비서실 직제에 관한 규칙","kind":"대법원규칙","articleCount":4,"officialUrl":"https://www.law.go.kr/법령/대법원장비서실직제에관한규칙"},{"name":"등기소의 설치와 관할구역에 관한 규칙","kind":"대법원규칙","articleCount":7,"officialUrl":"https://www.law.go.kr/법령/등기소의설치와관할구역에관한규칙"},{"name":"등기업무전산화추진위원회규칙","kind":"대법원규칙","articleCount":11,"officialUrl":"https://www.law.go.kr/법령/등기업무전산화추진위원회규칙"},{"name":"민사 및 가사소송의 사물관할에 관한 규칙","kind":"대법원규칙","articleCount":4,"officialUrl":"https://www.law.go.kr/법령/민사및가사소송의사물관할에관한규칙"},{"name":"법관, 사법보좌관 및 법원사무관등의 법복에 관한 규칙","kind":"대법원규칙","articleCount":5,"officialUrl":"https://www.law.go.kr/법령/법관,사법보좌관및법원사무관등의법복에관한규칙"},{"name":"법관의 승급기준에 관한 규칙","kind":"대법원규칙","articleCount":19,"officialUrl":"https://www.law.go.kr/법령/법관의승급기준에관한규칙"},{"name":"법관이관여할수없는직무등에관한규칙","kind":"대법원규칙","articleCount":5,"officialUrl":"https://www.law.go.kr/법령/법관이관여할수없는직무등에관한규칙"},{"name":"법관인사규칙","kind":"대법원규칙","articleCount":35,"officialUrl":"https://www.law.go.kr/법령/법관인사규칙"},{"name":"법관인사위원회 규칙","kind":"대법원규칙","articleCount":10,"officialUrl":"https://www.law.go.kr/법령/법관인사위원회규칙"},{"name":"법원 청사 건축설계 심사에 관한 규칙","kind":"대법원규칙","articleCount":11,"officialUrl":"https://www.law.go.kr/법령/법원청사건축설계심사에관한규칙"},{"name":"법원감사규칙","kind":"대법원규칙","articleCount":29,"officialUrl":"https://www.law.go.kr/법령/법원감사규칙"},{"name":"법원공무원 정원에 관한 규칙","kind":"대법원규칙","articleCount":7,"officialUrl":"https://www.law.go.kr/법령/법원공무원정원에관한규칙"},{"name":"법원공무원교육원규칙","kind":"대법원규칙","articleCount":34,"officialUrl":"https://www.law.go.kr/법령/법원공무원교육원규칙"},{"name":"법원공용차량 관리규칙","kind":"대법원규칙","articleCount":9,"officialUrl":"https://www.law.go.kr/법령/법원공용차량관리규칙"},{"name":"법원도서관규칙","kind":"대법원규칙","articleCount":27,"officialUrl":"https://www.law.go.kr/법령/법원도서관규칙"},{"name":"법원보안관리대의 설치, 조직 및 분장사무 등에 관한 규칙","kind":"대법원규칙","articleCount":10,"officialUrl":"https://www.law.go.kr/법령/법원보안관리대의설치,조직및분장사무등에관한규칙"},{"name":"법원사무관리규칙","kind":"대법원규칙","articleCount":113,"officialUrl":"https://www.law.go.kr/법령/법원사무관리규칙"},{"name":"법원사무기구에 관한 규칙","kind":"대법원규칙","articleCount":13,"officialUrl":"https://www.law.go.kr/법령/법원사무기구에관한규칙"},{"name":"법원운영계획규칙","kind":"대법원규칙","articleCount":12,"officialUrl":"https://www.law.go.kr/법령/법원운영계획규칙"},{"name":"법원재판사무 처리규칙","kind":"대법원규칙","articleCount":37,"officialUrl":"https://www.law.go.kr/법령/법원재판사무처리규칙"},{"name":"법원조사관 등 규칙","kind":"대법원규칙","articleCount":4,"officialUrl":"https://www.law.go.kr/법령/법원조사관등규칙"},{"name":"법원청사건축심의위원회규칙","kind":"대법원규칙","articleCount":11,"officialUrl":"https://www.law.go.kr/법령/법원청사건축심의위원회규칙"},{"name":"법원통계규칙","kind":"대법원규칙","articleCount":3,"officialUrl":"https://www.law.go.kr/법령/법원통계규칙"},{"name":"법정 방청 및 촬영 등에 관한 규칙","kind":"대법원규칙","articleCount":6,"officialUrl":"https://www.law.go.kr/법령/법정방청및촬영등에관한규칙"},{"name":"법정 좌석에 관한 규칙","kind":"대법원규칙","articleCount":3,"officialUrl":"https://www.law.go.kr/법령/법정좌석에관한규칙"},{"name":"법정등의질서유지를위한재판에관한규칙","kind":"대법원규칙","articleCount":29,"officialUrl":"https://www.law.go.kr/법령/법정등의질서유지를위한재판에관한규칙"},{"name":"비밀보호규칙","kind":"대법원규칙","articleCount":85,"officialUrl":"https://www.law.go.kr/법령/비밀보호규칙"},{"name":"사법보좌관규칙","kind":"대법원규칙","articleCount":34,"officialUrl":"https://www.law.go.kr/법령/사법보좌관규칙"},{"name":"사법연수생의 보수에 관한 규칙","kind":"대법원규칙","articleCount":3,"officialUrl":"https://www.law.go.kr/법령/사법연수생의보수에관한규칙"},{"name":"사법연수원 운영규칙","kind":"대법원규칙","articleCount":62,"officialUrl":"https://www.law.go.kr/법령/사법연수원운영규칙"},{"name":"사법정책 및 제도개선 등에 관한 위원회규칙","kind":"대법원규칙","articleCount":17,"officialUrl":"https://www.law.go.kr/법령/사법정책및제도개선등에관한위원회규칙"},{"name":"사법정책연구원 운영규칙","kind":"대법원규칙","articleCount":27,"officialUrl":"https://www.law.go.kr/법령/사법정책연구원운영규칙"},{"name":"사법정책자문위원회 규칙","kind":"대법원규칙","articleCount":20,"officialUrl":"https://www.law.go.kr/법령/사법정책자문위원회규칙"},{"name":"양형위원회규칙","kind":"대법원규칙","articleCount":12,"officialUrl":"https://www.law.go.kr/법령/양형위원회규칙"},{"name":"재판기록 열람ㆍ복사 규칙","kind":"대법원규칙","articleCount":8,"officialUrl":"https://www.law.go.kr/법령/재판기록열람ㆍ복사규칙"},{"name":"재판연구원규칙","kind":"대법원규칙","articleCount":9,"officialUrl":"https://www.law.go.kr/법령/재판연구원규칙"},{"name":"전문심리위원규칙","kind":"대법원규칙","articleCount":10,"officialUrl":"https://www.law.go.kr/법령/전문심리위원규칙"},{"name":"판례심사위원회 규칙","kind":"대법원규칙","articleCount":10,"officialUrl":"https://www.law.go.kr/법령/판례심사위원회규칙"},{"name":"판사 근무성적 등 평정 규칙","kind":"대법원규칙","articleCount":11,"officialUrl":"https://www.law.go.kr/법령/판사근무성적등평정규칙"},{"name":"판사가 아닌 재판연구관에 관한 규칙","kind":"대법원규칙","articleCount":4,"officialUrl":"https://www.law.go.kr/법령/판사가아닌재판연구관에관한규칙"},{"name":"판사회의의 설치 및 운영에 관한 규칙","kind":"대법원규칙","articleCount":18,"officialUrl":"https://www.law.go.kr/법령/판사회의의설치및운영에관한규칙"},{"name":"휴직법관에 대한 보수지급에 관한 규칙","kind":"대법원규칙","articleCount":7,"officialUrl":"https://www.law.go.kr/법령/휴직법관에대한보수지급에관한규칙"}],"kinds":[{"kind":"대법원규칙","count":51}],"articleCount":869},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"가사접수서류에 붙일 인지액 및 그 편철방법 등에 관한 예규","kind":"재판예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/가사접수서류에붙일인지액및그편철방법등에관한예규"},{"name":"민사접수서류에 붙일 인지액 및 그 편철방법 등에 관한 예규(재민 91-1)","kind":"재판예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/민사접수서류에붙일인지액및그편철방법등에관한예규(재민91-1)"},{"name":"사건별 부호문자의 부여에 관한 예규(재일 2003-1)","kind":"재판예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/사건별부호문자의부여에관한예규(재일2003-1)"},{"name":"재판사무에 관한 문서의 양식에 관한 예규(재일 2003-7)","kind":"재판예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/재판사무에관한문서의양식에관한예규(재일2003-7)"},{"name":"증거분리제출제도의 시행에 따른 형사소송기록관리에 관한 예규(재형 2006-1)","kind":"재판예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/증거분리제출제도의시행에따른형사소송기록관리에관한예규(재형2006-1)"},{"name":"행정사건의 접수서류에 첩부할 인지액과 그 편철방법 등에 관한 예규(재특 91-4)","kind":"재판예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정사건의접수서류에첩부할인지액과그편철방법등에관한예규(재특91-4)"},{"name":"형사소송서류의 전산입력 및 편철방법에 대한 예규(재형 2003-11)","kind":"재판예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/형사소송서류의전산입력및편철방법에대한예규(재형2003-11)"},{"name":"법정등의질서유지를위한재판에관한규칙 시행에 관한 예규(재일 81-8)","kind":"재판예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/법정등의질서유지를위한재판에관한규칙시행에관한예규(재일81-8)"}],"kinds":[{"kind":"재판예규","count":8}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EB%B2%95%EC%9B%90%EC%A1%B0%EC%A7%81%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":66,"rule":32,"adminRule":8,"ordinance":0,"cites":310}},"011173":{"lawId":"011173","name":"민사소송 등에서의 전자문서 이용 등에 관한 법률","href":"/law/011173/","ministry":"법무부","effectiveOn":"2025-02-03","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"민사소송 등에서의 전자문서 이용 등에 관한 법률","kind":"법률","articleCount":17,"officialUrl":"https://www.law.go.kr/법령/민사소송등에서의전자문서이용등에관한법률"}],"kinds":[{"kind":"법률","count":1}],"articleCount":17},{"tier":"decree","label":"시행령","laws":[{"name":"민사소송 등에서의 전자문서 이용 등에 관한 규칙","kind":"대법원규칙","articleCount":49,"officialUrl":"https://www.law.go.kr/법령/민사소송등에서의전자문서이용등에관한규칙"}],"kinds":[{"kind":"대법원규칙","count":1}],"articleCount":49},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"민사소송 등에서의 전자문서 이용 등에 관한 업무처리지침(재일 2012-1)","kind":"재판예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/민사소송등에서의전자문서이용등에관한업무처리지침(재일2012-1)"}],"kinds":[{"kind":"재판예규","count":1}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EB%AF%BC%EC%82%AC%EC%86%8C%EC%86%A1%20%EB%93%B1%EC%97%90%EC%84%9C%EC%9D%98%20%EC%A0%84%EC%9E%90%EB%AC%B8%EC%84%9C%20%EC%9D%B4%EC%9A%A9%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":24,"rule":1,"adminRule":0,"ordinance":0,"cites":98}}}},"statusStyles":{"done":{"label":"선행","fill":"#effaf5","border":"#35a77d","ink":"#123d2e","sub":"#287a5c"},"current":{"label":"핵심","fill":"#087452","border":"#087452","ink":"#ffffff","sub":"#d8f4e8"},"waiting":{"label":"후속","fill":"#ffffff","border":"#b9c7bf","ink":"#17231d","sub":"#627169"},"risk":{"label":"병목","fill":"#fff8e8","border":"#d9901a","ink":"#7a4305","sub":"#a96008"},"loop":{"label":"회귀","fill":"#edf4ff","border":"#3478db","ink":"#173f7a","sub":"#316bbd"}},"basisLegend":[{"label":"법률","fill":"#ffffff","border":"#3b4a43"},{"label":"시행령","fill":"#f2f6ff","border":"#2456d6"},{"label":"시행규칙","fill":"#effaf6","border":"#0f9f72"},{"label":"행정규칙","fill":"#f6f2ff","border":"#7c56c9"}],"isLawIndex":false}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Eu-UvfunzEwjnKcUq5f7W"}
+4:["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","precedence":"next"}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

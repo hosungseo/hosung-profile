@@ -1,0 +1,389 @@
+1:"$Sreact.fragment"
+2:I[7742,["838","static/chunks/838-9b85aecee2a13f53.js","379","static/chunks/379-f104668f756ddde1.js","301","static/chunks/app/embed/flow/%5BlawId%5D/%5Bslug%5D/page-e3d0b6acb7d5d0b3.js"],"default"]
+6:I[977,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+:HL["/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","style"]
+3:T7ab3,<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 250 1744 1960" class="pp-svg">
+<defs>
+      <filter id="card-shadow" x="-20%" y="-25%" width="140%" height="160%">
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#12271e" flood-opacity="0.10"/>
+      </filter>
+      <marker id="arrow-sequence" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#53675d" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-message" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#0f8a65" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-loop" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#3478db" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <style>
+        text { font-family: "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", sans-serif; }
+        .mono { font-family: "SFMono-Regular", "Menlo", monospace; }
+      </style>
+    </defs>
+<rect width="1800" height="2400" fill="#ffffff"/>
+
+
+
+<rect x="38" y="260" width="1724" height="1940" rx="10" fill="#ffffff" stroke="#b8c7bf" stroke-width="2"/>
+<rect x="38" y="260" width="190" height="100" rx="10" fill="#eaf2ee"/>
+<text x="58" y="299" font-size="17" font-weight="800" fill="#17231d">단계 ↓</text>
+<text x="58" y="332" font-size="15" font-weight="650" fill="#68776f">행위자 묶음 →</text>
+<rect x="38" y="360" width="1724" height="230.3" fill="#fbfcfb"/>
+<rect x="38" y="360" width="190" height="230.3" fill="#eef3f0"/>
+<text x="58" y="392" class="mono" font-size="16" font-weight="800" fill="#53645b">G0</text>
+<text x="58" y="425" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">처분·신청요건</tspan></text>
+<rect x="38" y="590.3" width="1724" height="230.3" fill="#f5f8f6"/>
+<rect x="38" y="590.3" width="190" height="230.3" fill="#eef3f0"/>
+<text x="58" y="622.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G1</text>
+<text x="58" y="655.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">구제신청</tspan></text>
+<rect x="38" y="820.6" width="1724" height="344.3" fill="#fbfcfb"/>
+<rect x="38" y="820.6" width="190" height="344.3" fill="#eef3f0"/>
+<text x="58" y="852.6" class="mono" font-size="16" font-weight="800" fill="#53645b">G2</text>
+<text x="58" y="885.6" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">조사</tspan></text>
+<rect x="38" y="1164.9" width="1724" height="230.3" fill="#f5f8f6"/>
+<rect x="38" y="1164.9" width="190" height="230.3" fill="#eef3f0"/>
+<text x="58" y="1196.9" class="mono" font-size="16" font-weight="800" fill="#53645b">G3</text>
+<text x="58" y="1229.9" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">심문</tspan></text>
+<rect x="38" y="1395.1" width="1724" height="230.3" fill="#fbfcfb"/>
+<rect x="38" y="1395.1" width="190" height="230.3" fill="#eef3f0"/>
+<text x="58" y="1427.1" class="mono" font-size="16" font-weight="800" fill="#53645b">G4</text>
+<text x="58" y="1460.1" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">판정·명령</tspan></text>
+<rect x="38" y="1625.4" width="1724" height="344.3" fill="#f5f8f6"/>
+<rect x="38" y="1625.4" width="190" height="344.3" fill="#eef3f0"/>
+<text x="58" y="1657.4" class="mono" font-size="16" font-weight="800" fill="#53645b">G5</text>
+<text x="58" y="1690.4" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">이행·이행강제금</tspan></text>
+<rect x="38" y="1969.7" width="1724" height="230.3" fill="#fbfcfb"/>
+<rect x="38" y="1969.7" width="190" height="230.3" fill="#eef3f0"/>
+<text x="58" y="2001.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G6</text>
+<text x="58" y="2034.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">재심·행정소송</tspan></text>
+<rect x="228" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="228" y="260" width="383.5" height="7" fill="#0f9f72"/>
+<text x="248" y="299" font-size="20" font-weight="800" fill="#17231d">신청인</text>
+<text x="248" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="248" dy="0">신청인(근로자·노조)</tspan></text>
+<rect x="611.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="611.5" y="260" width="383.5" height="7" fill="#3b82f6"/>
+<text x="631.5" y="299" font-size="20" font-weight="800" fill="#17231d">피신청인·지방노동위원회</text>
+<text x="631.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="631.5" dy="0">피신청인(사용자) · 지방노동위원회(조사관)</tspan></text>
+<rect x="995" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="995" y="260" width="383.5" height="7" fill="#c78116"/>
+<text x="1015" y="299" font-size="20" font-weight="800" fill="#17231d">심판위원회·중앙노동위원회</text>
+<text x="1015" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1015" dy="0">심판위원회(공익위원) · 중앙노동위원회</tspan></text>
+<rect x="1378.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="1378.5" y="260" width="383.5" height="7" fill="#0891b2"/>
+<text x="1398.5" y="299" font-size="20" font-weight="800" fill="#17231d">법원</text>
+<text x="1398.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1398.5" dy="0">법원(후속)</tspan></text>
+<line x1="228" y1="260" x2="228" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="611.5" y1="260" x2="611.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="995" y1="260" x2="995" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1378.5" y1="260" x2="1378.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1762" y1="260" x2="1762" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#b8c7bf" stroke-width="2"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="590.3" x2="1762" y2="590.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="820.6" x2="1762" y2="820.6" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1164.9" x2="1762" y2="1164.9" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1395.1" x2="1762" y2="1395.1" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1625.4" x2="1762" y2="1625.4" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1969.7" x2="1762" y2="1969.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2200" x2="1762" y2="2200" stroke="#b8c7bf" stroke-width="2"/>
+<g class="pp-edge" data-edge-id="E01" data-source="P01" data-target="P02">
+<path d="M 668.3 477.6 H 595.8 V 481.6 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 668.3 477.6 H 595.8 V 481.6 H 562.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E02" data-source="P02" data-target="P03">
+<path d="M 409.8 520.1 V 578.3 H 409.8 V 652.4" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 409.8 520.1 V 578.3 H 409.8 V 652.4" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E03" data-source="P03" data-target="P04">
+<path d="M 554.8 711.9 H 640.3 V 694.9 H 660.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 711.9 H 640.3 V 694.9 H 660.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E04" data-source="P04" data-target="P05">
+<path d="M 811.3 750.4 V 792.6 H 797.3 V 882.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 811.3 750.4 V 792.6 H 797.3 V 882.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E05" data-source="P05" data-target="P06">
+<path d="M 823.3 980.7 V 996.7 H 787.3 V 996.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 823.3 980.7 V 996.7 H 787.3 V 996.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E06" data-source="P06" data-target="P07">
+<path d="M 807.3 1094.7 V 1152.9 H 1176.8 V 1227" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 807.3 1094.7 V 1152.9 H 1176.8 V 1227" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E07" data-source="P07" data-target="P08">
+<path d="M 1196.8 1325 V 1383.1 H 1200.8 V 1457.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1196.8 1325 V 1383.1 H 1200.8 V 1457.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E08" data-source="P08" data-target="P09">
+<path d="M 1051.8 1517.8 H 1005.3 V 1523.3 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1517.8 H 1005.3 V 1523.3 H 946.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E09" data-source="P09" data-target="P10">
+<path d="M 815.3 1555.3 V 1581.4 H 779.3 V 1687.6" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 815.3 1555.3 V 1581.4 H 779.3 V 1687.6" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E10" data-source="P10" data-target="P11">
+<path d="M 793.3 1785.6 V 1801.6 H 807.3 V 1801.6" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 793.3 1785.6 V 1801.6 H 807.3 V 1801.6" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E11" data-source="P12" data-target="P13">
+<path d="M 554.8 2097.9 H 1023.8 V 2074.4 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 2097.9 H 1023.8 V 2074.4 H 1043.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E12" data-source="P13" data-target="P14">
+<path d="M 1321.8 2102.9 H 1394.3 V 2084.9 H 1427.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1321.8 2102.9 H 1394.3 V 2084.9 H 1427.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M01" data-source="P04" data-target="P05">
+<path d="M 815.3 750.4 V 776.6 H 795.3 V 882.7" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 815.3 750.4 V 776.6 H 795.3 V 882.7" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M02" data-source="P09" data-target="P12">
+<path d="M 783.3 1555.3 V 1613.4 H 259 V 2001.9 H 399.8 V 2031.9" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 783.3 1555.3 V 1613.4 H 259 V 2001.9 H 399.8 V 2031.9" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M03" data-source="P11" data-target="P10">
+<path d="M 938.3 1850.6 H 966.3 V 1752.1 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 1850.6 H 966.3 V 1752.1 H 946.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L01" data-source="P08" data-target="P12">
+<path d="M 1154.8 1555.3 V 1597.4 H 242 V 2011.9 H 419.8 V 2031.9" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1154.8 1555.3 V 1597.4 H 242 V 2011.9 H 419.8 V 2031.9" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L02" data-source="P13" data-target="P10">
+<path d="M 1051.8 2087.4 H 203 V 1933.7 H 815.3 V 1793.6" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 2087.4 H 203 V 1933.7 H 815.3 V 1793.6" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge-label" data-edge-id="E02" data-source="P02" data-target="P03">
+<rect x="361.8" y="546.3" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="409.8" y="566.3" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">3개월 이내</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E04" data-source="P04" data-target="P05">
+<rect x="756.3" y="760.6" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="804.3" y="780.6" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">적법 수리</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E07" data-source="P07" data-target="P08">
+<rect x="1150.8" y="1351.1" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1198.8" y="1371.1" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">심문 종결</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E08" data-source="P08" data-target="P09">
+<rect x="947" y="1488.5" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="995" y="1508.5" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">구제명령</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E10" data-source="P10" data-target="P11">
+<rect x="1010.3" y="1782.6" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1058.3" y="1802.6" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">미이행</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E12" data-source="P13" data-target="P14">
+<rect x="1330.5" y="2061.9" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1378.5" y="2081.9" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">재심 불복</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M01" data-source="P04" data-target="P05">
+<rect x="738.4" y="816.6" width="133.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="805.3" y="836.6" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">신청서 부본 송부</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M02" data-source="P09" data-target="P12">
+<rect x="199.1" y="1792.6" width="119.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="259" y="1812.6" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">재심 불복 안내</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M03" data-source="P11" data-target="P10">
+<rect x="959.8" y="1822.3" width="128.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1024.3" y="1842.3" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">이행강제금 통보</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L01" data-source="P08" data-target="P12">
+<rect x="182.1" y="1753.6" width="119.8" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="242" y="1773.6" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">판정 불복 재심</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L02" data-source="P13" data-target="P10">
+<rect x="262.1" y="1994.3" width="161.8" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="343" y="2014.3" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">재심 구제명령 재이행</text>
+</g>
+
+    <g class="pp-node" data-node-id="P01" data-basis="근로기준법:제23조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="430.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="430.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="450.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P01</text>
+      
+      <rect x="869.3" y="437.1" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="454.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §23</text>
+      <text x="683.3" y="487.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">부당해고·부당노동행위 발생</tspan></text>
+      <text x="683.3" y="512.1" font-size="11" font-weight="650" fill="#3b4a43">사용자</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P02" data-basis="근로기준법:제28조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="430.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="430.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="450.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P02</text>
+      
+      <rect x="485.8" y="437.1" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="454.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §28</text>
+      <text x="299.8" y="487.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">구제신청 요건·기간 확인</tspan></text>
+      <text x="299.8" y="512.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 부당해고 등이 있은 날부터 3개월 이내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P03" data-basis="근로기준법·노동조합및노동관계조정법:제28조 근로기준법·노동조합및노동관계조정법:제82조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="660.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="660.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="680.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P03</text>
+      
+      <rect x="485.8" y="667.4" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="684.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §28</text>
+      <text x="299.8" y="717.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">구제신청서 제출</tspan></text>
+      <text x="299.8" y="742.4" font-size="11" font-weight="650" fill="#3b4a43">기한 · 3개월 이내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P04" data-basis="노동위원회법:제2조의2" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="660.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="660.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="680.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P04</text>
+      
+      <rect x="857.3" y="667.4" width="71" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="892.8" y="684.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §2의2</text>
+      <text x="683.3" y="717.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">신청 접수·요건 심사</tspan></text>
+      <text x="683.3" y="742.4" font-size="11" font-weight="650" fill="#3b4a43">조사관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P05" data-basis="근로기준법:제29조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="890.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="890.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="910.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P05</text>
+      
+      <rect x="869.3" y="897.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="914.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §29</text>
+      <text x="683.3" y="947.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">이유서·답변서 제출</tspan></text>
+      <text x="683.3" y="972.7" font-size="11" font-weight="650" fill="#3b4a43">사용자</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P06" data-basis="근로기준법:제29조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1004.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1004.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1024.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P06</text>
+      
+      <rect x="869.3" y="1011.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1028.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §29</text>
+      <text x="683.3" y="1061.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">사실조사·조사보고서 작성</tspan></text>
+      <text x="683.3" y="1086.7" font-size="11" font-weight="650" fill="#3b4a43">조사관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P07" data-basis="근로기준법:제29조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1235" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1235" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1255" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P07</text>
+      
+      <rect x="1252.8" y="1242" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1259" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §29</text>
+      <text x="1066.8" y="1292" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">심문회의 개최·당사자 심문</tspan></text>
+      <text x="1066.8" y="1317" font-size="11" font-weight="650" fill="#3b4a43">공익위원(심판담당)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P08" data-basis="근로기준법:제30조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1465.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1465.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1485.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P08</text>
+      
+      <rect x="1252.8" y="1472.3" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1489.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §30</text>
+      <text x="1066.8" y="1522.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">구제명령·기각·각하 판정</tspan></text>
+      <text x="1066.8" y="1547.3" font-size="11" font-weight="650" fill="#3b4a43">공익위원(심판담당)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P09" data-basis="근로기준법:제30조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1465.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1465.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1485.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P09</text>
+      
+      <rect x="869.3" y="1472.3" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1489.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §30</text>
+      <text x="683.3" y="1522.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">판정서·명령서 송달</tspan></text>
+      <text x="683.3" y="1547.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 판정 후 지체 없이</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P10" data-basis="근로기준법:제30조 근로기준법:제33조 근로기준법시행령:제11조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1695.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1695.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1715.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P10</text>
+      
+      <rect x="852.3" y="1702.6" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="1719.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §30 +1</text>
+      <text x="683.3" y="1742.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">구제명령</tspan><tspan x="683.3" dy="18">이행(원직복직·임금상당액)</tspan></text>
+      <text x="683.3" y="1777.6" font-size="11" font-weight="650" fill="#3b4a43">기한 · 명령서 송달 후 30일 이내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P11" data-basis="근로기준법:제33조 근로기준법시행령:제13조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1809.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1809.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1829.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P11</text>
+      
+      <rect x="852.3" y="1816.6" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="1833.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §33 +1</text>
+      <text x="683.3" y="1866.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">이행강제금 부과</tspan></text>
+      <text x="683.3" y="1891.6" font-size="11" font-weight="650" fill="#3b4a43">기한 · 이행기한 경과 후, 2년간 최대 4회</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P12" data-basis="근로기준법·노동조합및노동관계조정법:제31조 근로기준법·노동조합및노동관계조정법:제85조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="2039.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="2039.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="2059.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P12</text>
+      
+      <rect x="485.8" y="2046.9" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="2063.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §31</text>
+      <text x="299.8" y="2096.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">중앙노동위원회 재심 신청</tspan></text>
+      <text x="299.8" y="2121.9" font-size="11" font-weight="650" fill="#3b4a43">기한 · 판정서 송달 후 10일 이내</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P13" data-basis="근로기준법:제31조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="2039.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="2039.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="2059.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P13</text>
+      
+      <rect x="1252.8" y="2046.9" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="2063.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §31</text>
+      <text x="1066.8" y="2096.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">중앙노동위원회 재심 판정</tspan></text>
+      <text x="1066.8" y="2121.9" font-size="11" font-weight="650" fill="#3b4a43">중앙노동위원회</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P14" data-basis="근로기준법:제31조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="2039.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="2039.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="2059.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P14</text>
+      
+      <rect x="1636.3" y="2046.9" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1665.8" y="2063.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §31</text>
+      <text x="1450.3" y="2096.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">행정소송 제기</tspan></text>
+      <text x="1450.3" y="2121.9" font-size="11" font-weight="650" fill="#3b4a43">기한 · 재심 판정서 송달 후 15일 이내</text>
+    </g>
+  
+
+</svg>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"law":{"lawId":"001872","mst":"290781","name":"근로기준법","kind":"법률","tier":"statute","effectiveOn":"2026-10-02","officialUrl":"https://www.law.go.kr/법령/근로기준법"},"flows":[{"slug":"workplace-harassment-response","name":"직장 내 괴롭힘 처리절차","oneLiner":"동료 간 괴롭힘은 사용자가 조사·판단·조치하고, 노동청은 사용자의 법정 의무 위반을 감독한다는 역할 경계를 보여주는 절차","citingSteps":18,"totalSteps":20,"articles":{"제11조":1,"제76조의2":3,"제76조의3":11,"제109조":3,"제104조":1,"제101조":1,"제102조":1,"제116조":3}},{"slug":"labor-relations-commission","name":"노동위원회 구제절차","oneLiner":"부당해고·부당노동행위를 당한 근로자·노동조합이 법원 소송 대신 노동위원회에 구제를 신청해, 조사·심문을 거쳐 구제명령을 받는 준사법적 권리구제 제도","citingSteps":11,"totalSteps":14,"articles":{"제23조":1,"제28조":1,"제29조":3,"제30조":3,"제33조":2,"제31조":2}}],"current":"$0:rsc:props:children:0:props:flows:1","asOfDate":"2026-07-10","reviewNote":"주요 절차를 요약한 참고 모델입니다. 모든 예외·위임규정의 현행성까지 전수 검증한 자료는 아닙니다. 법령 체계의 보관 자료와 현행 원문은 다를 수 있습니다.","svg":"$3","nodes":[{"id":"P01","name":"부당해고·부당노동행위 발생","lane":"피신청인(사용자)","stage":"G0 처분·신청요건","type":"notice","status":"done","progress":100,"actor":"사용자","action":"해고·불이익 처분","output_documents":["해고통지서"],"blocker":null,"confidence":0.83,"legal_basis":[{"law":"근로기준법","article":"제23조","text":"사용자는 정당한 이유 없이 해고·전직 등 부당해고 등을 하지 못한다."}]},{"id":"P02","name":"구제신청 요건·기간 확인","lane":"신청인(근로자·노조)","stage":"G0 처분·신청요건","type":"gateway","status":"done","progress":100,"actor":"근로자·노동조합","action":"요건 확인","condition":"부당해고 등이 있은 날부터 3개월 이내","output_documents":["요건 검토메모"],"deadline":"부당해고 등이 있은 날부터 3개월 이내","confidence":0.85,"legal_basis":[{"law":"근로기준법","article":"제28조제2항","text":"구제신청은 부당해고 등이 있은 날부터 3개월 이내에 하여야 한다."}]},{"id":"P03","name":"구제신청서 제출","lane":"신청인(근로자·노조)","stage":"G1 구제신청","type":"task","status":"done","progress":100,"actor":"근로자·노동조합","receiver":"지방노동위원회","action":"구제신청","output_documents":["구제신청서","이유서"],"deadline":"3개월 이내","confidence":0.86,"legal_basis":[{"law":"근로기준법·노동조합 및 노동관계조정법","article":"근기법 제28조·노조법 제82조","text":"부당해고는 근로기준법, 부당노동행위는 노동조합법에 따라 노동위원회에 구제를 신청한다."}]},{"id":"P04","name":"신청 접수·요건 심사","lane":"지방노동위원회(조사관)","stage":"G1 구제신청","type":"gateway","status":"done","progress":100,"actor":"조사관","action":"요건 심사","condition":"관할·신청기간·당사자 적격 충족 여부","input_documents":["구제신청서"],"output_documents":["접수·요건심사 결과"],"confidence":0.83,"legal_basis":[{"law":"노동위원회법","article":"제2조의2·심판절차","text":"지방노동위원회는 사건을 접수하고 관할과 신청요건을 심사한다."}]},{"id":"P05","name":"이유서·답변서 제출","lane":"피신청인(사용자)","stage":"G2 조사","type":"task","status":"done","progress":100,"actor":"사용자","receiver":"지방노동위원회","action":"답변서 제출","input_documents":["구제신청서 부본"],"output_documents":["답변서","관계서류"],"confidence":0.82,"legal_basis":[{"law":"근로기준법","article":"제29조","text":"노동위원회는 구제신청을 받으면 당사자를 심문하며, 피신청인은 답변서를 제출한다."}]},{"id":"P06","name":"사실조사·조사보고서 작성","lane":"지방노동위원회(조사관)","stage":"G2 조사","type":"task","status":"current","progress":50,"actor":"조사관","action":"사실조사","input_documents":["이유서","답변서"],"output_documents":["조사보고서"],"blocker":"쟁점 관련 자료 보완 요청 중","confidence":0.83,"legal_basis":[{"law":"근로기준법","article":"제29조","text":"노동위원회는 필요한 경우 당사자에게 자료 제출을 요구하고 사실을 조사한다."}]},{"id":"P07","name":"심문회의 개최·당사자 심문","lane":"심판위원회(공익위원)","stage":"G3 심문","type":"task","status":"waiting","progress":0,"actor":"공익위원(심판담당)","action":"심문","input_documents":["조사보고서"],"output_documents":["심문조서"],"confidence":0.82,"legal_basis":[{"law":"근로기준법","article":"제29조","text":"노동위원회는 심문회의를 열어 당사자와 증인을 심문한다."}]},{"id":"P08","name":"구제명령·기각·각하 판정","lane":"심판위원회(공익위원)","stage":"G4 판정·명령","type":"gateway","status":"waiting","progress":0,"actor":"공익위원(심판담당)","action":"판정","condition":"부당해고 등 인정 시 구제명령, 아니면 기각·각하","input_documents":["심문조서"],"output_documents":["판정서","구제명령서"],"confidence":0.84,"legal_basis":[{"law":"근로기준법","article":"제30조","text":"부당해고 등이 성립하면 노동위원회는 사용자에게 구제명령을 하고, 아니면 기각한다."}]},{"id":"P09","name":"판정서·명령서 송달","lane":"지방노동위원회(조사관)","stage":"G4 판정·명령","type":"notice","status":"waiting","progress":0,"actor":"지방노동위원회","receiver":"당사자","action":"송달","output_documents":["판정서 정본","구제명령서"],"deadline":"판정 후 지체 없이","confidence":0.85,"legal_basis":[{"law":"근로기준법","article":"제30조제2항","text":"노동위원회는 판정서와 구제명령서를 당사자에게 각각 서면으로 통지한다."}]},{"id":"P10","name":"구제명령 이행(원직복직·임금상당액)","lane":"피신청인(사용자)","stage":"G5 이행·이행강제금","type":"task","status":"risk","progress":0,"actor":"사용자","action":"구제명령 이행","input_documents":["구제명령서"],"output_documents":["이행결과 보고","원직복직·임금상당액 지급"],"deadline":"명령서 송달 후 30일 이내","blocker":"구제명령에도 사용자가 불복·미이행하면 원직복직이 지연된다(운영 추정)","confidence":0.79,"legal_basis":[{"law":"근로기준법","article":"제30조·제33조","text":"사용자는 구제명령을 받으면 이행기한 내에 이행하여야 한다."},{"law":"근로기준법 시행령","article":"제11조","text":"노동위원회는 구제명령 시 이행기한을 정하여야 하며, 이행기한은 사용자가 구제명령서를 서면으로 통지받은 날부터 30일 이내로 한다."}]},{"id":"P11","name":"이행강제금 부과","lane":"지방노동위원회(조사관)","stage":"G5 이행·이행강제금","type":"task","status":"waiting","progress":0,"actor":"노동위원회","receiver":"사용자","action":"이행강제금 부과","output_documents":["이행강제금 부과 처분"],"deadline":"이행기한 경과 후, 2년간 최대 4회","confidence":0.81,"legal_basis":[{"law":"근로기준법","article":"제33조","text":"노동위원회는 구제명령을 이행하지 않은 사용자에게 이행강제금을 부과한다(2년간 최대 4회)."},{"law":"근로기준법 시행령","article":"제13조·별표3","text":"이행강제금의 위반행위 종류·위반정도별 부과기준은 시행령 별표3에서 정한다."}]},{"id":"P12","name":"중앙노동위원회 재심 신청","lane":"신청인(근로자·노조)","stage":"G6 재심·행정소송","type":"task","status":"loop","progress":0,"actor":"당사자(근로자·사용자)","receiver":"중앙노동위원회","action":"재심 신청","output_documents":["재심신청서"],"deadline":"판정서 송달 후 10일 이내","blocker":"초심 불복 재심 회귀 단계","confidence":0.82,"legal_basis":[{"law":"근로기준법·노동조합 및 노동관계조정법","article":"근기법 제31조제1항·노조법 제85조","text":"지방노동위원회 판정에 불복하면 10일 이내에 중앙노동위원회에 재심을 신청할 수 있다."}]},{"id":"P13","name":"중앙노동위원회 재심 판정","lane":"중앙노동위원회","stage":"G6 재심·행정소송","type":"gateway","status":"waiting","progress":0,"actor":"중앙노동위원회","action":"재심 판정","condition":"초심 유지·취소·변경 여부","input_documents":["재심신청서","초심 기록"],"output_documents":["재심 판정서"],"confidence":0.83,"legal_basis":[{"law":"근로기준법","article":"제31조제2항","text":"중앙노동위원회는 재심을 통해 초심 판정을 유지·취소·변경한다."}]},{"id":"P14","name":"행정소송 제기","lane":"법원(후속)","stage":"G6 재심·행정소송","type":"task","status":"waiting","progress":0,"actor":"당사자·법원","action":"행정소송","output_documents":["소장","판결"],"deadline":"재심 판정서 송달 후 15일 이내","confidence":0.8,"legal_basis":[{"law":"근로기준법","article":"제31조제2항","text":"재심 판정에 불복하면 15일 이내에 행정소송을 제기할 수 있다."}]}],"edges":[{"id":"E01","source":"P01","target":"P02","type":"sequence","label":null},{"id":"E02","source":"P02","target":"P03","type":"sequence","label":"3개월 이내"},{"id":"E03","source":"P03","target":"P04","type":"sequence","label":null},{"id":"E04","source":"P04","target":"P05","type":"sequence","label":"적법 수리"},{"id":"E05","source":"P05","target":"P06","type":"sequence","label":null},{"id":"E06","source":"P06","target":"P07","type":"sequence","label":null},{"id":"E07","source":"P07","target":"P08","type":"sequence","label":"심문 종결"},{"id":"E08","source":"P08","target":"P09","type":"sequence","label":"구제명령"},{"id":"E09","source":"P09","target":"P10","type":"sequence","label":null},{"id":"E10","source":"P10","target":"P11","type":"sequence","label":"미이행"},{"id":"E11","source":"P12","target":"P13","type":"sequence","label":null},{"id":"E12","source":"P13","target":"P14","type":"sequence","label":"재심 불복"},{"id":"M01","source":"P04","target":"P05","type":"message","label":"신청서 부본 송부"},{"id":"M02","source":"P09","target":"P12","type":"message","label":"재심 불복 안내"},{"id":"M03","source":"P11","target":"P10","type":"message","label":"이행강제금 통보"},{"id":"L01","source":"P08","target":"P12","type":"loop","label":"판정 불복 재심"},{"id":"L02","source":"P13","target":"P10","type":"loop","label":"재심 구제명령 재이행"}],"lawContext":{"byNode":{"P01":[{"law":"근로기준법","article":"제23조","text":"사용자는 정당한 이유 없이 해고·전직 등 부당해고 등을 하지 못한다.","found":true,"lawId":"001872","tier":"statute","articles":[{"label":"제23조","title":"해고 등의 제한","officialUrl":"https://www.law.go.kr/법령/근로기준법/제23조","up":[],"down":[]}]}],"P02":[{"law":"근로기준법","article":"제28조제2항","text":"구제신청은 부당해고 등이 있은 날부터 3개월 이내에 하여야 한다.","found":true,"lawId":"001872","tier":"statute","articles":[{"label":"제28조","title":"부당해고등의 구제신청","officialUrl":"https://www.law.go.kr/법령/근로기준법/제28조","up":[],"down":[]}]}],"P03":[{"law":"근로기준법·노동조합 및 노동관계조정법","article":"근기법 제28조·노조법 제82조","text":"부당해고는 근로기준법, 부당노동행위는 노동조합법에 따라 노동위원회에 구제를 신청한다.","found":false,"lawId":null,"tier":null,"articles":[{"label":"제28조","title":null,"officialUrl":null,"up":[],"down":[]},{"label":"제82조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P04":[{"law":"노동위원회법","article":"제2조의2·심판절차","text":"지방노동위원회는 사건을 접수하고 관할과 신청요건을 심사한다.","found":true,"lawId":"000139","tier":"statute","articles":[{"label":"제2조의2","title":"노동위원회의 소관 사무","officialUrl":"https://www.law.go.kr/법령/노동위원회법/제2조의2","up":[],"down":[]}]}],"P05":[{"law":"근로기준법","article":"제29조","text":"노동위원회는 구제신청을 받으면 당사자를 심문하며, 피신청인은 답변서를 제출한다.","found":true,"lawId":"001872","tier":"statute","articles":[{"label":"제29조","title":"조사 등","officialUrl":"https://www.law.go.kr/법령/근로기준법/제29조","up":[],"down":[]}]}],"P06":[{"law":"근로기준법","article":"제29조","text":"노동위원회는 필요한 경우 당사자에게 자료 제출을 요구하고 사실을 조사한다.","found":true,"lawId":"001872","tier":"statute","articles":[{"label":"제29조","title":"조사 등","officialUrl":"https://www.law.go.kr/법령/근로기준법/제29조","up":[],"down":[]}]}],"P07":[{"law":"근로기준법","article":"제29조","text":"노동위원회는 심문회의를 열어 당사자와 증인을 심문한다.","found":true,"lawId":"001872","tier":"statute","articles":[{"label":"제29조","title":"조사 등","officialUrl":"https://www.law.go.kr/법령/근로기준법/제29조","up":[],"down":[]}]}],"P08":[{"law":"근로기준법","article":"제30조","text":"부당해고 등이 성립하면 노동위원회는 사용자에게 구제명령을 하고, 아니면 기각한다.","found":true,"lawId":"001872","tier":"statute","articles":[{"label":"제30조","title":"구제명령 등","officialUrl":"https://www.law.go.kr/법령/근로기준법/제30조","up":[],"down":[]}]}],"P09":[{"law":"근로기준법","article":"제30조제2항","text":"노동위원회는 판정서와 구제명령서를 당사자에게 각각 서면으로 통지한다.","found":true,"lawId":"001872","tier":"statute","articles":[{"label":"제30조","title":"구제명령 등","officialUrl":"https://www.law.go.kr/법령/근로기준법/제30조","up":[],"down":[]}]}],"P10":[{"law":"근로기준법","article":"제30조·제33조","text":"사용자는 구제명령을 받으면 이행기한 내에 이행하여야 한다.","found":true,"lawId":"001872","tier":"statute","articles":[{"label":"제30조","title":"구제명령 등","officialUrl":"https://www.law.go.kr/법령/근로기준법/제30조","up":[],"down":[]},{"label":"제33조","title":"이행강제금","officialUrl":"https://www.law.go.kr/법령/근로기준법/제33조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"근로기준법 시행령","label":"제12조","title":"이행강제금의 납부기한 및 의견제출 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"근로기준법 시행령","label":"제13조","title":"이행강제금의 부과기준","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"근로기준법 시행령","label":"제14조","title":"이행강제금의 부과유예","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"근로기준법 시행령","label":"제15조","title":"이행강제금의 반환","tier":"decree"}]}]},{"law":"근로기준법 시행령","article":"제11조","text":"노동위원회는 구제명령 시 이행기한을 정하여야 하며, 이행기한은 사용자가 구제명령서를 서면으로 통지받은 날부터 30일 이내로 한다.","found":true,"lawId":"001872","tier":"decree","articles":[{"label":"제11조","title":"구제명령의 이행기한","officialUrl":"https://www.law.go.kr/법령/근로기준법시행령/제11조","up":[],"down":[]}]}],"P11":[{"law":"근로기준법","article":"제33조","text":"노동위원회는 구제명령을 이행하지 않은 사용자에게 이행강제금을 부과한다(2년간 최대 4회).","found":true,"lawId":"001872","tier":"statute","articles":[{"label":"제33조","title":"이행강제금","officialUrl":"https://www.law.go.kr/법령/근로기준법/제33조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"근로기준법 시행령","label":"제12조","title":"이행강제금의 납부기한 및 의견제출 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"근로기준법 시행령","label":"제13조","title":"이행강제금의 부과기준","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"근로기준법 시행령","label":"제14조","title":"이행강제금의 부과유예","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"근로기준법 시행령","label":"제15조","title":"이행강제금의 반환","tier":"decree"}]}]},{"law":"근로기준법 시행령","article":"제13조·별표3","text":"이행강제금의 위반행위 종류·위반정도별 부과기준은 시행령 별표3에서 정한다.","found":true,"lawId":"001872","tier":"decree","articles":[{"label":"제13조","title":"이행강제금의 부과기준","officialUrl":"https://www.law.go.kr/법령/근로기준법시행령/제13조","up":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"근로기준법","label":"제33조제4항","title":"이행강제금","tier":"statute"}],"down":[]}]}],"P12":[{"law":"근로기준법·노동조합 및 노동관계조정법","article":"근기법 제31조제1항·노조법 제85조","text":"지방노동위원회 판정에 불복하면 10일 이내에 중앙노동위원회에 재심을 신청할 수 있다.","found":false,"lawId":null,"tier":null,"articles":[{"label":"제31조","title":null,"officialUrl":null,"up":[],"down":[]},{"label":"제85조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P13":[{"law":"근로기준법","article":"제31조제2항","text":"중앙노동위원회는 재심을 통해 초심 판정을 유지·취소·변경한다.","found":true,"lawId":"001872","tier":"statute","articles":[{"label":"제31조","title":"구제명령 등의 확정","officialUrl":"https://www.law.go.kr/법령/근로기준법/제31조","up":[],"down":[]}]}],"P14":[{"law":"근로기준법","article":"제31조제2항","text":"재심 판정에 불복하면 15일 이내에 행정소송을 제기할 수 있다.","found":true,"lawId":"001872","tier":"statute","articles":[{"label":"제31조","title":"구제명령 등의 확정","officialUrl":"https://www.law.go.kr/법령/근로기준법/제31조","up":[],"down":[]}]}]},"systems":{"001872":{"lawId":"001872","name":"근로기준법","href":"/law/001872/","ministry":"고용노동부","effectiveOn":"2026-10-02","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"근로기준법","kind":"법률","articleCount":132,"officialUrl":"https://www.law.go.kr/법령/근로기준법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":132},{"tier":"decree","label":"시행령","laws":[{"name":"근로기준법 시행령","kind":"대통령령","articleCount":80,"officialUrl":"https://www.law.go.kr/법령/근로기준법시행령"},{"name":"근로감독관규정","kind":"대통령령","articleCount":7,"officialUrl":"https://www.law.go.kr/법령/근로감독관규정"}],"kinds":[{"kind":"대통령령","count":2}],"articleCount":87},{"tier":"rule","label":"시행규칙","laws":[{"name":"근로기준법 시행규칙","kind":"고용노동부령","articleCount":23,"officialUrl":"https://www.law.go.kr/법령/근로기준법시행규칙"},{"name":"근로감독관증 규칙","kind":"고용노동부령","articleCount":4,"officialUrl":"https://www.law.go.kr/법령/근로감독관증규칙"}],"kinds":[{"kind":"고용노동부령","count":2}],"articleCount":27},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"임금체불사업주 명단 공개 및 체불자료 제공 관련 업무 처리 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/임금체불사업주명단공개및체불자료제공관련업무처리규정"},{"name":"고용노동관계법 위반자에 대한 과태료 부과·징수업무에 관한 예규","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용노동관계법위반자에대한과태료부과·징수업무에관한예규"},{"name":"근로기준법 및 공인노무사법에 따른 과태료의 가중처분에 관한 세부 지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/근로기준법및공인노무사법에따른과태료의가중처분에관한세부지침"},{"name":"상습체불사업주 결정을 위한 월보수액 산정방법 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/상습체불사업주결정을위한월보수액산정방법고시"},{"name":"재량근로의 대상 업무","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/재량근로의대상업무"},{"name":"평균임금산정 특례 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/평균임금산정특례고시"},{"name":"근로감독관집무규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/근로감독관집무규정"},{"name":"상습체불사업주 결정 및 임금등 체불자료 제공 절차 등에 관한 규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/상습체불사업주결정및임금등체불자료제공절차등에관한규정"},{"name":"퇴직의 효력발생시기","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/퇴직의효력발생시기"},{"name":"특별연장근로 건강보호조치","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/특별연장근로건강보호조치"},{"name":"한국표준산업분류","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/한국표준산업분류"}],"kinds":[{"kind":"고시","count":5},{"kind":"예규","count":4},{"kind":"훈령","count":2}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EA%B7%BC%EB%A1%9C%EA%B8%B0%EC%A4%80%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":70,"rule":13,"adminRule":6,"ordinance":0,"cites":183}},"000139":{"lawId":"000139","name":"노동위원회법","href":"/law/000139/","ministry":"고용노동부","effectiveOn":"2022-05-19","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"노동위원회법","kind":"법률","articleCount":45,"officialUrl":"https://www.law.go.kr/법령/노동위원회법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":45},{"tier":"decree","label":"시행령","laws":[{"name":"노동위원회법 시행령","kind":"대통령령","articleCount":17,"officialUrl":"https://www.law.go.kr/법령/노동위원회법시행령"}],"kinds":[{"kind":"대통령령","count":1}],"articleCount":17},{"tier":"rule","label":"시행규칙","laws":[{"name":"노동위원회법 시행규칙","kind":"고용노동부령","articleCount":7,"officialUrl":"https://www.law.go.kr/법령/노동위원회법시행규칙"}],"kinds":[{"kind":"고용노동부령","count":1}],"articleCount":7},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"권리구제업무 대리인 선임 신청을 할 수 있는 사람의 기준이 되는 월평균임금 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/권리구제업무대리인선임신청을할수있는사람의기준이되는월평균임금고시"},{"name":"고용노동관계법 위반자에 대한 과태료 부과·징수업무에 관한 예규","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용노동관계법위반자에대한과태료부과·징수업무에관한예규"},{"name":"노동조합 및 노동관계조정법과 노동위원회법에 따른 과태료 가중처분에 관한 세부 지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/노동조합및노동관계조정법과노동위원회법에따른과태료가중처분에관한세부지침"},{"name":"노동위원회규칙","kind":"규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/노동위원회규칙"}],"kinds":[{"kind":"예규","count":2},{"kind":"고시","count":1},{"kind":"규칙","count":1}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EB%85%B8%EB%8F%99%EC%9C%84%EC%9B%90%ED%9A%8C%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":21,"rule":4,"adminRule":4,"ordinance":0,"cites":58}}}},"statusStyles":{"done":{"label":"선행","fill":"#effaf5","border":"#35a77d","ink":"#123d2e","sub":"#287a5c"},"current":{"label":"핵심","fill":"#087452","border":"#087452","ink":"#ffffff","sub":"#d8f4e8"},"waiting":{"label":"후속","fill":"#ffffff","border":"#b9c7bf","ink":"#17231d","sub":"#627169"},"risk":{"label":"병목","fill":"#fff8e8","border":"#d9901a","ink":"#7a4305","sub":"#a96008"},"loop":{"label":"회귀","fill":"#edf4ff","border":"#3478db","ink":"#173f7a","sub":"#316bbd"}},"basisLegend":[{"label":"법률","fill":"#ffffff","border":"#3b4a43"},{"label":"시행령","fill":"#f2f6ff","border":"#2456d6"},{"label":"시행규칙","fill":"#effaf6","border":"#0f9f72"},{"label":"행정규칙","fill":"#f6f2ff","border":"#7c56c9"}],"isLawIndex":false}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Eu-UvfunzEwjnKcUq5f7W"}
+4:["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","precedence":"next"}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

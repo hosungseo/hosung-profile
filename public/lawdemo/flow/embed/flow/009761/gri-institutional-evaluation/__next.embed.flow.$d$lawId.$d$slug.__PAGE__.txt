@@ -1,0 +1,270 @@
+1:"$Sreact.fragment"
+2:I[7742,["838","static/chunks/838-9b85aecee2a13f53.js","379","static/chunks/379-f104668f756ddde1.js","301","static/chunks/app/embed/flow/%5BlawId%5D/%5Bslug%5D/page-e3d0b6acb7d5d0b3.js"],"default"]
+6:I[977,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+:HL["/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","style"]
+3:T5878,<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 250 1744 1960" class="pp-svg">
+<defs>
+      <filter id="card-shadow" x="-20%" y="-25%" width="140%" height="160%">
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#12271e" flood-opacity="0.10"/>
+      </filter>
+      <marker id="arrow-sequence" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#53675d" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-message" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#0f8a65" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-loop" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#3478db" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <style>
+        text { font-family: "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", sans-serif; }
+        .mono { font-family: "SFMono-Regular", "Menlo", monospace; }
+      </style>
+    </defs>
+<rect width="1800" height="2400" fill="#ffffff"/>
+
+
+
+<rect x="38" y="260" width="1724" height="1940" rx="10" fill="#ffffff" stroke="#b8c7bf" stroke-width="2"/>
+<rect x="38" y="260" width="190" height="100" rx="10" fill="#eaf2ee"/>
+<text x="58" y="299" font-size="17" font-weight="800" fill="#17231d">단계 ↓</text>
+<text x="58" y="332" font-size="15" font-weight="650" fill="#68776f">행위자 묶음 →</text>
+<rect x="38" y="360" width="1724" height="517" fill="#fbfcfb"/>
+<rect x="38" y="360" width="190" height="517" fill="#eef3f0"/>
+<text x="58" y="392" class="mono" font-size="16" font-weight="800" fill="#53645b">G0</text>
+<text x="58" y="425" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">계획</tspan></text>
+<rect x="38" y="877" width="1724" height="403" fill="#f5f8f6"/>
+<rect x="38" y="877" width="190" height="403" fill="#eef3f0"/>
+<text x="58" y="909" class="mono" font-size="16" font-weight="800" fill="#53645b">G1</text>
+<text x="58" y="942" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">자체평가</tspan></text>
+<rect x="38" y="1280" width="1724" height="403" fill="#fbfcfb"/>
+<rect x="38" y="1280" width="190" height="403" fill="#eef3f0"/>
+<text x="58" y="1312" class="mono" font-size="16" font-weight="800" fill="#53645b">G2</text>
+<text x="58" y="1345" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">상위평가</tspan></text>
+<rect x="38" y="1683" width="1724" height="517" fill="#f5f8f6"/>
+<rect x="38" y="1683" width="190" height="517" fill="#eef3f0"/>
+<text x="58" y="1715" class="mono" font-size="16" font-weight="800" fill="#53645b">G3</text>
+<text x="58" y="1748" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">반영</tspan></text>
+<rect x="228" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="228" y="260" width="383.5" height="7" fill="#0f9f72"/>
+<text x="248" y="299" font-size="20" font-weight="800" fill="#17231d">국가과학기술연구회</text>
+<text x="248" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="248" dy="0">국가과학기술연구회(NST)</tspan></text>
+<rect x="611.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="611.5" y="260" width="383.5" height="7" fill="#3b82f6"/>
+<text x="631.5" y="299" font-size="20" font-weight="800" fill="#17231d">NST 소관 출연연</text>
+<text x="631.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="631.5" dy="0">NST 소관 출연연</tspan></text>
+<rect x="995" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="995" y="260" width="383.5" height="7" fill="#c78116"/>
+<text x="1015" y="299" font-size="20" font-weight="800" fill="#17231d">NST 평가위원</text>
+<text x="1015" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1015" dy="0">NST 평가위원·이사회</tspan></text>
+<rect x="1378.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="1378.5" y="260" width="383.5" height="7" fill="#0891b2"/>
+<text x="1398.5" y="299" font-size="20" font-weight="800" fill="#17231d">과학기술정보통신부</text>
+<text x="1398.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1398.5" dy="0">과학기술정보통신부</tspan></text>
+<line x1="228" y1="260" x2="228" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="611.5" y1="260" x2="611.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="995" y1="260" x2="995" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1378.5" y1="260" x2="1378.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1762" y1="260" x2="1762" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#b8c7bf" stroke-width="2"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="877" x2="1762" y2="877" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1280" x2="1762" y2="1280" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1683" x2="1762" y2="1683" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2200" x2="1762" y2="2200" stroke="#b8c7bf" stroke-width="2"/>
+<g class="pp-edge" data-edge-id="E01" data-source="P01" data-target="P02">
+<path d="M 419.8 606.5 V 622.5 H 409.8 V 622.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 419.8 606.5 V 622.5 H 409.8 V 622.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E02" data-source="P02" data-target="P03">
+<path d="M 423.8 720.5 V 865 H 793.3 V 1025.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 423.8 720.5 V 865 H 793.3 V 1025.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E03" data-source="P03" data-target="P04">
+<path d="M 938.3 1090 H 997.8 V 1090 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 1090 H 997.8 V 1090 H 1043.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E04" data-source="P04" data-target="P05">
+<path d="M 1051.8 1072 H 582.8 V 1074.5 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1072 H 582.8 V 1074.5 H 562.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E05" data-source="P05" data-target="P06">
+<path d="M 417.8 1123.5 V 1252 H 1514.3 V 1428.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 417.8 1123.5 V 1252 H 1514.3 V 1428.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E06" data-source="P06" data-target="P07">
+<path d="M 1435.3 1462 H 582.8 V 1490.5 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1435.3 1462 H 582.8 V 1490.5 H 562.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E07" data-source="P07" data-target="P06">
+<path d="M 554.8 1477.5 H 1394.3 V 1480 H 1427.3" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1477.5 H 1394.3 V 1480 H 1427.3" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E08" data-source="P06" data-target="P08">
+<path d="M 1592.3 1526.5 V 1639 H 429.8 V 1831.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1592.3 1526.5 V 1639 H 429.8 V 1831.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E09" data-source="P06" data-target="P09">
+<path d="M 1576.3 1526.5 V 1623 H 606.5 V 2010 H 562.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1576.3 1526.5 V 1623 H 606.5 V 2010 H 562.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E10" data-source="P08" data-target="P09">
+<path d="M 409.8 1929.5 V 1945.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 409.8 1929.5 V 1945.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E11" data-source="P06" data-target="P10">
+<path d="M 1644.3 1526.5 V 1607 H 1582.3 V 1888.5" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1644.3 1526.5 V 1607 H 1582.3 V 1888.5" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge-label" data-edge-id="E06" data-source="P06" data-target="P07">
+<rect x="928.1" y="1444.3" width="133.8" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="995" y="1464.3" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">이의가 있는 경우</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E07" data-source="P07" data-target="P06">
+<rect x="937.6" y="1482.8" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="995" y="1502.8" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">심의결과 반영</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E08" data-source="P06" data-target="P08">
+<rect x="927.7" y="1607" width="166.7" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1011" y="1627" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">시정 요구가 있는 경우</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E09" data-source="P06" data-target="P09">
+<rect x="1033.9" y="1555" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1091.4" y="1575" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">평가결과 반영</text>
+</g>
+
+    <g class="pp-node" data-node-id="P01" data-basis="국가연구개발사업등의성과평가및성과관리에관한법률:제9조 국가연구개발사업등의성과평가및성과관리에관한법률시행령:제11조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="516.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="516.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="536.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P01</text>
+      
+      <rect x="475.8" y="523.5" width="69" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="510.3" y="540.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §9 +1</text>
+      <text x="299.8" y="573.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">기관 운영·연구사업 계획 수립</tspan></text>
+      <text x="299.8" y="598.5" font-size="11" font-weight="650" fill="#3b4a43">기한 · 성과평가실시계획에서 정하는 기한</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P02" data-basis="국가연구개발사업등의성과평가및성과관리에관한법률:제10조 국가연구개발사업등의성과평가및성과관리에관한법률시행령:제12조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="630.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="630.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="650.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P02</text>
+      
+      <rect x="468.8" y="637.5" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="654.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §10 +1</text>
+      <text x="299.8" y="687.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">자체평가 실시계획 수립·제출</tspan></text>
+      <text x="299.8" y="712.5" font-size="11" font-weight="650" fill="#3b4a43">기한 · 장관과 협의하여 정한 기한</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P03" data-basis="국가연구개발사업등의성과평가및성과관리에관한법률:제10조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1033.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1033.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1053.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P03</text>
+      
+      <rect x="869.3" y="1040.5" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1057.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §10</text>
+      <text x="683.3" y="1090.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">기관 실적·증빙 제공</tspan></text>
+      <text x="683.3" y="1115.5" font-size="11" font-weight="650" fill="#3b4a43">NST 소관 출연연</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P04" data-basis="과학기술분야정부출연연구기관등의설립ㆍ운영및육성에관한법률:제24조 과학기술분야정부출연연구기관등의설립ㆍ운영및육성에관한법률:제28조 과학기술분야정부출연연구기관등의설립ㆍ운영및육성에관한법률시행령:제20조 국가연구개발사업등의성과평가및성과관리에관한법률:제10조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1033.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1033.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1053.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P04</text>
+      
+      <rect x="1235.8" y="1040.5" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1057.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §24 +2</text>
+      <text x="1066.8" y="1090.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">NST 자체평가·결과 확정</tspan></text>
+      <text x="1066.8" y="1115.5" font-size="11" font-weight="650" fill="#3b4a43">NST 평가위원·이사회</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P05" data-basis="국가연구개발사업등의성과평가및성과관리에관한법률:제10조 국가연구개발사업등의성과평가및성과관리에관한법률시행령:제12조 과학기술분야정부출연연구기관등의설립ㆍ운영및육성에관한법률:제28조 과학기술분야정부출연연구기관등의설립ㆍ운영및육성에관한법률시행령:제21조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1033.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1033.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1053.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P05</text>
+      
+      <rect x="468.8" y="1040.5" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="1057.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §10 +3</text>
+      <text x="299.8" y="1090.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">평가결과 제출</tspan></text>
+      <text x="299.8" y="1115.5" font-size="11" font-weight="650" fill="#3b4a43">기한 · 성과평가법 시행령상 NST 제출기한은…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P06" data-basis="국가연구개발사업등의성과평가및성과관리에관한법률:제11조 국가연구개발사업등의성과평가및성과관리에관한법률시행령:제13조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="1436.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="1436.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="1456.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P06</text>
+      
+      <rect x="1619.3" y="1443.5" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1657.3" y="1460.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §11 +1</text>
+      <text x="1450.3" y="1493.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">자체평가에 대한 상위평가</tspan></text>
+      <text x="1450.3" y="1518.5" font-size="11" font-weight="650" fill="#3b4a43">과학기술정보통신부</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P07" data-basis="국가연구개발사업등의성과평가및성과관리에관한법률:제11조 국가연구개발사업등의성과평가및성과관리에관한법률시행령:제14조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1436.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1436.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1456.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P07</text>
+      
+      <rect x="468.8" y="1443.5" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="1460.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §11 +1</text>
+      <text x="299.8" y="1493.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">상위평가 이의신청·처리</tspan></text>
+      <text x="299.8" y="1518.5" font-size="11" font-weight="650" fill="#3b4a43">기한 · 신청은 결과 통보일부터 10일 이내. 처…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P08" data-basis="국가연구개발사업등의성과평가및성과관리에관한법률시행령:제13조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1839.5" width="270" height="90" rx="8" fill="#f2f6ff" stroke="#2456d6" stroke-width="2.3"/>
+      <rect x="284.8" y="1839.5" width="6" height="90" rx="3" fill="#2456d6"/>
+      <text x="299.8" y="1859.5" class="mono" font-size="12.5" font-weight="750" fill="#2456d6">P08</text>
+      
+      <rect x="485.8" y="1846.5" width="59" height="24" rx="5" fill="#2456d6" opacity="0.14"/>
+      <text x="515.3" y="1863.5" text-anchor="middle" font-size="12" font-weight="800" fill="#14306f">령 §13</text>
+      <text x="299.8" y="1896.5" font-size="15.5" font-weight="800" fill="#14306f"><tspan x="299.8" dy="0">시정조치 이행계획 제출</tspan></text>
+      <text x="299.8" y="1921.5" font-size="11" font-weight="650" fill="#2456d6">기한 · 요구받은 날부터 2개월 이내. 부득이한…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P09" data-basis="국가연구개발사업등의성과평가및성과관리에관한법률:제15조 국가연구개발사업등의성과평가및성과관리에관한법률시행령:제11조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1953.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1953.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1973.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P09</text>
+      
+      <rect x="468.8" y="1960.5" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="1977.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §15 +1</text>
+      <text x="299.8" y="2010.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">예산·차기 계획에 결과 반영</tspan></text>
+      <text x="299.8" y="2035.5" font-size="11" font-weight="650" fill="#3b4a43">국가과학기술연구회(NST)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P10" data-basis="과학기술분야정부출연연구기관등의설립ㆍ운영및육성에관한법률:제28조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="1896.5" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="1896.5" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="1916.5" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P10</text>
+      
+      <rect x="1636.3" y="1903.5" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1665.8" y="1920.5" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §28</text>
+      <text x="1450.3" y="1953.5" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">국회 소관 상임위원회 제출</tspan></text>
+      <text x="1450.3" y="1978.5" font-size="11" font-weight="650" fill="#3b4a43">기한 · 평가 종료일부터 30일 이내. 상위평가…</text>
+    </g>
+  
+
+</svg>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"law":{"lawId":"009761","name":"과학기술분야 정부출연연구기관 등의 설립ㆍ운영 및 육성에 관한 법률","mst":null,"kind":"법률","tier":"statute","effectiveOn":null,"officialUrl":"https://law.go.kr/lsInfoP.do?ancYnChk=0&lsId=009761#0000"},"flows":[{"slug":"gri-budget-plan-settlement","name":"과학기술 출연연 사업계획·예산·결산 승인","oneLiner":"NST 소관 출연연의 차년도 예산요구부터 사업계획 승인·중요변경·연도말 결산 승인과 제출까지 이어지는 기관 운영 절차","citingSteps":12,"totalSteps":12,"articles":{"제13조":7,"제24조":3,"제15조":4}},{"slug":"gri-institutional-evaluation","name":"과학기술 출연연 기관평가·결과 반영","oneLiner":"NST 소관 출연연의 운영·연구사업 계획부터 연구회 자체평가, 과기정통부 상위평가, 시정·이의와 예산·계획 반영까지 잇는 절차","citingSteps":3,"totalSteps":10,"articles":{"제24조":1,"제28조":3}}],"current":"$0:rsc:props:children:0:props:flows:1","asOfDate":"2026-10-31","reviewNote":"주요 절차를 요약한 참고 모델입니다. 모든 예외·위임규정의 현행성까지 전수 검증한 자료는 아닙니다. 법령 체계의 보관 자료와 현행 원문은 다를 수 있습니다.","svg":"$3","nodes":[{"id":"P01","name":"기관 운영·연구사업 계획 수립","lane":"국가과학기술연구회(NST)","stage":"G0 계획","type":"task","status":"waiting","progress":0,"actor":"국가과학기술연구회(NST)","action":"기관 전략목표·성과목표·성과지표를 포함한 계획을 수립하고 장관의 의견을 들어 제출한다.","input_documents":["기관 임무·직전 평가결과"],"output_documents":["기관운영·연구사업 계획"],"deadline":"성과평가실시계획에서 정하는 기한","blocker":null,"confidence":0.9,"legal_basis":[{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률","article":"제9조","text":"요지: 기관운영계획·연구사업계획 수립·제출"},{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률 시행령","article":"제11조","text":"요지: 계획 내용·결과 반영 및 NST 제출기한"}]},{"id":"P02","name":"자체평가 실시계획 수립·제출","lane":"국가과학기술연구회(NST)","stage":"G0 계획","type":"task","status":"waiting","progress":0,"actor":"국가과학기술연구회(NST)","action":"해당 연도 실시계획에 맞춰 평가대상·체계·방법·결과 반영 방안을 정해 장관에게 제출한다.","input_documents":["연도별 성과평가실시계획"],"output_documents":["NST 자체평가실시계획"],"deadline":"장관과 협의하여 정한 기한","blocker":null,"confidence":0.9,"legal_basis":[{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률","article":"제10조제2항","text":"요지: 자체평가실시계획 제출"},{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률 시행령","article":"제12조제1항·제2항","text":"요지: 계획 내용 및 협의기한"}]},{"id":"P03","name":"기관 실적·증빙 제공","lane":"NST 소관 출연연","stage":"G1 자체평가","type":"task","status":"waiting","progress":0,"actor":"NST 소관 출연연","action":"확정된 평가계획에 맞춰 운영·연구 실적과 근거자료를 NST에 제공한다.","input_documents":["기관 계획","실적·증빙"],"output_documents":["기관 평가자료"],"deadline":null,"blocker":null,"confidence":0.9,"legal_basis":[{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률","article":"제10조제1항","text":"요지: 소관 연구기관 운영·연구사업 자체평가"}]},{"id":"P04","name":"NST 자체평가·결과 확정","lane":"NST 평가위원·이사회","stage":"G1 자체평가","type":"task","status":"waiting","progress":0,"actor":"NST 평가위원·이사회","action":"전문가 의견을 들어 연구실적과 경영내용을 공정·객관적으로 평가한다. 평가내용은 이사회 의결에 따른다.","input_documents":["기관 평가자료","자체평가실시계획"],"output_documents":["자체평가 결과서","전문가 평가보고서"],"deadline":null,"blocker":null,"confidence":0.9,"legal_basis":[{"law":"과학기술분야 정부출연연구기관 등의 설립ㆍ운영 및 육성에 관한 법률","article":"제24조제2항제5호·제28조제1항","text":"요지: 연구실적·경영내용 평가"},{"law":"과학기술분야 정부출연연구기관 등의 설립ㆍ운영 및 육성에 관한 법률 시행령","article":"제20조","text":"요지: 전문가 의견 및 평가내용 이사회 의결"},{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률","article":"제10조제1항","text":"요지: NST 소관 기관 자체평가"}]},{"id":"P05","name":"평가결과 제출","lane":"국가과학기술연구회(NST)","stage":"G1 자체평가","type":"task","status":"waiting","progress":0,"actor":"국가과학기술연구회(NST)","action":"자체평가 결과를 장관에게 제출하고, 과기출연기관법상 연구기관 평가결과는 자문회의에도 제출한다.","input_documents":["자체평가 결과서","전문가 평가보고서"],"output_documents":["평가결과 제출자료"],"deadline":"성과평가법 시행령상 NST 제출기한은 실시계획에 따름. 과기출연기관법 시행령 제21조상 결과 제출은 평가 종료일부터 10일 이내","blocker":null,"confidence":0.9,"legal_basis":[{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률","article":"제10조제3항","text":"요지: 자체평가 결과 장관 제출"},{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률 시행령","article":"제12조제3항제2호","text":"요지: NST 결과 제출기한"},{"law":"과학기술분야 정부출연연구기관 등의 설립ㆍ운영 및 육성에 관한 법률","article":"제28조제2항","text":"요지: 장관·자문회의 제출"},{"law":"과학기술분야 정부출연연구기관 등의 설립ㆍ운영 및 육성에 관한 법률 시행령","article":"제21조","text":"요지: 평가 종료일부터 10일 이내 결과서 제출"}]},{"id":"P06","name":"자체평가에 대한 상위평가","lane":"과학기술정보통신부","stage":"G2 상위평가","type":"task","status":"waiting","progress":0,"actor":"과학기술정보통신부","action":"자체평가 절차·방법의 객관성·공정성 등을 평가하고 결과를 NST에 알린다. 필요하면 자체평가 재실시나 시정을 요구한다.","input_documents":["자체평가 결과·평가체계 자료"],"output_documents":["상위평가 결과","시정 요구"],"deadline":null,"blocker":null,"confidence":0.9,"legal_basis":[{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률","article":"제11조제1항·제2항","text":"요지: 상위평가 및 시정 요구"},{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률 시행령","article":"제13조제1항·제2항","text":"요지: 자료 요청·자체평가 재실시"}]},{"id":"P07","name":"상위평가 이의신청·처리","lane":"국가과학기술연구회(NST)","stage":"G2 상위평가","type":"task","status":"waiting","progress":0,"actor":"국가과학기술연구회(NST)","action":"NST는 상위평가 결과에 이의가 있을 때 장관에게 신청할 수 있다. 장관은 심의결과를 통보한다.","input_documents":["상위평가 결과","이의 근거"],"output_documents":["이의신청서","심의결과"],"deadline":"신청은 결과 통보일부터 10일 이내. 처리는 접수일부터 20일 이내, 부득이한 경우 10일 범위 연장","blocker":null,"confidence":0.9,"legal_basis":[{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률","article":"제11조제3항","text":"요지: 상위평가 이의신청 주체는 관계 중앙행정기관장·연구회"},{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률 시행령","article":"제14조","text":"요지: 신청·심의 기한"}]},{"id":"P08","name":"시정조치 이행계획 제출","lane":"국가과학기술연구회(NST)","stage":"G3 반영","type":"task","status":"waiting","progress":0,"actor":"국가과학기술연구회(NST)","action":"시정 요구를 받으면 이행계획을 제출하고 자체평가 재실시 등의 필요한 조치를 한다.","input_documents":["시정 요구"],"output_documents":["시정조치 이행계획"],"deadline":"요구받은 날부터 2개월 이내. 부득이한 경우 장관과 협의하여 조정","blocker":null,"confidence":0.9,"legal_basis":[{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률 시행령","article":"제13조제2항~제4항","text":"요지: 재평가·시정계획 및 이행점검"}]},{"id":"P09","name":"예산·차기 계획에 결과 반영","lane":"국가과학기술연구회(NST)","stage":"G3 반영","type":"task","status":"waiting","progress":0,"actor":"국가과학기술연구회(NST)","action":"NST는 자체평가 결과를 추진계획 수정·보완 등에 반영하고, 장관은 평가결과를 예산 조정·배분에 반영한다.","input_documents":["평가결과","시정조치","차기 계획·예산안"],"output_documents":["수정·보완 계획","예산 반영자료"],"deadline":null,"blocker":null,"confidence":0.9,"legal_basis":[{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률","article":"제15조제1항·제2항","text":"요지: 예산 및 계획 반영"},{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률 시행령","article":"제11조제2항","text":"요지: 기관 계획에 자체평가·상위평가 결과 반영"}]},{"id":"P10","name":"국회 소관 상임위원회 제출","lane":"과학기술정보통신부","stage":"G3 반영","type":"task","status":"waiting","progress":0,"actor":"과학기술정보통신부","action":"과기출연기관법에 따라 평가결과를 소관 상임위원회에 제출한다.","input_documents":["평가결과"],"output_documents":["상임위원회 제출자료"],"deadline":"평가 종료일부터 30일 이내. 상위평가 대상은 상위평가 종료일부터 60일 이내","blocker":null,"confidence":0.9,"legal_basis":[{"law":"과학기술분야 정부출연연구기관 등의 설립ㆍ운영 및 육성에 관한 법률","article":"제28조제4항","text":"요지: 연구기관 평가결과 국회 제출"}]}],"edges":[{"id":"E01","source":"P01","target":"P02","type":"sequence","label":null},{"id":"E02","source":"P02","target":"P03","type":"sequence","label":null},{"id":"E03","source":"P03","target":"P04","type":"sequence","label":null},{"id":"E04","source":"P04","target":"P05","type":"sequence","label":null},{"id":"E05","source":"P05","target":"P06","type":"sequence","label":null},{"id":"E06","source":"P06","target":"P07","type":"sequence","label":"이의가 있는 경우"},{"id":"E07","source":"P07","target":"P06","type":"loop","label":"심의결과 반영"},{"id":"E08","source":"P06","target":"P08","type":"sequence","label":"시정 요구가 있는 경우"},{"id":"E09","source":"P06","target":"P09","type":"sequence","label":"평가결과 반영"},{"id":"E10","source":"P08","target":"P09","type":"sequence","label":null},{"id":"E11","source":"P06","target":"P10","type":"sequence","label":null}],"lawContext":{"byNode":{"P01":[{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률","article":"제9조","text":"요지: 기관운영계획·연구사업계획 수립·제출","found":false,"lawId":null,"tier":null,"articles":[{"label":"제9조","title":null,"officialUrl":null,"up":[],"down":[]}]},{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률 시행령","article":"제11조","text":"요지: 계획 내용·결과 반영 및 NST 제출기한","found":false,"lawId":null,"tier":null,"articles":[{"label":"제11조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P02":[{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률","article":"제10조제2항","text":"요지: 자체평가실시계획 제출","found":false,"lawId":null,"tier":null,"articles":[{"label":"제10조","title":null,"officialUrl":null,"up":[],"down":[]}]},{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률 시행령","article":"제12조제1항·제2항","text":"요지: 계획 내용 및 협의기한","found":false,"lawId":null,"tier":null,"articles":[{"label":"제12조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P03":[{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률","article":"제10조제1항","text":"요지: 소관 연구기관 운영·연구사업 자체평가","found":false,"lawId":null,"tier":null,"articles":[{"label":"제10조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P04":[{"law":"과학기술분야 정부출연연구기관 등의 설립ㆍ운영 및 육성에 관한 법률","article":"제24조제2항제5호·제28조제1항","text":"요지: 연구실적·경영내용 평가","found":false,"lawId":null,"tier":null,"articles":[{"label":"제24조","title":null,"officialUrl":null,"up":[],"down":[]},{"label":"제28조","title":null,"officialUrl":null,"up":[],"down":[]}]},{"law":"과학기술분야 정부출연연구기관 등의 설립ㆍ운영 및 육성에 관한 법률 시행령","article":"제20조","text":"요지: 전문가 의견 및 평가내용 이사회 의결","found":false,"lawId":null,"tier":null,"articles":[{"label":"제20조","title":null,"officialUrl":null,"up":[],"down":[]}]},{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률","article":"제10조제1항","text":"요지: NST 소관 기관 자체평가","found":false,"lawId":null,"tier":null,"articles":[{"label":"제10조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P05":[{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률","article":"제10조제3항","text":"요지: 자체평가 결과 장관 제출","found":false,"lawId":null,"tier":null,"articles":[{"label":"제10조","title":null,"officialUrl":null,"up":[],"down":[]}]},{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률 시행령","article":"제12조제3항제2호","text":"요지: NST 결과 제출기한","found":false,"lawId":null,"tier":null,"articles":[{"label":"제12조","title":null,"officialUrl":null,"up":[],"down":[]}]},{"law":"과학기술분야 정부출연연구기관 등의 설립ㆍ운영 및 육성에 관한 법률","article":"제28조제2항","text":"요지: 장관·자문회의 제출","found":false,"lawId":null,"tier":null,"articles":[{"label":"제28조","title":null,"officialUrl":null,"up":[],"down":[]}]},{"law":"과학기술분야 정부출연연구기관 등의 설립ㆍ운영 및 육성에 관한 법률 시행령","article":"제21조","text":"요지: 평가 종료일부터 10일 이내 결과서 제출","found":false,"lawId":null,"tier":null,"articles":[{"label":"제21조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P06":[{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률","article":"제11조제1항·제2항","text":"요지: 상위평가 및 시정 요구","found":false,"lawId":null,"tier":null,"articles":[{"label":"제11조","title":null,"officialUrl":null,"up":[],"down":[]}]},{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률 시행령","article":"제13조제1항·제2항","text":"요지: 자료 요청·자체평가 재실시","found":false,"lawId":null,"tier":null,"articles":[{"label":"제13조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P07":[{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률","article":"제11조제3항","text":"요지: 상위평가 이의신청 주체는 관계 중앙행정기관장·연구회","found":false,"lawId":null,"tier":null,"articles":[{"label":"제11조","title":null,"officialUrl":null,"up":[],"down":[]}]},{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률 시행령","article":"제14조","text":"요지: 신청·심의 기한","found":false,"lawId":null,"tier":null,"articles":[{"label":"제14조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P08":[{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률 시행령","article":"제13조제2항~제4항","text":"요지: 재평가·시정계획 및 이행점검","found":false,"lawId":null,"tier":null,"articles":[{"label":"제13조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P09":[{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률","article":"제15조제1항·제2항","text":"요지: 예산 및 계획 반영","found":false,"lawId":null,"tier":null,"articles":[{"label":"제15조","title":null,"officialUrl":null,"up":[],"down":[]}]},{"law":"국가연구개발사업 등의 성과평가 및 성과관리에 관한 법률 시행령","article":"제11조제2항","text":"요지: 기관 계획에 자체평가·상위평가 결과 반영","found":false,"lawId":null,"tier":null,"articles":[{"label":"제11조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P10":[{"law":"과학기술분야 정부출연연구기관 등의 설립ㆍ운영 및 육성에 관한 법률","article":"제28조제4항","text":"요지: 연구기관 평가결과 국회 제출","found":false,"lawId":null,"tier":null,"articles":[{"label":"제28조","title":null,"officialUrl":null,"up":[],"down":[]}]}]},"systems":{}},"statusStyles":{"done":{"label":"선행","fill":"#effaf5","border":"#35a77d","ink":"#123d2e","sub":"#287a5c"},"current":{"label":"핵심","fill":"#087452","border":"#087452","ink":"#ffffff","sub":"#d8f4e8"},"waiting":{"label":"후속","fill":"#ffffff","border":"#b9c7bf","ink":"#17231d","sub":"#627169"},"risk":{"label":"병목","fill":"#fff8e8","border":"#d9901a","ink":"#7a4305","sub":"#a96008"},"loop":{"label":"회귀","fill":"#edf4ff","border":"#3478db","ink":"#173f7a","sub":"#316bbd"}},"basisLegend":[{"label":"법률","fill":"#ffffff","border":"#3b4a43"},{"label":"시행령","fill":"#f2f6ff","border":"#2456d6"},{"label":"시행규칙","fill":"#effaf6","border":"#0f9f72"},{"label":"행정규칙","fill":"#f6f2ff","border":"#7c56c9"}],"isLawIndex":false}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Eu-UvfunzEwjnKcUq5f7W"}
+4:["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","precedence":"next"}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

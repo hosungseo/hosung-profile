@@ -1,0 +1,381 @@
+1:"$Sreact.fragment"
+2:I[7742,["838","static/chunks/838-9b85aecee2a13f53.js","379","static/chunks/379-f104668f756ddde1.js","227","static/chunks/app/embed/flow/%5BlawId%5D/page-b476be85089ecd29.js"],"default"]
+6:I[977,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+:HL["/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","style"]
+3:T773f,<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 250 1744 1960" class="pp-svg">
+<defs>
+      <filter id="card-shadow" x="-20%" y="-25%" width="140%" height="160%">
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#12271e" flood-opacity="0.10"/>
+      </filter>
+      <marker id="arrow-sequence" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#53675d" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-message" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#0f8a65" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-loop" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#3478db" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <style>
+        text { font-family: "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", sans-serif; }
+        .mono { font-family: "SFMono-Regular", "Menlo", monospace; }
+      </style>
+    </defs>
+<rect width="1800" height="2400" fill="#ffffff"/>
+
+
+
+<rect x="38" y="260" width="1724" height="1940" rx="10" fill="#ffffff" stroke="#b8c7bf" stroke-width="2"/>
+<rect x="38" y="260" width="190" height="100" rx="10" fill="#eaf2ee"/>
+<text x="58" y="299" font-size="17" font-weight="800" fill="#17231d">단계 ↓</text>
+<text x="58" y="332" font-size="15" font-weight="650" fill="#68776f">행위자 묶음 →</text>
+<rect x="38" y="360" width="1724" height="344.7" fill="#fbfcfb"/>
+<rect x="38" y="360" width="190" height="344.7" fill="#eef3f0"/>
+<text x="58" y="392" class="mono" font-size="16" font-weight="800" fill="#53645b">G0</text>
+<text x="58" y="425" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">대상판단</tspan></text>
+<rect x="38" y="704.7" width="1724" height="230.7" fill="#f5f8f6"/>
+<rect x="38" y="704.7" width="190" height="230.7" fill="#eef3f0"/>
+<text x="58" y="736.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G1</text>
+<text x="58" y="769.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">평가기관선정</tspan></text>
+<rect x="38" y="935.3" width="1724" height="458.7" fill="#fbfcfb"/>
+<rect x="38" y="935.3" width="190" height="458.7" fill="#eef3f0"/>
+<text x="58" y="967.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G2</text>
+<text x="58" y="1000.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">평가수행</tspan></text>
+<rect x="38" y="1394" width="1724" height="230.7" fill="#f5f8f6"/>
+<rect x="38" y="1394" width="190" height="230.7" fill="#eef3f0"/>
+<text x="58" y="1426" class="mono" font-size="16" font-weight="800" fill="#53645b">G3</text>
+<text x="58" y="1459" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">개선계획</tspan></text>
+<rect x="38" y="1624.7" width="1724" height="230.7" fill="#fbfcfb"/>
+<rect x="38" y="1624.7" width="190" height="230.7" fill="#eef3f0"/>
+<text x="58" y="1656.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G4</text>
+<text x="58" y="1689.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">결과제출</tspan></text>
+<rect x="38" y="1855.3" width="1724" height="344.7" fill="#f5f8f6"/>
+<rect x="38" y="1855.3" width="190" height="344.7" fill="#eef3f0"/>
+<text x="58" y="1887.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G5</text>
+<text x="58" y="1920.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">이행점검</tspan></text>
+<rect x="228" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="228" y="260" width="383.5" height="7" fill="#0f9f72"/>
+<text x="248" y="299" font-size="20" font-weight="800" fill="#17231d">대상기관</text>
+<text x="248" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="248" dy="0">대상기관(공공기관)</tspan></text>
+<rect x="611.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="611.5" y="260" width="383.5" height="7" fill="#3b82f6"/>
+<text x="631.5" y="299" font-size="20" font-weight="800" fill="#17231d">지정 평가기관</text>
+<text x="631.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="631.5" dy="0">지정 평가기관</tspan></text>
+<rect x="995" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="995" y="260" width="383.5" height="7" fill="#c78116"/>
+<text x="1015" y="299" font-size="20" font-weight="800" fill="#17231d">개인정보보호위원회·정보시스템 부서</text>
+<text x="1015" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1015" dy="0">개인정보보호위원회 · 정보시스템 부서</tspan></text>
+<rect x="1378.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="1378.5" y="260" width="383.5" height="7" fill="#0891b2"/>
+<text x="1398.5" y="299" font-size="20" font-weight="800" fill="#17231d">개인정보 보호책임자</text>
+<text x="1398.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1398.5" dy="0">개인정보 보호책임자(CPO)</tspan></text>
+<line x1="228" y1="260" x2="228" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="611.5" y1="260" x2="611.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="995" y1="260" x2="995" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1378.5" y1="260" x2="1378.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1762" y1="260" x2="1762" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#b8c7bf" stroke-width="2"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="704.7" x2="1762" y2="704.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="935.3" x2="1762" y2="935.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1394" x2="1762" y2="1394" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1624.7" x2="1762" y2="1624.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1855.3" x2="1762" y2="1855.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2200" x2="1762" y2="2200" stroke="#b8c7bf" stroke-width="2"/>
+<g class="pp-edge" data-edge-id="E01" data-source="P01" data-target="P02">
+<path d="M 419.8 520.3 V 536.3 H 409.8 V 536.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 419.8 520.3 V 536.3 H 409.8 V 536.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E02" data-source="P02" data-target="P03">
+<path d="M 423.8 634.3 V 692.7 H 409.8 V 767" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 423.8 634.3 V 692.7 H 409.8 V 767" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E03" data-source="P03" data-target="P04">
+<path d="M 554.8 826.5 H 640.3 V 816 H 660.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 826.5 H 640.3 V 816 H 660.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E04" data-source="P04" data-target="P05">
+<path d="M 801.3 865 V 907.3 H 787.3 V 997.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 801.3 865 V 907.3 H 787.3 V 997.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E05" data-source="P05" data-target="P06">
+<path d="M 813.3 1095.7 V 1111.7 H 807.3 V 1111.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 813.3 1095.7 V 1111.7 H 807.3 V 1111.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E06" data-source="P06" data-target="P07">
+<path d="M 787.3 1209.7 V 1225.7 H 799.3 V 1225.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 787.3 1209.7 V 1225.7 H 799.3 V 1225.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E07" data-source="P07" data-target="P08">
+<path d="M 819.3 1323.7 V 1382 H 1566.3 V 1456.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 819.3 1323.7 V 1382 H 1566.3 V 1456.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E08" data-source="P08" data-target="P10">
+<path d="M 1435.3 1520.8 H 1005.3 V 1529.8 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1435.3 1520.8 H 1005.3 V 1529.8 H 946.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E09" data-source="P12" data-target="P13">
+<path d="M 1196.8 1785 V 1827.3 H 1170.8 V 1917.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1196.8 1785 V 1827.3 H 1170.8 V 1917.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E10" data-source="P13" data-target="P14">
+<path d="M 1321.8 1977.2 H 1407.3 V 2043.2 H 1427.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1321.8 1977.2 H 1407.3 V 2043.2 H 1427.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M01" data-source="P10" data-target="P11">
+<path d="M 791.3 1554.3 V 1596.7 H 403.8 V 1687" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 791.3 1554.3 V 1596.7 H 403.8 V 1687" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M02" data-source="P11" data-target="P12">
+<path d="M 554.8 1749 H 1023.8 V 1736 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1749 H 1023.8 V 1736 H 1043.8" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M03" data-source="P12" data-target="P14">
+<path d="M 1210.8 1785 V 1811.3 H 1562.3 V 1974.7" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1210.8 1785 V 1811.3 H 1562.3 V 1974.7" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M04" data-source="P14" data-target="P15">
+<path d="M 1435.3 2030.2 H 1362.8 V 2092.2 H 1329.8" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1435.3 2030.2 H 1362.8 V 2092.2 H 1329.8" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L01" data-source="P12" data-target="P09">
+<path d="M 1051.8 1720.5 H 216 V 1572.7 H 429.8 V 1562.3" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1720.5 H 216 V 1572.7 H 429.8 V 1562.3" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L02" data-source="P09" data-target="P10">
+<path d="M 554.8 1502.8 H 640.3 V 1496.3 H 660.3" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 1502.8 H 640.3 V 1496.3 H 660.3" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge-label" data-edge-id="E01" data-source="P01" data-target="P02">
+<rect x="626.8" y="517.3" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="674.8" y="537.3" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">대상 해당</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E09" data-source="P12" data-target="P13">
+<rect x="1126.3" y="1795.3" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1183.8" y="1815.3" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">검토의견 반영</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M01" data-source="P10" data-target="P11">
+<rect x="547.1" y="1564.7" width="100.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="597.5" y="1584.7" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">평가서 인계</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M02" data-source="P11" data-target="P12">
+<rect x="684.9" y="1710.5" width="236.7" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="803.3" y="1730.5" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">영향평가서 제출(시스템 오픈 전)</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M03" data-source="P12" data-target="P14">
+<rect x="1329.1" y="1779.3" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1386.5" y="1799.3" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">검토의견 통보</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M04" data-source="P14" data-target="P15">
+<rect x="1311.6" y="2137.2" width="133.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1378.5" y="2157.2" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">미이행 사항 통보</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L01" data-source="P12" data-target="P09">
+<rect x="226.1" y="1641.3" width="119.8" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="286" y="1661.3" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">개선 보완 요구</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L02" data-source="P09" data-target="P10">
+<rect x="543.6" y="1395.6" width="135.9" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="611.5" y="1415.6" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">보완 반영·재작성</text>
+</g>
+
+    <g class="pp-node" data-node-id="P01" data-basis="개인정보보호법:제33조 개인정보보호법시행령:제35조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="430.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="430.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="450.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P01</text>
+      
+      <rect x="468.8" y="437.3" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="454.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §33 +1</text>
+      <text x="299.8" y="487.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">영향평가 대상 여부 판단</tspan></text>
+      <text x="299.8" y="512.3" font-size="11" font-weight="650" fill="#3b4a43">대상 공공기관의 장·CPO</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P02" data-basis="개인정보보호법시행령:제35조 개인정보보호법시행령:제38조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="544.3" width="270" height="90" rx="8" fill="#f2f6ff" stroke="#2456d6" stroke-width="2.3"/>
+      <rect x="284.8" y="544.3" width="6" height="90" rx="3" fill="#2456d6"/>
+      <text x="299.8" y="564.3" class="mono" font-size="12.5" font-weight="750" fill="#2456d6">P02</text>
+      
+      <rect x="485.8" y="551.3" width="59" height="24" rx="5" fill="#2456d6" opacity="0.14"/>
+      <text x="515.3" y="568.3" text-anchor="middle" font-size="12" font-weight="800" fill="#14306f">령 §35</text>
+      <text x="299.8" y="601.3" font-size="15.5" font-weight="800" fill="#14306f"><tspan x="299.8" dy="0">예산 확보·평가 계획 수립</tspan></text>
+      <text x="299.8" y="626.3" font-size="11" font-weight="650" fill="#2456d6">대상 공공기관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P03" data-basis="개인정보보호법:제33조 개인정보보호법시행령:제36조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="775" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="775" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="795" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P03</text>
+      
+      <rect x="468.8" y="782" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="799" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §33 +1</text>
+      <text x="299.8" y="832" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">평가기관 선정·계약</tspan></text>
+      <text x="299.8" y="857" font-size="11" font-weight="650" fill="#3b4a43">대상 공공기관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P04" data-basis="개인정보영향평가에관한고시:제9조의2" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="775" width="270" height="90" rx="8" fill="#f6f2ff" stroke="#7c56c9" stroke-width="2.3"/>
+      <rect x="668.3" y="775" width="6" height="90" rx="3" fill="#7c56c9"/>
+      <text x="683.3" y="795" class="mono" font-size="12.5" font-weight="750" fill="#6b45b8">P04</text>
+      
+      <rect x="857.3" y="782" width="71" height="24" rx="5" fill="#7c56c9" opacity="0.14"/>
+      <text x="892.8" y="799" text-anchor="middle" font-size="12" font-weight="800" fill="#3d2470">규 §9의2</text>
+      <text x="683.3" y="832" font-size="15.5" font-weight="800" fill="#3d2470"><tspan x="683.3" dy="0">착수·과업 협의</tspan></text>
+      <text x="683.3" y="857" font-size="11" font-weight="650" fill="#6b45b8">지정 평가기관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P05" data-basis="개인정보보호법:제33조 개인정보보호법시행령:제37조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1005.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1005.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1025.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P05</text>
+      
+      <rect x="852.3" y="1012.7" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="1029.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §33 +1</text>
+      <text x="683.3" y="1062.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">개인정보 흐름 분석</tspan></text>
+      <text x="683.3" y="1087.7" font-size="11" font-weight="650" fill="#3b4a43">지정 평가기관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P06" data-basis="개인정보보호법시행령:제38조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1119.7" width="270" height="90" rx="8" fill="#f2f6ff" stroke="#2456d6" stroke-width="2.3"/>
+      <rect x="668.3" y="1119.7" width="6" height="90" rx="3" fill="#2456d6"/>
+      <text x="683.3" y="1139.7" class="mono" font-size="12.5" font-weight="750" fill="#2456d6">P06</text>
+      
+      <rect x="869.3" y="1126.7" width="59" height="24" rx="5" fill="#2456d6" opacity="0.14"/>
+      <text x="898.8" y="1143.7" text-anchor="middle" font-size="12" font-weight="800" fill="#14306f">령 §38</text>
+      <text x="683.3" y="1176.7" font-size="15.5" font-weight="800" fill="#14306f"><tspan x="683.3" dy="0">침해요인·위험 분석</tspan></text>
+      <text x="683.3" y="1201.7" font-size="11" font-weight="650" fill="#2456d6">지정 평가기관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P07" data-basis="개인정보영향평가에관한고시:제10조 개인정보영향평가에관한고시:제11조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1233.7" width="270" height="90" rx="8" fill="#f6f2ff" stroke="#7c56c9" stroke-width="2.3"/>
+      <rect x="668.3" y="1233.7" width="6" height="90" rx="3" fill="#7c56c9"/>
+      <text x="683.3" y="1253.7" class="mono" font-size="12.5" font-weight="750" fill="#6b45b8">P07</text>
+      
+      <rect x="869.3" y="1240.7" width="59" height="24" rx="5" fill="#7c56c9" opacity="0.14"/>
+      <text x="898.8" y="1257.7" text-anchor="middle" font-size="12" font-weight="800" fill="#3d2470">규 §10</text>
+      <text x="683.3" y="1290.7" font-size="15.5" font-weight="800" fill="#3d2470"><tspan x="683.3" dy="0">위험도 산정</tspan></text>
+      <text x="683.3" y="1315.7" font-size="11" font-weight="650" fill="#6b45b8">지정 평가기관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P08" data-basis="개인정보보호법:제33조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="1464.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="1464.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="1484.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P08</text>
+      
+      <rect x="1636.3" y="1471.3" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1665.8" y="1488.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §33</text>
+      <text x="1450.3" y="1521.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">개선방안 도출·개선계획 수립</tspan></text>
+      <text x="1450.3" y="1546.3" font-size="11" font-weight="650" fill="#3b4a43">지정 평가기관·CPO</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P09" data-basis="개인정보영향평가에관한고시:제12조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1464.3" width="270" height="90" rx="8" fill="#f6f2ff" stroke="#7c56c9" stroke-width="2.3"/>
+      <rect x="284.8" y="1464.3" width="6" height="90" rx="3" fill="#7c56c9"/>
+      <text x="299.8" y="1484.3" class="mono" font-size="12.5" font-weight="750" fill="#6b45b8">P09</text>
+      
+      <rect x="485.8" y="1471.3" width="59" height="24" rx="5" fill="#7c56c9" opacity="0.14"/>
+      <text x="515.3" y="1488.3" text-anchor="middle" font-size="12" font-weight="800" fill="#3d2470">규 §12</text>
+      <text x="299.8" y="1521.3" font-size="15.5" font-weight="800" fill="#3d2470"><tspan x="299.8" dy="0">개선사항 보완·재검토</tspan></text>
+      <text x="299.8" y="1546.3" font-size="11" font-weight="650" fill="#6b45b8">대상 공공기관·평가기관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P10" data-basis="개인정보영향평가에관한고시:제12조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1464.3" width="270" height="90" rx="8" fill="#f6f2ff" stroke="#7c56c9" stroke-width="2.3"/>
+      <rect x="668.3" y="1464.3" width="6" height="90" rx="3" fill="#7c56c9"/>
+      <text x="683.3" y="1484.3" class="mono" font-size="12.5" font-weight="750" fill="#6b45b8">P10</text>
+      
+      <rect x="869.3" y="1471.3" width="59" height="24" rx="5" fill="#7c56c9" opacity="0.14"/>
+      <text x="898.8" y="1488.3" text-anchor="middle" font-size="12" font-weight="800" fill="#3d2470">규 §12</text>
+      <text x="683.3" y="1521.3" font-size="15.5" font-weight="800" fill="#3d2470"><tspan x="683.3" dy="0">영향평가서 작성</tspan></text>
+      <text x="683.3" y="1546.3" font-size="11" font-weight="650" fill="#6b45b8">지정 평가기관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P11" data-basis="개인정보보호법:제33조 개인정보보호법시행령:제38조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="1695" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="1695" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="1715" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P11</text>
+      
+      <rect x="468.8" y="1702" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="506.8" y="1719" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §33 +1</text>
+      <text x="299.8" y="1752" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">평가 결과 제출</tspan></text>
+      <text x="299.8" y="1777" font-size="11" font-weight="650" fill="#3b4a43">기한 · 개인정보파일 운용·변경 전(영 제38조…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P12" data-basis="개인정보보호법:제33조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1695" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1695" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1715" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P12</text>
+      
+      <rect x="1252.8" y="1702" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1719" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §33</text>
+      <text x="1066.8" y="1752" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">위원회 검토·의견 제시</tspan></text>
+      <text x="1066.8" y="1777" font-size="11" font-weight="650" fill="#3b4a43">개인정보보호위원회</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P13" data-basis="개인정보보호법:제33조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1925.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1925.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1945.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P13</text>
+      
+      <rect x="1252.8" y="1932.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="1949.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §33</text>
+      <text x="1066.8" y="1982.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">개선사항 시스템 반영</tspan></text>
+      <text x="1066.8" y="2007.7" font-size="11" font-weight="650" fill="#3b4a43">정보시스템 부서·구축 사업자</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P14" data-basis="개인정보영향평가에관한고시:제9조의3" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="1982.7" width="270" height="90" rx="8" fill="#f6f2ff" stroke="#7c56c9" stroke-width="2.3"/>
+      <rect x="1435.3" y="1982.7" width="6" height="90" rx="3" fill="#7c56c9"/>
+      <text x="1450.3" y="2002.7" class="mono" font-size="12.5" font-weight="750" fill="#6b45b8">P14</text>
+      
+      <rect x="1624.3" y="1989.7" width="71" height="24" rx="5" fill="#7c56c9" opacity="0.14"/>
+      <text x="1659.8" y="2006.7" text-anchor="middle" font-size="12" font-weight="800" fill="#3d2470">규 §9의3</text>
+      <text x="1450.3" y="2039.7" font-size="15.5" font-weight="800" fill="#3d2470"><tspan x="1450.3" dy="0">이행점검·반영확인</tspan></text>
+      <text x="1450.3" y="2064.7" font-size="11" font-weight="650" fill="#6b45b8">CPO·대상 공공기관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P15" data-basis="개인정보보호법:제33조 개인정보보호법:제61조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="2039.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="2039.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="2059.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P15</text>
+      
+      <rect x="1252.8" y="2046.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1282.3" y="2063.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §33</text>
+      <text x="1066.8" y="2096.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">미이행 관리·개선권고</tspan></text>
+      <text x="1066.8" y="2121.7" font-size="11" font-weight="650" fill="#3b4a43">개인정보보호위원회</text>
+    </g>
+  
+
+</svg>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"law":{"lawId":"011357","mst":"283839","name":"개인정보 보호법","kind":"법률","tier":"statute","effectiveOn":"2026-09-11","officialUrl":"https://www.law.go.kr/법령/개인정보보호법"},"flows":[{"slug":"privacy-impact-assessment","name":"개인정보 영향평가","oneLiner":"공공기관이 대규모 개인정보 파일을 새로 구축·변경할 때, 개인정보 침해 위험을 사전에 분석하고 개선하도록 의무화한 사전 예방 제도","citingSteps":8,"totalSteps":15,"articles":{"제33조":8,"제61조":1}},{"slug":"admin-info-sharing","name":"행정정보공동이용","oneLiner":"행정기관이 보유한 정보를 기관끼리 온라인으로 확인하게 해, 국민이 민원마다 주민등록등본·소득증명 같은 구비서류를 떼어 내지 않아도 되게 하는 서류 감축 제도","citingSteps":2,"totalSteps":18,"articles":{"제17조":1,"제28조":1}}],"current":"$0:rsc:props:children:0:props:flows:0","asOfDate":"2026-07-10","reviewNote":"주요 절차를 요약한 참고 모델입니다. 모든 예외·위임규정의 현행성까지 전수 검증한 자료는 아닙니다. 법령 체계의 보관 자료와 현행 원문은 다를 수 있습니다.","svg":"$3","nodes":[{"id":"P01","name":"영향평가 대상 여부 판단","lane":"대상기관(공공기관)","stage":"G0 대상판단","type":"gateway","status":"done","progress":100,"actor":"대상 공공기관의 장·CPO","action":"대상 여부 판정","condition":"민감·고유식별정보 5만명 이상 / 연계 50만명 이상 / 100만명 이상 파일 여부(시행령 제35조)","output_documents":["대상 판단 결과","개인정보파일 현황"],"confidence":0.85,"legal_basis":[{"law":"개인정보 보호법","article":"제33조","text":"공공기관은 대통령령으로 정하는 개인정보파일 구축 전 영향평가를 하여야 한다."},{"law":"개인정보 보호법 시행령","article":"제35조","text":"영향평가 대상 개인정보파일의 규모 요건을 정한다."}]},{"id":"P02","name":"예산 확보·평가 계획 수립","lane":"대상기관(공공기관)","stage":"G0 대상판단","type":"task","status":"done","progress":100,"actor":"대상 공공기관","action":"예산 확보·과업 계획","output_documents":["영향평가 계획서","과업내용서"],"confidence":0.82,"legal_basis":[{"law":"개인정보 보호법 시행령","article":"제35조, 제38조","text":"대상기관은 영향평가를 위한 계획을 수립하고 예산을 확보한다."}]},{"id":"P03","name":"평가기관 선정·계약","lane":"대상기관(공공기관)","stage":"G1 평가기관선정","type":"task","status":"done","progress":100,"actor":"대상 공공기관","receiver":"지정 평가기관","action":"지정 평가기관 선정·계약","output_documents":["용역 계약서","착수계"],"confidence":0.82,"legal_basis":[{"law":"개인정보 보호법","article":"제33조제2항","text":"공공기관의 장은 영향평가를 보호위원회가 지정한 평가기관에 의뢰하여야 한다."},{"law":"개인정보 보호법 시행령","article":"제36조","text":"보호위원회는 전문인력 10명 이상·매출 2억원 이상 등 요건을 갖춘 법인을 평가기관으로 지정한다."}]},{"id":"P04","name":"착수·과업 협의","lane":"지정 평가기관","stage":"G1 평가기관선정","type":"task","status":"done","progress":100,"actor":"지정 평가기관","action":"착수·범위 협의","output_documents":["수행 계획서","평가 범위 협의결과"],"confidence":0.8,"legal_basis":[{"law":"개인정보 영향평가에 관한 고시","article":"제9조의2(영향평가 수행)","text":"공공기관의 장은 별표 5의 필요한 사항이 반영될 수 있도록 설계완료 전에 영향평가를 수행하여야 하며, 평가기관은 대상 시스템과 평가 범위를 협의하여 수행계획을 수립한다."}]},{"id":"P05","name":"개인정보 흐름 분석","lane":"지정 평가기관","stage":"G2 평가수행","type":"task","status":"current","progress":45,"actor":"지정 평가기관","action":"개인정보 흐름 분석","output_documents":["개인정보 흐름표","흐름도"],"blocker":"대상 시스템 개인정보 흐름 분석 진행 중","confidence":0.8,"legal_basis":[{"law":"개인정보 보호법","article":"제33조제3항","text":"영향평가 시 처리하는 개인정보의 수·제3자 제공 여부·권리 침해 가능성 등을 고려한다."},{"law":"개인정보 보호법 시행령","article":"제37조","text":"법 제33조제3항제4호 위임에 따라 민감·고유식별정보 처리 여부와 개인정보 보유기간을 고려사항으로 정한다."}]},{"id":"P06","name":"침해요인·위험 분석","lane":"지정 평가기관","stage":"G2 평가수행","type":"task","status":"waiting","progress":0,"actor":"지정 평가기관","action":"침해요인 분석","input_documents":["개인정보 흐름표"],"output_documents":["침해요인 분석서"],"confidence":0.79,"legal_basis":[{"law":"개인정보 보호법 시행령","article":"제38조제1항","text":"평가기준(개인정보 종류·정보주체 수에 따른 침해 가능성, 안전성 확보조치 수준, 위험요인별 조치 여부)에 따라 침해 위험요인을 분석한다."}]},{"id":"P07","name":"위험도 산정","lane":"지정 평가기관","stage":"G2 평가수행","type":"task","status":"waiting","progress":0,"actor":"지정 평가기관","action":"위험도 산정","output_documents":["위험도 산정표"],"confidence":0.78,"legal_basis":[{"law":"개인정보 영향평가에 관한 고시","article":"제10조(평가영역 및 평가분야)·제11조(평가항목)","text":"영 제38조제1항의 영향평가기준에 따른 평가영역은 별표 5와 같으며, 평가기관은 별표 5에 따라 적합한 평가항목을 선정하여 침해요인별 위험도를 산정한다."}]},{"id":"P08","name":"개선방안 도출·개선계획 수립","lane":"개인정보 보호책임자(CPO)","stage":"G3 개선계획","type":"task","status":"waiting","progress":0,"actor":"지정 평가기관·CPO","action":"개선방안 도출","input_documents":["위험도 산정표"],"output_documents":["개선계획"],"confidence":0.8,"legal_basis":[{"law":"개인정보 보호법","article":"제33조","text":"위험 요인에 대한 개선방안을 마련한다."}]},{"id":"P09","name":"개선사항 보완·재검토","lane":"대상기관(공공기관)","stage":"G3 개선계획","type":"task","status":"loop","progress":0,"actor":"대상 공공기관·평가기관","action":"보완·재검토","input_documents":["보완 요구 사항"],"output_documents":["보완 개선계획"],"blocker":"위원회 보완 요구 시 회귀 단계","confidence":0.76,"legal_basis":[{"law":"개인정보 영향평가에 관한 고시","article":"제12조(영향평가서의 제출 및 영향평가 개선사항 이행)","text":"영향평가서를 제출받은 대상기관의 장은 평가결과에 대한 내부승인 절차를 거쳐 영향평가서를 보호위원회에 제출하여야 하며, 보완이 필요한 경우 재작성한다."}]},{"id":"P10","name":"영향평가서 작성","lane":"지정 평가기관","stage":"G3 개선계획","type":"task","status":"waiting","progress":0,"actor":"지정 평가기관","action":"평가서 작성","output_documents":["개인정보 영향평가서"],"confidence":0.8,"legal_basis":[{"law":"개인정보 영향평가에 관한 고시","article":"제12조(영향평가서의 제출 및 영향평가 개선사항 이행)","text":"평가기관은 침해요인 분석 결과와 개선계획을 담아 영향평가서를 작성하고, 대상기관의 장은 영향평가서를 보호위원회에 제출한다."}]},{"id":"P11","name":"평가 결과 제출","lane":"대상기관(공공기관)","stage":"G4 결과제출","type":"task","status":"waiting","progress":0,"actor":"대상 공공기관의 장","receiver":"개인정보보호위원회","action":"평가 결과 제출","input_documents":["개인정보 영향평가서"],"output_documents":["결과 제출 공문"],"deadline":"개인정보파일 운용·변경 전(영 제38조제2항)","confidence":0.82,"legal_basis":[{"law":"개인정보 보호법","article":"제33조제1항","text":"공공기관의 장은 영향평가를 하고 그 결과를 보호위원회에 제출하여야 한다."},{"law":"개인정보 보호법 시행령","article":"제38조제2항","text":"공공기관의 장은 대상 개인정보파일을 운용 또는 변경하기 전에 영향평가서를 보호위원회에 제출해야 한다."}]},{"id":"P12","name":"위원회 검토·의견 제시","lane":"개인정보보호위원회","stage":"G4 결과제출","type":"gateway","status":"waiting","progress":0,"actor":"개인정보보호위원회","action":"검토·의견 판단","condition":"개선사항 반영 충분 여부(보완 필요 시 회귀)","output_documents":["검토 의견서"],"confidence":0.8,"legal_basis":[{"law":"개인정보 보호법","article":"제33조제4항","text":"보호위원회는 제출받은 영향평가 결과에 대하여 의견을 제시할 수 있다."}]},{"id":"P13","name":"개선사항 시스템 반영","lane":"정보시스템 부서","stage":"G5 이행점검","type":"task","status":"risk","progress":0,"actor":"정보시스템 부서·구축 사업자","action":"개선사항 시스템 반영","input_documents":["검토 의견서","개선계획"],"output_documents":["개선 반영 결과"],"blocker":"시스템 오픈 일정에 쫓겨 사전평가가 사후 절차로 밀리는 관행(운영 추정)","confidence":0.74,"legal_basis":[{"law":"개인정보 보호법","article":"제33조","text":"영향평가 결과의 개선사항을 정보시스템에 반영한다."}]},{"id":"P14","name":"이행점검·반영확인","lane":"개인정보 보호책임자(CPO)","stage":"G5 이행점검","type":"task","status":"waiting","progress":0,"actor":"CPO·대상 공공기관","action":"이행점검·반영 확인","output_documents":["이행점검 확인서"],"confidence":0.78,"legal_basis":[{"law":"개인정보 영향평가에 관한 고시","article":"제9조의3(영향평가 개선계획 반영여부의 확인)","text":"공공기관의 장은 영향평가 수행 후, 영향평가 개선계획의 반영여부를 정보시스템 감리 시 또는 테스트 단계에서 확인하여야 한다."}]},{"id":"P15","name":"미이행 관리·개선권고","lane":"개인정보보호위원회","stage":"G5 이행점검","type":"task","status":"risk","progress":0,"actor":"개인정보보호위원회","receiver":"대상 공공기관","action":"미이행 관리·개선권고","output_documents":["개선 권고"],"blocker":"개선사항 미이행 방치 위험(운영 추정)","confidence":0.75,"legal_basis":[{"law":"개인정보 보호법","article":"제33조, 제61조","text":"보호위원회는 개선이 필요한 사항에 대해 개선을 권고할 수 있다."}]}],"edges":[{"id":"E01","source":"P01","target":"P02","type":"sequence","label":"대상 해당"},{"id":"E02","source":"P02","target":"P03","type":"sequence","label":null},{"id":"E03","source":"P03","target":"P04","type":"sequence","label":null},{"id":"E04","source":"P04","target":"P05","type":"sequence","label":null},{"id":"E05","source":"P05","target":"P06","type":"sequence","label":null},{"id":"E06","source":"P06","target":"P07","type":"sequence","label":null},{"id":"E07","source":"P07","target":"P08","type":"sequence","label":null},{"id":"E08","source":"P08","target":"P10","type":"sequence","label":null},{"id":"E09","source":"P12","target":"P13","type":"sequence","label":"검토의견 반영"},{"id":"E10","source":"P13","target":"P14","type":"sequence","label":null},{"id":"M01","source":"P10","target":"P11","type":"message","label":"평가서 인계"},{"id":"M02","source":"P11","target":"P12","type":"message","label":"영향평가서 제출(시스템 오픈 전)"},{"id":"M03","source":"P12","target":"P14","type":"message","label":"검토의견 통보"},{"id":"M04","source":"P14","target":"P15","type":"message","label":"미이행 사항 통보"},{"id":"L01","source":"P12","target":"P09","type":"loop","label":"개선 보완 요구"},{"id":"L02","source":"P09","target":"P10","type":"loop","label":"보완 반영·재작성"}],"lawContext":{"byNode":{"P01":[{"law":"개인정보 보호법","article":"제33조","text":"공공기관은 대통령령으로 정하는 개인정보파일 구축 전 영향평가를 하여야 한다.","found":true,"lawId":"011357","tier":"statute","articles":[{"label":"제33조","title":"개인정보 영향평가","officialUrl":"https://www.law.go.kr/법령/개인정보보호법/제33조","up":[],"down":[{"kind":"decree","phrase":"중앙선거관리위원회규칙으로 정하는","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제8조","title":"개인정보 영향평가의 대상","tier":"decree"},{"kind":"decree","phrase":"중앙선거관리위원회규칙으로 정하는","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제9조","title":"영향평가의 평가기준 등","tier":"decree"},{"kind":"rule","phrase":"헌법재판소규칙 및","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제11조","title":"개인정보 영향평가의 대상","tier":null},{"kind":"rule","phrase":"헌법재판소규칙 및","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제12조","title":"영향평가의 평가기준 등","tier":null},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"개인정보 보호법 시행령","label":"제35조","title":"개인정보 영향평가의 대상","tier":"decree"},{"kind":"decree","phrase":"보호위원회는 대통령령으로 정하는 인력·설비 및","lawName":"개인정보 보호법 시행령","label":"제36조","title":"평가기관의 지정 및 지정취소","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한","lawName":"개인정보 보호법 시행령","label":"제37조","title":"영향평가 시 고려사항","tier":"decree"},{"kind":"decree","phrase":"그 밖에 대통령령으로 정하는 사유에 해당하는 경우","lawName":"개인정보 보호법 시행령","label":"제36조","title":"평가기관의 지정 및 지정취소","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"개인정보 보호법 시행령","label":"제38조","title":"영향평가의 평가기준 등","tier":"decree"}]}]},{"law":"개인정보 보호법 시행령","article":"제35조","text":"영향평가 대상 개인정보파일의 규모 요건을 정한다.","found":true,"lawId":"011357","tier":"decree","articles":[{"label":"제35조","title":"개인정보 영향평가의 대상","officialUrl":"https://www.law.go.kr/법령/개인정보보호법시행령/제35조","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"개인정보 보호법","label":"제33조제1항","title":"개인정보 영향평가","tier":"statute"}],"down":[]}]}],"P02":[{"law":"개인정보 보호법 시행령","article":"제35조, 제38조","text":"대상기관은 영향평가를 위한 계획을 수립하고 예산을 확보한다.","found":true,"lawId":"011357","tier":"decree","articles":[{"label":"제35조","title":"개인정보 영향평가의 대상","officialUrl":"https://www.law.go.kr/법령/개인정보보호법시행령/제35조","up":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"개인정보 보호법","label":"제33조제1항","title":"개인정보 영향평가","tier":"statute"}],"down":[]},{"label":"제38조","title":"영향평가의 평가기준 등","officialUrl":"https://www.law.go.kr/법령/개인정보보호법시행령/제38조","up":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"개인정보 보호법","label":"제33조제9항","title":"개인정보 영향평가","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"평가기관의 지정 및 영향평가의 절차 등에 관한 세부 기준을 정하여 고시할 수 있다.","lawName":"개인정보 영향평가에 관한 고시","label":null,"title":null,"tier":"adminRule"}]}]}],"P03":[{"law":"개인정보 보호법","article":"제33조제2항","text":"공공기관의 장은 영향평가를 보호위원회가 지정한 평가기관에 의뢰하여야 한다.","found":true,"lawId":"011357","tier":"statute","articles":[{"label":"제33조","title":"개인정보 영향평가","officialUrl":"https://www.law.go.kr/법령/개인정보보호법/제33조","up":[],"down":[{"kind":"decree","phrase":"중앙선거관리위원회규칙으로 정하는","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제8조","title":"개인정보 영향평가의 대상","tier":"decree"},{"kind":"decree","phrase":"중앙선거관리위원회규칙으로 정하는","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제9조","title":"영향평가의 평가기준 등","tier":"decree"},{"kind":"rule","phrase":"헌법재판소규칙 및","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제11조","title":"개인정보 영향평가의 대상","tier":null},{"kind":"rule","phrase":"헌법재판소규칙 및","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제12조","title":"영향평가의 평가기준 등","tier":null},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"개인정보 보호법 시행령","label":"제35조","title":"개인정보 영향평가의 대상","tier":"decree"},{"kind":"decree","phrase":"보호위원회는 대통령령으로 정하는 인력·설비 및","lawName":"개인정보 보호법 시행령","label":"제36조","title":"평가기관의 지정 및 지정취소","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한","lawName":"개인정보 보호법 시행령","label":"제37조","title":"영향평가 시 고려사항","tier":"decree"},{"kind":"decree","phrase":"그 밖에 대통령령으로 정하는 사유에 해당하는 경우","lawName":"개인정보 보호법 시행령","label":"제36조","title":"평가기관의 지정 및 지정취소","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"개인정보 보호법 시행령","label":"제38조","title":"영향평가의 평가기준 등","tier":"decree"}]}]},{"law":"개인정보 보호법 시행령","article":"제36조","text":"보호위원회는 전문인력 10명 이상·매출 2억원 이상 등 요건을 갖춘 법인을 평가기관으로 지정한다.","found":true,"lawId":"011357","tier":"decree","articles":[{"label":"제36조","title":"평가기관의 지정 및 지정취소","officialUrl":"https://www.law.go.kr/법령/개인정보보호법시행령/제36조","up":[{"kind":"decree","phrase":"보호위원회는 대통령령으로 정하는 인력·설비 및","lawName":"개인정보 보호법","label":"제33조제2항","title":"개인정보 영향평가","tier":"statute"},{"kind":"decree","phrase":"그 밖에 대통령령으로 정하는 사유에 해당하는 경우","lawName":"개인정보 보호법","label":"제33조제7항제5호","title":"개인정보 영향평가","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"개인정보 영향평가와 관련된 분야에서의 업무 경력 등 보호위원회가 정하여 고시하는 자격을 갖춘 전문인력을 10명 이상 상시 고용하고 있는 법인","lawName":"개인정보 영향평가에 관한 고시","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"보호위원회가 정하여 고시하는 평가기관 지정신청서에 다음 각 호의 서류를 첨부하여 보호위원회에 제출해야 한다.","lawName":"개인정보 영향평가에 관한 고시","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"4. 그 밖에 보호위원회가 정하여 고시하는 서류","lawName":"개인정보 영향평가에 관한 고시","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"보호위원회가 정하여 고시하는 바에 따라 그 사유가 발생한 날부터 14일 이내에 보호위원회에 신고해야 한다.","lawName":"개인정보 영향평가에 관한 고시","label":null,"title":null,"tier":"adminRule"}]}]}],"P04":[{"law":"개인정보 영향평가에 관한 고시","article":"제9조의2(영향평가 수행)","text":"공공기관의 장은 별표 5의 필요한 사항이 반영될 수 있도록 설계완료 전에 영향평가를 수행하여야 하며, 평가기관은 대상 시스템과 평가 범위를 협의하여 수행계획을 수립한다.","found":false,"lawId":null,"tier":null,"articles":[{"label":"제9조의2","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P05":[{"law":"개인정보 보호법","article":"제33조제3항","text":"영향평가 시 처리하는 개인정보의 수·제3자 제공 여부·권리 침해 가능성 등을 고려한다.","found":true,"lawId":"011357","tier":"statute","articles":[{"label":"제33조","title":"개인정보 영향평가","officialUrl":"https://www.law.go.kr/법령/개인정보보호법/제33조","up":[],"down":[{"kind":"decree","phrase":"중앙선거관리위원회규칙으로 정하는","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제8조","title":"개인정보 영향평가의 대상","tier":"decree"},{"kind":"decree","phrase":"중앙선거관리위원회규칙으로 정하는","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제9조","title":"영향평가의 평가기준 등","tier":"decree"},{"kind":"rule","phrase":"헌법재판소규칙 및","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제11조","title":"개인정보 영향평가의 대상","tier":null},{"kind":"rule","phrase":"헌법재판소규칙 및","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제12조","title":"영향평가의 평가기준 등","tier":null},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"개인정보 보호법 시행령","label":"제35조","title":"개인정보 영향평가의 대상","tier":"decree"},{"kind":"decree","phrase":"보호위원회는 대통령령으로 정하는 인력·설비 및","lawName":"개인정보 보호법 시행령","label":"제36조","title":"평가기관의 지정 및 지정취소","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한","lawName":"개인정보 보호법 시행령","label":"제37조","title":"영향평가 시 고려사항","tier":"decree"},{"kind":"decree","phrase":"그 밖에 대통령령으로 정하는 사유에 해당하는 경우","lawName":"개인정보 보호법 시행령","label":"제36조","title":"평가기관의 지정 및 지정취소","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"개인정보 보호법 시행령","label":"제38조","title":"영향평가의 평가기준 등","tier":"decree"}]}]},{"law":"개인정보 보호법 시행령","article":"제37조","text":"법 제33조제3항제4호 위임에 따라 민감·고유식별정보 처리 여부와 개인정보 보유기간을 고려사항으로 정한다.","found":true,"lawId":"011357","tier":"decree","articles":[{"label":"제37조","title":"영향평가 시 고려사항","officialUrl":"https://www.law.go.kr/법령/개인정보보호법시행령/제37조","up":[{"kind":"decree","phrase":"대통령령으로 정한","lawName":"개인정보 보호법","label":"제33조제3항제4호","title":"개인정보 영향평가","tier":"statute"}],"down":[]}]}],"P06":[{"law":"개인정보 보호법 시행령","article":"제38조제1항","text":"평가기준(개인정보 종류·정보주체 수에 따른 침해 가능성, 안전성 확보조치 수준, 위험요인별 조치 여부)에 따라 침해 위험요인을 분석한다.","found":true,"lawId":"011357","tier":"decree","articles":[{"label":"제38조","title":"영향평가의 평가기준 등","officialUrl":"https://www.law.go.kr/법령/개인정보보호법시행령/제38조","up":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"개인정보 보호법","label":"제33조제9항","title":"개인정보 영향평가","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"평가기관의 지정 및 영향평가의 절차 등에 관한 세부 기준을 정하여 고시할 수 있다.","lawName":"개인정보 영향평가에 관한 고시","label":null,"title":null,"tier":"adminRule"}]}]}],"P07":[{"law":"개인정보 영향평가에 관한 고시","article":"제10조(평가영역 및 평가분야)·제11조(평가항목)","text":"영 제38조제1항의 영향평가기준에 따른 평가영역은 별표 5와 같으며, 평가기관은 별표 5에 따라 적합한 평가항목을 선정하여 침해요인별 위험도를 산정한다.","found":false,"lawId":null,"tier":null,"articles":[{"label":"제10조","title":null,"officialUrl":null,"up":[],"down":[]},{"label":"제11조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P08":[{"law":"개인정보 보호법","article":"제33조","text":"위험 요인에 대한 개선방안을 마련한다.","found":true,"lawId":"011357","tier":"statute","articles":[{"label":"제33조","title":"개인정보 영향평가","officialUrl":"https://www.law.go.kr/법령/개인정보보호법/제33조","up":[],"down":[{"kind":"decree","phrase":"중앙선거관리위원회규칙으로 정하는","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제8조","title":"개인정보 영향평가의 대상","tier":"decree"},{"kind":"decree","phrase":"중앙선거관리위원회규칙으로 정하는","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제9조","title":"영향평가의 평가기준 등","tier":"decree"},{"kind":"rule","phrase":"헌법재판소규칙 및","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제11조","title":"개인정보 영향평가의 대상","tier":null},{"kind":"rule","phrase":"헌법재판소규칙 및","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제12조","title":"영향평가의 평가기준 등","tier":null},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"개인정보 보호법 시행령","label":"제35조","title":"개인정보 영향평가의 대상","tier":"decree"},{"kind":"decree","phrase":"보호위원회는 대통령령으로 정하는 인력·설비 및","lawName":"개인정보 보호법 시행령","label":"제36조","title":"평가기관의 지정 및 지정취소","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한","lawName":"개인정보 보호법 시행령","label":"제37조","title":"영향평가 시 고려사항","tier":"decree"},{"kind":"decree","phrase":"그 밖에 대통령령으로 정하는 사유에 해당하는 경우","lawName":"개인정보 보호법 시행령","label":"제36조","title":"평가기관의 지정 및 지정취소","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"개인정보 보호법 시행령","label":"제38조","title":"영향평가의 평가기준 등","tier":"decree"}]}]}],"P09":[{"law":"개인정보 영향평가에 관한 고시","article":"제12조(영향평가서의 제출 및 영향평가 개선사항 이행)","text":"영향평가서를 제출받은 대상기관의 장은 평가결과에 대한 내부승인 절차를 거쳐 영향평가서를 보호위원회에 제출하여야 하며, 보완이 필요한 경우 재작성한다.","found":false,"lawId":null,"tier":null,"articles":[{"label":"제12조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P10":[{"law":"개인정보 영향평가에 관한 고시","article":"제12조(영향평가서의 제출 및 영향평가 개선사항 이행)","text":"평가기관은 침해요인 분석 결과와 개선계획을 담아 영향평가서를 작성하고, 대상기관의 장은 영향평가서를 보호위원회에 제출한다.","found":false,"lawId":null,"tier":null,"articles":[{"label":"제12조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P11":[{"law":"개인정보 보호법","article":"제33조제1항","text":"공공기관의 장은 영향평가를 하고 그 결과를 보호위원회에 제출하여야 한다.","found":true,"lawId":"011357","tier":"statute","articles":[{"label":"제33조","title":"개인정보 영향평가","officialUrl":"https://www.law.go.kr/법령/개인정보보호법/제33조","up":[],"down":[{"kind":"decree","phrase":"중앙선거관리위원회규칙으로 정하는","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제8조","title":"개인정보 영향평가의 대상","tier":"decree"},{"kind":"decree","phrase":"중앙선거관리위원회규칙으로 정하는","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제9조","title":"영향평가의 평가기준 등","tier":"decree"},{"kind":"rule","phrase":"헌법재판소규칙 및","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제11조","title":"개인정보 영향평가의 대상","tier":null},{"kind":"rule","phrase":"헌법재판소규칙 및","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제12조","title":"영향평가의 평가기준 등","tier":null},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"개인정보 보호법 시행령","label":"제35조","title":"개인정보 영향평가의 대상","tier":"decree"},{"kind":"decree","phrase":"보호위원회는 대통령령으로 정하는 인력·설비 및","lawName":"개인정보 보호법 시행령","label":"제36조","title":"평가기관의 지정 및 지정취소","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한","lawName":"개인정보 보호법 시행령","label":"제37조","title":"영향평가 시 고려사항","tier":"decree"},{"kind":"decree","phrase":"그 밖에 대통령령으로 정하는 사유에 해당하는 경우","lawName":"개인정보 보호법 시행령","label":"제36조","title":"평가기관의 지정 및 지정취소","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"개인정보 보호법 시행령","label":"제38조","title":"영향평가의 평가기준 등","tier":"decree"}]}]},{"law":"개인정보 보호법 시행령","article":"제38조제2항","text":"공공기관의 장은 대상 개인정보파일을 운용 또는 변경하기 전에 영향평가서를 보호위원회에 제출해야 한다.","found":true,"lawId":"011357","tier":"decree","articles":[{"label":"제38조","title":"영향평가의 평가기준 등","officialUrl":"https://www.law.go.kr/법령/개인정보보호법시행령/제38조","up":[{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"개인정보 보호법","label":"제33조제9항","title":"개인정보 영향평가","tier":"statute"}],"down":[{"kind":"adminRule","phrase":"평가기관의 지정 및 영향평가의 절차 등에 관한 세부 기준을 정하여 고시할 수 있다.","lawName":"개인정보 영향평가에 관한 고시","label":null,"title":null,"tier":"adminRule"}]}]}],"P12":[{"law":"개인정보 보호법","article":"제33조제4항","text":"보호위원회는 제출받은 영향평가 결과에 대하여 의견을 제시할 수 있다.","found":true,"lawId":"011357","tier":"statute","articles":[{"label":"제33조","title":"개인정보 영향평가","officialUrl":"https://www.law.go.kr/법령/개인정보보호법/제33조","up":[],"down":[{"kind":"decree","phrase":"중앙선거관리위원회규칙으로 정하는","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제8조","title":"개인정보 영향평가의 대상","tier":"decree"},{"kind":"decree","phrase":"중앙선거관리위원회규칙으로 정하는","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제9조","title":"영향평가의 평가기준 등","tier":"decree"},{"kind":"rule","phrase":"헌법재판소규칙 및","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제11조","title":"개인정보 영향평가의 대상","tier":null},{"kind":"rule","phrase":"헌법재판소규칙 및","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제12조","title":"영향평가의 평가기준 등","tier":null},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"개인정보 보호법 시행령","label":"제35조","title":"개인정보 영향평가의 대상","tier":"decree"},{"kind":"decree","phrase":"보호위원회는 대통령령으로 정하는 인력·설비 및","lawName":"개인정보 보호법 시행령","label":"제36조","title":"평가기관의 지정 및 지정취소","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한","lawName":"개인정보 보호법 시행령","label":"제37조","title":"영향평가 시 고려사항","tier":"decree"},{"kind":"decree","phrase":"그 밖에 대통령령으로 정하는 사유에 해당하는 경우","lawName":"개인정보 보호법 시행령","label":"제36조","title":"평가기관의 지정 및 지정취소","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"개인정보 보호법 시행령","label":"제38조","title":"영향평가의 평가기준 등","tier":"decree"}]}]}],"P13":[{"law":"개인정보 보호법","article":"제33조","text":"영향평가 결과의 개선사항을 정보시스템에 반영한다.","found":true,"lawId":"011357","tier":"statute","articles":[{"label":"제33조","title":"개인정보 영향평가","officialUrl":"https://www.law.go.kr/법령/개인정보보호법/제33조","up":[],"down":[{"kind":"decree","phrase":"중앙선거관리위원회규칙으로 정하는","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제8조","title":"개인정보 영향평가의 대상","tier":"decree"},{"kind":"decree","phrase":"중앙선거관리위원회규칙으로 정하는","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제9조","title":"영향평가의 평가기준 등","tier":"decree"},{"kind":"rule","phrase":"헌법재판소규칙 및","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제11조","title":"개인정보 영향평가의 대상","tier":null},{"kind":"rule","phrase":"헌법재판소규칙 및","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제12조","title":"영향평가의 평가기준 등","tier":null},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"개인정보 보호법 시행령","label":"제35조","title":"개인정보 영향평가의 대상","tier":"decree"},{"kind":"decree","phrase":"보호위원회는 대통령령으로 정하는 인력·설비 및","lawName":"개인정보 보호법 시행령","label":"제36조","title":"평가기관의 지정 및 지정취소","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한","lawName":"개인정보 보호법 시행령","label":"제37조","title":"영향평가 시 고려사항","tier":"decree"},{"kind":"decree","phrase":"그 밖에 대통령령으로 정하는 사유에 해당하는 경우","lawName":"개인정보 보호법 시행령","label":"제36조","title":"평가기관의 지정 및 지정취소","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"개인정보 보호법 시행령","label":"제38조","title":"영향평가의 평가기준 등","tier":"decree"}]}]}],"P14":[{"law":"개인정보 영향평가에 관한 고시","article":"제9조의3(영향평가 개선계획 반영여부의 확인)","text":"공공기관의 장은 영향평가 수행 후, 영향평가 개선계획의 반영여부를 정보시스템 감리 시 또는 테스트 단계에서 확인하여야 한다.","found":false,"lawId":null,"tier":null,"articles":[{"label":"제9조의3","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P15":[{"law":"개인정보 보호법","article":"제33조, 제61조","text":"보호위원회는 개선이 필요한 사항에 대해 개선을 권고할 수 있다.","found":true,"lawId":"011357","tier":"statute","articles":[{"label":"제33조","title":"개인정보 영향평가","officialUrl":"https://www.law.go.kr/법령/개인정보보호법/제33조","up":[],"down":[{"kind":"decree","phrase":"중앙선거관리위원회규칙으로 정하는","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제8조","title":"개인정보 영향평가의 대상","tier":"decree"},{"kind":"decree","phrase":"중앙선거관리위원회규칙으로 정하는","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제9조","title":"영향평가의 평가기준 등","tier":"decree"},{"kind":"rule","phrase":"헌법재판소규칙 및","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제11조","title":"개인정보 영향평가의 대상","tier":null},{"kind":"rule","phrase":"헌법재판소규칙 및","lawName":"선거관리위원회 개인정보 보호에 관한 규칙","label":"제12조","title":"영향평가의 평가기준 등","tier":null},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"개인정보 보호법 시행령","label":"제35조","title":"개인정보 영향평가의 대상","tier":"decree"},{"kind":"decree","phrase":"보호위원회는 대통령령으로 정하는 인력·설비 및","lawName":"개인정보 보호법 시행령","label":"제36조","title":"평가기관의 지정 및 지정취소","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한","lawName":"개인정보 보호법 시행령","label":"제37조","title":"영향평가 시 고려사항","tier":"decree"},{"kind":"decree","phrase":"그 밖에 대통령령으로 정하는 사유에 해당하는 경우","lawName":"개인정보 보호법 시행령","label":"제36조","title":"평가기관의 지정 및 지정취소","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"개인정보 보호법 시행령","label":"제38조","title":"영향평가의 평가기준 등","tier":"decree"}]},{"label":"제61조","title":"의견제시 및 개선권고","officialUrl":"https://www.law.go.kr/법령/개인정보보호법/제61조","up":[],"down":[]}]}]},"systems":{"011357":{"lawId":"011357","name":"개인정보 보호법","href":"/law/011357/","ministry":"개인정보보호위원회","effectiveOn":"2026-09-11","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"개인정보 보호법","kind":"법률","articleCount":127,"officialUrl":"https://www.law.go.kr/법령/개인정보보호법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":127},{"tier":"decree","label":"시행령","laws":[{"name":"개인정보 보호법 시행령","kind":"대통령령","articleCount":142,"officialUrl":"https://www.law.go.kr/법령/개인정보보호법시행령"},{"name":"개인정보 보호위원회 직제","kind":"대통령령","articleCount":14,"officialUrl":"https://www.law.go.kr/법령/개인정보보호위원회직제"},{"name":"개인정보 단체소송규칙","kind":"대법원규칙","articleCount":14,"officialUrl":"https://www.law.go.kr/법령/개인정보단체소송규칙"},{"name":"법원 개인정보 보호에 관한 규칙","kind":"대법원규칙","articleCount":10,"officialUrl":"https://www.law.go.kr/법령/법원개인정보보호에관한규칙"},{"name":"헌법재판소 개인정보 보호 규칙","kind":"헌법재판소규칙","articleCount":13,"officialUrl":"https://www.law.go.kr/법령/헌법재판소개인정보보호규칙"},{"name":"선거관리위원회 개인정보 보호에 관한 규칙","kind":"선거관리위원회규칙","articleCount":10,"officialUrl":"https://www.law.go.kr/법령/선거관리위원회개인정보보호에관한규칙"}],"kinds":[{"kind":"대통령령","count":2},{"kind":"대법원규칙","count":2},{"kind":"헌법재판소규칙","count":1},{"kind":"선거관리위원회규칙","count":1}],"articleCount":203},{"tier":"rule","label":"시행규칙","laws":[{"name":"개인정보 보호위원회 직제 시행규칙","kind":"총리령","articleCount":12,"officialUrl":"https://www.law.go.kr/법령/개인정보보호위원회직제시행규칙"}],"kinds":[{"kind":"총리령","count":1}],"articleCount":12},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"(개인정보보호위원회) 개인정보 보호 자율규제단체 지정 및 운영 등에 관한 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/(개인정보보호위원회)개인정보보호자율규제단체지정및운영등에관한규정"},{"name":"가명정보의 결합 및 반출 등에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/가명정보의결합및반출등에관한고시"},{"name":"가스 분야 개인정보 전송에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/가스분야개인정보전송에관한고시"},{"name":"개인정보 국외 이전 운영 등에 관한 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보국외이전운영등에관한규정"},{"name":"개인정보 보호 법규 위반에 대한 징계권고 기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보보호법규위반에대한징계권고기준"},{"name":"개인정보 보호법 위반에 대한 과징금 부과기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보보호법위반에대한과징금부과기준"},{"name":"개인정보 보호법 위반에 대한 과태료 부과기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보보호법위반에대한과태료부과기준"},{"name":"개인정보 보호수준 평가에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보보호수준평가에관한고시"},{"name":"개인정보 보호책임자 지정 및 경력 인정에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보보호책임자지정및경력인정에관한고시"},{"name":"개인정보 영향평가에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보영향평가에관한고시"},{"name":"개인정보 전송 및 개인정보관리 전문기관 지정 등에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보전송및개인정보관리전문기관지정등에관한고시"},{"name":"개인정보 처리 방법에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보처리방법에관한고시"},{"name":"개인정보 처리방침 평가에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보처리방침평가에관한고시"},{"name":"개인정보의 안전성 확보조치 기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보의안전성확보조치기준"},{"name":"보건의료 분야 개인정보 전송에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/보건의료분야개인정보전송에관한고시"},{"name":"자동화된 결정에 대한 개인정보처리자의 조치 기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/자동화된결정에대한개인정보처리자의조치기준"},{"name":"정보보호 및 개인정보보호 관리체계 인증 등에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/정보보호및개인정보보호관리체계인증등에관한고시"},{"name":"통신 분야 개인정보 전송에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/통신분야개인정보전송에관한고시"},{"name":"표준 개인정보 보호지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/표준개인정보보호지침"},{"name":"개인정보보호위원회 개인정보보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보보호위원회개인정보보호지침"},{"name":"고용노동부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고용노동부개인정보보호지침"},{"name":"과학기술정보통신부 개인정보보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/과학기술정보통신부개인정보보호지침"},{"name":"관세청 개인정보 보호에 관한 훈령","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/관세청개인정보보호에관한훈령"},{"name":"교육부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/교육부개인정보보호지침"},{"name":"국가보훈부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국가보훈부개인정보보호지침"},{"name":"국무조정실 및 국무총리비서실 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국무조정실및국무총리비서실개인정보보호지침"},{"name":"국민권익위원회 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국민권익위원회개인정보보호지침"},{"name":"국방 개인정보보호 훈령","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국방개인정보보호훈령"},{"name":"국세청 개인정보 보호 지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국세청개인정보보호지침"},{"name":"국토교통부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국토교통부개인정보보호지침"},{"name":"기후에너지환경부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/기후에너지환경부개인정보보호지침"},{"name":"농림축산식품부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/농림축산식품부개인정보보호지침"},{"name":"문화체육관광부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/문화체육관광부개인정보보호지침"},{"name":"법무부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/법무부개인정보보호지침"},{"name":"병무청 개인정보보호 관리 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/병무청개인정보보호관리규정"},{"name":"보건복지부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/보건복지부개인정보보호지침"},{"name":"산림청 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/산림청개인정보보호지침"},{"name":"산업통상자원부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/산업통상자원부개인정보보호지침"},{"name":"새만금개발청 개인정보보호 세부지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/새만금개발청개인정보보호세부지침"},{"name":"외교부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/외교부개인정보보호지침"},{"name":"우정사업본부 개인정보 보호 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/우정사업본부개인정보보호규정"},{"name":"우주항공청 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/우주항공청개인정보보호지침"},{"name":"원자력안전위원회 개인정보보호 지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/원자력안전위원회개인정보보호지침"},{"name":"재외동포청 개인정보보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/재외동포청개인정보보호지침"},{"name":"중소벤처기업부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/중소벤처기업부개인정보보호지침"},{"name":"지식재산처 개인정보보호 세부지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/지식재산처개인정보보호세부지침"},{"name":"통일부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/통일부개인정보보호지침"},{"name":"해양경찰청 개인정보 보호규칙","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/해양경찰청개인정보보호규칙"},{"name":"해양수산부 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/해양수산부개인정보보호지침"},{"name":"행정안전부 개인정보보호 지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정안전부개인정보보호지침"},{"name":"행정중심복합도시건설청 개인정보 보호지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정중심복합도시건설청개인정보보호지침"},{"name":"경찰청 개인정보 보호 규칙","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/경찰청개인정보보호규칙"},{"name":"고위공직자범죄수사처 개인정보 보호지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고위공직자범죄수사처개인정보보호지침"},{"name":"국가데이터처 개인정보 보호지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국가데이터처개인정보보호지침"},{"name":"국가인권위원회 개인정보보호 지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국가인권위원회개인정보보호지침"},{"name":"소방청 개인정보 보호규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/소방청개인정보보호규정"},{"name":"개인정보 보호 법규 위반에 대한 고발 기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보보호법규위반에대한고발기준"},{"name":"개인정보 보호위원회의 조사 및 처분에 관한 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보보호위원회의조사및처분에관한규정"},{"name":"개인정보보호위원회 사전적정성 검토제 운영규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보보호위원회사전적정성검토제운영규정"},{"name":"디지털 포렌식 지원 및 증거 보관·관리 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/디지털포렌식지원및증거보관·관리규정"},{"name":"전기 분야 개인정보 전송에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/전기분야개인정보전송에관한고시"},{"name":"개인정보 보호위원회 운영규칙","kind":"규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/개인정보보호위원회운영규칙"},{"name":"(개인정보보호위원회) 표준 개인정보 보호지침","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/(개인정보보호위원회)표준개인정보보호지침"},{"name":"우정사업본부 개인정보 보호 지침","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/우정사업본부개인정보보호지침"},{"name":"통계청 개인정보 보호지침","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/통계청개인정보보호지침"},{"name":"특허청 개인정보보호 세부지침","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/특허청개인정보보호세부지침"},{"name":"환경부 개인정보 보호지침","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/환경부개인정보보호지침"},{"name":"국토교통부 개인정보보호 세부지침","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국토교통부개인정보보호세부지침"},{"name":"(개인정보보호위원회) 개인정보의 안전성 확보조치 기준","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/(개인정보보호위원회)개인정보의안전성확보조치기준"},{"name":"(개인정보보호위원회) 정보보호 및 개인정보보호 관리체계 인증 등에 관한 고시","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/(개인정보보호위원회)정보보호및개인정보보호관리체계인증등에관한고시"}],"kinds":[{"kind":"훈령","count":32},{"kind":"고시","count":24},{"kind":"행정규칙","count":8},{"kind":"예규","count":5},{"kind":"규칙","count":1}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%20%EB%B3%B4%ED%98%B8%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":153,"rule":11,"adminRule":112,"ordinance":2,"cites":191}}}},"statusStyles":{"done":{"label":"선행","fill":"#effaf5","border":"#35a77d","ink":"#123d2e","sub":"#287a5c"},"current":{"label":"핵심","fill":"#087452","border":"#087452","ink":"#ffffff","sub":"#d8f4e8"},"waiting":{"label":"후속","fill":"#ffffff","border":"#b9c7bf","ink":"#17231d","sub":"#627169"},"risk":{"label":"병목","fill":"#fff8e8","border":"#d9901a","ink":"#7a4305","sub":"#a96008"},"loop":{"label":"회귀","fill":"#edf4ff","border":"#3478db","ink":"#173f7a","sub":"#316bbd"}},"basisLegend":[{"label":"법률","fill":"#ffffff","border":"#3b4a43"},{"label":"시행령","fill":"#f2f6ff","border":"#2456d6"},{"label":"시행규칙","fill":"#effaf6","border":"#0f9f72"},{"label":"행정규칙","fill":"#f6f2ff","border":"#7c56c9"}],"isLawIndex":true}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Eu-UvfunzEwjnKcUq5f7W"}
+4:["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","precedence":"next"}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

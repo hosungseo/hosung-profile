@@ -1,0 +1,419 @@
+1:"$Sreact.fragment"
+2:I[7742,["838","static/chunks/838-9b85aecee2a13f53.js","379","static/chunks/379-f104668f756ddde1.js","301","static/chunks/app/embed/flow/%5BlawId%5D/%5Bslug%5D/page-e3d0b6acb7d5d0b3.js"],"default"]
+6:I[977,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+:HL["/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","style"]
+3:T83de,<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 250 1744 1960" class="pp-svg">
+<defs>
+      <filter id="card-shadow" x="-20%" y="-25%" width="140%" height="160%">
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#12271e" flood-opacity="0.10"/>
+      </filter>
+      <marker id="arrow-sequence" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#53675d" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-message" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#0f8a65" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-loop" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#3478db" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <style>
+        text { font-family: "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", sans-serif; }
+        .mono { font-family: "SFMono-Regular", "Menlo", monospace; }
+      </style>
+    </defs>
+<rect width="1800" height="2400" fill="#ffffff"/>
+
+
+
+<rect x="38" y="260" width="1724" height="1940" rx="10" fill="#ffffff" stroke="#b8c7bf" stroke-width="2"/>
+<rect x="38" y="260" width="190" height="100" rx="10" fill="#eaf2ee"/>
+<text x="58" y="299" font-size="17" font-weight="800" fill="#17231d">단계 ↓</text>
+<text x="58" y="332" font-size="15" font-weight="650" fill="#68776f">행위자 묶음 →</text>
+<rect x="38" y="360" width="1724" height="382.7" fill="#fbfcfb"/>
+<rect x="38" y="360" width="190" height="382.7" fill="#eef3f0"/>
+<text x="58" y="392" class="mono" font-size="16" font-weight="800" fill="#53645b">G0</text>
+<text x="58" y="425" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">대상확인</tspan></text>
+<rect x="38" y="742.7" width="1724" height="268.7" fill="#f5f8f6"/>
+<rect x="38" y="742.7" width="190" height="268.7" fill="#eef3f0"/>
+<text x="58" y="774.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G1</text>
+<text x="58" y="807.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">신청·대상선정</tspan></text>
+<rect x="38" y="1011.3" width="1724" height="496.7" fill="#fbfcfb"/>
+<rect x="38" y="1011.3" width="190" height="496.7" fill="#eef3f0"/>
+<text x="58" y="1043.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G2</text>
+<text x="58" y="1076.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">조사착수·수행</tspan></text>
+<rect x="38" y="1508" width="1724" height="268.7" fill="#f5f8f6"/>
+<rect x="38" y="1508" width="190" height="268.7" fill="#eef3f0"/>
+<text x="58" y="1540" class="mono" font-size="16" font-weight="800" fill="#53645b">G3</text>
+<text x="58" y="1573" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">종합평가(AHP)</tspan></text>
+<rect x="38" y="1776.7" width="1724" height="154.7" fill="#fbfcfb"/>
+<rect x="38" y="1776.7" width="190" height="154.7" fill="#eef3f0"/>
+<text x="58" y="1808.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G4</text>
+<text x="58" y="1841.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">결과확정·통보</tspan></text>
+<rect x="38" y="1931.3" width="1724" height="268.7" fill="#f5f8f6"/>
+<rect x="38" y="1931.3" width="190" height="268.7" fill="#eef3f0"/>
+<text x="58" y="1963.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G5</text>
+<text x="58" y="1996.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">후속</tspan></text>
+<rect x="228" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="228" y="260" width="383.5" height="7" fill="#0f9f72"/>
+<text x="248" y="299" font-size="20" font-weight="800" fill="#17231d">지자체·사업신청자</text>
+<text x="248" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="248" dy="0">지자체·사업신청자</tspan></text>
+<rect x="611.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="611.5" y="260" width="383.5" height="7" fill="#3b82f6"/>
+<text x="631.5" y="299" font-size="20" font-weight="800" fill="#17231d">사업주관 중앙관서·기획예산처</text>
+<text x="631.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="631.5" dy="0">사업주관 중앙관서 · 기획예산처(예산실)</tspan></text>
+<rect x="995" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="995" y="260" width="383.5" height="7" fill="#c78116"/>
+<text x="1015" y="299" font-size="20" font-weight="800" fill="#17231d">조사수행기관·재정사업평가위원회</text>
+<text x="1015" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1015" dy="0">조사수행기관(KDI·KISTEP) ·</tspan><tspan x="1015" dy="19">재정사업평가위원회·분과</tspan></text>
+<rect x="1378.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="1378.5" y="260" width="383.5" height="7" fill="#0891b2"/>
+<text x="1398.5" y="299" font-size="20" font-weight="800" fill="#17231d">정보시스템</text>
+<text x="1398.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1398.5" dy="0">정보시스템</tspan></text>
+<line x1="228" y1="260" x2="228" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="611.5" y1="260" x2="611.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="995" y1="260" x2="995" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1378.5" y1="260" x2="1378.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1762" y1="260" x2="1762" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#b8c7bf" stroke-width="2"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="742.7" x2="1762" y2="742.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1011.3" x2="1762" y2="1011.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1508" x2="1762" y2="1508" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1776.7" x2="1762" y2="1776.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1931.3" x2="1762" y2="1931.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2200" x2="1762" y2="2200" stroke="#b8c7bf" stroke-width="2"/>
+<g class="pp-edge" data-edge-id="E01" data-source="P01" data-target="P02">
+<path d="M 797.3 482.3 V 498.3 H 807.3 V 498.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 797.3 482.3 V 498.3 H 807.3 V 498.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E02" data-source="P02" data-target="P03">
+<path d="M 799.3 596.3 V 612.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 799.3 596.3 V 612.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E03" data-source="P03" data-target="P04">
+<path d="M 795.3 710.3 V 714.7 H 787.3 V 767" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 795.3 710.3 V 714.7 H 787.3 V 767" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E04" data-source="P04" data-target="P05">
+<path d="M 813.3 865 V 881 H 777.3 V 881" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 813.3 865 V 881 H 777.3 V 881" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E05" data-source="P05" data-target="P06">
+<path d="M 817.3 979 V 999.3 H 1186.8 V 1035.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 817.3 979 V 999.3 H 1186.8 V 1035.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E06" data-source="P06" data-target="P07">
+<path d="M 1206.8 1133.7 V 1149.7 H 1194.8 V 1149.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1206.8 1133.7 V 1149.7 H 1194.8 V 1149.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E07" data-source="P07" data-target="P08">
+<path d="M 1180.8 1247.7 V 1263.7 H 1208.8 V 1263.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1180.8 1247.7 V 1263.7 H 1208.8 V 1263.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E08" data-source="P08" data-target="P09">
+<path d="M 1182.8 1361.7 V 1377.7 H 1158.8 V 1377.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1182.8 1361.7 V 1377.7 H 1158.8 V 1377.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E09" data-source="P09" data-target="P10">
+<path d="M 1178.8 1475.7 V 1480 H 1170.8 V 1532.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1178.8 1475.7 V 1480 H 1170.8 V 1532.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E10" data-source="P10" data-target="P11">
+<path d="M 1196.8 1630.3 V 1646.3 H 1160.8 V 1646.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1196.8 1630.3 V 1646.3 H 1160.8 V 1646.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E11" data-source="P11" data-target="P12">
+<path d="M 1200.8 1744.3 V 1764.7 H 1222.8 V 1801" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1200.8 1744.3 V 1764.7 H 1222.8 V 1801" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E12" data-source="P12" data-target="P13">
+<path d="M 1051.8 1850 H 979.3 V 1854 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1850 H 979.3 V 1854 H 946.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E13" data-source="P13" data-target="P14">
+<path d="M 783.3 1899 V 1919.3 H 803.3 V 1955.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 783.3 1899 V 1919.3 H 803.3 V 1955.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M01" data-source="P16" data-target="P01">
+<path d="M 554.8 551.3 H 640.3 V 424.3 H 660.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 551.3 H 640.3 V 424.3 H 660.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M02" data-source="P05" data-target="P06">
+<path d="M 803.3 979 V 983.3 H 1166.8 V 1035.7" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 803.3 979 V 983.3 H 1166.8 V 1035.7" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M03" data-source="P11" data-target="P12">
+<path d="M 1186.8 1744.3 V 1748.7 H 1178.8 V 1801" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1186.8 1744.3 V 1748.7 H 1178.8 V 1801" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M04" data-source="P13" data-target="S01">
+<path d="M 938.3 1874.5 H 1381.3 V 1856.5 H 1427.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 1874.5 H 1381.3 V 1856.5 H 1427.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L01" data-source="P15" data-target="P07">
+<path d="M 668.3 2122.7 H 164 V 1488 H 1160.8 V 1255.7" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 668.3 2122.7 H 164 V 1488 H 1160.8 V 1255.7" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L02" data-source="P12" data-target="P01">
+<path d="M 1051.8 1839.5 H 190 V 690.7 H 817.3 V 490.3" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1051.8 1839.5 H 190 V 690.7 H 817.3 V 490.3" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge-label" data-edge-id="E03" data-source="P03" data-target="P04">
+<rect x="740.8" y="718.7" width="100.9" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="791.3" y="738.7" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">면제 미해당</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E12" data-source="P12" data-target="P13">
+<rect x="947" y="1820" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="995" y="1840" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">통과</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M01" data-source="P16" data-target="P01">
+<rect x="481.6" y="455.8" width="119.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="541.5" y="475.8" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">지역 사업 건의</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M02" data-source="P05" data-target="P06">
+<rect x="937" y="987.3" width="96" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="985" y="1007.3" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">조사 의뢰</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M03" data-source="P11" data-target="P12">
+<rect x="1118.3" y="1752.7" width="128.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1182.8" y="1772.7" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">조사보고서 상정</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M04" data-source="P13" data-target="S01">
+<rect x="1138.8" y="1941.5" width="96" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1186.8" y="1961.5" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">결과 공개</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L01" data-source="P15" data-target="P07">
+<rect x="162.6" y="1754.3" width="142.9" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="234" y="1774.3" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">타당성재조사 회귀</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L02" data-source="P12" data-target="P01">
+<rect x="183.6" y="1257.3" width="152.7" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="260" y="1277.3" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">부결 시 사업 재설계</text>
+</g>
+
+    <g class="pp-node" data-node-id="P16" data-basis="국가재정법:제38조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="506.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="506.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="526.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P16</text>
+      
+      <rect x="485.8" y="513.3" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="515.3" y="530.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §38</text>
+      <text x="299.8" y="563.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">지자체 사업 건의·지역 유치 요구</tspan></text>
+      <text x="299.8" y="588.3" font-size="11" font-weight="650" fill="#3b4a43">지자체·사업신청자</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P01" data-basis="국가재정법:제28조 국가재정법:제38조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="392.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="392.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="412.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P01</text>
+      
+      <rect x="869.3" y="399.3" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="416.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §28</text>
+      <text x="683.3" y="449.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">대규모 신규사업 기획·투자요구</tspan></text>
+      <text x="683.3" y="474.3" font-size="11" font-weight="650" fill="#3b4a43">주무부처</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P02" data-basis="국가재정법:제38조 국가재정법시행령:제13조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="506.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="506.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="526.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P02</text>
+      
+      <rect x="852.3" y="513.3" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="530.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §38 +1</text>
+      <text x="683.3" y="563.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">예타 대상 여부 판정</tspan></text>
+      <text x="683.3" y="588.3" font-size="11" font-weight="650" fill="#3b4a43">기획예산처</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P03" data-basis="국가재정법:제38조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="620.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="620.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="640.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P03</text>
+      
+      <rect x="852.3" y="627.3" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="644.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §38 +1</text>
+      <text x="683.3" y="677.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">예타 면제 판단</tspan></text>
+      <text x="683.3" y="702.3" font-size="11" font-weight="650" fill="#3b4a43">기획예산처장관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P04" data-basis="국가재정법:제38조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="775" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="775" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="795" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P04</text>
+      
+      <rect x="869.3" y="782" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="799" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §38</text>
+      <text x="683.3" y="832" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">예타 신청·조사요구서 제출</tspan></text>
+      <text x="683.3" y="857" font-size="11" font-weight="650" fill="#3b4a43">주무부처</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P05" data-basis="국가재정법:제38조 예비타당성조사운용지침:제25조 예비타당성조사운용지침:제33조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="889" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="889" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="909" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P05</text>
+      
+      <rect x="852.3" y="896" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="913" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §38 +2</text>
+      <text x="683.3" y="946" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">예타 대상사업 선정</tspan></text>
+      <text x="683.3" y="971" font-size="11" font-weight="650" fill="#3b4a43">기획예산처</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P06" data-basis="국가재정법:제8조의2 국가재정법:제38조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1043.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1043.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1063.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P06</text>
+      
+      <rect x="1223.8" y="1050.7" width="88" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1267.8" y="1067.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §8의2 +1</text>
+      <text x="1066.8" y="1100.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">조사수행기관 지정·조사계획 수립</tspan></text>
+      <text x="1066.8" y="1125.7" font-size="11" font-weight="650" fill="#3b4a43">KDI 공공투자관리센터 / KISTEP</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P07" data-basis="국가재정법:제38조 예비타당성조사운용지침:제11조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1157.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1157.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1177.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P07</text>
+      
+      <rect x="1235.8" y="1164.7" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1181.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §38 +1</text>
+      <text x="1066.8" y="1214.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">수요예측·경제성(B/C) 분석</tspan></text>
+      <text x="1066.8" y="1239.7" font-size="11" font-weight="650" fill="#3b4a43">KDI 공공투자관리센터</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P08" data-basis="국가재정법:제38조 예비타당성조사운용지침:제11조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1271.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1271.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1291.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P08</text>
+      
+      <rect x="1235.8" y="1278.7" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1295.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §38 +1</text>
+      <text x="1066.8" y="1328.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">정책성 분석</tspan></text>
+      <text x="1066.8" y="1353.7" font-size="11" font-weight="650" fill="#3b4a43">KDI 공공투자관리센터</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P09" data-basis="국가재정법:제38조 예비타당성조사운용지침:제33조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1385.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1385.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1405.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P09</text>
+      
+      <rect x="1235.8" y="1392.7" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1409.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §38 +1</text>
+      <text x="1066.8" y="1442.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">지역균형발전 분석</tspan></text>
+      <text x="1066.8" y="1467.7" font-size="11" font-weight="650" fill="#3b4a43">KDI 공공투자관리센터</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P10" data-basis="국가재정법:제38조 예비타당성조사운용지침:제11조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1540.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1540.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1560.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P10</text>
+      
+      <rect x="1235.8" y="1547.3" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1273.8" y="1564.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §38 +1</text>
+      <text x="1066.8" y="1597.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">계층화분석(AHP) 종합평가</tspan></text>
+      <text x="1066.8" y="1622.3" font-size="11" font-weight="650" fill="#3b4a43">평가단(조사기관·전문가)</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P11" data-basis="예비타당성조사운용지침:제11조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1654.3" width="270" height="90" rx="8" fill="#f6f2ff" stroke="#7c56c9" stroke-width="2.3"/>
+      <rect x="1051.8" y="1654.3" width="6" height="90" rx="3" fill="#7c56c9"/>
+      <text x="1066.8" y="1674.3" class="mono" font-size="12.5" font-weight="750" fill="#6b45b8">P11</text>
+      
+      <rect x="1252.8" y="1661.3" width="59" height="24" rx="5" fill="#7c56c9" opacity="0.14"/>
+      <text x="1282.3" y="1678.3" text-anchor="middle" font-size="12" font-weight="800" fill="#3d2470">규 §11</text>
+      <text x="1066.8" y="1711.3" font-size="15.5" font-weight="800" fill="#3d2470"><tspan x="1066.8" dy="0">예타 조사보고서 작성</tspan></text>
+      <text x="1066.8" y="1736.3" font-size="11" font-weight="650" fill="#6b45b8">KDI / KISTEP</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P12" data-basis="예비타당성조사운용지침:제7조 예비타당성조사운용지침:제9조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1809" width="270" height="90" rx="8" fill="#f6f2ff" stroke="#7c56c9" stroke-width="2.3"/>
+      <rect x="1051.8" y="1809" width="6" height="90" rx="3" fill="#7c56c9"/>
+      <text x="1066.8" y="1829" class="mono" font-size="12.5" font-weight="750" fill="#6b45b8">◇ P12</text>
+      
+      <rect x="1242.8" y="1816" width="69" height="24" rx="5" fill="#7c56c9" opacity="0.14"/>
+      <text x="1277.3" y="1833" text-anchor="middle" font-size="12" font-weight="800" fill="#3d2470">규 §7 +1</text>
+      <text x="1066.8" y="1866" font-size="15.5" font-weight="800" fill="#3d2470"><tspan x="1066.8" dy="0">재정사업평가위원회 심의·의결</tspan></text>
+      <text x="1066.8" y="1891" font-size="11" font-weight="650" fill="#6b45b8">재정사업평가위원회</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P13" data-basis="국가재정법:제38조 국가재정법시행령:제13조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1809" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1809" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1829" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P13</text>
+      
+      <rect x="852.3" y="1816" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="1833" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §38 +1</text>
+      <text x="683.3" y="1866" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">예타 결과 통보</tspan></text>
+      <text x="683.3" y="1891" font-size="11" font-weight="650" fill="#3b4a43">기획예산처</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P14" data-basis="국가재정법:제28조 국가재정법:제29조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1963.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1963.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1983.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P14</text>
+      
+      <rect x="869.3" y="1970.7" width="59" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="898.8" y="1987.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §28</text>
+      <text x="683.3" y="2020.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">예산요구 반영(설계비·사업비)</tspan></text>
+      <text x="683.3" y="2045.7" font-size="11" font-weight="650" fill="#3b4a43">주무부처</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P15" data-basis="국가재정법:제50조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="2077.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="2077.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="2097.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P15</text>
+      
+      <rect x="852.3" y="2084.7" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="2101.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §50 +1</text>
+      <text x="683.3" y="2134.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">타당성재조사 판단·연계</tspan></text>
+      <text x="683.3" y="2159.7" font-size="11" font-weight="650" fill="#3b4a43">기획예산처</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="S01" data-basis="국가재정법:제38조의2 국가재정법:제9조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="1809" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="1809" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="1829" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">▣ S01</text>
+      
+      <rect x="1600.3" y="1816" width="95" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1647.8" y="1833" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §38의2 +1</text>
+      <text x="1450.3" y="1866" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">예타 결과 공개</tspan></text>
+      <text x="1450.3" y="1891" font-size="11" font-weight="650" fill="#3b4a43">기획예산처·조사기관 공개시스템</text>
+    </g>
+  
+
+</svg>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"law":{"lawId":"010374","mst":"289455","name":"국가재정법 시행령","kind":"대통령령","tier":"decree","effectiveOn":"2026-09-11","officialUrl":"https://www.law.go.kr/법령/국가재정법시행령"},"flows":[{"slug":"fund-management","name":"기금 운용","oneLiner":"특정 목적 사업을 위해 예산과 별도로 조성·운용하는 기금을 관리하는 제도. 국민연금·고용보험처럼 탄력적 재정운용이 필요한 분야에 쓴다.","citingSteps":4,"totalSteps":18,"articles":{"제28조":1,"제35조":1,"제37조의2":2}},{"slug":"pfs-exemption-fast-track","name":"예타 특례·신속인허가","oneLiner":"국가재정법상 예비타당성조사 면제·간소화와 산업·입지 인허가 신속 처리를 묶어 대형 투자의 행정 리드타임을 줄이는 제도군","citingSteps":4,"totalSteps":15,"articles":{"제13조의2":2,"제13조":1,"제22조":1}},{"slug":"national-budget","name":"국가예산 편성","oneLiner":"정부가 1년치 나라 살림 계획을 세워 국회 심의·의결로 확정하는 절차. 세금 등으로 걷은 재원을 어디에 얼마나 쓸지 정한다.","citingSteps":3,"totalSteps":18,"articles":{"제10조":1,"제15조":1,"제16조":1}},{"slug":"preliminary-feasibility-study","name":"예비타당성조사","oneLiner":"대규모 신규 재정사업을 본격 추진하기 전에, 경제성·정책성·지역균형발전을 미리 따져 예산 낭비를 거르는 사전 검증 제도","citingSteps":2,"totalSteps":17,"articles":{"제13조":2}}],"current":"$0:rsc:props:children:0:props:flows:3","asOfDate":"2026-07-10","reviewNote":"주요 절차를 요약한 참고 모델입니다. 모든 예외·위임규정의 현행성까지 전수 검증한 자료는 아닙니다. 법령 체계의 보관 자료와 현행 원문은 다를 수 있습니다.","svg":"$3","nodes":[{"id":"P16","name":"지자체 사업 건의·지역 유치 요구","lane":"지자체·사업신청자","stage":"G0 대상확인","type":"task","status":"done","progress":100,"actor":"지자체·사업신청자","receiver":"사업주관 중앙관서","action":"건의","output_documents":["사업 건의서","지역 수요자료"],"confidence":0.7,"legal_basis":[{"law":"국가재정법","article":"제38조제3항","text":"예비타당성조사 대상사업은 기획예산처장관이 중앙관서의 장의 신청에 따라 또는 직권으로 선정한다. 지방자치단체의 사업 건의를 예비타당성조사 절차의 단계로 정한 조문은 없다.","unverified":true}],"blocker":"지자체 건의는 법정 절차가 아니라 실무 관행이다(법령상 근거 조문 없음)","agent":{"trigger_event":"procedure.started","trigger_condition":"해당 절차가 개시되고 '지자체 사업 건의·지역 유치 요구' 수행 요건이 확인될 때","completion_condition":"다음 산출물이 생성·기록되어 후속 단계에서 확인될 때: 사업 건의서, 지역 수요자료","obligation":"unclassified","basis_status":"unverified","automation_level":"inform-only","human_confirmation_required":true,"resolved_input_documents":[],"completion_evidence":["사업 건의서","지역 수요자료"],"handoff_recipients":["사업주관 중앙관서","주무부처"],"deadline_rule":{"type":"not-specified","expression":null},"derivation":"existing-data-and-graph"},"decision":{"tier":"unknown","is_decision":false,"source":"unresolved","reviewed_at":"2026-09-02"}},{"id":"P01","name":"대규모 신규사업 기획·투자요구","lane":"사업주관 중앙관서","stage":"G0 대상확인","type":"task","status":"done","progress":100,"actor":"주무부처","action":"기획·요구","output_documents":["사업계획서","중기사업계획서","예산 투자요구서"],"confidence":0.85,"legal_basis":[{"law":"국가재정법","article":"제28조, 제38조","text":"각 중앙관서의 장은 대규모 신규사업을 기획하여 투자를 요구한다."}],"agent":{"trigger_event":"supplement.requested","trigger_condition":"보완·재수행이 결정되어 '대규모 신규사업 기획·투자요구' 단계로 회귀할 때","completion_condition":"다음 산출물이 생성·기록되어 후속 단계에서 확인될 때: 사업계획서, 중기사업계획서, 예산 투자요구서","obligation":"required","basis_status":"citation-verified","automation_level":"draft-with-review","human_confirmation_required":true,"resolved_input_documents":["사업 건의서","지역 수요자료","심의·의결 결과"],"completion_evidence":["사업계획서","중기사업계획서","예산 투자요구서"],"handoff_recipients":["기획예산처"],"deadline_rule":{"type":"not-specified","expression":null},"derivation":"existing-data-and-graph"},"decision":{"tier":"minister","is_decision":false,"basis_article":"제28조, 제38조","source":"article-reviewed","reviewed_at":"2026-09-02"}},{"id":"P02","name":"예타 대상 여부 판정","lane":"기획예산처(예산실)","stage":"G0 대상확인","type":"gateway","status":"done","progress":100,"actor":"기획예산처","action":"대상 판정","condition":"총사업비 500억원 이상 & 국가재정지원 규모 300억원 이상","output_documents":["예타 대상 판정 결과"],"confidence":0.9,"legal_basis":[{"law":"국가재정법","article":"제38조제1항","text":"총사업비 500억원 이상이고 국가재정지원 규모가 300억원 이상인 신규사업이 대상이다."},{"law":"국가재정법 시행령","article":"제13조제1항","text":"예비타당성조사 대상사업의 세부 기준을 정한다."}],"agent":{"trigger_event":"predecessor.completed","trigger_condition":"대규모 신규사업 기획·투자요구 완료 결과가 '예타 대상 여부 판정' 단계로 인계될 때","completion_condition":"'예타 대상 여부 판정' 판단 결과와 후속 분기가 기록될 때","obligation":"required","basis_status":"citation-verified","automation_level":"draft-with-review","human_confirmation_required":true,"resolved_input_documents":["사업계획서","중기사업계획서","예산 투자요구서"],"completion_evidence":["예타 대상 판정 결과"],"handoff_recipients":["기획예산처장관"],"deadline_rule":{"type":"not-specified","expression":null},"derivation":"existing-data-and-graph"},"decision":{"tier":"unknown","is_decision":true,"source":"unresolved","reviewed_at":"2026-09-02"}},{"id":"P03","name":"예타 면제 판단","lane":"기획예산처(예산실)","stage":"G0 대상확인","type":"gateway","status":"done","progress":100,"actor":"기획예산처장관","action":"면제 여부 결정","condition":"국방·재난복구·지역균형발전 등 법정 면제요건 해당 여부(해당 시 예타 생략)","output_documents":["면제 여부 결정"],"blocker":"면제 조항이 정치적 사업에 폭넓게 적용된다는 비판(운영 추정)","confidence":0.82,"legal_basis":[{"law":"국가재정법","article":"제38조제2항","text":"국방·재난복구·지역균형발전 등 법정 요건에 해당하는 사업은 예비타당성조사 대상에서 제외(면제)한다."},{"law":"국가재정법","article":"제38조제2항제10호","text":"국가 정책적으로 추진이 필요하여 국무회의를 거쳐 확정된 사업 등은 면제할 수 있고, 면제 내역·사유를 국회에 보고한다."}],"agent":{"trigger_event":"predecessor.completed","trigger_condition":"예타 대상 여부 판정 완료 결과가 '예타 면제 판단' 단계로 인계될 때","completion_condition":"'예타 면제 판단' 판단 결과와 후속 분기가 기록될 때","obligation":"required","basis_status":"citation-verified","automation_level":"draft-with-review","human_confirmation_required":true,"resolved_input_documents":["예타 대상 판정 결과"],"completion_evidence":["면제 여부 결정"],"handoff_recipients":["주무부처"],"deadline_rule":{"type":"not-specified","expression":null},"derivation":"existing-data-and-graph"},"decision":{"tier":"unknown","is_decision":true,"source":"unresolved","reviewed_at":"2026-09-02","note":"신뢰도 0.68 < 0.7"}},{"id":"P04","name":"예타 신청·조사요구서 제출","lane":"사업주관 중앙관서","stage":"G1 신청·대상선정","type":"task","status":"done","progress":100,"actor":"주무부처","receiver":"기획예산처","action":"신청·제출","output_documents":["예비타당성조사 요구서","사업 기초자료"],"confidence":0.83,"legal_basis":[{"law":"국가재정법","article":"제38조제1항","text":"주무부처는 대상 신규사업에 대해 예비타당성조사를 요구한다."}],"agent":{"trigger_event":"predecessor.completed","trigger_condition":"예타 면제 판단 완료 결과가 '예타 신청·조사요구서 제출' 단계로 인계될 때","completion_condition":"다음 산출물이 생성·기록되어 후속 단계에서 확인될 때: 예비타당성조사 요구서, 사업 기초자료","obligation":"required","basis_status":"citation-verified","automation_level":"draft-with-review","human_confirmation_required":true,"resolved_input_documents":["면제 여부 결정"],"completion_evidence":["예비타당성조사 요구서","사업 기초자료"],"handoff_recipients":["기획예산처"],"deadline_rule":{"type":"not-specified","expression":null},"derivation":"existing-data-and-graph"},"decision":{"tier":"minister","is_decision":false,"basis_article":"제38조제1항","source":"article-reviewed","reviewed_at":"2026-09-02"}},{"id":"P05","name":"예타 대상사업 선정","lane":"기획예산처(예산실)","stage":"G1 신청·대상선정","type":"gateway","status":"done","progress":100,"actor":"기획예산처","receiver":"조사수행기관","action":"대상 선정","output_documents":["예타 대상사업 선정 통보"],"confidence":0.88,"legal_basis":[{"law":"국가재정법","article":"제38조제3항","text":"예비타당성조사 대상사업은 기획예산처장관이 중앙관서의 장의 신청에 따라 또는 직권으로 선정할 수 있다."},{"law":"예비타당성조사 운용지침","article":"제25조","text":"대상사업은 기획예산처장관이 중앙관서의 장의 요구에 따라 또는 직권으로 위원회의 심의를 거쳐 선정할 수 있다."},{"law":"예비타당성조사 운용지침","article":"제33조제1항","text":"선정 시 중장기 투자계획 부합성, 사업계획 구체성, 추진 시급성, 국고지원 요건, 지역균형성장 요인을 종합 고려한다."}],"agent":{"trigger_event":"predecessor.completed","trigger_condition":"예타 신청·조사요구서 제출 완료 결과가 '예타 대상사업 선정' 단계로 인계될 때","completion_condition":"'예타 대상사업 선정' 판단 결과와 후속 분기가 기록될 때","obligation":"required","basis_status":"citation-verified","automation_level":"draft-with-review","human_confirmation_required":true,"resolved_input_documents":["예비타당성조사 요구서","사업 기초자료"],"completion_evidence":["예타 대상사업 선정 통보"],"handoff_recipients":["조사수행기관","KDI 공공투자관리센터 / KISTEP"],"deadline_rule":{"type":"not-specified","expression":null},"derivation":"existing-data-and-graph"},"decision":{"tier":"minister","is_decision":true,"basis_article":"제38조제3항","source":"article-reviewed","reviewed_at":"2026-09-02"}},{"id":"P06","name":"조사수행기관 지정·조사계획 수립","lane":"조사수행기관(KDI·KISTEP)","stage":"G2 조사착수·수행","type":"task","status":"done","progress":100,"actor":"KDI 공공투자관리센터 / KISTEP","action":"착수·계획수립","output_documents":["조사수행계획서","착수보고"],"confidence":0.88,"legal_basis":[{"law":"국가재정법","article":"제8조의2제1항제1호","text":"기획예산처장관은 한국개발연구원·한국조세재정연구원 등을 전문기관으로 지정하여 예비타당성조사 및 관련 조사·연구를 수행하게 할 수 있다."},{"law":"국가재정법","article":"제38조제6항","text":"기획예산처장관은 대상사업의 선정기준, 조사수행기관, 조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다."}],"agent":{"trigger_event":"external.reply.received","trigger_condition":"예타 대상사업 선정 완료 결과가 '조사수행기관 지정·조사계획 수립' 단계로 인계될 때","completion_condition":"다음 산출물이 생성·기록되어 후속 단계에서 확인될 때: 조사수행계획서, 착수보고","obligation":"required","basis_status":"citation-verified","automation_level":"draft-with-review","human_confirmation_required":true,"resolved_input_documents":["예타 대상사업 선정 통보"],"completion_evidence":["조사수행계획서","착수보고"],"handoff_recipients":["KDI 공공투자관리센터"],"deadline_rule":{"type":"not-specified","expression":null},"derivation":"existing-data-and-graph"},"decision":{"tier":"minister","is_decision":true,"basis_article":"제8조의2제1항제1호","source":"article-reviewed","reviewed_at":"2026-09-02"}},{"id":"P07","name":"수요예측·경제성(B/C) 분석","lane":"조사수행기관(KDI·KISTEP)","stage":"G2 조사착수·수행","type":"task","status":"risk","progress":65,"actor":"KDI 공공투자관리센터","action":"경제성 분석","output_documents":["수요예측 결과","비용편익(B/C) 분석"],"blocker":"수요예측 쟁점과 계량조사 장기화로 조사 일정이 통상 1년 안팎 지연(운영 추정)","confidence":0.88,"legal_basis":[{"law":"국가재정법","article":"제38조제6항","text":"경제성·정책성·지역균형발전 분석 등 조사 방법 및 절차에 관한 지침을 마련하여 통보하여야 한다."},{"law":"예비타당성조사 운용지침","article":"제11조","text":"종합평가를 수행하기 위하여 사업 특성을 고려해 사회기반시설·사회문화산업·사회복지소득이전 분과위원회 중 하나를 개최한다."}],"agent":{"trigger_event":"supplement.requested","trigger_condition":"보완·재수행이 결정되어 '수요예측·경제성(B/C) 분석' 단계로 회귀할 때","completion_condition":"다음 산출물이 생성·기록되어 후속 단계에서 확인될 때: 수요예측 결과, 비용편익(B/C) 분석","obligation":"required","basis_status":"citation-verified","automation_level":"draft-with-review","human_confirmation_required":true,"resolved_input_documents":["조사수행계획서","착수보고","타당성재조사 대상 통보"],"completion_evidence":["수요예측 결과","비용편익(B/C) 분석"],"handoff_recipients":[],"deadline_rule":{"type":"not-specified","expression":null},"derivation":"existing-data-and-graph"},"decision":{"tier":"unknown","is_decision":false,"source":"unresolved","reviewed_at":"2026-09-02"}},{"id":"P08","name":"정책성 분석","lane":"조사수행기관(KDI·KISTEP)","stage":"G2 조사착수·수행","type":"task","status":"current","progress":40,"actor":"KDI 공공투자관리센터","action":"정책성 분석","output_documents":["정책성 분석표"],"confidence":0.88,"legal_basis":[{"law":"국가재정법","article":"제38조제6항","text":"경제성·정책성·지역균형발전 분석 등 조사 방법 및 절차에 관한 지침을 마련하여 통보하여야 한다."},{"law":"예비타당성조사 운용지침","article":"제11조","text":"분과위원회가 종합평가를 수행한다."}],"agent":{"trigger_event":"predecessor.completed","trigger_condition":"수요예측·경제성(B/C) 분석 완료 결과가 '정책성 분석' 단계로 인계될 때","completion_condition":"다음 산출물이 생성·기록되어 후속 단계에서 확인될 때: 정책성 분석표","obligation":"required","basis_status":"citation-verified","automation_level":"draft-with-review","human_confirmation_required":true,"resolved_input_documents":["수요예측 결과","비용편익(B/C) 분석"],"completion_evidence":["정책성 분석표"],"handoff_recipients":[],"deadline_rule":{"type":"not-specified","expression":null},"derivation":"existing-data-and-graph"},"decision":{"tier":"unknown","is_decision":false,"source":"unresolved","reviewed_at":"2026-09-02"}},{"id":"P09","name":"지역균형발전 분석","lane":"조사수행기관(KDI·KISTEP)","stage":"G2 조사착수·수행","type":"task","status":"waiting","progress":0,"actor":"KDI 공공투자관리센터","action":"지역균형 분석","output_documents":["지역균형발전 분석표"],"blocker":"경제성만으로는 지역 사업이 불리해 가중치 논쟁(운영 추정)","confidence":0.88,"legal_basis":[{"law":"국가재정법","article":"제38조제6항","text":"경제성·정책성·지역균형발전 분석 등 조사 방법 및 절차에 관한 지침을 마련하여 통보하여야 한다."},{"law":"예비타당성조사 운용지침","article":"제33조제1항","text":"대상사업 선정 시 지역낙후도 수준과 균형성장효과 등 지역균형성장 요인을 고려한다."}],"agent":{"trigger_event":"predecessor.completed","trigger_condition":"정책성 분석 완료 결과가 '지역균형발전 분석' 단계로 인계될 때","completion_condition":"다음 산출물이 생성·기록되어 후속 단계에서 확인될 때: 지역균형발전 분석표","obligation":"required","basis_status":"citation-verified","automation_level":"draft-with-review","human_confirmation_required":true,"resolved_input_documents":["정책성 분석표"],"completion_evidence":["지역균형발전 분석표"],"handoff_recipients":["평가단(조사기관·전문가)"],"deadline_rule":{"type":"not-specified","expression":null},"derivation":"existing-data-and-graph"},"decision":{"tier":"unknown","is_decision":false,"source":"unresolved","reviewed_at":"2026-09-02"}},{"id":"P10","name":"계층화분석(AHP) 종합평가","lane":"재정사업평가위원회·분과","stage":"G3 종합평가(AHP)","type":"gateway","status":"waiting","progress":0,"actor":"평가단(조사기관·전문가)","action":"AHP 종합판단","condition":"경제성·정책성·지역균형발전 항목의 가중 종합(AHP) 결과 사업 타당성","output_documents":["AHP 종합평가 결과","종합평점"],"confidence":0.85,"legal_basis":[{"law":"국가재정법","article":"제38조제6항","text":"조사 방법 및 절차에 관한 지침을 마련하여 통보하여야 한다."},{"law":"예비타당성조사 운용지침","article":"제11조제1항","text":"예비타당성조사 등의 종합평가를 수행하기 위하여 분과위원회를 개최한다."}],"agent":{"trigger_event":"predecessor.completed","trigger_condition":"지역균형발전 분석 완료 결과가 '계층화분석(AHP) 종합평가' 단계로 인계될 때","completion_condition":"'계층화분석(AHP) 종합평가' 판단 결과와 후속 분기가 기록될 때","obligation":"required","basis_status":"citation-verified","automation_level":"draft-with-review","human_confirmation_required":true,"resolved_input_documents":["지역균형발전 분석표"],"completion_evidence":["AHP 종합평가 결과","종합평점"],"handoff_recipients":["KDI / KISTEP"],"deadline_rule":{"type":"not-specified","expression":null},"derivation":"existing-data-and-graph"},"decision":{"tier":"unknown","is_decision":true,"source":"unresolved","reviewed_at":"2026-09-02","note":"신뢰도 0.62 < 0.7"}},{"id":"P11","name":"예타 조사보고서 작성","lane":"조사수행기관(KDI·KISTEP)","stage":"G3 종합평가(AHP)","type":"task","status":"waiting","progress":0,"actor":"KDI / KISTEP","receiver":"기획예산처","action":"보고서 작성","output_documents":["예비타당성조사 보고서"],"confidence":0.8,"legal_basis":[{"law":"예비타당성조사 운용지침","article":"제11조제10항(종합보고서 작성·제출)","text":"예비타당성조사 수행기관은 종합평가결과, 분과위 논의사항 등 정책제언을 포함하여 예비타당성조사 종합보고서를 작성한 후 기획예산처장관에게 제출한다."}],"agent":{"trigger_event":"predecessor.completed","trigger_condition":"계층화분석(AHP) 종합평가 완료 결과가 '예타 조사보고서 작성' 단계로 인계될 때","completion_condition":"다음 산출물이 생성·기록되어 후속 단계에서 확인될 때: 예비타당성조사 보고서","obligation":"required","basis_status":"citation-verified","automation_level":"draft-with-review","human_confirmation_required":true,"resolved_input_documents":["AHP 종합평가 결과","종합평점"],"completion_evidence":["예비타당성조사 보고서"],"handoff_recipients":["기획예산처","재정사업평가위원회"],"deadline_rule":{"type":"not-specified","expression":null},"derivation":"existing-data-and-graph"},"decision":{"tier":"committee","is_decision":false,"basis_article":"제11조제10항(종합보고서 작성·제출)","source":"article-reviewed","reviewed_at":"2026-09-02"}},{"id":"P12","name":"재정사업평가위원회 심의·의결","lane":"재정사업평가위원회·분과","stage":"G4 결과확정·통보","type":"gateway","status":"waiting","progress":0,"actor":"재정사업평가위원회","action":"심의·의결","condition":"사업 시행 타당성 인정 여부(통과/부결)","output_documents":["심의·의결 결과"],"confidence":0.85,"legal_basis":[{"law":"예비타당성조사 운용지침","article":"제7조","text":"위원회의 위원장은 기획예산처차관이 되고, 관계부처 고위공무원단 소속 공무원과 15명 이내의 민간위원으로 구성한다."},{"law":"예비타당성조사 운용지침","article":"제9조","text":"위원회는 분기별 1회 개최를 원칙으로 하며, 재적위원 과반수 출석과 출석위원 과반수 찬성으로 의결한다."}],"agent":{"trigger_event":"external.reply.received","trigger_condition":"예타 조사보고서 작성 완료 결과가 '재정사업평가위원회 심의·의결' 단계로 인계될 때","completion_condition":"'재정사업평가위원회 심의·의결' 판단 결과와 후속 분기가 기록될 때","obligation":"required","basis_status":"citation-verified","automation_level":"draft-with-review","human_confirmation_required":true,"resolved_input_documents":["예비타당성조사 보고서"],"completion_evidence":["심의·의결 결과"],"handoff_recipients":["기획예산처","주무부처"],"deadline_rule":{"type":"not-specified","expression":null},"derivation":"existing-data-and-graph"},"decision":{"tier":"committee","is_decision":true,"basis_article":"제9조","source":"article-reviewed","reviewed_at":"2026-09-02"}},{"id":"P13","name":"예타 결과 통보","lane":"기획예산처(예산실)","stage":"G4 결과확정·통보","type":"notice","status":"waiting","progress":0,"actor":"기획예산처","receiver":"주무부처","action":"결과 통보","output_documents":["예비타당성조사 결과 통보서"],"confidence":0.85,"legal_basis":[{"law":"국가재정법","article":"제38조","text":"기획예산처장관은 조사 결과를 주무부처에 통보한다."},{"law":"국가재정법 시행령","article":"제13조","text":"결과 통보의 방법과 후속 처리를 정한다."}],"agent":{"trigger_event":"predecessor.completed","trigger_condition":"재정사업평가위원회 심의·의결 완료 결과가 '예타 결과 통보' 단계로 인계될 때","completion_condition":"'예타 결과 통보' 통지와 송달·수령 기록이 남을 때","obligation":"required","basis_status":"citation-verified","automation_level":"draft-with-review","human_confirmation_required":true,"resolved_input_documents":["심의·의결 결과"],"completion_evidence":["예비타당성조사 결과 통보서"],"handoff_recipients":["주무부처","기획예산처·조사기관 공개시스템"],"deadline_rule":{"type":"not-specified","expression":null},"derivation":"existing-data-and-graph"},"decision":{"tier":"minister","is_decision":true,"basis_article":"제38조","source":"article-reviewed","reviewed_at":"2026-09-02"}},{"id":"P14","name":"예산요구 반영(설계비·사업비)","lane":"사업주관 중앙관서","stage":"G5 후속","type":"task","status":"waiting","progress":0,"actor":"주무부처","receiver":"기획예산처","action":"예산요구","output_documents":["다음연도 예산요구서"],"confidence":0.8,"legal_basis":[{"law":"국가재정법","article":"제28조, 제29조","text":"예타 통과 사업만 다음 단계 예산(설계비·사업비)을 요구·편성할 수 있다."}],"agent":{"trigger_event":"predecessor.completed","trigger_condition":"예타 결과 통보 완료 결과가 '예산요구 반영(설계비·사업비)' 단계로 인계될 때","completion_condition":"다음 산출물이 생성·기록되어 후속 단계에서 확인될 때: 다음연도 예산요구서","obligation":"required","basis_status":"citation-verified","automation_level":"draft-with-review","human_confirmation_required":true,"resolved_input_documents":["예비타당성조사 결과 통보서"],"completion_evidence":["다음연도 예산요구서"],"handoff_recipients":["기획예산처"],"deadline_rule":{"type":"not-specified","expression":null},"derivation":"existing-data-and-graph"},"decision":{"tier":"unknown","is_decision":false,"source":"unresolved","reviewed_at":"2026-09-02"}},{"id":"P15","name":"타당성재조사 판단·연계","lane":"기획예산처(예산실)","stage":"G5 후속","type":"gateway","status":"loop","progress":0,"actor":"기획예산처","action":"재조사 판단","condition":"총사업비 대폭 증가 등 타당성재조사 요건 해당 여부","output_documents":["타당성재조사 대상 통보"],"blocker":"총사업비가 일정 비율 이상 증가하면 조사 단계로 회귀(운영 추정)","confidence":0.88,"legal_basis":[{"law":"국가재정법","article":"제50조제2항","text":"총사업비가 대통령령으로 정하는 규모 이상 증가한 사업 등에 대하여 타당성을 재조사하고 그 결과를 국회에 보고하여야 한다."},{"law":"국가재정법","article":"제50조제3항","text":"매몰비용 비중이 큰 경우, 지역 균형발전·긴급 대응 목적 사업 등은 타당성재조사를 실시하지 아니할 수 있다."}],"agent":{"trigger_event":"procedure.started","trigger_condition":"해당 절차가 개시되고 '타당성재조사 판단·연계' 수행 요건이 확인될 때","completion_condition":"'타당성재조사 판단·연계' 판단 결과와 후속 분기가 기록될 때","obligation":"required","basis_status":"citation-verified","automation_level":"draft-with-review","human_confirmation_required":true,"resolved_input_documents":[],"completion_evidence":["타당성재조사 대상 통보"],"handoff_recipients":["KDI 공공투자관리센터"],"deadline_rule":{"type":"not-specified","expression":null},"derivation":"existing-data-and-graph"},"decision":{"tier":"unknown","is_decision":true,"source":"unresolved","reviewed_at":"2026-09-02"}},{"id":"S01","name":"예타 결과 공개","lane":"정보시스템","stage":"G4 결과확정·통보","type":"system","status":"waiting","progress":0,"actor":"기획예산처·조사기관 공개시스템","action":"결과 공개","input_documents":["예비타당성조사 결과 통보서","조사보고서 요약"],"output_documents":["공개 게시자료"],"confidence":0.86,"legal_basis":[{"law":"국가재정법","article":"제38조의2","text":"예비타당성조사를 의뢰받은 전문기관의 장은 수요예측자료 등 조사 결과에 관한 자료를 공공기관의 정보공개에 관한 법률 제7조에 따라 공개하여야 한다."},{"law":"국가재정법","article":"제9조","text":"재정정보의 공표."}],"agent":{"trigger_event":"external.reply.received","trigger_condition":"예타 결과 통보 완료 결과가 '예타 결과 공개' 단계로 인계될 때","completion_condition":"다음 산출물이 생성·기록되어 후속 단계에서 확인될 때: 공개 게시자료","obligation":"required","basis_status":"citation-verified","automation_level":"draft-with-review","human_confirmation_required":true,"resolved_input_documents":["예비타당성조사 결과 통보서","조사보고서 요약"],"completion_evidence":["공개 게시자료"],"handoff_recipients":[],"deadline_rule":{"type":"not-specified","expression":null},"derivation":"existing-data-and-graph"},"decision":{"tier":"committee","is_decision":false,"basis_article":"제38조의2","source":"article-reviewed","reviewed_at":"2026-09-02"}}],"edges":[{"id":"E01","source":"P01","target":"P02","type":"sequence","label":null,"agent_transition":{"condition":"'대규모 신규사업 기획·투자요구' 완료 결과가 '예타 대상 여부 판정' 단계로 인계될 때","transition_type":"required","handoff":{"from_actor":"주무부처","to_actor":"기획예산처","documents":["사업계획서","중기사업계획서","예산 투자요구서"]},"human_confirmation_required":true}},{"id":"E02","source":"P02","target":"P03","type":"sequence","label":null,"agent_transition":{"condition":"'예타 대상 여부 판정' 완료 결과가 '예타 면제 판단' 단계로 인계될 때","transition_type":"required","handoff":{"from_actor":"기획예산처","to_actor":"기획예산처장관","documents":["예타 대상 판정 결과"]},"human_confirmation_required":true}},{"id":"E03","source":"P03","target":"P04","type":"sequence","label":"면제 미해당","agent_transition":{"condition":"면제 미해당","transition_type":"required","handoff":{"from_actor":"기획예산처장관","to_actor":"주무부처","documents":["면제 여부 결정"]},"human_confirmation_required":true}},{"id":"E04","source":"P04","target":"P05","type":"sequence","label":null,"agent_transition":{"condition":"'예타 신청·조사요구서 제출' 완료 결과가 '예타 대상사업 선정' 단계로 인계될 때","transition_type":"required","handoff":{"from_actor":"주무부처","to_actor":"기획예산처","documents":["예비타당성조사 요구서","사업 기초자료"]},"human_confirmation_required":true}},{"id":"E05","source":"P05","target":"P06","type":"sequence","label":null,"agent_transition":{"condition":"'예타 대상사업 선정' 완료 결과가 '조사수행기관 지정·조사계획 수립' 단계로 인계될 때","transition_type":"conditional","handoff":{"from_actor":"기획예산처","to_actor":"KDI 공공투자관리센터 / KISTEP","documents":["예타 대상사업 선정 통보"]},"human_confirmation_required":true}},{"id":"E06","source":"P06","target":"P07","type":"sequence","label":null,"agent_transition":{"condition":"'조사수행기관 지정·조사계획 수립' 완료 결과가 '수요예측·경제성(B/C) 분석' 단계로 인계될 때","transition_type":"required","handoff":{"from_actor":"KDI 공공투자관리센터 / KISTEP","to_actor":"KDI 공공투자관리센터","documents":["조사수행계획서","착수보고"]},"human_confirmation_required":true}},{"id":"E07","source":"P07","target":"P08","type":"sequence","label":null,"agent_transition":{"condition":"'수요예측·경제성(B/C) 분석' 완료 결과가 '정책성 분석' 단계로 인계될 때","transition_type":"required","handoff":{"from_actor":"KDI 공공투자관리센터","to_actor":"KDI 공공투자관리센터","documents":["수요예측 결과","비용편익(B/C) 분석"]},"human_confirmation_required":true}},{"id":"E08","source":"P08","target":"P09","type":"sequence","label":null,"agent_transition":{"condition":"'정책성 분석' 완료 결과가 '지역균형발전 분석' 단계로 인계될 때","transition_type":"required","handoff":{"from_actor":"KDI 공공투자관리센터","to_actor":"KDI 공공투자관리센터","documents":["정책성 분석표"]},"human_confirmation_required":true}},{"id":"E09","source":"P09","target":"P10","type":"sequence","label":null,"agent_transition":{"condition":"'지역균형발전 분석' 완료 결과가 '계층화분석(AHP) 종합평가' 단계로 인계될 때","transition_type":"required","handoff":{"from_actor":"KDI 공공투자관리센터","to_actor":"평가단(조사기관·전문가)","documents":["지역균형발전 분석표"]},"human_confirmation_required":true}},{"id":"E10","source":"P10","target":"P11","type":"sequence","label":null,"agent_transition":{"condition":"'계층화분석(AHP) 종합평가' 완료 결과가 '예타 조사보고서 작성' 단계로 인계될 때","transition_type":"required","handoff":{"from_actor":"평가단(조사기관·전문가)","to_actor":"KDI / KISTEP","documents":["AHP 종합평가 결과","종합평점"]},"human_confirmation_required":true}},{"id":"E11","source":"P11","target":"P12","type":"sequence","label":null,"agent_transition":{"condition":"'예타 조사보고서 작성' 완료 결과가 '재정사업평가위원회 심의·의결' 단계로 인계될 때","transition_type":"conditional","handoff":{"from_actor":"KDI / KISTEP","to_actor":"재정사업평가위원회","documents":["예비타당성조사 보고서"]},"human_confirmation_required":true}},{"id":"E12","source":"P12","target":"P13","type":"sequence","label":"통과","agent_transition":{"condition":"통과","transition_type":"conditional","handoff":{"from_actor":"재정사업평가위원회","to_actor":"기획예산처","documents":["심의·의결 결과"]},"human_confirmation_required":true}},{"id":"E13","source":"P13","target":"P14","type":"sequence","label":null,"agent_transition":{"condition":"'예타 결과 통보' 완료 결과가 '예산요구 반영(설계비·사업비)' 단계로 인계될 때","transition_type":"conditional","handoff":{"from_actor":"기획예산처","to_actor":"주무부처","documents":["예비타당성조사 결과 통보서"]},"human_confirmation_required":true}},{"id":"M01","source":"P16","target":"P01","type":"message","label":"지역 사업 건의","agent_transition":{"condition":"지역 사업 건의","transition_type":"required","handoff":{"from_actor":"지자체·사업신청자","to_actor":"주무부처","documents":["사업 건의서","지역 수요자료"]},"human_confirmation_required":true}},{"id":"M02","source":"P05","target":"P06","type":"message","label":"조사 의뢰","agent_transition":{"condition":"조사 의뢰","transition_type":"conditional","handoff":{"from_actor":"기획예산처","to_actor":"KDI 공공투자관리센터 / KISTEP","documents":["예타 대상사업 선정 통보"]},"human_confirmation_required":true}},{"id":"M03","source":"P11","target":"P12","type":"message","label":"조사보고서 상정","agent_transition":{"condition":"조사보고서 상정","transition_type":"conditional","handoff":{"from_actor":"KDI / KISTEP","to_actor":"재정사업평가위원회","documents":["예비타당성조사 보고서"]},"human_confirmation_required":true}},{"id":"M04","source":"P13","target":"S01","type":"message","label":"결과 공개","agent_transition":{"condition":"결과 공개","transition_type":"conditional","handoff":{"from_actor":"기획예산처","to_actor":"기획예산처·조사기관 공개시스템","documents":["예비타당성조사 결과 통보서"]},"human_confirmation_required":true}},{"id":"L01","source":"P15","target":"P07","type":"loop","label":"타당성재조사 회귀","agent_transition":{"condition":"타당성재조사 회귀","transition_type":"conditional","handoff":{"from_actor":"기획예산처","to_actor":"KDI 공공투자관리센터","documents":["타당성재조사 대상 통보"]},"human_confirmation_required":true}},{"id":"L02","source":"P12","target":"P01","type":"loop","label":"부결 시 사업 재설계","agent_transition":{"condition":"부결 시 사업 재설계","transition_type":"conditional","handoff":{"from_actor":"재정사업평가위원회","to_actor":"주무부처","documents":["심의·의결 결과"]},"human_confirmation_required":true}}],"lawContext":{"byNode":{"P16":[{"law":"국가재정법","article":"제38조제3항","text":"예비타당성조사 대상사업은 기획예산처장관이 중앙관서의 장의 신청에 따라 또는 직권으로 선정한다. 지방자치단체의 사업 건의를 예비타당성조사 절차의 단계로 정한 조문은 없다.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제38조","title":"예비타당성조사","officialUrl":"https://www.law.go.kr/법령/국가재정법/제38조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제13조의2","title":"예비타당성조사의 면제 절차","tier":"decree"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 운용지침","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 수행 총괄지침","label":null,"title":null,"tier":"adminRule"}]}]}],"P01":[{"law":"국가재정법","article":"제28조, 제38조","text":"각 중앙관서의 장은 대규모 신규사업을 기획하여 투자를 요구한다.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제28조","title":"중기사업계획서의 제출","officialUrl":"https://www.law.go.kr/법령/국가재정법/제28조","up":[],"down":[]},{"label":"제38조","title":"예비타당성조사","officialUrl":"https://www.law.go.kr/법령/국가재정법/제38조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제13조의2","title":"예비타당성조사의 면제 절차","tier":"decree"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 운용지침","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 수행 총괄지침","label":null,"title":null,"tier":"adminRule"}]}]}],"P02":[{"law":"국가재정법","article":"제38조제1항","text":"총사업비 500억원 이상이고 국가재정지원 규모가 300억원 이상인 신규사업이 대상이다.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제38조","title":"예비타당성조사","officialUrl":"https://www.law.go.kr/법령/국가재정법/제38조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제13조의2","title":"예비타당성조사의 면제 절차","tier":"decree"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 운용지침","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 수행 총괄지침","label":null,"title":null,"tier":"adminRule"}]}]},{"law":"국가재정법 시행령","article":"제13조제1항","text":"예비타당성조사 대상사업의 세부 기준을 정한다.","found":true,"lawId":"010301","tier":"decree","articles":[{"label":"제13조","title":"예비타당성조사","officialUrl":"https://www.law.go.kr/법령/국가재정법시행령/제13조","up":[],"down":[]}]}],"P03":[{"law":"국가재정법","article":"제38조제2항","text":"국방·재난복구·지역균형발전 등 법정 요건에 해당하는 사업은 예비타당성조사 대상에서 제외(면제)한다.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제38조","title":"예비타당성조사","officialUrl":"https://www.law.go.kr/법령/국가재정법/제38조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제13조의2","title":"예비타당성조사의 면제 절차","tier":"decree"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 운용지침","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 수행 총괄지침","label":null,"title":null,"tier":"adminRule"}]}]},{"law":"국가재정법","article":"제38조제2항제10호","text":"국가 정책적으로 추진이 필요하여 국무회의를 거쳐 확정된 사업 등은 면제할 수 있고, 면제 내역·사유를 국회에 보고한다.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제38조","title":"예비타당성조사","officialUrl":"https://www.law.go.kr/법령/국가재정법/제38조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제13조의2","title":"예비타당성조사의 면제 절차","tier":"decree"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 운용지침","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 수행 총괄지침","label":null,"title":null,"tier":"adminRule"}]}]}],"P04":[{"law":"국가재정법","article":"제38조제1항","text":"주무부처는 대상 신규사업에 대해 예비타당성조사를 요구한다.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제38조","title":"예비타당성조사","officialUrl":"https://www.law.go.kr/법령/국가재정법/제38조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제13조의2","title":"예비타당성조사의 면제 절차","tier":"decree"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 운용지침","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 수행 총괄지침","label":null,"title":null,"tier":"adminRule"}]}]}],"P05":[{"law":"국가재정법","article":"제38조제3항","text":"예비타당성조사 대상사업은 기획예산처장관이 중앙관서의 장의 신청에 따라 또는 직권으로 선정할 수 있다.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제38조","title":"예비타당성조사","officialUrl":"https://www.law.go.kr/법령/국가재정법/제38조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제13조의2","title":"예비타당성조사의 면제 절차","tier":"decree"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 운용지침","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 수행 총괄지침","label":null,"title":null,"tier":"adminRule"}]}]},{"law":"예비타당성조사 운용지침","article":"제25조","text":"대상사업은 기획예산처장관이 중앙관서의 장의 요구에 따라 또는 직권으로 위원회의 심의를 거쳐 선정할 수 있다.","found":false,"lawId":null,"tier":null,"articles":[{"label":"제25조","title":null,"officialUrl":null,"up":[],"down":[]}]},{"law":"예비타당성조사 운용지침","article":"제33조제1항","text":"선정 시 중장기 투자계획 부합성, 사업계획 구체성, 추진 시급성, 국고지원 요건, 지역균형성장 요인을 종합 고려한다.","found":false,"lawId":null,"tier":null,"articles":[{"label":"제33조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P06":[{"law":"국가재정법","article":"제8조의2제1항제1호","text":"기획예산처장관은 한국개발연구원·한국조세재정연구원 등을 전문기관으로 지정하여 예비타당성조사 및 관련 조사·연구를 수행하게 할 수 있다.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제8조의2","title":"전문적인 조사ㆍ연구기관의 지정 등","officialUrl":"https://www.law.go.kr/법령/국가재정법/제8조의2","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제4조의2","title":"전문적인 조사ㆍ연구기관의 지정기준 등","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"국가재정법 시행령","label":"제4조의2","title":"전문적인 조사ㆍ연구기관의 지정기준 등","tier":"decree"}]}]},{"law":"국가재정법","article":"제38조제6항","text":"기획예산처장관은 대상사업의 선정기준, 조사수행기관, 조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제38조","title":"예비타당성조사","officialUrl":"https://www.law.go.kr/법령/국가재정법/제38조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제13조의2","title":"예비타당성조사의 면제 절차","tier":"decree"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 운용지침","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 수행 총괄지침","label":null,"title":null,"tier":"adminRule"}]}]}],"P07":[{"law":"국가재정법","article":"제38조제6항","text":"경제성·정책성·지역균형발전 분석 등 조사 방법 및 절차에 관한 지침을 마련하여 통보하여야 한다.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제38조","title":"예비타당성조사","officialUrl":"https://www.law.go.kr/법령/국가재정법/제38조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제13조의2","title":"예비타당성조사의 면제 절차","tier":"decree"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 운용지침","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 수행 총괄지침","label":null,"title":null,"tier":"adminRule"}]}]},{"law":"예비타당성조사 운용지침","article":"제11조","text":"종합평가를 수행하기 위하여 사업 특성을 고려해 사회기반시설·사회문화산업·사회복지소득이전 분과위원회 중 하나를 개최한다.","found":false,"lawId":null,"tier":null,"articles":[{"label":"제11조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P08":[{"law":"국가재정법","article":"제38조제6항","text":"경제성·정책성·지역균형발전 분석 등 조사 방법 및 절차에 관한 지침을 마련하여 통보하여야 한다.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제38조","title":"예비타당성조사","officialUrl":"https://www.law.go.kr/법령/국가재정법/제38조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제13조의2","title":"예비타당성조사의 면제 절차","tier":"decree"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 운용지침","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 수행 총괄지침","label":null,"title":null,"tier":"adminRule"}]}]},{"law":"예비타당성조사 운용지침","article":"제11조","text":"분과위원회가 종합평가를 수행한다.","found":false,"lawId":null,"tier":null,"articles":[{"label":"제11조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P09":[{"law":"국가재정법","article":"제38조제6항","text":"경제성·정책성·지역균형발전 분석 등 조사 방법 및 절차에 관한 지침을 마련하여 통보하여야 한다.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제38조","title":"예비타당성조사","officialUrl":"https://www.law.go.kr/법령/국가재정법/제38조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제13조의2","title":"예비타당성조사의 면제 절차","tier":"decree"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 운용지침","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 수행 총괄지침","label":null,"title":null,"tier":"adminRule"}]}]},{"law":"예비타당성조사 운용지침","article":"제33조제1항","text":"대상사업 선정 시 지역낙후도 수준과 균형성장효과 등 지역균형성장 요인을 고려한다.","found":false,"lawId":null,"tier":null,"articles":[{"label":"제33조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P10":[{"law":"국가재정법","article":"제38조제6항","text":"조사 방법 및 절차에 관한 지침을 마련하여 통보하여야 한다.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제38조","title":"예비타당성조사","officialUrl":"https://www.law.go.kr/법령/국가재정법/제38조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제13조의2","title":"예비타당성조사의 면제 절차","tier":"decree"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 운용지침","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 수행 총괄지침","label":null,"title":null,"tier":"adminRule"}]}]},{"law":"예비타당성조사 운용지침","article":"제11조제1항","text":"예비타당성조사 등의 종합평가를 수행하기 위하여 분과위원회를 개최한다.","found":false,"lawId":null,"tier":null,"articles":[{"label":"제11조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P11":[{"law":"예비타당성조사 운용지침","article":"제11조제10항(종합보고서 작성·제출)","text":"예비타당성조사 수행기관은 종합평가결과, 분과위 논의사항 등 정책제언을 포함하여 예비타당성조사 종합보고서를 작성한 후 기획예산처장관에게 제출한다.","found":false,"lawId":null,"tier":null,"articles":[{"label":"제11조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P12":[{"law":"예비타당성조사 운용지침","article":"제7조","text":"위원회의 위원장은 기획예산처차관이 되고, 관계부처 고위공무원단 소속 공무원과 15명 이내의 민간위원으로 구성한다.","found":false,"lawId":null,"tier":null,"articles":[{"label":"제7조","title":null,"officialUrl":null,"up":[],"down":[]}]},{"law":"예비타당성조사 운용지침","article":"제9조","text":"위원회는 분기별 1회 개최를 원칙으로 하며, 재적위원 과반수 출석과 출석위원 과반수 찬성으로 의결한다.","found":false,"lawId":null,"tier":null,"articles":[{"label":"제9조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P13":[{"law":"국가재정법","article":"제38조","text":"기획예산처장관은 조사 결과를 주무부처에 통보한다.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제38조","title":"예비타당성조사","officialUrl":"https://www.law.go.kr/법령/국가재정법/제38조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제13조의2","title":"예비타당성조사의 면제 절차","tier":"decree"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 운용지침","label":null,"title":null,"tier":"adminRule"},{"kind":"adminRule","phrase":"조사 방법 및 절차에 관한 지침을 마련하여 중앙관서의 장에게 통보하여야 한다","lawName":"예비타당성조사 수행 총괄지침","label":null,"title":null,"tier":"adminRule"}]}]},{"law":"국가재정법 시행령","article":"제13조","text":"결과 통보의 방법과 후속 처리를 정한다.","found":true,"lawId":"010301","tier":"decree","articles":[{"label":"제13조","title":"예비타당성조사","officialUrl":"https://www.law.go.kr/법령/국가재정법시행령/제13조","up":[],"down":[]}]}],"P14":[{"law":"국가재정법","article":"제28조, 제29조","text":"예타 통과 사업만 다음 단계 예산(설계비·사업비)을 요구·편성할 수 있다.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제28조","title":"중기사업계획서의 제출","officialUrl":"https://www.law.go.kr/법령/국가재정법/제28조","up":[],"down":[]},{"label":"제29조","title":"예산안편성지침의 통보","officialUrl":"https://www.law.go.kr/법령/국가재정법/제29조","up":[],"down":[]}]}],"P15":[{"law":"국가재정법","article":"제50조제2항","text":"총사업비가 대통령령으로 정하는 규모 이상 증가한 사업 등에 대하여 타당성을 재조사하고 그 결과를 국회에 보고하여야 한다.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제50조","title":"총사업비의 관리","officialUrl":"https://www.law.go.kr/법령/국가재정법/제50조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제21조","title":"총사업비의 관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 규모 이상 증가한 사업","lawName":"국가재정법 시행령","label":"제22조","title":"타당성재조사","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 규모 이상 감소한 사업","lawName":"국가재정법 시행령","label":"제22조","title":"타당성재조사","tier":"decree"}]}]},{"law":"국가재정법","article":"제50조제3항","text":"매몰비용 비중이 큰 경우, 지역 균형발전·긴급 대응 목적 사업 등은 타당성재조사를 실시하지 아니할 수 있다.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제50조","title":"총사업비의 관리","officialUrl":"https://www.law.go.kr/법령/국가재정법/제50조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제21조","title":"총사업비의 관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 규모 이상 증가한 사업","lawName":"국가재정법 시행령","label":"제22조","title":"타당성재조사","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 규모 이상 감소한 사업","lawName":"국가재정법 시행령","label":"제22조","title":"타당성재조사","tier":"decree"}]}]}],"S01":[{"law":"국가재정법","article":"제38조의2","text":"예비타당성조사를 의뢰받은 전문기관의 장은 수요예측자료 등 조사 결과에 관한 자료를 공공기관의 정보공개에 관한 법률 제7조에 따라 공개하여야 한다.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제38조의2","title":"예비타당성조사 결과 관련 자료의 공개","officialUrl":"https://www.law.go.kr/법령/국가재정법/제38조의2","up":[],"down":[]}]},{"law":"국가재정법","article":"제9조","text":"재정정보의 공표.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제9조","title":"재정정보의 공표","officialUrl":"https://www.law.go.kr/법령/국가재정법/제9조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제5조","title":"재정정보의 공표","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제5조","title":"재정정보의 공표","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제5조","title":"재정정보의 공표","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"국가재정법 시행령","label":"제5조","title":"재정정보의 공표","tier":"decree"}]}]}]},"systems":{"010301":{"lawId":"010301","name":"국가재정법","href":"/law/010301/","ministry":"기획예산처","effectiveOn":"2026-09-11","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"국가재정법","kind":"법률","articleCount":128,"officialUrl":"https://www.law.go.kr/법령/국가재정법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":128},{"tier":"decree","label":"시행령","laws":[{"name":"국가재정법 시행령","kind":"대통령령","articleCount":71,"officialUrl":"https://www.law.go.kr/법령/국가재정법시행령"},{"name":"예산성과금 규정","kind":"대통령령","articleCount":22,"officialUrl":"https://www.law.go.kr/법령/예산성과금규정"}],"kinds":[{"kind":"대통령령","count":2}],"articleCount":93},{"tier":"rule","label":"시행규칙","laws":[{"name":"국가보증채무 관리 규칙","kind":"재정경제부령","articleCount":8,"officialUrl":"https://www.law.go.kr/법령/국가보증채무관리규칙"}],"kinds":[{"kind":"재정경제부령","count":1}],"articleCount":8},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"국가연구개발사업 예비타당성조사 수행 총괄지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국가연구개발사업예비타당성조사수행총괄지침"},{"name":"국가연구개발사업 예비타당성조사 운용지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국가연구개발사업예비타당성조사운용지침"},{"name":"국내은행의 외화채무 국가보증에 관한 운영지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국내은행의외화채무국가보증에관한운영지침"},{"name":"기금 여유자금의 통합운용 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/기금여유자금의통합운용등에관한규정"},{"name":"기획예산처 예산집행심의회 운영규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/기획예산처예산집행심의회운영규정"},{"name":"예산·기금의 불법지출에 대한 국민감시 및 예산낭비신고센터의 설치·운영에 관한 지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/예산·기금의불법지출에대한국민감시및예산낭비신고센터의설치·운영에관한지침"},{"name":"재정사업심층평가 운용지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/재정사업심층평가운용지침"},{"name":"재정운용전략협의회 운영규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/재정운용전략협의회운영규정"},{"name":"주택도시기금 위원회 운영규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/주택도시기금위원회운영규정"},{"name":"총사업비 관리지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/총사업비관리지침"},{"name":"군인복지·연금기금 운용심의회 예규","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/군인복지·연금기금운용심의회예규"},{"name":"복권기금 자산운용지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/복권기금자산운용지침"},{"name":"자동차사고 피해지원기금 운용심의회 운영규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/자동차사고피해지원기금운용심의회운영규정"},{"name":"대외경제협력기금 자산운용지침","kind":"지침","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/대외경제협력기금자산운용지침"},{"name":"재정지출 수반 중·장기계획 협의 지침","kind":"지침","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/재정지출수반중·장기계획협의지침"},{"name":"예산성과금 운영 및 심사위원회 운영세칙","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/예산성과금운영및심사위원회운영세칙"},{"name":"교육부 총사업비 관리규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/교육부총사업비관리규정"},{"name":"국토교통부 총사업비 조정 지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국토교통부총사업비조정지침"},{"name":"디지털예산회계시스템 운영 지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/디지털예산회계시스템운영지침"},{"name":"예비타당성조사 수행 총괄지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/예비타당성조사수행총괄지침"},{"name":"예비타당성조사 운용지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/예비타당성조사운용지침"},{"name":"해양수산부 투자심사 및 총사업비 관리규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/해양수산부투자심사및총사업비관리규정"},{"name":"행정중심복합도시건설청 총사업비 비관리대상 사업 관리규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정중심복합도시건설청총사업비비관리대상사업관리규정"},{"name":"재정운용전략위원회 운영규정","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/재정운용전략위원회운영규정"},{"name":"예산성과금심사위원회운영세칙","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/예산성과금심사위원회운영세칙"}],"kinds":[{"kind":"훈령","count":18},{"kind":"예규","count":3},{"kind":"지침","count":2},{"kind":"행정규칙","count":2}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EA%B5%AD%EA%B0%80%EC%9E%AC%EC%A0%95%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":69,"rule":0,"adminRule":20,"ordinance":0,"cites":208}}}},"statusStyles":{"done":{"label":"선행","fill":"#effaf5","border":"#35a77d","ink":"#123d2e","sub":"#287a5c"},"current":{"label":"핵심","fill":"#087452","border":"#087452","ink":"#ffffff","sub":"#d8f4e8"},"waiting":{"label":"후속","fill":"#ffffff","border":"#b9c7bf","ink":"#17231d","sub":"#627169"},"risk":{"label":"병목","fill":"#fff8e8","border":"#d9901a","ink":"#7a4305","sub":"#a96008"},"loop":{"label":"회귀","fill":"#edf4ff","border":"#3478db","ink":"#173f7a","sub":"#316bbd"}},"basisLegend":[{"label":"법률","fill":"#ffffff","border":"#3b4a43"},{"label":"시행령","fill":"#f2f6ff","border":"#2456d6"},{"label":"시행규칙","fill":"#effaf6","border":"#0f9f72"},{"label":"행정규칙","fill":"#f6f2ff","border":"#7c56c9"}],"isLawIndex":false}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Eu-UvfunzEwjnKcUq5f7W"}
+4:["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","precedence":"next"}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

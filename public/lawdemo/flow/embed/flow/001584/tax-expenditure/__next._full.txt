@@ -1,0 +1,475 @@
+1:"$Sreact.fragment"
+2:I[4116,[],""]
+3:I[8498,[],""]
+5:I[977,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+9:I[977,[],"ViewportBoundary"]
+b:I[977,[],"MetadataBoundary"]
+d:I[8432,[],"default",1]
+:HL["/lawdemo/flow/_next/static/css/cd237d4e4c702e12.css","style"]
+:HL["/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","style"]
+0:{"P":null,"c":["","embed","flow","001584","tax-expenditure",""],"q":"","i":false,"f":[[["",{"children":["embed",{"children":["flow",{"children":[["lawId","001584","d",null],{"children":[["slug","tax-expenditure","d",null],{"children":["__PAGE__",{}]}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/cd237d4e4c702e12.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"ko","children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/lawdemo/flow/_next/static/css/e37b2336adb7c3e7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,"$@8"]},null,false,"$@8"]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Eu-UvfunzEwjnKcUq5f7W"}
+e:[]
+8:"$We"
+f:I[7742,["838","static/chunks/838-9b85aecee2a13f53.js","379","static/chunks/379-f104668f756ddde1.js","301","static/chunks/app/embed/flow/%5BlawId%5D/%5Bslug%5D/page-e3d0b6acb7d5d0b3.js"],"default"]
+10:T9329,<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 250 1744 1960" class="pp-svg">
+<defs>
+      <filter id="card-shadow" x="-20%" y="-25%" width="140%" height="160%">
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#12271e" flood-opacity="0.10"/>
+      </filter>
+      <marker id="arrow-sequence" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#53675d" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-message" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#0f8a65" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <marker id="arrow-loop" markerWidth="17" markerHeight="13" refX="15" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+    <path d="M1,1 L16,6.5 L1,12 Z" fill="#3478db" stroke="#ffffff" stroke-width="1.3" stroke-linejoin="round"/>
+  </marker>
+      <style>
+        text { font-family: "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", sans-serif; }
+        .mono { font-family: "SFMono-Regular", "Menlo", monospace; }
+      </style>
+    </defs>
+<rect width="1800" height="2400" fill="#ffffff"/>
+
+
+
+<rect x="38" y="260" width="1724" height="1940" rx="10" fill="#ffffff" stroke="#b8c7bf" stroke-width="2"/>
+<rect x="38" y="260" width="190" height="100" rx="10" fill="#eaf2ee"/>
+<text x="58" y="299" font-size="17" font-weight="800" fill="#17231d">단계 ↓</text>
+<text x="58" y="332" font-size="15" font-weight="650" fill="#68776f">행위자 묶음 →</text>
+<rect x="38" y="360" width="1724" height="148.9" fill="#fbfcfb"/>
+<rect x="38" y="360" width="190" height="148.9" fill="#eef3f0"/>
+<text x="58" y="392" class="mono" font-size="16" font-weight="800" fill="#53645b">G0</text>
+<text x="58" y="425" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">기본계획</tspan></text>
+<rect x="38" y="508.9" width="1724" height="262.9" fill="#f5f8f6"/>
+<rect x="38" y="508.9" width="190" height="262.9" fill="#eef3f0"/>
+<text x="58" y="540.9" class="mono" font-size="16" font-weight="800" fill="#53645b">G1</text>
+<text x="58" y="573.9" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">감면 건의</tspan></text>
+<rect x="38" y="771.7" width="1724" height="490.9" fill="#fbfcfb"/>
+<rect x="38" y="771.7" width="190" height="490.9" fill="#eef3f0"/>
+<text x="58" y="803.7" class="mono" font-size="16" font-weight="800" fill="#53645b">G2</text>
+<text x="58" y="836.7" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">전문평가(예타·</tspan><tspan x="58" dy="22">심층)</tspan></text>
+<rect x="38" y="1262.6" width="1724" height="148.9" fill="#f5f8f6"/>
+<rect x="38" y="1262.6" width="190" height="148.9" fill="#eef3f0"/>
+<text x="58" y="1294.6" class="mono" font-size="16" font-weight="800" fill="#53645b">G3</text>
+<text x="58" y="1327.6" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">재정경제부</tspan><tspan x="58" dy="22">심사·조정</tspan></text>
+<rect x="38" y="1411.4" width="1724" height="148.9" fill="#fbfcfb"/>
+<rect x="38" y="1411.4" width="190" height="148.9" fill="#eef3f0"/>
+<text x="58" y="1443.4" class="mono" font-size="16" font-weight="800" fill="#53645b">G4</text>
+<text x="58" y="1476.4" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">세법개정·국회</tspan></text>
+<rect x="38" y="1560.3" width="1724" height="262.9" fill="#f5f8f6"/>
+<rect x="38" y="1560.3" width="190" height="262.9" fill="#eef3f0"/>
+<text x="58" y="1592.3" class="mono" font-size="16" font-weight="800" fill="#53645b">G5</text>
+<text x="58" y="1625.3" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">조세지출예산서</tspan></text>
+<rect x="38" y="1823.1" width="1724" height="376.9" fill="#fbfcfb"/>
+<rect x="38" y="1823.1" width="190" height="376.9" fill="#eef3f0"/>
+<text x="58" y="1855.1" class="mono" font-size="16" font-weight="800" fill="#53645b">G6</text>
+<text x="58" y="1888.1" font-size="19" font-weight="800" fill="#53645b"><tspan x="58" dy="0">일몰·사후관리</tspan></text>
+<rect x="228" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="228" y="260" width="383.5" height="7" fill="#0f9f72"/>
+<text x="248" y="299" font-size="20" font-weight="800" fill="#17231d">각 중앙행정기관</text>
+<text x="248" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="248" dy="0">각 중앙행정기관</tspan></text>
+<rect x="611.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="611.5" y="260" width="383.5" height="7" fill="#3b82f6"/>
+<text x="631.5" y="299" font-size="20" font-weight="800" fill="#17231d">재정경제부·KDI 등 평가기관</text>
+<text x="631.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="631.5" dy="0">재정경제부 · KDI 등 평가기관</tspan></text>
+<rect x="995" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="995" y="260" width="383.5" height="7" fill="#c78116"/>
+<text x="1015" y="299" font-size="20" font-weight="800" fill="#17231d">국무회의·국회</text>
+<text x="1015" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1015" dy="0">국무회의 · 국회</tspan></text>
+<rect x="1378.5" y="260" width="383.5" height="100" fill="#f7faf8"/>
+<rect x="1378.5" y="260" width="383.5" height="7" fill="#0891b2"/>
+<text x="1398.5" y="299" font-size="20" font-weight="800" fill="#17231d">정보시스템</text>
+<text x="1398.5" y="329" font-size="13.5" font-weight="600" fill="#68776f"><tspan x="1398.5" dy="0">정보시스템</tspan></text>
+<line x1="228" y1="260" x2="228" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="611.5" y1="260" x2="611.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="995" y1="260" x2="995" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1378.5" y1="260" x2="1378.5" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="1762" y1="260" x2="1762" y2="2200" stroke="#d3dcd7" stroke-width="1.5"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#b8c7bf" stroke-width="2"/>
+<line x1="38" y1="360" x2="1762" y2="360" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="508.9" x2="1762" y2="508.9" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="771.7" x2="1762" y2="771.7" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1262.6" x2="1762" y2="1262.6" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1411.4" x2="1762" y2="1411.4" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1560.3" x2="1762" y2="1560.3" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="1823.1" x2="1762" y2="1823.1" stroke="#c8d3cd" stroke-width="1.5"/>
+<line x1="38" y1="2200" x2="1762" y2="2200" stroke="#b8c7bf" stroke-width="2"/>
+<g class="pp-edge" data-edge-id="E01" data-source="P01" data-target="P02">
+<path d="M 938.3 439.4 H 997.8 V 447.4 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 439.4 H 997.8 V 447.4 H 1043.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E02" data-source="P02" data-target="P03">
+<path d="M 1186.8 479.4 V 496.9 H 437.8 V 530.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1186.8 479.4 V 496.9 H 437.8 V 530.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E03" data-source="P03" data-target="P04">
+<path d="M 554.8 579.3 H 640.3 V 629.8 H 660.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 579.3 H 640.3 V 629.8 H 660.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E04" data-source="P04" data-target="P05">
+<path d="M 829.3 685.3 V 727.7 H 799.3 V 793.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 829.3 685.3 V 727.7 H 799.3 V 793.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E05" data-source="P05" data-target="P06">
+<path d="M 813.3 891.1 V 907.1 H 837.3 V 907.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 813.3 891.1 V 907.1 H 837.3 V 907.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E06" data-source="P06" data-target="P07">
+<path d="M 797.3 1005.1 V 1021.1 H 819.3 V 1021.1" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 797.3 1005.1 V 1021.1 H 819.3 V 1021.1" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E07" data-source="P07" data-target="P08">
+<path d="M 938.3 1098.6 H 1003 V 1250.6 H 783.3 V 1284" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 1098.6 H 1003 V 1250.6 H 783.3 V 1284" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E08" data-source="P08" data-target="P09">
+<path d="M 803.3 1382 V 1399.4 H 793.3 V 1432.9" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 803.3 1382 V 1399.4 H 793.3 V 1432.9" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E09" data-source="P09" data-target="P10">
+<path d="M 938.3 1492.4 H 1023.8 V 1481.9 H 1043.8" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 1492.4 H 1023.8 V 1481.9 H 1043.8" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E10" data-source="P10" data-target="P11">
+<path d="M 1184.8 1530.9 V 1532.3 H 964 V 1643.7 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1184.8 1530.9 V 1532.3 H 964 V 1643.7 H 946.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E11" data-source="P11" data-target="P12">
+<path d="M 793.3 1679.7 V 1695.7 H 783.3 V 1695.7" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 793.3 1679.7 V 1695.7 H 783.3 V 1695.7" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E12" data-source="P12" data-target="P13">
+<path d="M 797.3 1793.7 V 1811.1 H 793.3 V 1844.6" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 797.3 1793.7 V 1811.1 H 793.3 V 1844.6" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E13" data-source="P13" data-target="P14">
+<path d="M 813.3 1942.6 V 1958.6 H 817.3 V 1958.6" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 813.3 1942.6 V 1958.6 H 817.3 V 1958.6" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M01" data-source="P02" data-target="P03">
+<path d="M 1154.8 479.4 V 480.9 H 435.8 V 530.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 1154.8 479.4 V 480.9 H 435.8 V 530.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M02" data-source="P06" data-target="P07">
+<path d="M 938.3 944.1 H 992.3 V 1077.6 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 944.1 H 992.3 V 1077.6 H 946.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M03" data-source="P12" data-target="S01">
+<path d="M 938.3 1766.7 H 1394.3 V 1696.7 H 1427.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 1766.7 H 1394.3 V 1696.7 H 1427.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="M04" data-source="P06" data-target="P15">
+<path d="M 938.3 959.6 H 1005.3 V 1200.6 H 946.3" fill="none" stroke="#ffffff" stroke-width="7.4" stroke-dasharray="11 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 938.3 959.6 H 1005.3 V 1200.6 H 946.3" fill="none" stroke="#0f8a65" stroke-width="3.4" stroke-dasharray="11 8" marker-end="url(#arrow-message)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L01" data-source="P14" data-target="P08">
+<path d="M 668.3 2003.6 H 216 V 1375.4 H 811.3 V 1390" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 668.3 2003.6 H 216 V 1375.4 H 811.3 V 1390" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="L02" data-source="P07" data-target="P06">
+<path d="M 668.3 1062.1 H 190 V 980.6 H 660.3" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 668.3 1062.1 H 190 V 980.6 H 660.3" fill="none" stroke="#3478db" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow-loop)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E14" data-source="P03" data-target="P16">
+<path d="M 389.8 628.3 V 644.3 H 409.8 V 644.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 389.8 628.3 V 644.3 H 409.8 V 644.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E15" data-source="P16" data-target="P04">
+<path d="M 554.8 708.8 H 627.3 V 645.3 H 660.3" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 554.8 708.8 H 627.3 V 645.3 H 660.3" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge" data-edge-id="E16" data-source="P14" data-target="P17">
+<path d="M 797.3 2056.6 V 2072.6 H 809.3 V 2072.6" fill="none" stroke="#ffffff" stroke-width="7.4"  stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+<path d="M 797.3 2056.6 V 2072.6 H 809.3 V 2072.6" fill="none" stroke="#53675d" stroke-width="3.4"  marker-end="url(#arrow-sequence)" stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+</g>
+<g class="pp-edge-label" data-edge-id="E05" data-source="P05" data-target="P06">
+<rect x="998.4" y="888.1" width="119.8" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1058.3" y="908.1" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">예타 대상 해당</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E10" data-source="P10" data-target="P11">
+<rect x="1026.4" y="1572.3" width="96" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1074.4" y="1592.3" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">개정 확정</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E13" data-source="P13" data-target="P14">
+<rect x="998.4" y="1939.6" width="119.8" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1058.3" y="1959.6" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">일몰 평가 결과</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M01" data-source="P02" data-target="P03">
+<rect x="737.8" y="520.9" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="795.3" y="540.9" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">기본계획 통보</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M02" data-source="P06" data-target="P07">
+<rect x="985.8" y="995.9" width="128.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1050.3" y="1015.9" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">평가보고서 제출</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M03" data-source="P12" data-target="S01">
+<rect x="1129.3" y="1699.7" width="114.9" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1186.8" y="1719.7" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">조세지출 공개</text>
+</g>
+<g class="pp-edge-label" data-edge-id="M04" data-source="P06" data-target="P15">
+<rect x="989.4" y="1065.1" width="147.8" height="30" rx="6" fill="#ffffff" stroke="#0f8a65" stroke-width="1.4"/>
+<text x="1063.3" y="1085.1" text-anchor="middle" font-size="14" font-weight="750" fill="#0f8a65">평가결과 국회 제출</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L01" data-source="P14" data-target="P08">
+<rect x="202.7" y="1678.5" width="166.7" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="286" y="1698.5" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">연장 반영 재검토 회귀</text>
+</g>
+<g class="pp-edge-label" data-edge-id="L02" data-source="P07" data-target="P06">
+<rect x="216.1" y="1002.1" width="119.8" height="30" rx="6" fill="#ffffff" stroke="#3478db" stroke-width="1.4"/>
+<text x="276" y="1022.1" text-anchor="middle" font-size="14" font-weight="750" fill="#3478db">평가 보완 요구</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E14" data-source="P03" data-target="P16">
+<rect x="605.4" y="697.3" width="138.7" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="674.8" y="717.3" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">존치 의견 제출 시</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E15" data-source="P16" data-target="P04">
+<rect x="511.7" y="753" width="199.6" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="611.5" y="773" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">필수 내용 포함 존치 의견서</text>
+</g>
+<g class="pp-edge-label" data-edge-id="E16" data-source="P14" data-target="P17">
+<rect x="998.4" y="2053.6" width="119.8" height="30" rx="6" fill="#ffffff" stroke="#53675d" stroke-width="1.4"/>
+<text x="1058.3" y="2073.6" text-anchor="middle" font-size="14" font-weight="750" fill="#53675d">사후 결산 작성</text>
+</g>
+
+    <g class="pp-node" data-node-id="P01" data-basis="조세특례제한법:제142조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="389.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="389.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="409.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P01</text>
+      
+      <rect x="862.3" y="396.4" width="66" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="895.3" y="413.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §142</text>
+      <text x="683.3" y="446.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">조세특례 기본계획 수립</tspan></text>
+      <text x="683.3" y="471.4" font-size="11" font-weight="650" fill="#3b4a43">기한 · 매년 3월 31일까지 국무회의 심의</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P02" data-basis="조세특례제한법:제142조" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="389.4" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="389.4" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="409.4" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P02</text>
+      
+      <rect x="1245.8" y="396.4" width="66" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1278.8" y="413.4" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §142</text>
+      <text x="1066.8" y="446.4" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">기본계획 국무회의 심의·통보</tspan></text>
+      <text x="1066.8" y="471.4" font-size="11" font-weight="650" fill="#3b4a43">국무회의</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P03" data-basis="조세특례제한법:제142조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="538.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="538.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="558.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P03</text>
+      
+      <rect x="478.8" y="545.3" width="66" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="511.8" y="562.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §142</text>
+      <text x="299.8" y="595.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">부처 조세감면 건의</tspan></text>
+      <text x="299.8" y="620.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 매년 4월 30일까지</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P04" data-basis="조세특례제한법:제142조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="595.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="595.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="615.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P04</text>
+      
+      <rect x="862.3" y="602.3" width="66" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="895.3" y="619.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §142</text>
+      <text x="683.3" y="652.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">신규·연장 감면 요구 접수</tspan></text>
+      <text x="683.3" y="677.3" font-size="11" font-weight="650" fill="#3b4a43">재정경제부</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P05" data-basis="조세특례제한법:제142조 조세특례예비타당성평가운용지침:제5조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="801.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="801.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="821.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P05</text>
+      
+      <rect x="845.3" y="808.1" width="83" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="886.8" y="825.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §142 +1</text>
+      <text x="683.3" y="848.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">예비타당성조사 대상 판정(연</tspan><tspan x="683.3" dy="18">300억↑)</tspan></text>
+      <text x="683.3" y="883.1" font-size="11" font-weight="650" fill="#3b4a43">재정경제부</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P06" data-basis="조세특례예비타당성평가운용지침:제20조 조세특례심층평가운용지침:제13조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="915.1" width="270" height="90" rx="8" fill="#f6f2ff" stroke="#7c56c9" stroke-width="2.3"/>
+      <rect x="668.3" y="915.1" width="6" height="90" rx="3" fill="#7c56c9"/>
+      <text x="683.3" y="935.1" class="mono" font-size="12.5" font-weight="750" fill="#6b45b8">P06</text>
+      
+      <rect x="852.3" y="922.1" width="76" height="24" rx="5" fill="#7c56c9" opacity="0.14"/>
+      <text x="890.3" y="939.1" text-anchor="middle" font-size="12" font-weight="800" fill="#3d2470">규 §20 +1</text>
+      <text x="683.3" y="972.1" font-size="15.5" font-weight="800" fill="#3d2470"><tspan x="683.3" dy="0">조세특례 예타·심층평가 수행</tspan></text>
+      <text x="683.3" y="997.1" font-size="11" font-weight="650" fill="#6b45b8">KDI 등 평가기관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P07" data-basis="조세특례제한법:제142조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1029.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1029.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1049.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P07</text>
+      
+      <rect x="862.3" y="1036.1" width="66" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="895.3" y="1053.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §142</text>
+      <text x="683.3" y="1086.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">평가 결과 검토</tspan></text>
+      <text x="683.3" y="1111.1" font-size="11" font-weight="650" fill="#3b4a43">재정경제부</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P08" data-basis="조세특례제한법:제142조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1292" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1292" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1312" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P08</text>
+      
+      <rect x="862.3" y="1299" width="66" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="895.3" y="1316" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §142</text>
+      <text x="683.3" y="1349" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">재정경제부 검토·조정</tspan></text>
+      <text x="683.3" y="1374" font-size="11" font-weight="650" fill="#3b4a43">재정경제부</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P09" data-basis="조세특례제한법:" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1440.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1440.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1460.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P09</text>
+      
+      <rect x="878.3" y="1447.9" width="50" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="903.3" y="1464.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §</text>
+      <text x="683.3" y="1497.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">세법개정안(조특법) 반영</tspan></text>
+      <text x="683.3" y="1522.9" font-size="11" font-weight="650" fill="#3b4a43">재정경제부</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P10" data-basis="조세특례제한법:" filter="url(#card-shadow)">
+      
+      <rect x="1051.8" y="1440.9" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1051.8" y="1440.9" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1066.8" y="1460.9" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P10</text>
+      
+      <rect x="1261.8" y="1447.9" width="50" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1286.8" y="1464.9" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §</text>
+      <text x="1066.8" y="1497.9" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1066.8" dy="0">국회 심의·의결</tspan></text>
+      <text x="1066.8" y="1522.9" font-size="11" font-weight="650" fill="#3b4a43">국회</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P11" data-basis="조세특례제한법:제142조의2 국가재정법:제34조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1589.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1589.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1609.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P11</text>
+      
+      <rect x="826.3" y="1596.7" width="102" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="877.3" y="1613.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §142의2 +1</text>
+      <text x="683.3" y="1646.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">조세지출예산서 작성·첨부</tspan></text>
+      <text x="683.3" y="1671.7" font-size="11" font-weight="650" fill="#3b4a43">재정경제부</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P12" data-basis="국가재정법:제33조 국가재정법:제34조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1703.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1703.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1723.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P12</text>
+      
+      <rect x="852.3" y="1710.7" width="76" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="890.3" y="1727.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §33 +1</text>
+      <text x="683.3" y="1760.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">예산안 국회 제출</tspan></text>
+      <text x="683.3" y="1785.7" font-size="11" font-weight="650" fill="#3b4a43">기한 · 회계연도 개시 120일 전까지</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P13" data-basis="조세특례제한법:제142조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1852.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1852.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1872.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">◇ P13</text>
+      
+      <rect x="862.3" y="1859.6" width="66" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="895.3" y="1876.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §142</text>
+      <text x="683.3" y="1909.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">일몰 도래 특례 심층평가</tspan></text>
+      <text x="683.3" y="1934.6" font-size="11" font-weight="650" fill="#3b4a43">KDI 등 평가기관</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P14" data-basis="조세특례제한법:제142조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1966.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1966.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1986.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P14</text>
+      
+      <rect x="862.3" y="1973.6" width="66" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="895.3" y="1990.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §142</text>
+      <text x="683.3" y="2023.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">연장·폐지 결정</tspan></text>
+      <text x="683.3" y="2048.6" font-size="11" font-weight="650" fill="#3b4a43">재정경제부</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P15" data-basis="조세특례제한법:제142조" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="1143.1" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="1143.1" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="1163.1" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P15</text>
+      
+      <rect x="862.3" y="1150.1" width="66" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="895.3" y="1167.1" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §142</text>
+      <text x="683.3" y="1200.1" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">주요 조세특례 평가결과 국회 제출</tspan></text>
+      <text x="683.3" y="1225.1" font-size="11" font-weight="650" fill="#3b4a43">기한 · 회계연도 개시 120일 전까지 국회 제출…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P16" data-basis="조세특례제한법:제142조" filter="url(#card-shadow)">
+      
+      <rect x="284.8" y="652.3" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="284.8" y="652.3" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="299.8" y="672.3" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P16</text>
+      
+      <rect x="478.8" y="659.3" width="66" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="511.8" y="676.3" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §142</text>
+      <text x="299.8" y="709.3" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="299.8" dy="0">존치 의견서 필수 내용 포함</tspan></text>
+      <text x="299.8" y="734.3" font-size="11" font-weight="650" fill="#3b4a43">기한 · 매년 4월 30일까지(제142조제3항 기한…</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="P17" data-basis="조세특례제한법:제142조의3" filter="url(#card-shadow)">
+      
+      <rect x="668.3" y="2080.6" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="668.3" y="2080.6" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="683.3" y="2100.6" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">P17</text>
+      
+      <rect x="826.3" y="2087.6" width="102" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="877.3" y="2104.6" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §142의3 +1</text>
+      <text x="683.3" y="2137.6" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="683.3" dy="0">조세지출결산서 작성</tspan></text>
+      <text x="683.3" y="2162.6" font-size="11" font-weight="650" fill="#3b4a43">재정경제부</text>
+    </g>
+  
+
+    <g class="pp-node" data-node-id="S01" data-basis="국가재정법:제9조" filter="url(#card-shadow)">
+      
+      <rect x="1435.3" y="1646.7" width="270" height="90" rx="8" fill="#ffffff" stroke="#3b4a43" stroke-width="2.3"/>
+      <rect x="1435.3" y="1646.7" width="6" height="90" rx="3" fill="#3b4a43"/>
+      <text x="1450.3" y="1666.7" class="mono" font-size="12.5" font-weight="750" fill="#3b4a43">▣ S01</text>
+      
+      <rect x="1643.3" y="1653.7" width="52" height="24" rx="5" fill="#3b4a43" opacity="0.14"/>
+      <text x="1669.3" y="1670.7" text-anchor="middle" font-size="12" font-weight="800" fill="#17231d">법 §9</text>
+      <text x="1450.3" y="1703.7" font-size="15.5" font-weight="800" fill="#17231d"><tspan x="1450.3" dy="0">국세감면 실적·조세지출 공개</tspan></text>
+      <text x="1450.3" y="1728.7" font-size="11" font-weight="650" fill="#3b4a43">재정정보 공개시스템</text>
+    </g>
+  
+
+</svg>4:["$","$Lf",null,{"law":{"lawId":"001584","mst":"284389","name":"조세특례제한법","kind":"법률","tier":"statute","effectiveOn":"2026-09-18","officialUrl":"https://www.law.go.kr/법령/조세특례제한법"},"flows":[{"slug":"tax-expenditure","name":"조세특례","oneLiner":"비과세·감면·세액공제 등으로 세금을 깎아 특정 활동을 지원하는 제도. 예산으로 돈을 주는 대신 세금을 덜 걷는 '숨은 보조금'이다.","citingSteps":15,"totalSteps":18,"articles":{"제142조":11,"제142조의2":1,"제142조의3":1}},{"slug":"hometown-donation","name":"고향사랑기부제","oneLiner":"개인이 자신의 주소지가 아닌 지자체에 기부하면 세액공제와 답례품을 받고, 지자체는 그 돈을 주민복리 사업에 쓰는 제도. 지역 재정 확충과 균형발전을 노린다.","citingSteps":1,"totalSteps":17,"articles":{"제58조":1}}],"current":"$4:props:flows:0","asOfDate":"2026-07-10","reviewNote":"주요 절차를 요약한 참고 모델입니다. 모든 예외·위임규정의 현행성까지 전수 검증한 자료는 아닙니다. 법령 체계의 보관 자료와 현행 원문은 다를 수 있습니다.","svg":"$10","nodes":[{"id":"P01","name":"조세특례 기본계획 수립","lane":"재정경제부","stage":"G0 기본계획","type":"task","status":"done","progress":100,"actor":"재정경제부","action":"기본계획 수립","output_documents":["조세특례 기본계획(안)"],"deadline":"매년 3월 31일까지 국무회의 심의","confidence":0.85,"legal_basis":[{"law":"조세특례제한법","article":"제142조","text":"재정경제부장관은 조세특례 기본계획을 수립한다."}]},{"id":"P02","name":"기본계획 국무회의 심의·통보","lane":"국무회의","stage":"G0 기본계획","type":"gateway","status":"done","progress":100,"actor":"국무회의","receiver":"각 중앙행정기관","action":"심의·통보","condition":"조세특례 기본방향·정비계획 확정 여부","output_documents":["확정 기본계획"],"confidence":0.83,"legal_basis":[{"law":"조세특례제한법","article":"제142조","text":"기본계획은 국무회의 심의를 거쳐 각 부처에 통보한다."}]},{"id":"P03","name":"부처 조세감면 건의","lane":"각 중앙행정기관","stage":"G1 감면 건의","type":"task","status":"done","progress":100,"actor":"각 중앙행정기관","receiver":"재정경제부","action":"감면 건의","output_documents":["조세감면 건의서"],"deadline":"매년 4월 30일까지","confidence":0.82,"legal_basis":[{"law":"조세특례제한법","article":"제142조","text":"각 부처는 소관 조세감면의 신설·연장 등을 재정경제부에 건의한다."}]},{"id":"P04","name":"신규·연장 감면 요구 접수","lane":"재정경제부","stage":"G1 감면 건의","type":"task","status":"done","progress":100,"actor":"재정경제부","action":"요구 접수","input_documents":["조세감면 건의서"],"output_documents":["감면 요구 목록"],"confidence":0.82,"legal_basis":[{"law":"조세특례제한법","article":"제142조","text":"재정경제부장관은 부처 건의를 취합하여 검토한다."}]},{"id":"P05","name":"예비타당성조사 대상 판정(연 300억↑)","lane":"재정경제부","stage":"G2 전문평가(예타·심층)","type":"gateway","status":"current","progress":45,"actor":"재정경제부","action":"예타 대상 판정","condition":"연간 조세지출 300억원 이상 신규 감면은 예비타당성조사 대상","input_documents":["감면 요구 목록"],"output_documents":["예타 대상 판정 결과"],"confidence":0.8,"legal_basis":[{"law":"조세특례제한법","article":"제142조제6항","text":"정부는 연간 조세특례금액 300억원 이상 조세특례를 신규 도입하는 법률안을 제출할 때 전문 조사·연구기관의 평가결과를 첨부하여야 한다."},{"law":"조세특례 예비타당성평가 운용지침","article":"제5조(예비타당성평가 대상)","text":"신규 도입하려는 조세특례 중 연간 조세특례금액이 300억원 이상인 것을 예비타당성평가 대상으로 한다."}]},{"id":"P06","name":"조세특례 예타·심층평가 수행","lane":"KDI 등 평가기관","stage":"G2 전문평가(예타·심층)","type":"task","status":"waiting","progress":0,"actor":"KDI 등 평가기관","receiver":"재정경제부","action":"전문평가","output_documents":["예비타당성조사 보고서","심층평가 보고서"],"confidence":0.76,"legal_basis":[{"law":"조세특례 예비타당성평가 운용지침","article":"제20조(예비타당성평가 수행기관)","text":"예비타당성평가는 한국조세재정연구원·한국개발연구원 등 전문기관을 수행기관으로 지정하여 실시한다."},{"law":"조세특례 심층평가 운용지침","article":"제13조(심층평가 수행기관)","text":"심층평가는 한국조세재정연구원·한국개발연구원 등 전문기관을 수행기관으로 지정하여 실시한다."}]},{"id":"P07","name":"평가 결과 검토","lane":"재정경제부","stage":"G2 전문평가(예타·심층)","type":"gateway","status":"waiting","progress":0,"actor":"재정경제부","action":"결과 검토","condition":"평가 결과의 반영·보완 필요 여부","input_documents":["예비타당성조사 보고서","심층평가 보고서"],"output_documents":["평가 반영 방향"],"confidence":0.77,"legal_basis":[{"law":"조세특례제한법","article":"제142조","text":"평가 결과를 조세특례 신설·연장 판단에 반영한다."}]},{"id":"P08","name":"재정경제부 검토·조정","lane":"재정경제부","stage":"G3 재정경제부 심사·조정","type":"task","status":"risk","progress":0,"actor":"재정경제부","action":"검토·조정","output_documents":["조세특례 조정안"],"blocker":"일몰 도래 특례가 관성적으로 연장되고 폐지가 어렵다(운영 추정)","confidence":0.74,"legal_basis":[{"law":"조세특례제한법","article":"제142조","text":"재정경제부장관은 감면 신설·연장·폐지를 종합 검토·조정한다."}]},{"id":"P09","name":"세법개정안(조특법) 반영","lane":"재정경제부","stage":"G4 세법개정·국회","type":"task","status":"waiting","progress":0,"actor":"재정경제부","action":"개정안 반영","input_documents":["조세특례 조정안"],"output_documents":["세법개정안(조특법)"],"confidence":0.8,"legal_basis":[{"law":"조세특례제한법","article":"개별 감면조항","text":"정부는 조세특례를 세법개정안에 반영하여 제출한다.","unverified":true}]},{"id":"P10","name":"국회 심의·의결","lane":"국회","stage":"G4 세법개정·국회","type":"gateway","status":"waiting","progress":0,"actor":"국회","action":"심의·의결","condition":"조특법 개정으로 신설·연장·폐지 확정 여부","input_documents":["세법개정안(조특법)"],"output_documents":["조특법 개정 결과"],"confidence":0.8,"legal_basis":[{"law":"조세특례제한법","article":"개정 절차","text":"조세특례는 국회의 조세특례제한법 개정으로 확정된다.","unverified":true}]},{"id":"P11","name":"조세지출예산서 작성·첨부","lane":"재정경제부","stage":"G5 조세지출예산서","type":"task","status":"waiting","progress":0,"actor":"재정경제부","action":"예산서 작성","output_documents":["조세지출예산서"],"confidence":0.83,"legal_basis":[{"law":"조세특례제한법","article":"제142조의2","text":"재정경제부장관은 조세지출예산서를 작성한다."},{"law":"국가재정법","article":"제34조","text":"조세지출예산서를 예산안 첨부서류로 포함한다."}]},{"id":"P12","name":"예산안 국회 제출","lane":"재정경제부","stage":"G5 조세지출예산서","type":"notice","status":"waiting","progress":0,"actor":"재정경제부","receiver":"국회","action":"예산안 제출","input_documents":["조세지출예산서"],"output_documents":["예산안 첨부 조세지출예산서"],"deadline":"회계연도 개시 120일 전까지","confidence":0.82,"legal_basis":[{"law":"국가재정법","article":"제33조","text":"정부는 대통령의 승인을 얻은 예산안을 회계연도 개시 120일 전까지 국회에 제출하여야 한다."},{"law":"국가재정법","article":"제34조제10호","text":"국회에 제출하는 예산안에는 「조세특례제한법」 제142조의2에 따른 조세지출예산서를 첨부하여야 한다."}]},{"id":"P13","name":"일몰 도래 특례 심층평가","lane":"KDI 등 평가기관","stage":"G6 일몰·사후관리","type":"gateway","status":"risk","progress":0,"actor":"KDI 등 평가기관","action":"일몰 심층평가","condition":"일몰 도래 특례의 효과·존치 필요성 평가 결과","output_documents":["일몰 심층평가 결과"],"blocker":"감면의 귀착·실효성 검증이 곤란해 기득권화된다(운영 추정)","confidence":0.73,"legal_basis":[{"law":"조세특례제한법","article":"제142조","text":"일몰이 도래하는 조세특례는 심층평가를 거쳐 존치 여부를 판단한다."}]},{"id":"P14","name":"연장·폐지 결정","lane":"재정경제부","stage":"G6 일몰·사후관리","type":"task","status":"loop","progress":0,"actor":"재정경제부","action":"연장·폐지 결정","input_documents":["일몰 심층평가 결과"],"output_documents":["연장·폐지 결정"],"confidence":0.75,"legal_basis":[{"law":"조세특례제한법","article":"제142조","text":"심층평가 결과에 따라 조세특례의 연장 또는 폐지를 결정한다."}]},{"id":"P15","name":"주요 조세특례 평가결과 국회 제출","lane":"재정경제부","stage":"G2 전문평가(예타·심층)","type":"notice","status":"waiting","progress":0,"actor":"재정경제부","receiver":"국회","action":"적용기한 종료·연간 일정금액 이상 주요 조세특례의 전문기관 평가결과를 국회에 제출","input_documents":["심층평가 보고서"],"output_documents":["주요 조세특례 평가결과 보고서"],"deadline":"회계연도 개시 120일 전까지 국회 제출(법 제142조제5항)","confidence":0.8,"legal_basis":[{"law":"조세특례제한법","article":"제142조제5항","text":"적용기한 종료·연간 조세특례금액이 일정금액 이상인 주요 조세특례는 전문기관 평가결과를 회계연도 개시 120일 전까지 국회에 제출한다."}]},{"id":"P16","name":"존치 의견서 필수 내용 포함","lane":"각 중앙행정기관","stage":"G1 감면 건의","type":"task","status":"done","progress":100,"actor":"각 중앙행정기관","receiver":"재정경제부","action":"조세감면제도 존치 의견 제출 시 조세감면의 필요성·정책목표 예상 달성시기·세수감소에 따른 보완대책 등 대통령령으로 정하는 사항을 반드시 포함하여 제출","input_documents":["존치 의견(제142조제3항)"],"output_documents":["필수 내용 포함 존치 의견서"],"deadline":"매년 4월 30일까지(제142조제3항 기한 준용)","confidence":0.9,"legal_basis":[{"law":"조세특례제한법","article":"제142조제4항","text":"중앙행정기관의 장은 제3항에 따른 의견제출에서 조세감면제도를 계속 존치하여야 한다는 의견을 제출하는 경우에는 조세감면의 필요성, 정책목표의 예상 달성시기, 세수감소에 따른 보완대책 등 대통령령으로 정하는 사항을 반드시 포함하여 의견을 제출하여야 한다."}]},{"id":"P17","name":"조세지출결산서 작성","lane":"재정경제부","stage":"G6 일몰·사후관리","type":"task","status":"done","progress":100,"actor":"재정경제부","action":"조세지출의 직전 연도 실적을 분석한 조세지출결산서 작성; 필요시 관계 중앙행정기관 등에 자료 요청","input_documents":["관계 중앙행정기관 등 제출 자료"],"output_documents":["조세지출결산서"],"confidence":0.9,"legal_basis":[{"law":"조세특례제한법","article":"제142조의3제1항","text":"재정경제부장관은 조세지출의 직전 연도 실적을 분석한 보고서(조세지출결산서)를 작성하여야 한다."},{"law":"조세특례제한법","article":"제142조의3제2항","text":"재정경제부장관은 조세지출결산서를 작성하기 위하여 필요할 때에는 관계 중앙행정기관의 장 등에게 자료제출을 요청할 수 있다."}]},{"id":"S01","name":"국세감면 실적·조세지출 공개","lane":"정보시스템","stage":"G5 조세지출예산서","type":"system","status":"waiting","progress":0,"actor":"재정정보 공개시스템","action":"실적 공개","input_documents":["조세지출예산서","국세감면 실적 보고"],"output_documents":["공개 게시자료"],"confidence":0.72,"legal_basis":[{"law":"국가재정법","article":"제9조","text":"재정정보 공표 원칙에 따라 조세지출 규모를 공개한다."}]}],"edges":[{"id":"E01","source":"P01","target":"P02","type":"sequence","label":null},{"id":"E02","source":"P02","target":"P03","type":"sequence","label":null},{"id":"E03","source":"P03","target":"P04","type":"sequence","label":null},{"id":"E04","source":"P04","target":"P05","type":"sequence","label":null},{"id":"E05","source":"P05","target":"P06","type":"sequence","label":"예타 대상 해당"},{"id":"E06","source":"P06","target":"P07","type":"sequence","label":null},{"id":"E07","source":"P07","target":"P08","type":"sequence","label":null},{"id":"E08","source":"P08","target":"P09","type":"sequence","label":null},{"id":"E09","source":"P09","target":"P10","type":"sequence","label":null},{"id":"E10","source":"P10","target":"P11","type":"sequence","label":"개정 확정"},{"id":"E11","source":"P11","target":"P12","type":"sequence","label":null},{"id":"E12","source":"P12","target":"P13","type":"sequence","label":null},{"id":"E13","source":"P13","target":"P14","type":"sequence","label":"일몰 평가 결과"},{"id":"M01","source":"P02","target":"P03","type":"message","label":"기본계획 통보"},{"id":"M02","source":"P06","target":"P07","type":"message","label":"평가보고서 제출"},{"id":"M03","source":"P12","target":"S01","type":"message","label":"조세지출 공개"},{"id":"M04","source":"P06","target":"P15","type":"message","label":"평가결과 국회 제출"},{"id":"L01","source":"P14","target":"P08","type":"loop","label":"연장 반영 재검토 회귀"},{"id":"L02","source":"P07","target":"P06","type":"loop","label":"평가 보완 요구"},{"id":"E14","source":"P03","target":"P16","type":"sequence","label":"존치 의견 제출 시"},{"id":"E15","source":"P16","target":"P04","type":"sequence","label":"필수 내용 포함 존치 의견서"},{"id":"E16","source":"P14","target":"P17","type":"sequence","label":"사후 결산 작성"}],"lawContext":{"byNode":{"P01":[{"law":"조세특례제한법","article":"제142조","text":"재정경제부장관은 조세특례 기본계획을 수립한다.","found":true,"lawId":"001584","tier":"statute","articles":[{"label":"제142조","title":"조세특례의 사전ㆍ사후관리","officialUrl":"https://www.law.go.kr/법령/조세특례제한법/제142조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 조세특례사항에","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"보완대책 등 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 일정금액","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 내용에","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 내용이 포함된","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"지정과 그 밖에 필요한 사항은 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"지정과 그 밖에 필요한 사항은 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조의2","title":"조세특례 평가 등에 대한 전문적인 조사ㆍ연구기관의 지정","tier":"decree"}]}]}],"P02":[{"law":"조세특례제한법","article":"제142조","text":"기본계획은 국무회의 심의를 거쳐 각 부처에 통보한다.","found":true,"lawId":"001584","tier":"statute","articles":[{"label":"제142조","title":"조세특례의 사전ㆍ사후관리","officialUrl":"https://www.law.go.kr/법령/조세특례제한법/제142조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 조세특례사항에","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"보완대책 등 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 일정금액","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 내용에","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 내용이 포함된","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"지정과 그 밖에 필요한 사항은 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"지정과 그 밖에 필요한 사항은 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조의2","title":"조세특례 평가 등에 대한 전문적인 조사ㆍ연구기관의 지정","tier":"decree"}]}]}],"P03":[{"law":"조세특례제한법","article":"제142조","text":"각 부처는 소관 조세감면의 신설·연장 등을 재정경제부에 건의한다.","found":true,"lawId":"001584","tier":"statute","articles":[{"label":"제142조","title":"조세특례의 사전ㆍ사후관리","officialUrl":"https://www.law.go.kr/법령/조세특례제한법/제142조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 조세특례사항에","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"보완대책 등 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 일정금액","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 내용에","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 내용이 포함된","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"지정과 그 밖에 필요한 사항은 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"지정과 그 밖에 필요한 사항은 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조의2","title":"조세특례 평가 등에 대한 전문적인 조사ㆍ연구기관의 지정","tier":"decree"}]}]}],"P04":[{"law":"조세특례제한법","article":"제142조","text":"재정경제부장관은 부처 건의를 취합하여 검토한다.","found":true,"lawId":"001584","tier":"statute","articles":[{"label":"제142조","title":"조세특례의 사전ㆍ사후관리","officialUrl":"https://www.law.go.kr/법령/조세특례제한법/제142조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 조세특례사항에","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"보완대책 등 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 일정금액","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 내용에","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 내용이 포함된","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"지정과 그 밖에 필요한 사항은 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"지정과 그 밖에 필요한 사항은 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조의2","title":"조세특례 평가 등에 대한 전문적인 조사ㆍ연구기관의 지정","tier":"decree"}]}]}],"P05":[{"law":"조세특례제한법","article":"제142조제6항","text":"정부는 연간 조세특례금액 300억원 이상 조세특례를 신규 도입하는 법률안을 제출할 때 전문 조사·연구기관의 평가결과를 첨부하여야 한다.","found":true,"lawId":"001584","tier":"statute","articles":[{"label":"제142조","title":"조세특례의 사전ㆍ사후관리","officialUrl":"https://www.law.go.kr/법령/조세특례제한법/제142조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 조세특례사항에","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"보완대책 등 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 일정금액","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 내용에","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 내용이 포함된","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"지정과 그 밖에 필요한 사항은 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"지정과 그 밖에 필요한 사항은 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조의2","title":"조세특례 평가 등에 대한 전문적인 조사ㆍ연구기관의 지정","tier":"decree"}]}]},{"law":"조세특례 예비타당성평가 운용지침","article":"제5조(예비타당성평가 대상)","text":"신규 도입하려는 조세특례 중 연간 조세특례금액이 300억원 이상인 것을 예비타당성평가 대상으로 한다.","found":false,"lawId":null,"tier":null,"articles":[{"label":"제5조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P06":[{"law":"조세특례 예비타당성평가 운용지침","article":"제20조(예비타당성평가 수행기관)","text":"예비타당성평가는 한국조세재정연구원·한국개발연구원 등 전문기관을 수행기관으로 지정하여 실시한다.","found":false,"lawId":null,"tier":null,"articles":[{"label":"제20조","title":null,"officialUrl":null,"up":[],"down":[]}]},{"law":"조세특례 심층평가 운용지침","article":"제13조(심층평가 수행기관)","text":"심층평가는 한국조세재정연구원·한국개발연구원 등 전문기관을 수행기관으로 지정하여 실시한다.","found":false,"lawId":null,"tier":null,"articles":[{"label":"제13조","title":null,"officialUrl":null,"up":[],"down":[]}]}],"P07":[{"law":"조세특례제한법","article":"제142조","text":"평가 결과를 조세특례 신설·연장 판단에 반영한다.","found":true,"lawId":"001584","tier":"statute","articles":[{"label":"제142조","title":"조세특례의 사전ㆍ사후관리","officialUrl":"https://www.law.go.kr/법령/조세특례제한법/제142조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 조세특례사항에","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"보완대책 등 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 일정금액","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 내용에","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 내용이 포함된","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"지정과 그 밖에 필요한 사항은 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"지정과 그 밖에 필요한 사항은 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조의2","title":"조세특례 평가 등에 대한 전문적인 조사ㆍ연구기관의 지정","tier":"decree"}]}]}],"P08":[{"law":"조세특례제한법","article":"제142조","text":"재정경제부장관은 감면 신설·연장·폐지를 종합 검토·조정한다.","found":true,"lawId":"001584","tier":"statute","articles":[{"label":"제142조","title":"조세특례의 사전ㆍ사후관리","officialUrl":"https://www.law.go.kr/법령/조세특례제한법/제142조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 조세특례사항에","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"보완대책 등 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 일정금액","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 내용에","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 내용이 포함된","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"지정과 그 밖에 필요한 사항은 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"지정과 그 밖에 필요한 사항은 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조의2","title":"조세특례 평가 등에 대한 전문적인 조사ㆍ연구기관의 지정","tier":"decree"}]}]}],"P09":[{"law":"조세특례제한법","article":"개별 감면조항","text":"정부는 조세특례를 세법개정안에 반영하여 제출한다.","found":true,"lawId":"001584","tier":"statute","articles":[]}],"P10":[{"law":"조세특례제한법","article":"개정 절차","text":"조세특례는 국회의 조세특례제한법 개정으로 확정된다.","found":true,"lawId":"001584","tier":"statute","articles":[]}],"P11":[{"law":"조세특례제한법","article":"제142조의2","text":"재정경제부장관은 조세지출예산서를 작성한다.","found":true,"lawId":"001584","tier":"statute","articles":[{"label":"제142조의2","title":"조세지출예산서의 작성","officialUrl":"https://www.law.go.kr/법령/조세특례제한법/제142조의2","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"조세특례제한법 시행령","label":"제135조의3","title":"조세지출예산서의 작성","tier":"decree"},{"kind":"decree","phrase":"관하여는 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조의3","title":"조세지출예산서의 작성","tier":"decree"}]}]},{"law":"국가재정법","article":"제34조","text":"조세지출예산서를 예산안 첨부서류로 포함한다.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제34조","title":"예산안의 첨부서류","officialUrl":"https://www.law.go.kr/법령/국가재정법/제34조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제11조의2","title":"예산안의 첨부서류","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제11조의2","title":"예산안의 첨부서류","tier":"decree"}]}]}],"P12":[{"law":"국가재정법","article":"제33조","text":"정부는 대통령의 승인을 얻은 예산안을 회계연도 개시 120일 전까지 국회에 제출하여야 한다.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제33조","title":"예산안의 국회제출","officialUrl":"https://www.law.go.kr/법령/국가재정법/제33조","up":[],"down":[]}]},{"law":"국가재정법","article":"제34조제10호","text":"국회에 제출하는 예산안에는 「조세특례제한법」 제142조의2에 따른 조세지출예산서를 첨부하여야 한다.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제34조","title":"예산안의 첨부서류","officialUrl":"https://www.law.go.kr/법령/국가재정법/제34조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제11조의2","title":"예산안의 첨부서류","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제11조의2","title":"예산안의 첨부서류","tier":"decree"}]}]}],"P13":[{"law":"조세특례제한법","article":"제142조","text":"일몰이 도래하는 조세특례는 심층평가를 거쳐 존치 여부를 판단한다.","found":true,"lawId":"001584","tier":"statute","articles":[{"label":"제142조","title":"조세특례의 사전ㆍ사후관리","officialUrl":"https://www.law.go.kr/법령/조세특례제한법/제142조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 조세특례사항에","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"보완대책 등 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 일정금액","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 내용에","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 내용이 포함된","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"지정과 그 밖에 필요한 사항은 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"지정과 그 밖에 필요한 사항은 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조의2","title":"조세특례 평가 등에 대한 전문적인 조사ㆍ연구기관의 지정","tier":"decree"}]}]}],"P14":[{"law":"조세특례제한법","article":"제142조","text":"심층평가 결과에 따라 조세특례의 연장 또는 폐지를 결정한다.","found":true,"lawId":"001584","tier":"statute","articles":[{"label":"제142조","title":"조세특례의 사전ㆍ사후관리","officialUrl":"https://www.law.go.kr/법령/조세특례제한법/제142조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 조세특례사항에","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"보완대책 등 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 일정금액","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 내용에","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 내용이 포함된","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"지정과 그 밖에 필요한 사항은 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"지정과 그 밖에 필요한 사항은 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조의2","title":"조세특례 평가 등에 대한 전문적인 조사ㆍ연구기관의 지정","tier":"decree"}]}]}],"P15":[{"law":"조세특례제한법","article":"제142조제5항","text":"적용기한 종료·연간 조세특례금액이 일정금액 이상인 주요 조세특례는 전문기관 평가결과를 회계연도 개시 120일 전까지 국회에 제출한다.","found":true,"lawId":"001584","tier":"statute","articles":[{"label":"제142조","title":"조세특례의 사전ㆍ사후관리","officialUrl":"https://www.law.go.kr/법령/조세특례제한법/제142조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 조세특례사항에","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"보완대책 등 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 일정금액","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 내용에","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 내용이 포함된","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"지정과 그 밖에 필요한 사항은 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"지정과 그 밖에 필요한 사항은 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조의2","title":"조세특례 평가 등에 대한 전문적인 조사ㆍ연구기관의 지정","tier":"decree"}]}]}],"P16":[{"law":"조세특례제한법","article":"제142조제4항","text":"중앙행정기관의 장은 제3항에 따른 의견제출에서 조세감면제도를 계속 존치하여야 한다는 의견을 제출하는 경우에는 조세감면의 필요성, 정책목표의 예상 달성시기, 세수감소에 따른 보완대책 등 대통령령으로 정하는 사항을 반드시 포함하여 의견을 제출하여야 한다.","found":true,"lawId":"001584","tier":"statute","articles":[{"label":"제142조","title":"조세특례의 사전ㆍ사후관리","officialUrl":"https://www.law.go.kr/법령/조세특례제한법/제142조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 조세특례사항에","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"보완대책 등 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 일정금액","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 내용에","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는 내용이 포함된","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"지정과 그 밖에 필요한 사항은 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조","title":"조세특례의 사전ㆍ사후관리","tier":"decree"},{"kind":"decree","phrase":"지정과 그 밖에 필요한 사항은 대통령령으로","lawName":"조세특례제한법 시행령","label":"제135조의2","title":"조세특례 평가 등에 대한 전문적인 조사ㆍ연구기관의 지정","tier":"decree"}]}]}],"P17":[{"law":"조세특례제한법","article":"제142조의3제1항","text":"재정경제부장관은 조세지출의 직전 연도 실적을 분석한 보고서(조세지출결산서)를 작성하여야 한다.","found":true,"lawId":"001584","tier":"statute","articles":[{"label":"제142조의3","title":"조세지출결산서의 작성","officialUrl":"https://www.law.go.kr/법령/조세특례제한법/제142조의3","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 자에게","lawName":"조세특례제한법 시행령","label":"제135조의4","title":"조세지출결산서의 작성","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"조세특례제한법 시행령","label":"제135조의4","title":"조세지출결산서의 작성","tier":"decree"}]}]},{"law":"조세특례제한법","article":"제142조의3제2항","text":"재정경제부장관은 조세지출결산서를 작성하기 위하여 필요할 때에는 관계 중앙행정기관의 장 등에게 자료제출을 요청할 수 있다.","found":true,"lawId":"001584","tier":"statute","articles":[{"label":"제142조의3","title":"조세지출결산서의 작성","officialUrl":"https://www.law.go.kr/법령/조세특례제한법/제142조의3","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는 자에게","lawName":"조세특례제한법 시행령","label":"제135조의4","title":"조세지출결산서의 작성","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정한다","lawName":"조세특례제한법 시행령","label":"제135조의4","title":"조세지출결산서의 작성","tier":"decree"}]}]}],"S01":[{"law":"국가재정법","article":"제9조","text":"재정정보 공표 원칙에 따라 조세지출 규모를 공개한다.","found":true,"lawId":"010301","tier":"statute","articles":[{"label":"제9조","title":"재정정보의 공표","officialUrl":"https://www.law.go.kr/법령/국가재정법/제9조","up":[],"down":[{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제5조","title":"재정정보의 공표","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제5조","title":"재정정보의 공표","tier":"decree"},{"kind":"decree","phrase":"대통령령으로 정하는","lawName":"국가재정법 시행령","label":"제5조","title":"재정정보의 공표","tier":"decree"},{"kind":"decree","phrase":"사항은 대통령령으로","lawName":"국가재정법 시행령","label":"제5조","title":"재정정보의 공표","tier":"decree"}]}]}]},"systems":{"001584":{"lawId":"001584","name":"조세특례제한법","href":"/law/001584/","ministry":"재정경제부","effectiveOn":"2026-09-18","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"조세특례제한법","kind":"법률","articleCount":462,"officialUrl":"https://www.law.go.kr/법령/조세특례제한법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":462},{"tier":"decree","label":"시행령","laws":[{"name":"조세특례제한법 시행령","kind":"대통령령","articleCount":450,"officialUrl":"https://www.law.go.kr/법령/조세특례제한법시행령"},{"name":"농ㆍ축산ㆍ임ㆍ어업용 기자재 및 석유류에 대한 부가가치세 영세율 및 면세 적용 등에 관한 특례규정","kind":"대통령령","articleCount":34,"officialUrl":"https://www.law.go.kr/법령/농ㆍ축산ㆍ임ㆍ어업용기자재및석유류에대한부가가치세영세율및면세적용등에관한특례규정"},{"name":"외국인관광객 등에 대한 부가가치세 및 개별소비세 특례규정","kind":"대통령령","articleCount":20,"officialUrl":"https://www.law.go.kr/법령/외국인관광객등에대한부가가치세및개별소비세특례규정"},{"name":"제주특별자치도 여행객에 대한 면세점 특례 규정","kind":"대통령령","articleCount":17,"officialUrl":"https://www.law.go.kr/법령/제주특별자치도여행객에대한면세점특례규정"}],"kinds":[{"kind":"대통령령","count":4}],"articleCount":521},{"tier":"rule","label":"시행규칙","laws":[{"name":"조세특례제한법 시행규칙","kind":"기후에너지환경부령","articleCount":167,"officialUrl":"https://www.law.go.kr/법령/조세특례제한법시행규칙"},{"name":"농ㆍ축산ㆍ임ㆍ어업용 기자재 및 석유류에 대한 부가가치세 영세율 및 면세 적용 등에 관한 특례규정 시행규칙","kind":"재정경제부령","articleCount":15,"officialUrl":"https://www.law.go.kr/법령/농ㆍ축산ㆍ임ㆍ어업용기자재및석유류에대한부가가치세영세율및면세적용등에관한특례규정시행규칙"},{"name":"외국인관광객 등에 대한 부가가치세 및 개별소비세 특례규정 시행규칙","kind":"재정경제부령","articleCount":13,"officialUrl":"https://www.law.go.kr/법령/외국인관광객등에대한부가가치세및개별소비세특례규정시행규칙"}],"kinds":[{"kind":"재정경제부령","count":2},{"kind":"기후에너지환경부령","count":1}],"articleCount":195},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"근로장려세제·자녀장려세제 사무처리규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/근로장려세제·자녀장려세제사무처리규정"},{"name":"혁신도시 계획기준","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/혁신도시계획기준"},{"name":"고유목적사업준비금 손금산입특례대상 문화예술단체","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고유목적사업준비금손금산입특례대상문화예술단체"},{"name":"기술혁신형 중소기업 인증에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/기술혁신형중소기업인증에관한고시"},{"name":"부가가치세 매입자 납부특례제도를 운영하는 금융회사의 지정 등에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/부가가치세매입자납부특례제도를운영하는금융회사의지정등에관한고시"},{"name":"사내기술대학(원)의인정및사후관리등에관한기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/사내기술대학(원)의인정및사후관리등에관한기준"},{"name":"시설재용품국내제작곤란물품추천업무처리규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/시설재용품국내제작곤란물품추천업무처리규정"},{"name":"외국사업자에 대한 부가가치세 환급관리에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/외국사업자에대한부가가치세환급관리에관한고시"},{"name":"외국환거래규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/외국환거래규정"},{"name":"직업교육훈련계약의 체결 및 운영에 관한 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/직업교육훈련계약의체결및운영에관한규정"},{"name":"핵심전략기술과 그 관련 품목 및 소재·부품·장비 분야 경제안보품목등의 선정·확인·재검토 세부절차 등에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/핵심전략기술과그관련품목및소재·부품·장비분야경제안보품목등의선정·확인·재검토세부절차등에관한고시"},{"name":"국세청 「국세 체납관리단」 운영 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국세청「국세체납관리단」운영규정"},{"name":"군 매점 면세주류 운영 훈령","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/군매점면세주류운영훈령"},{"name":"부가가치세 영세율 적용에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/부가가치세영세율적용에관한규정"},{"name":"연구·인력개발비 세액공제 사전심사 사무처리규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/연구·인력개발비세액공제사전심사사무처리규정"},{"name":"조세특례 심층평가 운용지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/조세특례심층평가운용지침"},{"name":"조세특례 예비타당성평가 운용지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/조세특례예비타당성평가운용지침"},{"name":"톤세제 적용 적격기업 확인서발급 사무처리 요령","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/톤세제적용적격기업확인서발급사무처리요령"},{"name":"근로장려금 신청자격 확인을 위한 임차주택 전세금 평가방법 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/근로장려금신청자격확인을위한임차주택전세금평가방법고시"},{"name":"근로장려금·자녀장려금 신청자격 확인을 위한 근로소득, 사업소득 또는 종교인소득 증거자료 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/근로장려금·자녀장려금신청자격확인을위한근로소득,사업소득또는종교인소득증거자료고시"},{"name":"농·임·어업용면세유 공급절차 및 면세유류판매업자의 환급(공제) 신청에 따른 감면세액의 환급절차 등 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/농·임·어업용면세유공급절차및면세유류판매업자의환급(공제)신청에따른감면세액의환급절차등고시"},{"name":"면세유 등의 관리자료 제출에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/면세유등의관리자료제출에관한고시"},{"name":"부가가치세 대리납부를 운영하는 신용카드업자의 지정 등에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/부가가치세대리납부를운영하는신용카드업자의지정등에관한고시"},{"name":"상호저축은행 구조개선적립금 관리·운용 기준","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/상호저축은행구조개선적립금관리·운용기준"},{"name":"소득공제가 되는 신용카드 등 사용금액 확인 등에 대한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/소득공제가되는신용카드등사용금액확인등에대한고시"},{"name":"소득세 감면대상 성과보상기금 공제사업에 관한 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/소득세감면대상성과보상기금공제사업에관한규정"},{"name":"신기술기업화사업 인정 지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/신기술기업화사업인정지침"},{"name":"연안화물선용 경유 공급 및 관리 지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/연안화물선용경유공급및관리지침"},{"name":"외국인 관광객 숙박용역에 대한 부가가치세의 특례 관련 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/외국인관광객숙박용역에대한부가가치세의특례관련고시"},{"name":"외국인관광객 미용성형 의료용역에 대한 부가가치세의 특례 관련 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/외국인관광객미용성형의료용역에대한부가가치세의특례관련고시"},{"name":"외국인투자에 대한 조세감면규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/외국인투자에대한조세감면규정"},{"name":"입국경로 보세판매장 공급실적명세서 및 주류반입신고서 서식 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/입국경로보세판매장공급실적명세서및주류반입신고서서식고시"},{"name":"재기중소기업인의 체납액 등에 대한 과세특례 등의 적용 범위에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/재기중소기업인의체납액등에대한과세특례등의적용범위에관한고시"},{"name":"조세특례제한법 시행령 제111조제2항의 규정에 의한 재정경제부장관이 정하여 고시하는 법인","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/조세특례제한법시행령제111조제2항의규정에의한재정경제부장관이정하여고시하는법인"},{"name":"조세특례제한법 시행령상 재정경제부 장관이 정하는 부가가치세가 면제되는 정부업무를 대행하는 단체인 국제경기대회 지원법에 따라 설립된 조직위원회","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/조세특례제한법시행령상재정경제부장관이정하는부가가치세가면제되는정부업무를대행하는단체인국제경기대회지원법에따라설립된조직위원회"},{"name":"첨단기술 및 제품의 범위","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/첨단기술및제품의범위"},{"name":"한국표준산업분류","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/한국표준산업분류"},{"name":"해운업 연근해 및 원양노선의 범위에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/해운업연근해및원양노선의범위에관한고시"},{"name":"현금영수증사업자가 지켜야 할 사항 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/현금영수증사업자가지켜야할사항고시"},{"name":"어업용 면세유류 공급 및 사후관리 요령","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/어업용면세유류공급및사후관리요령"},{"name":"재정경제부 소관 법령에 따른 행정처분 및 과태료의 가중처분에 관한 세부지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/재정경제부소관법령에따른행정처분및과태료의가중처분에관한세부지침"},{"name":"농업용 면세유 공급 및 관리규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/농업용면세유공급및관리규정"},{"name":"사료의 부가가치세 영세율을 적용받는 축산계열화사업자의 범위 등에 관한 규정","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/사료의부가가치세영세율을적용받는축산계열화사업자의범위등에관한규정"},{"name":"임업용 면세유류 공급지침","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/임업용면세유류공급지침"},{"name":"축산업·어업 주업법인 확인서 교부절차 및 서식 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/축산업·어업주업법인확인서교부절차및서식고시"},{"name":"제주국제자유도시 지정면세점 운영에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/제주국제자유도시지정면세점운영에관한고시"},{"name":"제주도여행객 면세점 공급실적명세서 및 지정면세점 주류반입신고서 서식 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/제주도여행객면세점공급실적명세서및지정면세점주류반입신고서서식고시"},{"name":"고유목적사업준비금 손금산입특례가 적용되는 조직위원회","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/고유목적사업준비금손금산입특례가적용되는조직위원회"},{"name":"관세ㆍ통계통합품목분류표","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/관세ㆍ통계통합품목분류표"},{"name":"사후관리에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/사후관리에관한고시"},{"name":"신용회복목적회사 지정에 관한 고시","kind":"고시","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/신용회복목적회사지정에관한고시"},{"name":"신용회복목적회사 신규 지정에 관한 고시","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/신용회복목적회사신규지정에관한고시"},{"name":"관세·통계통합품목분류표","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/관세·통계통합품목분류표"},{"name":"연구·인력개발비 사전심사 사무처리규정","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/연구·인력개발비사전심사사무처리규정"},{"name":"근로장려금·자녀장려금 신청자격 확인을 위한 근로소득 또는 사업소득 증거자료 고시","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/근로장려금·자녀장려금신청자격확인을위한근로소득또는사업소득증거자료고시"},{"name":"조세특례제한법 시행령상 기획재정부 장관이 정하는 부가가치세가 면제되는 정부업무를 대행하는 단체인 국제경기대회 지원법에 따라 설립된 조직위원회","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/조세특례제한법시행령상기획재정부장관이정하는부가가치세가면제되는정부업무를대행하는단체인국제경기대회지원법에따라설립된조직위원회"},{"name":"조세특례제한법 시행령 제111조제2항의 규정에 의한 기획재정부장관이 정하여 고시하는 법인","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/조세특례제한법시행령제111조제2항의규정에의한기획재정부장관이정하여고시하는법인"},{"name":"가축계열화사업자의 범위 및 지정방법","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/가축계열화사업자의범위및지정방법"},{"name":"축산업ㆍ어업 주업법인 확인서 교부절차 및 서식 고시","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/축산업ㆍ어업주업법인확인서교부절차및서식고시"},{"name":"농업용 면세유류 공급요령","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/농업용면세유류공급요령"},{"name":"핵심전략기술 및 핵심전략기술과 관련된 품목, 핵심전략기술 선정·재검토 세부절차 등에 관한 고시","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/핵심전략기술및핵심전략기술과관련된품목,핵심전략기술선정·재검토세부절차등에관한고시"}],"kinds":[{"kind":"고시","count":40},{"kind":"행정규칙","count":10},{"kind":"훈령","count":9},{"kind":"예규","count":2}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EC%A1%B0%EC%84%B8%ED%8A%B9%EB%A1%80%EC%A0%9C%ED%95%9C%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":1405,"rule":707,"adminRule":87,"ordinance":5,"cites":2540}},"010301":{"lawId":"010301","name":"국가재정법","href":"/law/010301/","ministry":"기획예산처","effectiveOn":"2026-09-11","tiers":[{"tier":"statute","label":"법률","laws":[{"name":"국가재정법","kind":"법률","articleCount":128,"officialUrl":"https://www.law.go.kr/법령/국가재정법"}],"kinds":[{"kind":"법률","count":1}],"articleCount":128},{"tier":"decree","label":"시행령","laws":[{"name":"국가재정법 시행령","kind":"대통령령","articleCount":71,"officialUrl":"https://www.law.go.kr/법령/국가재정법시행령"},{"name":"예산성과금 규정","kind":"대통령령","articleCount":22,"officialUrl":"https://www.law.go.kr/법령/예산성과금규정"}],"kinds":[{"kind":"대통령령","count":2}],"articleCount":93},{"tier":"rule","label":"시행규칙","laws":[{"name":"국가보증채무 관리 규칙","kind":"재정경제부령","articleCount":8,"officialUrl":"https://www.law.go.kr/법령/국가보증채무관리규칙"}],"kinds":[{"kind":"재정경제부령","count":1}],"articleCount":8},{"tier":"adminRule","label":"행정규칙","laws":[{"name":"국가연구개발사업 예비타당성조사 수행 총괄지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국가연구개발사업예비타당성조사수행총괄지침"},{"name":"국가연구개발사업 예비타당성조사 운용지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국가연구개발사업예비타당성조사운용지침"},{"name":"국내은행의 외화채무 국가보증에 관한 운영지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국내은행의외화채무국가보증에관한운영지침"},{"name":"기금 여유자금의 통합운용 등에 관한 규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/기금여유자금의통합운용등에관한규정"},{"name":"기획예산처 예산집행심의회 운영규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/기획예산처예산집행심의회운영규정"},{"name":"예산·기금의 불법지출에 대한 국민감시 및 예산낭비신고센터의 설치·운영에 관한 지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/예산·기금의불법지출에대한국민감시및예산낭비신고센터의설치·운영에관한지침"},{"name":"재정사업심층평가 운용지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/재정사업심층평가운용지침"},{"name":"재정운용전략협의회 운영규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/재정운용전략협의회운영규정"},{"name":"주택도시기금 위원회 운영규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/주택도시기금위원회운영규정"},{"name":"총사업비 관리지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/총사업비관리지침"},{"name":"군인복지·연금기금 운용심의회 예규","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/군인복지·연금기금운용심의회예규"},{"name":"복권기금 자산운용지침","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/복권기금자산운용지침"},{"name":"자동차사고 피해지원기금 운용심의회 운영규정","kind":"예규","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/자동차사고피해지원기금운용심의회운영규정"},{"name":"대외경제협력기금 자산운용지침","kind":"지침","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/대외경제협력기금자산운용지침"},{"name":"재정지출 수반 중·장기계획 협의 지침","kind":"지침","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/재정지출수반중·장기계획협의지침"},{"name":"예산성과금 운영 및 심사위원회 운영세칙","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/예산성과금운영및심사위원회운영세칙"},{"name":"교육부 총사업비 관리규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/교육부총사업비관리규정"},{"name":"국토교통부 총사업비 조정 지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/국토교통부총사업비조정지침"},{"name":"디지털예산회계시스템 운영 지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/디지털예산회계시스템운영지침"},{"name":"예비타당성조사 수행 총괄지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/예비타당성조사수행총괄지침"},{"name":"예비타당성조사 운용지침","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/예비타당성조사운용지침"},{"name":"해양수산부 투자심사 및 총사업비 관리규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/해양수산부투자심사및총사업비관리규정"},{"name":"행정중심복합도시건설청 총사업비 비관리대상 사업 관리규정","kind":"훈령","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/행정중심복합도시건설청총사업비비관리대상사업관리규정"},{"name":"재정운용전략위원회 운영규정","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/재정운용전략위원회운영규정"},{"name":"예산성과금심사위원회운영세칙","kind":"행정규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/행정규칙/예산성과금심사위원회운영세칙"}],"kinds":[{"kind":"훈령","count":18},{"kind":"예규","count":3},{"kind":"지침","count":2},{"kind":"행정규칙","count":2}],"articleCount":0},{"tier":"ordinance","label":"자치법규","laws":[{"name":"자치법규","kind":"조례·규칙","articleCount":0,"officialUrl":"https://www.law.go.kr/LSW/ordinSc.do?menuId=3&query=%EA%B5%AD%EA%B0%80%EC%9E%AC%EC%A0%95%EB%B2%95"}],"kinds":[{"kind":"조례·규칙","count":1}],"articleCount":0}],"edgesByKind":{"decree":69,"rule":0,"adminRule":20,"ordinance":0,"cites":208}}}},"statusStyles":{"done":{"label":"선행","fill":"#effaf5","border":"#35a77d","ink":"#123d2e","sub":"#287a5c"},"current":{"label":"핵심","fill":"#087452","border":"#087452","ink":"#ffffff","sub":"#d8f4e8"},"waiting":{"label":"후속","fill":"#ffffff","border":"#b9c7bf","ink":"#17231d","sub":"#627169"},"risk":{"label":"병목","fill":"#fff8e8","border":"#d9901a","ink":"#7a4305","sub":"#a96008"},"loop":{"label":"회귀","fill":"#edf4ff","border":"#3478db","ink":"#173f7a","sub":"#316bbd"}},"basisLegend":[{"label":"법률","fill":"#ffffff","border":"#3b4a43"},{"label":"시행령","fill":"#f2f6ff","border":"#2456d6"},{"label":"시행규칙","fill":"#effaf6","border":"#0f9f72"},{"label":"행정규칙","fill":"#f6f2ff","border":"#7c56c9"}],"isLawIndex":false}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:I[6196,[],"IconMark"]
+7:null
+c:[["$","title","0",{"children":"조세특례 · 조세특례제한법 업무흐름도 | 법령정보 시연판"}],["$","meta","1",{"name":"robots","content":"noindex, nofollow"}],["$","link","2",{"rel":"icon","href":"/lawdemo/flow/favicon.ico?603d046c9a6fdfbb","type":"image/x-icon","sizes":"16x16"}],["$","$L11","3",{}]]
